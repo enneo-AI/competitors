@@ -43,13 +43,18 @@ for p in sorted(KARTEN.glob("*.md")):
     karten.append(meta)
 
 # Ein Dokument für LLMs: alle Karten am Stück
+SITE.mkdir(exist_ok=True)
+A = ROOT / "werkzeuge" / "assets"
+(SITE / "fonts").mkdir(exist_ok=True)
+for f in A.glob("*.ttf"): shutil.copy(f, SITE / "fonts" / f.name)
+shutil.copy(A / "enneo-logo.svg", SITE / "enneo-logo.svg")
 (SITE / "alle-karten.md").write_text("\n\n".join(p.read_text() for p in sorted(KARTEN.glob("*.md"))))
 shutil.copytree(KARTEN, SITE / "karten", dirs_exist_ok=True)
 shutil.copytree(ROOT / "pdf", SITE / "pdf", dirs_exist_ok=True)
 
 # PDF je Karte aus der Markdown-Karte bauen, wenn keine handgesetzte PDF hinterlegt ist
 import subprocess, os
-CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME = os.environ.get("CHROME", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 DRUCK = ROOT / "werkzeuge" / "_druck"; DRUCK.mkdir(exist_ok=True)
 def datum(iso): j, m, t = iso.split("-"); return f"{t}.{m}.{j}"
 for k in karten:
@@ -61,7 +66,7 @@ for k in karten:
     rest = "".join(x for x in teile if x not in (fazit, quellen, eck))
     links = " · ".join(f'<a href="{u}">{t}</a>' for u, t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>', quellen))
     doc = f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="../druck.css"></head><body>
-<div class="hd"><div class="l"><img src="../../site/enneo-logo.svg"><span class="sec">Intern · Vertrieb</span></div>
+<div class="hd"><div class="l"><img src="../assets/enneo-logo.svg"><span class="sec">Intern · Vertrieb</span></div>
 <div class="r"><b>Vergleich · enneo vs. {k['name']}</b>Stand {datum(k['stand'])} · nur intern</div></div>
 <h1>enneo vs. <em>{k['name']}</em></h1><p class="lede">{k['kurz']}</p>
 <div class="eck">{eck.replace('<h2>Eckdaten</h2>','')}</div>

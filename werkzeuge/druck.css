@@ -1,5 +1,5 @@
-@font-face { font-family: "Geist"; src: url("../../site/fonts/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
-@font-face { font-family: "Geist Mono"; src: url("../../site/fonts/GeistMono-VariableFont_wght.ttf"); font-weight: 100 900; }
+@font-face { font-family: "Geist"; src: url("../assets/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
+@font-face { font-family: "Geist Mono"; src: url("../assets/GeistMono-VariableFont_wght.ttf"); font-weight: 100 900; }
 @page { size: A4; margin: 15mm 18mm 16mm; }
 * { box-sizing: border-box; }
 body { margin: 0; font: 400 8.7pt/1.5 "Geist", sans-serif; color: #292C3F; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
