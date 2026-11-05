@@ -8,7 +8,6 @@ stand: "2026-10-27"
 geprueft_von: "Aleksa Spalevic"
 website: "https://www.thinkowl.de"
 kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
-pdf_intern: "enneo-vs-thinkowl.pdf"
 ---
 
 ## Eckdaten

@@ -8,7 +8,6 @@ stand: "2026-10-28"
 geprueft_von: "Aleksa Spalevic"
 website: "https://www.zendesk.de"
 kurz: "Breite Helpdesk-Suite aus den USA, KI je gelöstem Fall abgerechnet"
-pdf_intern: "enneo-vs-zendesk.pdf"
 ---
 
 ## Eckdaten

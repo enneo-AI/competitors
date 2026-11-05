@@ -8,7 +8,6 @@ stand: "2026-11-04"
 geprueft_von: "Aleksa Spalevic"
 website: "https://www.vier.ai"
 kurz: "Contact-Center-Plattform aus Hannover, KI als Zusatzmodule"
-pdf_intern: "enneo-vs-vier.pdf"
 pdf_partner: "enneo-vs-vier-vertrieb.pdf"
 ---
 
