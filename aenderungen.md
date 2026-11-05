@@ -4,6 +4,11 @@ Neuester Lauf oben.
 
 ## 2026-11-05
 
+- Wonderful neu, angefragt über die Galerie
+- botario neu, angefragt über die Galerie
+- Spitch neu, angefragt über die Galerie
+- Wilken neu, angefragt über die Galerie
+- Aircall neu, angefragt über die Galerie
 - PolyAI neu, angefragt über die Galerie
 - Qualimero neu, angefragt über die Galerie
 - SemanticEdge neu, angefragt über die Galerie
