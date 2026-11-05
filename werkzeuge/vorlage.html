@@ -191,7 +191,12 @@ a.tz:hover + a.tz { box-shadow: none; }
 .hinweis { font-size: 13px; color: var(--text-3); margin-top: 8px; text-align: right; }
 :focus-visible { outline: 2px solid var(--lila); outline-offset: 2px; }
 
-.reiter { display: flex; gap: 2px; padding: 4px; border-radius: 12px; width: max-content; max-width: 100%; overflow-x: auto; margin-bottom: 12px; scrollbar-width: none; }
+.reiter-zeile { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.reiter { display: flex; gap: 2px; padding: 4px; border-radius: 12px; width: max-content; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+.intern-knopf { display: inline-flex; align-items: center; gap: 8px; height: 43px; padding: 0 16px; border-radius: 12px; font-size: 14px; font-weight: 500; color: var(--text-2); cursor: pointer; }
+.intern-knopf svg { height: 15px; width: auto; flex: none; }
+.intern-knopf:hover { color: var(--text); }
+.intern-knopf[aria-pressed="true"] { background: var(--aktiv); color: var(--text); box-shadow: 0 1px 3px rgba(23,24,42,.08); }
 .reiter button { border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font-size: 14px; font-weight: 500; color: var(--text-2); cursor: pointer; white-space: nowrap; }
 .reiter button:hover { color: var(--text); }
 .reiter button[aria-selected="true"] { background: var(--aktiv); color: var(--text); box-shadow: 0 1px 3px rgba(23,24,42,.08); }
@@ -448,8 +453,12 @@ function abschnitte(k) {
   ].filter(([, h]) => h.trim()).map(([t, h]) => [t, h.replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, "</table></div>")]);
 }
 
+const ATTIO = `/*ATTIO*/`;
 function detail(k, reiter = 0) {
-  const tabs = abschnitte(k);
+  const alle = abschnitte(k);
+  const tabs = alle.filter(([t]) => t !== "Intern"), intern = alle.find(([t]) => t === "Intern");
+  if (reiter === "intern" && !intern) reiter = 0;
+  const inhalt = reiter === "intern" ? intern[1] : tabs[reiter][1];
   app.innerHTML = `
     <div class="eng"><a class="zurueck" href="#">${zurueckPfeil} Alle Anbieter</a>
     <section class="dkopf">
@@ -464,9 +473,13 @@ function detail(k, reiter = 0) {
         ${k.pdf_intern ? `<button class="knopf haupt" data-pdf="${k.pdf_intern}">${runter} PDF</button>` : ""}
       </div>
     </section>
-    <div class="reiter glas" role="tablist">${tabs.map(([t], i) => `<button role="tab" aria-selected="${i === reiter}" data-i="${i}">${t}</button>`).join("")}</div>
-    <article class="blatt glas" role="tabpanel">${tabs[reiter][1]}</article></div>`;
+    <div class="reiter-zeile">
+      <div class="reiter glas" role="tablist">${tabs.map(([t], i) => `<button role="tab" aria-selected="${i === reiter}" data-i="${i}">${t}</button>`).join("")}</div>
+      ${intern ? `<button class="intern-knopf glas" aria-pressed="${reiter === "intern"}" title="Interne Erkenntnisse aus Attio">${ATTIO}Intern</button>` : ""}
+    </div>
+    <article class="blatt glas" role="tabpanel">${inhalt}</article></div>`;
   app.querySelectorAll(".reiter button").forEach(b => b.onclick = () => detail(k, +b.dataset.i));
+  const ik = app.querySelector(".intern-knopf"); if (ik) ik.onclick = () => detail(k, "intern");
   app.querySelectorAll("[data-pdf]").forEach(b => {
     if (!speichern) { b.hidden = true; return; }
     b.onclick = () => pdfSpeichern(b);
