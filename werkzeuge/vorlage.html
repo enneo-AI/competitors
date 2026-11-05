@@ -1,44 +1,67 @@
-<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>enneo Wettbewerb</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
 <style>
-@font-face { font-family: "Geist"; src: url("fonts/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
+/* Layout: eine ruhige Spalte, Glasflächen über weichem enneo-Licht */
 :root {
-  --bg: #F4F2F7; --text: #17182A; --text-2: #5B5C6D; --text-3: #9A9AA7;
+  --bg: #F4F2F7; --text: #17182A; --text-2: #5B5C6D; --text-3: #8E8E9C;
   --lila: #7B5AE2; --lila-d: #5A37D6; --lila-weich: #ECE6FC;
-  --glas: rgba(255,255,255,.58); --glas-rand: rgba(255,255,255,.9);
-  --linie: rgba(23,24,42,.08); --hover: rgba(255,255,255,.7);
+  --glas: rgba(255,255,255,.58); --glas-rand: rgba(255,255,255,.9); --glas-licht: rgba(255,255,255,.6); --glas-schatten: rgba(60,40,140,.35);
+  --linie: rgba(23,24,42,.08); --hover: rgba(255,255,255,.7); --feld: rgba(23,24,42,.045); --aktiv: #FFFFFF;
+  --haupt-bg: #17182A; --haupt-hover: #2C2E45; --haupt-fg: #FFFFFF;
+  --warn-fg: #B4561E; --warn-bg: #FBEBDD; --neutral-bg: rgba(23,24,42,.06);
   --s-voll: #7B5AE2; --s-hell: #CBBDF6; --s-grau: rgba(23,24,42,.13); --s-wett: #17182A;
+  --licht-1: #BCA9F5; --licht-2: #D2E1F8; --licht-3: #E2D8FB; --licht-op: .7;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
+  --lila: #9479F0; --lila-d: #B9A7FA; --lila-weich: rgba(148,121,240,.18);
+  --glas: rgba(255,255,255,.055); --glas-rand: rgba(255,255,255,.12); --glas-licht: rgba(255,255,255,.08); --glas-schatten: rgba(0,0,0,.55);
+  --linie: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --feld: rgba(255,255,255,.06); --aktiv: rgba(255,255,255,.12);
+  --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
+  --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
+  --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
+  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
+  --lila: #9479F0; --lila-d: #B9A7FA; --lila-weich: rgba(148,121,240,.18);
+  --glas: rgba(255,255,255,.055); --glas-rand: rgba(255,255,255,.12); --glas-licht: rgba(255,255,255,.08); --glas-schatten: rgba(0,0,0,.55);
+  --linie: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --feld: rgba(255,255,255,.06); --aktiv: rgba(255,255,255,.12);
+  --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
+  --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
+  --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
+  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { background: var(--bg); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
 body { margin: 0; color: var(--text); font: 400 15px/1.55 "Geist", system-ui, sans-serif;
   font-feature-settings: "ss01", "tnum"; -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; }
 
 .licht { position: fixed; inset: 0; pointer-events: none; overflow: hidden; }
-.licht i { position: absolute; border-radius: 50%; filter: blur(100px); opacity: .7; }
-.licht i:nth-child(1) { width: 55vw; height: 50vw; left: -18vw; top: -22vw; background: #BCA9F5; }
-.licht i:nth-child(2) { width: 42vw; height: 38vw; right: -14vw; top: 18vh; background: #D2E1F8; }
-.licht i:nth-child(3) { width: 50vw; height: 30vw; left: 25vw; bottom: -20vw; background: #E2D8FB; }
+.licht i { position: absolute; border-radius: 50%; filter: blur(100px); opacity: var(--licht-op); }
+.licht i:nth-child(1) { width: 55vw; height: 50vw; left: -18vw; top: -22vw; background: var(--licht-1); }
+.licht i:nth-child(2) { width: 42vw; height: 38vw; right: -14vw; top: 18vh; background: var(--licht-2); }
+.licht i:nth-child(3) { width: 50vw; height: 30vw; left: 25vw; bottom: -20vw; background: var(--licht-3); }
 
 .glas { background: var(--glas); border: 1px solid var(--glas-rand);
   -webkit-backdrop-filter: blur(24px) saturate(150%); backdrop-filter: blur(24px) saturate(150%);
-  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset, 0 30px 60px -40px rgba(60,40,140,.35); }
+  box-shadow: 0 1px 0 var(--glas-licht) inset, 0 30px 60px -40px var(--glas-schatten); }
 
-.seite { position: relative; max-width: 880px; margin: 0 auto; padding: 0 24px 96px; }
+.seite { position: relative; max-width: 928px; margin: 0 auto; padding-block: 0 96px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
 
 /* Leiste: Logo links, Suche rechts. Mehr nicht. */
-.leiste { position: sticky; top: 12px; z-index: 5; display: flex; align-items: center; gap: 16px;
+.leiste { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); z-index: 5; display: flex; align-items: center; gap: 16px;
   height: 52px; margin-top: 12px; padding: 0 8px 0 18px; border-radius: 16px; }
 .leiste img { height: 17px; display: block; }
+.leiste svg.logo { height: 18px; width: auto; display: block; color: var(--text); }
 .suche { margin-left: auto; display: flex; align-items: center; gap: 8px; width: 260px; height: 36px; padding: 0 12px;
-  border-radius: 10px; background: rgba(23,24,42,.045); color: var(--text-3); transition: background .15s; }
-.suche:focus-within { background: #fff; box-shadow: 0 0 0 1px var(--lila-weich); }
+  border-radius: 10px; background: var(--feld); color: var(--text-3); transition: background .15s; }
+.suche:focus-within { background: var(--aktiv); box-shadow: 0 0 0 1px var(--lila-weich); }
 .suche input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: 14px; color: var(--text); }
 .suche input::placeholder { color: var(--text-3); }
 .suche kbd { font: 500 11px "Geist", sans-serif; color: var(--text-3); border: 1px solid var(--linie); border-radius: 5px; padding: 1px 5px; }
@@ -56,8 +79,8 @@ button { font: inherit; color: inherit; }
 .zeile:hover + .zeile { box-shadow: none; }
 .zeile h2 { margin: 0 0 3px; font-size: 21px; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center; gap: 10px; }
 .zeile p { margin: 0; color: var(--text-2); font-size: 14.5px; text-wrap: pretty; }
-.marke.entwurf { color: var(--text-2); background: rgba(23,24,42,.06); }
-.marke { font-size: 11.5px; font-weight: 500; letter-spacing: 0; color: #B4561E; background: #FBEBDD; padding: 2px 7px; border-radius: 6px; }
+.marke.entwurf { color: var(--text-2); background: var(--neutral-bg); }
+.marke { font-size: 11.5px; font-weight: 500; letter-spacing: 0; color: var(--warn-fg); background: var(--warn-bg); padding: 2px 7px; border-radius: 6px; }
 .leer { padding: 28px 22px; color: var(--text-3); }
 
 /* Einordnung: ein Block je verglichenem Thema */
@@ -83,14 +106,18 @@ button { font: inherit; color: inherit; }
 .aktionen { display: flex; gap: 8px; }
 .knopf { display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 14px; border-radius: 10px;
   font-size: 14px; font-weight: 500; background: var(--glas); border: 1px solid var(--glas-rand); transition: background .15s; }
-.knopf:hover { background: #fff; }
-.knopf.haupt { background: var(--text); border-color: var(--text); color: #fff; }
-.knopf.haupt:hover { background: #2C2E45; }
+.knopf:hover { background: var(--aktiv); }
+.knopf.haupt { background: var(--haupt-bg); border-color: var(--haupt-bg); color: var(--haupt-fg); }
+.knopf.haupt:hover { background: var(--haupt-hover); }
+.knopf { cursor: pointer; }
+.knopf:disabled { opacity: .6; cursor: default; }
+.hinweis { font-size: 13px; color: var(--text-3); margin-top: 8px; text-align: right; }
+:focus-visible { outline: 2px solid var(--lila); outline-offset: 2px; }
 
 .reiter { display: flex; gap: 2px; padding: 4px; border-radius: 12px; width: max-content; max-width: 100%; overflow-x: auto; margin-bottom: 12px; scrollbar-width: none; }
 .reiter button { border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font-size: 14px; font-weight: 500; color: var(--text-2); cursor: pointer; white-space: nowrap; }
 .reiter button:hover { color: var(--text); }
-.reiter button[aria-selected="true"] { background: #fff; color: var(--text); box-shadow: 0 1px 3px rgba(23,24,42,.08); }
+.reiter button[aria-selected="true"] { background: var(--aktiv); color: var(--text); box-shadow: 0 1px 3px rgba(23,24,42,.08); }
 
 .blatt { border-radius: 20px; padding: 36px 40px 40px; }
 .blatt h2 { margin: 36px 0 12px; font-size: 17px; font-weight: 600; letter-spacing: -0.015em; }
@@ -118,18 +145,18 @@ button { font: inherit; color: inherit; }
 .eck td:nth-child(2) strong { font-weight: 500; }
 
 .pill { display: inline-block; white-space: nowrap; font-size: 12px; font-weight: 500; padding: 3px 9px; border-radius: 7px; }
-.pill.p-voll { background: var(--lila); color: #fff; }
+.pill.p-voll { background: var(--s-voll); color: #FFFFFF; }
 .pill.p-hell { background: var(--lila-weich); color: var(--lila-d); }
-.pill.p-grau, .pill.p-offen { background: rgba(23,24,42,.06); color: var(--text-2); }
-.pill.p-rand { background: rgba(23,24,42,.1); color: var(--text); }
-.pill.p-dunkel { background: var(--text); color: #fff; }
+.pill.p-grau, .pill.p-offen { background: var(--neutral-bg); color: var(--text-2); }
+.pill.p-rand { background: var(--neutral-bg); color: var(--text); box-shadow: inset 0 0 0 1px var(--linie); }
+.pill.p-dunkel { background: var(--haupt-bg); color: var(--haupt-fg); }
 
 .quellen { display: flex; flex-wrap: wrap; gap: 8px; }
-.quellen a { padding: 6px 11px; border-radius: 9px; background: rgba(23,24,42,.045); color: var(--text-2); font-size: 13.5px; }
-.quellen a:hover { background: #fff; color: var(--lila-d); }
+.quellen a { padding: 6px 11px; border-radius: 9px; background: var(--feld); color: var(--text-2); font-size: 13.5px; }
+.quellen a:hover { background: var(--aktiv); color: var(--lila-d); }
 
 @media (max-width: 720px) {
-  .seite { padding: 0 16px 72px; }
+  .seite { padding-block: 0 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .suche { width: auto; flex: 1; }
   .suche kbd { display: none; }
   .kopf { padding-top: 56px; }
@@ -139,13 +166,12 @@ button { font: inherit; color: inherit; }
   .reiter { width: 100%; }
   .reiter button { flex: 1; padding: 7px 4px; font-size: 13.5px; }
 }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
-</head>
-<body>
 <div class="licht" aria-hidden="true"><i></i><i></i><i></i></div>
 <div class="seite">
   <header class="leiste glas">
-    <a href="#"><img src="enneo-logo.svg" alt="enneo"></a>
+    <a href="#">/*LOGO*/</a>
     <label class="suche">
       <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.6"/><path d="m10.5 10.5 3.5 3.5"/></svg>
       <input id="suche" type="search" placeholder="Suchen" aria-label="Anbieter oder Thema suchen">
@@ -157,6 +183,20 @@ button { font: inherit; color: inherit; }
 
 <script>
 const KARTEN = /*DATEN*/[];
+// PDFs liegen neben der Seite und werden über den Download-Dialog des Viewers gespeichert
+let speichern = null;
+const bereit = window.claude && window.claude.use ? window.claude.use("downloads").then(d => { speichern = d; route(); }).catch(() => {}) : null;
+async function pdfSpeichern(b) {
+  const name = b.dataset.pdf, text = b.innerHTML;
+  b.disabled = true;
+  try {
+    const r = await fetch("pdf/" + name);
+    if (!r.ok) throw new Error("fehlt");
+    await speichern.save({ filename: name, data: await r.blob() });
+  } catch (e) {
+    if (e && e.code && e.code !== "declined") b.insertAdjacentHTML("afterend", `<div class="hinweis">Download gerade nicht möglich.</div>`);
+  } finally { b.disabled = false; b.innerHTML = text; }
+}
 let suche = "";
 const app = document.getElementById("app");
 const feld = document.getElementById("suche");
@@ -220,13 +260,17 @@ function detail(k, reiter = 0) {
         <div class="info">${entwurf(k) ? `Entwurf vom ${datum(k.stand)}, noch nicht gegengelesen` : `Geprüft ${datum(k.stand)}`} · <a href="${k.website}" target="_blank" rel="noopener">${k.website.replace(/^https?:\/\/(www\.)?/, "")}</a></div>
       </div>
       <div class="aktionen">
-        ${k.pdf_partner ? `<a class="knopf" href="pdf/${k.pdf_partner}" download>${runter} Für Partner</a>` : ""}
-        <a class="knopf haupt" href="pdf/${k.pdf_intern}" download>${runter} PDF</a>
+        ${k.pdf_partner ? `<button class="knopf" data-pdf="${k.pdf_partner}">${runter} Für Partner</button>` : ""}
+        <button class="knopf haupt" data-pdf="${k.pdf_intern}">${runter} PDF</button>
       </div>
     </section>
     <div class="reiter glas" role="tablist">${tabs.map(([t], i) => `<button role="tab" aria-selected="${i === reiter}" data-i="${i}">${t}</button>`).join("")}</div>
     <article class="blatt glas" role="tabpanel">${tabs[reiter][1]}</article>`;
   app.querySelectorAll(".reiter button").forEach(b => b.onclick = () => detail(k, +b.dataset.i));
+  app.querySelectorAll("[data-pdf]").forEach(b => {
+    if (!speichern) { b.hidden = true; return; }
+    b.onclick = () => pdfSpeichern(b);
+  });
 }
 
 feld.oninput = e => { suche = e.target.value; if (location.hash) location.hash = ""; else uebersicht(); };
@@ -242,5 +286,3 @@ function route() {
 window.onhashchange = route;
 route();
 </script>
-</body>
-</html>

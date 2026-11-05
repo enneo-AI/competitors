@@ -1,6 +1,6 @@
 # enneo Wettbewerb · Battle Cards (Prototyp)
 
-Stand 05.11.2026. 18 Karten (VIER, Zendesk, ThinkOwl geprüft, 15 weitere als Entwurf „Enni, noch nicht gegengelesen“). Noch nicht gehostet, noch keine Automatisierung.
+Stand 05.11.2026. 18 Karten (VIER, Zendesk, ThinkOwl geprüft, 15 weitere als Entwurf „Enni, noch nicht gegengelesen“). Veröffentlicht als claude.ai-Artifact https://claude.ai/artifact/NnZrCd7xu6GVPWmwXEjQeS (für alle mit enneo-Claude-Konto freigeben). Noch keine Automatisierung.
 
 ## Aufbau
 
@@ -36,7 +36,7 @@ Kategorien: `Direkter Wettbewerber`, `Angrenzender Anbieter`, `Möglicher Partne
 
 ## Was noch fehlt (Plan)
 
-- **Ort mit Login:** Battle Cards sind intern. Hosting mit enneo-Anmeldung, mit der Technik klären.
+- **Veröffentlichen:** `build.py` erzeugt `site/artifact.html` (Seite ohne Dokumentrahmen, so wie Artifacts sie erwarten) und `site/index.html` zum lokalen Ansehen. Fürs Artifact `artifact.html`, `pdf/`, `karten/` und `alle-karten.md` hochladen, PDFs laufen über die Download-Funktion des Artifacts.
 - **Wöchentlicher Lauf:** Ein geplanter Agent prüft Release Notes, News und Preisseiten der direkten Wettbewerber, ändert die betroffene Karte, setzt das Stand-Datum und baut das PDF neu. Funde laufen als Änderungsvorschlag und werden vor der Veröffentlichung freigegeben.
 - **PDFs:** `build.py` erzeugt für jede Karte ohne `pdf_intern` im Kopf ein PDF im enneo-Stil (Chrome headless, `werkzeuge/druck.css`). VIER, Zendesk, ThinkOwl haben noch die handgesetzten PDFs aus `../wettbewerb/`.
 - **Neue Karte:** Auftrag `werkzeuge/auftrag-karte.md`, enneo-Aussagen nur aus `werkzeuge/enneo-fakten.md`. Nach dem Gegenlesen `geprueft_von` auf den Namen setzen, dann verschwindet „Entwurf“.

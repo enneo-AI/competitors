@@ -85,5 +85,10 @@ for k in karten:
 shutil.copytree(ROOT / "pdf", SITE / "pdf", dirs_exist_ok=True)
 
 tpl = (ROOT / "werkzeuge" / "vorlage.html").read_text()
-(SITE / "index.html").write_text(tpl.replace("/*DATEN*/[]", json.dumps(karten, ensure_ascii=False)))
+logo = (A / "enneo-logo.svg").read_text()
+logo = re.sub(r"<\?xml[^>]*>\s*", "", logo).replace(".st2{fill:#292C3F}", ".st2{fill:currentColor}")
+logo = logo.replace('<svg id="Layer_1"', '<svg class="logo" role="img" aria-label="enneo"', 1)
+fragment = tpl.replace("/*LOGO*/", logo).replace("/*DATEN*/[]", json.dumps(karten, ensure_ascii=False).replace("</", "<\\/"))
+(SITE / "artifact.html").write_text(fragment)
+(SITE / "index.html").write_text('<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body>' + fragment + "</body></html>")
 print(f"{len(karten)} Karten gebaut -> {SITE/'index.html'}")
