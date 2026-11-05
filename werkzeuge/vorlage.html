@@ -83,6 +83,48 @@ button { font: inherit; color: inherit; }
 .fehler-text button { margin-left: auto; border: 0; background: none; color: var(--text-3); cursor: pointer; padding: 4px; border-radius: 6px; }
 .fehler-text button:hover { color: var(--text); background: var(--feld); }
 @keyframes puls { 50% { opacity: .35; } }
+.liste-knopf { display: inline-flex; align-items: center; gap: 7px; margin: 12px 2px 0; font-size: 13px; color: var(--text-2); cursor: pointer; }
+.liste-knopf:hover { color: var(--lila-d); }
+.liste-vorschau { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: var(--feld); font-size: 13px; color: var(--text-2); flex-wrap: wrap; }
+.liste-vorschau b { color: var(--text); }
+.liste-vorschau select { font: inherit; font-size: 13px; color: var(--text); background: var(--aktiv); border: 1px solid var(--linie); border-radius: 7px; padding: 2px 6px; max-width: 160px; }
+.liste-vorschau button { height: 32px !important; }
+.liste-zahlen { grid-column: 3 / -1; font-size: 13.5px; color: var(--text-2); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.liste-zahlen b { color: var(--text); font-weight: 600; }
+button.tz.liste-bereit { width: 100%; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; transition: background .15s; }
+button.tz.liste-bereit:hover { background: var(--hover); }
+.status-chip.bereit { background: var(--s-voll); color: #FFFFFF; }
+.dialog-hg { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); background: rgba(23,24,42,.18); }
+.dialog { width: min(720px, 100%); max-height: min(820px, 100%); display: flex; flex-direction: column; border-radius: 20px; background: var(--panel); overflow: hidden; }
+.dialog-kopf { display: flex; align-items: center; gap: 12px; padding: 20px 20px 4px 24px; }
+.dialog-kopf h2 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; }
+.aw-kategorien { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 14px 24px; }
+.aw-kat { display: flex; align-items: flex-start; gap: 10px; text-align: left; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--linie); background: var(--glas); cursor: pointer; }
+.aw-kat b { display: block; font-size: 14px; font-weight: 600; }
+.aw-kat small { display: block; font-size: 12.5px; color: var(--text-3); margin-top: 1px; }
+.aw-kat em { margin-left: auto; font-style: normal; font-weight: 600; font-size: 14px; color: var(--text-2); }
+.aw-kat[aria-pressed="true"] { border-color: var(--lila); background: var(--lila-weich); }
+.aw-kat[aria-pressed="true"] em { color: var(--lila-d); }
+.aw-haken { width: 16px; height: 16px; flex: none; margin-top: 2px; border-radius: 5px; border: 1.5px solid var(--s-grau); background: var(--aktiv); }
+.aw-kat[aria-pressed="true"] .aw-haken { border-color: var(--lila); background: var(--lila) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 8.5 2.5 2.5L12 5.5' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E") center / 12px no-repeat; }
+.aw-liste { flex: 1; overflow-y: auto; padding: 4px 24px 12px; border-top: 1px solid var(--linie); }
+.aw-gruppe summary { display: flex; align-items: center; gap: 8px; padding: 12px 0 8px; font-size: 13px; font-weight: 600; color: var(--text-2); cursor: pointer; list-style: none; }
+.aw-gruppe summary::-webkit-details-marker { display: none; }
+.aw-gruppe summary::before { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); transition: transform .15s; }
+.aw-gruppe[open] summary::before { transform: rotate(45deg); }
+.aw-gruppe summary span { font-weight: 500; color: var(--text-3); }
+.aw-firma { display: flex; align-items: center; gap: 12px; padding: 8px 4px; border-top: 1px solid var(--linie); cursor: pointer; }
+.aw-firma input { width: 16px; height: 16px; accent-color: var(--lila); flex: none; }
+.aw-firma.aus { cursor: default; opacity: .6; }
+.aw-text { min-width: 0; flex: 1; }
+.aw-text b { display: block; font-size: 14px; font-weight: 500; }
+.aw-text small { display: block; font-size: 12.5px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.aw-web { font-size: 12.5px; color: var(--text-3); white-space: nowrap; }
+.aw-tag { font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 6px; background: var(--neutral-bg); color: var(--text-2); white-space: nowrap; }
+a.aw-tag:hover { color: var(--lila-d); }
+.aw-dauer { margin-left: auto; align-self: center; font-size: 13px; color: var(--text-3); }
+.dialog-fuss { display: flex; justify-content: space-between; gap: 12px; padding: 14px 24px 20px; border-top: 1px solid var(--linie); }
+@media (max-width: 720px) { .aw-kategorien { grid-template-columns: 1fr; } .liste-zahlen { grid-column: 1 / -1; grid-row: 3; } }
 @media (prefers-reduced-motion: reduce) { .dreht, .laeuft-zeile .platzhalter, .schritte i.jetzt { animation: none; } }
 
 /* Übersicht */
@@ -260,7 +302,20 @@ a.tz:hover + a.tz { box-shadow: none; }
     <input id="neu-url" type="text" inputmode="url" autocapitalize="off" spellcheck="false" placeholder="Website des Anbieters" aria-label="Website des Anbieters" required>
     <button type="submit" id="neu-senden">Analysieren</button>
   </form>
+  <label class="liste-knopf"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 2.5h7l3 3v8H3z M10 2.5v3h3 M5.5 8.5h5 M5.5 11h5"/></svg>Liste hochladen (Excel oder CSV)<input id="neu-datei" type="file" accept=".xlsx,.xls,.csv" hidden></label>
+  <div class="liste-vorschau" id="liste-vorschau" hidden>
+    <span><b id="lv-anzahl"></b> Firmen aus Spalte <select id="lv-spalte" aria-label="Spalte mit den Firmennamen"></select></span>
+    <button type="button" id="lv-start">Einordnen</button>
+  </div>
   <p class="neu-meldung" id="neu-meldung" hidden></p>
+</div>
+<div class="dialog-hg" id="auswahl" hidden>
+  <div class="dialog glas" role="dialog" aria-modal="true" aria-labelledby="aw-titel">
+    <div class="dialog-kopf"><h2 id="aw-titel"></h2><button class="cp-zu" id="aw-zu" aria-label="Schließen"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div>
+    <div class="aw-kategorien" id="aw-kategorien"></div>
+    <div class="aw-liste" id="aw-liste"></div>
+    <div class="dialog-fuss"><button class="knopf" id="aw-excel" type="button"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2.5v8m-3.5-3.5L8 10.5 11.5 7M3 13.5h10"/></svg> Excel</button><span class="aw-dauer" id="aw-dauer"></span><button class="knopf haupt" id="aw-ok" type="button"></button></div>
+  </div>
 </div>
 <aside class="copilot glas" id="copilot" hidden aria-label="Co-Pilot">
   <div class="cp-kopf"><b>Co-Pilot</b><span class="chip" id="cp-kontext"></span>
@@ -332,7 +387,7 @@ function uebersicht() {
     </div>
     <div class="tabelle glas">
       <div class="tz tkopf">${spalte("name", "Anbieter")}${spalte("fokus", "Schwerpunkt")}${spalte("firma", "Sitz")}${spalte("hosting", "Hosting")}${spalte("preis", "Preise")}${spalte("einordnung", "Einordnung")}</div>
-      ${anfrageZeilen()}
+      ${listenZeilen()}${anfrageZeilen()}
       ${treffer.map(k => `
       <a class="tz" href="#${k.slug}">
         <div class="name">${markeLogo(k)}<span>${k.name}</span></div>
@@ -535,6 +590,8 @@ const domainVon = url => { try { const u = new URL(/^https?:\/\//i.test(url) ? u
 const vorhanden = d => KARTEN.find(k => k.website && (domainVon(k.website) === d || domainVon(k.website).endsWith("." + d) || d.endsWith("." + domainVon(k.website))));
 const SCHRITTE = ["Recherche", "Karte wird geschrieben", "PDF und Logo", "Wird veröffentlicht"];
 const ICON = {
+  liste: `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#5B5C6D" stroke-width="1.5"><path d="M3 2.5h7l3 3v8H3z M10 2.5v3h3 M5.5 8.5h5 M5.5 11h5"/></svg>`,
+  bereit: `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m3.5 8.5 3 3 6-7"/></svg>`,
   wartet: `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.8V8l2.2 1.4"/></svg>`,
   laeuft: `<svg class="dreht" width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2a6 6 0 1 1-6 6" stroke-linecap="round"/></svg>`,
   fehlt: `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.8v3.6M8 11h.01" stroke-linecap="round"/></svg>`,
@@ -568,6 +625,7 @@ async function neuBereit(user) {
     anfragen = s.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (a.erstellt || 0) - (b.erstellt || 0));
     if (!location.hash) uebersicht();
   }, () => {});
+  listenAbo();
   if (user && user.can && user.can("data.write") === false) return;
   cp("neu-knopf").hidden = false;
 }
@@ -594,6 +652,183 @@ document.addEventListener("click", e => {
   if (weg && db) { e.preventDefault(); db.doc("anfragen/" + weg.dataset.weg).delete().catch(() => {}); return; }
   if (!cp("neu-feld").hidden && !e.target.closest("#neu-feld, #neu-knopf")) neuOeffnen(false);
 });
+// ---------- Listen: Excel/CSV hochladen, Claude Code ordnet ein, die Person wählt aus, was recherchiert wird ----------
+let listen = [], listeEntwurf = null, offeneListe = null, auswahlKat = new Set(["wettbewerber"]), auswahlAus = new Set(), auswahlAn = new Set();
+const KAT = [
+  { id: "wettbewerber", name: "Direkter Wettbewerber", text: "Automatisiert Kundenservice mit KI, wie enneo" },
+  { id: "angrenzend", name: "Angrenzender Anbieter", text: "Contact Center, Helpdesk, CRM oder Telefonie mit KI" },
+  { id: "partner", name: "Möglicher Partner", text: "BPO, Systemintegrator, Beratung" },
+  { id: "kein", name: "Kein Anbieter", text: "Kunden, Interessenten, Sonstige" },
+];
+let xlsxLaden = null;
+const sheetjs = () => xlsxLaden || (xlsxLaden = new Promise((ok, nein) => {
+  if (window.XLSX) return ok(window.XLSX);
+  const s = document.createElement("script");
+  s.src = "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js";
+  s.onload = () => ok(window.XLSX); s.onerror = () => { xlsxLaden = null; nein(new Error("laden")); };
+  document.head.appendChild(s);
+}));
+const listeId = name => (name.toLowerCase().replace(/\.[a-z]+$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "liste") + "-" + Date.now().toString(36);
+
+function eintraegeAus(zeilen, spalte, webSpalte) {
+  const map = new Map();
+  for (const z of zeilen.slice(1)) {
+    const f = String(z[spalte] ?? "").trim();
+    if (!f || f.length > 120) continue;
+    const key = f.toLowerCase(), w = webSpalte >= 0 ? String(z[webSpalte] ?? "").trim() : "";
+    const e = map.get(key) || { f, w: "", n: 0 };
+    e.n++; if (!e.w && domainVon(w)) e.w = w;
+    map.set(key, e);
+  }
+  return [...map.values()].sort((a, b) => b.n - a.n || a.f.localeCompare(b.f, "de"));
+}
+function listeVorschau() {
+  const e = listeEntwurf, v = cp("liste-vorschau");
+  if (!e) { v.hidden = true; return; }
+  e.eintraege = eintraegeAus(e.zeilen, e.spalte, e.web);
+  v.hidden = false;
+  cp("lv-anzahl").textContent = e.eintraege.length.toLocaleString("de-DE");
+  cp("lv-spalte").innerHTML = e.kopf.map((k, i) => `<option value="${i}" ${i === e.spalte ? "selected" : ""}>${esc(k || "Spalte " + (i + 1))}</option>`).join("");
+  cp("lv-start").disabled = !e.eintraege.length;
+}
+cp("neu-datei").onchange = async ev => {
+  const datei = ev.target.files[0]; ev.target.value = "";
+  if (!datei) return;
+  neuMeldung("Liste wird gelesen …"); listeEntwurf = null; listeVorschau();
+  try {
+    const X = await sheetjs();
+    const wb = X.read(await datei.arrayBuffer(), { type: "array" });
+    const zeilen = X.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1, defval: "", raw: false })
+      .filter(z => z.some(c => String(c).trim()));
+    if (zeilen.length < 2) return neuMeldung("In der Datei stehen keine Zeilen.");
+    const kopf = zeilen[0].map(c => String(c).trim());
+    const finde = (re, nicht) => kopf.findIndex(k => re.test(k) && !(nicht && nicht.test(k)));
+    let spalte = finde(/firma|unternehmen|company|organi[sz]ation|account|anbieter|kunde/i);
+    if (spalte < 0) spalte = finde(/name/i, /vor|nach|first|last|user/i);
+    if (spalte < 0) spalte = 0;
+    listeEntwurf = { name: datei.name.replace(/\.[^.]+$/, ""), zeilen, kopf, spalte, web: finde(/web|url|domain|homepage|site/i) };
+    neuMeldung(""); listeVorschau();
+  } catch (err) { neuMeldung("Die Datei ließ sich nicht lesen. Excel (.xlsx) oder CSV verwenden."); }
+};
+cp("lv-spalte").onchange = e => { listeEntwurf.spalte = +e.target.value; listeVorschau(); };
+cp("lv-start").onclick = async () => {
+  const e = listeEntwurf; if (!e || !db) return;
+  const b = cp("lv-start"); b.disabled = true;
+  try {
+    let von = null; try { const u = await claude.use("user"); von = u ? await u.id() : null; } catch (err) {}
+    await db.doc("listen/" + listeId(e.name)).set({ name: e.name, status: "einordnen", erstellt: Date.now(), von, eintraege: e.eintraege.slice(0, 2000) });
+    listeEntwurf = null; listeVorschau(); neuOeffnen(false);
+  } catch (err) { neuMeldung("Hat nicht geklappt. Versuch es noch einmal."); b.disabled = false; }
+};
+
+function listenZeilen() {
+  if (fokus !== "Alle" || nurNah || suche) return "";
+  return listen.map(l => {
+    const anzahl = (l.eintraege || []).length.toLocaleString("de-DE");
+    const name = `<div class="name"><span class="marke-logo">${ICON.liste}</span><span>${esc(l.name || "Liste")}</span></div>`;
+    if (l.status === "auswahl") {
+      const z = id => (l.eintraege || []).filter(e => e.k === id).length;
+      return `<button type="button" class="tz anfrage liste-bereit" data-liste="${esc(l.id)}">${name}
+        <div><span class="status-chip bereit">${ICON.bereit}Auswählen</span></div>
+        <div class="liste-zahlen"><b>${z("wettbewerber")}</b> Wettbewerber · <b>${z("angrenzend")}</b> angrenzend · <b>${z("partner")}</b> Partner · ${anzahl} geprüft</div></button>`;
+    }
+    if (l.status === "fehler") return `<div class="tz anfrage">${name}
+      <div><span class="status-chip fehlt">${ICON.fehlt}Fehlgeschlagen</span></div>
+      <div class="fehler-text">${esc(l.hinweis || "")}<button data-weg-liste="${esc(l.id)}" aria-label="Entfernen" title="Entfernen"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div></div>`;
+    const laeuft = l.status === "arbeit";
+    return `<div class="tz anfrage ${laeuft ? "laeuft-zeile" : ""}" aria-busy="true">${name}
+      <div><span class="status-chip ${laeuft ? "laeuft" : "wartet"}">${laeuft ? ICON.laeuft + "Wird eingeordnet" : ICON.wartet + "Warteschlange"}</span></div>
+      <div class="liste-zahlen">${anzahl} Firmen${laeuft && l.schritt ? ` · ${esc(l.schritt)}` : ""}</div></div>`;
+  }).join("");
+}
+
+// Auswahlfenster
+const gewaehlt = e => !e.v && domainVon(e.w || "") && (auswahlAn.has(e.f) || (auswahlKat.has(e.k) && !auswahlAus.has(e.f)));
+function auswahlZeichnen() {
+  const l = offeneListe; if (!l) return;
+  const alle = l.eintraege || [];
+  cp("aw-titel").textContent = l.name || "Liste";
+  cp("aw-kategorien").innerHTML = KAT.map(k => {
+    const n = alle.filter(e => e.k === k.id).length;
+    return `<button type="button" class="aw-kat" data-kat="${k.id}" aria-pressed="${auswahlKat.has(k.id)}"><span class="aw-haken"></span><span><b>${k.name}</b><small>${k.text}</small></span><em>${n}</em></button>`;
+  }).join("");
+  cp("aw-liste").innerHTML = KAT.map(k => {
+    const teil = alle.filter(e => e.k === k.id);
+    if (!teil.length) return "";
+    const offen = auswahlKat.has(k.id) || teil.some(e => auswahlAn.has(e.f));
+    return `<details class="aw-gruppe" ${offen && k.id !== "kein" ? "open" : ""}><summary>${k.name}<span>${teil.length}</span></summary>${teil.map(e => {
+      const geht = !e.v && domainVon(e.w || "");
+      return `<label class="aw-firma ${geht ? "" : "aus"}"><input type="checkbox" data-firma="${esc(e.f)}" ${gewaehlt(e) ? "checked" : ""} ${geht ? "" : "disabled"}>
+        <span class="aw-text"><b>${esc(e.f)}</b>${e.g ? `<small>${esc(e.g)}</small>` : ""}</span>
+        ${e.v ? `<a class="aw-tag" href="#${esc(e.v)}">In der Galerie</a>` : !domainVon(e.w || "") ? `<span class="aw-tag">Keine Website</span>` : `<span class="aw-web">${esc(domainVon(e.w))}</span>`}</label>`;
+    }).join("")}</details>`;
+  }).join("");
+  auswahlZahl();
+}
+function auswahlZahl() {
+  const n = offeneListe.eintraege.filter(gewaehlt).length, min = Math.ceil(n / 3) * 10 + 10;
+  cp("aw-ok").textContent = n === 1 ? "1 Karte erstellen" : `${n} Karten erstellen`;
+  cp("aw-ok").disabled = !n;
+  cp("aw-dauer").textContent = !n ? "" : min < 60 ? `fertig in ca. ${min} Min.` : `fertig in ca. ${Math.round(min / 60)} Std. (werktags 8 bis 19 Uhr)`;
+}
+function auswahlOeffnen(id) {
+  offeneListe = listen.find(l => l.id === id); if (!offeneListe) return;
+  auswahlKat = new Set(["wettbewerber"]); auswahlAus = new Set(); auswahlAn = new Set();
+  cp("auswahl").hidden = false; auswahlZeichnen(); cp("aw-ok").focus();
+}
+const auswahlZu = () => { cp("auswahl").hidden = true; offeneListe = null; };
+cp("aw-zu").onclick = auswahlZu;
+cp("auswahl").addEventListener("click", e => {
+  if (e.target === cp("auswahl")) return auswahlZu();
+  const k = e.target.closest("[data-kat]");
+  if (k) { const id = k.dataset.kat; auswahlKat.has(id) ? auswahlKat.delete(id) : auswahlKat.add(id); auswahlAus.clear(); auswahlAn.clear(); auswahlZeichnen(); }
+});
+cp("aw-liste").addEventListener("change", e => {
+  const f = e.target.dataset.firma; if (!f) return;
+  const eintrag = offeneListe.eintraege.find(x => x.f === f);
+  const vonKat = auswahlKat.has(eintrag.k);
+  if (e.target.checked) { auswahlAus.delete(f); if (!vonKat) auswahlAn.add(f); }
+  else { auswahlAn.delete(f); if (vonKat) auswahlAus.add(f); }
+  auswahlZahl();
+});
+cp("aw-excel").onclick = async () => {
+  const l = offeneListe; if (!l || !speichern) return;
+  try {
+    const X = await sheetjs(), name = Object.fromEntries(KAT.map(k => [k.id, k.name]));
+    const ws = X.utils.json_to_sheet((l.eintraege || []).map(e => ({ Firma: e.f, Website: e.w || "", Einordnung: name[e.k] || "", Begründung: e.g || "", "In der Galerie": e.v ? "ja" : "", Anzahl: e.n || 1 })));
+    ws["!cols"] = [{ wch: 34 }, { wch: 30 }, { wch: 22 }, { wch: 60 }, { wch: 14 }, { wch: 8 }];
+    const wb = X.utils.book_new(); X.utils.book_append_sheet(wb, ws, "Einordnung");
+    const daten = X.write(wb, { type: "array", bookType: "xlsx" });
+    await speichern.save({ filename: (l.name || "liste") + "-eingeordnet.xlsx", data: new Blob([daten], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }) });
+  } catch (err) {}
+};
+cp("aw-ok").onclick = async () => {
+  const l = offeneListe; if (!l || !db) return;
+  const b = cp("aw-ok"); b.disabled = true; b.textContent = "Wird angelegt …";
+  let von = null; try { const u = await claude.use("user"); von = u ? await u.id() : null; } catch (err) {}
+  for (const e of l.eintraege.filter(gewaehlt)) {
+    const d = domainVon(e.w), id = d.replace(/[^a-z0-9]+/g, "-");
+    try {
+      const ref = db.doc("anfragen/" + id), da = await ref.get();
+      if (!(da.exists && ["offen", "arbeit"].includes(da.data().status)))
+        await ref.set({ url: /^https?:\/\//i.test(e.w) ? e.w : "https://" + e.w, domain: d, status: "offen", erstellt: Date.now(), von, liste: l.name || "" });
+    } catch (err) {}
+  }
+  await db.doc("listen/" + l.id).delete().catch(() => {});
+  auswahlZu();
+};
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-liste]"); if (b) return auswahlOeffnen(b.dataset.liste);
+  const w = e.target.closest("[data-weg-liste]"); if (w && db) db.doc("listen/" + w.dataset.wegListe).delete().catch(() => {});
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !cp("auswahl").hidden) auswahlZu(); }, true);
+function listenAbo() {
+  db.collection("listen").onSnapshot(s => {
+    listen = s.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (a.erstellt || 0) - (b.erstellt || 0));
+    if (offeneListe) { offeneListe = listen.find(l => l.id === offeneListe.id) || null; if (!offeneListe) auswahlZu(); }
+    if (!location.hash) uebersicht();
+  }, () => {});
+}
 if (window.claude && window.claude.use) window.claude.use("user").then(neuBereit, () => neuBereit(null));
 
 window.onhashchange = route;
