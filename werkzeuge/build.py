@@ -75,6 +75,10 @@ for k in karten:
 <h2>Quellen</h2><p class="quellen">{links}</p></body></html>"""
     src = DRUCK / f"{k['slug']}.html"; src.write_text(doc)
     ziel = ROOT / "pdf" / f"enneo-vs-{k['slug']}.pdf"
+    if not os.path.exists(CHROME):
+        # Auf Netlify gibt es kein Chrome: vorhandenes PDF aus dem Repo verwenden
+        if ziel.exists(): k["pdf_intern"] = ziel.name
+        continue
     subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--allow-file-access-from-files",
                     f"--print-to-pdf={ziel}", src.as_uri()], check=True, capture_output=True)
     k["pdf_intern"] = ziel.name

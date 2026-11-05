@@ -1,0 +1,9 @@
+[build]
+  command = "pip install -q markdown && python3 werkzeuge/build.py"
+  publish = "site"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "private, no-store"
