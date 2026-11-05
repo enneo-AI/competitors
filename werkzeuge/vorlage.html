@@ -207,6 +207,14 @@ a.tz:hover + a.tz { box-shadow: none; }
 .blatt li strong:first-child { display: block; margin-bottom: 2px; }
 .blatt a { color: var(--lila-d); }
 
+.erster-satz { margin: 0 0 24px; padding: 16px 20px; border-radius: 14px; background: var(--lila-weich); color: var(--text); font-size: 16.5px; line-height: 1.5; letter-spacing: -0.005em; }
+.erster-satz span { display: block; margin-bottom: 4px; font-size: 12px; font-weight: 600; color: var(--lila-d); }
+.impact table { table-layout: fixed; }
+.impact th:nth-child(1), .impact td:nth-child(1) { width: 26%; }
+.impact td:nth-child(2) { color: var(--text); }
+.impact td:nth-child(3) { color: var(--text-2); font-style: italic; }
+.intern li em { display: block; margin-top: 4px; font-style: normal; font-size: 12.5px; color: var(--text-3); }
+.intern p { color: var(--text-3); }
 .fazit { font-size: 19px; line-height: 1.55; color: var(--text) !important; letter-spacing: -0.01em; margin-bottom: 28px !important; }
 
 .tw { overflow-x: auto; }
@@ -279,7 +287,7 @@ a.tz:hover + a.tz { box-shadow: none; }
   .dkopf { grid-template-columns: 1fr; }
   .blatt { padding: 24px 20px 28px; }
   .reiter { width: 100%; }
-  .reiter button { flex: 1; padding: 7px 4px; font-size: 13.5px; }
+  .reiter button { flex: none; padding: 7px 11px; font-size: 13.5px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -420,16 +428,22 @@ function abschnitte(k) {
   const eck = finde(t => t === "Eckdaten")[0];
   const vergleich = finde(t => t === "Unterschiede auf einen Blick")[0];
   const quellen = finde(t => t === "Quellen")[0];
-  const fest = ["Fazit", "Das Wichtigste vorweg", "Eckdaten", "Unterschiede auf einen Blick", "Quellen"];
+  const satz = finde(t => t === "Erster Satz")[0];
+  const impact = finde(t => t === "Business-Impact")[0];
+  const intern = finde(t => t === "Intern")[0];
+  const fest = ["Fazit", "Das Wichtigste vorweg", "Eckdaten", "Unterschiede auf einen Blick", "Quellen", "Erster Satz", "Business-Impact", "Intern"];
   const argumente = finde(t => t && !fest.includes(t));
   const ueberblick =
+    (satz ? `<div class="erster-satz"><span>Erster Satz im Call</span>${satz.inhalt.replace(/<\/?p>/g, "").trim()}</div>` : "") +
     (fazit ? `<p class="fazit">${fazit.inhalt.replace(/<\/?p>/g, "").trim()}</p>` : "") +
     (vorweg ? `<h2>Einordnung</h2>${vorweg.inhalt}` : "") +
     (eck ? `<h2>Eckdaten</h2><div class="eck">${eck.inhalt}</div>` : "");
   return [
     ["Überblick", ueberblick],
+    ["Business-Impact", impact ? `<div class="impact">${impact.inhalt}</div>` : ""],
     ["Argumente", nimm(argumente)],
     ["Vergleich", vergleich ? vergleich.inhalt : ""],
+    ["Intern", intern ? `<div class="intern">${intern.inhalt}</div>` : ""],
     ["Quellen", quellen ? `<div class="quellen">${[...quellen.inhalt.matchAll(/<a [^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map(m => `<a href="${m[1]}" target="_blank" rel="noopener">${m[2]}</a>`).join("")}</div>` : ""],
   ].filter(([, h]) => h.trim()).map(([t, h]) => [t, h.replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, "</table></div>")]);
 }

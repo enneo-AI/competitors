@@ -19,6 +19,10 @@ kurz: "Contact-Center-Software aus Hamburg mit KI-Bots für Mail, Chat und Telef
 | Hosting | **Frankfurt, eigene Infrastruktur** | Cloud in deutschen Rechenzentren, hybrid oder beim Kunden auf Wunsch |
 | Zertifikat | **ISO 27001, ISO 22301, TISAX** | Zertifizierer und Laufzeit auf der Website nicht genannt |
 
+## Erster Satz
+
+„novomind ist eine solide Wahl mit vielen Kanälen und Zertifikaten, spannend wird es bei der Frage, ob die KI auch Anhänge und Fotos mitliest und zeigt, warum sie so entschieden hat.“
+
 ## Das Wichtigste vorweg
 
 novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle Kanäle und eigenen KI-Bots für Mail, Chat und Telefon. Von den kleineren deutschen Anbietern ist novomind am nächsten an enneo dran. Der Mailbot beantwortet laut novomind schon seit Anfang 2025 Mails mit mehreren Anliegen automatisch, dazu kommen Energie-Referenzen wie EnBW, Yello und DEW21 sowie ISO 27001. Unser Vorsprung liegt in Details, nicht im Grundsatz.
@@ -29,6 +33,15 @@ novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle
 - **Nachvollziehbare KI:** Bei enneo sieht man den Lösungsplan, die erkannten Werte und eine Vorschau ohne Buchung. Wie der novomind-Mailbot zu einer Antwort kommt, ist öffentlich nicht beschrieben.
 - **Offen gelegt, welche Modelle laufen:** enneo nennt die Sprachmodelle, EU-Modelle sind im AVV möglich, AVV, TOM, Subunternehmer und SLA sind öffentlich. novomind nennt keine Sprachmodelle, einen öffentlichen AVV haben wir nicht gefunden.
 - **Agenten in Worten statt Baukasten:** Bei enneo beschreibt man den KI-Agenten in normaler Sprache, ändert ihn mit Neo per Chat und prüft ihn mit Testfällen. novomind bietet einen No-Code Agent Builder mit Drag & Drop.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Anhänge und Fotos lesen** | Mails mit Zählerfoto oder PDF bleiben nicht bei Mitarbeitenden liegen, weniger Handarbeit im Schriftverkehr | „Unsere KI liest das Zählerfoto im selben Durchgang mit, bei novomind ist dazu nichts dokumentiert.“ |
+| **Begründung der KI sichtbar** | Fachbereich und Revision prüfen Entscheidungen vor dem Livegang, geringeres Risiko falscher Buchungen | „Sie sehen bei uns Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung, bevor etwas ins System geht.“ |
+| **Sprachmodelle und Datenschutzunterlagen offen** | Datenschutzprüfung ohne Nachforderungen, weil AVV, TOM und Subunternehmer vorab vorliegen | „Unsere AVV, TOM und Subunternehmer sind öffentlich, und wir sagen Ihnen, welche Sprachmodelle laufen.“ |
+| **Agenten in normaler Sprache** | Fachbereich beschreibt Abläufe in eigenen Worten und prüft sie mit Testfällen, bevor sie live gehen | „Sie beschreiben den Agenten in Sätzen, ändern ihn per Chat und testen ihn mit echten Fällen.“ |
 
 ## Wo novomind vorn liegt
 
@@ -60,6 +73,24 @@ novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle
 - **Kundenservice ist nur ein Standbein:** novomind verkauft auch Shop-, Marktplatz- und Produktdaten-Software. Von neun Pressemitteilungen zwischen März und September 2026 betrifft die Mehrheit Shop, Produktdaten und Partnerschaften.
 - **Wenig öffentlich zur KI:** Die öffentliche iAGENT-Doku und die Release Notes nennen keine KI-Funktionen und keine Sprachmodelle. Für Details verweist novomind auf Demo und Vertrieb.
 - **Kritik von Nutzern:** Bei OMR (5 Bewertungen, 4,6 von 5) bemängeln Nutzer, dass schlecht eingestellte Regeln Mails falsch verteilen, Rückfragen nur an eine Person gehen und die Oberfläche karg wirkt.
+
+## Einwände
+
+- **„Viele Stadtwerke nutzen novomind, das ist bewährt.“** Stimmt, novomind hat starke Referenzen bei Versorgern und eigene Zertifikate. Die Frage ist, wie weit die KI im Schriftverkehr kommt: Anhänge, Fotos und nachvollziehbare Entscheidungen. Vergleichen Sie beide an denselben Mails mit Zählerfoto.
+- **„novomind hat ISO 27001 und TISAX, Sie nicht.“** Das ist berechtigt, eigene Zertifikate haben wir nicht, ISO 27001 und SOC 2 sind in Prüfung. Gespeichert wird bei Hetzner in Deutschland, Hetzner ist ISO 27001 zertifiziert, und AVV, TOM, Subunternehmer und SLA sind öffentlich.
+- **„Der Mailbot von novomind kann auch mehrere Anliegen.“** Richtig, das beschreibt novomind seit 2025. Der Unterschied liegt darin, ob Anhänge und Fotos mitgelesen werden und ob Sie vor der Buchung sehen, was die KI vorhat.
+
+## Fragen an den Kunden
+
+- **Wie viele Ihrer Mails haben Anhänge oder Fotos, und was macht der Mailbot damit?** Erwartete Antwort: ein großer Teil, Zählerfotos und PDFs gehen an Mitarbeitende. Überleitung: „Genau diese Mails liest unsere KI mit, im selben Durchgang.“
+- **Wie hoch ist die Erkennungsquote, wenn der Mailbot ohne Mitarbeitende antwortet, und wer hat sie gemessen?** Erwartete Antwort: keine belastbare Zahl, Werte aus dem Vertrieb. Überleitung: „Bei uns sehen Sie zu jedem Fall Lösungsplan und erkannte Werte und prüfen vorab in einer Vorschau ohne Buchung.“
+- **Welche Sprachmodelle setzt novomind ein, und liegt Ihnen dazu ein AVV vor?** Erwartete Antwort: unklar, wird nachgereicht. Überleitung: „Bei uns sind Modelle, AVV, TOM und Subunternehmer offen, EU-Modelle sind im AVV möglich.“
+
+## Intern
+
+- **Dunkelverarbeitung abgebrochen:** Ein Partner (IT-Dienstleister für Versorger) berichtet, ein Stadtwerk habe mit novomind die Dunkelverarbeitung gestartet und das Projekt beendet, weil die Erkennung zu schlecht war. Man merke stark, dass novomind das „erst seit kurzem so richtig“ mache. *Attio-Call vom 27.02.2026, Min. 36:29*
+- **Zufriedene Stadtwerke als Ausgangslage:** Ein Partner (Beratung, Energie) beschreibt einen Versorger als klassischen novomind-Kunden. Viele Stadtwerke hätten novomind und seien „echt froh, dass wir das haben“. Gesucht wird der nächste Schritt: Bot authentifiziert, nimmt den Zählerstand auf und übergibt mit Verlauf an Mitarbeitende. *Attio-Call vom 03.11.2026, Min. 50:11*
+- **Nach der Umstellung ist das Fenster zu:** Ein Interessent (Verlag, Abo-Geschäft) hat gerade auf novomind im Contact Center umgestellt, inklusive Telefonie. Ein Voicebot muss darauf laufen, E-Mail und Chat sind erst im Folgejahr wieder ein Thema. *Attio-Call vom 20.08.2026, Min. 2:40 und 27:26*
 
 ## Fazit
 

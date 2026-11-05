@@ -19,6 +19,10 @@ kurz: "Großer Contact-Center-Anbieter aus Israel/USA, KI-Agenten seit 2025 von 
 | Hosting | **AWS Frankfurt + EU-Cloud** | Dazu Equinix Frankfurt und München. „EU Sovereign Cloud“ seit 2023, Partner dort nicht genannt |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu PCI DSS, HITRUST, FedRAMP, IRAP. Cognigy hat BSI C5, für CXone selbst kein C5-Testat gefunden |
 
+## Erster Satz
+
+„NiCE ist als Contact Center kaum zu schlagen, unsere Frage ist, wer bei Ihnen die eingehenden E-Mails bearbeitet, denn dort erledigt unsere KI den Fall bis zur Buchung.“
+
 ## Das Wichtigste vorweg
 
 NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit elf Jahren unter den Marktführern, und bei Telefonie, Verteilung, Dialer, Personaleinsatzplanung und Qualitätsbewertung deutlich breiter und tiefer als wir. Die KI-Agenten kommen seit 2025 von Cognigy, die volle Einbindung in CXone soll laut NiCE erst im Lauf von 2026 fertig sein. Für eingehende E-Mails haben wir bei NiCE keinen KI-Agenten gefunden, der die Mail selbst bis zur Buchung bearbeitet, dort liegt unser Vorteil.
@@ -30,6 +34,16 @@ NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit
 - **Anhänge und Fotos:** enneo liest PDF und Fotos, etwa ein Zählerfoto. Bei NiCE ist dazu für E-Mail nur eine Größengrenze von 40 MB dokumentiert.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Die Energie-Referenz von NiCE in Deutschland betrifft Personaleinsatzplanung, Qualität und Auswertung, nicht automatische Bearbeitung von Schriftverkehr.
 - **Deutsche Firma, deutscher Betreiber:** enneo ist eine Berliner GmbH ohne Investoren und speichert bei Hetzner, auf Wunsch im Rechenzentrum des Kunden. NiCE ist ein börsennotierter Konzern mit Sitz in Israel und den USA und läuft auf AWS. Cognigy bietet On-Premise für Neukunden nicht mehr an.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **KI-Agent für eingehende E-Mails** | Weniger Mitarbeitende für Schriftverkehr statt nur schnellerer Entwürfe | „Bei NiCE schreibt Copilot einen Entwurf für Mitarbeitende, bei uns erledigt die KI die Mail bis zur Buchung.“ |
+| **Mehrere Anliegen in einem Durchgang** | Eine Antwort an den Kunden, keine manuelle Themenauswahl | „Drei Anliegen in einer Mail erledigen wir in einem Durchgang, ohne dass jemand Themen anklicken muss.“ |
+| **Fertige Energie-Agenten** | Kürzeres Projekt, kein Bau von Standardfällen auf leerer Fläche | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Ergänzung statt Komplettwechsel** | Laufende Verträge bleiben, kein Migrationsprojekt fürs Contact Center | „NiCE kann für die Telefonie bleiben, wir übernehmen E-Mail und Brief daneben.“ |
+| **Deutsche Firma, deutscher Betreiber** | Einfachere Datenschutzprüfung, ab großem Volumen Betrieb im eigenen Rechenzentrum | „Wir sind eine Berliner GmbH ohne Investoren, speichern bei Hetzner und gehen ab großem Volumen auch in Ihr Rechenzentrum.“ |
 
 ## Wo NiCE vorn liegt
 
@@ -62,6 +76,25 @@ NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit
 - **Produkte im Umbau:** Autopilot gibt es in den Varianten Amelia und Omilia, dazu Mpower Agents und Cognigy. Die volle Einbindung von Cognigy in CXone hat NiCE erst für 2026 angekündigt. Der Arbeitsplatz von Cognigy („Live Agent“) ist im Wartungsmodus, neue Funktionen kommen dort nicht mehr.
 - **C5 und Herkunft:** Für CXone haben wir kein eigenes BSI-C5-Testat gefunden. Die EU-Cloud verweist nur darauf, dass die Partner C5 einhalten. Die Firma sitzt in Israel und den USA.
 - **KI-Kosten schwer planbar:** Copilot, Zusammenfassung und KI-Verteilung laufen nach Verbrauch. Was eine „Sitzung“ für 0,25 USD ist, steht nicht auf der Preisseite.
+
+## Einwände
+
+- **„NiCE ist Marktführer, Gartner führt sie seit elf Jahren als Leader.“** Für Contact Center, Telefonie und Personalplanung stimmt das, das bestreiten wir nicht. Für eingehende E-Mails ist bei NiCE aber kein KI-Agent dokumentiert, der den Fall bis zur Buchung erledigt, genau das machen wir.
+- **„Wir haben NiCE im Haus, der Vertrag läuft noch.“** Dann bleibt NiCE für die Telefonie. enneo übernimmt E-Mail und Brief daneben, ohne dass Sie Ihr Contact Center ablösen.
+- **„Mit Cognigy hat NiCE jetzt auch den besten Voicebot-Baukasten.“** Am Telefon ist Cognigy stark und bietet mehr Sprachanbieter als wir. Einen Eingangskanal für E-Mail hat Cognigy aber nicht, und die volle Einbindung in CXone ist erst für 2026 angekündigt. Bei uns sind Voicebot, E-Mail-KI und Arbeitsplatz heute ein System.
+
+## Fragen an den Kunden
+
+- **Wer bearbeitet bei Ihnen heute eingehende E-Mails, und was davon erledigt die KI ohne Mitarbeitende?** Erwartete Antwort: Mitarbeitende im CXone-Postfach, Copilot hilft bei Entwürfen. Überleitung: „Genau diesen Teil nehmen wir Ihnen ab: Die KI liest, legitimiert, bucht und antwortet.“
+- **Wie wählen Ihre Mitarbeitenden bei einer Mail mit mehreren Anliegen die Themen aus?** Erwartete Antwort: Copilot listet die Themen, der Mitarbeitende wählt aus. Überleitung: „Bei uns entsteht ein Lösungsplan für alle Anliegen und eine Antwort, auch vollautomatisch.“
+- **Welches Produkt ist bei NiCE in drei Jahren Ihr Arbeitsplatz für KI-Agenten: Cognigy, Mpower Agents, Autopilot oder CXone?** Erwartete Antwort: Unklar, oder ein Verweis auf die angekündigte Einbindung von Cognigy in CXone. Überleitung: „Bei uns sind Arbeitsplatz, KI-Agenten und Telefonie heute schon ein Produkt.“
+
+## Intern
+
+- **Für viele Interessenten zu groß:** Ein Partner (Contact-Center-Integrator, vertreibt NiCE) erlebt, dass Interessenten NiCE als „Moloch“ sehen und vom All-in-One-Paket abgeschreckt sind. Andere überzeugt gerade das Paket mit Personalplanung. *Attio-Call vom 04.09.2026, Min. 7:44*
+- **Schwächen im deutschen Markt und bei E-Mail:** Derselbe Partner spürt bei NiCE in Projekten „funktionale Schwächen“, gerade im deutschen Markt. Bei KI-Bearbeitung von E-Mails bis zur Dunkelverarbeitung stoße er an Grenzen, weil seine Hersteller auf E-Mail nicht spezialisiert seien. *Attio-Call vom 04.09.2026, Min. 8:47 und 23:48*
+- **Cognigy zu groß und zu teuer:** Derselbe Partner nennt Cognigy an vielen Stellen „a little bit too big“ und zu teuer. Ein zweiter Partner (IT-Dienstleister) hat mit Cognigy kaum Projekte umgesetzt, weil es Kunden zu teuer war. *Attio-Call vom 04.09.2026, Min. 9:18; Attio-Call vom 19.10.2026, Min. 43:31*
+- **Außerhalb großer Konzerne schwer verkäuflich:** Laut dem ersten Partner hält der Hersteller (Cognigy, heute NiCE) kleinere Segmente für nicht relevant, außerhalb großer Konzerne sei die Lösung schwer zu verkaufen. Bestandskunden mit ein bis zwei Jahren Restlaufzeit wollen eher KI ergänzen als wechseln. *Attio-Call vom 16.10.2026, Min. 4:42 und 28:47*
 
 ## Fazit
 

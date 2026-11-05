@@ -19,6 +19,10 @@ kurz: "Großes Contact Center aus den USA, stark am Telefon"
 | Hosting | **AWS Frankfurt u. a.** | Dazu Dublin, London, Zürich. „European Sovereign Region“ in Brandenburg nur eingeschränkt verfügbar, E-Mail und SMS dort ausgenommen |
 | Zertifikat | **ISO 27001, C5** | Dazu ISO 27017, 27018, 42001, SOC 1 und 2, PCI DSS. C5 gilt für EMEA |
 
+## Erster Satz
+
+„Genesys ist am Telefon eine der stärksten Plattformen am Markt. Die Frage ist, wer bei Ihnen den Schriftverkehr automatisch bis zur Buchung erledigt.“
+
 ## Das Wichtigste vorweg
 
 Genesys ist eines der größten Contact Center der Welt und bei Telefonie, Verteilung, Dialer, Personalplanung, Qualität und Voicebot deutlich breiter als wir. Bei E-Mail erkennt Genesys inzwischen per KI das Anliegen aus dem Mailtext, danach läuft ein fester Ablauf mit Regeln und vorgefertigter Antwort. Einen KI-Agenten, der eine Mail selbst bis zur Buchung bearbeitet, haben wir nicht gefunden. Dort liegt unser Vorteil, am Telefon liegt Genesys vorn.
@@ -29,6 +33,16 @@ Genesys ist eines der größten Contact Center der Welt und bei Telefonie, Verte
 - **Mehrere Anliegen und Anhänge:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. PDF und Fotos liest enneo mit, z. B. ein Zählerfoto. Bei Genesys ist zu beidem für E-Mail nichts dokumentiert.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Genesys nennt Zählerstände per Mail nur als Beispiel, den Ablauf baut der Kunde selbst.
 - **Gespeichert bei einem deutschen Anbieter, auch beim Kunden:** enneo speichert bei Hetzner, ab großem Volumen im Rechenzentrum des Kunden. Genesys läuft bei AWS, die souveräne EU-Region gilt nicht für E-Mail. Genesys Engage On-Premise endet am 31.12.2028, Bestandskunden müssen also ohnehin wechseln.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **KI-Agent für E-Mail bis zur Buchung** | Schriftverkehr wird erledigt, ohne jeden Ablauf als feste Regel zu bauen, weniger Mitarbeitende für Postfächer | „Bei uns bearbeitet die KI die Mail bis zur Buchung, Sie bauen nicht für jedes Anliegen einen festen Ablauf.“ |
+| **Mehrere Anliegen und Anhänge** | Weniger Folgekontakte, Zählerfotos und PDFs muss niemand abtippen | „Zählerstand, neue IBAN und Zählerfoto in einer Mail erledigt enneo in einem Durchgang mit einer Antwort.“ |
+| **Fertige Abläufe für Versorger** | Kürzere Einführung, kein Eigenbau der Fachabläufe | „Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung.“ |
+| **Speicherung in Deutschland, auch beim Kunden** | Datenschutzprüfung einfacher, kein erzwungener Wechsel wie beim Ende von Engage On-Premise | „Wir speichern bei Hetzner in Deutschland, ab großem Volumen auch in Ihrem Rechenzentrum.“ |
+| **Paketpreise statt Verbrauchseinheiten** | KI-Kosten lassen sich vorab einplanen | „Bei uns rechnen Sie in Paketen je Ticket und Sprachminute, nicht in Verbrauchseinheiten.“ |
 
 ## Wo Genesys vorn liegt
 
@@ -61,6 +75,27 @@ Genesys ist eines der größten Contact Center der Welt und bei Telefonie, Verte
 - **Souveränität mit Lücken:** Die EU-Region mit EU-Personal ist nur eingeschränkt verfügbar. E-Mail, SMS und fremde Messenger laufen auch dort außerhalb. Die Firma sitzt in den USA.
 - **On-Premise läuft aus:** Wartung und Support für Genesys Engage On-Premise enden am 31.12.2028. Wer im eigenen Rechenzentrum bleiben will, findet bei Genesys keinen Weg.
 - **KI-Kosten schwer planbar:** Für manche KI-Funktionen braucht es Experience Units, Genesys schreibt dazu „Usage-based pricing may apply“. Nur CX 4 enthält ein festes Kontingent.
+
+## Einwände
+
+- **„Genesys ist Marktführer, und wir haben gerade verlängert.“** Für Telefonie, Personalplanung und Dialer ist Genesys stark, das wollen wir nicht ersetzen. enneo setzt beim Schriftverkehr an: Mails und Briefe bis zur Buchung, daneben und mit eigener Telefonie, falls später gewünscht.
+- **„Genesys kann E-Mail und KI doch auch.“** Genesys erkennt per KI das Anliegen, danach läuft ein fester Ablauf mit Regeln und vorgefertigter Antwort. Fragen Sie, ob das Schriftmodul Ihre Anforderungen wirklich erfüllt und ob Sie es heute nutzen. Bei enneo bearbeitet ein KI-Agent die Mail bis zur Buchung, mit mehreren Anliegen und Anhängen.
+- **„Genesys hat alle Zertifikate inklusive C5.“** Bei Zertifikaten liegt Genesys vorn, das sagen wir offen. Wir speichern bei Hetzner in Deutschland, Hetzner ist ISO 27001 zertifiziert, eigene Zertifikate sind in Prüfung, und AVV, TOM und SLA sind öffentlich. Bei Genesys gilt die souveräne EU-Region nicht für E-Mail.
+
+## Fragen an den Kunden
+
+- **Welche Teile des Genesys-Pakets nutzen Sie heute wirklich, zum Beispiel für E-Mail?** Erwartete Antwort: Telefonie und Reporting ja, die Schriftbearbeitung oft nicht oder über ein anderes System. Überleitung: „Für den Schriftverkehr ist enneo gebaut, bis zur Buchung im Abrechnungssystem.“
+- **Wo liegen Ihre Mails bei Genesys, und reicht das Ihrem Datenschutz?** Erwartete Antwort: in einer AWS-Region, die souveräne EU-Region gilt nicht für E-Mail, die Firma sitzt in den USA. Überleitung: „Bei uns liegen die Daten bei Hetzner in Deutschland, ab großem Volumen auch bei Ihnen.“
+- **Wie planen Sie die Kosten für KI-Funktionen bei Genesys?** Erwartete Antwort: schwer vorherzusagen, manche KI-Funktionen verbrauchen Experience Units, nur CX 4 enthält ein festes Kontingent. Überleitung: „Bei uns gibt es Paketpreise je Ticket und Sprachminute.“
+
+## Intern
+
+- **Telefonie ja, eigene Bots nein:** Ein Bestandskunde (Energieversorger, Großkunde) ist mit Genesys als Telefonanlage und beim Reporting zufrieden und hat den Vertrag kürzlich um zwei Jahre verlängert. Die Bots von Genesys nutzte er früher, war Mitte 2025 mit der Leistung nicht zufrieden und wechselte zu einem Voicebot-Spezialisten. *Attio-Call vom 16.10.2026, Min. 2:55, 5:36 und 20:32*
+- **Schriftmodul bezahlt, aber nicht genutzt:** Laut demselben Kunden sagte Genesys zu seinen Anforderungen an die Schriftbearbeitung selbst „können wir gar nicht“. Das Modul steckt im Paket und wird mitbezahlt. Der Fokus von Genesys liege auf der Telefonie, Schrift komme nur nach und nach. *Attio-Call vom 16.10.2026, Min. 47:13, 48:16 und 52:06*
+- **Baukasten mit Zusatzkosten:** Derselbe Kunde beschreibt Genesys als Baukasten, der komplett mitgebucht werden muss. Die Ad-hoc-Gesprächsaufzeichnung wurde zeitweise extra verkauft, heute ist sie im Paket. *Attio-Call vom 16.10.2026, Min. 9:25 und 49:36*
+- **Angekündigte Funktionen verschoben:** Neue Funktionen kamen laut demselben Kunden oft später als angekündigt, ein Release wurde zweimal verschoben, ohne verlässliches Datum. *Attio-Call vom 16.10.2026, Min. 53:04*
+- **Support und Entscheidungen in den USA:** Ein deutscher technischer Ansprechpartner hilft gut, tiefe Technikfragen laufen über ein englischsprachiges Ticketportal und sind „erklärungsintensiver“. Entschieden werde in den USA, Wünsche deutscher Kunden zählten dort wenig. *Attio-Call vom 16.10.2026, Min. 56:00 und 57:55*
+- **Telefonanlage ohne Intelligenz:** Ein Kunde (Bildungsanbieter, viele Standorte) beschreibt seine Genesys-Anlage als große Telefonanlage, die nach festen Stufen verteilt, aber „keinerlei Intelligenz“ enthalte. Ein anderer Bestandskunde (Energieversorger) betreibt Genesys neben getrennten Lösungen je Kanal und baut Logik je Kanal neu. *Attio-Call vom 12.06.2026, Min. 38:22, und Attio-Call vom 27.10.2026, Min. 35:09*
 
 ## Fazit
 

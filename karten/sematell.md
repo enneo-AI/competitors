@@ -19,6 +19,10 @@ kurz: "E-Mail-Spezialist aus Saarbrücken, KI für Klassifizierung, Routing und 
 | Hosting | **Deutschland** | Zertifizierte Rechenzentren, Betreiber nicht genannt. ReplyOne auch beim Kunden, ReplyX nur SaaS |
 | Zertifikat | **ISO 27001:2022** | LL-C Certification, Nr. 491642, gültig bis 26.02.2028 |
 
+## Erster Satz
+
+„Sematell kennt E-Mail bei Versorgern seit vielen Jahren, die Frage ist, ob Ihre Mails nur sortiert und beantwortet oder bis zur Buchung im Zielsystem erledigt werden sollen.“
+
 ## Das Wichtigste vorweg
 
 Sematell ist Spezialist für E-Mail Response Management: ReplyOne für große Serviceorganisationen, seit Juli 2025 ReplyX für E-Commerce-Teams. Stark sind Klassifizierung, Routing und Antwortvorschläge, dazu langjährige Energiekunden wie lekker Energie (seit 2011), badenova und ENTEGA PLUS. Einen Voicebot haben wir nicht gefunden. Seit Juni 2025 ist Sematell Partner von VIER: VIER leitet Mails an Sematell, Sematell erstellt die Antwort.
@@ -29,6 +33,16 @@ Sematell ist Spezialist für E-Mail Response Management: ReplyOne für große Se
 - **Mehrere Anliegen, eine Antwort:** enneo erledigt alle Anliegen einer Mail mit einem Lösungsplan in einem Durchgang. Sematell schreibt, die KI analysiere Anfragen ganzheitlich, damit alle Fragen beantwortet werden. Ob dabei mehrere Vorgänge im Zielsystem erledigt werden, ist nicht dokumentiert.
 - **Voicebot im selben System:** enneo hat Telefonie und Voicebot im Produkt, mit eigener Telefonie oder SIP-Leitung des Kunden. Bei Sematell ist Telefonie als Kanal genannt, einen Voicebot haben wir nicht gefunden.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Sematell nennt auf der Energieseite Abschläge und Tarifwechsel, Zählerstände nur als Anfragetyp, Bankdaten und Umzug gar nicht.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Bis zur Buchung im Zielsystem** | Weniger Mitarbeitende für Schriftverkehr, weil Standardfälle ohne manuelle Erfassung durchlaufen | „Bei uns endet die Bearbeitung nicht bei der Antwort, sondern mit der Buchung im ERP.“ |
+| **Mehrere Anliegen in einem Durchgang** | Keine zweite Bearbeitung für die übrigen Anliegen einer Mail | „Zählerstand, IBAN und Abschlag in einer Mail erledigen wir mit einem Lösungsplan und einer Antwort.“ |
+| **Voicebot und Telefonie im selben System** | Ein Anbieter und ein Vertrag statt E-Mail-KI und Telefonie von zwei Firmen | „Telefon, Voicebot und Schriftverkehr laufen bei uns in einem System, nicht über zwei Firmen.“ |
+| **Fertige Fachagenten für Versorger** | Schnellerer Start bei Zählerstand, Abschlag und Bankdaten, weniger Projektaufwand | „Diese Fälle bringen wir als fertige Agenten mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir pro Kunde.“ |
+| **AVV, TOM und Subunternehmer öffentlich** | Die Datenschutzprüfung kann starten, ohne Unterlagen anzufordern | „Unsere AVV, TOM und Subunternehmerliste können Sie heute schon lesen, ohne uns zu fragen.“ |
 
 ## Wo Sematell vorn liegt
 
@@ -60,6 +74,24 @@ Sematell ist Spezialist für E-Mail Response Management: ReplyOne für große Se
 - **KI in Energie kaum belegt:** Beim Energiekonzern von September 2025 startet ReplyOne mit E-Mail, KI-Funktionen sollen später folgen. Die lekker-Referenz beschreibt Kündigungserkennung, keine automatische Bearbeitung von Zählerstand oder Abschlag.
 - **Führungswechsel:** Seit Juli 2026 führt Dr. Andreas Seidl, sein Vorgänger war etwa 1,5 Jahre im Amt. Wer hinter Sematell steht, nennt die Firma nicht.
 - **Im VIER-Verbund zwei Firmen:** VIER verteilt die Mail, Sematell schreibt die Antwort. Gemeinsame Kundenprojekte waren im Juni 2025 erst in Vorbereitung.
+
+## Einwände
+
+- **„Sematell läuft bei uns seit Jahren, warum wechseln?“** Verständlich, Sematell kennt E-Mail in der Energiebranche lange. Laufen zwei Systeme nebeneinander, entsteht aber Doppelarbeit. Bei uns sind Postfach, Arbeitsplatz und KI ein System, und die KI erledigt Fälle bis zur Buchung.
+- **„Sematell hat ISO 27001, Sie nicht.“** Das stimmt, ISO 27001 und SOC 2 sind bei uns in Prüfung, unser Speicheranbieter Hetzner ist ISO-27001-zertifiziert. Dafür sind bei uns AVV, TOM, Subunternehmer und SLA öffentlich einsehbar, bei Sematell AVV und Subunternehmer nicht.
+- **„Über VIER bekommen wir Telefonie und E-Mail-KI zusammen.“** Dann arbeiten Sie mit zwei Firmen: VIER verteilt die Mail, Sematell schreibt die Antwort. Gemeinsame Kundenprojekte waren im Juni 2025 erst in Vorbereitung. Bei uns sind Telefonie, Voicebot und E-Mail-KI ein Produkt.
+
+## Fragen an den Kunden
+
+- **Welche Mails bucht Sematell bei Ihnen heute selbst im ERP, statt nur einen Antwortvorschlag zu machen?** Erwartete Antwort: Klassifizierung, Datenauslesen und Standardantworten, Buchungen nur in einzelnen Fällen. Überleitung: „Lassen Sie uns zeigen, wie eine Abschlagsänderung bei uns bis zur Buchung läuft.“
+- **Was passiert bei Sematell mit einer Mail, die Zählerstand, neue IBAN und Abschlagsänderung enthält?** Erwartete Antwort: Die Analyse erkennt alle Fragen, ob jede im Zielsystem erledigt wird, bleibt offen. Überleitung: „Bei uns entsteht ein Lösungsplan für das ganze Ticket, alle drei Anliegen in einem Durchgang.“
+- **Welches Sprachmodell nutzt Sematell, und wo finden Sie AVV und Subunternehmerliste?** Erwartete Antwort: Auf Anfrage, öffentlich ist beides nicht. Überleitung: „Bei uns stehen AVV, TOM, Subunternehmer und SLA öffentlich, EU-Modelle können Sie im AVV festlegen.“
+
+## Intern
+
+- **Anbindung an ReplyOne aufwendig:** Ein Bestandskunde (Energieversorger, Großkunde) nutzt ReplyOne als Korrespondenzmanagement. Die Anbindung eines weiteren Systems daran beschrieb er als „sehr herausfordernd“. *Attio-Mail vom 31.01.2024*
+- **Sematell sortiert vor, enneo bearbeitet:** Im Pilot beim selben Kunden blieb Sematell das führende System für Kategorisierung und Routing und gab ausgewählte Mails an enneo weiter. *Attio-Mail vom 31.01.2024*
+- **Zwei Systeme, doppelte Arbeit:** Derselbe Kunde betreibt Sematell und enneo nebeneinander und will Medienbrüche sowie „Doppelbearbeitung, Doppelbelastung“ bei den Mitarbeitenden beenden. Ein Vorprojekt soll klären, ob enneo das Sematell-System ablöst. *Attio-Call vom 22.04.2026, Min. 11:00*
 
 ## Fazit
 

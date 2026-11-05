@@ -19,6 +19,10 @@ kurz: "KI-Posteingang für SAP-Versorger, Pipeforce klassifiziert, cortility buc
 | Hosting | **Deutschland, EU oder beim Kunden** | Pipeforce in ISO-27001-zertifizierten Rechenzentren in Deutschland bzw. der EU, Betreiber nicht genannt. Private Cloud und On-Premise möglich. Vorgangsdaten liegen in SAP |
 | Referenzen | **keine namentlichen** | „Bereits erfolgreich im Einsatz“, ohne Kundennamen. cortility nennt rund 25 Versorger als Referenzen für andere SAP-Lösungen. Eigene ISO 27001, SOC 2 oder C5 nicht gefunden, Pipeforce führt das Siegel des Bundesverbands IT Mittelstand |
 
+## Erster Satz
+
+„cortility und Pipeforce sind sehr nah an SAP IS-U, das ist ein echter Vorteil, die Frage ist, wer Ihrem Kunden nach der Buchung antwortet und was mit Mails passiert, in denen mehrere Anliegen stehen.“
+
 ## Das Wichtigste vorweg
 
 cortility und Pipeforce greifen genau unser stärkstes Feld an: Mails und Briefe an Versorger per KI bis zur Buchung in SAP IS-U oder S/4HANA Utilities. Pipeforce erkennt und klassifiziert das Anliegen, liest Daten aus Text und Foto und prüft die KI-Ergebnisse. cortility übergibt die Daten über einen KI-Connector auf der SAP BTP an den SAP-Prozess und prüft sie dort vor der Buchung. Unser Vorsprung liegt bei Antwort an den Kunden, mehreren Anliegen, weiteren Kanälen, eigenem Arbeitsplatz und Zielsystemen außer SAP. Bei der SAP-Nähe liegen sie vorn.
@@ -30,6 +34,16 @@ cortility und Pipeforce greifen genau unser stärkstes Feld an: Mails und Briefe
 - **Ein Produkt mit Arbeitsplatz und allen Kanälen:** Bei enneo gehören Ticketing-Arbeitsplatz mit Skill-Routing, E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon und Voicebot zu einem System. Die gemeinsame Lösung deckt E-Mail und Brief ab. Was die KI nicht schafft, geht an Mitarbeitende in deren bestehenden Werkzeugen. Einen Voicebot haben wir bei beiden nicht gefunden.
 - **Nicht nur SAP:** enneo baut Schnittstellen als Code, in jedem Format, und kommt mit dem RPA-Bot auch an Altsysteme ohne Schnittstelle. Die gemeinsame Lösung ist ausdrücklich für SAP S/4HANA Utilities und IS-U gebaut.
 - **Ein Anbieter:** Bei enneo kommen KI, Arbeitsplatz und Anbindung aus einer Hand. Hier teilen sich zwei Firmen die Strecke, Pipeforce für die KI, cortility für SAP.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Antwort an den Kunden nach der Buchung** | Fall abgeschlossen ohne Handarbeit, weniger Nachfragen des Kunden | „Bei uns endet die Mail mit der Buchung und der Antwort an Ihren Kunden, auch vollautomatisch.“ |
+| **Mehrere Anliegen in einer Mail** | Weniger Mails, die am Ende doch bei Mitarbeitenden landen | „Zählerstand, IBAN und Abschlag in einer Mail: bei uns ein Durchgang und eine Antwort.“ |
+| **Voicebot und weitere Kanäle** | Kein zweites System, wenn später Telefon, Chat oder WhatsApp dazukommen | „Wenn Sie später auch Telefon und Chat automatisieren wollen, ist das bei uns dasselbe System.“ |
+| **Nicht nur SAP** | Die Investition bleibt nutzbar, wenn nicht alles in SAP liegt | „Wir bauen Schnittstellen in jedem Format und kommen mit dem RPA-Bot auch an Systeme ohne Schnittstelle.“ |
+| **Ein Anbieter** | Klare Zuständigkeit bei Betrieb und Fehlern | „Bei uns haben Sie für KI, Arbeitsplatz und Anbindung einen Ansprechpartner statt zwei Firmen.“ |
 
 ## Wo cortility und Pipeforce vorn liegen
 
@@ -62,6 +76,22 @@ cortility und Pipeforce greifen genau unser stärkstes Feld an: Mails und Briefe
 - **Junge Partnerschaft aus zwei Firmen:** Die Zusammenarbeit läuft seit 2025. Wer für Betrieb, Fehler und Weiterentwicklung der gemeinsamen Strecke zuständig ist, steht nirgends öffentlich.
 - **Schmaler Zuschnitt:** Standardanliegen wie Zählerstand, Umzug und Abschlag, je ein Anliegen, nur E-Mail und Brief, nur SAP. Was darüber hinausgeht, landet wieder bei Mitarbeitenden.
 - **Aussagen ohne Nachweis:** „Bis zu 100 %“ Automatisierung und Erfüllung „KRITIS-relevanter Anforderungen“ stehen ohne Beleg auf der Seite.
+
+## Einwände
+
+- **„cortility kennt unser SAP IS-U seit Jahren.“** Das stimmt, und es ist ein echter Vorteil. Fragen Sie, welche Versorger die gemeinsame Lösung schon live nutzen. Öffentlich gibt es dafür noch keinen Kundennamen.
+- **„Wir wollen keinen neuen Arbeitsplatz, unsere Leute bleiben in ihren Werkzeugen.“** Verständlich. Offen bleibt dann, was mit den Mails passiert, die die KI nicht schafft, und wer dem Kunden antwortet. Bei uns liegen KI, Antwort und Arbeitsplatz im selben System.
+- **„Pipeforce nennt über 99 Prozent Treffer bei der Einordnung.“** Das sind Herstellerangaben aus ersten Umsetzungen, ohne genannten Kunden. Bei uns sehen Sie Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung und prüfen das mit Testfällen an Ihren eigenen Anliegen.
+
+## Fragen an den Kunden
+
+- **Wer antwortet Ihrem Kunden, nachdem die Buchung in SAP gelaufen ist?** Erwartete Antwort: Mitarbeitende, oder das ist noch offen. Überleitung: „Bei uns schreibt die KI die Antwort selbst, auch vollautomatisch.“
+- **Was passiert mit einer Mail, in der Zählerstand, neue IBAN und neuer Abschlag stehen?** Erwartete Antwort: Nicht geklärt, im Zweifel geht sie an Mitarbeitende. Überleitung: „Bei uns entsteht ein Lösungsplan für das ganze Ticket und eine Antwort.“
+- **Welche Versorger nutzen die gemeinsame Lösung schon live, und wer ist bei Fehlern zuständig?** Erwartete Antwort: Keine Namen, Zuständigkeit zwischen zwei Firmen aufgeteilt. Überleitung: „Bei uns kommen KI, Arbeitsplatz und Anbindung aus einer Hand.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

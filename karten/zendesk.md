@@ -19,6 +19,10 @@ kurz: "Breite Helpdesk-Suite aus den USA, KI je gelöstem Fall abgerechnet"
 | KI-Abrechnung | **1,50–2,00 €** | je gelöstem Fall, Copilot +50 € je Agent und Monat |
 | Hosting | **AWS Frankfurt** | KI-Agenten auf Google Cloud, Modelle OpenAI, Azure, Bedrock |
 
+## Erster Satz
+
+„Zendesk ist ein sehr breites Helpdesk, und genau bei Mails mit mehreren Anliegen setzen wir an: Die erledigen wir in einem Durchgang mit einer Antwort.“
+
 ## Das Wichtigste vorweg
 
 Zendesk kann fast alles, was enneo kann, auch Kundenerkennung und Buchungen im ERP. Die Anbindung ans ERP ist bei beiden Projektarbeit pro Kunde. Echte Unterschiede gibt es nur bei den drei Punkten unten. Überall sonst spart enneo höchstens Einrichtungsarbeit oder Zendesk liegt vorn.
@@ -28,6 +32,16 @@ Zendesk kann fast alles, was enneo kann, auch Kundenerkennung und Buchungen im E
 - **Mehrere Anliegen, eine Antwort:** Schreibt ein Kunde Zählerstand, neue IBAN und neuen Abschlag in eine Mail, erledigt enneo alles in einem Durchgang und schickt eine Antwort. Der Zendesk-KI-Agent erledigt laut eigener Doku pro Antwortmail nur einen Vorgang. Die übrigen folgen nacheinander in weiteren Mails.
 - **Gespeichert in Deutschland bei einem deutschen Anbieter:** enneo speichert bei Hetzner, auf Wunsch im Rechenzentrum des Kunden. Zendesk speichert bei AWS und Google Cloud, die Firma sitzt in den USA. Die Sprachmodelle kommen bei beiden von US-Anbietern.
 - **Bei Energieversorgern: Abläufe fertig im Produkt.** Zählerstand, Abschlag und Bankdaten sind fertige KI-Agenten mit Plausibilitätsprüfung. Bei Zendesk beschreibt man jeden dieser Abläufe selbst. Die ERP-Anbindung bauen wir trotzdem pro Kunde.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt mehrerer Mails nacheinander, weniger Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort, nicht drei.“ |
+| **Speicherung bei deutschem Anbieter** | Ticketdaten liegen in Deutschland bei einer deutschen Firma, auf Wunsch im eigenen Rechenzentrum | „Ihre Ticketdaten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten muss niemand selbst beschreiben, schneller produktiv | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir mit Ihnen.“ |
+| **Begründung der KI sichtbar** | Fehler und Übergaben schnell nachvollziehen, gezielt nachsteuern statt raten | „Bei uns sehen Sie zu jedem Fall den Lösungsplan und die erkannten Werte, auf Wunsch als Vorschau ohne Buchung.“ |
+| **Je Postfach ein eigener KI-Agent** | Mehrere Marken ohne Kompromiss bei Anrede und Wissen, weniger Pflegeaufwand | „Jede Marke bekommt bei uns einen eigenen KI-Agenten mit eigener Anrede und eigenem Wissen.“ |
 
 ## Wo Zendesk vorn liegt
 
@@ -75,6 +89,27 @@ Testkonto Zendesk Suite Professional (Rechenzentrum Frankfurt). Alles im Admin d
 - **Umbau im laufenden Betrieb:** KI-Agenten werden in einer eigenen Oberfläche verwaltet, der Rest im Admin Center. Ältere Bots stellt Zendesk bis Februar 2027 zwangsweise um. Das Live-Reporting wird am 25.01.2027 abgeschaltet, der Nachfolger ist noch nicht fertig.
 - **E-Mail-Antworten wenig steuerbar:** Laut Doku lassen sich Anrede und Aufbau der Antwortmail nur begrenzt festlegen. Zitate und Signaturen der Kundenmail werden entfernt.
 - **Vieles erst im Early Access:** eigene KI-Agenten für Hintergrundaufgaben, Abläufe mit Code, Gesprächssimulator, eigener MCP-Server.
+
+## Einwände
+
+- **„Zendesk ist Marktführer, das kennt jeder.“** Das stimmt, Zendesk ist breiter und hat mehr Zertifikate. Bei Mails mit mehreren Anliegen erledigt der Zendesk-KI-Agent laut eigener Doku aber einen Vorgang je Antwortmail, wir alle in einem Durchgang. Testen Sie beide mit Ihren eigenen Mails.
+- **„Zendesk ist deutlich günstiger.“** Bei den Lizenzen stimmt das. Bei Zendesk kommen die KI mit 1,50 bis 2,00 € je gelöstem Fall, Copilot und das Paket für Personalplanung und Qualität dazu, und die KI läuft über das kleine Guthaben hinaus standardmäßig weiter. Vergleichen Sie die Gesamtkosten bei Ihrem Volumen mit unseren Paketpreisen je Ticket und Sprachminute.
+- **„Wir haben Zendesk schon im Haus.“** Verständlich, dort stecken Einführung und Schulung drin. Schauen Sie auf die Fälle, die trotzdem Handarbeit bleiben: Mails mit mehreren Anliegen und Energie-Vorgänge mit Buchung im ERP. Genau dort zeigen wir den Unterschied an Ihren Beispielen.
+
+## Fragen an den Kunden
+
+- **Wie viele Ihrer Mails enthalten mehr als ein Anliegen?** Erwartete Antwort: ein spürbarer Teil, etwa Zählerstand zusammen mit neuen Bankdaten. Überleitung: „Der Zendesk-KI-Agent erledigt laut Doku einen Vorgang je Antwortmail, bei uns gibt es eine Antwort für alles.“
+- **Wie planen Sie die KI-Kosten, wenn das inklusive Guthaben aufgebraucht ist?** Erwartete Antwort: wird monatlich nachberechnet, genaue Höhe unklar. Überleitung: „Bei Zendesk läuft die KI standardmäßig weiter und wird je gelöstem Fall berechnet, bei uns gibt es Paketpreise je Ticket und Sprachminute.“
+- **Was bedeutet die Zwangsumstellung der älteren Bots bis Februar 2027 für Ihre Einrichtung?** Erwartete Antwort: noch nicht geklärt, Aufwand offen. Überleitung: „Wenn ohnehin umgebaut wird, lohnt der Vergleich mit einem System, in dem Arbeitsplatz und KI-Agenten eins sind.“
+
+## Intern
+
+- **Zu groß für kleine Teams:** Ein Interessent (Streaming-Anbieter, acht Mitarbeitende im Service) ist mit Zendesk unzufrieden, weil es für ihn zu groß ist, und sucht eine modulare Lösung. *Attio-Notiz vom 04.11.2026*
+- **Viel Geld im Customizing gebunden:** Ein Interessent (Energieversorger, digitales Geschäftsmodell) arbeitet mit Zendesk, findet das Customizing aber „manchmal träge“ und vermisst schnelle Ein-Klick-Lösungen für Mitarbeitende. Wechseln will er nicht schnell, weil „unfassbar viel Geld geflossen“ ist und Zendesk „einen guten Job“ macht. *Attio-Call vom 16.02.2026, Min. 7:37*
+- **Standardfälle statt eigener Anpassung:** Ein Interessent (Stadtwerk) berichtet aus seiner Anfrage bei Zendesk: „Zendesk möchte nichts, das man selbst promptet. Das machen alles die.“ Geliefert würden Standardfälle, am Hauptsystem solle nichts geändert werden. *Attio-Call vom 06.08.2026, Min. 22:49*
+- **Preis ist das Hauptargument:** Ein Interessent (Großhandel, 45 Service-Plätze) hatte Lizenzangebote von Zendesk und Freshdesk bei rund 33 bis 34 Tsd. € im Jahr, deutlich unter unserem Angebot, dazu nach seiner Erinnerung rund 12 Tsd. € Einführung bei Zendesk. Sein Vorstand erwartet nicht, dass ein junger Anbieter Zendesk beim Preis schlägt. *Attio-Call vom 25.06.2026, Min. 14:27*
+- **Fremde Voicebots statt Zendesk-Bot:** Ein Partner (BPO, Frankreich und Schweiz) hält Zendesk für die einzige gute Ausnahme unter den großen Anbietern, sieht die Herkunft aber im Ticketing, nicht in der Telefonie. Er betreibt Voicebots von zwei Fremdanbietern auf Zendesk, den eigenen Zendesk-Voicebot nennt er „not that good“. *Attio-Call vom 22.09.2026, Min. 36:28*
+- **Support als Unterschied:** Ein Bestandskunde (Mittelstand, hatte Zendesk in der Auswahl) nennt als Vorteil gegenüber Zendesk den deutschsprachigen, sehr schnell reagierenden Support, „was man bei Zendesk nicht hat“. *Attio-Call vom 11.06.2026, Min. 35:24*
 
 ## Fazit
 

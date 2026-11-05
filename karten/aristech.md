@@ -19,6 +19,10 @@ kurz: "Voicebot-Spezialist aus Heidelberg mit eigener Sprachtechnik, auch Mail u
 | Hosting | **EU-Cloud, Private Cloud, beim Kunden** | Betreiber der EU-Cloud nicht genannt. Spracherkennung läuft auch offline |
 | Referenzen | **BA, Air France-KLM, ADAC** | Dazu ÖBB, WestLotto, flatexDEGIRO. Ein Zertifikat nennt Aristech nicht |
 
+## Erster Satz
+
+„Aristech ist am Telefon wirklich stark, die spannende Frage ist, wer bei Ihnen E-Mails und Briefe bis zur Buchung im Zielsystem erledigt und in welchem System Ihre Mitarbeitenden den Rest bearbeiten.“
+
 ## Das Wichtigste vorweg
 
 Aristech ist zuerst ein Voicebot-Anbieter mit selbst entwickelter Spracherkennung und Sprachausgabe. Die großen Referenzen sind Telefon-Hotlines in Verwaltung, Mobilität und Finanzen. Mail AI und Chat AI gibt es, auf der Website aber nur grob beschrieben und ohne Referenz. Einen Arbeitsplatz für Mitarbeitende haben wir nicht gefunden: Aristech bindet sich an vorhandene Telefonie, Helpdesks und CRM an.
@@ -29,6 +33,16 @@ Aristech ist zuerst ein Voicebot-Anbieter mit selbst entwickelter Spracherkennun
 - **E-Mail-KI bis zur Buchung:** enneo erkennt das Anliegen und den Kunden, legitimiert, bucht im Zielsystem und antwortet, auch vollautomatisch. Aristech Mail AI erkennt Anliegen, liest Daten aus und erstellt Antworten oder Tickets. Ob sie im Zielsystem bucht, ist nicht dokumentiert. Bei der Bundesagentur für Arbeit soll die E-Mail-Verarbeitung erst nach dem Voicebot folgen.
 - **Mehrere Anliegen, eine Antwort:** enneo erledigt alle Anliegen einer Mail in einem Durchgang und antwortet einmal. Aristech erkennt laut einem Magazinbeitrag mehrere Anliegen, priorisiert sie und erleichtert die Übergabe an Mitarbeitende.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Aristech listet diese Fälle als Use Cases, eine Energie-Referenz haben wir nicht gefunden.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail bis zur Buchung** | Weniger Handarbeit im Schriftverkehr, weil Standardanliegen ohne Mitarbeitende abgeschlossen werden | „Bei uns endet eine E-Mail nicht als Ticket, sondern mit der Buchung im Zielsystem und der Antwort an Ihren Kunden.“ |
+| **Arbeitsplatz im selben System** | Kein zweites System lizenzieren, anbinden und pflegen | „Was die KI nicht schafft, landet bei uns im selben System beim richtigen Mitarbeitenden, nicht in einem weiteren Werkzeug.“ |
+| **Mehrere Anliegen, eine Antwort** | Weniger Folgekontakte, weil der Kunde eine vollständige Antwort bekommt | „Schreibt Ihr Kunde drei Anliegen in eine Mail, bekommt er bei uns eine Antwort, in der alle drei erledigt sind.“ |
+| **Unterlagen zum Datenschutz öffentlich** | Datenschutzprüfung ohne lange Nachforderungen | „AVV, TOM und Subunternehmer können Ihre Datenschützer bei uns schon heute öffentlich lesen.“ |
+| **Fertige Abläufe für Versorger** | Schneller Start bei den häufigsten Anliegen eines Energieversorgers | „Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung, die ERP-Anbindung bauen wir für Sie.“ |
 
 ## Wo Aristech vorn liegt
 
@@ -59,6 +73,22 @@ Aristech ist zuerst ein Voicebot-Anbieter mit selbst entwickelter Spracherkennun
 - **Schriftkanäle kaum belegt:** Die Seiten zu Mail AI und Chat AI nennen keine Referenz und keine Kennzahl. Ob WhatsApp unterstützt wird und wie die Übergabe an Mitarbeitende läuft, steht nicht da.
 - **Sicherheit ohne Nachweis:** Kein Zertifikat, kein genannter Betreiber der EU-Cloud, kein öffentlicher AVV. Die Website sagt nur „DSGVO-konform“ und „Made in Germany“.
 - **Neu im Konzern:** Seit Mai 2026 gehört Aristech zu Almato. Aristech soll Almatos Datenplattform Bardioc um Sprache, E-Mail und Chat erweitern. Wie die AI-Suite künftig allein verkauft wird, ist offen.
+
+## Einwände
+
+- **„Aristech hat die Bundesagentur für Arbeit und den ADAC als Referenz.“** Am Telefon sind das starke Referenzen, das erkennen wir an. Für Mail AI und Chat AI nennt Aristech öffentlich keine Referenz und keine Kennzahl. Wenn Ihr Schwerpunkt im Schriftverkehr liegt, schauen wir uns gemeinsam die Strecke bis zur Buchung an.
+- **„Aristech gehört jetzt zu DATAGROUP, das gibt uns Sicherheit.“** Konzernrückhalt ist ein echtes Argument. Die Übernahme ist von Mai 2026, und Aristech soll Almatos Plattform Bardioc erweitern. Bei uns sind Arbeitsplatz, KI-Agenten und Voicebot ein Produkt einer deutschen GmbH ohne Investoren.
+- **„Aristech läuft komplett in unserem eigenen Rechenzentrum, das brauchen wir.“** Da ist Aristech flexibler, das sagen wir offen. Bei uns geht Betrieb beim Kunden ab großem Volumen. Sonst speichern wir bei Hetzner in Deutschland, und AVV, TOM und Subunternehmer liegen öffentlich vor.
+
+## Fragen an den Kunden
+
+- **Wie bearbeiten Sie heute eingehende E-Mails, und wer bucht danach im Zielsystem?** Erwartete Antwort: Mitarbeitende im Postfach oder Ticketsystem, die Buchung von Hand. Überleitung: „Genau diese Strecke übernehmen unsere KI-Agenten bis zur Buchung und Antwort, auch vollautomatisch.“
+- **In welchem System arbeiten Ihre Mitarbeitenden weiter, wenn der Voicebot übergibt?** Erwartete Antwort: In einem anderen System als dem Bot. Überleitung: „Bei uns sind Voicebot, Postfach und Arbeitsplatz ein System, mit Skill-Routing.“
+- **Wer betreibt die EU-Cloud von Aristech, und welche Datenschutzunterlagen liegen Ihnen schon vor?** Erwartete Antwort: Nicht bekannt, bisher nur die Zusage „DSGVO-konform“. Überleitung: „Bei uns stehen AVV, TOM, Subunternehmer und SLA öffentlich, gespeichert wird bei Hetzner in Deutschland.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

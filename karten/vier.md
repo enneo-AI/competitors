@@ -20,6 +20,10 @@ pdf_partner: "enneo-vs-vier-vertrieb.pdf"
 | Hosting | **Frankfurt + Schweiz** | Rechenzentrumsbetreiber nicht genannt, Sprachdienste teils US-Anbieter |
 | Zertifikat | **ISO 27001:2022** | SBcert DEDE301500566, gültig bis 22.11.2029 |
 
+## Erster Satz
+
+„VIER ist als Telefonanlage und Contact Center sehr solide, und bei den Mails setzen wir an: Dort erledigt bei uns eine KI alles selbst, bis zur Buchung im Zielsystem.“
+
 ## Das Wichtigste vorweg
 
 VIER ist zuerst ein Contact-Center-Anbieter: Telefonanlage, Verteilung der Anfragen, Dialer, Aufzeichnung, Auswertung. Darin ist VIER deutlich größer und tiefer als wir. Die KI kam später als eigene Module dazu, der Agenten-Baukasten „AI Studio“ erst im November 2025. Bei der KI-Bearbeitung schriftlicher Anfragen liegt unser Vorteil. Bei Telefonie und Sprachdiensten liegt VIER vorn.
@@ -30,6 +34,17 @@ VIER ist zuerst ein Contact-Center-Anbieter: Telefonanlage, Verteilung der Anfra
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. Bei VIER ist dazu nichts dokumentiert, ebenso wenig zum Lesen von Anhängen und Fotos.
 - **Ein Produkt statt Baukasten:** Bei enneo sind Arbeitsplatz, KI-Agenten, Wissen und Telefonie ein System. Bei VIER sind engage, Copilot, AI Studio, AI Gateway und Voice Gateway getrennte Produkte, engage und Copilot mit eigenen Lizenzstufen. Dazu kommen Partnerlösungen. Nutzer kritisieren, dass für einzelne Funktionen oft ein neues Modul lizenziert werden muss und die Konfiguration aufwendig ist.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Die Energie-Referenzen von VIER betreffen vor allem Telefonanlage und Gesprächszusammenfassung, nicht automatische E-Mail-Bearbeitung.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail-KI aus einem Guss** | Kein Partnerprodukt und kein zweiter Vertrag für die Mail-Automatisierung, eine Ansprechstelle | „Bei uns liest, bucht und antwortet dieselbe KI, ohne Partnerprodukt dazwischen.“ |
+| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Ein Produkt statt fünf** | Keine Zusatzmodule für einzelne Funktionen lizenzieren, weniger Abstimmung zwischen Modulen und Partnern | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
+| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo VIER vorn liegt
 
@@ -75,6 +90,22 @@ Geprüft am 04.11.2026 auf vier.ai, in der Produktbroschüre (Stand Februar 2026
 - **Zugekauft und zusammengesetzt:** Laut Gesellschafter die achte Übernahme mit authensis (2025). Für E-Mail-KI gibt es drei Wege nebeneinander. Bei solchen Plattformen entsteht für den Kunden mehr Abstimmung zwischen Modulen und Partnern.
 - **Aussagen zu Datenschutz nicht belegt:** „100 % DSGVO- und EU AI Act-konform“ ohne Nachweis. AVV, Liste der Subunternehmer und SLA sind nicht einsehbar. Die Seite sagt „Funktionen wie Voice werden ausschließlich innerhalb der EU verarbeitet“, die eigene Doku führt aber auch US-gehostete Sprachdienste.
 - **Doku dünn:** Öffentliche Entwicklerdoku nur für das Voice Gateway, Release Notes dort zuletzt Februar 2025. Für engage, AI Studio und AI Gateway keine öffentliche API-Doku.
+
+## Einwände
+
+- **„VIER ist bei uns schon die Telefonanlage.“** Gut so, Telefonanlage und Verteilung kann VIER sehr gut. Für Mails, die eine KI selbst bis ins Zielsystem erledigen soll, ist enneo daneben oft das bessere Gespräch als ein Komplettwechsel.
+- **„VIER hat mit dem AI Studio jetzt auch KI-Agenten.“** Stimmt, seit November 2025, mit Simulation und Bewertung. Öffentlich belegt ist bisher ein Voice-Agent, eine E-Mail-Referenz haben wir nicht gefunden. Fragen Sie nach einer Mail-Referenz mit Buchung im Zielsystem.
+- **„VIER ist deutsch und ISO-zertifiziert, ihr nicht.“** Das Zertifikat ist ein echter Vorsprung, bei uns sind ISO 27001 und SOC 2 in Prüfung, Hetzner ist ISO 27001 zertifiziert. Dafür sind unsere AVV, TOM, Subunternehmer und SLA öffentlich, bei VIER sind sie nicht einsehbar.
+
+## Fragen an den Kunden
+
+- **Welches Produkt bearbeitet Ihre Mails heute inhaltlich, VIER selbst oder ein Partner?** Erwartete Antwort: VIER verteilt, beantwortet wird von Hand oder über ein Partnerprodukt. Überleitung: „Bei uns erledigt das dieselbe KI vom Eingang bis zur Antwort, in einem System.“
+- **Haben Sie gesehen, wie VIER eine Mail mit drei Anliegen und einem Foto im Anhang bearbeitet?** Erwartete Antwort: nein, dazu ist nichts dokumentiert. Überleitung: „Das zeigen wir Ihnen gern live mit Ihren eigenen Beispielmails.“
+- **Liegen Ihnen AVV, Subunternehmerliste und SLA von VIER schon vor?** Erwartete Antwort: nein, erst auf Anfrage. Überleitung: „Unsere Unterlagen sind öffentlich, Ihr Datenschutz kann heute schon prüfen.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

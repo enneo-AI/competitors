@@ -19,6 +19,10 @@ kurz: "US-Plattform für Personalplanung, Qualität und KI-Bots im Contact Cente
 | Hosting | **AWS Frankfurt u. a.** | EU-Region: AWS Frankfurt, Azure Paris, Google Cloud Frankfurt. Calabrio-Produkte in Irland und den Niederlanden. Hybrid mit Servern beim Kunden möglich |
 | Zertifikat | **SOC 2, PCI DSS** | Trust Center nennt außerdem ISO 27001:2022 und ISO 42001 (Calabrio), HIPAA, FedRAMP. BSI C5 nicht gefunden |
 
+## Erster Satz
+
+„Verint ist bei Personalplanung und Qualitätsmanagement stark, und genau daneben setzen wir an: Mails, die eine KI selbst bis zur Buchung im Zielsystem erledigt.“
+
 ## Das Wichtigste vorweg
 
 Verint ist vor allem stark in Personaleinsatzplanung, Qualitätsmanagement, Aufzeichnung und Auswertung und setzt darauf über 50 einzelne KI-Bots, die meist neben einem fremden Contact Center laufen, etwa Genesys, NICE oder Amazon Connect. Seit Juni 2026 kommt die „Agent Factory“ zum Bauen von KI-Agenten dazu. Eine KI, die eingehende E-Mails bis zur Buchung im Zielsystem bearbeitet, haben wir bei Verint nicht gefunden. Dort liegt unser Vorteil, bei Personalplanung, Qualität und Zertifikaten liegt Verint klar vorn.
@@ -29,6 +33,16 @@ Verint ist vor allem stark in Personaleinsatzplanung, Qualitätsmanagement, Aufz
 - **Mehrere Anliegen und Anhänge:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. PDF und Fotos liest enneo mit, z. B. ein Zählerfoto. Bei Verint ist zu beidem nichts dokumentiert.
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Die Versorger-Referenzen von Verint betreffen Personalplanung, Transkription, Qualität und Gesprächsnachbereitung, nicht automatische Fallbearbeitung.
 - **Ein Produkt, deutscher Anbieter:** Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei enneo ein System, gespeichert bei Hetzner in Deutschland, auf Wunsch beim Kunden. Verint ist eine US-Firma, speichert bei AWS, Azure oder Google und legt gerade zwei Produktwelten (Verint und Calabrio) zusammen.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail-KI über die volle Strecke** | Standardfälle laufen ohne Handarbeit durch, weniger Mitarbeitende für Schriftverkehr | „Bei uns erledigt die KI eine Mail vom Eingang bis zur Buchung im ERP, auf Wunsch ganz ohne Mitarbeitende.“ |
+| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Ein Produkt statt vieler Einzelbots** | Kein Einzelkauf je Aufgabe, weniger Lizenz- und Abstimmungsaufwand | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System, nicht fünfzig einzelne Bots.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Verint vorn liegt
 
@@ -61,6 +75,22 @@ Verint ist vor allem stark in Personaleinsatzplanung, Qualitätsmanagement, Aufz
 - **Umbau nach Übernahme:** Neuer Eigentümer, Interims-Chef und Zusammenlegung mit Calabrio innerhalb eines Jahres. Verint sagt „wir migrieren niemanden“. Info-Tech warnt, dass „keine erzwungene Migration“ nicht „keine spätere Zusammenführung“ heißt, und sieht Verint bei agentischer KI eher als Nachzügler.
 - **Viele Einzelteile, schwer zu kalkulieren:** Jeder Bot erledigt laut Verint genau eine Aufgabe und wird einzeln gebucht. Preise sind nicht öffentlich. Ein Nutzer im AWS Marketplace nennt das Lizenzmodell komplex und teuer, besonders für kleinere Contact Center.
 - **Wenig DACH-Belege:** Die gefundenen Referenzen sind überwiegend aus UK, USA und Benelux. In Deutschland haben wir nur Sky (Wissensmanagement) gefunden, keinen Versorger oder Versicherer.
+
+## Einwände
+
+- **„Wir nutzen Verint schon für Personalplanung und Qualität.“** Das ist gut so, dort ist Verint stark, und ein Workforce Management haben wir nicht. Für den Schriftverkehr, den eine KI bis ins Zielsystem erledigen soll, sind wir daneben das passendere Gespräch als ein Ersatz.
+- **„Verint hat mit der Agent Factory jetzt auch KI-Agenten.“** Stimmt, seit Juni 2026. Beschrieben sind sie für Sprache und digitale Kanäle, eine automatische Bearbeitung eingehender Mails bis zur Buchung haben wir nicht gefunden. Fragen Sie Verint nach einer Referenz genau dafür.
+- **„Verint hat SOC 2 und ISO 27001, ihr nicht.“** Das ist berechtigt, bei uns sind ISO 27001 und SOC 2 in Prüfung, unser Rechenzentrumsbetreiber Hetzner ist ISO 27001 zertifiziert. Dafür sind wir eine deutsche GmbH ohne Investoren, speichern in Deutschland, und AVV, TOM, Subunternehmer und SLA sind öffentlich einsehbar.
+
+## Fragen an den Kunden
+
+- **Wer bearbeitet Ihre eingehenden Mails heute inhaltlich, und wie viel davon ist Handarbeit?** Erwartete Antwort: Verint verteilt, die Mitarbeitenden lesen und buchen selbst, eventuell mit Agent Assist. Überleitung: „Genau diese Strecke übernimmt bei uns die KI, vom Eingang bis zur Buchung.“
+- **Wie viele einzelne Bots bräuchten Sie für Ihre zehn häufigsten Anliegen, und was kostet jeder?** Erwartete Antwort: unklar, Angebot nach Bedarf. Überleitung: „Bei uns ist das ein Produkt mit Paketpreisen je Ticket und Sprachminute.“
+- **Wie sieht Ihr Fahrplan nach der Zusammenlegung von Verint und Calabrio aus?** Erwartete Antwort: noch offen, Verint sagt, niemand werde migriert. Überleitung: „Bei uns kommt alles aus einem Produkt und einer Hand, von einer deutschen GmbH ohne Investoren.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

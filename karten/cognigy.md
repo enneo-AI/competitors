@@ -19,6 +19,10 @@ kurz: "KI-Agenten-Plattform für Telefon und Chat aus Düsseldorf, gehört zu Ni
 | Hosting | **SaaS in vier Regionen** | Europa, USA, Großbritannien, Australien. Betreiber der Europa-Umgebung nicht genannt. Über NiCE CXone auf AWS, u. a. Frankfurt. On-Premise für Neukunden nicht mehr |
 | Zertifikat | **ISO 27001, SOC 2, C5** | Laut Trust Center dazu ISO 27701, ISO 42001, TISAX. Art und Umfang des C5-Testats nicht genannt |
 
+## Erster Satz
+
+„Cognigy ist am Telefon und im Chat eine der stärksten Plattformen, die Frage ist nur, was mit Ihren eingehenden E-Mails und Briefen passiert, denn dafür hat Cognigy keinen Eingangskanal.“
+
 ## Das Wichtigste vorweg
 
 Cognigy ist eine der bekanntesten Plattformen für KI-Agenten am Telefon und im Chat, mit großen Referenzen in Deutschland wie ERGO, AOK PLUS und Lufthansa. Beim Voicebot, beim Testen von KI-Agenten und bei Zertifikaten liegt Cognigy vor uns. Eingehende E-Mails bearbeitet Cognigy nicht: Unter den 30 Eingangskanälen der Doku ist keiner für E-Mail, E-Mail gibt es nur zum Versenden aus einem Ablauf. Einen eigenen Arbeitsplatz für Mitarbeitende entwickelt Cognigy nicht mehr weiter, die Übergabe läuft an fremde Contact Center, vor allem NiCE CXone.
@@ -30,6 +34,16 @@ Cognigy ist eine der bekanntesten Plattformen für KI-Agenten am Telefon und im 
 - **Ein Produkt mit Arbeitsplatz:** Bei enneo sind Ticketing-Arbeitsplatz, Postfach, KI-Agenten, Wissen und Telefonie ein System. Der Arbeitsplatz von Cognigy („Live Agent“) ist im Wartungsmodus und bekommt nur noch Sicherheits- und Fehlerkorrekturen. Wer Mitarbeitende braucht, kauft ein Contact Center dazu, etwa NiCE CXone.
 - **Bei Energieversorgern zusätzlich:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Bei Cognigy haben wir keine fertigen Versorger-Abläufe gefunden. Die Versorger-Referenz Salzburg AG ist ein Chat-Assistent.
 - **Betrieb beim Kunden möglich:** enneo speichert bei Hetzner, ab großem Volumen auch im Rechenzentrum des Kunden. Cognigy bietet On-Premise für Neukunden nicht mehr an, nur Bestandskunden laufen weiter.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Eingehende E-Mail bis zur Buchung** | Kein zweites System für den Schriftverkehr kaufen und pflegen | „Für eingehende E-Mails bräuchten Sie neben Cognigy ein weiteres System, bei uns erledigt das dieselbe KI.“ |
+| **Arbeitsplatz im Produkt** | Keine Zusatzlizenz für ein Contact Center, kein Risiko durch einen auslaufenden Arbeitsplatz | „Der Arbeitsplatz von Cognigy bekommt keine neuen Funktionen mehr, bei uns ist er Teil des Produkts.“ |
+| **Mehrere Anliegen und Anhänge** | Weniger Folgekontakte, ein Vorgang statt mehrerer | „Zählerstand, neue IBAN und das Zählerfoto im Anhang: bei uns ein Durchgang und eine Antwort.“ |
+| **Fertige Abläufe für Versorger** | Weniger Bauaufwand für die häufigsten Anliegen | „Zählerstand, Abschlag und Bankdaten bauen Sie bei uns nicht selbst, die KI-Agenten sind fertig.“ |
+| **Betrieb beim Kunden möglich** | Option für Häuser mit strengen Vorgaben an den Betrieb | „Neukunden bietet Cognigy keinen Betrieb im eigenen Rechenzentrum mehr an, bei uns geht das ab großem Volumen.“ |
 
 ## Wo Cognigy vorn liegt
 
@@ -62,6 +76,25 @@ Cognigy ist eine der bekanntesten Plattformen für KI-Agenten am Telefon und im 
 - **Im Umbau unter NiCE:** Live Agent bekommt keine neuen Funktionen mehr, On-Premise gibt es für Neukunden nicht mehr. Die Entwicklung richtet sich sichtbar auf NiCE CXone aus, etwa mit eigenen Knoten für CXone Copilot.
 - **Kosten setzen sich zusammen:** Keine öffentlichen Preise. Knowledge AI, xApps, Ops Center und Voice Gateway brauchen jeweils eine eigene Lizenz. In CXone zählt ein Anruf über 10 Minuten als zwei Gespräche.
 - **Integrationen nicht fertig im Kasten:** Nutzer auf OMR loben den Low-Code-Baukasten, wünschen sich aber mehr fertige Anbindungen an Unternehmenssysteme (nur 7 Bewertungen).
+
+## Einwände
+
+- **„Cognigy ist Marktführer und gehört jetzt zu NiCE.“** Bei Voicebots stimmt das, und das erkennen wir an. Der Zukauf heißt aber auch: Live Agent ist im Wartungsmodus, und die Entwicklung richtet sich auf NiCE CXone aus. Wer Mitarbeitende im selben System will, kauft bei Cognigy ein Contact Center dazu.
+- **„Wir haben Cognigy am Telefon schon im Haus.“** Dann braucht es keinen Komplettwechsel. Für eingehende E-Mails und Briefe hat Cognigy keinen Kanal, dort setzen wir an, bis zur Buchung im Zielsystem und mit Arbeitsplatz für den Rest.
+- **„Cognigy hat ISO 27001, SOC 2 und C5, Sie nicht.“** Das stimmt, eigene Zertifikate haben wir noch nicht, ISO 27001 und SOC 2 sind in Prüfung. Gespeichert wird bei Hetzner in Deutschland, und Hetzner ist ISO 27001 zertifiziert. AVV, TOM, Subunternehmer und SLA liegen öffentlich vor.
+
+## Fragen an den Kunden
+
+- **Wie kommen eingehende E-Mails und Briefe bei Ihnen in denselben Vorgang wie der Anruf?** Erwartete Antwort: Über ein anderes System, nicht über Cognigy. Überleitung: „Dann bleibt der Schriftverkehr in einem zweiten System. Bei uns laufen E-Mail, Brief, Chat und Telefon in einem.“
+- **Welcher Arbeitsplatz ist für Ihre Mitarbeitenden in den nächsten Jahren gesetzt, Cognigy Live Agent oder NiCE CXone?** Erwartete Antwort: Unsicherheit oder ein Verweis auf CXone. Überleitung: „Live Agent ist laut Cognigys eigener Doku im Wartungsmodus. Bei uns ist der Arbeitsplatz Teil des Produkts.“
+- **Welche Module sind in Ihrem Cognigy-Angebot schon eingerechnet?** Erwartete Antwort: Die Grundlizenz, Zusatzmodule offen. Überleitung: „Knowledge AI, xApps, Ops Center und Voice Gateway brauchen bei Cognigy jeweils eine eigene Lizenz. Lassen Sie uns die Gesamtkosten nebeneinanderlegen.“
+
+## Intern
+
+- **Zu teuer für Kunden des Partners:** Ein Partner hatte selbst eine Partnerschaft mit Cognigy und kaum Projekte umgesetzt. Seine Kunden lehnten ab: „da haben wir kaum Projekte umgesetzt, weil die waren einfach zu teuer.“ *Attio-Call vom 19.10.2026, Min. 43:19*
+- **Viele Anbindungen, genutzt wird eine:** Derselbe Partner sieht wenig Mehrwert in der Breite: „am Ende braucht es genau eine Anbindung und nicht eben diese dreißig.“ *Attio-Call vom 19.10.2026, Min. 43:40*
+- **Zu groß und zu teuer:** Ein möglicher Partner sucht Alternativen, weil Cognigy „an vielen Stellen“ zu groß und zu teuer sei. *Attio-Call vom 04.09.2026, Min. 9:18*
+- **Unzufriedener Bestandskunde mit Vertrag:** Ein Partner (KI-Beratung) berichtet von einem Industrieunternehmen, das mit Cognigy gestartet ist und „nicht so happy“ ist. Ein laufender Vertrag erschwert den Wechsel. *Attio-Call vom 16.07.2026, Min. 31:44*
 
 ## Fazit
 

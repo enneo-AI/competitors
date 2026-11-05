@@ -81,14 +81,17 @@ for k in karten:
     h = k["html"]
     teile = re.split(r"(?=<h2>)", h)
     def sek(t): return next((x for x in teile if x.startswith(f"<h2>{t}</h2>")), "")
-    fazit = sek("Fazit"); quellen = sek("Quellen"); eck = sek("Eckdaten")
-    rest = "".join(x for x in teile if x not in (fazit, quellen, eck))
+    fazit = sek("Fazit"); quellen = sek("Quellen"); eck = sek("Eckdaten"); satz = sek("Erster Satz")
+    rest = "".join(x for x in teile if x not in (fazit, quellen, eck, satz))
+    rest = rest.replace("<h2>Business-Impact</h2>\n<table>", '<h2>Business-Impact</h2>\n<table class="impact">')
+    rest = rest.replace("<h2>Intern</h2>", '<h2 class="intern">Intern · nur für enneo</h2>')
     links = " · ".join(f'<a href="{u}">{t}</a>' for u, t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>', quellen))
     doc = f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="../druck.css"></head><body>
 <div class="hd"><div class="l"><img src="../assets/enneo-logo.svg"><span class="sec">Intern · Vertrieb</span></div>
 <div class="r"><b>Vergleich · enneo vs. {k['name']}</b>Stand {datum(k['stand'])} · nur intern</div></div>
 <h1>enneo vs. <em>{k['name']}</em></h1><p class="lede">{k['kurz']}</p>
 <div class="eck">{eck.replace('<h2>Eckdaten</h2>','')}</div>
+{('<div class="satz"><span>Erster Satz im Call</span>' + re.sub(r"</?p>", "", satz.replace('<h2>Erster Satz</h2>','')) + '</div>') if satz else ''}
 {('<div class="fazit">' + fazit.replace('<h2>Fazit</h2>','') + '</div>') if fazit else ''}
 {rest}
 <h2>Quellen</h2><p class="quellen">{links}</p></body></html>"""

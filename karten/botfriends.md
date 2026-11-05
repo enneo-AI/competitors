@@ -19,6 +19,10 @@ kurz: "KI-Agenten für Chat, Telefon und E-Mail aus Würzburg"
 | Hosting | **EU, nur Cloud** | Laut FAQ „zertifizierte Server in Deutschland“, Anbieter nicht genannt, Google Cloud Partner |
 | Referenzen | **40+ Versorgerprojekte** | SWM, RWE, enviaM, N-ERGIE, Süwag, Stadtwerke Karlsruhe (Ø 21.000 automatisierte Nachrichten im Monat) |
 
+## Erster Satz
+
+„BOTfriends kennt Stadtwerke gut und ist im Chat stark, die Frage ist, was mit Ihren E-Mails und Briefen passiert und wo Ihre Mitarbeitenden nach der Übergabe weiterarbeiten.“
+
 ## Das Wichtigste vorweg
 
 BOTfriends ist ein Bot-Anbieter, der seit Jahren gezielt Stadtwerke angeht: eigene Lösungsseiten, Studie zum Stadtwerke-Kundenservice, lange Logo-Liste. Stark ist BOTfriends im Self-Service per Chat und Telefon, mit Vorlagen für Wilken und Schleupen und Zählerstand direkt ins Abrechnungssystem. E-Mail ist bei BOTfriends vor allem Sortieren, Weiterleiten und Beantworten. Einen eigenen Arbeitsplatz für Mitarbeitende beschreibt BOTfriends nicht, der Bot übergibt an bestehende Systeme.
@@ -30,6 +34,16 @@ BOTfriends ist ein Bot-Anbieter, der seit Jahren gezielt Stadtwerke angeht: eige
 - **Arbeitsplatz und KI in einem Produkt:** enneo bringt Ticketing-Arbeitsplatz, Postfach, KI-Agenten, Wissen, Telefonie und Voicebot in einem System mit Skill-Routing. BOTfriends übergibt Gespräche an Mitarbeitende, der Copilot arbeitet „in bestehenden Ticketsystemen“. Der Kunde braucht also zusätzlich ein Ticketsystem oder Contact Center.
 - **Datenschutz belegbar:** Bei enneo sind AVV, TOM, Subunternehmer und SLA öffentlich, gespeichert wird bei Hetzner in Deutschland, ab großem Volumen auch beim Kunden. BOTfriends nennt weder Hosting-Anbieter noch Sprachmodelle noch Subunternehmer und ist nur als Cloud erhältlich.
 - **Brief als eigener Kanal:** Scans per Mail oder API laufen bei enneo durch dieselbe KI wie E-Mails. Bei BOTfriends haben wir keinen Briefkanal gefunden.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, weil auch IBAN oder Abschlag ohne Handarbeit erledigt werden | „Bei uns liest die KI die Mail, bucht im Zielsystem und antwortet, nicht nur beim Zählerstand.“ |
+| **Mehrere Anliegen und Anhänge in einer Mail** | Ein Vorgang statt mehrerer, weniger Folgekontakte | „Zählerstand, neue IBAN und neuer Abschlag in einer Mail: bei uns ein Durchgang und eine Antwort.“ |
+| **Arbeitsplatz im selben Produkt** | Kein zusätzliches Ticketsystem lizenzieren und anbinden | „Mit BOTfriends brauchen Sie für Ihre Mitarbeitenden noch ein Ticketsystem, bei uns ist der Arbeitsplatz dabei.“ |
+| **Brief als eigener Kanal** | Papierpost läuft durch dieselbe Automatisierung, kein Sonderprozess | „Gescannte Briefe laufen bei uns durch dieselbe KI wie Ihre E-Mails.“ |
+| **Datenschutz belegbar** | Datenschutzprüfung mit weniger Nachforderungen | „Hosting, Subunternehmer und AVV liegen bei uns offen, bei BOTfriends sind Hosting-Anbieter und Sprachmodelle nicht öffentlich.“ |
 
 ## Wo BOTfriends vorn liegt
 
@@ -63,6 +77,22 @@ BOTfriends ist ein Bot-Anbieter, der seit Jahren gezielt Stadtwerke angeht: eige
 - **Kein Arbeitsplatz:** Was nach der Übergabe an Mitarbeitende passiert, liegt in einem fremden System. Ein Ticketsystem namentlich nennt BOTfriends nicht.
 - **Datenschutz nur behauptet:** „100 % DSGVO-konform“ und „EU AI Act konform“ ohne Nachweis. Hosting-Anbieter, Sprachmodelle und Subunternehmer sind nicht öffentlich, Zertifikate nennt BOTfriends keine.
 - **Kritik in Bewertungen:** Auf OMR werden Reporting, komplexe Konfiguration fortgeschrittener Funktionen und wiederkehrende Fehler genannt, einmal auch noch unnatürliche Pausen am Telefon.
+
+## Einwände
+
+- **„BOTfriends hat über 40 Stadtwerke als Referenz.“** Das ist eine starke Liste, vor allem für Chat und Telefon. Fragen Sie, wie viele davon eingehende E-Mails bis zur Buchung automatisieren. Genau das ist bei uns der Kern.
+- **„BOTfriends hat fertige Vorlagen für Wilken und Schleupen.“** Das stimmt, bei uns wird die ERP-Anbindung pro Kunde gebaut. Dafür sind Schnittstellen bei uns Code in jedem Format, und Altsysteme ohne Schnittstelle erreichen wir mit dem RPA-Bot.
+- **„Bei BOTfriends ist der Preis öffentlich, und wir können kostenlos testen.“** Das ist ein echter Vorteil. Rechnen Sie aber das Ticketsystem für Ihre Mitarbeitenden und die E-Mail-Bearbeitung dazu, die BOTfriends nicht beschreibt. Bei uns zahlen Sie Pakete je Ticket und Sprachminute für ein System mit Arbeitsplatz.
+
+## Fragen an den Kunden
+
+- **Wie viel Ihres Aufkommens kommt per E-Mail oder Brief, und wo wird das heute bearbeitet?** Erwartete Antwort: Ein großer Teil, in einem anderen System oder von Hand. Überleitung: „Dann deckt der Bot nur einen Teil ab. Bei uns laufen E-Mail und Brief durch dieselbe KI bis zur Buchung.“
+- **Was passiert bei BOTfriends mit einer Mail, die Zählerstand und neue IBAN enthält und ein Foto im Anhang hat?** Erwartete Antwort: Unklar, im Zweifel landet sie bei Mitarbeitenden. Überleitung: „Bei uns entsteht ein Lösungsplan für das ganze Ticket, der Anhang wird mitgelesen, und es gibt eine Antwort.“
+- **Welcher Hosting-Anbieter, welche Sprachmodelle und welche Subunternehmer stehen hinter BOTfriends?** Erwartete Antwort: Nicht bekannt, nur „DSGVO-konform“. Überleitung: „Bei uns sind AVV, TOM, Subunternehmer und SLA öffentlich einsehbar.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

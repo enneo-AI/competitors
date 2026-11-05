@@ -19,6 +19,10 @@ kurz: "Chat- und Messaging-Plattform aus Köln mit KI-Agenten, früher Userlike"
 | Hosting | **Deutschland** | Server in Deutschland auf ISO-27001-zertifizierter Infrastruktur, Betreiber im DPA nicht genannt. KI-Modelle laut Website nur auf Microsoft Azure und AWS Bedrock |
 | Referenzen | **Stadtwerke im Chat** | Allgäuer Überlandwerk, OVAG, E-Werk Mittelbaden, Stadtwerke Cottbus, Husum und Konstanz, dazu PSD Bank Nürnberg, Toyota, TUI Austria |
 
+## Erster Satz
+
+„Lime Connect ist im Website-Chat und bei WhatsApp stark und günstig im Einstieg. Bei Mails und Briefen bis zur Buchung im Abrechnungssystem und am Telefon setzt enneo an.“
+
 ## Das Wichtigste vorweg
 
 Lime Connect kommt aus dem Website-Chat und ist heute eine Messaging-Plattform: Chat, WhatsApp, soziale Kanäle und E-Mail laufen in ein gemeinsames Postfach, das Message Center. Der KI-Agent beantwortet vor allem Wissensfragen und kann über MCP und API Actions Fremdsysteme abfragen. E-Mail ist ein Kanal unter vielen, die Bearbeitung einer Mail per KI bis zur Buchung im Abrechnungssystem ist öffentlich nicht beschrieben. Lime ist günstig im Einstieg und bei Stadtwerken im Chat verbreitet, beim Schriftverkehr und am Telefon liegt unser Vorteil.
@@ -30,6 +34,17 @@ Lime Connect kommt aus dem Website-Chat und ist heute eine Messaging-Plattform: 
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige KI-Agenten mit Plausibilitätsprüfung, die ERP-Anbindung bauen wir pro Kunde. Lime nennt für Versorger einen FAQ-Chatbot und Zählerstände per WhatsApp-Formular. Eine Anbindung an Abrechnungssysteme nennt Lime nicht.
 - **Schnittstellen ohne Grenzen:** Bei enneo entstehen Schnittstellen als Code, in jedem Format und mit beliebiger Logik. Lime bindet Systeme über API Actions und MCP an, mit Token im Header, ohne OAuth. Einen eigenen MCP-Server aufzusetzen erfordert laut Lime IT- und Programmierkenntnisse.
 - **Telefon im selben Produkt:** enneo hat Telefonie und Voicebot, mit eigener Leitung oder der SIP-Leitung des Kunden. Der Telefonkanal von Lime ist laut Doku im Alpha-Stadium und nicht öffentlich verfügbar.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail-KI bis zur Buchung** | Schriftverkehr wird ohne Mitarbeitende erledigt, weniger Personal für die Postfächer | „Bei uns liest die KI die Mail, erkennt den Kunden, bucht im Zielsystem und antwortet.“ |
+| **Mehrere Anliegen und Anhänge** | Weniger Folgekontakte, Zählerfotos und PDFs muss niemand abtippen | „Zählerstand, neue IBAN und Zählerfoto in einer Mail erledigt enneo in einem Durchgang mit einer Antwort.“ |
+| **Fachagenten mit ERP-Anbindung** | Der Zählerstand landet geprüft im Abrechnungssystem statt nur in einem Formular | „Bei uns geht der Zählerstand mit Plausibilitätsprüfung direkt ins Abrechnungssystem.“ |
+| **Telefonie und Voicebot im Produkt** | Kein zweiter Anbieter fürs Telefon, eine Logik für alle Kanäle | „Telefon und Voicebot laufen bei uns im selben System wie E-Mail und Chat.“ |
+| **Schnittstellen als Code** | Auch komplexe Altsysteme anbinden, ohne eigenen MCP-Server aufzusetzen | „Wir bauen die Schnittstelle als Code, in jedem Format und mit jeder Logik.“ |
+| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung schneller, weniger Nachforderungen | „AVV, TOM, Subunternehmer und SLA können Sie vorab öffentlich einsehen.“ |
 
 ## Wo Lime Connect vorn liegt
 
@@ -61,6 +76,22 @@ Lime Connect kommt aus dem Website-Chat und ist heute eine Messaging-Plattform: 
 - **Doku zum KI-Agenten dünn:** Kanäle, Übergabe an Mitarbeitende und Grenzen sind in der Doku kaum beschrieben. Was ein Gespräch über die 100 inklusiven hinaus kostet, steht nicht auf der Preisseite.
 - **Lange Nachrichten:** Nutzer auf OMR berichten, dass der Bot sich mit langen oder unklar formulierten Nachrichten schwertut. Der Preis und seine Zusammensetzung aus Zusatzmodulen sind der häufigste Kritikpunkt.
 - **Wenig Transparenz bei Unterauftragnehmern:** Hosting-Betreiber und KI-Anbieter stehen weder im DPA noch auf der KI-Infoseite.
+
+## Einwände
+
+- **„Lime ist viel günstiger, es gibt sogar einen Free-Tarif.“** Im Einstieg stimmt das. Fragen Sie, was ein KI-Gespräch über die 100 inklusiven hinaus kostet, das steht nicht auf der Preisseite. Und rechnen Sie mit, wer die Mails bis zur Buchung erledigt, denn dort liegt bei Versorgern meist der größte Aufwand.
+- **„Lime hat viele Stadtwerke als Referenz.“** Das stimmt, im Chat. Die Referenzen betreffen den Chat. Eine Anbindung an Abrechnungssysteme nennt Lime nicht, bei enneo sind Zählerstand, Abschlag und Bankdaten fertige Fachagenten.
+- **„Wir haben Lime schon für den Chat.“** Dann kann Lime dort bleiben, enneo übernimmt Schriftverkehr und auf Wunsch das Telefon. Lime schaltet den alten AI Automation Hub am 31.12.2026 ab, eine Umstellung steht also ohnehin an.
+
+## Fragen an den Kunden
+
+- **Wie viele Ihrer Anfragen kommen per Mail oder Brief, und wer bearbeitet die heute?** Erwartete Antwort: ein großer Teil, bearbeitet von Mitarbeitenden, Lime deckt vor allem Chat und Messenger ab. Überleitung: „Genau diesen Schriftverkehr erledigt enneo bis zur Buchung, auch vollautomatisch.“
+- **Nutzen Sie noch den AI Automation Hub, und wie planen Sie den Umstieg zum Jahresende?** Erwartete Antwort: Der Umstieg auf Connect AI ist noch offen. Überleitung: „Wenn ohnehin umgestellt wird, lohnt der Blick auf E-Mail und Telefon gleich mit.“
+- **Kann der KI-Agent von Lime eine Mail mit Zählerfoto im Anhang bis ins Abrechnungssystem buchen?** Erwartete Antwort: unklar, öffentlich ist das für den KI-Agenten nicht dokumentiert. Überleitung: „Lassen Sie uns das an Ihren echten Mails zeigen, bei uns ist genau das der Kern.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

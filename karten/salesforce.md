@@ -19,6 +19,10 @@ kurz: "US-CRM-Plattform, Service Cloud mit KI-Agenten von Agentforce"
 | Hosting | **Hyperforce, Region Deutschland** | Hyperforce auf AWS, Region Deutschland wählbar, EU Operating Zone mit EU-Support kostet extra. Sprachmodelle von Drittanbietern ohne Speicherung |
 | Zertifikat | **ISO 27001, C5** | Für Agentforce: ISO 27001, 27017, 27018 (Stand 30.10.2026) und C5-Bericht (Juli 2026) |
 
+## Erster Satz
+
+„Salesforce ist eine sehr breite Plattform, spannend wird es dort, wo Mails Anhänge, Fotos oder mehrere Anliegen haben und die Daten bei einem deutschen Anbieter liegen sollen.“
+
 ## Das Wichtigste vorweg
 
 Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Field Service, Slack und eine eigene Agenten-Plattform, Agentforce. Der Agentforce Service Agent beantwortet E-Mails selbstständig, liest laut eigener Doku aber nur Betreff und Mailtext, keine Bilder und Anhänge. Für Telefon, Chat, SMS und WhatsApp gibt es seit September 2026 den fertigen Agenten „Casey“, dazu kauft Salesforce mit Fin einen zweiten KI-Agenten. Preise sind öffentlich, die Kosten setzen sich aber aus Lizenz und KI-Verbrauch zusammen.
@@ -30,6 +34,16 @@ Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Fie
 - **Kontrolle vor dem Versand:** Bei enneo zeigt der Lösungsplan erkannte Werte und eine Vorschau ohne Buchung. Der Salesforce-Agent schickt laut Doku immer eine Antwort, außer bei Übergabe an Menschen oder Fehler. Anweisungen, keine Antwort zu senden, werden nicht unterstützt.
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige KI-Agenten mit Plausibilitätsprüfung, die ERP-Anbindung bauen wir pro Kunde. Die Branchenseite von Salesforce nennt Zählerstand per Chat und Abrechnungsanfragen, aber kein Abrechnungssystem.
 - **Gespeichert bei einem deutschen Anbieter:** enneo speichert bei Hetzner, auf Wunsch im Rechenzentrum des Kunden. Salesforce speichert auf Hyperforce bei AWS, die Firma sitzt in den USA. Die Sprachmodelle kommen bei beiden von US-Anbietern.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Anhänge und Fotos lesen** | Mails mit Zählerfoto oder PDF werden automatisch erledigt statt bei Mitarbeitenden zu landen, weniger Handarbeit | „Der Salesforce-Agent liest laut Doku nur Betreff und Mailtext, wir lesen auch Zählerfoto und PDF.“ |
+| **Mehrere Anliegen, eine Antwort** | Weniger Rückfragen und Folgemails, ein Fall statt mehrerer | „Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Kontrolle vor dem Versand** | Geringeres Risiko falscher Antworten, der Fachbereich sieht vorab, was passiert | „Bei uns sehen Sie Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung, der Salesforce-Agent antwortet laut Doku immer.“ |
+| **Fertige Fachagenten für Versorger** | Schnellerer Start bei Zählerstand, Abschlag und Bankdaten, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten sind bei uns fertige Agenten mit Plausibilitätsprüfung.“ |
+| **Deutscher Anbieter, Speicherung in Deutschland** | Datenschutzprüfung ohne Fragen zur US-Firma, kein Aufpreis für eine EU-Zone | „Wir sind eine deutsche GmbH und speichern bei Hetzner, bei Salesforce kostet die EU Operating Zone extra.“ |
 
 ## Wo Salesforce vorn liegt
 
@@ -62,6 +76,24 @@ Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Fie
 - **Produktlinie im Umbau:** Für Casey nennt Salesforce kein E-Mail, für Fin schon, und Fin gehört erst nach Abschluss des Kaufs zu Salesforce. Welcher Agent künftig E-Mails bearbeitet, ist offen.
 - **Grenzen im E-Mail-Agenten:** Keine Anhänge, neue Mails zu geschlossenen Fällen werden nicht bearbeitet, Fälle schließt der Agent nicht selbst. Ohne eingestellte Sprache antwortet er auf Englisch.
 - **Sprachmodelle nicht benannt:** Salesforce nennt auf der Trust-Seite nur „Drittanbieter“, weder Anbieter noch Region.
+
+## Einwände
+
+- **„Wir haben Salesforce schon im Haus.“** Dann ist Salesforce für CRM und Vertrieb gesetzt, das ist berechtigt. Im Schriftverkehr lohnt der Blick ins Detail: Der E-Mail-Agent liest laut Doku keine Anhänge und keine Bilder. Vergleichen Sie beide an denselben Mails mit Zählerfoto.
+- **„Salesforce hat C5 und ISO 27001, Sie nicht.“** Das ist berechtigt, eigene Zertifikate haben wir nicht, ISO 27001 und SOC 2 sind in Prüfung, Hetzner ist ISO 27001 zertifiziert. Dafür ist enneo eine deutsche GmbH, speichert in Deutschland, und AVV, TOM, Subunternehmer und SLA sind öffentlich.
+- **„Mit Agentforce und bald Fin bekommen wir alles aus einer Hand.“** Für CRM und Hilfecenter stimmt das. Bei E-Mail ist offen, welcher Agent künftig zuständig ist, und die Kosten setzen sich aus Lizenz und Verbrauch zusammen. Bei uns sind Postfach, KI-Agenten und Telefonie ein Produkt.
+
+## Fragen an den Kunden
+
+- **Was passiert bei Ihnen mit Mails, die ein Foto oder PDF im Anhang haben?** Erwartete Antwort: der Agent liest nur Betreff und Text, Anhänge gehen an Mitarbeitende. Überleitung: „Genau diese Mails liest unsere KI vollständig mit, etwa das Zählerfoto.“
+- **Wie viele Credits verbraucht ein Fall mit mehreren Aktionen, und was passiert mit ungenutzten Credits?** Erwartete Antwort: vorab schwer zu sagen, ungenutzte Flex Credits werden nicht übertragen. Überleitung: „Bei uns rechnen Sie mit Paketpreisen je Ticket und Sprachminute.“
+- **Welcher Agent bearbeitet bei Ihnen künftig E-Mails, Agentforce oder Fin?** Erwartete Antwort: noch offen. Überleitung: „Bei uns ist die KI für E-Mails Teil des Produkts, mit fertigen Fachagenten für Energieversorger.“
+
+## Intern
+
+- **Wechselgrund ist Abhängigkeit, nicht Funktion:** Ein Interessent (Finanzdienstleister, nutzt Salesforce im Service) sagt, Salesforce sei „nicht perfekt“, aber es funktioniere und sei über Jahre optimiert. Gesucht wird, weil es nicht Stand der Technik sei und große Abhängigkeit von Salesforce schaffe. *Attio-Call vom 13.05.2026, Min. 24:27*
+- **Lock-in ist ein Reizthema:** Derselbe Interessent ist froh, demnächst aus Salesforce herauszukommen, und will keinen neuen Lock-in mit Lizenzen je Nutzer und Jahresbindung. Das galt ausdrücklich auch für das Angebot von enneo. *Attio-Call vom 13.05.2026, Min. 22:01 und 22:39*
+- **Agentforce ist im Salesforce-Umfeld gesetzt:** Ein Interessent (Energiekonzern, Service-Tochter) sagt, bei Agenten schauten im Salesforce-Umfeld „alle immer erst auf Agent Force“. Einen Einstieg sieht er im Gewerbekundenbereich ohne Salesforce oder in einem Piloten parallel. *Attio-Call vom 24.08.2026, Min. 7:31 und 12:17*
 
 ## Fazit
 

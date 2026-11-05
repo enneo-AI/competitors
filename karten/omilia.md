@@ -19,6 +19,10 @@ kurz: "Sprach-KI fürs Contact Center mit eigenem Sprachstack, aus Griechenland"
 | Hosting | **AWS oder beim Kunden** | Von Omilia betriebene AWS-Umgebung in mehreren Regionen, welche genau ist nicht öffentlich. Alternativ eigene Server im Rechenzentrum oder in der Private Cloud des Kunden |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu PCI DSS Level 1, HIPAA, Cyber Essentials. C5 nicht gefunden |
 
+## Erster Satz
+
+„Omilia ist am Telefon sehr stark, gerade bei Identifizierung und großen Volumen, die Frage ist nur, wer bei Ihnen E-Mails, Briefe und den Arbeitsplatz der Mitarbeitenden abdeckt.“
+
 ## Das Wichtigste vorweg
 
 Omilia ist ein Spezialist für Sprachautomatisierung am Telefon mit eigenem Sprachstack: Spracherkennung, Sprachverstehen, Sprachmodelle und Sprachausgabe sind eigene Entwicklung. Stark ist Omilia bei Banken und großen US-Unternehmen, mit Identifizierung am Telefon und Betrugserkennung. In DACH steht Omilia am Anfang: Vertrieb seit Juni 2026 über den Partner valantic, Referenzkunden in DACH haben wir nicht gefunden. E-Mail als Kanal und einen eigenen Arbeitsplatz für Mitarbeitende haben wir ebenfalls nicht gefunden.
@@ -30,6 +34,16 @@ Omilia ist ein Spezialist für Sprachautomatisierung am Telefon mit eigenem Spra
 - **Bei Energieversorgern: Abläufe fertig im Produkt.** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Omilias Versorger-Referenzen (PSEG, Payless Power) stammen aus den USA.
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang, inklusive PDF und Foto im Anhang. Bei Omilia ist dazu nichts dokumentiert.
 - **Deutscher Anbieter, Speicherung in Deutschland:** enneo speichert bei Hetzner in Deutschland. Omilia betreibt die Cloud-Variante auf AWS und nennt die Regionen nicht öffentlich.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail und Brief mit KI** | Auch der Schriftverkehr wird bis zur Buchung automatisiert, weniger Mitarbeitende für Mails und Briefe | „Bei uns bearbeitet die KI auch Mails und Briefe bis zur Aktion im Zielsystem, das haben wir bei Omilia nicht gefunden.“ |
+| **Arbeitsplatz im selben Produkt** | Kein zweites System lizenzieren und pflegen, ein Vertrag statt zwei | „Bei uns arbeiten KI und Mitarbeitende im selben System, bei Omilia brauchen Sie dafür ein weiteres Contact Center.“ |
+| **Mehrere Anliegen und Anhänge** | Mails mit Zählerstand, IBAN und Foto werden in einem Durchgang erledigt, weniger Rückfragen | „Drei Anliegen und ein Zählerfoto in einer Mail erledigen wir mit einer Antwort.“ |
+| **Fertige Fachagenten für Versorger** | Schnellerer Start bei Zählerstand, Abschlag und Bankdaten, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten sind bei uns fertig, Omilias Versorger-Referenzen stammen aus den USA.“ |
+| **Speicherung bei deutschem Anbieter** | Datenschutzprüfung ohne offene Frage nach dem Speicherort | „Wir speichern bei Hetzner in Deutschland, bei Omilia ist die AWS-Region nicht öffentlich.“ |
 
 ## Wo Omilia vorn liegt
 
@@ -61,6 +75,22 @@ Omilia ist ein Spezialist für Sprachautomatisierung am Telefon mit eigenem Spra
 - **Kein Schriftverkehr:** Omilia automatisiert Gespräche am Telefon und im Chat. Für E-Mail, Brief und den Arbeitsplatz der Mitarbeitenden braucht der Kunde weitere Systeme.
 - **Wenig in DACH:** Keine Referenz in DACH gefunden. Der Vertrieb läuft seit Juni 2026 über valantic. In der Doku ist Deutsch (de-DE) geführt, laut Omilia aber nicht für alle Bausteine verfügbar.
 - **Sicherheitsangaben teils alt:** Die Sicherheitsrichtlinie wurde zuletzt am 10.05.2023 geändert, die Plattformseite nennt noch ISO/IEC 27001:2013. Die AWS-Regionen für die Cloud-Variante sind nicht öffentlich.
+
+## Einwände
+
+- **„Omilia ist Leader bei Forrester und IDC.“** Am Telefon zu Recht: eigener Sprachstack und große Installationen. Für Schriftverkehr und den Arbeitsplatz Ihrer Mitarbeitenden braucht es bei Omilia ein weiteres System, bei uns ist das ein Produkt.
+- **„Mit eigenen Sprachmodellen gehen keine Daten an US-Anbieter.“** Das ist ein echter Vorteil von Omilia. Bei uns sind US-Modelle Standard, EU-Modelle wie Mistral oder Nebius sind im AVV möglich, ohne Speicherung und ohne Training mit Kundendaten. Gespeichert wird bei Hetzner in Deutschland.
+- **„Wir brauchen Identifizierung und Betrugsschutz am Telefon.“** Da liegt Omilia vorn, eine Signatur- oder Ausweisprüfung haben wir nicht. Kommt ein großer Teil Ihres Aufkommens schriftlich, lohnt es sich, Telefon und Schriftverkehr getrennt zu bewerten.
+
+## Fragen an den Kunden
+
+- **Wie bearbeiten Sie E-Mails und Briefe, wenn Omilia Telefon und Chat abdeckt?** Erwartete Antwort: in einem weiteren System, oft von Hand. Überleitung: „Bei uns läuft der Schriftverkehr mit KI bis zur Buchung, im selben Arbeitsplatz wie das Telefon.“
+- **Welche Referenz in DACH, gern bei einem Versorger, können Sie anrufen?** Erwartete Antwort: keine oder eine aus den USA. Überleitung: „Unsere fertigen Fachagenten für Zählerstand, Abschlag und Bankdaten sind für Energieversorger gebaut.“
+- **In welcher AWS-Region liegen Ihre Daten in der Cloud-Variante?** Erwartete Antwort: wird geklärt oder nach Absprache. Überleitung: „Bei uns liegt alles bei Hetzner in Rechenzentren in Deutschland, die Backups in Deutschland und Finnland.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 

@@ -33,3 +33,11 @@ td:first-child { color: #292C3F; }
 .fazit p { color: #292C3F; margin: 0; }
 .quellen { font: 300 7pt/1.6 "Geist Mono", monospace; color: #7F808C; }
 .quellen a { color: #613CDD; text-decoration: none; }
+
+.satz { background: #F1ECFD; border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; color: #292C3F; font-size: 9.5pt; break-inside: avoid; }
+.satz span { display: block; font: 400 6.9pt "Geist Mono", monospace; letter-spacing: .05em; text-transform: uppercase; color: #5A37D6; margin-bottom: 1mm; }
+table.impact { table-layout: fixed; }
+table.impact td:first-child { width: 24%; }
+table.impact td:nth-child(2) { color: #292C3F; }
+table.impact td:nth-child(3) { font-style: italic; }
+h2.intern { border-left-color: #B4561E; }

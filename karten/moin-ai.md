@@ -19,6 +19,10 @@ kurz: "KI-Chatbot und KI-Agenten für die Website aus Hamburg"
 | Hosting | **Deutschland, OVH** | Daten bei OVH in Deutschland, Sprachmodelle über Azure West Europe oder nur EU (OVH), kein Betrieb beim Kunden genannt |
 | Referenzen | **TEAG, Octopus Energy** | Über 150 Kunden laut Seite, dazu HanseMerkur, S Broker, American Express, ImmoScout24, Geberit. Zertifikate nicht genannt |
 
+## Erster Satz
+
+„moinAI hat einen guten Website-Chat, gerade bei Versorgern, spannend wird es bei allem, was danach per E-Mail, Brief oder Telefon bei Ihnen ankommt.“
+
 ## Das Wichtigste vorweg
 
 moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI Plattform“ nennt. Stark ist moinAI im Chat-Self-Service mit Wissensdatenbank, Formularen und KI-Aktionen, die über Schnittstellen im Kundensystem schreiben. Beim Energieversorger TEAG bucht der Chat laut Fallstudie Abschlag, Zählerstand und SEPA-Mandat direkt über SAP und die TEAG-API. Eingehende E-Mails per KI zu bearbeiten ist öffentlich nicht beschrieben: Der dokumentierte „E-Mail-Takeover“ schickt einen Chatverlauf per Mail an ein Ticketsystem.
@@ -30,6 +34,16 @@ moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI P
 - **Arbeitsplatz und KI in einem Produkt:** enneo bringt Ticketing-Arbeitsplatz, Postfach, KI-Agenten, Wissen, Telefonie und Voicebot in einem System mit Skill-Routing. moinAI hat einen eigenen Live-Chat, Fälle darüber hinaus gehen als Ticket an Zendesk, Salesforce, Freshdesk oder per Mail an ein anderes System.
 - **Alle Kanäle statt Website-Chat:** enneo deckt E-Mail, Brief, Chat, WhatsApp, Telegram und Telefon ab. Bei moinAI sind WhatsApp und Voice (über Aristech) auf der Preisseite nur „auf Anfrage“, einen Briefkanal haben wir nicht gefunden.
 - **Datenschutz belegbar:** Bei enneo sind AVV, TOM, Subunternehmer und SLA öffentlich. moinAI nennt OVH und Azure West Europe, schickt den AVV aber nur auf Anfrage per Mail, eine Liste der Subunternehmer haben wir nicht gefunden.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, Mails werden erledigt statt nur weitergeleitet | „Bei uns bucht die KI auch die Mail bis ins Zielsystem, nicht nur den Chat.“ |
+| **Eigener Arbeitsplatz** | Kein zusätzliches Ticketsystem lizenzieren und pflegen | „Mit uns brauchen Sie kein zweites Ticketsystem daneben, der Arbeitsplatz für Ihre Mitarbeitenden ist dabei.“ |
+| **Alle Kanäle in einem System** | Ein Anbieter für Chat, Mail, Brief und Telefon statt Chat-Anbieter plus Telefonie-Partner | „E-Mail, Brief, Chat, WhatsApp und Telefon laufen bei uns in einem System, Voicebot inklusive.“ |
+| **Mehrere Anliegen und Anhänge** | Eine Antwort statt mehrerer Rückfragen, Zählerfoto ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang, das Foto im Anhang liest die KI mit.“ |
+| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen und Wartezeit | „AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz bei uns heute schon öffentlich lesen.“ |
 
 ## Wo moinAI vorn liegt
 
@@ -62,6 +76,23 @@ moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI P
 - **Kein eigenes Ticketsystem:** Was nicht im Live-Chat gelöst wird, landet in einem fremden System. Der Kunde braucht also zusätzlich Zendesk, Salesforce oder ein anderes Ticketsystem.
 - **Datenschutz nur teilweise belegt:** Kein Zertifikat genannt, keine Liste der Subunternehmer gefunden. Ob Textchats zum Training genutzt werden, sagt das Hilfecenter nicht ausdrücklich, für Sprachaufnahmen schließt es Training aus.
 - **Kritik in Bewertungen:** Auf OMR werden hoher Aufwand beim Aufbau der Wissensdatenbank, manuell zu trainierende Anliegen, einfache Auswertungen, wenig Anpassung bei Schnittstellen und Formulare nur über den Support genannt.
+
+## Einwände
+
+- **„moinAI hat eine sichtbare Referenz bei einem großen Versorger für Abschlag und Zählerstand.“** Das stimmt, und der Chat dort ist gut gemacht. Fragen Sie, was mit den Mails passiert: Dort ist bei moinAI nur die Übergabe an ein Ticketsystem dokumentiert, bei uns die Buchung.
+- **„moinAI ist mit 750 € im Monat deutlich günstiger.“** Für den Website-Chat stimmt das. Rechnen Sie das Ticketsystem, die Telefonie und die manuelle Mailbearbeitung dazu, die bei moinAI fehlen oder nur auf Anfrage kommen. Bei uns sind Arbeitsplatz, KI, Wissen und Telefonie ein Produkt.
+- **„Wir haben moinAI schon für den Chat.“** Dann kann der Chat bleiben. enneo übernimmt E-Mail und Telefon daneben, das läuft bei uns schon so nebeneinander.
+
+## Fragen an den Kunden
+
+- **Was passiert heute mit den E-Mails, die nach einem Chat oder direkt bei Ihnen ankommen?** Erwartete Antwort: Sie landen per Übergabe in einem Ticketsystem und werden von Hand bearbeitet. Überleitung: „Diese Mails erledigt bei uns die KI bis zur Buchung, auf Wunsch vollautomatisch.“
+- **Mit welchem System arbeiten Ihre Mitarbeitenden die Fälle ab, die der Chat nicht löst?** Erwartete Antwort: Zendesk, Salesforce oder ein anderes Ticketsystem mit eigener Lizenz. Überleitung: „Bei uns sind Arbeitsplatz und KI ein Produkt, das zweite System entfällt.“
+- **Hat moinAI Ihnen AVV, TOM und die Liste der Subunternehmer schon vorgelegt?** Erwartete Antwort: AVV auf Anfrage, die Subunternehmerliste fehlt noch. Überleitung: „Bei uns liegt das alles öffentlich, Ihr Datenschutz kann sofort prüfen.“
+
+## Intern
+
+- **Chat bleibt, Mail und Telefon kommen dazu:** Ein Bestandskunde (Energieversorger) betreibt den moinAI-Chat mit eigener Anbindung ans Abrechnungssystem parallel weiter. E-Mail und Telefon kommen über enneo, eine direkte Verbindung zum Chat braucht er nicht. *Attio-Mail vom 29.05.2026*
+- **E-Mail braucht mehr als der Chat:** Beim selben Kunden nutzen Chat und enneo dieselben Buchungsschnittstellen für Zählerstand, Abschlag und Bankdaten. Für E-Mail musste aber die Kundensuche erweitert werden: Im Chat reichen drei Merkmale, in der Mail kommen Zählernummer, Abschlag und E-Mail-Adresse dazu. *Attio-Call vom 24.09.2026, Min. 44:40*
 
 ## Fazit
 

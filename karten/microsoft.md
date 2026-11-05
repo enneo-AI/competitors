@@ -19,6 +19,10 @@ kurz: "Dynamics 365 Contact Center mit KI-Agenten aus Copilot Studio"
 | Hosting | **EU Data Boundary** | Umgebung in Europa wählbar, Sprachmodelle über Azure OpenAI in der EU. Bei Spitzenlast kann „Flex Routing“ außerhalb der EU rechnen |
 | Zertifikat | **ISO 27001, SOC 2, BSI C5** | Dynamics 365 im ISO-27001-Umfang, gemeinsamer Bericht SOC 2 und C5 für Azure, Dynamics 365 und Online Services |
 
+## Erster Satz
+
+„Wenn Dynamics und Microsoft 365 bei Ihnen gesetzt sind, ist Microsoft naheliegend, die Frage ist nur, wie viele Lizenzen und selbst gebaute Agenten Sie brauchen, bis eine Mail mit drei Anliegen und Zählerfoto gebucht ist.“
+
 ## Das Wichtigste vorweg
 
 Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. Seit 30.09.2026 beantwortet Dynamics 365 Customer Service eingehende E-Mails per KI, auf Wunsch ohne Mitarbeitende. Aktionen im Zielsystem laufen über eigene Copilot-Studio-Agenten oder Konnektoren, das ist Bauarbeit im Projekt. Bei Telefonie, Personalplanung, Zertifikaten und Ökosystem liegt Microsoft vorn, bei der fertigen E-Mail-Strecke mit mehreren Anliegen, Anhängen und Energie-Abläufen wir.
@@ -30,6 +34,16 @@ Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. 
 - **Anhänge und Fotos:** enneo liest PDF und Fotos, z. B. ein Zählerfoto. In der Doku zur E-Mail-Bearbeitung von Microsoft kommen Anhänge nicht vor.
 - **Bei Energieversorgern fertig:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige KI-Agenten mit Plausibilitätsprüfung. Microsoft lernt Absichten aus alten Fällen und Gesprächen. Fertige Energie-Abläufe haben wir nicht gefunden.
 - **Speicherung bei einem deutschen Anbieter:** enneo speichert bei Hetzner, auf Wunsch beim Kunden. Microsoft hält die Daten in der EU Data Boundary. Die E-Mail-KI setzt aber voraus, dass Daten für KI-Funktionen zwischen Regionen verschoben werden dürfen.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **Ein Produkt statt Lizenzbaukasten** | Ein Vertrag statt Nutzerlizenz plus Credits plus Telefonie, Kosten besser planbar | „Bei uns sind Arbeitsplatz, KI-Agenten, Wissen und Telefonie ein System mit Paketpreisen je Ticket und Sprachminute.“ |
+| **Mehrere Anliegen in einem Durchgang** | Weniger Rückfragen und Folgemails, eine Antwort an den Kunden | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Anhänge und Fotos lesen** | Kein Abtippen von Zählerfotos und PDFs durch Mitarbeitende | „Unsere KI liest das Zählerfoto und das PDF im Anhang gleich mit.“ |
+| **Fertige Energie-Agenten** | Kürzeres Projekt, keine Eigenentwicklung in Copilot Studio für Standardfälle | „Zählerstand, Abschlag und Bankdaten bringen wir als fertige Agenten mit Plausibilitätsprüfung mit, gebaut wird nur die Anbindung an Ihr ERP.“ |
+| **Speicherung bei deutschem Anbieter** | Datenschutzprüfung ohne Klärung von Datenverschiebung zwischen Regionen | „Wir speichern bei Hetzner in Deutschland, und wer EU-Sprachmodelle will, bekommt sie im AVV.“ |
 
 ## Wo Microsoft vorn liegt
 
@@ -62,6 +76,24 @@ Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. 
 - **Kosten schwer planbar:** Lizenz je Nutzer, dazu Copilot Credits nach Verbrauch über ein Azure-Abo, dazu Telefonie über Azure Communication Services. Auch Simulationen und Schattenbetrieb verbrauchen Credits.
 - **Eine Sprache je E-Mail-Bearbeitung:** Für die E-Mail-Bearbeitung wählt man eine feste Sprache für alle Mails. Findet der Fallagent keine gültige Sprache, gibt er an Mitarbeitende ab. Im Sprachdialog am Telefon fehlen de-AT und de-CH.
 - **Datenfluss erklärungsbedürftig:** Voraussetzung ist die Freigabe, Daten für KI-Funktionen zwischen Regionen zu verschieben. Flex Routing ist für neue Tenants seit 25.03.2026 standardmäßig an und erlaubt Rechnen außerhalb der EU bei Spitzenlast.
+
+## Einwände
+
+- **„Wir haben Microsoft 365 und Dynamics schon, ein weiteres System wollen wir nicht.“** Verständlich. Für autonome E-Mail-Bearbeitung braucht aber auch Microsoft mehrere Bausteine: Customer Service, Intent und Case Agent, Credits über Azure und eigene Agenten in Copilot Studio. Prüfen Sie, was davon schon lizenziert ist, bei uns ist es ein System.
+- **„Wir haben eine Copilot-Lizenz, die schreibt auch schon E-Mails.“** Das ist ein Schreibassistent für Mitarbeitende. Bei enneo liest die KI die Mail, erkennt und legitimiert den Kunden, bucht im Zielsystem und antwortet, auf Wunsch ohne Mitarbeitende. Entwürfe und Zusammenfassungen für Mitarbeitende gibt es bei uns zusätzlich.
+- **„Microsoft hat ISO 27001, SOC 2 und C5, ihr nicht.“** Das stimmt, eigene Zertifikate haben wir nicht, ISO 27001 und SOC 2 sind in Prüfung, Hetzner ist ISO 27001 zertifiziert. Dafür sind AVV, TOM, Subunternehmer und SLA öffentlich, und gespeichert wird bei einem deutschen Anbieter.
+
+## Fragen an den Kunden
+
+- **Welche Lizenzen, Agenten und Azure-Credits brauchen Sie bei Microsoft für eine vollautomatisch beantwortete Mail mit Buchung, und was kostet das bei Ihrem Volumen?** Erwartete Antwort: Unklar, weil Credits nach Verbrauch laufen und Aktionen in Copilot Studio erst gebaut werden müssen. Überleitung: „Legen wir das nebeneinander: Bei uns ist es ein System mit Paketpreisen je Ticket.“
+- **Was macht der Microsoft-Agent mit einer Mail, die Zählerstand, neue IBAN und Abschlag gleichzeitig enthält?** Erwartete Antwort: Er erkennt eine Absicht, für Doppelanliegen braucht es Regeln zur Reihenfolge. Überleitung: „Bei uns entsteht ein Lösungsplan für alle Anliegen und eine Antwort, auch vollautomatisch.“
+- **Liest der Microsoft-Agent bei Ihnen Anhänge wie Zählerfotos oder PDFs aus?** Erwartete Antwort: Unklar, in der Doku zur E-Mail-Bearbeitung ist es nicht beschrieben. Überleitung: „Bei uns liest die KI Fotos und PDFs mit, das zeigen wir Ihnen gern an einer echten Mail.“
+
+## Intern
+
+- **Copilot-Lizenz als Preisanker:** Ein Interessent (Telekommunikation, Dynamics als CRM) hielt den Preis je automatisch bearbeiteter Mail gegen seine Microsoft-Copilot-Konzernlizenz: „Die schreibt mir auch schon ganz nette E-Mails.“ Dazu kam die Frage, ob unser Copilot der von Microsoft sei. *Attio-Call vom 05.11.2026, Min. 89:40*
+- **Verloren gegen Dynamics über den Preis:** Ein Interessent mit Dynamics als CRM verglich ein Dynamics-Angebot von rund 30.000 € mit rund 40.000 € bei enneo. Im Dynamics-Preis war die KI nicht enthalten, die Gegenrechnung kam aber nicht bis zum Vorstand, der Deal ging verloren. *Attio-Call vom 09.09.2026, Min. 19:01*
+- **Teams als Hürde:** Bei einem Interessenten (Bildungsanbieter) läuft die Mehrzahl der Gespräche über Teams. Live-Empfehlungen im Teams-Gespräch gehen nicht, weil Microsoft den Audiostrom nicht herausgibt. Ein Teilnehmer: „in diesem Ökosystem da lässt Microsoft auch keinen rein“. *Attio-Call vom 06.10.2026, Min. 42:49*
 
 ## Fazit
 

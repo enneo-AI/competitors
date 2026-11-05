@@ -19,6 +19,10 @@ kurz: "No-Code-Plattform für KI-Agenten in Chat und Telefon aus Münster"
 | Hosting | **Google Cloud EU + eigene Server** | Plattformdaten bei Google Cloud EMEA (Irland). Chat-Modell Gemma 4 auf eigener Hardware in Münster. Telefon-KI gpt-realtime-1.5 über Microsoft Azure, EU-Datenzone |
 | Zertifikat | **kein eigenes** | Rechenzentren ISO 27001 zertifiziert, eigenes Sicherheitsmanagement an ISO 27001 und BSI Grundschutz ausgerichtet, jährlicher Penetrationstest |
 
+## Erster Satz
+
+„LoyJoy macht Chat und Voicebot für Versicherer und Stadtwerke wirklich gut, spannend wird es bei der Frage, wer bei Ihnen die eingehenden E-Mails und Briefe bis zur Buchung erledigt.“
+
 ## Das Wichtigste vorweg
 
 LoyJoy baut KI-Agenten für Website-Chat, WhatsApp und Telefon, alles ohne Code und auf einer gemeinsamen Wissensbasis. Stark ist LoyJoy bei Versicherern (R+V, HanseMerkur, Zurich, WGV, LVM) und zunehmend bei Stadtwerken, dort inzwischen auch am Telefon. Einen E-Mail-Eingang mit KI-Bearbeitung haben wir nicht gefunden: E-Mail dient bei LoyJoy nur zum Versand und zur Übergabe ans Team. Unser Vorteil liegt im Schriftverkehr und im Arbeitsplatz für Mitarbeitende, nicht bei Chat oder Voicebot.
@@ -29,6 +33,16 @@ LoyJoy baut KI-Agenten für Website-Chat, WhatsApp und Telefon, alles ohne Code 
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. Anhänge wie PDF oder Zählerfoto liest die KI mit.
 - **Ein Arbeitsplatz für alles:** Bei enneo bearbeiten Mitarbeitende alle Kanäle in einem Ticketing-Arbeitsplatz mit Skill-Routing. Bei LoyJoy gibt es einen Live-Chat für Web und WhatsApp. Anrufe gehen an die Telefonanlage des Kunden, aufgenommene Vorgänge per Mail an den Fachbereich.
 - **Gespeichert bei einem deutschen Anbieter:** enneo speichert bei Hetzner in Deutschland, ab großem Volumen auch im Rechenzentrum des Kunden. LoyJoy speichert Plattformdaten bei Google Cloud EMEA.
+
+## Business-Impact
+
+| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+|---|---|---|
+| **E-Mail und Brief bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, kein zweites System nur für Mails und Briefe | „Bei uns erledigt die KI auch die Mail und den Brief bis zur Buchung, nicht nur den Chat.“ |
+| **Buchen statt nur aufnehmen** | Weniger Nacharbeit im Fachbereich, kein Abtippen aufgenommener Vorgänge | „Bei uns wird der Abschlag im Zielsystem gebucht, nicht nur aufgenommen und per Mail weitergeschickt.“ |
+| **Mehrere Anliegen und Anhänge in einer Mail** | Eine Antwort statt mehrerer Rückfragen, Zählerfoto ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Ein Arbeitsplatz mit Skill-Routing** | Kein Medienbruch zwischen Bot, Telefonanlage und Fachbereichspostfach, weniger Übergabeaufwand | „Was die KI nicht löst, landet bei uns im selben Arbeitsplatz direkt beim richtigen Mitarbeitenden.“ |
+| **Speicherung bei deutschem Anbieter** | Einfachere Datenschutzprüfung, ab großem Volumen Betrieb im eigenen Rechenzentrum | „Wir speichern bei Hetzner in Deutschland und auf Wunsch in Ihrem eigenen Rechenzentrum.“ |
 
 ## Wo LoyJoy vorn liegt
 
@@ -62,6 +76,22 @@ LoyJoy baut KI-Agenten für Website-Chat, WhatsApp und Telefon, alles ohne Code 
 - **Agent nimmt oft nur auf:** Bei Witten erfasst der Telefon-Agent Abschlag oder Zählerstand und übergibt den Vorgang an den Fachbereich. Bei Velbert führt der Chat per Link ins Kundenportal. Buchung im Abrechnungssystem ist öffentlich nur für Herne belegt.
 - **Einrichtung und Bedienung:** Nutzer auf OMR nennen die Ersteinrichtung zeitaufwendig, den BPMN-Editor anfangs überfordernd und die Oberfläche teils überladen. Gewünscht werden mehr Auswertungen und Versionierung, die es laut Preisseite erst im Enterprise-Tarif gibt.
 - **Kein eigenes Zertifikat:** Wie bei uns gibt es kein eigenes ISO-27001-Zertifikat, nur zertifizierte Rechenzentren.
+
+## Einwände
+
+- **„LoyJoy hat die besseren Referenzen bei Versicherern und Stadtwerken.“** Das stimmt, die Fallstudien bei Versicherern und Stadtwerken sind gut belegt. Fragen Sie, ob dort auch der Schriftverkehr automatisch läuft: Bei LoyJoy ist das nicht dokumentiert, bei uns ist es der Kern.
+- **„LoyJoy ist günstiger und schneller startklar.“** Für Chat und Telefon ist der Einstieg ab 390 € im Monat wirklich niedrig. Rechnen Sie aber das System für E-Mail, Brief und den Arbeitsplatz der Mitarbeitenden mit, das Sie neben LoyJoy brauchen.
+- **„Wir nutzen LoyJoy schon für Chat und Telefon.“** Dann muss dort nichts ersetzt werden. enneo übernimmt E-Mail und Brief bis zur Buchung und gibt Ihren Mitarbeitenden einen Arbeitsplatz für alle Kanäle.
+
+## Fragen an den Kunden
+
+- **Wie bearbeiten Sie heute eingehende E-Mails und Briefe, und wer bucht danach im Abrechnungssystem?** Erwartete Antwort: Von Hand im Postfach oder in einem anderen System neben LoyJoy. Überleitung: „Genau dort setzen wir an: Die KI liest Mail und Brief, legitimiert den Kunden, bucht und antwortet.“
+- **Wenn der Telefon-Agent einen Abschlag oder Zählerstand aufnimmt, wer bucht ihn dann?** Erwartete Antwort: Der Fachbereich bekommt eine Mail und bucht selbst. Überleitung: „Bei uns geht der Vorgang bis zur Buchung im Zielsystem, auf Wunsch ohne Mitarbeitende.“
+- **Wo arbeiten Ihre Mitarbeitenden die Fälle ab, die der Bot nicht löst, und wie wird verteilt?** Erwartete Antwort: Live-Chat, Telefonanlage und Fachbereichspostfächer getrennt, Verteilung von Hand. Überleitung: „Bei uns ist das ein Arbeitsplatz für alle Kanäle mit Skill-Routing.“
+
+## Intern
+
+Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 ## Fazit
 
