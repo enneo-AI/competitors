@@ -4,6 +4,11 @@ Neuester Lauf oben.
 
 ## 2026-11-05
 
+- melibo neu, angefragt über die Galerie
+- Observe.AI neu, angefragt über die Galerie
+- octonomy neu, angefragt über die Galerie
+- OMQ neu, angefragt über die Galerie
+- Onlim neu, angefragt über die Galerie
 - fonio.ai neu, angefragt über die Galerie
 - Intercom neu, angefragt über die Galerie
 - HSAG AI Suite neu, angefragt über die Galerie
