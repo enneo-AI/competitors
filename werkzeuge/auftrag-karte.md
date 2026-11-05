@@ -21,6 +21,8 @@ Kopf exakt so (Werte anpassen, keine weiteren Felder):
 ---
 name: "<Anzeigename>"
 slug: "<slug>"
+fokus: "<genau einer: Voicebot | KI-Agenten | E-Mail-KI | Contact Center | Helpdesk | CRM & ERP>"
+naehe: "<hoch, wenn gleiche Fälle bei gleichen Kunden (DACH, Energie/Versicherung, E-Mail- oder Voice-Automatisierung), sonst mittel>"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
 geprueft_von: "Enni, noch nicht gegengelesen"
@@ -30,7 +32,7 @@ kurz: "<ein Satz, max. 12 Wörter, was der Anbieter ist>"
 ```
 
 Danach diese Abschnitte in dieser Reihenfolge (`## `-Überschriften exakt so, `<Name>` ersetzen):
-1. `## Eckdaten`: Tabelle wie im Vorbild, Kopfzeile `| | | |`, 4 Zeilen (Firma, Preise oder Lizenz, Hosting, Zertifikat oder Referenzen). Spalte 2 fett und kurz, Spalte 3 Erläuterung.
+1. `## Eckdaten`: Tabelle wie im Vorbild, Kopfzeile `| | | |`, 4 Zeilen mit genau diesen Bezeichnungen in Spalte 1: `Firma` (Sitz, Größe), `Preise`, `Hosting`, `Zertifikat` oder `Referenzen`. Spalte 2 erscheint in der Übersichtstabelle, also kurz halten (max. 4 Wörter). Spalte 2 fett und kurz, Spalte 3 Erläuterung.
 2. `## Das Wichtigste vorweg`: 3 bis 4 Sätze.
 3. `## Unsere Verkaufsargumente`: 3 bis 5 Punkte, Format `- **Kurztitel:** Text`. Nur mit enneo-Fakten aus der Datei.
 4. `## Wo <Name> vorn liegt`: 3 bis 5 Punkte, gleiches Format.

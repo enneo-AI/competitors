@@ -39,6 +39,16 @@ for p in sorted(KARTEN.glob("*.md")):
     vorn = h.count("pill p-voll") + h.count("pill p-hell")
     hinten = h.count("pill p-rand") + h.count("pill p-dunkel")
     folge = re.findall(r'class="pill (p-[a-z]+)"', h)
+    # Eckdaten für die Übersichtstabelle
+    eck = {}
+    if "## Eckdaten" in body:
+        for r in body.split("## Eckdaten")[1].split("\n## ")[0].splitlines():
+            z = [c.strip() for c in r.strip().strip("|").split("|")]
+            if len(z) >= 3 and z[0] and not z[0].startswith("-"):
+                eck[z[0]] = (z[1].replace("**", ""), z[2])
+    meta["firma"] = eck.get("Firma", ("", ""))[0]
+    meta["hosting"] = eck.get("Hosting", ("", ""))[0]
+    meta["preis"] = (eck.get("Preise") or eck.get("Lizenz") or ("", ""))[0]
     meta.update(html=h, vorn=vorn, hinten=hinten, folge=folge, md=p.name)
     karten.append(meta)
 
@@ -50,6 +60,7 @@ for f in A.glob("*.ttf"): shutil.copy(f, SITE / "fonts" / f.name)
 shutil.copy(A / "enneo-logo.svg", SITE / "enneo-logo.svg")
 (SITE / "alle-karten.md").write_text("\n\n".join(p.read_text() for p in sorted(KARTEN.glob("*.md"))))
 shutil.copytree(KARTEN, SITE / "karten", dirs_exist_ok=True)
+shutil.copy(ROOT / "werkzeuge" / "enneo-fakten.md", SITE / "enneo-fakten.md")
 shutil.copytree(ROOT / "pdf", SITE / "pdf", dirs_exist_ok=True)
 
 # PDF je Karte aus der Markdown-Karte bauen, wenn keine handgesetzte PDF hinterlegt ist

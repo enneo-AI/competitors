@@ -1,6 +1,8 @@
 ---
 name: "Omilia"
 slug: "omilia"
+fokus: "Voicebot"
+naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
 geprueft_von: "Enni, noch nicht gegengelesen"

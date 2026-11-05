@@ -1,6 +1,8 @@
 ---
 name: "ThinkOwl"
 slug: "thinkowl"
+fokus: "Helpdesk"
+naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-10-27"
 geprueft_von: "Aleksa Spalevic"

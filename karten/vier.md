@@ -1,6 +1,8 @@
 ---
 name: "VIER"
 slug: "vier"
+fokus: "Contact Center"
+naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-04"
 geprueft_von: "Aleksa Spalevic"

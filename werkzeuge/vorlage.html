@@ -11,7 +11,7 @@
   --haupt-bg: #17182A; --haupt-hover: #2C2E45; --haupt-fg: #FFFFFF;
   --warn-fg: #B4561E; --warn-bg: #FBEBDD; --neutral-bg: rgba(23,24,42,.06);
   --s-voll: #7B5AE2; --s-hell: #CBBDF6; --s-grau: rgba(23,24,42,.13); --s-wett: #17182A;
-  --licht-1: #BCA9F5; --licht-2: #D2E1F8; --licht-3: #E2D8FB; --licht-op: .7;
+  --licht-1: #BCA9F5; --licht-2: #D2E1F8; --licht-3: #E2D8FB; --licht-op: .7; --panel: rgba(250,249,253,.92);
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
@@ -21,7 +21,7 @@
   --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
   --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
   --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
-  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; color-scheme: dark;
+  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; --panel: rgba(22,23,42,.94); color-scheme: dark;
 } }
 :root[data-theme="dark"] {
   --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
@@ -31,7 +31,7 @@
   --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
   --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
   --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
-  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; color-scheme: dark;
+  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; --panel: rgba(22,23,42,.94); color-scheme: dark;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -52,7 +52,7 @@ button { font: inherit; color: inherit; }
   -webkit-backdrop-filter: blur(24px) saturate(150%); backdrop-filter: blur(24px) saturate(150%);
   box-shadow: 0 1px 0 var(--glas-licht) inset, 0 30px 60px -40px var(--glas-schatten); }
 
-.seite { position: relative; max-width: 928px; margin: 0 auto; padding-block: 0 96px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
+.seite { position: relative; max-width: 1168px; margin: 0 auto; padding-block: 0 96px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
 
 /* Leiste: Logo links, Suche rechts. Mehr nicht. */
 .leiste { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); z-index: 5; display: flex; align-items: center; gap: 16px;
@@ -66,19 +66,39 @@ button { font: inherit; color: inherit; }
 .suche input::placeholder { color: var(--text-3); }
 .suche kbd { font: 500 11px "Geist", sans-serif; color: var(--text-3); border: 1px solid var(--linie); border-radius: 5px; padding: 1px 5px; }
 
+.eng { max-width: 880px; margin: 0 auto; }
+.fragen { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 13px; border-radius: 10px; border: 0; cursor: pointer;
+  background: var(--haupt-bg); color: var(--haupt-fg); font-size: 14px; font-weight: 500; white-space: nowrap; }
+.fragen:hover { background: var(--haupt-hover); }
+
 /* Übersicht */
 .kopf { padding: 88px 0 28px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
 .kopf h1 { margin: 0; font-size: clamp(44px, 7vw, 72px); font-weight: 600; letter-spacing: -0.055em; line-height: 1; }
 .kopf span { color: var(--text-3); font-size: 15px; }
 
-.liste { border-radius: 20px; padding: 6px; }
-.zeile { display: grid; grid-template-columns: 1fr 180px; gap: 32px; align-items: center;
-  padding: 22px 22px; border-radius: 14px; transition: background .15s; }
-.zeile + .zeile { box-shadow: 0 -1px 0 var(--linie); }
-.zeile:hover { background: var(--hover); box-shadow: none; }
-.zeile:hover + .zeile { box-shadow: none; }
-.zeile h2 { margin: 0 0 3px; font-size: 21px; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center; gap: 10px; }
-.zeile p { margin: 0; color: var(--text-2); font-size: 14.5px; text-wrap: pretty; }
+.filter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 14px; }
+.filter button { border: 1px solid var(--linie); background: var(--glas); color: var(--text-2); border-radius: 999px; padding: 6px 12px; font-size: 13.5px; font-weight: 500; cursor: pointer; }
+.filter button:hover { color: var(--text); }
+.filter button[aria-pressed="true"] { background: var(--haupt-bg); border-color: var(--haupt-bg); color: var(--haupt-fg); }
+.filter button span { opacity: .6; margin-left: 5px; }
+.filter .trenner { width: 1px; height: 20px; background: var(--linie); margin: 0 6px; }
+
+.tabelle { border-radius: 20px; padding: 6px; }
+.tz { display: grid; grid-template-columns: minmax(0, 2.3fr) 128px minmax(0, 1.25fr) minmax(0, 1.35fr) minmax(0, 1.05fr) 168px; gap: 20px; align-items: center; padding: 15px 18px; border-radius: 13px; }
+.tkopf { padding-block: 10px 8px; }
+.tkopf button { border: 0; background: none; padding: 0; text-align: left; font-size: 12.5px; font-weight: 500; color: var(--text-3); cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+.tkopf button:hover, .tkopf button[aria-sort] { color: var(--text); }
+a.tz { transition: background .15s; box-shadow: 0 -1px 0 var(--linie); }
+a.tz:hover { background: var(--hover); box-shadow: none; }
+a.tz:hover + a.tz { box-shadow: none; }
+.tz .name { font-size: 16px; font-weight: 600; letter-spacing: -0.015em; display: flex; align-items: center; gap: 8px; min-width: 0; }
+.tz .kurz { font-size: 13px; color: var(--text-3); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tz .zelle { font-size: 13.5px; line-height: 1.4; color: var(--text-2); min-width: 0; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.tz .zahl { margin-top: 7px; font-size: 12.5px; color: var(--text-3); }
+.tz .zahl b { font-weight: 600; color: var(--text); }
+.tz .zahl b.e { color: var(--lila-d); }
+.chip { display: inline-block; font-size: 12px; font-weight: 500; padding: 3px 9px; border-radius: 7px; background: var(--neutral-bg); color: var(--text-2); white-space: nowrap; }
+.nah { width: 6px; height: 6px; border-radius: 50%; background: var(--lila); flex: none; }
 .marke.entwurf { color: var(--text-2); background: var(--neutral-bg); }
 .marke { font-size: 11.5px; font-weight: 500; letter-spacing: 0; color: var(--warn-fg); background: var(--warn-bg); padding: 2px 7px; border-radius: 6px; }
 .leer { padding: 28px 22px; color: var(--text-3); }
@@ -155,12 +175,49 @@ button { font: inherit; color: inherit; }
 .quellen a { padding: 6px 11px; border-radius: 9px; background: var(--feld); color: var(--text-2); font-size: 13.5px; }
 .quellen a:hover { background: var(--aktiv); color: var(--lila-d); }
 
+/* Co-Pilot */
+.copilot { position: fixed; z-index: 20; top: calc(env(safe-area-inset-top, 0px) + 12px); bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);
+  right: max(12px, env(safe-area-inset-right, 0px)); width: min(420px, calc(100vw - 24px)); border-radius: 20px;
+  display: flex; flex-direction: column; overflow: hidden; background: var(--panel); }
+.cp-kopf { display: flex; align-items: center; gap: 10px; padding: 16px 16px 12px 20px; border-bottom: 1px solid var(--linie); }
+.cp-kopf b { font-size: 15px; font-weight: 600; }
+.cp-zu { margin-left: auto; border: 0; background: var(--feld); width: 30px; height: 30px; border-radius: 8px; cursor: pointer; color: var(--text-2); display: grid; place-items: center; }
+.cp-verlauf { flex: 1; overflow-y: auto; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; }
+.cp-leer { color: var(--text-2); font-size: 14px; }
+.cp-leer p { margin: 0 0 12px; }
+.cp-vorschlaege { display: flex; flex-direction: column; gap: 6px; }
+.cp-vorschlaege button { text-align: left; border: 1px solid var(--linie); background: var(--glas); color: var(--text); border-radius: 10px; padding: 9px 12px; font-size: 13.5px; cursor: pointer; }
+.cp-vorschlaege button:hover { border-color: var(--lila); }
+.cp-msg { font-size: 14px; line-height: 1.55; max-width: 100%; overflow-wrap: anywhere; }
+.cp-msg.ich { align-self: flex-end; background: var(--haupt-bg); color: var(--haupt-fg); padding: 9px 13px; border-radius: 14px 14px 4px 14px; max-width: 85%; }
+.cp-msg.ki { color: var(--text-2); }
+.cp-msg.ki p { margin: 0 0 8px; }
+.cp-msg.ki ul { margin: 0 0 8px; padding-left: 18px; }
+.cp-msg.ki li { margin-bottom: 4px; }
+.cp-msg.ki strong { color: var(--text); font-weight: 600; }
+.cp-msg.denkt { color: var(--text-3); }
+.cp-fehler { font-size: 13px; color: var(--warn-fg); }
+.cp-eingabe { display: flex; gap: 8px; align-items: flex-end; padding: 12px; border-top: 1px solid var(--linie); }
+.cp-eingabe textarea { flex: 1; min-width: 0; resize: none; border: 1px solid var(--linie); background: var(--feld); color: var(--text); border-radius: 12px; padding: 10px 12px; font: inherit; font-size: 14px; max-height: 140px; outline: none; }
+.cp-eingabe textarea:focus { border-color: var(--lila); }
+.cp-senden { border: 0; height: 40px; padding: 0 14px; border-radius: 11px; background: var(--haupt-bg); color: var(--haupt-fg); font-weight: 500; cursor: pointer; }
+.cp-senden:disabled { opacity: .5; cursor: default; }
+
+@media (max-width: 980px) and (min-width: 721px) {
+  .tz { grid-template-columns: minmax(0, 2fr) 120px minmax(0, 1.2fr) 150px; }
+  .tz > :nth-child(4), .tz > :nth-child(5) { display: none; }
+}
 @media (max-width: 720px) {
   .seite { padding-block: 0 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .suche { width: auto; flex: 1; }
   .suche kbd { display: none; }
   .kopf { padding-top: 56px; }
-  .zeile { grid-template-columns: 1fr; gap: 14px; padding: 18px 16px; }
+  .tz { grid-template-columns: minmax(0, 1fr) 140px; gap: 6px 14px; padding: 14px 12px; }
+  .tz > :nth-child(3), .tz > :nth-child(4), .tz > :nth-child(5) { display: none; }
+  .tz > :nth-child(2) { grid-row: 2; }
+  .tz > :nth-child(6) { grid-row: 1 / span 2; grid-column: 2; }
+  .tkopf { display: none; }
+  .fragen span { display: none; }
   .dkopf { grid-template-columns: 1fr; }
   .blatt { padding: 24px 20px 28px; }
   .reiter { width: 100%; }
@@ -177,9 +234,19 @@ button { font: inherit; color: inherit; }
       <input id="suche" type="search" placeholder="Suchen" aria-label="Anbieter oder Thema suchen">
       <kbd>/</kbd>
     </label>
+    <button class="fragen" id="fragen" hidden><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z"/></svg><span>Fragen</span></button>
   </header>
   <main id="app"></main>
 </div>
+<aside class="copilot glas" id="copilot" hidden aria-label="Co-Pilot">
+  <div class="cp-kopf"><b>Co-Pilot</b><span class="chip" id="cp-kontext"></span>
+    <button class="cp-zu" id="cp-zu" aria-label="Schließen"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div>
+  <div class="cp-verlauf" id="cp-verlauf"></div>
+  <form class="cp-eingabe" id="cp-form">
+    <textarea id="cp-text" rows="1" placeholder="Frage zum Wettbewerb"></textarea>
+    <button class="cp-senden" id="cp-senden" type="submit">Senden</button>
+  </form>
+</aside>
 
 <script>
 const KARTEN = /*DATEN*/[];
@@ -210,16 +277,54 @@ const einordnung = k => `
   <div class="balken" title="Ein Block je verglichenem Thema">${k.folge.map(c => `<i class="${c}"></i>`).join("")}</div>
   <div class="stand-zahl"><span class="e"><b>${k.vorn}</b> enneo</span><span class="w"><b>${k.hinten}</b> ${k.name}</span></div>`;
 
+const FOKUS = ["Voicebot", "KI-Agenten", "E-Mail-KI", "Contact Center", "Helpdesk", "CRM & ERP"];
+let fokus = "Alle", nurNah = false, sortierung = { feld: "name", ab: false };
+const pfeilSort = ab => `<svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="${ab ? "M5 8 1.5 3h7z" : "M5 2l3.5 5h-7z"}"/></svg>`;
+const anteil = k => k.vorn / Math.max(1, k.vorn + k.hinten);
+const SORT = {
+  name: (a, b) => a.name.localeCompare(b.name, "de"),
+  fokus: (a, b) => FOKUS.indexOf(a.fokus) - FOKUS.indexOf(b.fokus) || a.name.localeCompare(b.name, "de"),
+  firma: (a, b) => a.firma.localeCompare(b.firma, "de"),
+  hosting: (a, b) => a.hosting.localeCompare(b.hosting, "de"),
+  preis: (a, b) => (a.preis === "nicht öffentlich") - (b.preis === "nicht öffentlich") || a.preis.localeCompare(b.preis, "de"),
+  einordnung: (a, b) => anteil(b) - anteil(a),
+};
+const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
 function uebersicht() {
   const q = suche.toLowerCase();
-  const treffer = KARTEN.filter(k => !q || (k.name + " " + k.kurz + " " + k.html.replace(/<[^>]+>/g, " ")).toLowerCase().includes(q));
+  const passt = k => (fokus === "Alle" || k.fokus === fokus) && (!nurNah || k.naehe === "hoch") &&
+    (!q || (k.name + " " + k.kurz + " " + k.firma + " " + k.hosting + " " + k.preis + " " + k.html.replace(/<[^>]+>/g, " ")).toLowerCase().includes(q));
+  const treffer = KARTEN.filter(passt).sort(SORT[sortierung.feld]);
+  if (sortierung.ab) treffer.reverse();
+  const zahl = f => KARTEN.filter(k => (f === "Alle" || k.fokus === f) && (!nurNah || k.naehe === "hoch")).length;
+  const spalte = (feld, text) => `<button data-sort="${feld}" ${sortierung.feld === feld ? `aria-sort="${sortierung.ab ? "descending" : "ascending"}"` : ""}>${text}${sortierung.feld === feld ? pfeilSort(sortierung.ab) : ""}</button>`;
   app.innerHTML = `
-    <section class="kopf"><h1>Wettbewerb</h1><span>${KARTEN.length} Anbieter</span></section>
-    <div class="liste glas">${treffer.map(k => `
-      <a class="zeile" href="#${k.slug}">
-        <div><h2>${k.name}${entwurf(k) ? `<span class="marke entwurf">Entwurf</span>` : alt(k.stand) ? `<span class="marke">prüfen</span>` : ""}</h2><p>${k.kurz}</p></div>
-        <div>${einordnung(k)}</div>
-      </a>`).join("") || `<div class="leer">Keine Treffer für „${suche.replace(/</g, "&lt;")}“</div>`}</div>`;
+    <section class="kopf"><h1>Wettbewerb</h1><span>${KARTEN.length} Anbieter · ${KARTEN.filter(k => k.naehe === "hoch").length} nah an enneo</span></section>
+    <div class="filter" role="group" aria-label="Filter">
+      ${["Alle", ...FOKUS].map(f => `<button data-fokus="${f}" aria-pressed="${f === fokus}">${f}<span>${zahl(f)}</span></button>`).join("")}
+      <span class="trenner"></span>
+      <button data-nah aria-pressed="${nurNah}">Nur nah an enneo</button>
+    </div>
+    <div class="tabelle glas">
+      <div class="tz tkopf">${spalte("name", "Anbieter")}${spalte("fokus", "Schwerpunkt")}${spalte("firma", "Sitz")}${spalte("hosting", "Hosting")}${spalte("preis", "Preise")}${spalte("einordnung", "Einordnung")}</div>
+      ${treffer.map(k => `
+      <a class="tz" href="#${k.slug}">
+        <div style="min-width:0"><div class="name">${k.naehe === "hoch" ? `<i class="nah" title="Nah an enneo"></i>` : ""}${k.name}</div><div class="kurz">${k.kurz}</div></div>
+        <div><span class="chip">${k.fokus}</span></div>
+        <div class="zelle" title="${esc(k.firma)}">${k.firma}</div>
+        <div class="zelle" title="${esc(k.hosting)}">${k.hosting}</div>
+        <div class="zelle" title="${esc(k.preis)}">${k.preis}</div>
+        <div title="${k.vorn} Themen enneo vorn, ${k.hinten} Themen ${esc(k.name)} vorn"><div class="balken">${k.folge.map(c => `<i class="${c}"></i>`).join("")}</div><div class="zahl"><b class="e">${k.vorn}</b> enneo vorn · <b>${k.hinten}</b> dort</div></div>
+      </a>`).join("") || `<div class="leer">Keine Treffer${suche ? ` für „${esc(suche)}“` : ""}.</div>`}
+    </div>`;
+  app.querySelectorAll("[data-fokus]").forEach(b => b.onclick = () => { fokus = b.dataset.fokus; uebersicht(); });
+  app.querySelector("[data-nah]").onclick = () => { nurNah = !nurNah; uebersicht(); };
+  app.querySelectorAll("[data-sort]").forEach(b => b.onclick = () => {
+    const f = b.dataset.sort;
+    sortierung = { feld: f, ab: sortierung.feld === f ? !sortierung.ab : false };
+    uebersicht();
+  });
 }
 
 // Abschnitte der Karte auf Reiter verteilen
@@ -252,7 +357,7 @@ function abschnitte(k) {
 function detail(k, reiter = 0) {
   const tabs = abschnitte(k);
   app.innerHTML = `
-    <a class="zurueck" href="#">${zurueckPfeil} Alle Anbieter</a>
+    <div class="eng"><a class="zurueck" href="#">${zurueckPfeil} Alle Anbieter</a>
     <section class="dkopf">
       <div>
         <h1>${k.name}</h1>
@@ -265,7 +370,7 @@ function detail(k, reiter = 0) {
       </div>
     </section>
     <div class="reiter glas" role="tablist">${tabs.map(([t], i) => `<button role="tab" aria-selected="${i === reiter}" data-i="${i}">${t}</button>`).join("")}</div>
-    <article class="blatt glas" role="tabpanel">${tabs[reiter][1]}</article>`;
+    <article class="blatt glas" role="tabpanel">${tabs[reiter][1]}</article></div>`;
   app.querySelectorAll(".reiter button").forEach(b => b.onclick = () => detail(k, +b.dataset.i));
   app.querySelectorAll("[data-pdf]").forEach(b => {
     if (!speichern) { b.hidden = true; return; }
@@ -275,14 +380,131 @@ function detail(k, reiter = 0) {
 
 feld.oninput = e => { suche = e.target.value; if (location.hash) location.hash = ""; else uebersicht(); };
 document.addEventListener("keydown", e => {
-  if (e.key === "/" && document.activeElement !== feld) { e.preventDefault(); feld.focus(); }
-  if (e.key === "Escape") { feld.value = ""; suche = ""; feld.blur(); route(); }
+  if (e.key === "/" && document.activeElement !== feld && document.activeElement !== cp("cp-text")) { e.preventDefault(); feld.focus(); }
+  if (e.key === "Escape") { if (!cp("copilot").hidden) { cp("copilot").hidden = true; return; } feld.value = ""; suche = ""; feld.blur(); route(); }
 });
 function route() {
   const k = KARTEN.find(k => k.slug === location.hash.slice(1));
   k ? detail(k) : uebersicht();
   if (k) window.scrollTo(0, 0);
+  cpKontext();
 }
+
+// ---------- Co-Pilot: fragt Claude mit dem Inhalt der Seite, die gerade offen ist ----------
+let fragen = null, cpLaeuft = null;
+const verlaeufe = {};                      // je Kontext (Anbieter oder Übersicht) ein eigenes Gespräch
+const cp = id => document.getElementById(id);
+const aktuelleKarte = () => KARTEN.find(k => k.slug === location.hash.slice(1));
+const textAus = html => html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+const ladeText = async pfad => { try { const r = await fetch(pfad); return r.ok ? await r.text() : ""; } catch (e) { return ""; } };
+
+function kurzfassung(k) {
+  const fazit = (k.html.split("<h2>Fazit</h2>")[1] || "").split("<h2>")[0];
+  return `${k.name} (${k.fokus}, Nähe zu enneo: ${k.naehe}). ${k.kurz}. Sitz: ${k.firma}. Hosting: ${k.hosting}. Preise: ${k.preis}. Einordnung: ${k.vorn} Themen enneo vorn, ${k.hinten} Themen ${k.name} vorn. Fazit: ${textAus(fazit)}`;
+}
+
+function cpKontext() {
+  const k = aktuelleKarte();
+  cp("cp-kontext").textContent = k ? k.name : "Alle Anbieter";
+  cpZeigen();
+}
+
+function mdZuHtml(t) {
+  const zeilen = esc(t).split("\n");
+  let html = "", liste = false;
+  for (const z of zeilen) {
+    const p = z.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    if (/^\s*[-*•]\s+/.test(z)) { if (!liste) { html += "<ul>"; liste = true; } html += `<li>${p.replace(/^\s*[-*•]\s+/, "")}</li>`; }
+    else { if (liste) { html += "</ul>"; liste = false; } if (z.trim()) html += `<p>${p.replace(/^#+\s*/, "")}</p>`; }
+  }
+  return html + (liste ? "</ul>" : "");
+}
+
+function cpZeigen() {
+  const k = aktuelleKarte(), key = k ? k.slug : "_alle", v = verlaeufe[key] || [];
+  const box = cp("cp-verlauf");
+  if (!v.length) {
+    const vorschlaege = k
+      ? [`Wo gewinnen wir gegen ${k.name}?`, `Welche Einwände hören wir, wenn ein Kunde ${k.name} nutzt?`, `Gib mir einen Pitch in 3 Sätzen gegen ${k.name}.`]
+      : ["Wer kann E-Mails bis zur Buchung im ERP automatisieren?", "Welche Anbieter sind bei Energieversorgern stark?", "Gegen wen verlieren wir am ehesten und warum?"];
+    box.innerHTML = `<div class="cp-leer"><p>${k ? `Ich kenne die Karte zu <strong>${esc(k.name)}</strong> und unsere eigenen Fakten.` : "Ich kenne alle Karten und unsere eigenen Fakten."} Frag mich etwas.</p>
+      <div class="cp-vorschlaege">${vorschlaege.map(t => `<button type="button">${esc(t)}</button>`).join("")}</div></div>`;
+    box.querySelectorAll(".cp-vorschlaege button").forEach(b => b.onclick = () => cpFrage(b.textContent));
+  } else {
+    box.innerHTML = v.map(m => `<div class="cp-msg ${m.role === "user" ? "ich" : "ki"}">${m.role === "user" ? esc(m.content) : mdZuHtml(m.content)}</div>`).join("");
+  }
+  box.scrollTop = box.scrollHeight;
+}
+
+async function cpFrage(text) {
+  text = text.trim();
+  if (!text || cpLaeuft || !fragen) return;
+  const k = aktuelleKarte(), key = k ? k.slug : "_alle";
+  const v = (verlaeufe[key] = verlaeufe[key] || []);
+  v.push({ role: "user", content: text });
+  cpZeigen();
+  const box = cp("cp-verlauf");
+  const antwort = document.createElement("div");
+  antwort.className = "cp-msg ki denkt"; antwort.textContent = "Denkt nach …";
+  box.append(antwort); box.scrollTop = box.scrollHeight;
+  cp("cp-senden").textContent = "Stopp";
+
+  // Unterlagen: unsere Fakten + die offene Karte, auf der Übersicht alle Kurzfassungen plus die genannten Anbieter in voller Länge
+  const fakten = await ladeText("enneo-fakten.md");
+  let unterlagen;
+  if (k) unterlagen = `## Karte ${k.name} (die Seite, die der Nutzer gerade offen hat)\n\n${await ladeText("karten/" + k.slug + ".md")}`;
+  else {
+    const genannt = KARTEN.filter(x => text.toLowerCase().includes(x.name.toLowerCase())).slice(0, 3);
+    unterlagen = "## Alle Anbieter in Kurzform\n\n" + KARTEN.map(kurzfassung).join("\n\n");
+    for (const x of genannt) unterlagen += `\n\n## Volle Karte ${x.name}\n\n${await ladeText("karten/" + x.slug + ".md")}`;
+  }
+  const regeln = `Du bist der Wettbewerbs-Co-Pilot im Vertrieb von enneo (KI-Plattform für Kundenservice, Berlin). Nutzer sind enneo-Mitarbeitende im Vertrieb.
+Regeln:
+- Antworte auf Deutsch, knapp und konkret, meist 3 bis 8 Sätze oder kurze Stichpunkte. Fett ist erlaubt, keine Überschriften, keine Tabellen, keine Gedankenstriche.
+- Antworte nur aus den Unterlagen unten. Steht etwas nicht drin, sag das offen und rate nicht. Keine erfundenen Zahlen, Kunden oder Funktionen.
+- Über enneo nur, was in den enneo-Fakten steht. Ehrliche Schwächen von enneo nicht verschweigen.
+- Ist eine Karte als Entwurf markiert ("noch nicht gegengelesen"), weise bei heiklen Aussagen kurz darauf hin.
+- ${k ? `Der Nutzer ist gerade auf der Seite von ${k.name}. Fragen ohne Namen beziehen sich auf ${k.name}.` : "Der Nutzer ist auf der Übersicht aller Anbieter."}
+
+# enneo-Fakten
+${fakten}
+
+# Unterlagen
+${unterlagen}`;
+  const ctl = new AbortController(); cpLaeuft = ctl;
+  try {
+    const { text: fertig } = await fragen([{ role: "user", content: regeln }, ...v.slice(-10)], {
+      cache: false, signal: ctl.signal,
+      onText: ({ text }) => { antwort.classList.remove("denkt"); antwort.innerHTML = mdZuHtml(text); box.scrollTop = box.scrollHeight; },
+    });
+    v.push({ role: "assistant", content: fertig });
+  } catch (e) {
+    const code = e && e.code;
+    if (e && e.text) v.push({ role: "assistant", content: e.text });
+    else v.pop();
+    cpZeigen();
+    if (code === "not_granted" || code === "sampling_disabled" || code === "capability_disabled" || code === "not_declared") {
+      cp("fragen").hidden = true; cp("copilot").hidden = true;
+    } else if (code !== "cancelled") {
+      cp("cp-verlauf").insertAdjacentHTML("beforeend", `<div class="cp-fehler">${code === "rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : "Das hat nicht geklappt. Versuch es noch einmal."}</div>`);
+    }
+  } finally {
+    cpLaeuft = null; cp("cp-senden").textContent = "Senden";
+    cpZeigen();
+  }
+}
+
+cp("fragen").onclick = () => { const p = cp("copilot"); p.hidden = !p.hidden; if (!p.hidden) { cpKontext(); cp("cp-text").focus(); } };
+cp("cp-zu").onclick = () => { cp("copilot").hidden = true; };
+cp("cp-form").onsubmit = e => {
+  e.preventDefault();
+  if (cpLaeuft) { cpLaeuft.abort(); return; }
+  const t = cp("cp-text"); const wert = t.value; t.value = ""; t.style.height = ""; cpFrage(wert);
+};
+cp("cp-text").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); cp("cp-form").requestSubmit(); } });
+cp("cp-text").addEventListener("input", e => { e.target.style.height = "auto"; e.target.style.height = Math.min(140, e.target.scrollHeight) + "px"; });
+function copilotBereit(fn) { fragen = fn; cp("fragen").hidden = !fn; }
+if (window.claude && window.claude.use) window.claude.use("sample").then(copilotBereit).catch(() => {});
 window.onhashchange = route;
 route();
 </script>

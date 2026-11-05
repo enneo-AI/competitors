@@ -1,6 +1,8 @@
 ---
 name: "Freshworks"
 slug: "freshworks"
+fokus: "Helpdesk"
+naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
 geprueft_von: "Enni, noch nicht gegengelesen"

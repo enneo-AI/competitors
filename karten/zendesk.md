@@ -1,6 +1,8 @@
 ---
 name: "Zendesk"
 slug: "zendesk"
+fokus: "Helpdesk"
+naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-10-28"
 geprueft_von: "Aleksa Spalevic"
