@@ -70,6 +70,25 @@ button { font: inherit; color: inherit; }
 .fragen { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 13px; border-radius: 10px; border: 0; cursor: pointer;
   background: var(--haupt-bg); color: var(--haupt-fg); font-size: 14px; font-weight: 500; white-space: nowrap; }
 .fragen:hover { background: var(--haupt-hover); }
+.neu-knopf { display: grid; place-items: center; width: 36px; height: 36px; flex: none; border: 0; border-radius: 10px; background: var(--feld); color: var(--text-2); cursor: pointer; transition: background .15s, color .15s; }
+.neu-knopf:hover, .neu-knopf[aria-expanded="true"] { background: var(--aktiv); color: var(--text); }
+.neu-feld { position: fixed; z-index: 6; top: calc(env(safe-area-inset-top, 0px) + 72px); right: max(16px, calc((100vw - 928px) / 2 + 24px), env(safe-area-inset-right, 0px)); width: min(380px, calc(100vw - 32px)); border-radius: 16px; padding: 14px; }
+.neu-feld form { display: flex; gap: 8px; }
+.neu-feld input { flex: 1; min-width: 0; height: 38px; border: 1px solid var(--linie); background: var(--feld); color: var(--text); border-radius: 10px; padding: 0 12px; font: inherit; font-size: 14px; outline: none; }
+.neu-feld input:focus { border-color: var(--lila); }
+.neu-feld button { height: 38px; padding: 0 14px; border: 0; border-radius: 10px; background: var(--haupt-bg); color: var(--haupt-fg); font: inherit; font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap; }
+.neu-feld button:disabled { opacity: .6; cursor: default; }
+.neu-meldung { margin: 10px 2px 0; font-size: 13px; color: var(--text-2); }
+.neu-meldung a { color: var(--lila-d); }
+.tz.anfrage { box-shadow: 0 -1px 0 var(--linie); color: var(--text-3); }
+.tz.anfrage .name { color: var(--text-2); }
+.tz.anfrage .status { grid-column: 2 / -1; display: flex; align-items: center; gap: 10px; font-size: 13.5px; }
+.tz.anfrage .status button { margin-left: auto; border: 0; background: none; color: var(--text-3); cursor: pointer; padding: 4px; border-radius: 6px; }
+.tz.anfrage .status button:hover { color: var(--text); background: var(--feld); }
+.laeuft { width: 7px; height: 7px; border-radius: 50%; background: var(--lila); flex: none; animation: puls 1.6s ease-in-out infinite; }
+.wartet { width: 7px; height: 7px; border-radius: 50%; background: var(--s-hell); flex: none; }
+.fehlt { width: 7px; height: 7px; border-radius: 50%; background: var(--warn-fg); flex: none; }
+@keyframes puls { 50% { opacity: .3; } }
 
 /* Übersicht */
 .kopf { padding: 56px 0 24px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
@@ -216,6 +235,7 @@ a.tz:hover + a.tz { box-shadow: none; }
   .tz { grid-template-columns: minmax(0, 1fr) 140px; gap: 6px 14px; padding: 14px 12px; }
   .tz > :nth-child(3), .tz > :nth-child(4), .tz > :nth-child(5) { display: none; }
   .tz > :nth-child(2) { grid-row: 2; }
+  .tz.anfrage .status { grid-column: 1 / -1; grid-row: 2; }
   .tz > :nth-child(6) { grid-row: 1 / span 2; grid-column: 2; }
   .tkopf { display: none; }
   .fragen span { display: none; }
@@ -235,9 +255,17 @@ a.tz:hover + a.tz { box-shadow: none; }
       <input id="suche" type="search" placeholder="Suchen" aria-label="Anbieter oder Thema suchen">
       <kbd>/</kbd>
     </label>
+    <button class="neu-knopf" id="neu-knopf" hidden aria-expanded="false" aria-controls="neu-feld" title="Anbieter hinzufügen" aria-label="Anbieter hinzufügen"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8 3v10M3 8h10"/></svg></button>
     <button class="fragen" id="fragen" hidden><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z"/></svg><span>Fragen</span></button>
   </header>
   <main id="app"></main>
+</div>
+<div class="neu-feld glas" id="neu-feld" hidden>
+  <form id="neu-form" autocomplete="off">
+    <input id="neu-url" type="text" inputmode="url" autocapitalize="off" spellcheck="false" placeholder="Website des Anbieters" aria-label="Website des Anbieters" required>
+    <button type="submit" id="neu-senden">Analysieren</button>
+  </form>
+  <p class="neu-meldung" id="neu-meldung" hidden></p>
 </div>
 <aside class="copilot glas" id="copilot" hidden aria-label="Co-Pilot">
   <div class="cp-kopf"><b>Co-Pilot</b><span class="chip" id="cp-kontext"></span>
@@ -265,7 +293,7 @@ async function pdfSpeichern(b) {
     if (e && e.code && e.code !== "declined") b.insertAdjacentHTML("afterend", `<div class="hinweis">Download gerade nicht möglich.</div>`);
   } finally { b.disabled = false; b.innerHTML = text; }
 }
-let suche = "";
+let suche = "", db = null, anfragen = [];
 const app = document.getElementById("app");
 const feld = document.getElementById("suche");
 const datum = iso => { const [j, m, t] = iso.split("-"); return `${t}.${m}.${j}`; };
@@ -309,6 +337,7 @@ function uebersicht() {
     </div>
     <div class="tabelle glas">
       <div class="tz tkopf">${spalte("name", "Anbieter")}${spalte("fokus", "Schwerpunkt")}${spalte("firma", "Sitz")}${spalte("hosting", "Hosting")}${spalte("preis", "Preise")}${spalte("einordnung", "Einordnung")}</div>
+      ${anfrageZeilen()}
       ${treffer.map(k => `
       <a class="tz" href="#${k.slug}">
         <div class="name">${markeLogo(k)}<span>${k.name}</span></div>
@@ -382,8 +411,8 @@ function detail(k, reiter = 0) {
 
 feld.oninput = e => { suche = e.target.value; if (location.hash) location.hash = ""; else uebersicht(); };
 document.addEventListener("keydown", e => {
-  if (e.key === "/" && document.activeElement !== feld && document.activeElement !== cp("cp-text")) { e.preventDefault(); feld.focus(); }
-  if (e.key === "Escape") { if (!cp("copilot").hidden) { cp("copilot").hidden = true; return; } feld.value = ""; suche = ""; feld.blur(); route(); }
+  if (e.key === "/" && !/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)) { e.preventDefault(); feld.focus(); }
+  if (e.key === "Escape") { if (!cp("neu-feld").hidden) { neuOeffnen(false); return; } if (!cp("copilot").hidden) { cp("copilot").hidden = true; return; } feld.value = ""; suche = ""; feld.blur(); route(); }
 });
 function route() {
   const k = KARTEN.find(k => k.slug === location.hash.slice(1));
@@ -505,6 +534,61 @@ cp("cp-text").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shi
 cp("cp-text").addEventListener("input", e => { e.target.style.height = "auto"; e.target.style.height = Math.min(140, e.target.scrollHeight) + "px"; });
 function copilotBereit(fn) { fragen = fn; cp("fragen").hidden = !fn; }
 if (window.claude && window.claude.use) window.claude.use("sample").then(copilotBereit).catch(() => {});
+
+// ---------- Neue Anbieter: Anfrage in der gemeinsamen Datenbank, Claude Code recherchiert und veröffentlicht die Karte ----------
+const domainVon = url => { try { const u = new URL(/^https?:\/\//i.test(url) ? url : "https://" + url); return /^https?:$/.test(u.protocol) && u.hostname.includes(".") ? u.hostname.replace(/^www\./, "").toLowerCase() : ""; } catch (e) { return ""; } };
+const vorhanden = d => KARTEN.find(k => domainVon(k.website) === d || domainVon(k.website).endsWith("." + d) || d.endsWith("." + domainVon(k.website)));
+const STATUS = { offen: ["wartet", "Wartet auf Analyse"], arbeit: ["laeuft", "Analyse läuft"], fehler: ["fehlt", "Analyse fehlgeschlagen"] };
+function anfrageZeilen() {
+  if (fokus !== "Alle" || nurNah || suche) return "";
+  return anfragen.filter(a => STATUS[a.status] && !vorhanden(a.domain)).map(a => {
+    const [klasse, text] = STATUS[a.status];
+    return `<div class="tz anfrage"><div class="name"><span class="marke-logo"><b>${esc(a.domain[0].toUpperCase())}</b></span><span>${esc(a.domain)}</span></div>
+      <div class="status"><i class="${klasse}"></i>${text}${a.status === "fehler" && a.hinweis ? `: ${esc(a.hinweis)}` : ""}${a.status === "fehler" ? `<button data-weg="${esc(a.id)}" aria-label="Entfernen" title="Entfernen"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button>` : ""}</div></div>`;
+  }).join("");
+}
+function neuMeldung(html) { const m = cp("neu-meldung"); m.innerHTML = html; m.hidden = !html; }
+function neuOeffnen(auf) {
+  cp("neu-feld").hidden = !auf; cp("neu-knopf").setAttribute("aria-expanded", String(auf));
+  if (auf) { neuMeldung(""); cp("neu-url").focus(); }
+}
+async function neuBereit(user) {
+  try { db = await claude.use("db"); } catch (e) { db = null; }
+  if (!db || (user && user.can && user.can("data.write") === false)) return;
+  cp("neu-knopf").hidden = false;
+  db.collection("anfragen").onSnapshot(s => {
+    anfragen = s.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (a.erstellt || 0) - (b.erstellt || 0));
+    if (!location.hash) uebersicht();
+  }, () => {});
+}
+cp("neu-knopf").onclick = () => neuOeffnen(cp("neu-feld").hidden);
+cp("neu-form").onsubmit = async e => {
+  e.preventDefault();
+  const url = cp("neu-url").value.trim(), d = domainVon(url);
+  if (!d) return neuMeldung("Das sieht nicht nach einer Website aus.");
+  const k = vorhanden(d);
+  if (k) return neuMeldung(`${esc(k.name)} gibt es schon. <a href="#${k.slug}">Öffnen</a>`);
+  const id = d.replace(/[^a-z0-9]+/g, "-");
+  const b = cp("neu-senden"); b.disabled = true;
+  try {
+    const ref = db.doc("anfragen/" + id), da = await ref.get();
+    if (da.exists && ["offen", "arbeit"].includes(da.data().status)) neuMeldung("Ist schon angefragt.");
+    else {
+      let von = null; try { const u = await claude.use("user"); von = u ? await u.id() : null; } catch (e) {}
+      await ref.set({ url: /^https?:\/\//i.test(url) ? url : "https://" + url, domain: d, status: "offen", erstellt: Date.now(), von });
+      cp("neu-url").value = "";
+      neuMeldung("Angefragt. Die Karte erscheint hier, sobald die Analyse fertig ist.");
+    }
+  } catch (err) { neuMeldung("Hat nicht geklappt. Versuch es noch einmal."); }
+  finally { b.disabled = false; }
+};
+document.addEventListener("click", e => {
+  const weg = e.target.closest("[data-weg]");
+  if (weg && db) { e.preventDefault(); db.doc("anfragen/" + weg.dataset.weg).delete().catch(() => {}); return; }
+  if (!cp("neu-feld").hidden && !e.target.closest("#neu-feld, #neu-knopf")) neuOeffnen(false);
+});
+if (window.claude && window.claude.use) window.claude.use("user").then(neuBereit, () => neuBereit(null));
+
 window.onhashchange = route;
 route();
 </script>
