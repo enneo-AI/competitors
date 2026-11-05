@@ -306,6 +306,7 @@ a.tz:hover + a.tz { box-shadow: none; }
   .seite { padding-block: 0 72px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .suche { width: auto; flex: 1; min-width: 0; }
   .leiste { gap: 8px; }
+  .sprache button:not([aria-pressed="true"]) { display: none; }
   .suche kbd { display: none; }
   .kopf { padding-top: 56px; }
   .tz { grid-template-columns: minmax(0, 1fr) 140px; gap: 6px 14px; padding: 14px 12px; }
@@ -1064,8 +1065,11 @@ function statisch() {
   listeVorschau();
 }
 document.querySelectorAll("[data-sprache]").forEach(b => b.onclick = () => {
-  if (b.dataset.sprache === LANG) return;
-  LANG = b.dataset.sprache; document.documentElement.lang = LANG;
+  // Auf dem Handy ist nur die aktive Sprache sichtbar, ein Tipp darauf schaltet um
+  const andere = document.querySelector(`[data-sprache]:not([data-sprache="${b.dataset.sprache}"])`);
+  let neu = b.dataset.sprache;
+  if (neu === LANG) { if (andere.offsetParent !== null) return; neu = andere.dataset.sprache; }
+  LANG = neu; document.documentElement.lang = LANG;
   try { localStorage.setItem("bc-sprache", LANG); } catch (e) {}
   statisch();
   const k = aktuelleKarte();
