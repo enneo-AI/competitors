@@ -61,7 +61,6 @@ shutil.copy(A / "enneo-logo.svg", SITE / "enneo-logo.svg")
 (SITE / "alle-karten.md").write_text("\n\n".join(p.read_text() for p in sorted(KARTEN.glob("*.md"))))
 shutil.copytree(KARTEN, SITE / "karten", dirs_exist_ok=True)
 shutil.copy(ROOT / "werkzeuge" / "enneo-fakten.md", SITE / "enneo-fakten.md")
-shutil.copy(ROOT / "werkzeuge" / "auftrag-karte.md", SITE / "auftrag-karte.md")
 shutil.copytree(ROOT / "pdf", SITE / "pdf", dirs_exist_ok=True)
 # Logos je Anbieter (werkzeuge/logos.py holt fehlende)
 LOGOS = A / "logos"

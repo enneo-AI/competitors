@@ -278,8 +278,7 @@ a.tz:hover + a.tz { box-shadow: none; }
 </aside>
 
 <script>
-const STATISCH = /*DATEN*/[];
-let KARTEN = STATISCH.slice();
+const KARTEN = /*DATEN*/[];
 // PDFs liegen neben der Seite und werden über den Download-Dialog des Viewers gespeichert
 let speichern = null;
 const bereit = window.claude && window.claude.use ? window.claude.use("downloads").then(d => { speichern = d; route(); }).catch(() => {}) : null;
@@ -483,11 +482,11 @@ async function cpFrage(text) {
   // Unterlagen: unsere Fakten + die offene Karte, auf der Übersicht alle Kurzfassungen plus die genannten Anbieter in voller Länge
   const fakten = await ladeText("enneo-fakten.md");
   let unterlagen;
-  if (k) unterlagen = `## Karte ${k.name} (die Seite, die der Nutzer gerade offen hat)\n\n${await kartenText(k)}`;
+  if (k) unterlagen = `## Karte ${k.name} (die Seite, die der Nutzer gerade offen hat)\n\n${await ladeText("karten/" + k.slug + ".md")}`;
   else {
     const genannt = KARTEN.filter(x => text.toLowerCase().includes(x.name.toLowerCase())).slice(0, 3);
     unterlagen = "## Alle Anbieter in Kurzform\n\n" + KARTEN.map(kurzfassung).join("\n\n");
-    for (const x of genannt) unterlagen += `\n\n## Volle Karte ${x.name}\n\n${await kartenText(x)}`;
+    for (const x of genannt) unterlagen += `\n\n## Volle Karte ${x.name}\n\n${await ladeText("karten/" + x.slug + ".md")}`;
   }
   const regeln = `Du bist der Wettbewerbs-Co-Pilot im Vertrieb von enneo (KI-Plattform für Kundenservice, Berlin). Nutzer sind enneo-Mitarbeitende im Vertrieb.
 Regeln:
@@ -536,110 +535,19 @@ cp("cp-text").addEventListener("input", e => { e.target.style.height = "auto"; e
 function copilotBereit(fn) { fragen = fn; cp("fragen").hidden = !fn; }
 if (window.claude && window.claude.use) window.claude.use("sample").then(copilotBereit).catch(() => {});
 
-// ---------- Neue Anbieter: Karte sofort mit Claude erstellen, Hintergrundlauf prüft sie danach mit Webrecherche ----------
+// ---------- Neue Anbieter: Anfrage in der gemeinsamen Datenbank, Claude Code recherchiert gründlich und veröffentlicht die Karte ----------
 const domainVon = url => { try { const u = new URL(/^https?:\/\//i.test(url) ? url : "https://" + url); return /^https?:$/.test(u.protocol) && u.hostname.includes(".") ? u.hostname.replace(/^www\./, "").toLowerCase() : ""; } catch (e) { return ""; } };
 const vorhanden = d => KARTEN.find(k => k.website && (domainVon(k.website) === d || domainVon(k.website).endsWith("." + d) || d.endsWith("." + domainVon(k.website))));
-const STATUS = { offen: ["wartet", "Wartet auf Analyse"], arbeit: ["laeuft", "Analyse läuft"], fehler: ["fehlt", "Analyse fehlgeschlagen"] };
-const fortschritt = {};                    // Abschnitt, an dem die eigene Analyse gerade schreibt
-let neueKarten = [];
+const STATUS = { offen: ["wartet", "In der Warteschlange"], arbeit: ["laeuft", "Wird erstellt"], fehler: ["fehlt", "Fehlgeschlagen"] };
 function anfrageZeilen() {
   if (fokus !== "Alle" || nurNah || suche) return "";
   return anfragen.filter(a => STATUS[a.status] && !vorhanden(a.domain)).map(a => {
     const [klasse, text] = STATUS[a.status];
-    const extra = a.status === "fehler" && a.hinweis ? `: ${esc(a.hinweis)}` : fortschritt[a.id] ? ` · ${esc(fortschritt[a.id])}` : "";
-    return `<div class="tz anfrage"><div class="name"><span class="marke-logo"><b>${esc(a.domain[0].toUpperCase())}</b></span><span>${esc(a.domain)}</span></div>
+    const extra = a.status === "fehler" ? (a.hinweis ? `: ${esc(a.hinweis)}` : "") : a.status === "arbeit" && a.schritt ? ` · ${esc(a.schritt)}` : "";
+    return `<div class="tz anfrage" aria-busy="${a.status !== "fehler"}"><div class="name"><span class="marke-logo"><b>${esc(a.domain[0].toUpperCase())}</b></span><span>${esc(a.domain)}</span></div>
       <div class="status"><i class="${klasse}"></i>${text}${extra}${a.status === "fehler" ? `<button data-weg="${esc(a.id)}" aria-label="Entfernen" title="Entfernen"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button>` : ""}</div></div>`;
   }).join("");
 }
-
-// Markdown einer Karte in dieselbe Form bringen, die build.py für die festen Karten erzeugt
-function inline(t) {
-  return esc(t)
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, txt, url) => `<a target="_blank" rel="noopener" href="${url.replace(/"/g, "%22")}">${txt}</a>`);
-}
-function mdZuKarte(md) {
-  const m = md.replace(/\r/g, "").match(/^\s*---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-  if (!m) return null;
-  const meta = {};
-  for (const z of m[1].split("\n")) { const i = z.indexOf(":"); if (i > 0) meta[z.slice(0, i).trim()] = z.slice(i + 1).trim().replace(/^"|"$/g, ""); }
-  if (!meta.name || !meta.slug) return null;
-  const body = m[2].trim(), zeilen = body.split("\n");
-  const PILL = lab => lab.startsWith("enneo klar") ? "p-voll" : lab.startsWith("enneo") ? "p-hell" : lab.startsWith(meta.name) && lab.includes("klar") ? "p-dunkel" : lab.startsWith(meta.name) ? "p-rand" : lab === "gleich" ? "p-grau" : "p-offen";
-  const LABELS = ["enneo klar vorn", "enneo vorn", "gleich", "je nach Fall", meta.name + " klar vorn", meta.name + " vorn"];
-  let html = "", i = 0;
-  while (i < zeilen.length) {
-    const z = zeilen[i];
-    if (/^##\s+/.test(z)) { html += `<h2>${inline(z.replace(/^##\s+/, ""))}</h2>\n`; i++; }
-    else if (/^\s*[-*]\s+/.test(z)) {
-      html += "<ul>\n";
-      while (i < zeilen.length && /^\s*[-*]\s+/.test(zeilen[i])) html += `<li>${inline(zeilen[i++].replace(/^\s*[-*]\s+/, ""))}</li>\n`;
-      html += "</ul>\n";
-    } else if (/^\s*\|/.test(z)) {
-      const reihen = [];
-      while (i < zeilen.length && /^\s*\|/.test(zeilen[i])) reihen.push(zeilen[i++].trim().replace(/^\||\|$/g, "").split("|").map(c => c.trim()));
-      const [kopf, , ...rest] = reihen;
-      html += `<table>\n<thead>\n<tr>\n${kopf.map(c => `<th>${inline(c)}</th>`).join("\n")}\n</tr>\n</thead>\n<tbody>\n`;
-      for (const r of rest) html += `<tr>\n${r.map((c, j) => j === r.length - 1 && LABELS.includes(c) ? `<td><span class="pill ${PILL(c)}">${esc(c)}</span></td>` : `<td>${inline(c)}</td>`).join("\n")}\n</tr>\n`;
-      html += "</tbody>\n</table>\n";
-    } else if (z.trim()) {
-      const absatz = [];
-      while (i < zeilen.length && zeilen[i].trim() && !/^(##\s|\s*[-*]\s|\s*\|)/.test(zeilen[i])) absatz.push(zeilen[i++].trim());
-      html += `<p>${inline(absatz.join(" "))}</p>\n`;
-    } else i++;
-  }
-  const folge = [...html.matchAll(/class="pill (p-[a-z]+)"/g)].map(x => x[1]);
-  const eck = {};
-  ((body.split("## Eckdaten")[1] || "").split("\n## ")[0]).split("\n").forEach(r => {
-    const c = r.trim().replace(/^\||\|$/g, "").split("|").map(x => x.trim());
-    if (c.length >= 3 && c[0] && !c[0].startsWith("-")) eck[c[0]] = c[1].replace(/\*\*/g, "");
-  });
-  return { ...meta, html, folge, vorn: folge.filter(c => c === "p-voll" || c === "p-hell").length, hinten: folge.filter(c => c === "p-rand" || c === "p-dunkel").length,
-    firma: eck.Firma || "", hosting: eck.Hosting || "", preis: eck.Preise || eck.Lizenz || "", quelle: md, neu: true };
-}
-function kartenNeuBerechnen() {
-  const fest = new Set(STATISCH.map(k => k.slug));
-  KARTEN = STATISCH.concat(neueKarten.filter(k => !fest.has(k.slug)));
-}
-const kartenText = async k => k.quelle || ladeText("karten/" + k.slug + ".md");
-
-async function karteErstellen(id, url, domain) {
-  const setze = text => { fortschritt[id] = text; if (!location.hash) uebersicht(); };
-  setze("Vorbereitung");
-  const [auftrag, fakten, vorbild] = await Promise.all([ladeText("auftrag-karte.md"), ladeText("enneo-fakten.md"), ladeText("karten/vier.md")]);
-  const heute = new Date().toISOString().slice(0, 10);
-  const prompt = `Du schreibst für den Vertrieb von enneo eine interne Battle Card über den Anbieter hinter dieser Website: ${url}
-
-Du hast in diesem Schritt keinen Internetzugang. Schreib die Karte aus deinem eigenen Wissen über diesen Anbieter. Ein zweiter Schritt prüft sie später mit Webrecherche und ergänzt die Quellen. Deshalb gilt streng:
-- Nur Aussagen, bei denen du sicher bist. Was du nicht sicher weißt, heißt „nicht bekannt“. Erfinde keine Preise, Kunden, Zahlen, Zertifikate oder Funktionen.
-- Kennst du den Anbieter hinter dieser Domain nicht sicher, antworte nur mit dem Wort UNBEKANNT.
-- Aussagen über enneo ausschließlich aus den enneo-Fakten unten.
-- Kopf: stand "${heute}", geprueft_von "Enni", website "${url}", kategorie "Direkter Wettbewerber". Der slug ist "${domain.replace(/[^a-z0-9]+/g, "-")}".
-- Unter „## Quellen“ nur die Website des Anbieters als Link.
-- Antworte nur mit dem Inhalt der Markdown-Datei, beginnend mit der Zeile ---. Kein Text davor oder danach, keine Codeblöcke.
-
-# Regeln und Format (gilt bis auf die Recherche-Teile, die übernimmt der zweite Schritt)
-${auftrag}
-
-# enneo-Fakten
-${fakten}
-
-# Vorbild-Karte für Aufbau, Ton und Tiefe
-${vorbild}`;
-  const ABSCHNITTE = ["Eckdaten", "Das Wichtigste vorweg", "Unsere Verkaufsargumente", "Wo", "Unterschiede auf einen Blick", "schwächer", "Fazit", "Quellen"];
-  const NAMEN = ["Eckdaten", "Einordnung", "Argumente", "Stärken", "Vergleich", "Schwächen", "Fazit", "Quellen"];
-  setze("Eckdaten");
-  const { text } = await fragen(prompt, { cache: false, modelTier: "complex", onText: ({ text }) => {
-    const h = [...text.matchAll(/^## (.+)$/gm)].map(x => x[1]).pop();
-    if (h) { const j = ABSCHNITTE.findIndex(a => h.startsWith(a) || h.includes(a)); if (j >= 0 && fortschritt[id] !== NAMEN[j]) setze(NAMEN[j]); }
-  } });
-  const md = text.trim().replace(/^```(?:markdown)?\n?|```$/g, "").trim();
-  if (/^UNBEKANNT/i.test(md)) return null;
-  const karte = mdZuKarte(md);
-  if (!karte || !karte.html.includes("<h2>Unterschiede auf einen Blick</h2>")) throw new Error("format");
-  return { md, karte };
-}
-
 function neuMeldung(html) { const m = cp("neu-meldung"); m.innerHTML = html; m.hidden = !html; }
 function neuOeffnen(auf) {
   cp("neu-feld").hidden = !auf; cp("neu-knopf").setAttribute("aria-expanded", String(auf));
@@ -648,17 +556,12 @@ function neuOeffnen(auf) {
 async function neuBereit(user) {
   try { db = await claude.use("db"); } catch (e) { db = null; }
   if (!db) return;
-  db.collection("karten_neu").onSnapshot(s => {
-    neueKarten = s.docs.map(d => mdZuKarte(String(d.data().md || ""))).filter(Boolean);
-    kartenNeuBerechnen();
-    if (!location.hash || neueKarten.some(k => k.slug === location.hash.slice(1))) route();
-  }, () => {});
-  if (user && user.can && user.can("data.write") === false) return;
-  cp("neu-knopf").hidden = false;
   db.collection("anfragen").onSnapshot(s => {
     anfragen = s.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (a.erstellt || 0) - (b.erstellt || 0));
     if (!location.hash) uebersicht();
   }, () => {});
+  if (user && user.can && user.can("data.write") === false) return;
+  cp("neu-knopf").hidden = false;
 }
 cp("neu-knopf").onclick = () => neuOeffnen(cp("neu-feld").hidden);
 cp("neu-form").onsubmit = async e => {
@@ -667,28 +570,16 @@ cp("neu-form").onsubmit = async e => {
   if (!d) return neuMeldung("Das sieht nicht nach einer Website aus.");
   const k = vorhanden(d);
   if (k) return neuMeldung(`${esc(k.name)} gibt es schon. <a href="#${k.slug}">Öffnen</a>`);
-  const id = d.replace(/[^a-z0-9]+/g, "-"), url = /^https?:\/\//i.test(eingabe) ? eingabe : "https://" + eingabe;
-  const ref = db.doc("anfragen/" + id);
+  const id = d.replace(/[^a-z0-9]+/g, "-"), b = cp("neu-senden");
+  b.disabled = true;
   try {
-    const da = await ref.get();
-    if (da.exists && ["offen", "arbeit"].includes(da.data().status)) return neuMeldung("Läuft schon.");
+    const ref = db.doc("anfragen/" + id), da = await ref.get();
+    if (da.exists && ["offen", "arbeit"].includes(da.data().status)) return neuMeldung("Ist schon in Arbeit.");
     let von = null; try { const u = await claude.use("user"); von = u ? await u.id() : null; } catch (err) {}
-    await ref.set({ url, domain: d, status: fragen ? "arbeit" : "offen", erstellt: Date.now(), gestartet: Date.now(), von });
-  } catch (err) { return neuMeldung("Hat nicht geklappt. Versuch es noch einmal."); }
-  cp("neu-url").value = ""; neuOeffnen(false);
-  if (!fragen) return;                      // ohne Claude-Zugriff übernimmt der Hintergrundlauf
-  try {
-    const r = await karteErstellen(id, url, d);
-    delete fortschritt[id];
-    if (!r) { await ref.update({ status: "offen" }); return; }
-    await db.doc("karten_neu/" + r.karte.slug).set({ md: r.md, url, domain: d, erstellt: Date.now(), von: null });
-    await ref.delete();
-    location.hash = r.karte.slug;
-  } catch (err) {
-    delete fortschritt[id];
-    await ref.update({ status: "offen" }).catch(() => {});
-    if (!location.hash) uebersicht();
-  }
+    await ref.set({ url: /^https?:\/\//i.test(eingabe) ? eingabe : "https://" + eingabe, domain: d, status: "offen", erstellt: Date.now(), von });
+    cp("neu-url").value = ""; neuOeffnen(false);
+  } catch (err) { neuMeldung("Hat nicht geklappt. Versuch es noch einmal."); }
+  finally { b.disabled = false; }
 };
 document.addEventListener("click", e => {
   const weg = e.target.closest("[data-weg]");
