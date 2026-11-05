@@ -4,6 +4,11 @@ Neuester Lauf oben.
 
 ## 2026-11-05
 
+- fonio.ai neu, angefragt über die Galerie
+- Intercom neu, angefragt über die Galerie
+- HSAG AI Suite neu, angefragt über die Galerie
+- Kore.ai neu, angefragt über die Galerie
+- Leaping AI neu, angefragt über die Galerie
 - Ada neu, angefragt über die Galerie
 - Crescendo neu, angefragt über die Galerie
 - Cresta neu, angefragt über die Galerie
