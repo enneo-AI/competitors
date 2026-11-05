@@ -5,7 +5,7 @@ fokus: "CRM & ERP"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.salesforce.com/de/service/"
 kurz: "US-CRM-Plattform, Service Cloud mit KI-Agenten von Agentforce"
 ---

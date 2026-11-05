@@ -5,7 +5,7 @@ fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.talkdesk.com"
 kurz: "Cloud-Contact-Center aus den USA mit KI-Agenten für Telefon und E-Mail"
 ---

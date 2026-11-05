@@ -5,7 +5,7 @@ fokus: "Voicebot"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.crealog.com"
 kurz: "Münchner Spezialist für Sprachdialoge und Telco-Plattformen, jetzt mit KI-Agents"
 ---

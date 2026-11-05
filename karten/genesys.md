@@ -5,7 +5,7 @@ fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.genesys.com"
 kurz: "Großes Contact Center aus den USA, stark am Telefon"
 ---

@@ -5,7 +5,7 @@ fokus: "E-Mail-KI"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.sematell.com"
 kurz: "E-Mail-Spezialist aus Saarbrücken, KI für Klassifizierung, Routing und Antworten"
 ---

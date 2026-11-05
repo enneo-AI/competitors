@@ -5,7 +5,7 @@ fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://botfriends.de"
 kurz: "KI-Agenten für Chat, Telefon und E-Mail aus Würzburg"
 ---

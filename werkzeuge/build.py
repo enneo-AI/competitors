@@ -62,6 +62,14 @@ shutil.copy(A / "enneo-logo.svg", SITE / "enneo-logo.svg")
 shutil.copytree(KARTEN, SITE / "karten", dirs_exist_ok=True)
 shutil.copy(ROOT / "werkzeuge" / "enneo-fakten.md", SITE / "enneo-fakten.md")
 shutil.copytree(ROOT / "pdf", SITE / "pdf", dirs_exist_ok=True)
+# Logos je Anbieter (werkzeuge/logos.py holt fehlende)
+LOGOS = A / "logos"
+shutil.rmtree(SITE / "logos", ignore_errors=True); (SITE / "logos").mkdir()
+for k in karten:
+    datei = next(iter(sorted(LOGOS.glob(k["slug"] + ".*"))), None) if LOGOS.exists() else None
+    if datei:
+        shutil.copy(datei, SITE / "logos" / datei.name)
+        k["logo"] = "logos/" + datei.name
 
 # PDF je Karte aus der Markdown-Karte bauen, wenn keine handgesetzte PDF hinterlegt ist
 import subprocess, os

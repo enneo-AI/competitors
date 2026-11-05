@@ -25,7 +25,7 @@ fokus: "<genau einer: Voicebot | KI-Agenten | E-Mail-KI | Contact Center | Helpd
 naehe: "<hoch, wenn gleiche Fälle bei gleichen Kunden (DACH, Energie/Versicherung, E-Mail- oder Voice-Automatisierung), sonst mittel>"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://..."
 kurz: "<ein Satz, max. 12 Wörter, was der Anbieter ist>"
 ---

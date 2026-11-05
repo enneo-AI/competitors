@@ -5,7 +5,7 @@ fokus: "Helpdesk"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.freshworks.com/de/freshdesk/"
 kurz: "Günstiges Helpdesk Freshdesk aus den USA, KI-Agent Freddy je Sitzung"
 ---

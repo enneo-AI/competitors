@@ -5,7 +5,7 @@ fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.nice.com"
 kurz: "Großer Contact-Center-Anbieter aus Israel/USA, KI-Agenten seit 2025 von Cognigy"
 ---

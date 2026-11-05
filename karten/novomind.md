@@ -5,7 +5,7 @@ fokus: "E-Mail-KI"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.novomind.com/de/"
 kurz: "Contact-Center-Software aus Hamburg mit KI-Bots für Mail, Chat und Telefon"
 ---

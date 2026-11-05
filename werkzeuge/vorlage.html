@@ -72,9 +72,8 @@ button { font: inherit; color: inherit; }
 .fragen:hover { background: var(--haupt-hover); }
 
 /* Übersicht */
-.kopf { padding: 88px 0 28px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.kopf { padding: 56px 0 24px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
 .kopf h1 { margin: 0; font-size: clamp(44px, 7vw, 72px); font-weight: 600; letter-spacing: -0.055em; line-height: 1; }
-.kopf span { color: var(--text-3); font-size: 15px; }
 
 .filter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 14px; }
 .filter button { border: 1px solid var(--linie); background: var(--glas); color: var(--text-2); border-radius: 999px; padding: 6px 12px; font-size: 13.5px; font-weight: 500; cursor: pointer; }
@@ -91,16 +90,18 @@ button { font: inherit; color: inherit; }
 a.tz { transition: background .15s; box-shadow: 0 -1px 0 var(--linie); }
 a.tz:hover { background: var(--hover); box-shadow: none; }
 a.tz:hover + a.tz { box-shadow: none; }
-.tz .name { font-size: 16px; font-weight: 600; letter-spacing: -0.015em; display: flex; align-items: center; gap: 8px; min-width: 0; }
-.tz .kurz { font-size: 13px; color: var(--text-3); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tz .name { font-size: 16px; font-weight: 600; letter-spacing: -0.015em; display: flex; align-items: center; gap: 12px; min-width: 0; }
+.tz .name span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.marke-logo { width: 34px; height: 34px; flex: none; display: grid; place-items: center; border-radius: 9px; background: #FFFFFF; box-shadow: 0 0 0 1px var(--linie), 0 1px 2px rgba(23,24,42,.06); overflow: hidden; }
+.marke-logo img { width: 24px; height: 24px; object-fit: contain; display: block; }
+.marke-logo b { font-size: 15px; font-weight: 600; color: #17182A; }
+.dkopf .marke-logo { width: 56px; height: 56px; border-radius: 14px; margin-bottom: 20px; }
+.dkopf .marke-logo img { width: 38px; height: 38px; }
 .tz .zelle { font-size: 13.5px; line-height: 1.4; color: var(--text-2); min-width: 0; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .tz .zahl { margin-top: 7px; font-size: 12.5px; color: var(--text-3); }
 .tz .zahl b { font-weight: 600; color: var(--text); }
 .tz .zahl b.e { color: var(--lila-d); }
 .chip { display: inline-block; font-size: 12px; font-weight: 500; padding: 3px 9px; border-radius: 7px; background: var(--neutral-bg); color: var(--text-2); white-space: nowrap; }
-.nah { width: 6px; height: 6px; border-radius: 50%; background: var(--lila); flex: none; }
-.marke.entwurf { color: var(--text-2); background: var(--neutral-bg); }
-.marke { font-size: 11.5px; font-weight: 500; letter-spacing: 0; color: var(--warn-fg); background: var(--warn-bg); padding: 2px 7px; border-radius: 6px; }
 .leer { padding: 28px 22px; color: var(--text-3); }
 
 /* Einordnung: ein Block je verglichenem Thema */
@@ -268,7 +269,7 @@ let suche = "";
 const app = document.getElementById("app");
 const feld = document.getElementById("suche");
 const datum = iso => { const [j, m, t] = iso.split("-"); return `${t}.${m}.${j}`; };
-const entwurf = k => /nicht gegengelesen/.test(k.geprueft_von);
+const markeLogo = k => `<span class="marke-logo">${k.logo ? `<img src="${k.logo}" alt="">` : `<b>${esc(k.name[0])}</b>`}</span>`;
 const alt = iso => (Date.now() - new Date(iso)) / 864e5 > 14;
 const zurueckPfeil = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 8H3m4-4L3 8l4 4"/></svg>`;
 const runter = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2.5v8m-3.5-3.5L8 10.5 11.5 7M3 13.5h10"/></svg>`;
@@ -300,7 +301,7 @@ function uebersicht() {
   const zahl = f => KARTEN.filter(k => (f === "Alle" || k.fokus === f) && (!nurNah || k.naehe === "hoch")).length;
   const spalte = (feld, text) => `<button data-sort="${feld}" ${sortierung.feld === feld ? `aria-sort="${sortierung.ab ? "descending" : "ascending"}"` : ""}>${text}${sortierung.feld === feld ? pfeilSort(sortierung.ab) : ""}</button>`;
   app.innerHTML = `
-    <section class="kopf"><h1>Wettbewerb</h1><span>${KARTEN.length} Anbieter · ${KARTEN.filter(k => k.naehe === "hoch").length} nah an enneo</span></section>
+    <section class="kopf"><h1>Wettbewerb</h1></section>
     <div class="filter" role="group" aria-label="Filter">
       ${["Alle", ...FOKUS].map(f => `<button data-fokus="${f}" aria-pressed="${f === fokus}">${f}<span>${zahl(f)}</span></button>`).join("")}
       <span class="trenner"></span>
@@ -310,7 +311,7 @@ function uebersicht() {
       <div class="tz tkopf">${spalte("name", "Anbieter")}${spalte("fokus", "Schwerpunkt")}${spalte("firma", "Sitz")}${spalte("hosting", "Hosting")}${spalte("preis", "Preise")}${spalte("einordnung", "Einordnung")}</div>
       ${treffer.map(k => `
       <a class="tz" href="#${k.slug}">
-        <div style="min-width:0"><div class="name">${k.naehe === "hoch" ? `<i class="nah" title="Nah an enneo"></i>` : ""}${k.name}</div><div class="kurz">${k.kurz}</div></div>
+        <div class="name">${markeLogo(k)}<span>${k.name}</span></div>
         <div><span class="chip">${k.fokus}</span></div>
         <div class="zelle" title="${esc(k.firma)}">${k.firma}</div>
         <div class="zelle" title="${esc(k.hosting)}">${k.hosting}</div>
@@ -360,9 +361,10 @@ function detail(k, reiter = 0) {
     <div class="eng"><a class="zurueck" href="#">${zurueckPfeil} Alle Anbieter</a>
     <section class="dkopf">
       <div>
+        ${markeLogo(k)}
         <h1>${k.name}</h1>
         <p>${k.kurz}</p>
-        <div class="info">${entwurf(k) ? `Entwurf vom ${datum(k.stand)}, noch nicht gegengelesen` : `Geprüft ${datum(k.stand)}`} · <a href="${k.website}" target="_blank" rel="noopener">${k.website.replace(/^https?:\/\/(www\.)?/, "")}</a></div>
+        <div class="info"><a href="${k.website}" target="_blank" rel="noopener">${k.website.replace(/^https?:\/\/(www\.)?/, "")}</a></div>
       </div>
       <div class="aktionen">
         ${k.pdf_partner ? `<button class="knopf" data-pdf="${k.pdf_partner}">${runter} Für Partner</button>` : ""}
@@ -427,8 +429,7 @@ function cpZeigen() {
     const vorschlaege = k
       ? [`Wo gewinnen wir gegen ${k.name}?`, `Welche Einwände hören wir, wenn ein Kunde ${k.name} nutzt?`, `Gib mir einen Pitch in 3 Sätzen gegen ${k.name}.`]
       : ["Wer kann E-Mails bis zur Buchung im ERP automatisieren?", "Welche Anbieter sind bei Energieversorgern stark?", "Gegen wen verlieren wir am ehesten und warum?"];
-    box.innerHTML = `<div class="cp-leer"><p>${k ? `Ich kenne die Karte zu <strong>${esc(k.name)}</strong> und unsere eigenen Fakten.` : "Ich kenne alle Karten und unsere eigenen Fakten."} Frag mich etwas.</p>
-      <div class="cp-vorschlaege">${vorschlaege.map(t => `<button type="button">${esc(t)}</button>`).join("")}</div></div>`;
+    box.innerHTML = `<div class="cp-leer"><div class="cp-vorschlaege">${vorschlaege.map(t => `<button type="button">${esc(t)}</button>`).join("")}</div></div>`;
     box.querySelectorAll(".cp-vorschlaege button").forEach(b => b.onclick = () => cpFrage(b.textContent));
   } else {
     box.innerHTML = v.map(m => `<div class="cp-msg ${m.role === "user" ? "ich" : "ki"}">${m.role === "user" ? esc(m.content) : mdZuHtml(m.content)}</div>`).join("");
@@ -463,7 +464,6 @@ Regeln:
 - Antworte auf Deutsch, knapp und konkret, meist 3 bis 8 Sätze oder kurze Stichpunkte. Fett ist erlaubt, keine Überschriften, keine Tabellen, keine Gedankenstriche.
 - Antworte nur aus den Unterlagen unten. Steht etwas nicht drin, sag das offen und rate nicht. Keine erfundenen Zahlen, Kunden oder Funktionen.
 - Über enneo nur, was in den enneo-Fakten steht. Ehrliche Schwächen von enneo nicht verschweigen.
-- Ist eine Karte als Entwurf markiert ("noch nicht gegengelesen"), weise bei heiklen Aussagen kurz darauf hin.
 - ${k ? `Der Nutzer ist gerade auf der Seite von ${k.name}. Fragen ohne Namen beziehen sich auf ${k.name}.` : "Der Nutzer ist auf der Übersicht aller Anbieter."}
 
 # enneo-Fakten

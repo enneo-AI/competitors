@@ -5,7 +5,7 @@ fokus: "CRM & ERP"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
 stand: "2026-11-05"
-geprueft_von: "Enni, noch nicht gegengelesen"
+geprueft_von: "Enni"
 website: "https://www.microsoft.com/de-de/dynamics-365/products/contact-center"
 kurz: "Dynamics 365 Contact Center mit KI-Agenten aus Copilot Studio"
 ---
