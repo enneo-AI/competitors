@@ -54,8 +54,11 @@ Werkzeuge: der Attio-Connector, per ToolSearch laden (Suchbegriff „attio seman
 - Wörtliche Zitate kurz (höchstens 15 Wörter) in „…“, mit Minute, wenn bekannt.
 - Gilt nur für den Abschnitt Intern. Die übrigen Abschnitte bleiben auf öffentlichen Quellen, Intern-Wissen darf aber in Einwände und Fragen einfließen, ohne Herkunft zu nennen.
 
+## Englische Fassung
+Die Galerie lässt sich auf Englisch umschalten. Nach der deutschen Karte schreibst du `karten/en/<slug>.md` nach `werkzeuge/auftrag-uebersetzung.md` (Überschriften, erste Eckdaten-Spalte und Urteile bleiben deutsch, `stand` identisch). Änderst du eine bestehende Karte und setzt `stand` neu, übersetzt du die englische Fassung neu. PDFs gibt es nur auf Deutsch.
+
 ## Sprache
 Deutsch, kurze Sätze, aktiv. Keine Gedankenstriche (– oder —), stattdessen Komma, Doppelpunkt oder Punkt. Keine Werbesprache, keine Floskeln. Fachbegriffe verständlich. Keine Namen von enneo-Kunden. Preise des Wettbewerbers nur, wenn öffentlich belegt.
 
 ## Rückmeldung
-Am Ende kurz: welche Datei(en) geschrieben, die 2 wichtigsten Erkenntnisse je Anbieter, was Attio intern ergab und was du nicht belegen konntest.
+Am Ende kurz: welche Datei(en) geschrieben (deutsch und englisch), die 2 wichtigsten Erkenntnisse je Anbieter, was Attio intern ergab und was du nicht belegen konntest.

@@ -32,6 +32,24 @@ def render(meta, body):
     h = h.replace("<a href=", '<a target="_blank" rel="noopener" href=')
     return h
 
+def eckdaten(body):
+    eck = {}
+    if "## Eckdaten" in body:
+        for r in body.split("## Eckdaten")[1].split("\n## ")[0].splitlines():
+            z = [c.strip() for c in r.strip().strip("|").split("|")]
+            if len(z) >= 3 and z[0] and not z[0].startswith("-"):
+                eck[z[0]] = (z[1].replace("**", ""), z[2])
+    return eck
+
+# Anzeige der englischen Fassung: Urteile und Eckdaten-Beschriftungen übersetzen (im Markdown bleiben sie deutsch)
+ECK_EN = {"Firma": "Company", "Preise": "Pricing", "Hosting": "Hosting", "Zertifikat": "Certifications", "Zertifikate": "Certifications",
+          "Referenzen": "References", "Lizenz": "License", "KI-Abrechnung": "AI billing"}
+def englisch(h, name):
+    urteile = {"enneo klar vorn": "enneo clearly ahead", "enneo vorn": "enneo ahead", "gleich": "even", "je nach Fall": "depends",
+               f"{name} klar vorn": f"{name} clearly ahead", f"{name} vorn": f"{name} ahead"}
+    h = re.sub(r'(<span class="pill [^"]+">)([^<]+)(</span>)', lambda m: m.group(1) + urteile.get(m.group(2), m.group(2)) + m.group(3), h)
+    return re.sub(r"(<tr>\s*<td>)([^<]+)(</td>)", lambda m: m.group(1) + ECK_EN.get(m.group(2), m.group(2)) + m.group(3), h)
+
 karten = []
 for p in sorted(KARTEN.glob("*.md")):
     meta, body = parse(p)
@@ -40,16 +58,24 @@ for p in sorted(KARTEN.glob("*.md")):
     hinten = h.count("pill p-rand") + h.count("pill p-dunkel")
     folge = re.findall(r'class="pill (p-[a-z]+)"', h)
     # Eckdaten für die Übersichtstabelle
-    eck = {}
-    if "## Eckdaten" in body:
-        for r in body.split("## Eckdaten")[1].split("\n## ")[0].splitlines():
-            z = [c.strip() for c in r.strip().strip("|").split("|")]
-            if len(z) >= 3 and z[0] and not z[0].startswith("-"):
-                eck[z[0]] = (z[1].replace("**", ""), z[2])
+    eck = eckdaten(body)
     meta["firma"] = eck.get("Firma", ("", ""))[0]
     meta["hosting"] = eck.get("Hosting", ("", ""))[0]
     meta["preis"] = (eck.get("Preise") or eck.get("Lizenz") or ("", ""))[0]
     meta.update(html=h, vorn=vorn, hinten=hinten, folge=folge, md=p.name)
+    # Englische Fassung (karten/en/<slug>.md), nur wenn sie zum Stand des Originals passt
+    pe = KARTEN / "en" / p.name
+    if pe.exists():
+        em, eb = parse(pe)
+        if em.get("stand") == meta["stand"]:
+            he = englisch(render(meta, eb), meta["name"])
+            ee = eckdaten(eb)
+            meta["en"] = dict(kurz=em.get("kurz", meta["kurz"]), html=he, firma=ee.get("Firma", ("", ""))[0],
+                              hosting=ee.get("Hosting", ("", ""))[0], preis=(ee.get("Preise") or ee.get("Lizenz") or ("", ""))[0])
+        else:
+            print(f"  {p.stem}: englische Fassung veraltet (stand {em.get('stand')} statt {meta['stand']})")
+    else:
+        print(f"  {p.stem}: keine englische Fassung")
     karten.append(meta)
 
 # Ein Dokument für LLMs: alle Karten am Stück
