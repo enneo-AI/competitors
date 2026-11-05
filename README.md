@@ -1,6 +1,6 @@
 # enneo Wettbewerb · Battle Cards (Prototyp)
 
-Stand 05.11.2026. 18 Karten (VIER, Zendesk, ThinkOwl geprüft, 15 weitere als Entwurf „Enni, noch nicht gegengelesen“). Veröffentlicht als claude.ai-Artifact https://claude.ai/artifact/NnZrCd7xu6GVPWmwXEjQeS (für alle mit enneo-Claude-Konto freigeben). Wochenlauf als geplante Aufgabe in Claude Code auf Aleksas enneo MacBook (`enneo-battlecards-wochenlauf`, montags 07:11).
+Stand 05.11.2026. 21 Karten (VIER, Zendesk, ThinkOwl geprüft, 18 weitere als Entwurf „Enni, noch nicht gegengelesen“). Übersicht als Tabelle mit Filtern nach Schwerpunkt (`fokus`) und Nähe (`naehe`), dazu ein Co-Pilot (Knopf „Fragen“), der über die sample-Funktion des Artifacts mit dem Claude-Konto des Fragenden läuft und die offene Karte plus `enneo-fakten.md` kennt. Veröffentlicht als claude.ai-Artifact https://claude.ai/artifact/NnZrCd7xu6GVPWmwXEjQeS (für alle mit enneo-Claude-Konto freigeben). Wochenlauf als geplante Aufgabe in Claude Code auf Aleksas enneo MacBook (`enneo-battlecards-wochenlauf`, montags 07:11).
 
 ## Aufbau
 
