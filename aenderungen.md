@@ -4,6 +4,11 @@ Neuester Lauf oben.
 
 ## 2026-11-05
 
+- PolyAI neu, angefragt über die Galerie
+- Qualimero neu, angefragt über die Galerie
+- SemanticEdge neu, angefragt über die Galerie
+- Sierra neu, angefragt über die Galerie
+- telli neu, angefragt über die Galerie
 - melibo neu, angefragt über die Galerie
 - Observe.AI neu, angefragt über die Galerie
 - octonomy neu, angefragt über die Galerie
