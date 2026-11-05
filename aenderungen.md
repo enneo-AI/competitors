@@ -4,6 +4,11 @@ Neuester Lauf oben.
 
 ## 2026-11-05
 
+- Ada neu, angefragt über die Galerie
+- Crescendo neu, angefragt über die Galerie
+- Cresta neu, angefragt über die Galerie
+- Decagon neu, angefragt über die Galerie
+- Enterprise Bot neu, angefragt über die Galerie
 - Cognigy neu, angefragt über die Galerie
 - moinAI neu, angefragt über die Galerie
 - ThinkOwl, Zendesk, VIER geprüft: keine belegte wesentliche Änderung seit dem Stand. Hinweis zum Gegenlesen: Zendesk-Preisseite (https://www.zendesk.de/pricing/) nennt 5 bzw. 10 enthaltene gelöste Fälle, die Karte 5 USD Guthaben je Agent.
