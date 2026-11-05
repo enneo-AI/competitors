@@ -11,27 +11,7 @@
   --haupt-bg: #17182A; --haupt-hover: #2C2E45; --haupt-fg: #FFFFFF;
   --warn-fg: #B4561E; --warn-bg: #FBEBDD; --neutral-bg: rgba(23,24,42,.06);
   --s-voll: #7B5AE2; --s-hell: #CBBDF6; --s-grau: rgba(23,24,42,.13); --s-wett: #17182A;
-  --licht-1: #BCA9F5; --licht-2: #D2E1F8; --licht-3: #E2D8FB; --licht-op: .7; --panel: rgba(250,249,253,.92);
-}
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
-  --lila: #9479F0; --lila-d: #B9A7FA; --lila-weich: rgba(148,121,240,.18);
-  --glas: rgba(255,255,255,.055); --glas-rand: rgba(255,255,255,.12); --glas-licht: rgba(255,255,255,.08); --glas-schatten: rgba(0,0,0,.55);
-  --linie: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --feld: rgba(255,255,255,.06); --aktiv: rgba(255,255,255,.12);
-  --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
-  --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
-  --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
-  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; --panel: rgba(22,23,42,.94); color-scheme: dark;
-} }
-:root[data-theme="dark"] {
-  --bg: #0F1020; --text: #ECEAF5; --text-2: #A6A5B8; --text-3: #75758C;
-  --lila: #9479F0; --lila-d: #B9A7FA; --lila-weich: rgba(148,121,240,.18);
-  --glas: rgba(255,255,255,.055); --glas-rand: rgba(255,255,255,.12); --glas-licht: rgba(255,255,255,.08); --glas-schatten: rgba(0,0,0,.55);
-  --linie: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --feld: rgba(255,255,255,.06); --aktiv: rgba(255,255,255,.12);
-  --haupt-bg: #ECEAF5; --haupt-hover: #FFFFFF; --haupt-fg: #0F1020;
-  --warn-fg: #F2B48A; --warn-bg: rgba(242,140,80,.16); --neutral-bg: rgba(255,255,255,.08);
-  --s-voll: #9479F0; --s-hell: rgba(148,121,240,.45); --s-grau: rgba(255,255,255,.14); --s-wett: #ECEAF5;
-  --licht-1: #4A33B8; --licht-2: #24275E; --licht-3: #3A2C86; --licht-op: .55; --panel: rgba(22,23,42,.94); color-scheme: dark;
+  --licht-1: #BCA9F5; --licht-2: #D2E1F8; --licht-3: #E2D8FB; --licht-op: .7; --panel: rgba(250,249,253,.92); color-scheme: light;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -80,15 +60,30 @@ button { font: inherit; color: inherit; }
 .neu-feld button:disabled { opacity: .6; cursor: default; }
 .neu-meldung { margin: 10px 2px 0; font-size: 13px; color: var(--text-2); }
 .neu-meldung a { color: var(--lila-d); }
-.tz.anfrage { box-shadow: 0 -1px 0 var(--linie); color: var(--text-3); }
-.tz.anfrage .name { color: var(--text-2); }
-.tz.anfrage .status { grid-column: 2 / -1; display: flex; align-items: center; gap: 10px; font-size: 13.5px; }
-.tz.anfrage .status button { margin-left: auto; border: 0; background: none; color: var(--text-3); cursor: pointer; padding: 4px; border-radius: 6px; }
-.tz.anfrage .status button:hover { color: var(--text); background: var(--feld); }
-.laeuft { width: 7px; height: 7px; border-radius: 50%; background: var(--lila); flex: none; animation: puls 1.6s ease-in-out infinite; }
-.wartet { width: 7px; height: 7px; border-radius: 50%; background: var(--s-hell); flex: none; }
-.fehlt { width: 7px; height: 7px; border-radius: 50%; background: var(--warn-fg); flex: none; }
-@keyframes puls { 50% { opacity: .3; } }
+.tz.anfrage { box-shadow: 0 -1px 0 var(--linie); }
+.tz.anfrage .name span:last-child { color: var(--text-2); font-weight: 500; }
+.tz.anfrage .marke-logo b { color: var(--text-3); }
+.status-chip { display: inline-flex; align-items: center; gap: 7px; height: 26px; padding: 0 10px 0 8px; border-radius: 8px; font-size: 12.5px; font-weight: 500; white-space: nowrap; }
+.status-chip.wartet { background: var(--neutral-bg); color: var(--text-2); }
+.status-chip.laeuft { background: var(--lila-weich); color: var(--lila-d); }
+.status-chip.fehlt { background: var(--warn-bg); color: var(--warn-fg); }
+.status-chip svg { flex: none; }
+.dreht { animation: dreht 0.9s linear infinite; }
+@keyframes dreht { to { transform: rotate(360deg); } }
+.platzhalter { height: 9px; border-radius: 5px; background: var(--feld); }
+.laeuft-zeile .platzhalter { background: linear-gradient(90deg, var(--feld) 0%, rgba(123,90,226,.14) 50%, var(--feld) 100%) 0 0 / 200% 100%; animation: schimmer 1.6s ease-in-out infinite; }
+@keyframes schimmer { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
+.schritte { display: flex; gap: 3px; }
+.schritte i { flex: 1; height: 5px; border-radius: 2px; background: var(--s-grau); }
+.schritte i.fertig { background: var(--s-voll); }
+.schritte i.jetzt { background: var(--s-hell); animation: puls 1.4s ease-in-out infinite; }
+.schritt-text { margin-top: 7px; font-size: 12.5px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.schritt-text b { color: var(--lila-d); font-weight: 600; }
+.fehler-text { grid-column: 3 / -1; display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--text-2); min-width: 0; }
+.fehler-text button { margin-left: auto; border: 0; background: none; color: var(--text-3); cursor: pointer; padding: 4px; border-radius: 6px; }
+.fehler-text button:hover { color: var(--text); background: var(--feld); }
+@keyframes puls { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .dreht, .laeuft-zeile .platzhalter, .schritte i.jetzt { animation: none; } }
 
 /* Übersicht */
 .kopf { padding: 56px 0 24px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
@@ -235,7 +230,7 @@ a.tz:hover + a.tz { box-shadow: none; }
   .tz { grid-template-columns: minmax(0, 1fr) 140px; gap: 6px 14px; padding: 14px 12px; }
   .tz > :nth-child(3), .tz > :nth-child(4), .tz > :nth-child(5) { display: none; }
   .tz > :nth-child(2) { grid-row: 2; }
-  .tz.anfrage .status { grid-column: 1 / -1; grid-row: 2; }
+  .fehler-text { grid-column: 1 / -1; grid-row: 3; }
   .tz > :nth-child(6) { grid-row: 1 / span 2; grid-column: 2; }
   .tkopf { display: none; }
   .fragen span { display: none; }
@@ -538,14 +533,27 @@ if (window.claude && window.claude.use) window.claude.use("sample").then(copilot
 // ---------- Neue Anbieter: Anfrage in der gemeinsamen Datenbank, Claude Code recherchiert gründlich und veröffentlicht die Karte ----------
 const domainVon = url => { try { const u = new URL(/^https?:\/\//i.test(url) ? url : "https://" + url); return /^https?:$/.test(u.protocol) && u.hostname.includes(".") ? u.hostname.replace(/^www\./, "").toLowerCase() : ""; } catch (e) { return ""; } };
 const vorhanden = d => KARTEN.find(k => k.website && (domainVon(k.website) === d || domainVon(k.website).endsWith("." + d) || d.endsWith("." + domainVon(k.website))));
-const STATUS = { offen: ["wartet", "In der Warteschlange"], arbeit: ["laeuft", "Wird erstellt"], fehler: ["fehlt", "Fehlgeschlagen"] };
+const SCHRITTE = ["Recherche", "Karte wird geschrieben", "PDF und Logo", "Wird veröffentlicht"];
+const ICON = {
+  wartet: `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.8V8l2.2 1.4"/></svg>`,
+  laeuft: `<svg class="dreht" width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2a6 6 0 1 1-6 6" stroke-linecap="round"/></svg>`,
+  fehlt: `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.8v3.6M8 11h.01" stroke-linecap="round"/></svg>`,
+};
 function anfrageZeilen() {
   if (fokus !== "Alle" || nurNah || suche) return "";
-  return anfragen.filter(a => STATUS[a.status] && !vorhanden(a.domain)).map(a => {
-    const [klasse, text] = STATUS[a.status];
-    const extra = a.status === "fehler" ? (a.hinweis ? `: ${esc(a.hinweis)}` : "") : a.status === "arbeit" && a.schritt ? ` · ${esc(a.schritt)}` : "";
-    return `<div class="tz anfrage" aria-busy="${a.status !== "fehler"}"><div class="name"><span class="marke-logo"><b>${esc(a.domain[0].toUpperCase())}</b></span><span>${esc(a.domain)}</span></div>
-      <div class="status"><i class="${klasse}"></i>${text}${extra}${a.status === "fehler" ? `<button data-weg="${esc(a.id)}" aria-label="Entfernen" title="Entfernen"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button>` : ""}</div></div>`;
+  return anfragen.filter(a => ["offen", "arbeit", "fehler"].includes(a.status) && !vorhanden(a.domain)).map(a => {
+    const name = `<div class="name"><span class="marke-logo"><b>${esc(a.domain[0].toUpperCase())}</b></span><span>${esc(a.domain)}</span></div>`;
+    if (a.status === "fehler") return `<div class="tz anfrage">${name}
+      <div><span class="status-chip fehlt">${ICON.fehlt}Fehlgeschlagen</span></div>
+      <div class="fehler-text">${esc(a.hinweis || "")}<button data-weg="${esc(a.id)}" aria-label="Entfernen" title="Entfernen"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div></div>`;
+    const laeuft = a.status === "arbeit", nr = laeuft ? Math.max(0, SCHRITTE.indexOf(a.schritt)) : -1;
+    return `<div class="tz anfrage ${laeuft ? "laeuft-zeile" : ""}" aria-busy="true">${name}
+      <div><span class="status-chip ${laeuft ? "laeuft" : "wartet"}">${laeuft ? ICON.laeuft + "Wird erstellt" : ICON.wartet + "Warteschlange"}</span></div>
+      <div><div class="platzhalter" style="width:72%"></div></div>
+      <div><div class="platzhalter" style="width:58%"></div></div>
+      <div><div class="platzhalter" style="width:46%"></div></div>
+      <div><div class="schritte">${SCHRITTE.map((s, j) => `<i class="${j < nr ? "fertig" : j === nr ? "jetzt" : ""}"></i>`).join("")}</div>
+        <div class="schritt-text">${laeuft ? `<b>${nr + 1}/4</b> ${esc(SCHRITTE[nr])}` : "Startet in Kürze"}</div></div></div>`;
   }).join("");
 }
 function neuMeldung(html) { const m = cp("neu-meldung"); m.innerHTML = html; m.hidden = !html; }
