@@ -42,7 +42,7 @@ Danach diese Abschnitte in dieser Reihenfolge (`## `-Überschriften exakt so, `<
 8. `## Wo <Name> schwächer ist`: 2 bis 4 Punkte.
 9. `## Einwände`: 3 Punkte im Format `- **„Einwand des Kunden“** Antwortvorschlag in 1 bis 3 Sätzen.` Typische Einwände: Marktführer, Referenzen, Preis, schon im Haus, Partnerschaft. Antwort erkennt Berechtigtes an und lenkt auf belegte enneo-Stärken.
 10. `## Fragen an den Kunden`: 3 Punkte im Format `- **Frage, die eine Schwäche von <Name> sichtbar macht?** Erwartete Antwort: … Überleitung: „…“` Nur Schwächen, die in der Karte belegt sind oder als „nicht gefunden“ markiert sind (dann als echte Frage, nicht als Behauptung).
-11. `## Intern`: was enneo aus eigenen Gesprächen weiß (Abschnitt „Intern aus Attio“ unten). 0 bis 6 Punkte im Format `- **Kurztitel:** Aussage. *Attio-Call vom 27.10.2026, Min. 35:09*` (bei Notizen „Attio-Notiz vom …“, bei Mails „Attio-Mail vom …“). Gibt es nichts, genau diese Zeile: `Bisher keine internen Erkenntnisse in Attio (Stand <Datum>).`
+11. `## Intern`: was enneo aus eigenen Gesprächen weiß (Abschnitt „Intern aus Attio“ unten). 0 bis 9 Punkte, neueste zuerst, im Format `- **Kurztitel:** Aussage. *Attio-Call vom 27.10.2026, Min. 35:09*` (bei Notizen „Attio-Notiz vom …“, bei Mails „Attio-Mail vom …“). Gibt es nichts, genau diese Zeile: `Bisher keine internen Erkenntnisse in Attio (Stand <Datum>).`
 12. `## Fazit`: 2 bis 3 Sätze: wo gewinnen wir, wo nicht.
 13. `## Quellen`: Liste `- [Kurztext](URL)`, nur tatsächlich geöffnete öffentliche Seiten (Attio-Links stehen nur unter Intern).
 
