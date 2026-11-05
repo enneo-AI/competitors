@@ -1,0 +1,79 @@
+---
+name: "Omilia"
+slug: "omilia"
+kategorie: "Direkter Wettbewerber"
+stand: "2026-11-05"
+geprueft_von: "Enni, noch nicht gegengelesen"
+website: "https://omilia.com"
+kurz: "Sprach-KI fürs Contact Center mit eigenem Sprachstack, aus Griechenland"
+---
+
+## Eckdaten
+
+| | | |
+|---|---|---|
+| Firma | **Athen und New York, seit 2002** | Omilia Natural Language Solutions. Series B 08/2026: 67 Mio. USD, Lead Expedition Growth Capital, dazu Grafton Capital. Laut Omilia über 60 Mio. USD Jahresumsatz aus laufenden Verträgen |
+| Preise | **nicht öffentlich** | Keine Preisseite gefunden |
+| Hosting | **AWS oder beim Kunden** | Von Omilia betriebene AWS-Umgebung in mehreren Regionen, welche genau ist nicht öffentlich. Alternativ eigene Server im Rechenzentrum oder in der Private Cloud des Kunden |
+| Zertifikat | **ISO 27001, SOC 2** | Dazu PCI DSS Level 1, HIPAA, Cyber Essentials. C5 nicht gefunden |
+
+## Das Wichtigste vorweg
+
+Omilia ist ein Spezialist für Sprachautomatisierung am Telefon mit eigenem Sprachstack: Spracherkennung, Sprachverstehen, Sprachmodelle und Sprachausgabe sind eigene Entwicklung. Stark ist Omilia bei Banken und großen US-Unternehmen, mit Identifizierung am Telefon und Betrugserkennung. In DACH steht Omilia am Anfang: Vertrieb seit Juni 2026 über den Partner valantic, Referenzkunden in DACH haben wir nicht gefunden. E-Mail als Kanal und einen eigenen Arbeitsplatz für Mitarbeitende haben wir ebenfalls nicht gefunden.
+
+## Unsere Verkaufsargumente
+
+- **E-Mail und Brief mit KI:** enneo liest Mails und Briefe, erkennt Anliegen und Kunden, bucht im Zielsystem und antwortet, auch vollautomatisch. Omilia nennt Telefon, Chat, Messenger, Apps und Smart Speaker. E-Mail haben wir auf keiner Seite gefunden.
+- **Ein System statt zwei:** Bei enneo sind Arbeitsplatz, Postfach, KI-Agenten, Wissen und Telefonie ein Produkt mit Skill-Routing. Omilia übergibt an NICE CXone, Genesys Cloud, Amazon Connect, RingCentral, Talkdesk oder 8x8. Für Postfach, Tickets und Arbeitsplatz braucht der Kunde ein weiteres Produkt.
+- **Bei Energieversorgern: Abläufe fertig im Produkt.** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Omilias Versorger-Referenzen (PSEG, Payless Power) stammen aus den USA.
+- **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang, inklusive PDF und Foto im Anhang. Bei Omilia ist dazu nichts dokumentiert.
+- **Deutscher Anbieter, Speicherung in Deutschland:** enneo speichert bei Hetzner in Deutschland. Omilia betreibt die Cloud-Variante auf AWS und nennt die Regionen nicht öffentlich.
+
+## Wo Omilia vorn liegt
+
+- **Eigener Sprachstack:** Spracherkennung, Sprachverstehen, Sprachmodelle und Sprachausgabe sind eigene Entwicklung. Laut Omilia gehen keine Gesprächsdaten an OpenAI, Google oder Anthropic. Seit 07/2026 gibt es die eigene Sprachausgabe Lexis. Bei uns sind US-Sprachmodelle Standard, der Voicebot läuft über OpenAI oder Deepslate.
+- **Identifizierung und Betrugsschutz am Telefon:** Eigene „Authentication Agents“ und TalkGuard gegen Betrug. Wir haben keine Signatur- oder Ausweisprüfung.
+- **Betrieb in großem Maßstab:** Laut Omilia über 200 Installationen bei Unternehmen, eine US-Bank mit über 1 Mio. Anrufen am Tag, bis 50.000 gleichzeitige Gespräche bei einem Kunden. Leader in der Forrester Wave (Q2 2026) und im IDC MarketScape 2026.
+- **Anbindung an Contact Center:** Fertige Anbindungen an sechs Contact-Center-Plattformen. Bei der Übergabe geht der Kontext als strukturierte Daten mit. Wir geben nur die Ticketnummer im SIP-Header nach außen und lesen eingehend keinen Kontext.
+- **Zertifikate und Wahl beim Betrieb:** ISO 27001, SOC 2 Typ 2, PCI DSS Level 1, HIPAA. Betrieb als geteilte oder exklusive Cloud oder auf eigenen Servern des Kunden.
+
+## Unterschiede auf einen Blick
+
+| Thema | enneo | Omilia | Einordnung |
+|---|---|---|---|
+| **E-Mail und Brief mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch. Brief als eigener Kanal | Nicht gefunden, Omilia nennt Telefon, Chat, Messenger, Apps, Smart Speaker | enneo klar vorn |
+| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Keiner gefunden, Übergabe an NICE, Genesys, Amazon Connect u. a. | enneo klar vorn |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Versorger-Referenzen nur aus den USA. Deutsch laut Doku nicht für alle Bausteine verfügbar | enneo vorn |
+| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | AWS, von Omilia betrieben, Regionen nicht öffentlich | enneo vorn |
+| **Betrieb beim Kunden** | Ab großem Volumen möglich | Eigene Server im Rechenzentrum oder in der Private Cloud des Kunden | gleich |
+| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | Eigene Modelle, laut Omilia keine Daten an OpenAI, Google, Anthropic | Omilia vorn |
+| **Voicebot und Sprache** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | Eigene Spracherkennung und Sprachausgabe (Lexis) | Omilia klar vorn |
+| **Identifizierung und Betrugsschutz** | Keine Signatur- oder Ausweisprüfung | Authentication Agents, TalkGuard | Omilia klar vorn |
+| **Anbindung an fremde Contact Center** | Eigene Telefonie. Ticketnummer im SIP-Header nach außen, eingehend kein Kontext | Sechs Plattformen fertig angebunden, Kontext als strukturierte Daten | Omilia vorn |
+| **Agent Assist und Qualität** | Entwurf, Zusammenfassung, Live-Transkription, Scorecards manuell oder automatisch | CSR CoPilot mit nächstem Schritt und Wissen, Workforce AI bewertet jedes Gespräch | gleich |
+| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2 Typ 2, PCI DSS Level 1, HIPAA | Omilia klar vorn |
+| **Preis** | Paketpreise je Ticket und Sprachminute | Nicht öffentlich | je nach Fall |
+
+## Wo Omilia schwächer ist
+
+- **Kein Schriftverkehr:** Omilia automatisiert Gespräche am Telefon und im Chat. Für E-Mail, Brief und den Arbeitsplatz der Mitarbeitenden braucht der Kunde weitere Systeme.
+- **Wenig in DACH:** Keine Referenz in DACH gefunden. Der Vertrieb läuft seit Juni 2026 über valantic. In der Doku ist Deutsch (de-DE) geführt, laut Omilia aber nicht für alle Bausteine verfügbar.
+- **Sicherheitsangaben teils alt:** Die Sicherheitsrichtlinie wurde zuletzt am 10.05.2023 geändert, die Plattformseite nennt noch ISO/IEC 27001:2013. Die AWS-Regionen für die Cloud-Variante sind nicht öffentlich.
+
+## Fazit
+
+Gegen Omilia gewinnen wir nicht am Telefon: eigener Sprachstack, Identifizierung, Betrugsschutz, Zertifikate und große Installationen sprechen für Omilia. Gewinnen können wir, wo schriftliche Anfragen bis zur Buchung automatisiert werden sollen und der Kunde Arbeitsplatz und KI aus einer Hand will, besonders bei deutschen Versorgern. In DACH ist Omilia noch neu, das gibt uns bei Referenzen im Gespräch einen Vorsprung.
+
+## Quellen
+
+- [Startseite](https://omilia.com/)
+- [Plattform](https://omilia.com/platform/)
+- [Unternehmen](https://omilia.com/company/)
+- [Enterprise Voice AI: Betrieb, Sprachstack, Anbindungen](https://omilia.com/enterprise-voice-ai/)
+- [Lexis-Start 07/2026](https://omilia.com/resources/news/omilia-launches-the-only-native-voice-in-enterprise-cx/)
+- [Partner Telarus: CoPilot und Workforce AI](https://omilia.com/resources/news/omilia-partners-with-telarus-to-bring-self-learning-agentic-cx-to-enterprise-clients-across-the-u-s-and-u-k/)
+- [Sicherheitsrichtlinie](https://ocp.ai/securitypolicy)
+- [Sprachen in der Doku](https://learn.ocp.ai/guides/manage-languages-tab)
+- [Series B](https://www.cmswire.com/customer-experience/omilia-raises-67m-series-b-for-voice-ai-push/)
+- [Partner valantic für DACH](https://customerthink.com/omilia-and-valantic-partner-to-bring-agentic-voice-ai-to-enterprise-contact-centers-across-dach-and-benelux/)
+- [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

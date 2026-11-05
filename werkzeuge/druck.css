@@ -1,0 +1,35 @@
+@font-face { font-family: "Geist"; src: url("../../site/fonts/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
+@font-face { font-family: "Geist Mono"; src: url("../../site/fonts/GeistMono-VariableFont_wght.ttf"); font-weight: 100 900; }
+@page { size: A4; margin: 15mm 18mm 16mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 400 8.7pt/1.5 "Geist", sans-serif; color: #292C3F; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.hd { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 3.5mm; border-bottom: 1px solid #D4CFD8; margin-bottom: 6mm; }
+.hd img { height: 4.6mm; }
+.hd .l { display: flex; align-items: center; gap: 2.5mm; }
+.hd .sec { font: 300 7.6pt "Geist Mono", monospace; color: #7F808C; border-left: 1px solid #D4CFD8; padding-left: 2.5mm; }
+.hd .r { text-align: right; font: 300 7.6pt/1.4 "Geist Mono", monospace; color: #7F808C; }
+.hd .r b { display: block; font-weight: 500; color: #292C3F; }
+h1 { font-weight: 500; font-size: 19pt; letter-spacing: -0.02em; margin: 0 0 1.5mm; }
+h1 em { font-style: normal; color: #7B5AE2; }
+.lede { color: #545666; font-size: 9.4pt; margin: 0 0 2mm; }
+h2 { font-weight: 500; font-size: 11pt; margin: 6mm 0 2.5mm; padding-left: 2.5mm; border-left: 1.1mm solid #7B5AE2; line-height: 1.15; break-after: avoid; }
+p { margin: 0 0 2.2mm; color: #545666; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { position: relative; padding-left: 4mm; margin-bottom: 1.6mm; color: #545666; break-inside: avoid; }
+li::before { content: ""; position: absolute; left: .4mm; top: 1.8mm; width: 1.3mm; height: 1.3mm; border-radius: 50%; background: #957BE8; }
+strong { color: #292C3F; font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 8pt; }
+th { text-align: left; font: 400 6.9pt "Geist Mono", monospace; letter-spacing: .05em; text-transform: uppercase; color: #7F808C; padding: 0 2mm 2mm 0; border-bottom: 1px solid #D4CFD8; }
+td { padding: 2mm 2mm 2mm 0; border-bottom: 1px solid #EDEBEF; vertical-align: top; color: #545666; }
+tr { break-inside: avoid; }
+td:first-child { color: #292C3F; }
+.eck thead { display: none; }
+.eck td:first-child { font: 400 6.9pt "Geist Mono", monospace; text-transform: uppercase; letter-spacing: .05em; color: #7F808C; width: 26mm; padding-top: 2.6mm; }
+.eck td:nth-child(2) { font-weight: 600; color: #292C3F; white-space: nowrap; }
+.pill { display: inline-block; white-space: nowrap; font: 400 6.9pt "Geist Mono", monospace; padding: .3mm 2mm; border-radius: 10px; border: 1px solid transparent; }
+.p-voll { background: #7B5AE2; color: #fff; } .p-hell { background: #E5DEF9; color: #613CDD; }
+.p-grau, .p-offen { background: #EDEBEF; color: #545666; } .p-rand { border-color: #292C3F; color: #292C3F; } .p-dunkel { background: #292C3F; color: #fff; }
+.fazit { border: 1px solid #EDEBEF; border-left: 1mm solid #7B5AE2; background: #F8F7F9; border-radius: 0 6px 6px 0; padding: 3mm 4mm; margin: 5mm 0; break-inside: avoid; }
+.fazit p { color: #292C3F; margin: 0; }
+.quellen { font: 300 7pt/1.6 "Geist Mono", monospace; color: #7F808C; }
+.quellen a { color: #613CDD; text-decoration: none; }

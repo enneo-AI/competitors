@@ -1,0 +1,9 @@
+site/
+werkzeuge/_druck/
+.DS_Store
+# Rohdaten der Teilnehmerliste bleiben lokal
+summit/firmen.json
+summit/liste.txt
+summit/kandidaten.txt
+summit/teil*.txt
+summit/ergebnis*.json

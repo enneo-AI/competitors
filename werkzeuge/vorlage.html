@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>enneo Wettbewerb</title>
+<style>
+@font-face { font-family: "Geist"; src: url("fonts/Geist-VariableFont_wght.ttf"); font-weight: 100 900; }
+:root {
+  --bg: #F4F2F7; --text: #17182A; --text-2: #5B5C6D; --text-3: #9A9AA7;
+  --lila: #7B5AE2; --lila-d: #5A37D6; --lila-weich: #ECE6FC;
+  --glas: rgba(255,255,255,.58); --glas-rand: rgba(255,255,255,.9);
+  --linie: rgba(23,24,42,.08); --hover: rgba(255,255,255,.7);
+  --s-voll: #7B5AE2; --s-hell: #CBBDF6; --s-grau: rgba(23,24,42,.13); --s-wett: #17182A;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body { margin: 0; color: var(--text); font: 400 15px/1.55 "Geist", system-ui, sans-serif;
+  font-feature-settings: "ss01", "tnum"; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+
+.licht { position: fixed; inset: 0; pointer-events: none; overflow: hidden; }
+.licht i { position: absolute; border-radius: 50%; filter: blur(100px); opacity: .7; }
+.licht i:nth-child(1) { width: 55vw; height: 50vw; left: -18vw; top: -22vw; background: #BCA9F5; }
+.licht i:nth-child(2) { width: 42vw; height: 38vw; right: -14vw; top: 18vh; background: #D2E1F8; }
+.licht i:nth-child(3) { width: 50vw; height: 30vw; left: 25vw; bottom: -20vw; background: #E2D8FB; }
+
+.glas { background: var(--glas); border: 1px solid var(--glas-rand);
+  -webkit-backdrop-filter: blur(24px) saturate(150%); backdrop-filter: blur(24px) saturate(150%);
+  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset, 0 30px 60px -40px rgba(60,40,140,.35); }
+
+.seite { position: relative; max-width: 880px; margin: 0 auto; padding: 0 24px 96px; }
+
+/* Leiste: Logo links, Suche rechts. Mehr nicht. */
+.leiste { position: sticky; top: 12px; z-index: 5; display: flex; align-items: center; gap: 16px;
+  height: 52px; margin-top: 12px; padding: 0 8px 0 18px; border-radius: 16px; }
+.leiste img { height: 17px; display: block; }
+.suche { margin-left: auto; display: flex; align-items: center; gap: 8px; width: 260px; height: 36px; padding: 0 12px;
+  border-radius: 10px; background: rgba(23,24,42,.045); color: var(--text-3); transition: background .15s; }
+.suche:focus-within { background: #fff; box-shadow: 0 0 0 1px var(--lila-weich); }
+.suche input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: 14px; color: var(--text); }
+.suche input::placeholder { color: var(--text-3); }
+.suche kbd { font: 500 11px "Geist", sans-serif; color: var(--text-3); border: 1px solid var(--linie); border-radius: 5px; padding: 1px 5px; }
+
+/* Übersicht */
+.kopf { padding: 88px 0 28px; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.kopf h1 { margin: 0; font-size: clamp(44px, 7vw, 72px); font-weight: 600; letter-spacing: -0.055em; line-height: 1; }
+.kopf span { color: var(--text-3); font-size: 15px; }
+
+.liste { border-radius: 20px; padding: 6px; }
+.zeile { display: grid; grid-template-columns: 1fr 180px; gap: 32px; align-items: center;
+  padding: 22px 22px; border-radius: 14px; transition: background .15s; }
+.zeile + .zeile { box-shadow: 0 -1px 0 var(--linie); }
+.zeile:hover { background: var(--hover); box-shadow: none; }
+.zeile:hover + .zeile { box-shadow: none; }
+.zeile h2 { margin: 0 0 3px; font-size: 21px; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center; gap: 10px; }
+.zeile p { margin: 0; color: var(--text-2); font-size: 14.5px; text-wrap: pretty; }
+.marke.entwurf { color: var(--text-2); background: rgba(23,24,42,.06); }
+.marke { font-size: 11.5px; font-weight: 500; letter-spacing: 0; color: #B4561E; background: #FBEBDD; padding: 2px 7px; border-radius: 6px; }
+.leer { padding: 28px 22px; color: var(--text-3); }
+
+/* Einordnung: ein Block je verglichenem Thema */
+.balken { display: flex; gap: 3px; }
+.balken i { flex: 1; height: 5px; border-radius: 2px; background: var(--s-grau); }
+.balken .p-voll { background: var(--s-voll); }
+.balken .p-hell { background: var(--s-hell); }
+.balken .p-rand, .balken .p-dunkel { background: var(--s-wett); }
+.balken .p-rand { opacity: .45; }
+.stand-zahl { display: flex; justify-content: space-between; margin-top: 7px; font-size: 12.5px; color: var(--text-3); }
+.stand-zahl b { font-weight: 600; }
+.stand-zahl .e { color: var(--lila-d); }
+.stand-zahl .w { color: var(--text); }
+
+/* Detail */
+.zurueck { display: inline-flex; align-items: center; gap: 6px; margin-top: 44px; color: var(--text-3); font-size: 14px; }
+.zurueck:hover { color: var(--text); }
+.dkopf { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding: 22px 0 26px; }
+.dkopf h1 { margin: 0 0 10px; font-size: clamp(48px, 8vw, 80px); font-weight: 600; letter-spacing: -0.06em; line-height: .95; }
+.dkopf p { margin: 0; color: var(--text-2); font-size: 17px; max-width: 520px; text-wrap: pretty; }
+.dkopf .info { margin-top: 14px; font-size: 13px; color: var(--text-3); }
+.dkopf .info a:hover { color: var(--lila-d); }
+.aktionen { display: flex; gap: 8px; }
+.knopf { display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 14px; border-radius: 10px;
+  font-size: 14px; font-weight: 500; background: var(--glas); border: 1px solid var(--glas-rand); transition: background .15s; }
+.knopf:hover { background: #fff; }
+.knopf.haupt { background: var(--text); border-color: var(--text); color: #fff; }
+.knopf.haupt:hover { background: #2C2E45; }
+
+.reiter { display: flex; gap: 2px; padding: 4px; border-radius: 12px; width: max-content; max-width: 100%; overflow-x: auto; margin-bottom: 12px; scrollbar-width: none; }
+.reiter button { border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font-size: 14px; font-weight: 500; color: var(--text-2); cursor: pointer; white-space: nowrap; }
+.reiter button:hover { color: var(--text); }
+.reiter button[aria-selected="true"] { background: #fff; color: var(--text); box-shadow: 0 1px 3px rgba(23,24,42,.08); }
+
+.blatt { border-radius: 20px; padding: 36px 40px 40px; }
+.blatt h2 { margin: 36px 0 12px; font-size: 17px; font-weight: 600; letter-spacing: -0.015em; }
+.blatt h2:first-child { margin-top: 0; }
+.blatt p { margin: 0 0 12px; color: var(--text-2); max-width: 68ch; text-wrap: pretty; }
+.blatt ul { list-style: none; margin: 0; padding: 0; }
+.blatt li { color: var(--text-2); padding: 12px 0; border-top: 1px solid var(--linie); max-width: 72ch; text-wrap: pretty; }
+.blatt li:first-child { border-top: 0; padding-top: 2px; }
+.blatt strong { color: var(--text); font-weight: 600; }
+.blatt li strong:first-child { display: block; margin-bottom: 2px; }
+.blatt a { color: var(--lila-d); }
+
+.fazit { font-size: 19px; line-height: 1.55; color: var(--text) !important; letter-spacing: -0.01em; margin-bottom: 28px !important; }
+
+.tw { overflow-x: auto; }
+.blatt table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.blatt th { text-align: left; font-size: 12.5px; font-weight: 500; color: var(--text-3); padding: 0 14px 10px 0; border-bottom: 1px solid var(--linie); }
+.blatt td { padding: 13px 14px 13px 0; border-bottom: 1px solid var(--linie); color: var(--text-2); vertical-align: top; }
+.blatt tr:last-child td { border-bottom: 0; }
+.blatt td:first-child { color: var(--text); }
+.blatt td strong { font-weight: 500; }
+.eck thead { display: none; }
+.eck td:first-child { color: var(--text-3); width: 120px; }
+.eck td:nth-child(2) { color: var(--text); font-weight: 500; white-space: nowrap; }
+.eck td:nth-child(2) strong { font-weight: 500; }
+
+.pill { display: inline-block; white-space: nowrap; font-size: 12px; font-weight: 500; padding: 3px 9px; border-radius: 7px; }
+.pill.p-voll { background: var(--lila); color: #fff; }
+.pill.p-hell { background: var(--lila-weich); color: var(--lila-d); }
+.pill.p-grau, .pill.p-offen { background: rgba(23,24,42,.06); color: var(--text-2); }
+.pill.p-rand { background: rgba(23,24,42,.1); color: var(--text); }
+.pill.p-dunkel { background: var(--text); color: #fff; }
+
+.quellen { display: flex; flex-wrap: wrap; gap: 8px; }
+.quellen a { padding: 6px 11px; border-radius: 9px; background: rgba(23,24,42,.045); color: var(--text-2); font-size: 13.5px; }
+.quellen a:hover { background: #fff; color: var(--lila-d); }
+
+@media (max-width: 720px) {
+  .seite { padding: 0 16px 72px; }
+  .suche { width: auto; flex: 1; }
+  .suche kbd { display: none; }
+  .kopf { padding-top: 56px; }
+  .zeile { grid-template-columns: 1fr; gap: 14px; padding: 18px 16px; }
+  .dkopf { grid-template-columns: 1fr; }
+  .blatt { padding: 24px 20px 28px; }
+  .reiter { width: 100%; }
+  .reiter button { flex: 1; padding: 7px 4px; font-size: 13.5px; }
+}
+</style>
+</head>
+<body>
+<div class="licht" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="seite">
+  <header class="leiste glas">
+    <a href="#"><img src="enneo-logo.svg" alt="enneo"></a>
+    <label class="suche">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.6"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+      <input id="suche" type="search" placeholder="Suchen" aria-label="Anbieter oder Thema suchen">
+      <kbd>/</kbd>
+    </label>
+  </header>
+  <main id="app"></main>
+</div>
+
+<script>
+const KARTEN = /*DATEN*/[];
+let suche = "";
+const app = document.getElementById("app");
+const feld = document.getElementById("suche");
+const datum = iso => { const [j, m, t] = iso.split("-"); return `${t}.${m}.${j}`; };
+const entwurf = k => /nicht gegengelesen/.test(k.geprueft_von);
+const alt = iso => (Date.now() - new Date(iso)) / 864e5 > 14;
+const zurueckPfeil = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 8H3m4-4L3 8l4 4"/></svg>`;
+const runter = `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2.5v8m-3.5-3.5L8 10.5 11.5 7M3 13.5h10"/></svg>`;
+
+const einordnung = k => `
+  <div class="balken" title="Ein Block je verglichenem Thema">${k.folge.map(c => `<i class="${c}"></i>`).join("")}</div>
+  <div class="stand-zahl"><span class="e"><b>${k.vorn}</b> enneo</span><span class="w"><b>${k.hinten}</b> ${k.name}</span></div>`;
+
+function uebersicht() {
+  const q = suche.toLowerCase();
+  const treffer = KARTEN.filter(k => !q || (k.name + " " + k.kurz + " " + k.html.replace(/<[^>]+>/g, " ")).toLowerCase().includes(q));
+  app.innerHTML = `
+    <section class="kopf"><h1>Wettbewerb</h1><span>${KARTEN.length} Anbieter</span></section>
+    <div class="liste glas">${treffer.map(k => `
+      <a class="zeile" href="#${k.slug}">
+        <div><h2>${k.name}${entwurf(k) ? `<span class="marke entwurf">Entwurf</span>` : alt(k.stand) ? `<span class="marke">prüfen</span>` : ""}</h2><p>${k.kurz}</p></div>
+        <div>${einordnung(k)}</div>
+      </a>`).join("") || `<div class="leer">Keine Treffer für „${suche.replace(/</g, "&lt;")}“</div>`}</div>`;
+}
+
+// Abschnitte der Karte auf Reiter verteilen
+function abschnitte(k) {
+  const teile = k.html.replace(/<li><strong>([^<]+?):<\/strong>/g, "<li><strong>$1</strong>").split(/(?=<h2>)/).map(t => {
+    const m = t.match(/^<h2>([^<]+)<\/h2>/);
+    return { titel: m ? m[1] : "", inhalt: m ? t.slice(m[0].length) : t };
+  });
+  const finde = test => teile.filter(t => test(t.titel));
+  const nimm = arr => arr.map(t => `<h2>${t.titel}</h2>${t.inhalt}`).join("");
+  const fazit = finde(t => t === "Fazit")[0];
+  const vorweg = finde(t => t === "Das Wichtigste vorweg")[0];
+  const eck = finde(t => t === "Eckdaten")[0];
+  const vergleich = finde(t => t === "Unterschiede auf einen Blick")[0];
+  const quellen = finde(t => t === "Quellen")[0];
+  const fest = ["Fazit", "Das Wichtigste vorweg", "Eckdaten", "Unterschiede auf einen Blick", "Quellen"];
+  const argumente = finde(t => t && !fest.includes(t));
+  const ueberblick =
+    (fazit ? `<p class="fazit">${fazit.inhalt.replace(/<\/?p>/g, "").trim()}</p>` : "") +
+    (vorweg ? `<h2>Einordnung</h2>${vorweg.inhalt}` : "") +
+    (eck ? `<h2>Eckdaten</h2><div class="eck">${eck.inhalt}</div>` : "");
+  return [
+    ["Überblick", ueberblick],
+    ["Argumente", nimm(argumente)],
+    ["Vergleich", vergleich ? vergleich.inhalt : ""],
+    ["Quellen", quellen ? `<div class="quellen">${[...quellen.inhalt.matchAll(/<a [^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map(m => `<a href="${m[1]}" target="_blank" rel="noopener">${m[2]}</a>`).join("")}</div>` : ""],
+  ].filter(([, h]) => h.trim()).map(([t, h]) => [t, h.replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, "</table></div>")]);
+}
+
+function detail(k, reiter = 0) {
+  const tabs = abschnitte(k);
+  app.innerHTML = `
+    <a class="zurueck" href="#">${zurueckPfeil} Alle Anbieter</a>
+    <section class="dkopf">
+      <div>
+        <h1>${k.name}</h1>
+        <p>${k.kurz}</p>
+        <div class="info">${entwurf(k) ? `Entwurf vom ${datum(k.stand)}, noch nicht gegengelesen` : `Geprüft ${datum(k.stand)}`} · <a href="${k.website}" target="_blank" rel="noopener">${k.website.replace(/^https?:\/\/(www\.)?/, "")}</a></div>
+      </div>
+      <div class="aktionen">
+        ${k.pdf_partner ? `<a class="knopf" href="pdf/${k.pdf_partner}" download>${runter} Für Partner</a>` : ""}
+        <a class="knopf haupt" href="pdf/${k.pdf_intern}" download>${runter} PDF</a>
+      </div>
+    </section>
+    <div class="reiter glas" role="tablist">${tabs.map(([t], i) => `<button role="tab" aria-selected="${i === reiter}" data-i="${i}">${t}</button>`).join("")}</div>
+    <article class="blatt glas" role="tabpanel">${tabs[reiter][1]}</article>`;
+  app.querySelectorAll(".reiter button").forEach(b => b.onclick = () => detail(k, +b.dataset.i));
+}
+
+feld.oninput = e => { suche = e.target.value; if (location.hash) location.hash = ""; else uebersicht(); };
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== feld) { e.preventDefault(); feld.focus(); }
+  if (e.key === "Escape") { feld.value = ""; suche = ""; feld.blur(); route(); }
+});
+function route() {
+  const k = KARTEN.find(k => k.slug === location.hash.slice(1));
+  k ? detail(k) : uebersicht();
+  if (k) window.scrollTo(0, 0);
+}
+window.onhashchange = route;
+route();
+</script>
+</body>
+</html>
