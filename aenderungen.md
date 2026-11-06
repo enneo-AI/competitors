@@ -2,6 +2,14 @@
 
 Neuester Lauf oben.
 
+## 2026-11-06
+
+- comdesk (früher CallOne) neu, angefragt über die Galerie
+- Zoho Desk neu, angefragt über die Galerie
+- ServiceNow neu, angefragt über die Galerie
+- Superchat neu, angefragt über die Galerie
+- SOGEDES neu, angefragt über die Galerie
+
 ## 2026-11-05
 
 - Wonderful neu, angefragt über die Galerie
