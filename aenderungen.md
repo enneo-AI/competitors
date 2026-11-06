@@ -4,6 +4,9 @@ Neuester Lauf oben.
 
 ## 2026-11-06
 
+- Rasa neu, angefragt über die Galerie
+- smao neu, angefragt über die Galerie
+- Synthflow neu, angefragt über die Galerie
 - comdesk (früher CallOne) neu, angefragt über die Galerie
 - Zoho Desk neu, angefragt über die Galerie
 - ServiceNow neu, angefragt über die Galerie
