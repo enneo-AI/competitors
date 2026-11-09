@@ -4,7 +4,7 @@ slug: "intercom"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.intercom.com"
 kurz: "KI-Agent Fin und Helpdesk Intercom, seit 2026 Teil von Salesforce"
@@ -15,6 +15,8 @@ kurz: "KI-Agent Fin und Helpdesk Intercom, seit 2026 Teil von Salesforce"
 | | | |
 |---|---|---|
 | Firma | **Salesforce, seit 09/2026** | Fin (bis Mai 2026 Intercom, Inc.), Sitz San Francisco, Büros u. a. Dublin, rund 1.400 MA. Salesforce hat Fin für rund 3,6 Mrd. USD gekauft, Abschluss am 10.09.2026, Fin sitzt jetzt in den Salesforce AI Labs |
+| Gegründet | **2011** | Als Intercom gegründet von Eoghan McCabe, Des Traynor, Ciaran Lee und David Barrett, seit Mai 2026 heißt die Firma Fin |
+| Ursprung | **Kundenkommunikation, KI seit 2023** | Startete 2011 als Software für Kundenkommunikation, der KI-Agent Fin kam 2023 und ist heute das Hauptgeschäft |
 | Preise | **0,99 $ je Ergebnis** | Fin je „Outcome“, mindestens 50 im Monat, Qualifizierung 9,99 $. Helpdesk-Plätze 19 bis 132 $ je Monat, Copilot 29 bis 35 $, Pro ab 100 $. Fin Voice nur auf Anfrage |
 | Hosting | **AWS, EU in Dublin** | Standard USA. EU-Hosting nur für neue Workspaces in Advanced und Expert, mit Vertrag. Sprachmodelle von OpenAI, Google, Microsoft, Anthropic sowie eigene Apex-Modelle |
 | Zertifikat | **ISO 27001, 42001, SOC 2** | Dazu ISO 27018, 27701, HIPAA, HDS. Berichte im Trust Center nach Anfrage |
@@ -37,14 +39,14 @@ Intercom ist ein Helpdesk aus den USA, dessen KI-Agent Fin inzwischen das Hauptg
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten muss niemand selbst beschreiben, schneller produktiv | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir mit Ihnen.“ |
-| **Speicherung bei deutschem Anbieter** | Datenschutzprüfung ohne Umweg über US-Konzern und Sonderregeln für EU-Workspaces | „Ihre Daten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten muss niemand selbst beschreiben, der Kunde ist schneller produktiv | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir mit Ihnen.“ |
+| **Speicherung in Deutschland bei einem deutschen Anbieter** | Datenschutzprüfung ohne Umweg über einen US-Konzern und ohne Sonderregeln für EU-Workspaces | „Ihre Daten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
 | **PDF-Anhänge und Fotos lesen** | Rechnungen, Formulare und Zählerfotos muss niemand abtippen | „Ob Foto oder PDF im Anhang, unsere KI liest beides mit.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Brief als Kanal** | Schriftverkehr per Post läuft durch dieselbe KI, kein zweites System | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutz kann sofort prüfen, ohne Zugang anzufragen | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **Mehrere Anliegen in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Brief als eigener Kanal** | Auch die Post läuft automatisch durch dieselbe KI, kein zweites System | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
+| **Datenschutzunterlagen öffentlich** | Der Datenschutz prüft sofort, ohne erst Zugang anzufragen | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo Intercom vorn liegt
 
@@ -52,24 +54,24 @@ Intercom ist ein Helpdesk aus den USA, dessen KI-Agent Fin inzwischen das Hauptg
 - **Fin auf jedem Helpdesk:** Fin läuft auch auf Zendesk, Salesforce, HubSpot, Freshworks und weiteren, ohne Plattformgebühr. Ein Kunde muss sein Ticketsystem dafür nicht wechseln.
 - **Zahlung nur bei Ergebnis:** 0,99 $ je gelöstem Gespräch oder abgeschlossener Procedure, ein Ergebnis je Gespräch, auch wenn Fin mehrere Aktionen ausführt. Übergaben ohne Ergebnis kosten nichts. Testkonto 14 Tage ohne Kreditkarte.
 - **Zertifikate:** ISO 27001, 27018, 27701, 42001, SOC 2, HIPAA und HDS. Wir haben keine eigenen.
-- **Ökosystem und Hilfecenter:** Über 350 fertige Integrationen, Hilfecenter für Endkunden, Messenger für Website und App. Laut OMR loben Nutzer die einfache Bedienung.
+- **Ökosystem und Hilfecenter:** Über 350 fertige Integrationen, Hilfecenter und Kundenportal für Endkunden, Messenger für Website und App. Laut OMR loben Nutzer die einfache Bedienung.
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Intercom | Einordnung |
-|---|---|---|---|
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Abläufe selbst als Skill oder Procedure beschreiben, keine Energie-Referenz gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS, EU nur Dublin, nur neue Workspaces in Advanced und Expert, US-Konzern Salesforce | enneo vorn |
-| **Anhänge lesen** | PDF und Fotos | Bilder (JPG, PNG, GIF, HEIC), PDF in der Doku nicht gefunden | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort, auch vollautomatisch | Mehrere Aktionen je Gespräch möglich, Ablauf für mehrere Anliegen in einer Mail nicht dokumentiert gefunden | enneo vorn |
-| **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo klar vorn |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, RPA für Altsysteme | Data Connectors auf APIs, Antworten per Code umformen, große Antworten gelten als „Degraded“ | je nach Fall |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Fin Voice nur für ausgewählte Kunden, Deutsch möglich, eigene Telefonie oder Weiterleitung, SIP je nach Anbieter | gleich |
-| **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 0,99 $ je Ergebnis, mindestens 50 im Monat, dazu Plätze und Zusatzmodule | je nach Fall |
-| **Fremde Helpdesks** | Eigener Arbeitsplatz mit KI in einem System | Fin läuft auch auf Zendesk, Salesforce, HubSpot und anderen | Intercom vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27018, 27701, 42001, SOC 2, HIPAA, HDS | Intercom klar vorn |
-| **Hilfecenter für Endkunden** | Keins | Hilfecenter und Messenger | Intercom klar vorn |
-| **Ökosystem** | Eigene Apps, API, MCP | Über 350 Integrationen | Intercom klar vorn |
+| Bereich | Thema | enneo | Intercom | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden [Helpdesk](https://www.intercom.com/help-desk) [Fin per E-Mail](https://www.intercom.com/integrations/connectors/email-channel) | enneo klar vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Fin Voice nur für ausgewählte Kunden, Deutsch möglich, eigene Telefonie oder Weiterleitung, SIP je nach Anbieter [Fin Voice](https://www.intercom.com/help/de/articles/10697275-fin-ai-agent-per-telefon-bereitstellen) | gleich |
+| Kanäle | **Hilfecenter für Endkunden** | Keins | Hilfecenter, Kundenportal und Messenger [Helpdesk](https://www.intercom.com/help-desk) [Knowledge Hub](https://www.intercom.com/help-center) | Intercom klar vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Abläufe selbst als Skill oder Procedure beschreiben, keine Energie-Referenz gefunden [Data Connectors](https://www.intercom.com/help/en/articles/13459820-how-to-use-data-connectors-in-fin-procedures) [Fakten über Fin](https://fin.ai/ai-instructions) | enneo vorn |
+| KI & Automatisierung | **Anhänge lesen** | PDF und Fotos | Bilder (JPG, PNG, GIF, HEIC), PDF in der Doku nicht gefunden [Fin Vision](https://fin.ai/help/en/articles/13976016-how-does-fin-vision-understand-images) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort, auch vollautomatisch | Mehrere Aktionen je Gespräch möglich, Ablauf für mehrere Anliegen in einer Mail nicht dokumentiert gefunden [Preise Fin](https://fin.ai/pricing) [Fin per E-Mail](https://www.intercom.com/integrations/connectors/email-channel) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, RPA für Altsysteme | Data Connectors auf APIs, Antworten per Code umformen, große Antworten gelten als „Degraded“ [Data Connectors](https://www.intercom.com/help/en/articles/13459820-how-to-use-data-connectors-in-fin-procedures) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Fremde Helpdesks** | Eigener Arbeitsplatz mit KI in einem System | Fin läuft auch auf Zendesk, Salesforce, HubSpot, Freshworks und anderen [Preise Fin](https://fin.ai/pricing) [Fakten über Fin](https://fin.ai/ai-instructions) | Intercom vorn |
+| Arbeitsplatz & Anbindungen | **Ökosystem** | Eigene Apps, API, MCP | Über 350 Integrationen [Helpdesk](https://www.intercom.com/help-desk) | Intercom klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS, EU nur Dublin, nur neue Workspaces in Advanced und Expert, US-Konzern Salesforce [Datenhosting](https://www.intercom.com/help/de/articles/6124430-regionale-datenhosting) [Salesforce Abschluss](https://investor.salesforce.com/news/news-details/2026/Salesforce-Completes-Acquisition-of-Fin/default.aspx) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27018, 27701, 42001, SOC 2, HIPAA, HDS [Zertifikate](https://www.intercom.com/help/en/articles/7053674-accessing-security-and-compliance-documents) | Intercom klar vorn |
+| Preis & Vertrag | **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 0,99 $ je Ergebnis, mindestens 50 im Monat, dazu Plätze und Zusatzmodule [Preise Fin](https://fin.ai/pricing) [Preise Intercom](https://www.intercom.com/pricing) | je nach Fall |
 
 ## Wo Intercom schwächer ist
 
@@ -99,6 +101,16 @@ Intercom ist ein Helpdesk aus den USA, dessen KI-Agent Fin inzwischen das Hauptg
 
 Gegen Fin gewinnen wir nicht über Reife, Zertifikate, Ökosystem oder den Einsatz auf fremden Helpdesks. Gewinnen können wir bei Versorgern, die fertige Energie-Abläufe mit Buchung im ERP wollen, ihre Daten bei einem deutschen Anbieter halten möchten und viel Schriftverkehr mit Anhängen, mehreren Anliegen oder Briefen haben. Der Eigentümerwechsel zu Salesforce ist ein Gesprächsanlass, aber kein Beleg für Schwäche.
 
+## Direktlinks
+
+- [Doku](https://fin.ai/help/en)
+- [API](https://developers.intercom.com/)
+- [Community](https://community.intercom.com/)
+- [Trust Center](https://trust.intercom.com/)
+- [Preise](https://fin.ai/pricing)
+- [Release Notes](https://www.intercom.com/changes/en)
+- [Status](https://www.finstatus.com/)
+
 ## Quellen
 
 - [Preise Intercom](https://www.intercom.com/pricing)
@@ -110,6 +122,7 @@ Gegen Fin gewinnen wir nicht über Reife, Zertifikate, Ökosystem oder den Einsa
 - [Salesforce Abschluss](https://investor.salesforce.com/news/news-details/2026/Salesforce-Completes-Acquisition-of-Fin/default.aspx)
 - [CX Today zur Umbenennung](https://cxtoday.com/intercom-rebrands-to-fin)
 - [Firmenprofil](https://en.wikipedia.org/wiki/Intercom,_Inc.)
+- [Über Fin](https://fin.ai/about)
 - [Sicherheit und Zertifikate](https://www.intercom.com/help/en/articles/7053674-accessing-security-and-compliance-documents)
 - [Regionales Datenhosting](https://www.intercom.com/help/de/articles/6124430-regionale-datenhosting)
 - [Datenhaltung](https://www.intercom.com/help/en/articles/8106177-how-data-is-hosted-and-processed-in-intercom)
@@ -121,5 +134,6 @@ Gegen Fin gewinnen wir nicht über Reife, Zertifikate, Ökosystem oder den Einsa
 - [Data Connectors](https://www.intercom.com/help/en/articles/13459820-how-to-use-data-connectors-in-fin-procedures)
 - [Fin Voice](https://www.intercom.com/help/de/articles/10697275-fin-ai-agent-per-telefon-bereitstellen)
 - [Helpdesk](https://www.intercom.com/help-desk)
+- [Knowledge Hub und Hilfecenter](https://www.intercom.com/help-center)
 - [Nutzerbewertungen](https://omr.com/de/reviews/product/intercom)
 - [Community-Frage deutsche Anwender](https://community.intercom.com/ai-insights-115/any-german-companies-here-using-intercom-fin-15329)

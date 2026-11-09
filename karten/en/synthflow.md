@@ -1,6 +1,6 @@
 ---
 slug: "synthflow"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "Voicebot platform from Berlin for contact centers and BPOs"
 ---
 
@@ -8,9 +8,11 @@ kurz: "Voicebot platform from Berlin for contact centers and BPOs"
 
 | | | |
 |---|---|---|
-| Firma | **Berlin, 70 employees** | AgentFlow AI GmbH, founded 2023, USD 30m raised, Series A of USD 20m led by Accel (June 2025). According to the website, over 100 enterprise customers |
-| Preise | **Enterprise only, on request** | Now only annual contracts through sales, no trial, no public per-minute price. Billed per second of call time |
-| Hosting | **AWS, EU or US** | EU or US cluster fixed at setup. The old Global cluster stores data in the EU but also processes in the US, it is retired by the end of 2026 |
+| Firma | **Berlin, 70 employees** | AgentFlow AI GmbH, USD 30m raised, Series A of USD 20m led by Accel (June 2025). According to the website, over 100 enterprise customers |
+| Gegründet | **2023, Berlin** | Founders Hakob Astabatsyan (CEO), Albert Astabatsyan (CPO) and Sassun Mirzakhan-Saky (CTO). Pre-seed from Atlantic Labs |
+| Ursprung | **AI from day one** | The founders first built no-code apps and a text bot on the ChatGPT API, then moved to voice. First product version in early 2024, chat agents were added later |
+| Preise | **Enterprise only, on request** | Now only annual contracts through sales, no trial, no public per-minute price. Usage is measured per second and billed in aggregated minutes |
+| Hosting | **EU or US, provider undisclosed** | EU or US cluster fixed at setup, cloud provider not named publicly. The old Global cluster stores data in the EU but also processes in the US, it is retired by the end of 2026 |
 | Zertifikat | **SOC 2, ISO 27001** | SOC 2 Type 2, ISO/IEC 27001, PCI DSS v4.0.1, HIPAA self-attested. ISO 42001 in progress according to the pricing page |
 
 ## Erster Satz
@@ -31,14 +33,14 @@ Synthflow is a pure voicebot platform from Berlin: AI agents answer calls, place
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email, letters and phone in one AI** | No second system to license and maintain for automating written correspondence | "With us, the same AI handles calls, emails and letters, through to posting in the target system." |
-| **Agent workspace** | Handovers land with context in the same system, no separate ticketing system needed | "When the AI hands over, your agents see the case in the same system the AI works in." |
-| **Multiple requests and attachments** | One complete reply instead of follow-up questions, nobody has to type up meter photos | "If your customer sends meter reading, IBAN and installment with a photo in one email, they get one reply from us." |
-| **WhatsApp with storage in Germany** | Use WhatsApp without putting data in a US workspace | "WhatsApp runs in the same system with us, stored at Hetzner in Germany." |
+| **Email, letters and phone in one AI** | Written correspondence is also automated through to posting, one system instead of two to license and maintain | "With us, the same AI handles calls, emails and letters, through to posting in the target system." |
+| **One workspace for AI and team** | Handovers land with context in the same system, no separate ticketing system needed | "When the AI hands over, your agents see the case in the same system the AI works in." |
+| **Multiple requests and attachments in one pass** | One complete reply instead of follow-up questions, nobody has to type up meter photos | "If your customer sends meter reading, IBAN and installment with a photo in one email, they get one reply from us." |
+| **WhatsApp with storage in Germany** | Use WhatsApp and still keep the data in Germany | "WhatsApp runs in the same system with us, stored at Hetzner in Germany." |
 | **Ready-made flows for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the most important utility flows ready-made with plausibility checks." |
-| **Data protection documents public** | Data protection review without an NDA and without follow-up requests | "You can review our DPA, TOMs, subprocessors and SLA yourself today." |
+| **Data protection documents public** | Data protection review without an NDA and without follow-up requests | "You can already review our DPA, TOMs, subprocessors and SLA yourself today." |
 
 ## Wo Synthflow vorn liegt
 
@@ -50,20 +52,20 @@ Synthflow is a pure voicebot platform from Berlin: AI agents answer calls, place
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Synthflow | Assessment |
-|---|---|---|---|
-| **AI handling of emails and letters** | Request, customer, verification, posting in the target system, reply, fully automated if desired | No email channel found, only a fixed summary after the call from a Synthflow address | enneo klar vorn |
-| **Multiple requests and attachments** | Everything in one pass, PDFs and photos | Not documented for written correspondence | enneo vorn |
-| **Agent workspace** | Ticketing agent workspace with skill-based routing | Transfer to a phone number or SIP, no workspace of its own found | enneo klar vorn |
-| **Ready-made flows for utilities** | Meter reading, installment, bank details with plausibility checks | Not found | enneo vorn |
-| **WhatsApp and chat** | WhatsApp, Telegram, chat in the same system | Web chat everywhere, WhatsApp and SMS chat only in US workspaces | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | AWS, EU or US cluster, old cluster also processes in the US | enneo vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Terms and SLA for DACH public, most Trust Center documents on request with an NDA | enneo vorn |
-| **Language models** | US providers by default, EU models possible under the DPA | OpenAI GPT models or its own Synthflow LLM, no custom endpoints | je nach Fall |
-| **Voices, languages, outbound** | OpenAI (US) or Deepslate (EU), no dialer | 30+ languages, ElevenLabs, Deepgram, own services, campaigns | Synthflow vorn |
-| **Phone system connections** | Own telephony or the customer's SIP trunk | Zoom, Five9, RingCentral, 8x8, Genesys, Talkdesk and more | Synthflow klar vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress, Hetzner ISO 27001 | SOC 2 Type 2, ISO 27001, PCI DSS | Synthflow klar vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Enterprise annual contract only, not public, per-second billing per minute | je nach Fall |
+| Area | Topic | enneo | Synthflow | Assessment |
+|---|---|---|---|---|
+| Kanäle | **AI handling of emails and letters** | Request, customer, verification, posting in the target system, reply, fully automated if desired | No email channel found, only a fixed summary after the call from a Synthflow address [Post-call email](https://docs.synthflow.ai/post-call-email) [Chat channels](https://docs.synthflow.ai/chat) | enneo klar vorn |
+| Kanäle | **WhatsApp and chat** | WhatsApp, Telegram, chat in the same system | Web chat and API everywhere, WhatsApp and SMS chat only in US workspaces [Chat channels](https://docs.synthflow.ai/chat) | enneo vorn |
+| Kanäle | **Voices, languages, outbound** | OpenAI (US) or Deepslate (EU), no dialer | 30+ languages, ElevenLabs, Deepgram, own services, campaigns [Languages](https://docs.synthflow.ai/about-supported-languages) [Voices](https://docs.synthflow.ai/voice-configuration) | Synthflow vorn |
+| KI & Automatisierung | **Multiple requests and attachments** | Everything in one pass, PDFs and photos | Not documented for written correspondence [Post-call email](https://docs.synthflow.ai/post-call-email) | enneo vorn |
+| KI & Automatisierung | **Ready-made flows for utilities** | Meter reading, installment, bank details with plausibility checks | Not found, no case study from energy or insurance [Case studies](https://synthflow.ai/customer-stories) | enneo vorn |
+| KI & Automatisierung | **Language models** | US providers by default, EU models possible under the DPA | OpenAI GPT models only with an enterprise contract, otherwise only Synthflow LLM, no custom endpoints [Language models](https://docs.synthflow.ai/general-configuration) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing agent workspace with skill-based routing | Transfer to a phone number or SIP, no workspace of its own found [Actions](https://docs.synthflow.ai/actions-overview) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Phone system connections** | Own telephony or the customer's SIP trunk | Zoom, Five9, RingCentral, 8x8, Genesys, Talkdesk and more [Telephony](https://docs.synthflow.ai/telephony-integrations) | Synthflow klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | EU or US cluster, cloud provider not named, old cluster also processes in the US [Data regions](https://docs.synthflow.ai/customer-region) [Migration](https://docs.synthflow.ai/legacy-cluster-migration) | enneo vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Terms and SLA for DACH public, most Trust Center documents on request with an NDA [Trust Center](https://security.synthflow.ai) [Terms DACH](https://docs.synthflow.ai/gtc-direct-dach) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress, Hetzner ISO 27001 | SOC 2 Type 2, ISO 27001, PCI DSS [Pricing page](https://synthflow.ai/pricing) [Trust Center](https://security.synthflow.ai) | Synthflow klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Enterprise annual contract only, not public, usage measured per second [Pricing page](https://synthflow.ai/pricing) [Billing](https://docs.synthflow.ai/usage) | je nach Fall |
 
 ## Wo Synthflow schwächer ist
 
@@ -74,7 +76,7 @@ Synthflow is a pure voicebot platform from Berlin: AI agents answer calls, place
 
 ## Einwände
 
-- **"Synthflow is also from Berlin and SOC 2 and ISO certified."** True, the certifications are a real lead, ours (ISO 27001 and SOC 2) are in progress. But Synthflow's data sits at AWS, and WhatsApp is only available in the US cluster. With us, everything is at Hetzner in Germany, and our documents are public without an NDA.
+- **"Synthflow is also from Berlin and SOC 2 and ISO certified."** True, the certifications are a real lead, ours (ISO 27001 and SOC 2) are in progress. But Synthflow does not name its cloud provider publicly, and WhatsApp is only available in the US cluster. With us, everything is at Hetzner in Germany, and our documents are public without an NDA.
 - **"Synthflow has more voices and connects directly to our phone system."** That's right, Synthflow is broader on the phone. Ask what happens after the handover and who handles the emails. With us, calls, emails, letters and the agent workspace run in one system.
 - **"With Synthflow we only pay for call minutes."** For the phone, that's a fair model. For emails, letters and your agents' workspace, you need a second system alongside it. Compare the total cost with our package prices per ticket and voice minute.
 
@@ -92,6 +94,15 @@ No internal insights in Attio yet (as of Nov 6, 2026).
 
 Against Synthflow, we don't win on voices, phone system connections or certifications. We can win where there is a lot of written correspondence alongside calls, agents need a shared workspace, and data such as WhatsApp should stay in Germany. Anyone who only wants to put a voicebot in front of their existing phone system is well served by Synthflow.
 
+## Direktlinks
+
+- [Doku](https://docs.synthflow.ai/getting-started)
+- [API](https://docs.synthflow.ai/getting-started-with-your-api)
+- [Trust Center](https://security.synthflow.ai)
+- [Preise](https://synthflow.ai/pricing)
+- [Release Notes](https://docs.synthflow.ai/changelog)
+- [Status](https://status.synthflow.ai)
+
 ## Quellen
 
 - [Homepage](https://synthflow.ai)
@@ -105,6 +116,7 @@ Against Synthflow, we don't win on voices, phone system connections or certifica
 - [Data regions](https://docs.synthflow.ai/customer-region)
 - [Legacy cluster migration](https://docs.synthflow.ai/legacy-cluster-migration)
 - [Twilio in the EU cluster](https://docs.synthflow.ai/twilio)
+- [Telephony integrations](https://docs.synthflow.ai/telephony-integrations)
 - [Chat and WhatsApp](https://docs.synthflow.ai/chat)
 - [Actions and transfers](https://docs.synthflow.ai/actions-overview)
 - [Post-call email](https://docs.synthflow.ai/post-call-email)
@@ -117,6 +129,7 @@ Against Synthflow, we don't win on voices, phone system connections or certifica
 - [Billing](https://docs.synthflow.ai/usage)
 - [Changelog](https://docs.synthflow.ai/changelog)
 - [Switch to Synthflow LLM](https://docs.synthflow.ai/changelog/2026/8/25)
+- [Privacy policy](https://docs.synthflow.ai/privacy-policy)
 - [Series A](https://techcrunch.com/2025/06/24/how-synthflow-ai-is-cutting-through-the-noise-in-a-loud-ai-voice-category)
 - [G2](https://ai.g2.com/product/synthflow)
 - [Trustpilot](https://uk.trustpilot.com/review/synthflow.ai)

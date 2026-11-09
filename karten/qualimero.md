@@ -4,7 +4,7 @@ slug: "qualimero"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://qualimero.com"
 kurz: "KI-Mitarbeiter für Produktberatung und Kundenservice im Onlinehandel"
@@ -14,7 +14,9 @@ kurz: "KI-Mitarbeiter für Produktberatung und Kundenservice im Onlinehandel"
 
 | | | |
 |---|---|---|
-| Firma | **Düsseldorf, Startup** | Qualimero Technologies GmbH, HRB 101630 Düsseldorf, Geschäftsführer Marco Andersen und Lasse Lung. Gefördert über den Go-to-Market Gutschein NRW. Gründungsjahr, Mitarbeiterzahl und Investoren nicht genannt |
+| Firma | **Düsseldorf, Startup** | Qualimero Technologies GmbH, HRB 101630 Düsseldorf, Geschäftsführer Marco Andersen und Lasse Lung. Gefördert über den Go-to-Market Gutschein NRW. Mitarbeiterzahl und Investoren nicht genannt |
+| Gegründet | **2023** | Im August 2023 als Lamar Ventures UG eingetragen, 2024 umbenannt in Qualimero Technologies GmbH. Lasse Lung ist CEO und Mitgründer |
+| Ursprung | **KI-Berater für Shops** | Die früheste öffentliche Spur ist ein KI-Berater für Onlineshops, gefördert über den Go-to-Market Gutschein NRW. Ein anderes Vorprodukt haben wir nicht gefunden |
 | Preise | **nicht öffentlich** | Auf der Website keine Preisliste, 14 Tage kostenlos testen, keine Mindestlaufzeit, keine Setup-Kosten. Laut OMR-Eintrag (Stand Mai 2025) „ab 750 € monatlich“ |
 | Hosting | **EU, Betreiber unbekannt** | Laut Website „Entwickelt in Deutschland“, Entwicklung und Datenspeicherung in der EU. Hosting-Anbieter, Sprachmodelle und Subunternehmer nicht genannt |
 | Referenzen | **Onlinehandel, Hersteller** | Fallstudien u. a. Neudorff, Pooldoktor, HELLA Lightstyle, Elektroheizung-Direkt, Pflegehelden. Logos von BSH, Hornbach, REWE, Ergo, Mercedes-Benz. Energieversorger nicht gefunden, kein Zertifikat genannt |
@@ -32,17 +34,17 @@ Qualimero kommt aus der KI-Produktberatung für Onlineshops und vermarktet „KI
 - **Ein Produkt mit Arbeitsplatz:** Bei enneo sind Ticketing-Arbeitsplatz, Postfach, KI-Agenten, Wissen und Telefonie ein System. Bei Qualimero landen Fälle, die die KI nicht löst, in einem fremden Helpdesk, den der Kunde zusätzlich betreibt.
 - **E-Mail-KI bis zur Aktion:** enneo liest die Mail, erkennt und legitimiert den Kunden, bucht im Zielsystem und antwortet, auch vollautomatisch. Bei Qualimero beschreibt die Website vor allem schnelle Antworten im Chat, zur E-Mail-Bearbeitung mit mehreren Anliegen und Anhängen haben wir nichts gefunden. Ein Nutzer auf OMR nannte die E-Mail-Anbindung noch als fehlend.
 - **Mehrere Anliegen in einer Mail:** enneo erstellt einen Lösungsplan für das ganze Ticket und erledigt alle Anliegen in einem Durchgang mit einer Antwort.
-- **Fertige Abläufe für Energieversorger:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige Fachagenten mit Plausibilitätsprüfung. Qualimero ist auf Garten, Pflanzenschutz, Heiztechnik und andere erklärungsbedürftige Konsumgüter vortrainiert.
+- **Fertige Abläufe für Energieversorger:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige Fachagenten mit Plausibilitätsprüfung. Qualimero richtet sich an Garten, Pflanzenschutz, Heiztechnik und andere erklärungsbedürftige Konsumgüter, die KI wird mit dem Wissen des jeweiligen Kunden trainiert.
 - **Datenschutzunterlagen öffentlich:** AVV, TOM, Subunternehmer und SLA von enneo sind einsehbar. Bei Qualimero verweist die Datenschutzerklärung auf einen separaten AVV, Subunternehmer und Hosting-Anbieter sind nicht genannt, die AGB enthalten kein SLA.
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Eigener Arbeitsplatz statt fremder Helpdesk** | Kein zweites System lizenzieren und pflegen, KI und Mitarbeitende arbeiten im selben Ticket | „Bei uns bearbeiten KI und Ihre Mitarbeitenden die Fälle im selben System, ohne zusätzlichen Helpdesk.“ |
-| **E-Mail bis zur Buchung im Zielsystem** | Weniger Mitarbeitende für Schriftverkehr, weil Fälle ohne Übergabe abgeschlossen werden | „Unsere KI liest die Mail, bucht im ERP und antwortet, auch ganz ohne Mitarbeitende.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Fertige Versorger-Abläufe** | Schneller produktiv, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Ein System für KI und Team** | Kein zweites System lizenzieren und pflegen, KI und Mitarbeitende arbeiten im selben Ticket | „Bei uns bearbeiten KI und Ihre Mitarbeitenden die Fälle im selben System, ohne zusätzlichen Helpdesk.“ |
+| **Mails bis zur Buchung im Zielsystem** | Fälle werden ohne Übergabe abgeschlossen, weniger Mitarbeitende für Schriftverkehr | „Unsere KI liest die Mail, bucht im ERP und antwortet, auch ganz ohne Mitarbeitende.“ |
+| **Alle Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Fertige Fachagenten für Versorger** | Schneller produktiv, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz heute schon selbst prüfen.“ |
 
 ## Wo Qualimero vorn liegt
@@ -55,20 +57,20 @@ Qualimero kommt aus der KI-Produktberatung für Onlineshops und vermarktet „KI
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Qualimero | Einordnung |
-|---|---|---|---|
-| **Schwerpunkt** | Kundenservice mit KI-Bearbeitung bis ins Zielsystem | Produktberatung, Verkauf und Kundenservice im Onlinehandel | je nach Fall |
-| **Arbeitsplatz für Mitarbeitende** | Eigener Ticketing-Arbeitsplatz mit Postfach und Skill-Routing | Übergabe an Zendesk, HubSpot, Freshdesk, eigener Arbeitsplatz nicht beschrieben | enneo klar vorn |
-| **KI-Bearbeitung von E-Mails** | Eingang, Kunde legitimieren, Aktion im ERP, Antwort, auch vollautomatisch | E-Mail als Kanal genannt, Bearbeitungsstrecke nicht beschrieben | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang | Nicht gefunden | enneo vorn |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Fotos von Schäden, Pflanzen, Produkten im Chat | gleich |
-| **Aktionen im Zielsystem** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | Live-Daten aus Shop, CRM, ERP, Erstattung und Ersatzlieferung auslösen | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Vortrainiert für Garten, Pflanzenschutz, Heiztechnik | enneo klar vorn |
-| **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo vorn |
-| **Produktberatung und Upselling** | Nicht im Fokus | Kern des Produkts, mit A/B-Test zur Umsatzmessung | Qualimero klar vorn |
-| **Shop-Anbindungen** | API, MCP, Code-Werkzeuge je Kunde | Shopify, Shopware, Zendesk, HubSpot, Zapier, Make fertig | Qualimero vorn |
-| **Hosting und Datenschutzunterlagen** | Hetzner in Deutschland, AVV, TOM, Subunternehmer, SLA öffentlich | EU, Betreiber und Subunternehmer nicht genannt, AVV separat, kein SLA in den AGB | enneo vorn |
-| **Referenzen Energie und Versicherung** | Schwerpunkt Energieversorger, auch Versicherer | Energie nicht gefunden, Ergo nur als Logo ohne Fallstudie | enneo klar vorn |
+| Bereich | Thema | enneo | Qualimero | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden, genannt sind Webchat, E-Mail, Telefon, WhatsApp und Social Media [Startseite](https://qualimero.com) | enneo vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eingang, Kunde legitimieren, Aktion im ERP, Antwort, auch vollautomatisch | E-Mail als Kanal genannt, Bearbeitungsstrecke nicht beschrieben [Kundenservice](https://qualimero.com/kundenservice-per-ki) [OMR](https://omr.com/de/reviews/product/qualimero) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang | Nicht gefunden [Kundenservice](https://qualimero.com/kundenservice-per-ki) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Fotos von Schäden, Pflanzen, Produkten im Chat [Kundenservice](https://qualimero.com/kundenservice-per-ki) [Produktberatung](https://qualimero.com/produktberatung-per-ki) | gleich |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Ausgerichtet auf Garten, Pflanzenschutz, Heiztechnik, KI wird mit dem Wissen des Kunden trainiert [Startseite](https://qualimero.com) [Produktberatung](https://qualimero.com/produktberatung-per-ki) | enneo klar vorn |
+| KI & Automatisierung | **Produktberatung und Upselling** | Nicht im Fokus | Kern des Produkts, mit A/B-Test zur Umsatzmessung [Produktberatung](https://qualimero.com/produktberatung-per-ki) | Qualimero klar vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigener Ticketing-Arbeitsplatz mit Postfach und Skill-Routing | Übergabe an Zendesk, HubSpot, Freshdesk, eigener Arbeitsplatz nicht beschrieben [Kundenservice](https://qualimero.com/kundenservice-per-ki) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Aktionen im Zielsystem** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | Live-Daten aus Shop, CRM, ERP, Erstattung und Ersatzlieferung als Ergebnis von Reklamationen [Kundenservice](https://qualimero.com/kundenservice-per-ki) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Shop-Anbindungen** | API, MCP, Code-Werkzeuge je Kunde | Shopify, Shopware, Zendesk, HubSpot, Zapier, Make fertig [Produktberatung](https://qualimero.com/produktberatung-per-ki) | Qualimero vorn |
+| Daten & Sicherheit | **Hosting und Datenschutzunterlagen** | Hetzner in Deutschland, AVV, TOM, Subunternehmer, SLA öffentlich | EU, Betreiber und Subunternehmer nicht genannt, AVV separat, kein SLA in den AGB [Startseite](https://qualimero.com) [Datenschutz](https://qualimero.com/datenschutzrichtlinien) [AGB](https://qualimero.com/agbs) | enneo vorn |
+| Firma & Referenzen | **Schwerpunkt** | Kundenservice mit KI-Bearbeitung bis ins Zielsystem | Produktberatung, Verkauf und Kundenservice im Onlinehandel [Startseite](https://qualimero.com) | je nach Fall |
+| Firma & Referenzen | **Referenzen Energie und Versicherung** | Schwerpunkt Energieversorger, auch Versicherer | Energie nicht gefunden, Ergo nur als Logo ohne Fallstudie [Erfolgsstories](https://qualimero.com/erfolgsstories) | enneo klar vorn |
 
 ## Wo Qualimero schwächer ist
 
@@ -107,5 +109,7 @@ Gegen Qualimero gewinnen wir, wo viel Schriftverkehr bis zur Buchung im Zielsyst
 - [Datenschutzrichtlinien](https://qualimero.com/datenschutzrichtlinien)
 - [AGB](https://qualimero.com/agbs)
 - [Go-to-Market Gutschein NRW](https://qualimero.com/news/qualimero-go-to-market-gutschein-nrw)
+- [Autorenseite Lasse Lung](https://qualimero.com/en/author/lasse-lung)
+- [Handelsregister-Auszug North Data](https://www.northdata.de/Qualimero+Technologies+GmbH,+D%C3%BCsseldorf/HRB+101630)
 - [Blog](https://qualimero.com/blog)
 - [OMR Reviews](https://omr.com/de/reviews/product/qualimero)

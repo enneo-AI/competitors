@@ -1,6 +1,6 @@
 ---
 slug: "superchat"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "Messaging inbox from Berlin with an AI agent, focused on WhatsApp"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Messaging inbox from Berlin with an AI agent, focused on WhatsApp"
 | | | |
 |---|---|---|
 | Firma | **Berlin, since 2020** | SuperX GmbH, 10,000+ customers by its own account, about €18m from Blossom Capital, 468 Capital and others |
+| Gegründet | **2020** | Founded in Berlin in July 2020 by Yilmaz Köknar (CEO) and Mika Hally (CPO) |
+| Ursprung | **Messaging inbox since 2020** | First an inbox for all channels, then automations and an AI chatbot, after ChatGPT the AI agent, and most recently the AI phone assistant |
 | Preise | **€89 to €299 per month** | Basic, Professional, Advanced with 3, 6 or 12 seats, AI agent from Professional (€149), 12-month term |
 | Hosting | **AWS, Frankfurt** | Data in Frankfurt, subprocessors include OpenAI, ElevenLabs, Cartesia, AssemblyAI, LiveKit, Twilio |
 | Zertifikat | **ISO 27001:2022** | Certificate and pentest report listed in the Trust Center, certification body not named, SOC 2 and BSI C5 not found |
@@ -31,14 +33,14 @@ Superchat is a messaging inbox: WhatsApp, Instagram, Facebook, Telegram, SMS, li
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer puts meter reading, IBAN and installment in one email, they get one reply from us." |
-| **Reading attachments and photos** | Nobody has to retype meter photos and PDF attachments | "Our AI simply reads a meter photo in the attachment along with the email." |
+| **All requests in an email handled in one pass** | The customer gets one complete reply, with fewer follow-up questions and follow-up tickets | "If your customer puts meter reading, IBAN and installment in one email, they get one reply from us." |
+| **Reading attachments and photos** | Nobody has to retype meter photos and PDF attachments anymore | "Our AI simply reads a meter photo in the attachment along with the email." |
 | **Customer identification with verification** | Lower risk of data going to the wrong person, less manual checking | "With us, search order and verification rules are ready, only your ERP gets connected." |
-| **Telephony and agent workspace in one system** | No second phone system to maintain next to the inbox, calls stay in the same case after handover | "With us, voicebot, phone call and email all land in the same agent workspace." |
-| **Letters as a channel** | Meter cards and letters run through the same automation as emails | "The same AI that handles your emails processes scanned letters." |
-| **Ready-made workflows for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the most important utility workflows ready-made, with plausibility checks." |
+| **Telephony and agent workspace in one system** | One system for inbox and phone, calls stay in the same case after handover | "With us, voicebot, phone call and email all land in the same agent workspace." |
+| **Letters as a dedicated channel** | Meter cards and letters run through the same automation as emails | "The same AI that handles your emails processes scanned letters." |
+| **Ready-made specialist agents for utilities** | Meter reading, installment and bank details go live quickly, only the ERP integration is built | "We bring the most important utility workflows ready-made, with plausibility checks." |
 
 ## Wo Superchat vorn liegt
 
@@ -50,20 +52,20 @@ Superchat is a messaging inbox: WhatsApp, Instagram, Facebook, Telegram, SMS, li
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Superchat | Assessment |
-|---|---|---|---|
-| **AI processing of emails** | One AI reads, identifies the customer, books in the target system and replies, fully automated if desired | AI agent answers emails, calls your own APIs via HTTP request, hands over by assignment. No CC or BCC | enneo vorn |
-| **Multiple requests in one email** | All in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDF and photos, e.g. meter photo | Not found | enneo vorn |
-| **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket. ERP search built per customer | Reads and updates contact attributes, identifies phone callers by number. Verification rules not found | enneo vorn |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Industry templates, energy workflows not found | enneo vorn |
-| **Telephony and voicebot** | Own telephony or customer's SIP trunk, voicebot and agent workspace in one system | AI phone assistant via call forwarding, only Germany and the UK, 2 to 8 concurrent calls depending on plan, forwarding to the customer's phone system | enneo vorn |
-| **Letters as a channel** | Dedicated channel, same AI as email | Not found | enneo vorn |
-| **Language models** | US providers by default, EU models possible under the DPA | OpenAI as subprocessor, no retention at the model provider, EU models not found | enneo vorn |
-| **Building AI agents in plain language** | Describe, change via chat with Neo, test cases | Instructions in plain language, copilot "Spark", test environment | gleich |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022, pentest report in the Trust Center | Superchat vorn |
-| **Price and onboarding** | Package prices per ticket and voice minute (pricing model 2.2) | Public from €89 per month, free plan, instant trial | Superchat vorn |
-| **Channels and marketing** | Email, letter, chat, WhatsApp, Telegram, phone | Plus Instagram, Facebook, SMS, WhatsApp newsletters, review management | Superchat klar vorn |
+| Area | Topic | enneo | Superchat | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Telephony and voicebot** | Own telephony or customer's SIP trunk, voicebot and agent workspace in one system | AI phone assistant via call forwarding, only Germany and the UK, 2 to 8 concurrent calls depending on plan, forwarding to the customer's phone system [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents) [Help: phone system](https://help.superchat.com/en/articles/714145-connect-your-phone-system-to-your-ai-agent) | enneo vorn |
+| Kanäle | **Letters as a channel** | Dedicated channel, same AI as email | Not found [Pricing](https://www.superchat.de/preise) | enneo vorn |
+| Kanäle | **Channels and marketing** | Email, letter, chat, WhatsApp, Telegram, phone | Plus Instagram, Facebook, SMS, WhatsApp newsletters, review management [Pricing](https://www.superchat.de/preise) | Superchat klar vorn |
+| KI & Automatisierung | **AI processing of emails** | One AI reads, identifies the customer, books in the target system and replies, fully automated if desired | AI agent answers emails, calls your own APIs via HTTP request, hands over by assignment. No CC or BCC [Help: email](https://help.superchat.com/en/articles/212963-email-channel-functions-in-superchat) [Help: HTTP requests](https://help.superchat.com/en/articles/819744-connect-your-ai-agent-to-open-interfaces-http-requests) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | All in one pass, one reply | Not documented [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDF and photos, e.g. meter photo | Not found [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | enneo vorn |
+| KI & Automatisierung | **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket. ERP search built per customer | Reads and updates contact attributes, identifies phone callers by number. Verification rules not found [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents) [Help: caller identification](https://help.superchat.com/en/articles/764579-critical-issue-the-ai-agent-cannot-identify-your-callers) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Industry templates, energy workflows not found [AI agents](https://www.superchat.de/produkt/ki-agenten) | enneo vorn |
+| KI & Automatisierung | **Building AI agents in plain language** | Describe, change via chat with Neo, test cases | Instructions in plain language, copilot "Spark", test environment [AI agents](https://www.superchat.de/produkt/ki-agenten) [Homepage](https://www.superchat.de) [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | gleich |
+| Daten & Sicherheit | **Language models** | US providers by default, EU models possible under the DPA | OpenAI as subprocessor, no retention at the model provider, EU models not found [Subprocessors](https://trust.superchat.com/subprocessors) [Security](https://www.superchat.de/sicherheit) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022, pentest report in the Trust Center [Trust Center](https://trust.superchat.com/) [Security](https://www.superchat.de/sicherheit) | Superchat vorn |
+| Preis & Vertrag | **Price and onboarding** | Package prices per ticket and voice minute (pricing model 2.2) | Public from €89 per month, free plan, instant trial [Pricing](https://www.superchat.de/preise) | Superchat vorn |
 
 ## Wo Superchat schwächer ist
 
@@ -92,6 +94,14 @@ Superchat is a messaging inbox: WhatsApp, Instagram, Facebook, Telegram, SMS, li
 
 We do not win against Superchat on price, onboarding, WhatsApp marketing or the number of channels. We can win where a lot of written correspondence with a booking in the target system should be handled automatically: multiple requests, attachments, letters, verification and ready-made utility workflows, plus telephony in the same system. For small teams focused on WhatsApp, Superchat is often the better fit.
 
+## Direktlinks
+
+- [Doku](https://help.superchat.com/en/)
+- [API](https://developers.superchat.com)
+- [Trust Center](https://trust.superchat.com/)
+- [Preise](https://www.superchat.de/preise)
+- [Status](https://status.superchat.de/)
+
 ## Quellen
 
 - [Homepage](https://www.superchat.de)
@@ -104,10 +114,13 @@ We do not win against Superchat on price, onboarding, WhatsApp marketing or the 
 - [About us](https://www.superchat.de/ueber-uns)
 - [Enterprise](https://www.superchat.de/enterprise)
 - [Help: AI agents](https://help.superchat.com/en/articles/439576-introduction-ai-agents)
-- [Help: email functions](https://help.superchat.com/en/articles/212963-e-mail-functions-in-superchat)
+- [Help: email](https://help.superchat.com/en/articles/212963-email-channel-functions-in-superchat)
 - [Help: HTTP requests](https://help.superchat.com/en/articles/819744-connect-your-ai-agent-to-open-interfaces-http-requests)
 - [Help: connecting your phone system](https://help.superchat.com/en/articles/714145-connect-your-phone-system-to-your-ai-agent)
 - [Help: caller identification](https://help.superchat.com/en/articles/764579-critical-issue-the-ai-agent-cannot-identify-your-callers)
 - [Success stories](https://www.superchat.de/erfolgsgeschichten)
 - [Success story Enpal](https://www.superchat.de/erfolgsgeschichten/enpal)
 - [User reviews](https://omr.com/de/reviews/product/superchat)
+- [Founded in July 2020 (deutsche-startups.de)](https://www.deutsche-startups.de/2022/02/04/superchat-kommunikation/)
+- [Developer docs](https://developers.superchat.com)
+- [System status](https://status.superchat.de/)

@@ -4,7 +4,7 @@ slug: "observe-ai"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.observe.ai"
 kurz: "US-Plattform für Gesprächsanalyse, Agent Assist und Voicebots im Contact Center"
@@ -14,7 +14,9 @@ kurz: "US-Plattform für Gesprächsanalyse, Agent Assist und Voicebots im Contac
 
 | | | |
 |---|---|---|
-| Firma | **Redwood City, 300+ MA** | Observe.AI, Inc., 2017 gegründet, Series C, laut eigener Angabe 213 Mio. USD Kapital und 350+ Kunden |
+| Firma | **Redwood City, 300+ MA** | Observe.AI, Inc., Series C, laut eigener Angabe 213 Mio. USD Kapital und 350+ Kunden |
+| Gegründet | **2017 in den USA** | Mitgründer Swapnil Jain (CEO) und Jithendra Vepa (CTO), Sitz Redwood City, Kalifornien |
+| Ursprung | **Gesprächsanalyse seit 2017** | Gestartet mit KI-Gesprächsauswertung und automatischer Qualitätsbewertung, eigene Voicebots seit März 2025, Companion Agent für Mitarbeitende seit Mai 2026 |
 | Preise | **nicht öffentlich** | Individuell nach eingesetzten Agenten, Volumen und Kanälen, nur über den Vertrieb. Im AWS Marketplace: Interaction Intelligence je Agent, 828 USD für 12 Monate. Implementierung und Mehrverbrauch laut Bewertungsportal extra |
 | Hosting | **AWS, Region offen** | Laut Sicherheitsseite ausschließlich AWS, Region nicht genannt. Datenschutzerklärung: Übermittlung in die USA und weitere Länder auf Basis von Standardvertragsklauseln. EU-Hosting nicht gefunden |
 | Zertifikat | **ISO 27001, SOC 2** | Laut eigener Angabe zusätzlich HIPAA, ISO 42001 und PCI Level 1. Trust Center bei HyperComply, Inhalte nicht öffentlich |
@@ -37,14 +39,14 @@ Observe.AI kommt aus der Gesprächsanalyse: automatische Qualitätsbewertung all
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail vollautomatisch** | Weniger Mitarbeitende für Schriftverkehr, weil Fälle ohne Handgriff abgeschlossen werden | „Bei uns erledigt die KI die Mail bis zur Buchung und antwortet selbst.“ |
+| **E-Mails vollautomatisch bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, weil Fälle ohne Handgriff abgeschlossen werden | „Bei uns erledigt die KI die Mail bis zur Buchung und antwortet selbst.“ |
 | **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Eigener Arbeitsplatz** | Kein zweites System für Ticketing und Telefonie lizenzieren und pflegen | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
+| **Arbeitsplatz, KI und Telefonie in einem** | Ein Vertrag, ein System für Ticketing, KI und Telefonie | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
 | **Speicherung in Deutschland** | Datenschutzprüfung ohne Klärung von Übermittlungen in die USA | „Ihre Ticketdaten liegen bei uns bei Hetzner in Deutschland, auf Wunsch bei Ihnen im Haus.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Öffentliche Datenschutzunterlagen** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Observe.AI vorn liegt
 
@@ -56,20 +58,20 @@ Observe.AI kommt aus der Gesprächsanalyse: automatische Qualitätsbewertung all
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Observe.AI | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | KI-Agenten für Telefon und Chat, E-Mail nicht genannt | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden | enneo vorn |
-| **Eigener Arbeitsplatz** | Ticketing, Postfach, KI, Wissen, Telefonie in einem System | Läuft neben Genesys, NICE, Five9 und Co., kein eigener Arbeitsplatz beschrieben | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Versorger als Zielbranche genannt, keine fertigen Abläufe gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | AWS ohne genannte Region, Übermittlung in die USA | enneo klar vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Kein AVV und keine Subunternehmerliste öffentlich, Trust Center nur auf Anfrage | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | VoiceAI Agents seit 2025, Sprachen nicht genannt | je nach Fall |
-| **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | CoBuilder aus Arbeitsanweisungen in Klartext, Versionierung und Tests im Agent Harness | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Companion Agent: Vorbereitung, Live-Führung, Pflichthinweise, Nachbereitung | Observe.AI vorn |
-| **Qualität und Coaching** | Scorecards, manuell oder automatisch | Automatische Bewertung aller Gespräche, Coaching, Auswertungen | Observe.AI klar vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI laut eigener Angabe | Observe.AI klar vorn |
+| Bereich | Thema | enneo | Observe.AI | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | VoiceAI Agents seit 2025, Sprachen nicht genannt [VoiceAI Agents](https://siliconangle.com/2025/03/26/observe-ai-extends-contact-center-platform-new-voiceai-agents/) [KI-Agenten](https://www.observe.ai/ai-agents/customers) | je nach Fall |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | KI-Agenten für Telefon und Chat, E-Mail nicht genannt [KI-Agenten](https://www.observe.ai/ai-agents/customers) [Firmenangaben](https://observe.ai/llm-info) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden [KI-Agenten](https://www.observe.ai/ai-agents/customers) [Firmenangaben](https://observe.ai/llm-info) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden [KI-Agenten](https://www.observe.ai/ai-agents/customers) [Firmenangaben](https://observe.ai/llm-info) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Versorger als Zielbranche genannt, keine fertigen Abläufe gefunden [Firmenangaben](https://observe.ai/llm-info) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | CoBuilder aus Arbeitsanweisungen in Klartext, Versionierung und Tests im Agent Harness [CoBuilder](https://www.observe.ai/platform/cobuilder) [Agent Harness](https://www.observe.ai/platform/agent-harness) | gleich |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Companion Agent: Vorbereitung, Live-Führung, Pflichthinweise, Nachbereitung [Companion Agent](https://www.observe.ai/ai-agents/ai-agents-for-frontline) [Start Mai 2026](https://briefglance.com/articles/observeai-launches-companion-agent-an-ai-co-pilot-for-frontline-teams) | Observe.AI vorn |
+| Arbeitsplatz & Anbindungen | **Eigener Arbeitsplatz** | Ticketing, Postfach, KI, Wissen, Telefonie in einem System | Läuft neben Genesys, NICE, Five9 und Co., kein eigener Arbeitsplatz beschrieben [Firmenangaben](https://observe.ai/llm-info) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Qualität und Coaching** | Scorecards, manuell oder automatisch | Automatische Bewertung aller Gespräche, Coaching, Auswertungen [Interaction Intelligence](https://www.observe.ai/platform/interaction-intelligence) [Firmenangaben](https://observe.ai/llm-info) | Observe.AI klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | AWS ohne genannte Region, Übermittlung in die USA [Sicherheit](https://www.observe.ai/security) [Datenschutz](https://www.observe.ai/privacy-policy) | enneo klar vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Kein AVV und keine Subunternehmerliste öffentlich, Trust Center nur auf Anfrage [Trust Center](https://trust.observe.ai) [Sicherheit](https://www.observe.ai/security) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI laut eigener Angabe [Firmenangaben](https://observe.ai/llm-info) [Sicherheit](https://www.observe.ai/security) | Observe.AI klar vorn |
 
 ## Wo Observe.AI schwächer ist
 
@@ -98,6 +100,11 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Observe.AI gewinnen wir nicht bei Gesprächsanalyse, Coaching, Live-Assistenz am Telefon oder Zertifikaten. Gewinnen können wir, wo Schriftverkehr automatisch erledigt werden soll, Daten in Deutschland liegen müssen und ein System statt einer Zusatzschicht gewünscht ist. Im DACH-Raum begegnet uns Observe.AI eher selten, am ehesten als Analyse-Werkzeug neben einer bestehenden Telefonanlage.
 
+## Direktlinks
+
+- [Trust Center](https://trust.observe.ai)
+- [Status](https://status.observe.ai)
+
 ## Quellen
 
 - [Observe.AI Startseite](https://www.observe.ai)
@@ -110,3 +117,9 @@ Gegen Observe.AI gewinnen wir nicht bei Gesprächsanalyse, Coaching, Live-Assist
 - [Übernahme ScopeAI, E-Mail angekündigt (SiliconANGLE, August 2021)](https://siliconangle.com/2021/08/31/call-center-intelligence-startup-observe-ai-buys-scopeai-expands-web-chats/)
 - [Companion Agent (Mai 2026)](https://briefglance.com/articles/observeai-launches-companion-agent-an-ai-co-pilot-for-frontline-teams)
 - [Bewertungen und Preisnotizen (RFP.wiki)](https://www.rfp.wiki/vendors/observe-ai)
+- [KI-Agenten für Kunden](https://www.observe.ai/ai-agents/customers)
+- [Companion Agent](https://www.observe.ai/ai-agents/ai-agents-for-frontline)
+- [CoBuilder](https://www.observe.ai/platform/cobuilder)
+- [Agent Harness](https://www.observe.ai/platform/agent-harness)
+- [Interaction Intelligence](https://www.observe.ai/platform/interaction-intelligence)
+- [Statusseite](https://status.observe.ai)

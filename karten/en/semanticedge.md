@@ -1,6 +1,6 @@
 ---
 slug: "semanticedge"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Berlin speech dialogue specialist for bank, insurer and utility hotlines"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Berlin speech dialogue specialist for bank, insurer and utility hotlines"
 | | | |
 |---|---|---|
 | Firma | **Berlin, since 2000** | SemanticEdge GmbH, HRB 84682 (Charlottenburg District Court), managing directors Dr. Ralf Köhrbrück and Dr. Lupo Pape. Headcount not public |
+| Gegründet | **2000, Berlin** | Founded by Dr. Lupo Pape and Dr. Ralf Köhrbrück, two former McKinsey consultants |
+| Ursprung | **Speech dialogue since 2000** | Started with speech dialogue systems, developed with researchers from the DFKI, in 2001 the first voicebot for a bank's customer service. The company doesn't say since when it uses generative AI |
 | Preise | **not public** | Project business (concept, PoC, development) and managed services with SLA, no pricing or license model stated |
 | Hosting | **On-premises or cloud** | In the customer's data center, also with fine-tuned language models, or in the cloud, Microsoft Azure given as an example. Location and operator not named |
 | Referenzen | **Banks, insurers, utilities** | In productive use for many years according to the website: Sparkassen, Commerzbank, R+V, Allianz, Westnetz. Logos include AXA, E.ON, RWE, MVV, Hamburger Hochbahn |
@@ -31,13 +33,13 @@ SemanticEdge has been building speech dialogue systems for hotlines since 2000 a
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
 | **Email and letters with the same AI** | Fewer agents needed for written correspondence, no second product for email automation | "With us, the same AI handles emails and letters all the way to the booking in the target system." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer writes meter reading, IBAN and installment in one email, they get one reply from us." |
-| **Reading attachments and photos** | Nobody has to retype meter photos and PDF attachments | "Our AI simply reads a meter photo in the attachment too." |
+| **All requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer writes meter reading, IBAN and installment in one email, they get one reply from us." |
+| **Reads attachments and photos** | Nobody has to retype meter photos and PDF attachments | "Our AI simply reads a meter photo in the attachment too." |
 | **Agent workspace in the same system** | No break between bot and case handling, fewer interfaces to maintain | "Whatever the bot can't do lands with your agents in the same system, with full context." |
-| **Describe and change agents yourself** | Changes without commissioning a service provider, productive faster | "With us, you describe new processes in plain language and test them yourself." |
+| **Describe and change AI agents yourself** | Changes without commissioning a service provider, productive faster | "With us, you describe new processes in plain language and test them yourself." |
 | **Data protection documents public** | Data protection review without follow-up requests, because everything is available upfront | "Your data protection team can review our DPA, TOMs, subprocessors and SLA today." |
 
 ## Wo SemanticEdge vorn liegt
@@ -50,20 +52,20 @@ SemanticEdge has been building speech dialogue systems for hotlines since 2000 a
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | SemanticEdge | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, authenticates, books in the ERP and replies, also fully automatically | Not found, listed channels are phone, chat and SMS | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not found | enneo vorn |
-| **Reading attachments and photos** | PDF and photos, e.g. meter photo | Not found | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, AI and telephony in one system | Integration into the existing telephony or contact center platform, dedicated workspace not found | enneo vorn |
-| **Voicebot experience** | Voicebot via OpenAI (USA) or Deepslate (EU), own telephony or SIP | Since 2000, large request catalogs, speech models trained on real customer utterances | SemanticEdge vorn |
-| **Processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP integration per customer | Meter reading, bill changes, information via phone and chat, integration with billing systems not described | je nach Fall |
-| **Authentication** | Framework ready, ERP lookup built per customer | 16 configurable authentication procedures (banking) | SemanticEdge vorn |
-| **On-premises operation** | Possible at large volume | Fully on-premises, also with fine-tuned language models | SemanticEdge vorn |
-| **Where data is stored** | Hetzner, data centers in Germany | Cloud with Microsoft Azure as an example, location and operator not named | enneo vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Not public, privacy policy covers only the website | enneo vorn |
-| **Certificates** | None of its own, ISO 27001 and SOC 2 in progress | Not found | gleich |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, project and operating services | je nach Fall |
+| Area | Topic | enneo | SemanticEdge | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Experience with voicebots** | Voicebot via OpenAI (USA) or Deepslate (EU), own telephony or SIP | Since 2000, large request catalogs, language models trained on real customer statements [About us](https://www.semanticedge.com/about-us/) [Banking](https://www.semanticedge.com/solutions/conversational-ai-for-banking/) [Insurance](https://www.semanticedge.com/solutions/conversational-ai-for-insurance-companies/) | SemanticEdge vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, verifies, books in the ERP and replies, fully automated if desired | Not found, phone, chat and SMS are named [Utilities](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) [Technology](https://www.semanticedge.com/technology/) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not found [Utilities](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not found [Utilities](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | enneo vorn |
+| KI & Automatisierung | **Workflows for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP integration per customer | Meter reading, bill changes, information via phone and chat, integration with billing systems not described [Utilities](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | je nach Fall |
+| KI & Automatisierung | **Customer verification** | Framework ready, ERP lookup built per customer | 16 configurable verification procedures (banking) [Banking](https://www.semanticedge.com/solutions/conversational-ai-for-banking/) | SemanticEdge vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, AI and telephony in one system | Integrated into the existing telephony or contact center platform, own agent workspace not found [Technology](https://www.semanticedge.com/technology/) | enneo vorn |
+| Daten & Sicherheit | **On-premises operation** | Possible at high volume | Fully on-premises, also with fine-tuned language models [Technology](https://www.semanticedge.com/technology/) [Conversational AI](https://www.semanticedge.com/conversational-ai/) | SemanticEdge vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, data centers in Germany | Cloud with Microsoft Azure as an example, location and operator not named [FAQ assistant](https://www.semanticedge.com/ki-assistants/faq-assistants/) [Homepage](https://www.semanticedge.com) | enneo vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Not public, privacy policy covers the website only [Privacy](https://www.semanticedge.com/privacy-policy/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress | Not found [Homepage](https://www.semanticedge.com) [Privacy](https://www.semanticedge.com/privacy-policy/) | gleich |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, project and operations services [Services](https://www.semanticedge.com/services/) | je nach Fall |
 
 ## Wo SemanticEdge schwächer ist
 

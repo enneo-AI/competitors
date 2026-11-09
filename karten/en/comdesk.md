@@ -1,6 +1,6 @@
 ---
 slug: "comdesk"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "Cloud phone system and ACD from Elmshorn, formerly CallOne"
 ---
 
@@ -8,7 +8,9 @@ kurz: "Cloud phone system and ACD from Elmshorn, formerly CallOne"
 
 | | | |
 |---|---|---|
-| Firma | **Elmshorn, approx. 50 employees** | Comdesk GmbH, Kölln-Reisiek near Elmshorn, founded 2008 as inopla, merged with CallOne in 2020. CallOne under the comdesk brand since 11/2025, inopla since 02/2026. 3,000+ customers by its own account |
+| Firma | **Elmshorn, approx. 50 employees** | Comdesk GmbH, Kölln-Reisiek near Elmshorn. CallOne under the comdesk brand since 11/2025, inopla since 02/2026. 3,000+ customers by its own account |
+| Gegründet | **2008 as inopla** | Reorganized as a group with CallOne in 2020, all brands under comdesk since 2026. The company does not name its founders |
+| Ursprung | **Cloud telephony since 2008** | Started with business telephony, generative AI on the phone since 2022 by its own account |
 | Preise | **from €3.90 per user** | Phone system public: Essential €3.90, Business €9.90, Professional €19.90 per user per month on a 12-month term. ACD and VoiceAgent on request. AI transcription from €4.95 per month plus minutes. 14-day trial |
 | Hosting | **Germany, operator undisclosed** | "German ISO 27001 certified high-security data centers", operator not named. No certificate of comdesk itself found |
 | Referenzen | **E-commerce, mid-market** | CHECK24, Flaconi, Deichmann, niceshops, Onlineprinters. Energy, insurance, municipal utilities not found |
@@ -31,12 +33,12 @@ comdesk, formerly CallOne and inopla, is first and foremost a cloud phone system
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI through to booking** | Fewer agents for written correspondence, standard requests run without manual work | "Our AI handles an email from receipt to booking in the target system, with no agent involved if you want." |
-| **Agent workspace and telephony in one system** | No second ticketing system to license, connect and maintain | "Phone, email, chat and AI all land in one agent workspace, with no separate helpdesk." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and tickets | "If your customer writes three requests in one email, they get one reply from us." |
-| **Reading attachments and photos** | Nobody has to retype meter photos and PDF attachments | "Our AI simply reads a meter photo in the attachment." |
+| **Email AI through to booking** | Standard email requests run without manual work, fewer agents needed for written correspondence | "Our AI handles an email from receipt to booking in the target system, with no agent involved if you want." |
+| **Agent workspace and telephony in one system** | One system for tickets and telephony, nothing second to license, connect and maintain | "Phone, email, chat and AI all land in one agent workspace, with no separate helpdesk." |
+| **Multiple requests in one pass** | The end customer gets one complete reply, no follow-up questions or tickets | "If your customer writes three requests in one email, they get one reply from us." |
+| **Reading attachments and photos** | Meter photos and PDF attachments get into the system without retyping | "Our AI simply reads a meter photo in the attachment." |
 | **Ready-made processes for utilities** | Productive faster, only the ERP connection gets built | "We bring meter reading, installment and bank details ready-made with plausibility checks." |
 | **Data protection documents public** | Data protection review without follow-up requests | "Your data protection team can review our DPA, TOMs, subprocessors and SLA today." |
 
@@ -50,20 +52,20 @@ comdesk, formerly CallOne and inopla, is first and foremost a cloud phone system
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | comdesk | Einordnung |
-|---|---|---|---|
-| **AI processing of emails** | One AI reads, identifies the customer, books and replies, also fully automatically | No email channel found, emails only as notifications and reports | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not found | enneo klar vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not found | enneo vorn |
-| **Agent workspace** | Own ticketing with inbox, AI and telephony | No helpdesk, connects to Zendesk, Freshdesk and CRM | enneo vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready-made, ERP connection per customer | Not found, no energy references | enneo vorn |
-| **Voicebot** | Speech to speech via OpenAI or Deepslate, own telephony or SIP | VoiceAgent with GPT models from OpenAI and Microsoft, actions via REST and webhooks, often implemented through AI partners | je nach Fall |
-| **Call analysis** | Live transcription, draft, summary, scorecards | Transcription and analysis after the call, German and English, paid per minute | enneo vorn |
-| **Phone system and ACD** | Own telephony with skill-based routing, customer's SIP trunk | Full company phone system, cloud ACD, callback, Live Center | comdesk vorn |
-| **Microsoft Teams** | No native integration, only SIP | Teams calling as a product of its own | comdesk klar vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | German ISO 27001 data centers, operator not named | gleich |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Subprocessor list, DPA and AI provider not found | enneo vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Phone system public from €3.90 per user, ACD and VoiceAgent on request | je nach Fall |
+| Area | Topic | enneo | comdesk | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Speech to speech via OpenAI or Deepslate, own telephony or SIP | VoiceAgent with GPT models from OpenAI and Microsoft, integration via REST and webhooks, often implemented through AI partners [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) [AI partners](https://www.comdesk.de/ai-partner/) | je nach Fall |
+| Kanäle | **Phone system and ACD** | Own telephony with skill-based routing, customer's SIP trunk | Full company phone system, cloud ACD, callback, Live Center [ACD page](https://www.comdesk.de/produkte/contact-center-software-mit-acd/) | comdesk vorn |
+| KI & Automatisierung | **AI processing of emails** | One AI reads, identifies the customer, books and replies, also fully automatically | No email channel found, emails only as notifications and reports [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) [ACD page](https://www.comdesk.de/produkte/contact-center-software-mit-acd/) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not found [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) | enneo klar vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not found [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready-made, ERP connection per customer | Not found, no energy references [Case studies](https://www.comdesk.de/case-studies/) | enneo vorn |
+| KI & Automatisierung | **Call analysis** | Live transcription, draft, summary, scorecards | Transcription and analysis after the call, German and English, paid per minute [AI transcription](https://www.comdesk.de/produkte/ki-transkription-und-analyse/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Own ticketing with inbox, AI and telephony | No helpdesk according to its own FAQ, connects to Zendesk, Freshdesk and CRM [FAQ](https://www.comdesk.de/) [Integrations](https://www.comdesk.de/integrationen/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Microsoft Teams** | No native integration, only SIP | Teams calling as a product of its own, also in parallel with VoIP [Teams calling](https://www.comdesk.de/produkte/teams-telefonie/) | comdesk klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | German ISO 27001 data centers, operator not named [Security](https://www.comdesk.de/datenschutz-und-sicherheit/) | gleich |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Subprocessor list, DPA and AI provider not found [Security](https://www.comdesk.de/datenschutz-und-sicherheit/) | enneo vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Phone system public from €3.90 per user, ACD and VoiceAgent on request [Pricing](https://www.comdesk.de/preise/) | je nach Fall |
 
 ## Wo comdesk schwächer ist
 
@@ -92,9 +94,16 @@ No internal insights in Attio yet (as of Nov 6, 2026).
 
 As a phone system for small and mid-sized companies, comdesk is affordable, quick to set up and popular with users, with Teams calling and many ready-made integrations. We can win where requests should be resolved automatically, especially by email, with multiple requests, attachments and booking in the target system. Where comdesk is already the phone system, enneo for email and AI alongside it is a better conversation than a switch.
 
+## Direktlinks
+
+- [Doku](https://hilfe.comdesk.de/)
+- [API](https://www.comdesk.de/voip-api-und-schnittstellen/)
+- [Preise](https://www.comdesk.de/preise/)
+- [Status](https://status.comdesk.de/)
+
 ## Quellen
 
-- [callone.de redirects to comdesk.de](https://www.comdesk.de/)
+- [Homepage with FAQ, callone.de redirects here](https://www.comdesk.de/)
 - [CallOne is comdesk](https://www.comdesk.de/news/callone-ist-comdesk/)
 - [inopla is comdesk](https://www.comdesk.de/news/inopla-ist-comdesk/)
 - [About us](https://www.comdesk.de/ueber-uns/)
@@ -109,3 +118,7 @@ As a phone system for small and mid-sized companies, comdesk is affordable, quic
 - [Privacy policy](https://www.comdesk.de/datenschutz/)
 - [Case studies](https://www.comdesk.de/case-studies/)
 - [User reviews on OMR](https://omr.com/de/reviews/product/comdesk)
+- [Teams calling](https://www.comdesk.de/produkte/teams-telefonie/)
+- [APIs and interfaces](https://www.comdesk.de/voip-api-und-schnittstellen/)
+- [Help center](https://hilfe.comdesk.de/)
+- [Status page](https://status.comdesk.de/)

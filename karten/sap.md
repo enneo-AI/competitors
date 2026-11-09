@@ -4,7 +4,7 @@ slug: "sap"
 fokus: "CRM & ERP"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.sap.com/germany/products/crm/service-cloud.html"
 kurz: "SAP Service Cloud V2 mit Joule-Agenten, eng an S/4HANA Utilities"
@@ -15,6 +15,8 @@ kurz: "SAP Service Cloud V2 mit Joule-Agenten, eng an S/4HANA Utilities"
 | | | |
 |---|---|---|
 | Firma | **SAP SE** | Service Cloud Version 2 ist das neue CRM von SAP. Laut SAP-Präsentation (Juni 2026) 624 Kunden live mit Sales und Service V2, von SAP als nicht offizielle Referenz markiert |
+| Gegründet | **1972** | Am 1. April 1972 von fünf ehemaligen IBM-Mitarbeitern gegründet: Dietmar Hopp, Hasso Plattner, Claus Wellenreuther, Klaus Tschira und Hans-Werner Hector |
+| Ursprung | **ERP seit 1972** | Angefangen mit Standardsoftware für Geschäftsprozesse in Echtzeit. Der KI-Assistent Joule kam 2023 dazu |
 | Preise | **97 € + 58 €** | Listenpreis Service Cloud 97 € je Nutzer und Monat, Utilities-Add-on für S/4HANA Utilities 58 €, Laufzeit 3 bis 36 Monate, Angebot auf Anfrage. KI-Agenten über AI Units, Preis je AI Unit nicht öffentlich |
 | Hosting | **AWS Frankfurt** | Service Cloud V2 läuft auf AWS, Rechenzentren Frankfurt, Sydney, Virginia und São Paulo |
 | Zertifikat | **C5, SOC 2** | C5-Bericht (Typ 1, Stichtag 31.03.2024) und SOC-2-Bericht 2024 H1 für Service Cloud V2, nur unter NDA einsehbar |
@@ -37,12 +39,12 @@ SAP spielt bei Versorgern mit SAP IS-U oder S/4HANA Utilities. Service Cloud V2 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail vollautomatisch, heute** | Standardanliegen laufen ohne Mitarbeitende durch, statt auf angekündigte Agenten zu warten | „Bei uns bucht die KI heute schon im Zielsystem und antwortet, bei SAP steht das für 2026 in einer Präsentation ohne Zusage.“ |
-| **Mehrere Anliegen und Anhänge in einem Durchgang** | Weniger Nacharbeit und Rückfragen bei Mails mit Zählerstand, IBAN und Foto | „Eine Mail mit drei Anliegen und einem Zählerfoto erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Kein neues CRM nötig** | Die Automatisierung startet ohne Einführung eines ganzen Systems mit eigenem Stammdatenabgleich | „Sie müssen kein neues CRM einführen, um Ihren Schriftverkehr zu automatisieren.“ |
-| **Pakete je Ticket statt AI Units** | KI-Budget planbar, kein Verfall ungenutzter Units, keine Nachberechnung | „Bei uns zahlen Sie Pakete je Ticket und Sprachminute, nicht Arbeitsschritte in AI Units, die nach zwölf Monaten verfallen.“ |
+| **Mails heute vollautomatisch bis zur Buchung** | Standardanliegen laufen ohne Mitarbeitende durch, ohne auf angekündigte Agenten zu warten | „Bei uns bucht die KI heute schon im Zielsystem und antwortet, bei SAP steht das für 2026 in einer Präsentation ohne Zusage.“ |
+| **Alle Anliegen und Anhänge in einem Durchgang** | Weniger Nacharbeit und Rückfragen bei Mails mit Zählerstand, IBAN und Foto | „Eine Mail mit drei Anliegen und einem Zählerfoto erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Eigener Arbeitsplatz mit Anbindung an Ihr ERP** | Die Automatisierung startet ohne Einführung eines ganzen CRM mit eigenem Stammdatenabgleich | „Sie müssen kein neues CRM einführen, um Ihren Schriftverkehr zu automatisieren.“ |
+| **Pakete je Ticket und Sprachminute** | KI-Budget planbar, kein Verfall ungenutzter Units, keine Nachberechnung | „Bei uns zahlen Sie Pakete je Ticket und Sprachminute, nicht Arbeitsschritte in AI Units, die nach zwölf Monaten verfallen.“ |
 | **Telefonie und Voicebot im selben Produkt** | Ein System und ein Vertrag statt Service Cloud plus Partner für Sprache | „Telefon und Voicebot sind bei uns im selben System, bei SAP kommt der Voicebot über einen Partner.“ |
 
 ## Wo SAP vorn liegt
@@ -55,20 +57,20 @@ SAP spielt bei Versorgern mit SAP IS-U oder S/4HANA Utilities. Service Cloud V2 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | SAP | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Mail wird Fall, Falltyp per KI, Zusammenfassung, Antwortentwurf zur Prüfung. Agenten für Fallbearbeitung für 2026 angekündigt | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert | enneo vorn |
-| **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Service Cloud, Utilities-Add-on, AI Units, Joule-Agenten, Voice über Partner | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Self-Service Agent für Verträge, Tarife, Verbrauch, Vorgänge und Kanäle nicht dokumentiert | je nach Fall |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Über Partner Parloa als SAP Solution Extension | je nach Fall |
-| **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 0,02 oder 0,05 AI Units je Agentenschritt, Preis je Unit nicht öffentlich, Units verfallen nach 12 Monaten | je nach Fall |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Zusammenfassung, Antwortentwurf, Lösungsvorschläge, Übersetzung | gleich |
-| **Anbindung an S/4HANA Utilities** | Wird pro Kunde gebaut | Utilities-Add-on: Vertragskonto, Anlage, Stammdatenabgleich per iFlow | SAP klar vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | C5 und SOC 2 für Service Cloud V2 | SAP klar vorn |
-| **Plattform und Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | Vertrieb, Field Service, Joule über alle SAP-Systeme, Partner wie Parloa | SAP vorn |
+| Bereich | Thema | enneo | SAP | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Über Partner Parloa als SAP Solution Extension [Parloa-Meldung](https://www.parloa.com/de/presse/parloas-ai-agent-management-platform-ist-ab-sofort-als-sap-solution-extension-fuer-agentische-kundeninteraktionen-erhaeltlich/) | je nach Fall |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Mail wird Fall, Falltyp per KI, Zusammenfassung, Antwortentwurf zur Prüfung. Agenten für Fallbearbeitung für 2026 angekündigt [Funktionen](https://www.sap.com/products/crm/service-cloud/features.html) [Antwortentwurf](https://www.sap.com/products/crm/service-cloud-version-2-email-draft-recommender.html) [Präsentation](https://assets.dm.ux.sap.com/nl-sap-connect-day-for-cx-nl/pdfs/sap_autonomous_salesandservice_cx_connectday_nl.pdf) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Funktionen](https://www.sap.com/products/crm/service-cloud/features.html) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert [Funktionen](https://www.sap.com/products/crm/service-cloud/features.html) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Self-Service Agent für Verträge, Tarife, Verbrauch, Vorgänge und Kanäle nicht dokumentiert [Demo](https://www.sap.com/assetdetail/2026/05/141be6bd-527f-0010-bca6-c68f7e60039b.html) [ASUG](https://www.asug.com/insights/sap-positions-joule-as-a-process-native-copilot-for-the-utilities-value-chain) | je nach Fall |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Zusammenfassung, Antwortentwurf, Lösungsvorschläge, Übersetzung [Funktionen](https://www.sap.com/products/crm/service-cloud/features.html) [Präsentation](https://assets.dm.ux.sap.com/nl-sap-connect-day-for-cx-nl/pdfs/sap_autonomous_salesandservice_cx_connectday_nl.pdf) | gleich |
+| Arbeitsplatz & Anbindungen | **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Service Cloud, Utilities-Add-on, AI Units, Joule-Agenten, Voice über Partner [Preise](https://www.sap.com/germany/products/crm/service-cloud/pricing.html) [KI-Preise](https://www.sap.com/products/artificial-intelligence/pricing.html) [Parloa-Meldung](https://www.parloa.com/de/presse/parloas-ai-agent-management-platform-ist-ab-sofort-als-sap-solution-extension-fuer-agentische-kundeninteraktionen-erhaeltlich/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Anbindung an S/4HANA Utilities** | Wird pro Kunde gebaut | Utilities-Add-on: Vertragskonto, Anlage, Stammdatenabgleich per iFlow [SAP Learning](https://learning.sap.com/courses/configuring-master-data-and-basic-functions-in-sap-s-4hana-utilities/attending-the-customer-with-service-cloud) | SAP klar vorn |
+| Arbeitsplatz & Anbindungen | **Plattform und Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | Sales und Service Cloud, Joule-Agenten über SAP- und Fremdsysteme, Partner wie Parloa [Joule Agents](https://www.sap.com/products/artificial-intelligence/ai-agents.html) [Parloa-Meldung](https://www.parloa.com/de/presse/parloas-ai-agent-management-platform-ist-ab-sofort-als-sap-solution-extension-fuer-agentische-kundeninteraktionen-erhaeltlich/) | SAP vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt [C5-Bericht](https://www.sap.com/about/trust-center/certification-compliance/sap-sales-cloud-service-cloud-v2-c5-2024-h1.html) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | C5 und SOC 2 für Service Cloud V2 [C5-Bericht](https://www.sap.com/about/trust-center/certification-compliance/sap-sales-cloud-service-cloud-v2-c5-2024-h1.html) [SOC-2-Bericht](https://www.sap.com/about/trust-center/certification-compliance/sap-sales-cloud-service-cloud-v2-soc-2-2024-h1.html) | SAP klar vorn |
+| Preis & Vertrag | **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 0,02 oder 0,05 AI Units je Agentenschritt, Preis je Unit nicht öffentlich, Units verfallen nach 12 Monaten [KI-Preise](https://www.sap.com/products/artificial-intelligence/pricing.html) | je nach Fall |
 
 ## Wo SAP schwächer ist
 
@@ -101,7 +103,17 @@ SAP spielt bei Versorgern mit SAP IS-U oder S/4HANA Utilities. Service Cloud V2 
 
 SAP gewinnt, wo ein Versorger Service Cloud V2 ohnehin einführt und die enge Verbindung zu S/4HANA Utilities will, und bei Zertifikaten. Gewinnen können wir bei der vollautomatischen Bearbeitung von E-Mail und Brief, die heute läuft, mit mehreren Anliegen und Anhängen, und mit Telefonie im selben Produkt. Bei SAP-Kunden ist enneo neben dem SAP-System oft das schnellere Gespräch als das Warten auf angekündigte Agenten.
 
+## Direktlinks
+
+- [Doku](https://help.sap.com/docs/CX_NG_SVC)
+- [Community](https://community.sap.com)
+- [Trust Center](https://www.sap.com/about/trust-center.html)
+- [Preise](https://www.sap.com/germany/products/crm/service-cloud/pricing.html)
+- [Release Notes](https://help.sap.com/whats-new/19050980c758425da3080e88f2d0505f?locale=en-US&state=PRODUCTION&version=CSS_SHIP)
+
 ## Quellen
+
+- [SAP-Geschichte](https://www.sap.com/about/company/history.html)
 
 - [Service Cloud Preise](https://www.sap.com/germany/products/crm/service-cloud/pricing.html)
 - [Service Cloud Funktionen](https://www.sap.com/products/crm/service-cloud/features.html)
@@ -115,3 +127,8 @@ SAP gewinnt, wo ein Versorger Service Cloud V2 ohnehin einführt und die enge Ve
 - [Joule-Agenten SAP Connect 2025](https://thelettertwo.com/2025/10/06/sap-joule-new-ai-agents-connect-2025/)
 - [Joule Agents](https://www.sap.com/products/artificial-intelligence/ai-agents.html)
 - [Parloa als SAP Solution Extension](https://www.parloa.com/de/presse/parloas-ai-agent-management-platform-ist-ab-sofort-als-sap-solution-extension-fuer-agentische-kundeninteraktionen-erhaeltlich/)
+- [Antwortentwurf per KI](https://www.sap.com/products/crm/service-cloud-version-2-email-draft-recommender.html)
+- [Hilfe Service Cloud V2](https://help.sap.com/docs/CX_NG_SVC)
+- [Neuerungen Service Cloud V2](https://help.sap.com/whats-new/19050980c758425da3080e88f2d0505f?locale=en-US&state=PRODUCTION&version=CSS_SHIP)
+- [SAP Trust Center](https://www.sap.com/about/trust-center.html)
+- [SAP Community](https://community.sap.com)

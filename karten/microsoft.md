@@ -4,7 +4,7 @@ slug: "microsoft"
 fokus: "CRM & ERP"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.microsoft.com/de-de/dynamics-365/products/contact-center"
 kurz: "Dynamics 365 Contact Center mit KI-Agenten aus Copilot Studio"
@@ -15,6 +15,8 @@ kurz: "Dynamics 365 Contact Center mit KI-Agenten aus Copilot Studio"
 | | | |
 |---|---|---|
 | Firma | **Microsoft, USA** | Dynamics 365 Customer Service und Contact Center, KI-Agenten über Copilot Studio und die Power Platform |
+| Gegründet | **1975** | Microsoft wurde 1975 in Albuquerque gegründet und sitzt seit 1986 in Redmond, Washington |
+| Ursprung | **CRM seit 2003** | Microsoft kam von Betriebssystem und Office, Microsoft CRM 1.0 erschien im Januar 2003. Copilot als KI-Assistent für Dynamics 365 wurde im März 2023 vorgestellt |
 | Lizenz | **91 / 169 / 95,30 €** | Customer Service Enterprise / Premium / Contact Center je Nutzer und Monat, jährlich. KI über Copilot Credits extra (Pack mit 25.000 Credits: 200 USD im Monat), Telefonie über Azure Communication Services extra |
 | Hosting | **EU Data Boundary** | Umgebung in Europa wählbar, Sprachmodelle über Azure OpenAI in der EU. Bei Spitzenlast kann „Flex Routing“ außerhalb der EU rechnen |
 | Zertifikat | **ISO 27001, SOC 2, BSI C5** | Dynamics 365 im ISO-27001-Umfang, gemeinsamer Bericht SOC 2 und C5 für Azure, Dynamics 365 und Online Services |
@@ -37,12 +39,12 @@ Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Ein Produkt statt Lizenzbaukasten** | Ein Vertrag statt Nutzerlizenz plus Credits plus Telefonie, Kosten besser planbar | „Bei uns sind Arbeitsplatz, KI-Agenten, Wissen und Telefonie ein System mit Paketpreisen je Ticket und Sprachminute.“ |
+| **Arbeitsplatz, KI, Wissen und Telefonie in einem** | Ein Vertrag statt Nutzerlizenz plus Credits plus Telefonie, Kosten besser planbar | „Bei uns sind Arbeitsplatz, KI-Agenten, Wissen und Telefonie ein System mit Paketpreisen je Ticket und Sprachminute.“ |
 | **Mehrere Anliegen in einem Durchgang** | Weniger Rückfragen und Folgemails, eine Antwort an den Kunden | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Anhänge und Fotos lesen** | Kein Abtippen von Zählerfotos und PDFs durch Mitarbeitende | „Unsere KI liest das Zählerfoto und das PDF im Anhang gleich mit.“ |
-| **Fertige Energie-Agenten** | Kürzeres Projekt, keine Eigenentwicklung in Copilot Studio für Standardfälle | „Zählerstand, Abschlag und Bankdaten bringen wir als fertige Agenten mit Plausibilitätsprüfung mit, gebaut wird nur die Anbindung an Ihr ERP.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDFs muss niemand mehr abtippen | „Unsere KI liest das Zählerfoto und das PDF im Anhang gleich mit.“ |
+| **Fertige Fachagenten für Versorger** | Kürzeres Projekt, Standardfälle laufen ohne Eigenentwicklung | „Zählerstand, Abschlag und Bankdaten bringen wir als fertige Agenten mit Plausibilitätsprüfung mit, gebaut wird nur die Anbindung an Ihr ERP.“ |
 | **Speicherung bei deutschem Anbieter** | Datenschutzprüfung ohne Klärung von Datenverschiebung zwischen Regionen | „Wir speichern bei Hetzner in Deutschland, und wer EU-Sprachmodelle will, bekommt sie im AVV.“ |
 
 ## Wo Microsoft vorn liegt
@@ -55,20 +57,20 @@ Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Microsoft | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Seit 30.09.2026: Absicht erkennen, Antwort aus Wissen, autonom oder mit Freigabe. Aktionen über eigene Agenten oder Konnektoren | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Eine Absicht je Mail beschrieben, Doppelanliegen über Regeln zur Reihenfolge | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | In der Doku zur E-Mail-Bearbeitung nicht erwähnt | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Absichten aus alten Fällen gelernt, Energie-Abläufe nicht gefunden | enneo vorn |
-| **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Customer Service, Contact Center, Copilot Studio, Credits über Azure, Telefonie getrennt | enneo vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Anweisungen je Absicht, Copilot Studio, Simulation an 100 Fällen, Schattenbetrieb (Vorschau) | gleich |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Konnektoren der Power Platform und eigene Konnektoren, bis zu 30 je Intent Agent | je nach Fall |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | EU Data Boundary, US-Firma, Flex Routing bei Spitzenlast möglich | je nach Fall |
-| **Sprachdienste am Telefon** | Voicebot über OpenAI (USA) oder Deepslate (EU) | Sprach-Agenten aus Copilot Studio, de-DE, Kontext über SIP-Header | Microsoft vorn |
-| **Personalplanung und Qualität** | Kein WFM, Scorecards | WFM in Enterprise und Premium enthalten, Quality Evaluation Agent | Microsoft klar vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5 | Microsoft klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Lizenz je Nutzer, KI und Telefonie nach Verbrauch zusätzlich | je nach Fall |
+| Bereich | Thema | enneo | Microsoft | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Sprachdienste am Telefon** | Voicebot über OpenAI (USA) oder Deepslate (EU) | Sprach-Agenten aus Copilot Studio, de-DE, Kontext über SIP-Header [Sprach-Agenten](https://learn.microsoft.com/en-gb/dynamics365/customer-service/voice-channel-ivr-bots) [Sprachen](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/voice-channel-supported-languages) | Microsoft vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Seit 30.09.2026: Absicht erkennen, Antwort aus Wissen, autonom oder mit Freigabe. Aktionen über eigene Agenten oder Konnektoren [E-Mail-Doku](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-email-resolution) [Ankündigung](https://mc.merill.net/message/MC1465523) [Eigene Agenten](https://learn.microsoft.com/en-us/dynamics365/customer-service/develop/case-management-agent-integration) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Eine Absicht je Mail beschrieben, Doppelanliegen über Regeln zur Reihenfolge [E-Mail-Doku](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-email-resolution) [Intent Agent](https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/manage-customer-intent-agent) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | In der Doku zur E-Mail-Bearbeitung nicht erwähnt [E-Mail-Doku](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-email-resolution) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Absichten aus alten Fällen gelernt, Energie-Abläufe nicht gefunden [Intent Agent](https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/manage-customer-intent-agent) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Anweisungen je Absicht, Copilot Studio, Simulation an 100 Fällen, Schattenbetrieb (Vorschau) [Intent Agent](https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/manage-customer-intent-agent) [Fallagent](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-case-resolution-agent) | gleich |
+| Arbeitsplatz & Anbindungen | **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Customer Service, Contact Center, Copilot Studio, Credits über Azure, Telefonie getrennt [E-Mail-Doku](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-email-resolution) [Preise CS](https://www.microsoft.com/de-de/dynamics-365/products/customer-service/pricing) [Preise Copilot Studio](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/copilot-studio) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Konnektoren der Power Platform und eigene Konnektoren, bis zu 30 je Intent Agent [Intent Agent](https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/manage-customer-intent-agent) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Personalplanung und Qualität** | Kein WFM, Scorecards | WFM in Enterprise und Premium enthalten, Quality Evaluation Agent [WFM-Blog](https://www.microsoft.com/en-us/dynamics-365/blog/?p=202503) | Microsoft klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | EU Data Boundary, US-Firma, Flex Routing bei Spitzenlast möglich [Datenfluss KI](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot) [Regionen](https://learn.microsoft.com/en-us/power-platform/admin/regions-overview) | je nach Fall |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5 [ISO 27001](https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001) [BSI C5](https://learn.microsoft.com/en-us/compliance/regulatory/offering-c5-germany) | Microsoft klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Lizenz je Nutzer, KI und Telefonie nach Verbrauch zusätzlich [Preise CS](https://www.microsoft.com/de-de/dynamics-365/products/customer-service/pricing) [Preise CC](https://www.microsoft.com/de-de/dynamics-365/products/contact-center/pricing) [Preise Copilot Studio](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/copilot-studio) | je nach Fall |
 
 ## Wo Microsoft schwächer ist
 
@@ -99,6 +101,16 @@ Microsoft ist für Kunden mit Microsoft 365 und Dynamics die naheliegende Wahl. 
 
 Wo Microsoft 365 und Dynamics schon gesetzt sind, gewinnen wir nicht über Telefonie, Personalplanung, Zertifikate oder Ökosystem. Gewinnen können wir, wo viel Schriftverkehr mit mehreren Anliegen und Anhängen bis zur Buchung erledigt werden soll, besonders bei Energie-Vorgängen. Gegen Microsoft hilft der Vergleich, wie viele Lizenzen, Agenten und Bauteile für dieselbe Strecke nötig sind.
 
+## Direktlinks
+
+- [Doku](https://learn.microsoft.com/en-us/dynamics365/customer-service/)
+- [API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview)
+- [Community](https://community.dynamics.com/)
+- [Trust Center](https://www.microsoft.com/en-us/trust-center)
+- [Preise](https://www.microsoft.com/de-de/dynamics-365/products/contact-center/pricing)
+- [Release Notes](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/whats-new-customer-service)
+- [Status](https://status.cloud.microsoft/)
+
 ## Quellen
 
 - [E-Mail-Bearbeitung einrichten](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-email-resolution)
@@ -116,3 +128,6 @@ Wo Microsoft 365 und Dynamics schon gesetzt sind, gewinnen wir nicht über Telef
 - [Personalplanung und Qualität](https://www.microsoft.com/en-us/dynamics-365/blog/?p=202503)
 - [ISO 27001](https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001)
 - [BSI C5](https://learn.microsoft.com/en-us/compliance/regulatory/offering-c5-germany)
+- [Fakten zu Microsoft](https://news.microsoft.com/facts-about-microsoft/)
+- [Microsoft CRM seit Januar 2003](https://news.microsoft.com/?p=4043)
+- [Vorstellung Dynamics 365 Copilot (März 2023)](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2023/03/06/introducing-microsoft-dynamics-365-copilot-bringing-next-generation-ai-to-every-line-of-business/)

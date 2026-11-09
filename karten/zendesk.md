@@ -4,7 +4,7 @@ slug: "zendesk"
 fokus: "Helpdesk"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-10-28"
+stand: "2026-11-09"
 geprueft_von: "Aleksa Spalevic"
 website: "https://www.zendesk.de"
 kurz: "Breite Helpdesk-Suite aus den USA, KI je gelöstem Fall abgerechnet"
@@ -15,8 +15,10 @@ kurz: "Breite Helpdesk-Suite aus den USA, KI je gelöstem Fall abgerechnet"
 | | | |
 |---|---|---|
 | Firma | **San Francisco, privat** | Zendesk Inc., seit 2022 bei H&F und Permira |
+| Gegründet | **2007** | In Kopenhagen von Mikkel Svane, Morten Primdahl und Alexander Aghassipour |
+| Ursprung | **Kundenservice-Software seit 2007** | Als Software für den Kundenservice gestartet. KI-Agenten kamen 2024 mit der Übernahme von Ultimate dazu, heute nennt Zendesk sich „KI-First-Serviceplattform“ |
 | Lizenz | **55 / 115 €** | Suite Team / Professional je Agent und Monat, Enterprise auf Anfrage |
-| KI-Abrechnung | **1,50–2,00 €** | je gelöstem Fall, Copilot +50 € je Agent und Monat |
+| KI-Abrechnung | **1,50 bis 2,00 €** | je gelöstem Fall, Copilot +50 € je Agent und Monat |
 | Hosting | **AWS Frankfurt** | KI-Agenten auf Google Cloud, Modelle OpenAI, Azure, Bedrock |
 
 ## Erster Satz
@@ -35,43 +37,43 @@ Zendesk kann fast alles, was enneo kann, auch Kundenerkennung und Buchungen im E
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
 | **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt mehrerer Mails nacheinander, weniger Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort, nicht drei.“ |
 | **Speicherung bei deutschem Anbieter** | Ticketdaten liegen in Deutschland bei einer deutschen Firma, auf Wunsch im eigenen Rechenzentrum | „Ihre Ticketdaten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten muss niemand selbst beschreiben, schneller produktiv | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir mit Ihnen.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, ohne sie selbst zu beschreiben | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, die ERP-Anbindung bauen wir mit Ihnen.“ |
 | **Begründung der KI sichtbar** | Fehler und Übergaben schnell nachvollziehen, gezielt nachsteuern statt raten | „Bei uns sehen Sie zu jedem Fall den Lösungsplan und die erkannten Werte, auf Wunsch als Vorschau ohne Buchung.“ |
-| **Je Postfach ein eigener KI-Agent** | Mehrere Marken ohne Kompromiss bei Anrede und Wissen, weniger Pflegeaufwand | „Jede Marke bekommt bei uns einen eigenen KI-Agenten mit eigener Anrede und eigenem Wissen.“ |
+| **Je Postfach ein eigener KI-Agent** | Jede Marke mit eigener Anrede und eigenem Wissen, weniger Pflegeaufwand | „Jede Marke bekommt bei uns einen eigenen KI-Agenten mit eigener Anrede und eigenem Wissen.“ |
 
 ## Wo Zendesk vorn liegt
 
-- **Breiteres Produkt:** Hilfecenter mit Community, Kanäle von Instagram bis WeChat, 1.542 Apps im Marketplace, eigene Datenobjekte, Aufgabenlisten, Freigaben und Rückfragen an Dritte per Mail, Slack oder Teams direkt aus dem Ticket.
+- **Breiteres Produkt:** Hilfecenter mit Community, Kanäle von Instagram bis WeChat, über 1.800 Apps, Partner und Integrationen im Marketplace, eigene Datenobjekte, Aufgabenlisten, Freigaben und Rückfragen an Dritte per Mail, Slack oder Teams direkt aus dem Ticket.
 - **Zahlung nur bei Erfolg:** Ein KI-Fall kostet nur, wenn ein Sprachmodell nach dem Gespräch bestätigt, dass er gelöst ist. Übergaben an Menschen kosten nichts. Das ist beim Einkauf ein starkes Argument.
 - **Personalplanung und Qualität:** Personaleinsatzplanung (WFM) und automatische Bewertung aller Gespräche als Paket für 50 € je Agent und Monat, dazu Live-Dashboards. Beides haben wir nicht.
 - **Zertifikate:** ISO 27001, 27017, 27018, 27701, 42001 und SOC 2. Wir haben keine eigenen.
-- **Preis und Einstieg:** Lizenzen ab 55 € je Agent, Testkonto in wenigen Minuten. Ein Interessent hatte für 45 Plätze rund 33–34 Tsd. € bei Zendesk bzw. Freshdesk gegen 61 Tsd. € bei uns im Angebot.
+- **Preis und Einstieg:** Lizenzen ab 55 € je Agent, Testkonto in wenigen Minuten. Ein Interessent hatte für 45 Plätze rund 33 bis 34 Tsd. € bei Zendesk bzw. Freshdesk gegen 61 Tsd. € bei uns im Angebot.
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Zendesk | Einordnung |
-|---|---|---|---|
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort, auch vollautomatisch | Ein Vorgang je Antwortmail, die übrigen nacheinander in weiteren Mails | enneo klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt, KI-Agenten auf Google Cloud, US-Firma | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Abläufe selbst beschreiben, ERP-Anbindung pro Kunde | enneo vorn |
-| **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket. Die Suche im ERP baut man pro Kunde | Gleiches im Ablauf selbst zusammenstellen. Die Suche im ERP baut man pro Kunde | enneo vorn |
-| **Mehrere Postfächer oder Marken** | Je Postfach ein eigener KI-Agent mit eigener Anrede und eigenem Wissen | Ein E-Mail-KI-Agent für alle Postfächer, Unterschiede über Segmente darin | enneo vorn |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Ohne Code, nur JSON, 10 Sekunden Zeitlimit, max. 100 Aktionen. Code erst im Early Access | enneo vorn |
-| **Begründung der KI nachvollziehen** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Im Test: Übergabe an Menschen ohne sichtbaren Grund | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos | PDF und Bilder, seit 21.10.2026 und nur in umgestellten Konten | gleich |
-| **KI-Agenten in Worten bauen** | Beschreiben, mit Neo per Chat ändern | Beschreiben, KI zeichnet daraus den Ablauf, Admin Copilot | gleich |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Nur über Zendesk-Telefonie, Deutsch nur de-DE, seit 09/2026 | gleich |
-| **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nur gelöste Fälle, 1,50–2,00 € je Fall, darüber läuft die KI standardmäßig weiter | je nach Fall |
-| **Lizenzpreis** | Höher (Beispiel 45 Plätze: 61 Tsd. €) | Niedriger (Beispiel 45 Plätze: 33–34 Tsd. €) | Zendesk vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2 | Zendesk klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu Instagram, Messenger, LINE, WeChat, X, SMS, App-SDK | Zendesk klar vorn |
-| **Hilfecenter für Endkunden** | Keins | Hilfecenter mit Community und KI-Antworten | Zendesk klar vorn |
-| **Personalplanung, Live-Steuerung, Qualität** | Kein WFM, kein Live-Dashboard, Scorecards | WFM und automatische Gesprächsbewertung (50 €), Live-Dashboards | Zendesk klar vorn |
-| **Ökosystem** | Eigene Apps, API, MCP | 1.542 Apps, fertig für Salesforce, Shopify, Slack, Teams | Zendesk klar vorn |
+| Bereich | Thema | enneo | Zendesk | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu Instagram, Facebook, LINE, WeChat, X, SMS, App-SDK [Preise](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Nur über Zendesk-Telefonie (Talk), 53 Sprachen, allgemein verfügbar seit 09/2026 [Voice-KI](https://support.zendesk.com/hc/en-us/articles/11183058023450-Announcing-the-general-availability-of-voice-AI-agents) | gleich |
+| Kanäle | **Hilfecenter für Endkunden** | Keins | Hilfecenter mit Community-Forum, Inhalte in über 40 Sprachen [Preise](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort, auch vollautomatisch | Mehrere Fragen in einer Antwort, mehrere Vorgänge aber nacheinander in weiteren Mails [Mehrere Anliegen](https://support.zendesk.com/hc/en-us/articles/10563281043738-Announcing-agentic-AI-for-advanced-email-AI-agents) | enneo klar vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Abläufe selbst beschreiben, ERP-Anbindung pro Kunde [KI-Agenten E-Mail](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Aktionen](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) | enneo vorn |
+| KI & Automatisierung | **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket. Die Suche im ERP baut man pro Kunde | Gleiches im Ablauf selbst zusammenstellen. Die Suche im ERP baut man pro Kunde [KI-Agenten E-Mail](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Aktionen](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) | enneo vorn |
+| KI & Automatisierung | **Begründung der KI nachvollziehen** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Im eigenen Test am 28.10.2026: Übergabe an Menschen ohne sichtbaren Grund, in der Doku kein Lösungsplan je Fall beschrieben [KI-Agenten E-Mail](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos | PDF und Bilder, seit 21.10.2026 und nur in umgestellten Konten [Anhänge](https://support.zendesk.com/hc/en-us/articles/11394624789786-Announcing-email-attachment-recognition-for-AI-agents-with-agentic-AI) | gleich |
+| KI & Automatisierung | **KI-Agenten in Worten bauen** | Beschreiben, mit Neo per Chat ändern | Richtlinien beschreiben, KI erzeugt daraus den Ablauf, Abläufe auch per Admin Copilot [KI-Agenten E-Mail](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Abläufe per Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot) | gleich |
+| Arbeitsplatz & Anbindungen | **Mehrere Postfächer oder Marken** | Je Postfach ein eigener KI-Agent mit eigener Anrede und eigenem Wissen | Ein E-Mail-KI-Agent für alle Postfächer, Unterschiede über Segmente darin [Ein E-Mail-Agent](https://support.zendesk.com/hc/en-us/articles/9828611484826-Can-I-use-multiple-AI-agents-in-my-Zendesk-account) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Aktionen ohne Code, nur JSON, 10 Sekunden Zeitlimit, max. 100 Aktionen. Code-Schritte in Abläufen nur zur Datenumwandlung, ohne Netzwerkaufrufe [Aktionen](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) [Abläufe per Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Personalplanung, Live-Steuerung, Qualität** | Kein WFM, kein Live-Dashboard, Scorecards | WFM und automatische Gesprächsbewertung (50 €), Live-Dashboards [Preise](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| Arbeitsplatz & Anbindungen | **Ökosystem** | Eigene Apps, API, MCP | Über 1.800 Apps, Partner und Integrationen, Slack und Teams angebunden, 40 fertige Workflow-Konnektoren [Über Zendesk](https://www.zendesk.com/company/) [Relate 2026](https://www.zendesk.com/newsroom/press-releases/relate-2026/) | Zendesk klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt, KI-Agenten auf Google Cloud in USA und Belgien, US-Firma [Subunternehmer](https://support.zendesk.com/hc/en-us/articles/4408883061530-Sub-processor-Policy) [Rechenzentrum](https://support.zendesk.com/hc/en-us/articles/4408838409754-About-the-Data-Center-Location-add-on) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2 [Trust Center](https://www.zendesk.com/trust-center/) | Zendesk klar vorn |
+| Preis & Vertrag | **Preis für die KI** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nur gelöste Fälle, 1,50 bis 2,00 € je Fall, darüber läuft die KI standardmäßig weiter [Preise](https://www.zendesk.de/pricing/) [Abrechnungsstufen](https://support.zendesk.com/hc/en-us/articles/9570369117338-About-automated-resolution-tiers) [Kontingente](https://support.zendesk.com/hc/en-us/articles/10479587390106-Managing-resolution-allowances) | je nach Fall |
+| Preis & Vertrag | **Lizenzpreis** | Höher (Beispiel 45 Plätze: 61 Tsd. €) | Niedriger, ab 55 € je Agent und Monat (Beispiel 45 Plätze: 33 bis 34 Tsd. €) [Preise](https://www.zendesk.de/pricing/) | Zendesk vorn |
 
 ## Selbst getestet am 28.10.2026
 
@@ -85,7 +87,7 @@ Testkonto Zendesk Suite Professional (Rechenzentrum Frankfurt). Alles im Admin d
 
 ## Wo Zendesk schwächer ist
 
-- **KI-Kosten schwer planbar:** Inklusive ist seit Mai 2026 nur noch ein Guthaben von 5 USD je Professional-Agent und Monat, früher waren es 10 gelöste Fälle. Bei 1,50–2,00 € je Fall reicht das rechnerisch für 2–3 Fälle. Alles darüber wird monatlich nachberechnet, die KI läuft standardmäßig weiter.
+- **KI-Kosten schwer planbar:** Inklusive ist seit Mai 2026 nur noch ein Guthaben von 5 USD je Professional-Agent und Monat, früher waren es 10 gelöste Fälle. Bei 1,50 bis 2,00 € je Fall reicht das rechnerisch für 2 bis 3 Fälle. Alles darüber wird monatlich nachberechnet, die KI läuft standardmäßig weiter.
 - **Umbau im laufenden Betrieb:** KI-Agenten werden in einer eigenen Oberfläche verwaltet, der Rest im Admin Center. Ältere Bots stellt Zendesk bis Februar 2027 zwangsweise um. Das Live-Reporting wird am 25.01.2027 abgeschaltet, der Nachfolger ist noch nicht fertig.
 - **E-Mail-Antworten wenig steuerbar:** Laut Doku lassen sich Anrede und Aufbau der Antwortmail nur begrenzt festlegen. Zitate und Signaturen der Kundenmail werden entfernt.
 - **Vieles erst im Early Access:** eigene KI-Agenten für Hintergrundaufgaben, Abläufe mit Code, Gesprächssimulator, eigener MCP-Server.
@@ -120,6 +122,16 @@ Testkonto Zendesk Suite Professional (Rechenzentrum Frankfurt). Alles im Admin d
 
 Zendesk ist das breitere Produkt und beim Einstieg günstiger. Gewinnen können wir, wenn viele Mails mehrere Anliegen haben, wenn die Daten bei einem deutschen Anbieter liegen sollen und wenn es um Energie-Vorgänge geht. Kundenerkennung, Schnittstellen und mehrere Postfächer sind bei uns schneller eingerichtet, aber Zendesk kann sie auch. Damit allein gewinnen wir nicht.
 
+## Direktlinks
+
+- [Doku](https://support.zendesk.com/hc/en-us)
+- [API](https://developer.zendesk.com/api-reference/)
+- [Community](https://community.zendesk.com/)
+- [Trust Center](https://www.zendesk.com/trust-center/)
+- [Preise](https://www.zendesk.de/pricing/)
+- [Release Notes](https://support.zendesk.com/hc/en-us/sections/4405298847002-Release-notes)
+- [Status](https://status.zendesk.com/)
+
 ## Quellen
 
 - [Preise](https://www.zendesk.de/pricing/)
@@ -132,6 +144,13 @@ Zendesk ist das breitere Produkt und beim Einstieg günstiger. Gewinnen können 
 - [Aktionen](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows)
 - [Voice-KI](https://support.zendesk.com/hc/en-us/articles/11183058023450-Announcing-the-general-availability-of-voice-AI-agents)
 - [Umstellung](https://support.zendesk.com/hc/en-us/articles/10904648529690-Announcing-the-removal-of-AI-agents-Essential-and-legacy-functionality-Important-dates-and-migration-guidance)
-- [Live-Reporting Ende](https://support.zendesk.com/hc/en-us/articles/10860286407962-Announcing-end-of-life-for-live-reporting-in-Zendesk-Explore)
+- [Live-Reporting Ende](https://support.zendesk.com/hc/en-us/articles/10860286407962-Announcing-the-removal-of-live-reporting-in-Zendesk-Explore)
 - [Relate 2026](https://www.zendesk.com/newsroom/press-releases/relate-2026/)
+- [Über Zendesk](https://www.zendesk.com/company/)
+- [Gründung in Kopenhagen](https://www.zendesk.com/blog/guides-and-ebooks/customer-service-startup/)
+- [Übernahme Ultimate](https://www.zendesk.com/newsroom/press-releases/ultimate-acquisition24/)
+- [Trust Center](https://www.zendesk.com/trust-center/)
+- [Subunternehmer](https://support.zendesk.com/hc/en-us/articles/4408883061530-Sub-processor-Policy)
+- [Rechenzentrum](https://support.zendesk.com/hc/en-us/articles/4408838409754-About-the-Data-Center-Location-add-on)
+- [Abläufe per Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

@@ -4,7 +4,7 @@ slug: "octonomy"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.octonomy.ai"
 kurz: "KI-Agenten aus Köln für technischen Support und Kundenservice"
@@ -14,7 +14,9 @@ kurz: "KI-Agenten aus Köln für technischen Support und Kundenservice"
 
 | | | |
 |---|---|---|
-| Firma | **Köln, rund 120 MA** | octonomy AI GmbH, gegründet Sommer 2024, HRB 119283 Köln. Seed-Runde 11/2025 über 20 Mio. USD, Lead Macquarie Capital, dazu Capnamic, NRW.Bank, TechVision Fonds, insgesamt rund 25 Mio. USD. Büros auch in Denver und New York |
+| Firma | **Köln, rund 120 MA** | octonomy AI GmbH, HRB 119283 Köln. Seed-Runde 11/2025 über 20 Mio. USD, Lead Macquarie Capital, dazu Capnamic, NRW.Bank, TechVision Fonds, insgesamt rund 25 Mio. USD. Büros auch in Denver und New York |
+| Gegründet | **Sommer 2024** | In Köln von Sushel Bijganath und Oliver Trabert mit Thorsten Grote, Markus Hanslik und Thomas Bollig, die laut octonomy zuvor schon Tech-Unternehmen aufgebaut haben |
+| Ursprung | **von Anfang an KI** | Gestartet als KI-Expertensystem für technischen Support und Field Service, Pre-Seed über 5 Mio. USD, Seed-Runde fünf Monate nach Markteintritt |
 | Preise | **nicht öffentlich** | Keine Preisseite, keine Testversion, nur Demo auf Anfrage |
 | Hosting | **AWS Frankfurt** | Optional AWS European Sovereign Cloud (Brandenburg), für US-Kunden Hosting in den USA. Sprachmodelle von Anthropic, Google und OpenAI als Unterauftragnehmer, Verarbeitung laut Trust Center in der EU, Übermittlungen über Standardvertragsklauseln |
 | Zertifikat | **ISO 27001, SOC 2** | Laut Trust Center ISO 27001:2022, ISO 27701, ISO 9001, SOC 2 Typ II, dazu TISAX und AWS Foundational Technical Review gelistet. BSI C5 nicht gefunden |
@@ -37,13 +39,13 @@ octonomy ist ein junges, gut finanziertes Kölner Start-up, das sich als „KI-E
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Eigener Arbeitsplatz statt Aufsatz** | Kein zweites System lizenzieren, anbinden und pflegen, eine Ansprechstelle für Servicecenter und KI | „Bei uns sind Postfach, Arbeitsplatz, Telefon und KI ein System, Sie brauchen kein Ticketsystem daneben.“ |
+| **Postfach, Arbeitsplatz, Telefon und KI in einem System** | Ein Vertrag und ein System für Servicecenter und KI, eine Ansprechstelle | „Bei uns sind Postfach, Arbeitsplatz, Telefon und KI ein System, Sie brauchen kein Ticketsystem daneben.“ |
 | **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Brief im selben System** | Papierpost läuft durch dieselbe Automatisierung, keine eigene Strecke für Scans | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
-| **EU-Modelle und Betrieb beim Kunden möglich** | Datenschutz und Betriebsrat können strengere Vorgaben stellen, ohne dass das Projekt kippt | „Wenn Ihr Datenschutz EU-Modelle oder Betrieb im eigenen Rechenzentrum verlangt, geht das bei uns.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Kunden bekommen eine vollständige Antwort, weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Briefe mit derselben KI wie Mails** | Auch Papierpost läuft automatisch, ohne eigene Strecke für Scans | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
+| **EU-Modelle und Betrieb beim Kunden möglich** | Strengere Vorgaben von Datenschutz und Betriebsrat lassen sich erfüllen, das Projekt bleibt auf Kurs | „Wenn Ihr Datenschutz EU-Modelle oder Betrieb im eigenen Rechenzentrum verlangt, geht das bei uns.“ |
 
 ## Wo octonomy vorn liegt
 
@@ -55,20 +57,20 @@ octonomy ist ein junges, gut finanziertes Kölner Start-up, das sich als „KI-E
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | octonomy | Einordnung |
-|---|---|---|---|
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Postfach und Skill-Routing | Arbeitet im vorhandenen Ticketsystem (Zendesk, Dixa, SAP C4C), eigener Arbeitsplatz nicht gefunden | enneo vorn |
-| **E-Mail-KI bis zur Aktion** | Eingang, Kunde erkennen, Aktion im Zielsystem, Antwort, auch vollautomatisch | OpsAgent liest Tickets, prüft Systeme, antwortet oder übergibt mit Kontext | gleich |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, eine Antwort, auch vollautomatisch | Nicht gefunden | enneo vorn |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Prüft Dokumente als PDF, Text oder Bild | gleich |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Energie-Referenz nur Windpark-Außendienst | enneo klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Chat, E-Mail, Telefon, Ticketsysteme, Brief nicht gefunden | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Voice-Agent mit eigener Rufnummer im Einsatz, Anbindung an SIP und Callcenter-Software, Sprachdienste nicht öffentlich | je nach Fall |
-| **Hosting** | Hetzner, Rechenzentren in Deutschland | AWS Frankfurt, optional AWS Sovereign Cloud | je nach Fall |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Anthropic, Google, OpenAI, Verarbeitung in der EU | je nach Fall |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | ISO 27001, ISO 27701, ISO 9001, SOC 2 Typ II, TISAX | octonomy klar vorn |
-| **Preise** | Paketpreise je Ticket und Sprachminute | Nicht öffentlich | je nach Fall |
+| Bereich | Thema | enneo | octonomy | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Chat, E-Mail, Telefon, Ticketsysteme, Brief nicht gefunden [Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/) [Plattform](https://www.octonomy.ai/plattform/) | enneo vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Voice-Agent mit eigener Rufnummer im Einsatz, Anbindung an SIP und Callcenter-Software, Sprachdienste nicht öffentlich [celebrate](https://www.octonomy.ai/kunde/celebrate/) [Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/) | je nach Fall |
+| KI & Automatisierung | **E-Mail-KI bis zur Aktion** | Eingang, Kunde erkennen, Aktion im Zielsystem, Antwort, auch vollautomatisch | OpsAgent liest Tickets, prüft Systeme, antwortet oder übergibt mit Kontext [ANWR](https://www.octonomy.ai/kunde/anwr/) | gleich |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, eine Antwort, auch vollautomatisch | Nicht gefunden [Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Prüft Dokumente als PDF, Text oder Bild [Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/) | gleich |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Energie-Referenz nur Windpark-Außendienst [Prokon](https://www.octonomy.ai/kunde/prokon/) [Erneuerbare](https://www.octonomy.ai/industrien/erneuerbare-energien/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Postfach und Skill-Routing | Arbeitet im vorhandenen Ticketsystem (Zendesk, Dixa, SAP C4C), eigener Arbeitsplatz nicht gefunden [Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/) [celebrate](https://www.octonomy.ai/kunde/celebrate/) [ANWR](https://www.octonomy.ai/kunde/anwr/) | enneo vorn |
+| Daten & Sicherheit | **Hosting** | Hetzner, Rechenzentren in Deutschland | AWS Frankfurt, optional AWS Sovereign Cloud [Datensouveränität](https://www.octonomy.ai/data-souveraenitaet/) | je nach Fall |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden, beide Optionen laufen in der AWS-Cloud [Datensouveränität](https://www.octonomy.ai/data-souveraenitaet/) | enneo vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Anthropic, Google, OpenAI, Verarbeitung in der EU [Trust Center](https://trust.octonomy.ai/) | je nach Fall |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | ISO 27001, ISO 27701, ISO 9001, SOC 2 Typ II, TISAX [Trust Center](https://trust.octonomy.ai/) | octonomy klar vorn |
+| Preis & Vertrag | **Preise** | Paketpreise je Ticket und Sprachminute | Nicht öffentlich, keine Preisseite [Startseite](https://www.octonomy.ai/) | je nach Fall |
 
 ## Wo octonomy schwächer ist
 
@@ -99,6 +101,11 @@ octonomy ist ein junges, gut finanziertes Kölner Start-up, das sich als „KI-E
 
 Gegen octonomy gewinnen wir, wo ein Kunde das ganze Servicecenter erneuern will und viel Schriftverkehr bis zur Buchung im Zielsystem automatisieren muss, besonders bei Energieversorgern. octonomy gewinnt bei Zertifikaten, bei technischer Dokumentation mit Zeichnungen und im Außendienst, gerade mit SAP. Wo octonomy schon für Wissen getestet wird, ist unser Hebel der Schritt danach: Mails mit mehreren Anliegen, Briefe und Telefonie in einem System.
 
+## Direktlinks
+
+- [Trust Center](https://trust.octonomy.ai/)
+- [Status](https://status.octonomy.ai/)
+
 ## Quellen
 
 - [Startseite](https://www.octonomy.ai/)
@@ -106,6 +113,7 @@ Gegen octonomy gewinnen wir, wo ein Kunde das ganze Servicecenter erneuern will 
 - [KI im Kundenservice](https://www.octonomy.ai/solutions/ki-customer-service/)
 - [Datensouveränität](https://www.octonomy.ai/data-souveraenitaet/)
 - [Trust Center](https://trust.octonomy.ai/)
+- [Statusseite](https://status.octonomy.ai/)
 - [Impressum](https://www.octonomy.ai/impressum/)
 - [Über octonomy](https://www.octonomy.ai/ueber-octonomy/)
 - [Kunden](https://www.octonomy.ai/kunden/)

@@ -4,7 +4,7 @@ slug: "hsag"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.hsag-ai-suite.de"
 kurz: "KI-Agenten für Chat, Telefon und Mail, nur für Energieversorger"
@@ -14,7 +14,9 @@ kurz: "KI-Agenten für Chat, Telefon und Mail, nur für Energieversorger"
 
 | | | |
 |---|---|---|
-| Firma | **Heidelberg, 620+ MA** | hsag Heidelberger Services AG, gegründet 2005, seit 2008 auf Energiewirtschaft spezialisiert, zehn Standorte, Dienstleister für Sachbearbeitung, Beratung und BPO |
+| Firma | **Heidelberg, 700+ MA** | hsag Heidelberger Services AG, acht Standorte in Deutschland, Dienstleister für Sachbearbeitung, Beratung und BPO |
+| Gegründet | **2005** | Von Stefan E. Renkert in Heidelberg gegründet, als Dienstleister für branchenneutrale kaufmännische Tätigkeiten |
+| Ursprung | **Dienstleister, Chatbot seit 2017** | Seit 2008 auf Energiewirtschaft ausgerichtet, 2017 Einstieg ins BPO und Beginn der Chatbot-Entwicklung, 2019 eigener Softwarebereich für Tarifrechner, Chatbot und RPA |
 | Preise | **nicht öffentlich** | Angebot je Kunde, Software as a Service, auch über den rku.it NextGen Market und den SAP Store |
 | Hosting | **nicht öffentlich** | Website und Datenschutzerklärung nennen weder Ort noch Betreiber. Der Voicebot nutzte laut ZfK 2024 OpenAI |
 | Zertifikat | **ISO 27001:2022** | laut hsag durch TÜO, Geltungsbereich nicht genannt. Dazu ISO 9001, ISO 14001, IDW PS 951 für BPO-Prozesse |
@@ -25,7 +27,7 @@ kurz: "KI-Agenten für Chat, Telefon und Mail, nur für Energieversorger"
 
 ## Das Wichtigste vorweg
 
-hsag ist zuerst ein Dienstleister für Energieversorger: Sachbearbeitung, Abrechnung, Beratung und Outsourcing mit über 620 Mitarbeitenden. Die KI kommt vom Chatbot Isa, den hsag seit Jahren an Stadtwerke verkauft. Daraus ist die AI Suite mit vier Modulen geworden: izy für Telefon, isa für Chat, mail-in für E-Mail und enna als Assistent für Sachbearbeiter. Zu Hosting, Sprachmodellen, mehreren Anliegen, Anhängen und dem Arbeitsplatz der Mitarbeitenden steht öffentlich fast nichts, und genau dort setzen wir an.
+hsag ist zuerst ein Dienstleister für Energieversorger: Sachbearbeitung, Abrechnung, Beratung und Outsourcing mit über 700 Mitarbeitenden. Die KI kommt vom Chatbot Isa, den hsag seit Jahren an Stadtwerke verkauft. Daraus ist die AI Suite mit vier Modulen geworden: izy für Telefon, isa für Chat, mail-in für E-Mail und enna als Assistent für Sachbearbeiter. Zu Hosting, Sprachmodellen, mehreren Anliegen, Anhängen und dem Arbeitsplatz der Mitarbeitenden steht öffentlich fast nichts, und genau dort setzen wir an.
 
 ## Unsere Verkaufsargumente
 
@@ -36,17 +38,17 @@ hsag ist zuerst ein Dienstleister für Energieversorger: Sachbearbeitung, Abrech
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Arbeitsplatz im selben System** | Kein zweites System für die Fälle, die die KI nicht abschließt, weniger Abstimmung zwischen Anbietern | „Was die KI nicht abschließt, landet bei uns im selben System beim passenden Mitarbeitenden.“ |
-| **Speicherort und Unterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil Ort, AVV und Subunternehmer vorab vorliegen | „Bei uns liegen die Daten bei Hetzner in Deutschland, und AVV, TOM und Subunternehmer können Sie heute schon lesen.“ |
-| **Begründung der KI sichtbar** | Fehler schnell nachvollziehen und gezielt nachsteuern, Vorschau ohne Buchung vor dem Livegang | „Zu jedem Fall sehen Sie bei uns den Lösungsplan und die erkannten Werte, auf Wunsch erst als Vorschau.“ |
+| **Mehrere Anliegen in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, ohne Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen werden automatisch erfasst, niemand tippt sie ab | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **KI und Team in einem System** | Offene Fälle landen direkt beim passenden Mitarbeitenden, ein System und ein Anbieter für alles | „Was die KI nicht abschließt, landet bei uns im selben System beim passenden Mitarbeitenden.“ |
+| **Speicherung in Deutschland, Unterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil Ort, AVV und Subunternehmer vorab vorliegen | „Bei uns liegen die Daten bei Hetzner in Deutschland, und AVV, TOM und Subunternehmer können Sie heute schon lesen.“ |
+| **Lösungsplan zu jedem Fall** | Fehler schnell nachvollziehen und gezielt nachsteuern, Vorschau ohne Buchung vor dem Livegang | „Zu jedem Fall sehen Sie bei uns den Lösungsplan und die erkannten Werte, auf Wunsch erst als Vorschau.“ |
 
 ## Wo HSAG AI Suite vorn liegt
 
-- **Menschen dazu:** hsag übernimmt mit über 620 Mitarbeitenden auch Kundenservice, Abrechnung und Forderungsmanagement im Outsourcing. Ein Versorger kann KI und Sachbearbeitung aus einer Hand einkaufen. Das bieten wir nicht.
+- **Menschen dazu:** hsag übernimmt mit über 700 Mitarbeitenden auch Kundenservice, Abrechnung und Forderungsmanagement im Outsourcing. Ein Versorger kann KI und Sachbearbeitung aus einer Hand einkaufen. Das bieten wir nicht.
 - **Zugang zu Stadtwerken:** Isa ist im SAP Store gelistet, die AI Suite seit Juli 2026 im NextGen Market von rku.it (über 130 Kunden). Dazu Kooperationen mit Kraftwerk, powercloud und Partnern bei der Thüga-Abrechnungsplattform.
 - **Fertige Branchen-Inhalte:** Laut ZfK kannte Isa schon 2021 rund 280 typische Anliegen von Versorgern. hsag nennt Anbindungen an SAP, MBS, SIV, powercloud und Schleupen und den Abschluss von Tarifen im Chat.
 - **Zertifikate:** ISO 27001:2022, ISO 9001, ISO 14001 und IDW PS 951. Wir haben keine eigenen, ISO 27001 und SOC 2 sind in Prüfung.
@@ -54,20 +56,20 @@ hsag ist zuerst ein Dienstleister für Energieversorger: Sachbearbeitung, Abrech
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | HSAG AI Suite | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im ERP buchen, antworten, auch vollautomatisch | mail-in: klassifizieren, routen, Fachdaten auslesen, Routinefälle selbstständig, 80 bis 90 % angegeben. Details nicht öffentlich | je nach Fall |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht gefunden | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach und Skill-Routing im selben System | Nicht dokumentiert, Chat-Übergabe 2021 über iAdvize, Assistent enna für Sachbearbeiter | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Umzug, Tarifabschluss im Chat, Anbindung an SAP, MBS, SIV, powercloud, Schleupen genannt | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | enna: Wissen in Echtzeit, Zusammenfassung, nächste Schritte | gleich |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | izy, 2024 laut ZfK auf OpenAI, Telefonie über comdialog | gleich |
-| **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland, beim Kunden möglich | Nicht öffentlich | enneo vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich, nur Aussage „DSGVO-konform“ | enneo vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung, Hetzner ISO 27001 | ISO 27001:2022, ISO 9001, ISO 14001, IDW PS 951 | HSAG AI Suite klar vorn |
-| **Vertriebswege zu Stadtwerken** | API und MCP, kleineres Ökosystem an fertigen Konnektoren | SAP Store, rku.it NextGen Market, Kraftwerk, powercloud | HSAG AI Suite vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Nicht öffentlich, Angebot je Kunde | je nach Fall |
+| Bereich | Thema | enneo | HSAG AI Suite | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | izy, laut ZfK 2024 auf Basis von OpenAI, Sprachfunktion mit Partner comdialog entwickelt [Produktseite](https://www.hsag-ai-suite.de) [ZfK 2024](https://www.zfk.de/digitalisierung/chatbot-isa-spricht-nun-auch) | gleich |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im ERP buchen, antworten, auch vollautomatisch | mail-in: klassifizieren, routen, Fachdaten auslesen, Routinefälle selbstständig, 80 bis 90 % angegeben, Antwortvorschläge für komplexere Anliegen. Details nicht öffentlich [Produktseite](https://www.hsag-ai-suite.de) | je nach Fall |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht gefunden [Produktseite](https://www.hsag-ai-suite.de) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden [Produktseite](https://www.hsag-ai-suite.de) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Umzug, Tarifabschluss im Chat, Anbindung an SAP, MBS, SIV, powercloud, Schleupen genannt [SAP Store](https://www.hsag.info/unser-chatbot-isa-jetzt-im-sap-store-erhaeltlich/) [BPO](https://www.hsag.info/bpo/) [ZfK 2024](https://www.zfk.de/digitalisierung/chatbot-isa-spricht-nun-auch) | gleich |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | enna: Wissen in Echtzeit, Zusammenfassung, nächste Schritte [Produktseite](https://www.hsag-ai-suite.de) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach und Skill-Routing im selben System | Nicht dokumentiert, Chat-Übergabe 2021 über iAdvize, Assistent enna für Sachbearbeiter [Produktseite](https://www.hsag-ai-suite.de) [ZfK 2021](https://www.zfk.de/digitalisierung/smart-city-energy/chatbot-isa-wird-noch-intelligenter) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland, beim Kunden möglich | Nicht öffentlich [Produktseite](https://www.hsag-ai-suite.de) [Datenschutz](https://www.hsag-ai-suite.de/datenschutzerklrung) | enneo vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich, nur Aussage „DSGVO-konform“ [Produktseite](https://www.hsag-ai-suite.de) [Datenschutz](https://www.hsag-ai-suite.de/datenschutzerklrung) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung, Hetzner ISO 27001 | ISO 27001:2022, ISO 9001, ISO 14001, IDW PS 951 [ISO 27001](https://www.hsag.info/sicher-ist-sicher-warum-die-iso-270012022-fuer-die-hsag-und-unsere-kunden-ein-meilenstein-ist/) [Faktenblatt](https://www.hsag.info/faktenblatt/) | HSAG AI Suite klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Nicht öffentlich, Angebot je Kunde, Software as a Service [Produktseite](https://www.hsag-ai-suite.de) [rku.it 2026](https://rku-it.de/fileadmin/user_upload/rku.it_PM_hsag_NextGenMarket.pdf) | je nach Fall |
+| Firma & Referenzen | **Vertriebswege zu Stadtwerken** | API und MCP, kleineres Ökosystem an fertigen Konnektoren | SAP Store, rku.it NextGen Market, Kraftwerk, powercloud [SAP Store](https://www.hsag.info/unser-chatbot-isa-jetzt-im-sap-store-erhaeltlich/) [rku.it 2026](https://rku-it.de/fileadmin/user_upload/rku.it_PM_hsag_NextGenMarket.pdf) [Kraftwerk](https://www.zfk.de/digitalisierung/hsag-und-kraftwerk-koopierieren-eng-miteinander) [powercloud](https://www.zfk.de/digitalisierung/hsag-wird-reseller-von-powercloud) | HSAG AI Suite vorn |
 
 ## Wo HSAG AI Suite schwächer ist
 
@@ -101,6 +103,7 @@ Gegen hsag gewinnen wir nicht über Branchennähe, Zertifikate oder das Angebot,
 
 ## Quellen
 
+- [Karriereseite](https://karriere.hsag.info)
 - [hsag AI Suite](https://www.hsag-ai-suite.de)
 - [Impressum AI Suite](https://www.hsag-ai-suite.de/impressum)
 - [Datenschutzerklärung AI Suite](https://www.hsag-ai-suite.de/datenschutzerklrung)
@@ -120,3 +123,4 @@ Gegen hsag gewinnen wir nicht über Branchennähe, Zertifikate oder das Angebot,
 - [ZfK: hsag und Kraftwerk](https://www.zfk.de/digitalisierung/hsag-und-kraftwerk-koopierieren-eng-miteinander)
 - [ZfK: hsag und powercloud](https://www.zfk.de/digitalisierung/hsag-wird-reseller-von-powercloud)
 - [KI-Syndikat Toolbewertung](https://www.ki-syndikat.de/tools/stadtwerk-bot/)
+- [TAP-Whitepaper hsag](https://hsag.info/wp-content/uploads/2025/11/TAP_whitepaper-hsag.pdf)

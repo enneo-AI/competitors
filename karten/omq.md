@@ -4,7 +4,7 @@ slug: "omq"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://omq.ai"
 kurz: "Berliner Self-Service-KI: Hilfeseite, Chatbot, E-Mail-Bot, seit 2026 Voicebot"
@@ -15,6 +15,8 @@ kurz: "Berliner Self-Service-KI: Hilfeseite, Chatbot, E-Mail-Bot, seit 2026 Voic
 | | | |
 |---|---|---|
 | Firma | **Berlin, seit 2012** | OMQ GmbH, Mitarbeiterzahl nicht öffentlich, laut eigener Seite über 250 Kunden, Forschung mit DFKI und Humboldt-Universität |
+| Gegründet | **2012** | In Berlin, Gründer auf der Website nicht genannt. Geschäftsführer laut Impressum Matthias Meisdrock |
+| Ursprung | **von Anfang an KI** | Seit der Gründung mit dem Ziel, Serviceanfragen automatisch zu beantworten. Früh Forschung mit dem DFKI und im EU-Programm FP7, erste Kunden u. a. Deutsche Bahn und MAGIX |
 | Preise | **160 bis 3.000 €/Monat** | Starter, Essential, Business, Corporate öffentlich (bei Jahresvertrag 150 bis 2.800 €), Flex auf Anfrage. E-Mail-Bot erst ab Business, dazu einmalige Integrationskosten |
 | Hosting | **AWS Frankfurt, Azure EU** | Laut AVV: AWS Frankfurt, Microsoft Azure Europa, Lime Connect Deutschland. Chatbot laut Seite auf „ChatGPT engine (OpenAI technology)“ |
 | Zertifikat | **nicht gefunden** | Kein ISO 27001, SOC 2 oder BSI C5 auf der Website genannt, nur „DSGVO- und AI-Act-konform“ |
@@ -36,14 +38,14 @@ OMQ kommt aus dem Self-Service: Hilfeseite, Kontaktformular und Chatbot, die Fra
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Buchung im Zielsystem per E-Mail** | Mails werden erledigt, nicht nur beantwortet, weniger Nacharbeit für Sachbearbeitung | „Bei uns ändert die KI den Abschlag im System und bestätigt das in der Antwort.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Mails bis zur Buchung im Zielsystem** | Mails sind erledigt, nicht nur beantwortet, weniger Nacharbeit in der Sachbearbeitung | „Bei uns ändert die KI den Abschlag im System und bestätigt das in der Antwort.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Kunden bekommen eine vollständige Antwort, weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
 | **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Eigener Arbeitsplatz im Produkt** | Kein zweites Ticketsystem lizenzieren und pflegen, eine Ansprechstelle | „Was die KI nicht abschließt, landet bei uns im selben System bei Ihren Mitarbeitenden.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **TOM und SLA öffentlich** | Datenschutzprüfung ohne Nachforderungen | „Neben dem AVV sind bei uns auch TOM, Subunternehmer und SLA öffentlich einsehbar.“ |
+| **Arbeitsplatz im selben Produkt** | Ein System und ein Vertrag für KI und Team, eine Ansprechstelle | „Was die KI nicht abschließt, landet bei uns im selben System bei Ihren Mitarbeitenden.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **AVV, TOM, Subunternehmer und SLA öffentlich** | Datenschutzprüfung ohne Nachforderungen | „Neben dem AVV sind bei uns auch TOM, Subunternehmer und SLA öffentlich einsehbar.“ |
 
 ## Wo OMQ vorn liegt
 
@@ -55,20 +57,20 @@ OMQ kommt aus dem Self-Service: Hilfeseite, Kontaktformular und Chatbot, die Fra
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | OMQ | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eingang, Kunde erkennen, Buchung im Zielsystem, Antwort, auch vollautomatisch | Antwort aus der Wissensdatenbank, automatisch oder als Entwurf. Buchung im Zielsystem per Mail nicht dokumentiert | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert | enneo vorn |
-| **Aktionen in Fremdsystemen** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | AI Agent per API (Adresse, Abo, Bestellstatus), seit 08/2026 auch MCP | je nach Fall |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Skill-Routing im selben Produkt | Kein eigenes, Plugin in Zendesk, Freshdesk, Salesforce, OTRS, Zammad | enneo klar vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Auskunft zu Zählerstand und Abschlag per Chatbot und Hilfeseite | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, Übergabe im selben System | Seit 08/2026, über sipgate, Antworten aus Wissen, Weiterleitung an Durchwahl, Rückrufwunsch per Mail | enneo vorn |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Antwortentwurf als Plugin im Ticketsystem | enneo vorn |
-| **Hilfecenter und Kontaktformular** | Kein Hilfecenter für Endkunden | Hilfeseite, intelligentes Kontaktformular, Chatbot mit Widget für Web und Apps | OMQ klar vorn |
-| **Hosting und Modelle** | Hetzner Deutschland, EU-Modelle im AVV möglich | AWS Frankfurt, Azure Europa, Chatbot auf OpenAI-Technik, Anonymisierung vor Speicherung | gleich |
-| **Datenschutzunterlagen** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV mit Subunternehmern öffentlich, TOM nur auf Übergabe (Stand 03/2023), SLA nicht gefunden | enneo vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Öffentliche Monatspakete mit Anfragekontingent, E-Mail-Bot ab Business plus Integrationskosten | je nach Fall |
+| Bereich | Thema | enneo | OMQ | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, Übergabe im selben System | Seit 08/2026, über sipgate, Antworten aus Wissen, Weiterleitung an Durchwahl, Rückrufwunsch per Mail [Voicebot](https://omq.ai/products/voice-bot/) [Release 10.5](https://omq.ai/blog/version-montevideo/) | enneo vorn |
+| Kanäle | **Hilfecenter und Kontaktformular** | Kein Hilfecenter für Endkunden | Hilfeseite, intelligentes Kontaktformular, Chatbot mit Widget für Web und Apps [Preise](https://omq.ai/pricing/) [Release 10.5](https://omq.ai/blog/version-montevideo/) | OMQ klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eingang, Kunde erkennen, Buchung im Zielsystem, Antwort, auch vollautomatisch | Antwort aus der Wissensdatenbank, automatisch oder als Entwurf. Buchung im Zielsystem per Mail nicht dokumentiert [E-Mail-Bot](https://omq.ai/products/reply/) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [E-Mail-Bot](https://omq.ai/products/reply/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert [E-Mail-Bot](https://omq.ai/products/reply/) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Auskunft zu Zählerstand und Abschlag per Chatbot und Hilfeseite [Energie](https://omq.ai/de/branchen/energie/) | enneo vorn |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Antwortentwurf als Plugin im Ticketsystem [Assist](https://omq.ai/products/assist/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Skill-Routing im selben Produkt | Kein eigenes, Plugin in Zendesk, Freshdesk, Salesforce, OTRS, Zammad [Integrationen](https://omq.ai/integrations/) [E-Mail-Bot](https://omq.ai/products/reply/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Aktionen in Fremdsystemen** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | AI Agent per API (Adresse, Abo, Bestellstatus), seit 08/2026 auch MCP [AI Agent](https://omq.ai/products/ai-agent/) [Release 10.5](https://omq.ai/blog/version-montevideo/) | je nach Fall |
+| Daten & Sicherheit | **Hosting und Modelle** | Hetzner Deutschland, EU-Modelle im AVV möglich | AWS Frankfurt, Azure Europa, Chatbot auf OpenAI-Technik, Anonymisierung vor Speicherung [AVV](https://omq.ai/de/unternehmen/OMQ_AnlageB_AVV_ausf%C3%BCllbar.pdf) [Chatbot](https://omq.ai/products/chatbot/) [Release 10.5](https://omq.ai/blog/version-montevideo/) | gleich |
+| Daten & Sicherheit | **Datenschutzunterlagen** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV mit Subunternehmern öffentlich, TOM nur auf Übergabe (Stand 03/2023), SLA nicht gefunden [AVV](https://omq.ai/de/unternehmen/OMQ_AnlageB_AVV_ausf%C3%BCllbar.pdf) | enneo vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Öffentliche Monatspakete mit Anfragekontingent, E-Mail-Bot ab Business plus Integrationskosten [Preise](https://omq.ai/pricing/) | je nach Fall |
 
 ## Wo OMQ schwächer ist
 
@@ -97,6 +99,11 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen OMQ gewinnen wir nicht im Self-Service auf der Website, beim offenen Preis oder bei der Zahl der Sprachen. Gewinnen können wir, wo Schriftverkehr wirklich erledigt werden soll: mehrere Anliegen, Anhänge, Buchung im Zielsystem und ein eigener Arbeitsplatz im selben Produkt. Wo OMQ schon als Chatbot läuft, ist enneo für E-Mail daneben oft der leichtere Einstieg als ein Wechsel.
 
+## Direktlinks
+
+- [Preise](https://omq.ai/pricing/)
+- [Release Notes](https://omq.ai/blog/news/)
+
 ## Quellen
 
 - [Startseite](https://omq.ai)
@@ -116,6 +123,7 @@ Gegen OMQ gewinnen wir nicht im Self-Service auf der Website, beim offenen Preis
 - [Case Study myphotobook](https://omq.ai/customers/case-studies/deutsche-online-medien/)
 - [Release Montevideo 10.5](https://omq.ai/blog/version-montevideo/)
 - [Blog](https://omq.ai/blog/)
+- [Blog News mit Release-Beiträgen](https://omq.ai/blog/news/)
 - [Datenschutz und Datensicherheit](https://omq.ai/company/data-security/)
 - [AVV (PDF)](https://omq.ai/de/unternehmen/OMQ_AnlageB_AVV_ausf%C3%BCllbar.pdf)
 - [Presse](https://omq.ai/company/press/)

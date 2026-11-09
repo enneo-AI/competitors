@@ -1,6 +1,6 @@
 ---
 slug: "melibo"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI agents for chat and tickets, focus on e-commerce"
 ---
 
@@ -8,7 +8,9 @@ kurz: "AI agents for chat and tickets, focus on e-commerce"
 
 | | | |
 |---|---|---|
-| Firma | **Bensheim, 150+ customers** | ThinkingTech GmbH, HRB 106888 Darmstadt, managing directors Felix and Leon Stelzer. Roots in 2019 as "deinChatbot", melibo platform since February 2022, office in Frankfurt. Headcount and investors not disclosed |
+| Firma | **Bensheim, 150+ customers** | ThinkingTech GmbH, HRB 106888 Darmstadt, managing directors Felix and Leon Stelzer, office in Frankfurt. Headcount and investors not disclosed |
+| Gegründet | **2019 as deinChatbot** | The brothers Felix and Leon Stelzer started in Bensheim in 2019 with "deinChatbot", a brand of the family business MakeIT. melibo platform publicly available since February 2022 |
+| Ursprung | **Chatbot projects since 2019** | First chatbots as project business for clients, from 2021 the idea of its own platform, since 2022 melibo as a self-service platform, today AI agents for chat and tickets |
 | Preise | **not public** | Fixed monthly amount plus one-time setup fee, package by features, price on request only. No billing per chat |
 | Hosting | **Frankfurt, OpenAI models** | Servers and data in Frankfurt am Main, operator not named. Language models from OpenAI (GPT-4 named), EU models not mentioned |
 | Referenzen | **E-commerce, sports clubs** | Fahrrad XXL, momox, Deuba, babyartikel.de, tesa, FC Augsburg, VfL Wolfsburg, FITSEVENELEVEN. Energy or insurance not found. No certification of its own mentioned |
@@ -31,14 +33,14 @@ melibo comes from the website chatbot and is expanding it into a platform for cu
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
 | **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer puts meter reading, IBAN and installment in one email, they get one reply from us." |
-| **Reading attachments and photos** | Nobody has to type up meter photos and PDF attachments | "Our AI simply reads the meter photo in the attachment too." |
-| **Identifying and verifying the customer** | Emails with contract changes also run automatically, not just simple information requests | "With us, the AI first checks who is writing and then posts in the ERP." |
-| **Phone and voicebot included** | No second provider for the hotline, one contract, one point of contact | "Email, letter, chat and phone all run in one system with us, voicebot included." |
-| **Ready-made processes for utilities** | Productive faster for meter reading, installment and bank details, only the ERP connection needs to be built | "We bring the most important utility processes ready-made, with plausibility checks." |
-| **Data protection documents public, EU models possible** | Privacy review without follow-up requests and waiting time | "Your data protection team can read our DPA, TOMs, subprocessors and SLA today." |
+| **Reading attachments and photos** | Nobody has to type up meter photos and PDF attachments anymore | "Our AI simply reads the meter photo in the attachment too." |
+| **Identifying and verifying the customer** | Emails with contract changes also run automatically all the way to posting, not just simple information requests | "With us, the AI first checks who is writing and then posts in the ERP." |
+| **Phone and voicebot in the same system** | One contract and one point of contact for email, letter, chat and hotline | "Email, letter, chat and phone all run in one system with us, voicebot included." |
+| **Ready-made specialist agents for utilities** | Meter reading, installment and bank details productive faster, only the ERP connection needs to be built | "We bring the most important utility processes ready-made, with plausibility checks." |
+| **Public data protection documents, EU models possible** | Privacy review without follow-up requests and waiting time | "Your data protection team can read our DPA, TOMs, subprocessors and SLA today." |
 
 ## Wo melibo vorn liegt
 
@@ -50,20 +52,20 @@ melibo comes from the website chatbot and is expanding it into a platform for cu
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | melibo | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | Request, customer, verification, posting in the target system, reply, fully automated if desired | Classification, routing, suggestions, fully automated for clearly defined recurring cases with actions in the shop or ERP | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | One topic per request, multiple requests not documented | enneo vorn |
-| **Attachments and photos** | PDFs and photos, e.g. meter photo | Analysis of attachments not documented | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Own inbox since 2026 with live chat, macros, SLA, or integration into Zendesk, Freshdesk and others | je nach Fall |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Website chat, contact form, email and tickets, WhatsApp via ChatWerk, MS Teams | enneo vorn |
-| **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Not found | enneo klar vorn |
-| **Ready-made specialist processes** | Meter reading, installment, bank details with plausibility checks | Order status, return, cancellation, delivery address, product advice | je nach Fall |
-| **Connecting target systems** | Integrations as code, API, MCP, RPA for legacy systems | Over 100 ready-made integrations, webhooks, REST API, MCP server | je nach Fall |
-| **Where data is stored** | Hetzner in Germany, on-premises possible | Frankfurt am Main, operator not named, on-premises not mentioned | enneo vorn |
-| **Language models** | US standard, EU models possible under the DPA, no training on customer data | OpenAI, EU models and training policy not mentioned | enneo vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA by email on request, TOMs and subprocessors not found | enneo vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | None of its own mentioned, partners ISO 9001 and ISO 27001 according to melibo | gleich |
+| Area | Topic | enneo | melibo | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Website chat, contact form, email and tickets, WhatsApp via ChatWerk, MS Teams [Platform](https://melibo.de/produkte/customer-service-automation-plattform) [WhatsApp docs](https://docs.melibo.de/configure/integrationen/helpdesk-and-crm/whatsapp) [Teams docs](https://docs.melibo.de/configure/integrationen/sonstiges/microsoft/microsoft-teams) | enneo vorn |
+| Kanäle | **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Not found [Platform](https://melibo.de/produkte/customer-service-automation-plattform) [Docs index](https://docs.melibo.de/llms.txt) | enneo klar vorn |
+| KI & Automatisierung | **AI handling of emails** | Request, customer, verification, posting in the target system, reply, fully automated if desired | Classification, routing, suggestions, fully automated for clearly defined recurring cases with actions in the shop or ERP [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | One topic per request, multiple requests not documented [Agent logic](https://docs.melibo.de/welcome/ai-agents-logik) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos** | PDFs and photos, e.g. meter photo | Analysis of attachments not documented [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) [Agent logic](https://docs.melibo.de/welcome/ai-agents-logik) | enneo vorn |
+| KI & Automatisierung | **Ready-made specialist processes** | Meter reading, installment, bank details with plausibility checks | Order status, return, cancellation, delivery address, product advice [E-commerce](https://melibo.de/branchen/e-commerce) [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Own inbox since 2026 with live chat, macros, SLA, or integration into Zendesk, Freshdesk and others [Changelog Nov](https://docs.melibo.de/changelog/november-2026/nov-03-inbox-makros-response-assist-und-nebenkonversationen) [Ticket status](https://docs.melibo.de/communicate/inbox/basisfunktionen/ticket-status) [Zendesk](https://melibo.de/integrationen/zendesk) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Connecting target systems** | Integrations as code, API, MCP, RPA for legacy systems | Over 100 ready-made integrations, webhooks, REST API, MCP server [Integrations](https://melibo.de/integrationen) [API docs](https://docs.melibo.de/api-reference/api) [MCP docs](https://docs.melibo.de/mcp-server/funktionsubersicht) | je nach Fall |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises possible | Frankfurt am Main, operator not named, on-premises not mentioned [Data protection](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Language models** | US standard, EU models possible under the DPA, no training on customer data | OpenAI, EU models and training policy not mentioned [Changelog Oct 2025](https://docs.melibo.de/changelog/oktober-2025/15) [Data protection](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA by email on request, TOMs and subprocessors not found [Data protection](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | None of its own mentioned, partners ISO 9001 and ISO 27001 according to melibo [Data protection](https://melibo.de/produkte/datenschutz-dsgvo) | gleich |
 
 ## Wo melibo schwächer ist
 
@@ -92,6 +94,13 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 We win against melibo at utilities and anywhere emails involve multiple requests, attachments and verification before posting, and where phone is part of the picture. In online retail with simple, frequent cases like order status and returns, and when the existing helpdesk is meant to stay, melibo is well positioned with ready-made integrations, references and good reviews.
 
+## Direktlinks
+
+- [Doku](https://docs.melibo.de)
+- [API](https://docs.melibo.de/api-reference/api)
+- [Preise](https://melibo.de/preise)
+- [Release Notes](https://docs.melibo.de/changelog)
+
 ## Quellen
 
 - [Homepage](https://melibo.de)
@@ -119,3 +128,9 @@ We win against melibo at utilities and anywhere emails involve multiple requests
 - [Changelog: live chat in the inbox (Oct 2026)](https://docs.melibo.de/changelog/oktober-2026/okt-23-channels-neu-organisiert-shop-agent-dashboard-und-live-chat-in-der-inbox)
 - [Changelog: inbox, macros, Response Assist (Nov 2026)](https://docs.melibo.de/changelog/november-2026/nov-03-inbox-makros-response-assist-und-nebenkonversationen)
 - [OMR user reviews](https://omr.com/de/reviews/product/melibo)
+- [Integrations](https://melibo.de/integrationen)
+- [Docs: WhatsApp via Chatwerk](https://docs.melibo.de/configure/integrationen/helpdesk-and-crm/whatsapp)
+- [Docs: Microsoft Teams](https://docs.melibo.de/configure/integrationen/sonstiges/microsoft/microsoft-teams)
+- [Docs: ticket status and SLA deadlines](https://docs.melibo.de/communicate/inbox/basisfunktionen/ticket-status)
+- [Docs: API](https://docs.melibo.de/api-reference/api)
+- [Docs: MCP server](https://docs.melibo.de/mcp-server/funktionsubersicht)

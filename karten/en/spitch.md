@@ -1,6 +1,6 @@
 ---
 slug: "spitch"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Swiss speech AI for contact centers: voicebot, speech analytics, voice biometrics"
 ---
 
@@ -9,8 +9,10 @@ kurz: "Swiss speech AI for contact centers: voicebot, speech analytics, voice bi
 | | | |
 |---|---|---|
 | Firma | **Zurich, about 100 employees** | Spitch AG, founded 2014, CEO Alexey Popov. According to Spitch, 200+ enterprise customers, 46 new customers and over 25% revenue growth in FY 2025/26 |
+| Gegründet | **2014** | Founded in Zurich, co-founders include Josef Novak, now Chief Innovation Officer. CEO is Alexey Popov |
+| Ursprung | **Speech recognition since 2014** | Started as a developer of speech recognition software, market-ready Swiss German recognition followed at the end of 2015 |
 | Preise | **not public** | Quote based on scope, deployment model and service level, entry through starter packages |
-| Hosting | **Switzerland or on-premises** | SaaS in Switzerland, Spitch or customer private cloud, hybrid, on-premises. The Volksbanken solution runs in the Telekom Cloud |
+| Hosting | **Switzerland or on-premises** | SaaS in Switzerland, according to its insurance page also an EU-hosted public cloud, Spitch or customer private cloud, hybrid, on-premises. The Volksbanken solution runs in the Telekom Cloud |
 | Zertifikat | **ISO 27001:2022** | Issued by Attesta AG on Nov 21, 2024, valid for three years. Scope not published |
 
 ## Erster Satz
@@ -31,13 +33,13 @@ Spitch comes from speech recognition and is at home on the phone: voicebot, anal
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI through to the booking** | Fewer agents needed for written requests, standard cases run without manual work | "With us, the AI reads the email, books in the system and replies, without anyone having to step in." |
-| **Resolve the case instead of routing it** | Calls and emails get closed, not just distributed correctly, and the team's workload drops noticeably | "Our AI agents don't just sort, they handle the meter reading or installment themselves." |
-| **Multiple requests and attachments** | One complete reply instead of follow-up questions and extra tickets, nobody types in meter photos | "If your customer writes three requests and attaches a photo, they get one reply from us." |
-| **One system instead of eight products** | No second system to license and maintain for ticketing, one point of contact | "Agent workspace, AI, knowledge and telephony are one product with one contract at enneo." |
-| **Data protection documents public** | Data protection review without follow-up requests, because everything is available upfront | "Your data protection team can read our DPA, TOMs, subprocessors and SLA today." |
+| **Email AI through to the booking** | Standard cases run without manual work, so fewer agents are needed for written requests | "With us, the AI reads the email, books in the system and replies, without anyone having to step in." |
+| **AI agents resolve the case** | Calls and emails get closed, and the team's workload drops noticeably | "Our AI agents don't just sort, they handle the meter reading or installment themselves." |
+| **Multiple requests and attachments in one pass** | One complete reply instead of follow-up questions and extra tickets, nobody types in meter photos | "If your customer writes three requests and attaches a photo, they get one reply from us." |
+| **One product for agent workspace, AI and telephony** | One contract and one point of contact, no separate ticketing system needed alongside | "Agent workspace, AI, knowledge and telephony are one product with one contract at enneo." |
+| **Data protection documents public** | The data protection review runs without follow-up requests, because everything is available upfront | "Your data protection team can read our DPA, TOMs, subprocessors and SLA today." |
 
 ## Wo Spitch vorn liegt
 
@@ -49,20 +51,20 @@ Spitch comes from speech recognition and is at home on the phone: voicebot, anal
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Spitch | Einordnung |
-|---|---|---|---|
-| **AI processing of emails** | One AI reads, identifies the customer, books and replies, also fully automated | Email listed as a connected channel, AI processing not found | enneo klar vorn |
-| **Multiple requests in one message** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented | enneo vorn |
-| **Agent workspace** | Own ticketing agent workspace with inbox and skill-based routing | Summaries go into the customer's CRM or ticketing system, new "Collaborative Contact Center" interface since 10/2026, scope unclear | enneo vorn |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Call routing, outage reports, announcements, billing integration via API with no system named | enneo vorn |
-| **Voicebot and dialects** | Speech to speech via OpenAI (USA) or Deepslate (EU) | Own speech recognition, Swiss German and dialects, multilingual | Spitch vorn |
-| **Identity on the phone** | Verification via customer data, no voice biometrics | Voice Biometrics with protection against synthetic voices | Spitch klar vorn |
-| **Speech analytics, quality, training** | Scorecards, manual or automatic | All conversations analyzed, AI scoring, training simulation | Spitch vorn |
-| **Agent assist** | Draft, summary, live transcription | Live transcription, summaries, suggested phrases, knowledge agent | gleich |
-| **Where data is stored** | Hetzner in Germany, on-premises at high volume | Switzerland, customer cloud, on-premises, Volksbanken in the Telekom Cloud | je nach Fall |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Only the website privacy policy found | enneo vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022 until 11/2027 | Spitch klar vorn |
+| Area | Topic | enneo | Spitch | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and dialects** | Speech to speech via OpenAI (USA) or Deepslate (EU) | Own speech recognition, Swiss German and dialects, multilingual [Berna voicebot](https://www.immo-invest.ch/en/automatisierte-anruftriage-entlastet-kundencenter-bei-grossereignissen/) [Swiss German 2015](https://www.netzwoche.ch/news/2015-12-09/wenn-der-computer-schweizerdeutsch-versteht) | Spitch vorn |
+| KI & Automatisierung | **AI processing of emails** | One AI reads, identifies the customer, books and replies, also fully automated | Email listed as a connected channel, AI processing not found [Omnichannel](https://spitch.ai/omnichannel-conversational-platform/) [Knowledge Agent](https://spitch.ai/spitch-knowledge-agent/) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one message** | Everything in one pass, one reply | Not documented [Omnichannel](https://spitch.ai/omnichannel-conversational-platform/) [Virtual Assistant](https://spitch.ai/virtual-assistant/) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented [Omnichannel](https://spitch.ai/omnichannel-conversational-platform/) [Agent Assist](https://spitch.ai/spitch-agent-assist/) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Call routing, outage reports, announcements, billing integration via API with no system named [Utility Service Hub](https://spitch.ai/spitch-utility-service-hub/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Own ticketing agent workspace with inbox and skill-based routing | Summaries go into the customer's CRM or ticketing system, new "Collaborative Contact Center" interface since 10/2026, scope unclear [Agent Assist](https://spitch.ai/spitch-agent-assist/) [Total Experience](https://spitch.ai/newsfeed/the-total-experience-platform-from-customer-signals-to-better-experiences/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Speech analytics, quality, training** | Scorecards, manual or automatic | All conversations analyzed, AI scoring, training simulation [Homepage](https://spitch.ai) | Spitch vorn |
+| Arbeitsplatz & Anbindungen | **Agent assist** | Draft, summary, live transcription | Live transcription, summaries, suggested phrases, knowledge agent [Agent Assist](https://spitch.ai/spitch-agent-assist/) | gleich |
+| Daten & Sicherheit | **Identity on the phone** | Verification via customer data, no voice biometrics | Voice Biometrics with protection against synthetic voices [Voice Biometrics](https://spitch.ai/spitch-voice-biometrics/) | Spitch klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises at high volume | Switzerland, EU cloud, customer cloud, on-premises, Volksbanken in the Telekom Cloud [FAQ](https://spitch.ai/faq/) [Utility Service Hub](https://spitch.ai/spitch-utility-service-hub/) [Insurance](https://spitch.ai/spitch-for-insurance/) [Volksbanken](https://www.moneycab.com/it/spitch-sprachsystem-wird-standard-bei-deutschen-volksbanken/) | je nach Fall |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Only the website privacy policy found [Privacy policy](https://spitch.ai/spitch-data-policy/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022 until 11/2027 [ISO 27001](https://spitch.ai/newsfeed/spitch-ag-achieves-iso-270012022-certification-for-information-security/) | Spitch klar vorn |
 
 ## Wo Spitch schwächer ist
 
@@ -97,7 +99,7 @@ Against Spitch, we don't win on speech recognition, dialects, voice biometrics o
 - [About Spitch](https://spitch.ai/company/)
 - [Imprint](https://spitch.ai/imprint/)
 - [FAQ](https://spitch.ai/faq/)
-- [ISO 27001:2022 certification](https://spitch.ai/news/spitch-ag-achieves-iso-270012022-certification-for-information-security/)
+- [ISO 27001:2022 certification](https://spitch.ai/newsfeed/spitch-ag-achieves-iso-270012022-certification-for-information-security/)
 - [Privacy policy](https://spitch.ai/spitch-data-policy/)
 - [Omnichannel platform](https://spitch.ai/omnichannel-conversational-platform/)
 - [Virtual Assistant](https://spitch.ai/virtual-assistant/)
@@ -106,11 +108,13 @@ Against Spitch, we don't win on speech recognition, dialects, voice biometrics o
 - [Voice Biometrics](https://spitch.ai/spitch-voice-biometrics/)
 - [Utility Service Hub](https://spitch.ai/spitch-utility-service-hub/)
 - [Insurance](https://spitch.ai/spitch-for-insurance/)
-- [Fiscal year 2025/26](https://spitch.ai/?p=43698)
+- [Fiscal year 2025/26](https://spitch.ai/newsfeed/spitch-key-business-highlights-fy2025-26/)
 - [Total Experience Platform, Oct 30, 2026](https://spitch.ai/newsfeed/the-total-experience-platform-from-customer-signals-to-better-experiences/)
 - [Newsfeed](https://spitch.ai/newsfeed/)
-- [Volksbanken standard, moneycab Apr 23, 2026](https://www.moneycab.com/?p=2053183)
-- [Speech analytics and Total Experience, moneycab Oct 14, 2026](https://www.moneycab.com/?p=2079187)
-- [Berna voicebot for GVB](https://www.immo-invest.ch/en/automatisierte-anruftriage-entlastet-kundencenter-bei-grossereignissen)
-- [Versicherungskammer claims hotline](https://www.it-finanzmagazin.de/spitch-ki-basiertes-sprachsystem-fuer-schadenmeldungen-145616)
+- [Volksbanken standard, moneycab Apr 23, 2026](https://www.moneycab.com/it/spitch-sprachsystem-wird-standard-bei-deutschen-volksbanken/)
+- [Speech analytics and Total Experience, moneycab Oct 14, 2026](https://www.moneycab.com/it/spitch-mit-speech-analytics-und-ki-zur-echten-total-experience/)
+- [Berna voicebot for GVB](https://www.immo-invest.ch/en/automatisierte-anruftriage-entlastet-kundencenter-bei-grossereignissen/)
+- [Versicherungskammer claims hotline](https://www.it-finanzmagazin.de/spitch-ki-basiertes-sprachsystem-fuer-schadenmeldungen-145616/)
 - [SES Ticino, netzwoche](https://www.netzwoche.ch/news/2023-11-10/spitch-voicebot-beantwortet-kundenanliegen-bei-tessiner-stromversorger)
+- [Swiss German market-ready, Netzwoche 2015](https://www.netzwoche.ch/news/2015-12-09/wenn-der-computer-schweizerdeutsch-versteht)
+- [Co-founder Josef Novak, Netzwoche 2023](https://www.netzwoche.ch/news/2023-09-06/spitch-mitgruender-wird-innovations-chef)

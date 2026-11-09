@@ -4,7 +4,7 @@ slug: "semanticedge"
 fokus: "Voicebot"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.semanticedge.com"
 kurz: "Berliner Sprachdialog-Spezialist für Hotlines von Banken, Versicherern, Versorgern"
@@ -15,6 +15,8 @@ kurz: "Berliner Sprachdialog-Spezialist für Hotlines von Banken, Versicherern, 
 | | | |
 |---|---|---|
 | Firma | **Berlin, seit 2000** | SemanticEdge GmbH, HRB 84682 (AG Charlottenburg), Geschäftsführer Dr. Ralf Köhrbrück und Dr. Lupo Pape. Mitarbeiterzahl nicht öffentlich |
+| Gegründet | **2000, Berlin** | Gegründet von Dr. Lupo Pape und Dr. Ralf Köhrbrück, zwei ehemaligen McKinsey-Beratern |
+| Ursprung | **Sprachdialog seit 2000** | Angefangen mit Sprachdialogsystemen, entwickelt mit Forschern des DFKI, 2001 der erste Voicebot für den Kundenservice einer Bank. Seit wann generative KI im Einsatz ist, nennt die Firma nicht |
 | Preise | **nicht öffentlich** | Projektgeschäft (Konzept, PoC, Entwicklung) und Managed Services mit SLA, kein Preis- oder Lizenzmodell genannt |
 | Hosting | **On-Premise oder Cloud** | Beim Kunden im Rechenzentrum, auch mit angepassten Sprachmodellen, oder Cloud, als Beispiel Microsoft Azure. Standort und Betreiber nicht genannt |
 | Referenzen | **Banken, Versicherer, Versorger** | Laut Website seit vielen Jahren produktiv: Sparkassen, Commerzbank, R+V, Allianz, Westnetz. Logos u. a. AXA, E.ON, RWE, MVV, Hamburger Hochbahn |
@@ -37,13 +39,13 @@ SemanticEdge baut seit 2000 Sprachdialogsysteme für Hotlines und ist bei Banken
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail und Brief mit derselben KI** | Weniger Mitarbeitende für Schriftverkehr, kein zweites Produkt für die Mail-Automatisierung | „Bei uns erledigt dieselbe KI Mail und Brief bis zur Buchung im Zielsystem.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Mail und Brief mit derselben KI** | Weniger Mitarbeitende für Schriftverkehr, kein zweites Produkt für die Mail-Automatisierung | „Bei uns erledigt dieselbe KI Mail und Brief bis zur Buchung im Zielsystem.“ |
+| **Alle Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Liest Anhänge und Fotos** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
 | **Arbeitsplatz im selben System** | Kein Bruch zwischen Bot und Bearbeitung, weniger Schnittstellen zu pflegen | „Was der Bot nicht schafft, landet bei uns mit allem Kontext im selben System bei Ihren Mitarbeitenden.“ |
-| **Agenten selbst beschreiben und ändern** | Änderungen ohne Beauftragung eines Dienstleisters, schneller produktiv | „Neue Abläufe beschreiben Sie bei uns in normaler Sprache und testen sie selbst.“ |
+| **KI-Agenten selbst beschreiben und ändern** | Änderungen ohne Beauftragung eines Dienstleisters, schneller produktiv | „Neue Abläufe beschreiben Sie bei uns in normaler Sprache und testen sie selbst.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz heute schon einsehen.“ |
 
 ## Wo SemanticEdge vorn liegt
@@ -56,20 +58,20 @@ SemanticEdge baut seit 2000 Sprachdialogsysteme für Hotlines und ist bei Banken
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | SemanticEdge | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, legitimiert, bucht im ERP und antwortet, auch vollautomatisch | Nicht gefunden, genannt sind Telefon, Chat und SMS | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, KI und Telefonie in einem System | Einbindung in die vorhandene Telefonie- oder Contact-Center-Plattform, eigener Arbeitsplatz nicht gefunden | enneo vorn |
-| **Erfahrung mit Voicebots** | Voicebot über OpenAI (USA) oder Deepslate (EU), eigene Telefonie oder SIP | Seit 2000, große Anliegen-Kataloge, Sprachmodelle mit echten Kundenaussagen trainiert | SemanticEdge vorn |
-| **Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Rechnungsänderungen, Auskünfte per Telefon und Chat, Anbindung an Abrechnungssysteme nicht beschrieben | je nach Fall |
-| **Legitimation** | Rahmen fertig, Suche im ERP pro Kunde gebaut | 16 konfigurierbare Legitimationsverfahren (Banking) | SemanticEdge vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Komplett On-Premise, auch mit angepassten Sprachmodellen | SemanticEdge vorn |
-| **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland | Cloud als Beispiel Microsoft Azure, Standort und Betreiber nicht genannt | enneo vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich, Datenschutzerklärung nur für die Website | enneo vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | Nicht gefunden | gleich |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Projekt- und Betriebsleistungen | je nach Fall |
+| Bereich | Thema | enneo | SemanticEdge | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Erfahrung mit Voicebots** | Voicebot über OpenAI (USA) oder Deepslate (EU), eigene Telefonie oder SIP | Seit 2000, große Anliegen-Kataloge, Sprachmodelle mit echten Kundenaussagen trainiert [Über uns](https://www.semanticedge.com/about-us/) [Banken](https://www.semanticedge.com/solutions/conversational-ai-for-banking/) [Versicherungen](https://www.semanticedge.com/solutions/conversational-ai-for-insurance-companies/) | SemanticEdge vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, legitimiert, bucht im ERP und antwortet, auch vollautomatisch | Nicht gefunden, genannt sind Telefon, Chat und SMS [Versorger](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) [Technologie](https://www.semanticedge.com/technology/) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden [Versorger](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden [Versorger](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | enneo vorn |
+| KI & Automatisierung | **Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Rechnungsänderungen, Auskünfte per Telefon und Chat, Anbindung an Abrechnungssysteme nicht beschrieben [Versorger](https://www.semanticedge.com/solutions/conversational-ai-for-public-suppliers/) | je nach Fall |
+| KI & Automatisierung | **Legitimation** | Rahmen fertig, Suche im ERP pro Kunde gebaut | 16 konfigurierbare Legitimationsverfahren (Banking) [Banken](https://www.semanticedge.com/solutions/conversational-ai-for-banking/) | SemanticEdge vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, KI und Telefonie in einem System | Einbindung in die vorhandene Telefonie- oder Contact-Center-Plattform, eigener Arbeitsplatz nicht gefunden [Technologie](https://www.semanticedge.com/technology/) | enneo vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Komplett On-Premise, auch mit angepassten Sprachmodellen [Technologie](https://www.semanticedge.com/technology/) [Conversational AI](https://www.semanticedge.com/conversational-ai/) | SemanticEdge vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland | Cloud als Beispiel Microsoft Azure, Standort und Betreiber nicht genannt [FAQ-Assistent](https://www.semanticedge.com/ki-assistants/faq-assistants/) [Startseite](https://www.semanticedge.com) | enneo vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich, Datenschutzerklärung nur für die Website [Datenschutz](https://www.semanticedge.com/privacy-policy/) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | Nicht gefunden [Startseite](https://www.semanticedge.com) [Datenschutz](https://www.semanticedge.com/privacy-policy/) | gleich |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Projekt- und Betriebsleistungen [Services](https://www.semanticedge.com/services/) | je nach Fall |
 
 ## Wo SemanticEdge schwächer ist
 

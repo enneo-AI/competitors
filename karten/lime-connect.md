@@ -4,7 +4,7 @@ slug: "lime-connect"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://connect.lime-technologies.com/de/"
 kurz: "Chat- und Messaging-Plattform aus Köln mit KI-Agenten, früher Userlike"
@@ -14,7 +14,9 @@ kurz: "Chat- und Messaging-Plattform aus Köln mit KI-Agenten, früher Userlike"
 
 | | | |
 |---|---|---|
-| Firma | **Köln, Teil von Lime (Schweden)** | Lime Connect (Userlike) GmbH, 2011 als Userlike gegründet, seit 2021 bei der Lime Technologies AB (publ), seit September 2025 neuer Name |
+| Firma | **Köln, Teil von Lime (Schweden)** | Lime Connect (Userlike) GmbH, seit 2021 bei der Lime Technologies AB (publ), seit September 2025 neuer Name |
+| Gegründet | **2011 in Köln** | Als Userlike gegründet, Gründer und damaliger CEO Timoor Taufig. 2021 von Lime Technologies übernommen |
+| Ursprung | **Kunden-Messaging seit 2011** | Userlike bündelte Website-Chat, WhatsApp, Facebook Messenger und SMS in einem Postfach. Der KI-Agent Connect AI ist eine Eigenentwicklung und löst den mit einem Partner gebauten AI Automation Hub ab |
 | Preise | **ab 87 € + 99 € KI** | Paket Pro ab 87 € netto im Monat bei jährlicher Zahlung (105 € monatlich), mindestens 3 Plätze. KI-Agent ab 99 € im Monat mit 100 Gesprächen, Copilot 19 € je Platz. Free-Tarif mit 1 Platz |
 | Hosting | **Deutschland** | Server in Deutschland auf ISO-27001-zertifizierter Infrastruktur, Betreiber im DPA nicht genannt. KI-Modelle laut Website nur auf Microsoft Azure und AWS Bedrock |
 | Referenzen | **Stadtwerke im Chat** | Allgäuer Überlandwerk, OVAG, E-Werk Mittelbaden, Stadtwerke Cottbus, Husum und Konstanz, dazu PSD Bank Nürnberg, Toyota, TUI Austria |
@@ -32,19 +34,19 @@ Lime Connect kommt aus dem Website-Chat und ist heute eine Messaging-Plattform: 
 - **E-Mail-KI bis zur Buchung:** Bei enneo liest die KI die Mail, erkennt und legitimiert den Kunden, bucht im Zielsystem und antwortet, auch vollautomatisch. Bei Lime kommen Mails per Weiterleitung ins Message Center. Laut Lime-FAQ kann der neue KI-Agent E-Mail bedienen, die Doku beschreibt ihn aber nur im Website-Widget und in WhatsApp.
 - **Mehrere Anliegen und Anhänge:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort, PDF und Zählerfoto liest die KI mit. Bei Lime ist beides für den KI-Agenten nicht dokumentiert.
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei enneo fertige KI-Agenten mit Plausibilitätsprüfung, die ERP-Anbindung bauen wir pro Kunde. Lime nennt für Versorger einen FAQ-Chatbot und Zählerstände per WhatsApp-Formular. Eine Anbindung an Abrechnungssysteme nennt Lime nicht.
-- **Schnittstellen ohne Grenzen:** Bei enneo entstehen Schnittstellen als Code, in jedem Format und mit beliebiger Logik. Lime bindet Systeme über API Actions und MCP an, mit Token im Header, ohne OAuth. Einen eigenen MCP-Server aufzusetzen erfordert laut Lime IT- und Programmierkenntnisse.
+- **Schnittstellen ohne Grenzen:** Bei enneo entstehen Schnittstellen als Code, in jedem Format und mit beliebiger Logik. Lime bindet Systeme über API Actions und MCP an, beim MCP-Server mit Auth-Token und ohne OAuth. Einen eigenen MCP-Server aufzusetzen erfordert laut Lime IT- und Programmierkenntnisse.
 - **Telefon im selben Produkt:** enneo hat Telefonie und Voicebot, mit eigener Leitung oder der SIP-Leitung des Kunden. Der Telefonkanal von Lime ist laut Doku im Alpha-Stadium und nicht öffentlich verfügbar.
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Schriftverkehr wird ohne Mitarbeitende erledigt, weniger Personal für die Postfächer | „Bei uns liest die KI die Mail, erkennt den Kunden, bucht im Zielsystem und antwortet.“ |
-| **Mehrere Anliegen und Anhänge** | Weniger Folgekontakte, Zählerfotos und PDFs muss niemand abtippen | „Zählerstand, neue IBAN und Zählerfoto in einer Mail erledigt enneo in einem Durchgang mit einer Antwort.“ |
-| **Fachagenten mit ERP-Anbindung** | Der Zählerstand landet geprüft im Abrechnungssystem statt nur in einem Formular | „Bei uns geht der Zählerstand mit Plausibilitätsprüfung direkt ins Abrechnungssystem.“ |
-| **Telefonie und Voicebot im Produkt** | Kein zweiter Anbieter fürs Telefon, eine Logik für alle Kanäle | „Telefon und Voicebot laufen bei uns im selben System wie E-Mail und Chat.“ |
-| **Schnittstellen als Code** | Auch komplexe Altsysteme anbinden, ohne eigenen MCP-Server aufzusetzen | „Wir bauen die Schnittstelle als Code, in jedem Format und mit jeder Logik.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung schneller, weniger Nachforderungen | „AVV, TOM, Subunternehmer und SLA können Sie vorab öffentlich einsehen.“ |
+| **Mails bis zur Buchung** | Auch der Schriftverkehr läuft automatisch, weniger Personal für die Postfächer | „Bei uns liest die KI die Mail, erkennt den Kunden, bucht im Zielsystem und antwortet.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Weniger Folgekontakte, Zählerfotos und PDFs muss niemand abtippen | „Zählerstand, neue IBAN und Zählerfoto in einer Mail erledigt enneo in einem Durchgang mit einer Antwort.“ |
+| **Fachagenten mit ERP-Anbindung** | Der Zählerstand landet geprüft im Abrechnungssystem, ohne Nacharbeit aus einem Formular | „Bei uns geht der Zählerstand mit Plausibilitätsprüfung direkt ins Abrechnungssystem.“ |
+| **Telefonie und Voicebot im Produkt** | Ein Anbieter und eine Logik für alle Kanäle, kein zweiter Vertrag fürs Telefon | „Telefon und Voicebot laufen bei uns im selben System wie E-Mail und Chat.“ |
+| **Schnittstellen als Code** | Auch komplexe Altsysteme sind angebunden, ohne eigenen MCP-Server aufzusetzen | „Wir bauen die Schnittstelle als Code, in jedem Format und mit jeder Logik.“ |
+| **Datenschutzunterlagen öffentlich** | Schnellere Datenschutzprüfung, weniger Nachforderungen | „AVV, TOM, Subunternehmer und SLA können Sie vorab öffentlich einsehen.“ |
 
 ## Wo Lime Connect vorn liegt
 
@@ -55,20 +57,20 @@ Lime Connect kommt aus dem Website-Chat und ist heute eine Messaging-Plattform: 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Lime Connect | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Mails per Weiterleitung im Message Center, KI-Agent laut FAQ für E-Mail freigegeben, Buchung im Zielsystem nicht dokumentiert | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Für E-Mail nicht dokumentiert, im Chat nur in einer Kundenstimme erwähnt | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Für den KI-Agenten nicht dokumentiert | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | FAQ-Chatbot, Zählerstand per WhatsApp-Formular, Abrechnungssysteme nicht genannt | enneo vorn |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, API und MCP | API Actions und MCP, Token im Header, kein OAuth | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Telefonkanal im Alpha-Stadium, nicht öffentlich, eigener SIP-Anbieter nötig | enneo klar vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | Auf Azure und AWS Bedrock, Modellanbieter und Region nicht genannt | enneo vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | DPA nur über Anfrageformular, keine Liste der Subunternehmer öffentlich | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Server in Deutschland, Betreiber im DPA nicht genannt | gleich |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO-27001-zertifizierte Infrastruktur, eigenes Zertifikat nicht gefunden | gleich |
-| **Messaging-Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Chat, WhatsApp, Instagram, Messenger, SMS, Telegram, Threema, Video, App | Lime Connect vorn |
-| **Einstiegspreis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Free-Tarif, Pro ab 87 €, KI-Agent ab 99 € mit 100 Gesprächen | Lime Connect vorn |
+| Bereich | Thema | enneo | Lime Connect | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden | Telefonkanal im Alpha-Stadium, nicht öffentlich, eigener SIP-Anbieter nötig [Doku Telefon](https://docs.lime-connect.com/features/channels/phone-%28alpha%29) | enneo klar vorn |
+| Kanäle | **Messaging-Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Chat, WhatsApp, Instagram, Messenger, SMS, Telegram, Threema, Video, App [Doku Kanäle](https://docs.lime-connect.com/features/channels) [Startseite](https://connect.lime-technologies.com/) | Lime Connect vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Mails per Weiterleitung im Message Center, KI-Agent laut FAQ für E-Mail freigegeben, Buchung im Zielsystem nicht dokumentiert [Doku E-Mail](https://docs.lime-connect.com/features/channels/email) [FAQ](https://faq.lime-connect.com/all-documents/what's-the-difference-between-the-ai-automation-hub-and-connect-ai) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Doku Connect AI](https://docs.lime-connect.com/features/connect-ai) [Doku im Einsatz](https://docs.lime-connect.com/features/connect-ai/connect-ai-in-action) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Für den KI-Agenten nicht dokumentiert [Doku Connect AI](https://docs.lime-connect.com/features/connect-ai) [Doku im Einsatz](https://docs.lime-connect.com/features/connect-ai/connect-ai-in-action) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | FAQ-Chatbot, Zählerstand per WhatsApp-Formular, Abrechnungssysteme nicht genannt [Branche Versorger](https://connect.lime-technologies.com/en/solutions/industries/utility/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, API und MCP | API Actions mit Headern und Body, MCP-Server mit Auth-Token, kein OAuth [Doku MCP](https://docs.lime-connect.com/features/connect-ai/mcp) [Doku API Actions](https://docs.lime-connect.com/features/connect-ai/actions/api-actions) | enneo vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | Auf Azure und AWS Bedrock, Server laut FAQ nur in der EU, Modellanbieter und Umgang mit Trainingsdaten nicht genannt [AI Automation](https://connect.lime-technologies.com/en/products/ai-automation/) [KI-Infos](https://connect.lime-technologies.com/en/ai-info/) | je nach Fall |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | DPA nur über Anfrageformular, keine Liste der Subunternehmer öffentlich [DPA](https://connect.lime-technologies.com/en/legal/dpa/) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Server in Deutschland, Betreiber im DPA nicht genannt [DPA](https://connect.lime-technologies.com/en/legal/dpa/) | gleich |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO-27001-zertifizierte Infrastruktur. Die Website verweist auf das Trust Center der Lime-Gruppe mit ISO 27001, ob es Lime Connect abdeckt, steht dort nicht [DPA](https://connect.lime-technologies.com/en/legal/dpa/) [Trust Center](https://trust.lime-technologies.com/) | gleich |
+| Preis & Vertrag | **Einstiegspreis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Free-Tarif, Pro ab 87 €, KI-Agent ab 99 € mit 100 Gesprächen [Preise](https://connect.lime-technologies.com/en/pricing/) | Lime Connect vorn |
 
 ## Wo Lime Connect schwächer ist
 
@@ -97,6 +99,14 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Wo es um Website-Chat, WhatsApp und einen günstigen Einstieg geht, ist Lime Connect stark und bei Stadtwerken bekannt. Gewinnen können wir, sobald viel E-Mail und Brief automatisch erledigt werden soll: mehrere Anliegen, Anhänge, Buchung im Abrechnungssystem, dazu Telefon im selben Produkt. Wo Lime schon im Chat läuft, ist enneo für den Schriftverkehr oft das passendere Gespräch als ein Wechsel.
 
+## Direktlinks
+
+- [Doku](https://docs.lime-connect.com/)
+- [API](https://docs.lime-connect.com/developers/api)
+- [Trust Center](https://trust.lime-technologies.com/)
+- [Preise](https://connect.lime-technologies.com/en/pricing/)
+- [Status](https://status.lime-connect.com/)
+
 ## Quellen
 
 - [Startseite](https://connect.lime-technologies.com/)
@@ -109,15 +119,18 @@ Wo es um Website-Chat, WhatsApp und einen günstigen Einstieg geht, ist Lime Con
 - [Datenschutzerklärung](https://connect.lime-technologies.com/en/legal/privacy-policy/)
 - [Impressum](https://connect.lime-technologies.com/en/legal/imprint/)
 - [Über uns](https://connect.lime-technologies.com/en/about-us/)
+- [Doku Kanäle](https://docs.lime-connect.com/features/channels)
 - [Doku E-Mail](https://docs.lime-connect.com/features/channels/email)
 - [Doku Telefon (Alpha)](https://docs.lime-connect.com/features/channels/phone-%28alpha%29)
 - [Doku Connect AI](https://docs.lime-connect.com/features/connect-ai)
 - [Doku Setups](https://docs.lime-connect.com/features/connect-ai/setups)
 - [Doku Actions](https://docs.lime-connect.com/features/connect-ai/actions)
+- [Doku API Actions](https://docs.lime-connect.com/features/connect-ai/actions/api-actions)
 - [Doku MCP](https://docs.lime-connect.com/features/connect-ai/mcp)
 - [Doku Connect AI im Einsatz](https://docs.lime-connect.com/features/connect-ai/connect-ai-in-action)
 - [Doku AI Automation Hub](https://docs.lime-connect.com/features/ai-automation-hub)
 - [FAQ Hub vs. Connect AI](https://faq.lime-connect.com/all-documents/what's-the-difference-between-the-ai-automation-hub-and-connect-ai)
 - [Umbenennung](https://www.lime-technologies.com/en/insights/articles/userlike-is-now-lime-connect/)
 - [Übernahme 2021](https://news.cision.com/lime-technologies-ab/r/lime-sharpens-its-offering-through-the-acquisition-of-the-german-company--userlike--and-opens-a-new-,c3333533)
+- [Trust Center der Lime-Gruppe](https://trust.lime-technologies.com/)
 - [Nutzerbewertungen](https://omr.com/de/reviews/product/lime-connect-ehemals-userlike)

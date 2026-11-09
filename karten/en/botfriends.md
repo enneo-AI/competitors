@@ -1,6 +1,6 @@
 ---
 slug: "botfriends"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI agents for chat, phone and email from Würzburg"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI agents for chat, phone and email from Würzburg"
 | | | |
 |---|---|---|
 | Firma | **Würzburg, since 2017** | BOTfriends GmbH, HRB 13732 Würzburg, four founders, platform "BOTfriends X" |
+| Gegründet | **2017, Würzburg** | By Michelle Skodowski, Kevin Dees, Daniel Rösch and Tobias Gansler, who met while studying at the University of Würzburg |
+| Ursprung | **Chatbots since 2017** | Rösch and Dees built chatbots during an internship, which became the company. Today AI agents for chat, phone and email, according to BOTfriends 10 years of experience in conversational AI |
 | Preise | **from €2,490 per month** | Starter plan, billed per chat instead of per message, unlimited users and integrations, 14-day free trial |
 | Hosting | **EU, cloud only** | According to the FAQ "certified servers in Germany", provider not named, Google Cloud Partner |
 | Referenzen | **40+ utility projects** | SWM, RWE, enviaM, N-ERGIE, Süwag, Stadtwerke Karlsruhe (avg. 21,000 automated messages per month) |
@@ -23,7 +25,7 @@ BOTfriends is a bot provider that has targeted municipal utilities for years: de
 
 ## Unsere Verkaufsargumente
 
-- **Email all the way to the booking:** At enneo, the AI reads the email, identifies and authenticates the customer, books in the target system and replies, fully automated if desired. For email, BOTfriends describes sorting, forwarding, replying and data extraction. The page mentions handover to a customer system only for meter readings.
+- **Email all the way to the booking:** At enneo, the AI reads the email, identifies and authenticates the customer, books in the target system and replies, fully automated if desired. For email, BOTfriends describes sorting, forwarding, replying and data extraction. The page names meter readings as the example of handover to a customer system and does not describe bookings such as IBAN or installment changes by email.
 - **Multiple requests and attachments in one email:** Meter reading, new IBAN and new installment in one email: enneo handles them in one pass with one reply. enneo also reads PDF and photo attachments. At BOTfriends, neither is documented for email.
 - **Agent workspace and AI in one product:** enneo brings ticketing agent workspace, inbox, AI agents, knowledge, telephony and voicebot in one system with skill-based routing. BOTfriends hands conversations over to agents, and its copilot works "in existing ticket systems". So the customer additionally needs a ticket system or contact center.
 - **Data protection you can verify:** At enneo, DPA, TOMs, subprocessors and SLA are public, data is stored at Hetzner in Germany, and on-premises at high volume. BOTfriends names neither its hosting provider nor its language models nor its subprocessors and is available only as cloud.
@@ -31,13 +33,13 @@ BOTfriends is a bot provider that has targeted municipal utilities for years: de
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email all the way to the booking** | Fewer agents needed for written correspondence, because IBAN or installment changes are also handled without manual work | "With us, the AI reads the email, books in the target system and replies, not just for meter readings." |
-| **Multiple requests and attachments in one email** | One case instead of several, fewer follow-up contacts | "Meter reading, new IBAN and new installment in one email: with us that's one pass and one reply." |
-| **Agent workspace in the same product** | No additional ticket system to license and integrate | "With BOTfriends you still need a ticket system for your agents. With us, the agent workspace is included." |
-| **Letters as a separate channel** | Paper mail runs through the same automation, no special process | "Scanned letters run through the same AI as your emails." |
-| **Data protection you can verify** | Data protection review with fewer follow-up requests | "Our hosting, subprocessors and DPA are out in the open. At BOTfriends, the hosting provider and language models are not public." |
+| **Email all the way to the booking** | IBAN or installment changes by email are also handled without manual work, fewer agents for written correspondence | "With us, the AI reads the email, books in the target system and replies, not just for meter readings." |
+| **Multiple requests and attachments in one pass** | One case instead of several, fewer follow-up contacts | "Meter reading, new IBAN and new installment in one email: with us, that's one pass and one reply." |
+| **Agent workspace in the same product** | One system for bot and agents, no additional ticket system to license and integrate | "With us, the agent workspace for your team is included, you don't need a second ticket system." |
+| **Letter as its own channel** | Paper mail runs through the same automation, no special process | "With us, scanned letters run through the same AI as your emails." |
+| **Data protection documents public** | Data protection review with fewer follow-up requests, because hosting, subprocessors and DPA are available upfront | "Our hosting, subprocessors and DPA are public, your data protection team can review them today." |
 
 ## Wo BOTfriends vorn liegt
 
@@ -49,21 +51,21 @@ BOTfriends is a bot provider that has targeted municipal utilities for years: de
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | BOTfriends | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | Request, customer, authentication, booking in the target system, reply, fully automated if desired | Sort, forward, reply, extract data. Handover to the customer system described only for meter readings | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Attachments and photos in emails** | PDFs and photos, e.g. meter photo | Meter photo in chat yes, incoming email attachments not documented | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Handover with history, copilot in existing ticket systems, own agent workspace not described | enneo klar vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details with plausibility checks | Meter reading with previous-year check, installment, move, tariff questions | gleich |
-| **Billing system integration** | Built per customer, interfaces as code, RPA for legacy systems | Templates for Wilken and Schleupen, SAP IS-U mentioned | BOTfriends vorn |
-| **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | SIP and PSTN, speech provider not named | gleich |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Chat, app, WhatsApp, Messenger, Instagram, phone, email | je nach Fall |
-| **Where data is stored** | Hetzner in Germany, on-premises possible | EU or Germany, provider not named, cloud only | enneo vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA can be signed online, subprocessors and language models not public | enneo vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 under audit. Hetzner ISO 27001 | None named, only "GDPR-compliant" and "EU AI Act compliant" seals | gleich |
-| **Energy references** | Available, cannot be named publicly | 40+ projects, many logos public | BOTfriends klar vorn |
-| **Price and entry point** | Package prices per ticket and voice minute (pricing model 2.2) | From €2,490 per month, per chat, 14-day trial | je nach Fall |
+| Area | Topic | enneo | BOTfriends | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Chat, app, WhatsApp, Messenger, Instagram, phone, email [AI agent utilities](https://botfriends.de/en/product/ai-agent/loesungen/stadtwerke-energieversorger/) [Pricing](https://botfriends.de/preise-features/) | je nach Fall |
+| Kanäle | **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | SIP and PSTN, speech provider not named [Voicebot utilities](https://botfriends.de/en/product/ai-voicebot/loesungen/stadtwerke-energieversorger/) | gleich |
+| KI & Automatisierung | **AI handling of emails** | Request, customer, authentication, booking in the target system, reply, fully automated if desired | Sort, forward, reply, extract data and hand it to a customer system, example meter reading. Other bookings by email not described [Email automation](https://botfriends.de/en/product/e-mail-automation/) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Email automation](https://botfriends.de/en/product/e-mail-automation/) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos in emails** | PDFs and photos, e.g. meter photo | Meter photo in chat yes, incoming email attachments not documented [Chatbot utilities](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/) [Email automation](https://botfriends.de/en/product/e-mail-automation/) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details with plausibility checks | Meter reading checked against the previous year, installment, moving, tariff questions [Chatbot utilities](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/) [AI agent utilities](https://botfriends.de/en/product/ai-agent/loesungen/stadtwerke-energieversorger/) | gleich |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Handover with history, copilot in existing ticket systems, own agent workspace not described [Chatbot utilities](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/) [Product overview](https://botfriends.de/llms.txt) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Billing system integration** | Built per customer, integrations as code, RPA for legacy systems | Templates for Wilken and Schleupen, SAP IS-U named [Chatbot utilities](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/) [AI agent utilities](https://botfriends.de/en/product/ai-agent/loesungen/stadtwerke-energieversorger/) | BOTfriends vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises possible | EU or Germany, provider not named, cloud only [Data protection](https://botfriends.de/dsgvo/) [Pricing](https://botfriends.de/preise-features/) | enneo vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA can be concluded online, subprocessors and language models not public [Data protection](https://botfriends.de/dsgvo/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 under audit. Hetzner ISO 27001 | None named, only "GDPR-compliant" and "EU AI Act compliant" seals [Data protection](https://botfriends.de/dsgvo/) | gleich |
+| Preis & Vertrag | **Price and entry** | Package prices per ticket and voice minute (pricing model 2.2) | From €2,490 per month, per chat, 14-day trial [Pricing](https://botfriends.de/preise-features/) | je nach Fall |
+| Firma & Referenzen | **Energy references** | Available, cannot be named publicly | 40+ projects, many logos public [Chatbot utilities](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/) | BOTfriends klar vorn |
 
 ## Wo BOTfriends schwächer ist
 
@@ -92,18 +94,23 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 We win against BOTfriends where there is a lot of written correspondence and the customer wants email, letters and agent workspace from one source, with verifiable data protection. Where a municipal utility mainly wants chat and phone self-service in front of an existing contact center, BOTfriends is in the better position with its references and Wilken and Schleupen templates. There it's worth pointing out that email and agent workspace remain unsolved.
 
+## Direktlinks
+
+- [Doku](https://knowledgehub.botfriendsx.com/)
+- [Preise](https://botfriends.de/preise-features/)
+
 ## Quellen
 
 - [Municipal utilities solution (chatbot)](https://botfriends.de/produkt/chatbot/loesungen/stadtwerke-energieversorger/)
 - [Municipal utilities solution (AI agent)](https://botfriends.de/en/product/ai-agent/loesungen/stadtwerke-energieversorger/)
 - [Municipal utilities solution (voicebot)](https://botfriends.de/en/product/ai-voicebot/loesungen/stadtwerke-energieversorger/)
-- [Energy supplier industry page](https://botfriends.de/en/branches/energy-supplier-municipal-utilities/)
 - [Email automation](https://botfriends.de/en/product/e-mail-automation/)
 - [Study on municipal utility customer service 2026](https://botfriends.de/en/whitepapers/status-quo-im-stadtwerke-kundenservice-2026/)
-- [Pricing](https://botfriends.de/preise/)
-- [Data protection and GDPR](https://botfriends.de/en/chatbot-dsgvo)
-- [Privacy policy](https://botfriends.de/datenschutz/)
+- [Pricing](https://botfriends.de/preise-features/)
+- [Data protection and GDPR](https://botfriends.de/dsgvo/)
+- [Privacy policy](https://botfriends.de/allgemein-datenschutz/)
 - [About us](https://botfriends.de/ueber-uns/)
+- [Founding team profile (Startbase)](https://www.startbase.de/portraits/die-ausnahmeerscheinung/)
 - [Legal notice](https://botfriends.de/impressum/)
 - [Product overview (llms.txt)](https://botfriends.de/llms.txt)
 - [OMR user reviews](https://omr.com/de/reviews/product/botfriends-x)

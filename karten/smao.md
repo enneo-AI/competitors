@@ -4,7 +4,7 @@ slug: "smao"
 fokus: "Voicebot"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-06"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://smao.ai"
 kurz: "KI-Telefonassistent aus Berlin, souverän gehostet, für den Mittelstand"
@@ -15,6 +15,8 @@ kurz: "KI-Telefonassistent aus Berlin, souverän gehostet, für den Mittelstand"
 | | | |
 |---|---|---|
 | Firma | **Berlin, 5 MA** | smao GmbH, unter diesem Namen seit Januar 2025, Niederlassung Lörrach. Gründer Luigi Monzione, Sven Launspach (Geschäftsführer) und Michael Müller. Investoren nicht gefunden |
+| Gegründet | **2025** | Als smao GmbH seit 28.01.2025, entstanden aus einer 2024 eingetragenen Vorratsgesellschaft. Gründer Luigi Monzione, Michael Müller und Sven Launspach |
+| Ursprung | **von Anfang an KI** | Gestartet als KI-Telefonassistent, der Anrufe annimmt und an CRM-, Helpdesk- und Kalendersysteme übergibt. Website-Chat seit 03/2026 (Beta), öffentliche API seit 04/2026 |
 | Preise | **ab 0,35 € je Minute** | Pay as you Go ohne Grundgebühr 0,35 € je Minute, Advanced 249 € und Scale 449 € im Monat bei 12 Monaten Laufzeit mit 1.250 bzw. 3.000 Minuten, Enterprise ab 0,15 € je Minute. 50 Freiminuten zum Start |
 | Hosting | **STACKIT + netcup, Deutschland** | STACKIT (Schwarz-Gruppe, BSI C5) primär, netcup sekundär. Sprachmodelle laut smao selbst betrieben, Inferenz bei Krämer IT Solutions in Deutschland. Stimmen von KugelAudio (Hannover) oder ElevenLabs Inc. (USA, Verarbeitung in Belgien). On-Premises möglich |
 | Referenzen | **Selecta, netable, Remmers** | Mittelstand und IT-Systemhäuser in DACH, Partner Synaxon und ComTeam. Energie- oder Versicherungsreferenzen nicht gefunden, eigene Zertifikate nicht gefunden |
@@ -37,13 +39,13 @@ smao ist ein junges Berliner Start-up mit fünf Mitarbeitenden und einem KI-Tele
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, Mails werden nicht nur vorformuliert, sondern erledigt | „Bei uns schreibt die KI nicht nur einen Entwurf, sie bucht im Zielsystem und antwortet selbst.“ |
+| **E-Mail-KI bis zur Buchung** | Mails werden erledigt statt nur vorformuliert, es braucht weniger Mitarbeitende für den Schriftverkehr | „Bei uns schreibt die KI nicht nur einen Entwurf, sie bucht im Zielsystem und antwortet selbst.“ |
 | **Arbeitsplatz im selben System** | Kein zweites Ticketsystem lizenzieren und pflegen, keine Übergabe zwischen Systemen | „Was die KI nicht allein löst, bearbeitet Ihr Team bei uns im selben System weiter.“ |
-| **Mail, Brief und Telefon in einem** | Ein Vertrag, eine Ansprechstelle, gleiche Logik für alle Kanäle | „Ob Anruf, Mail oder Brief: Bei uns arbeitet dieselbe KI mit demselben Wissen.“ |
-| **Mehrere Anliegen und Anhänge** | Eine vollständige Antwort statt Folgetickets, Zählerfotos muss niemand abtippen | „Zählerstand, IBAN und Abschlag in einer Mail, dazu ein Zählerfoto: Das erledigen wir in einem Durchgang.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Mail, Brief und Telefon in einem System** | Ein Vertrag, eine Ansprechstelle und dieselbe Logik für alle Kanäle | „Ob Anruf, Mail oder Brief: Bei uns arbeitet dieselbe KI mit demselben Wissen.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Eine vollständige Antwort statt Folgetickets, Zählerfotos muss niemand abtippen | „Zählerstand, IBAN und Abschlag in einer Mail, dazu ein Zählerfoto: Das erledigen wir in einem Durchgang.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten sind schnell produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo smao vorn liegt
 
@@ -55,20 +57,20 @@ smao ist ein junges Berliner Start-up mit fünf Mitarbeitenden und einem KI-Tele
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | smao | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Antwortentwurf von Hand im Dashboard-Chat, automatische Bearbeitung eingehender Mails nicht gefunden | enneo klar vorn |
-| **Mehrere Anliegen und Anhänge in Mails** | Alles in einem Durchgang, eine Antwort, PDF und Fotos | Nicht dokumentiert | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz mit Skill-Routing | Übergabe an fremde Ticketsysteme, Posteingang nur für Website-Chat | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Nicht gefunden, Lösungen für IT-Support, Termine, Reklamationen | enneo klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Telefon und Website-Chat, SMS und WhatsApp nur ausgehend | enneo vorn |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Webhooks im Gespräch (GET, POST, PUT) mit JSON-Schema, Logik dahinter baut der Kunde oder Make und n8n | enneo vorn |
-| **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket | Bekannte Anrufer über Rufnummer aus eigener Kontaktliste oder Integration, Legitimation nicht gefunden | enneo vorn |
-| **Voicebot: Stimmen, Sprachen, Outbound** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | 70+ Stimmen, 10+ Sprachen, Outbound, IVR-Navigation, eigener SIP-Carrier | smao vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Selbst betriebene Open-Source-Modelle in Deutschland, ohne OpenAI | smao vorn |
-| **Wo gespeichert wird** | Hetzner, Deutschland, Backups Finnland, beim Kunden möglich | STACKIT und netcup in Deutschland, On-Premises möglich | gleich |
-| **Zertifikate und Unterlagen** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. AVV, TOM, Subunternehmer, SLA öffentlich | Keine eigenen gefunden. AGB, AVV, TOMs, SLA und Subunternehmer im Trust Center öffentlich | gleich |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich, ab 0,35 € je Minute ohne Grundgebühr, Pakete ab 249 € im Monat | smao vorn |
+| Bereich | Thema | enneo | smao | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Telefon und Website-Chat, SMS und WhatsApp nur ausgehend [Funktionen](https://smao.ai/features) [Changelog 1.8.3](https://help.smao.ai/changelog/1-8-3) [Subunternehmer](https://trust.smao.ai/subprocessors) | enneo vorn |
+| Kanäle | **Voicebot: Stimmen, Sprachen, Outbound** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | 70+ Stimmen, 10+ Sprachen, Outbound, IVR-Navigation, eigener SIP-Carrier [Startseite](https://smao.ai) [Funktionen](https://smao.ai/features) [Subunternehmer](https://trust.smao.ai/subprocessors) | smao vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Antwortentwurf von Hand im Dashboard-Chat, automatische Bearbeitung eingehender Mails nicht gefunden [Funktionen](https://smao.ai/features) [Assistenten-Chat](https://help.smao.ai/help/more-features/assistenten-chat) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen und Anhänge in Mails** | Alles in einem Durchgang, eine Antwort, PDF und Fotos | Nicht dokumentiert [Funktionen](https://smao.ai/features) [Assistenten-Chat](https://help.smao.ai/help/more-features/assistenten-chat) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Nicht gefunden, Lösungen für IT-Support, Termine, Reklamationen [Startseite](https://smao.ai) | enneo klar vorn |
+| KI & Automatisierung | **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket | Bekannte Anrufer über Rufnummer aus eigener Kontaktliste oder Integration, Legitimation nicht gefunden [Hilfe: Kontakte](https://help.smao.ai/help/knowledge/kontakte) | enneo vorn |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Selbst betriebene Open-Source-Modelle in Deutschland, ohne OpenAI [Sicherheit](https://smao.ai/architecture) [Subunternehmer](https://trust.smao.ai/subprocessors) | smao vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz mit Skill-Routing | Übergabe an fremde Ticketsysteme, Posteingang nur für Website-Chat [Integrationen](https://smao.ai/integrations) [Changelog 1.8.6](https://help.smao.ai/changelog/1-8-6) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik | Webhooks im Gespräch (GET, POST, PUT) mit JSON-Schema, Logik dahinter baut der Kunde oder Make und n8n [Hilfe: Tools](https://help.smao.ai/help/verhalten/tools) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Deutschland, Backups Finnland, beim Kunden möglich | STACKIT und netcup in Deutschland, On-Premises möglich [Sicherheit](https://smao.ai/architecture) [Subunternehmer](https://trust.smao.ai/subprocessors) | gleich |
+| Daten & Sicherheit | **Zertifikate und Unterlagen** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. AVV, TOM, Subunternehmer, SLA öffentlich | Keine eigenen gefunden. AGB, AVV, TOMs, SLA und Subunternehmer im Trust Center öffentlich [Trust Center](https://trust.smao.ai/resources) | gleich |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich, ab 0,35 € je Minute ohne Grundgebühr, Pakete ab 249 € im Monat [Preise](https://smao.ai/pricing) | smao vorn |
 
 ## Wo smao schwächer ist
 
@@ -97,6 +99,15 @@ Bisher keine internen Erkenntnisse in Attio (Stand 06.11.2026).
 
 Gegen smao gewinnen wir nicht über Preis, Einstieg, Stimmenauswahl oder selbst betriebene Sprachmodelle. Gewinnen können wir, wo Anrufe, Mails und Briefe in einem System bis zur Buchung im Zielsystem erledigt werden sollen, mit Arbeitsplatz für das Team und fertigen Abläufen für Versorger. Wo nur ein souveräner Telefonassistent für Erreichbarkeit gesucht wird, ist smao oft die schnellere und günstigere Wahl.
 
+## Direktlinks
+
+- [Doku](https://help.smao.ai)
+- [API](https://docs.smao.ai/docs/public)
+- [Trust Center](https://trust.smao.ai)
+- [Preise](https://smao.ai/pricing)
+- [Release Notes](https://help.smao.ai/changelog)
+- [Status](https://status.smao.ai)
+
 ## Quellen
 
 - [smao Startseite](https://smao.ai)
@@ -124,3 +135,5 @@ Gegen smao gewinnen wir nicht über Preis, Einstieg, Stimmenauswahl oder selbst 
 - [Fallstudie Selecta](https://smao.ai/case-study/selecta-stoerungsmeldungen)
 - [Fallstudie netable](https://smao.ai/case-study/netable-it-support)
 - [Nutzerbewertungen OMR](https://omr.com/de/reviews/product/smao)
+- [Helpcenter](https://help.smao.ai)
+- [Systemstatus](https://status.smao.ai)

@@ -1,6 +1,6 @@
 ---
 slug: "moin-ai"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI chatbot and AI agents for the website, from Hamburg"
 ---
 
@@ -8,7 +8,9 @@ kurz: "AI chatbot and AI agents for the website, from Hamburg"
 
 | | | |
 |---|---|---|
-| Firma | **Hamburg, around 30 employees** | knowhere GmbH, founded 2015, brand moinAI since 2020, HRB 135686 Hamburg, investors not disclosed |
+| Firma | **Hamburg, around 30 employees** | knowhere GmbH, HRB 135686 Hamburg, investors not disclosed |
+| Gegründet | **March 2015** | knowhere GmbH, started in the SpinLab accelerator in Leipzig, first office in Hamburg |
+| Ursprung | **Chatbots since 2016** | Started as an AI travel app, switched fully to chatbots in 2016, chatbot agency from 2017, SaaS under the name moinAI since 2020 |
 | Preise | **from €750 per month** | Business €750, Growth €1,350, Professional €2,500 with annual billing, unlimited conversations, no setup fee. WhatsApp and Voice on request |
 | Hosting | **Germany, OVH** | Data at OVH in Germany, language models via Azure West Europe or EU only (OVH), no on-premises option mentioned |
 | Referenzen | **TEAG, Octopus Energy** | Over 150 customers according to the website, plus HanseMerkur, S Broker, American Express, ImmoScout24, Geberit. No certifications mentioned |
@@ -31,13 +33,13 @@ moinAI is a website chatbot provider that now calls itself an "Agentic AI Plattf
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
 | **Email through to posting** | Fewer agents needed for written correspondence, emails get resolved instead of just forwarded | "With us, the AI also takes the email all the way into the target system, not just the chat." |
-| **Own agent workspace** | No additional ticketing system to license and maintain | "With us you don't need a second ticketing system next to it. The workspace for your agents is included." |
-| **All channels in one system** | One provider for chat, email, letter and phone instead of chat provider plus telephony partner | "Email, letter, chat, WhatsApp and phone all run in one system with us, voicebot included." |
-| **Multiple requests and attachments** | One reply instead of several follow-up questions, meter photo without manual typing | "Meter reading, new IBAN and installment in one email: we handle it in one pass, and the AI reads the attached photo too." |
-| **Data protection documents public** | Privacy review without follow-up requests and waiting time | "Your data protection team can read our DPA, TOMs, subprocessors and SLA publicly today." |
+| **Agent workspace included** | No additional ticketing system to license and maintain | "The workspace for your agents is included with us. You don't need a second ticketing system." |
+| **All channels in one system** | One provider for chat, email, letter and phone, one contract | "Email, letter, chat, WhatsApp and phone all run in one system with us, voicebot included." |
+| **Multiple requests and attachments** | One reply instead of several follow-up questions, meter photos without manual typing | "Meter reading, new IBAN and installment in one email: we handle it in one pass, and the AI reads the attached photo too." |
+| **Public data protection documents** | Privacy review without follow-up requests and waiting time | "Your data protection team can read our DPA, TOMs, subprocessors and SLA publicly today." |
 
 ## Wo moinAI vorn liegt
 
@@ -49,20 +51,20 @@ moinAI is a website chatbot provider that now calls itself an "Agentic AI Plattf
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | moinAI | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | Request, customer, verification, posting in the target system, reply, fully automated if desired | Only the handover of the chat by email to a ticketing system is documented | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Attachments and photos** | PDFs and photos, e.g. meter photo | File upload in chat, analysis of attachments not documented | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Own live chat, otherwise handover to Zendesk, Salesforce, Freshdesk | enneo klar vorn |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Website and app chat, WhatsApp and Voice on request | enneo vorn |
-| **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Voice via partner Aristech, on request | enneo vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details with plausibility checks | At TEAG installment, meter reading, SEPA mandate in chat, industry templates | gleich |
-| **Connecting target systems** | Integrations as code, API, MCP, RPA for legacy systems | AI actions via webhooks and API, SAP at TEAG. Number of process integrations limited per plan | je nach Fall |
-| **Where data is stored** | Hetzner in Germany, on-premises possible | OVH in Germany, language models Azure West Europe or EU, cloud only | gleich |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA by email on request, subprocessors not found | enneo vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | None mentioned | gleich |
-| **Price and entry** | Package pricing per ticket and per voice minute (pricing model 2.2) | From €750 per month, unlimited conversations | je nach Fall |
+| Area | Topic | enneo | moinAI | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Website and app chat, WhatsApp and Voice on request [Pricing](https://www.moin.ai/preise) | enneo vorn |
+| Kanäle | **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Voice via partner Aristech, on request [Pricing EN](https://www.moin.ai/en/pricing) | enneo vorn |
+| KI & Automatisierung | **AI handling of emails** | Request, customer, verification, posting in the target system, reply, fully automated if desired | Only the handover of the chat by email to a ticketing system is documented [Email takeover](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Pricing EN](https://www.moin.ai/en/pricing) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Email takeover](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Product overview](https://www.moin.ai/en/produktubersicht) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos** | PDFs and photos, e.g. meter photo | File upload in chat, analysis of attachments not documented [Product overview](https://www.moin.ai/en/produktubersicht) [Features](https://www.moin.ai/en/features) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details with plausibility checks | At TEAG installment, meter reading, SEPA mandate in chat, industry templates [TEAG case study](https://moin.ai/en/case-studies/case-study-teag-chatbot) [Energy industry](https://www.moin.ai/en/industries/chatbots-for-energy-companies) | gleich |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Own live chat, otherwise handover to Zendesk, Salesforce, Freshdesk [Service desks](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Features](https://www.moin.ai/en/features) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Connecting target systems** | Integrations as code, API, MCP, RPA for legacy systems | AI actions via webhooks and API, SAP at TEAG. Number of process integrations limited per plan [Integrations](https://helpcenter.moin.ai/integrationen) [TEAG case study](https://moin.ai/en/case-studies/case-study-teag-chatbot) [Pricing](https://www.moin.ai/preise) | je nach Fall |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises possible | OVH in Germany, language models Azure West Europe or EU, cloud only [Pricing EN](https://www.moin.ai/en/pricing) | gleich |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA by email on request, subprocessors not found [GDPR page](https://www.moin.ai/chatbots-dsgvo) [Help center privacy](https://helpcenter.moin.ai/datenschutz-bei-moinai) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | None mentioned [GDPR page](https://www.moin.ai/chatbots-dsgvo) [Technology](https://www.moin.ai/technologie) | gleich |
+| Preis & Vertrag | **Price and entry** | Package pricing per ticket and per voice minute (pricing model 2.2) | From €750 per month, unlimited conversations [Pricing](https://www.moin.ai/preise) | je nach Fall |
 
 ## Wo moinAI schwächer ist
 
@@ -92,6 +94,13 @@ moinAI is a website chatbot provider that now calls itself an "Agentic AI Plattf
 
 We win against moinAI where there is a lot of written correspondence and the customer wants email, letter, phone and agent workspace from a single source. Where a utility mainly wants an inexpensive, quick-start website chat with self-service for installments and meter readings, moinAI is well positioned with its public pricing and the TEAG reference. There, it's worth asking who handles emails and handovers afterward.
 
+## Direktlinks
+
+- [Doku](https://helpcenter.moin.ai)
+- [Preise](https://www.moin.ai/preise)
+- [Release Notes](https://www.moin.ai/resources/produktnewsletter)
+- [Status](https://status.moin.ai)
+
 ## Quellen
 
 - [Homepage](https://www.moin.ai)
@@ -112,3 +121,4 @@ We win against moinAI where there is a lot of written correspondence and the cus
 - [TEAG case study](https://moin.ai/en/case-studies/case-study-teag-chatbot)
 - [Energy utilities industry page](https://www.moin.ai/en/industries/chatbots-for-energy-companies)
 - [OMR user reviews](https://omr.com/de/reviews/product/moinai)
+- [Status page](https://status.moin.ai)

@@ -1,6 +1,6 @@
 ---
 slug: "aircall"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Cloud phone system from Paris with AI agents for calls, SMS and WhatsApp"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Cloud phone system from Paris with AI agents for calls, SMS and WhatsApp"
 | | | |
 |---|---|---|
 | Firma | **Paris and New York** | Aircall, founded in Paris in 2014, according to Aircall 24,000+ customers and over USD 250m in annual recurring revenue (ARR). About USD 226m raised, valued at USD 1bn in 2021. Office in Berlin. Co-founder Olivier Pailhès back as CEO since Oct 29, 2026 |
+| Gegründet | **2014, Paris** | By Olivier Pailhès, Jonathan Anguelov, Pierre-Baptiste Béchu and Xavier Durand, the idea came out of the Paris startup studio eFounders |
+| Ursprung | **Phone system since 2014** | Set out to make expensive, hard-to-install business telephony simpler. AI came first as AI Assist, the AI Voice Agent voicebot has existed since April 2025 |
 | Preise | **from €30 per license** | Essentials €30, Professional €50 per user per month on an annual contract, minimum 3 licenses. AI Voice Agent billed by minute: 1,000 min for €210, from €0.11 per minute at high volume. AI Assist Pro USD 49 per user |
 | Hosting | **AWS, partly Frankfurt** | For EU accounts, recordings, transcripts and AI insights are stored in Frankfurt. Account data, contacts, call data, SMS and WhatsApp "in most cases" in the US. AI services (Azure, Deepgram, ElevenLabs and others) located in the US according to the list |
 | Zertifikat | **SOC 2 Type II** | Plus CSA STAR Level 1 and HIPAA. On ISO 27001, the security page only says "aligned with", while the info page for AI models lists it as a certification. No proof is public |
@@ -31,13 +33,13 @@ Aircall is first and foremost a cloud phone system for small and mid-sized teams
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI all the way to the booking** | Fewer agents needed for written correspondence, because emails are handled without manual work | "Aircall answers your calls. With us, the AI also handles your emails all the way into the target system." |
-| **Ticketing and telephony in one system** | No second system to license and maintain for tickets and email | "With us, you don't need a helpdesk on top of telephony. Everything runs in one agent workspace." |
-| **Multiple requests and attachments** | One complete reply instead of follow-up questions and follow-up tickets | "Meter reading, IBAN and meter photo in one email: we handle them in one pass with one reply." |
-| **Storage in Germany** | Data protection review without questions about US storage locations for contacts and messages | "We store data at Hetzner in German data centers, and you can review our DPA, TOM and subprocessors today." |
-| **Ready-made processes for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the most important utility cases ready-made with plausibility checks." |
+| **Email AI all the way to the booking** | Emails get handled without manual work, fewer agents needed for written correspondence | "Aircall answers your calls. With us, the AI also handles your emails all the way into the target system." |
+| **Ticketing and telephony in one system** | One system and one contract for tickets, email and telephony | "With us, you don't need a helpdesk on top of telephony, everything runs in one agent workspace." |
+| **Multiple requests and attachments in one pass** | The end customer gets one complete reply, follow-up questions and follow-up tickets go away | "Meter reading, IBAN and meter photo in one email: we handle it in one pass with one reply." |
+| **Storage in Germany** | Data protection review without questions about storage locations, all documents available upfront | "We store data at Hetzner in German data centers, and you can review our DPA, TOMs and subprocessors today." |
+| **Ready-made processes for utilities** | Meter reading, installment and bank details go live faster, only the ERP integration gets built | "We bring the most important utility cases ready-made, with plausibility checks." |
 
 ## Wo Aircall vorn liegt
 
@@ -49,20 +51,20 @@ Aircall is first and foremost a cloud phone system for small and mid-sized teams
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Aircall | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | An AI reads, identifies the customer, books and replies, also fully automated | Not found, only an AI draft of a follow-up email after a call | enneo klar vorn |
-| **Multiple requests and attachments** | Everything in one pass, reads PDFs and photos | Not documented | enneo vorn |
-| **Letters as a channel** | Dedicated channel, same AI as email | Not found | enneo klar vorn |
-| **Ticketing agent workspace** | Ticketing, inbox, AI and telephony in one system | No ticketing of its own, tickets via integrations with Zendesk and others | enneo klar vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Not found, only reference is a US water utility | enneo vorn |
-| **Where data is stored** | Hetzner, Germany, on-premises possible | AWS: recordings and transcripts in Frankfurt, contacts, call data and messages mostly in the US | enneo klar vorn |
-| **AI agents in SMS and WhatsApp** | WhatsApp and chat as channels with AI agents | AI Messaging Agents for SMS and WhatsApp since 05/2026, billed per conversation | gleich |
-| **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | AI Voice Agent since 04/2025, 38 languages, templates, voice services from the US | je nach Fall |
-| **Phone system and dialer** | Own telephony, customer's SIP line, no dialer | Cloud phone system with Power Dialer, outbound campaigns, Local Presence | Aircall klar vorn |
-| **Ready-made integrations** | API, MCP, code tools per customer | 250+ integrations, API, webhooks | Aircall vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | SOC 2 Type II, CSA STAR Level 1, HIPAA, ISO 27001 contradictory | Aircall vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Public: €30 to €50 per license, AI minutes and conversations extra | je nach Fall |
+| Area | Topic | enneo | Aircall | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Letter as a channel** | Own channel, same AI as email | Not found [Homepage](https://aircall.io/de/) [Integrations](https://aircall.io/integrations/) | enneo klar vorn |
+| Kanäle | **AI agents in SMS and WhatsApp** | WhatsApp and chat as channels with AI agents | AI Messaging Agents for SMS and WhatsApp since 05/2026, billed per conversation [Messaging Agents](https://aircall.io/blog/news/aircall-launches-ai-messaging-agents/) [Pricing page](https://aircall.io/pricing/) | gleich |
+| Kanäle | **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | AI Voice Agent since 04/2025, 38 languages, self-service setup, speech services from the USA [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) [2025 launch](https://aircall.io/blog/news/aircall-launches-ai-voice-agent/) [Subprocessors](https://aircall.io/subprocessorlist/) | je nach Fall |
+| Kanäle | **Phone system and dialer** | Own telephony, customer's SIP trunk, no dialer | Cloud phone system with Power Dialer, outbound campaigns, Local Presence [Pricing page](https://aircall.io/pricing/) [Insider June](https://aircall.io/blog/news/aircall-insider-june-2026/) [Insider Sept](https://aircall.io/de/blog/news/aircall-insider-sept-2026/) | Aircall klar vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | Not found, only an AI draft of a follow-up email after a call [Help: email draft](https://support.aircall.io/en-gb/articles/27213193770141) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests and attachments** | Everything in one pass, reads PDFs and photos | Not documented, agents work with calls, SMS and WhatsApp [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) [Messaging Agents](https://aircall.io/blog/news/aircall-launches-ai-messaging-agents/) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Not found, only reference is a US water utility using a voicebot for after-hours calls [SJWD case study](https://aircall.io/customer-stories/sjwd/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Ticketing agent workspace** | Ticketing, inbox, AI and telephony in one system | No own ticketing, tickets via integration with Zendesk and others [Integrations](https://aircall.io/integrations/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Ready-made integrations** | API, MCP, code tools per customer | 250+ integrations, API, webhooks [Integrations](https://aircall.io/integrations/) [Company facts](https://aircall.io/en-au/llm-info/) | Aircall vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, Germany, on-premises possible | AWS: recordings and transcripts in Frankfurt, contacts, call data and messages mostly in the US [Data hosting](https://aircall.io/regional-data-hosting/) | enneo klar vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, under audit. Hetzner ISO 27001 | SOC 2 Type II, CSA STAR Level 1, HIPAA, ISO 27001 contradictory [Security](https://aircall.io/de/sicherheit/) [Company facts](https://aircall.io/en-au/llm-info/) | Aircall vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Public: €30 to €50 per license, AI minutes and conversations extra [Pricing page](https://aircall.io/pricing/) [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) | je nach Fall |
 
 ## Wo Aircall schwächer ist
 
@@ -92,13 +94,26 @@ Aircall is first and foremost a cloud phone system for small and mid-sized teams
 
 Against Aircall, we don't win on the dialer, usability, ready-made integrations or the entry price of the phone system. We can win wherever written correspondence comes in: email and letters with multiple requests and attachments all the way to the booking, ticketing and telephony in one system, storage in Germany. Where Aircall is already in place, enneo is the conversation alongside it, and at the end of the contract our telephony can replace Aircall.
 
+## Direktlinks
+
+- [Doku](https://support.aircall.io/en-gb)
+- [API](https://developers.aircall.io/api-references)
+- [Trust Center](https://aircall.io/security/)
+- [Preise](https://aircall.io/pricing/)
+- [Release Notes](https://support.aircall.io/en-gb/sections/29441424037405)
+- [Status](https://status.aircall.com/)
+
 ## Quellen
 
 - [Homepage](https://aircall.io)
+- [Founders](https://aircall.io/press-room/founders)
+- [Integrations](https://aircall.io/integrations/)
+- [Help: AI draft for follow-up emails](https://support.aircall.io/en-gb/articles/27213193770141)
+- [Case study water utility SJWD](https://aircall.io/customer-stories/sjwd/)
 - [Pricing](https://aircall.io/pricing/)
 - [Official company facts](https://aircall.io/en-au/llm-info/)
 - [Security](https://aircall.io/de/sicherheit/)
-- [Trust](https://aircall.io/trust/)
+- [Trust](https://aircall.io/security/)
 - [Regional data hosting](https://aircall.io/regional-data-hosting/)
 - [Subprocessors](https://aircall.io/subprocessorlist/)
 - [AI Voice Agent](https://aircall.io/de/products/ai/voice-agent/)

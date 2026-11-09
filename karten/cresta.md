@@ -4,7 +4,7 @@ slug: "cresta"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://cresta.com"
 kurz: "US-Plattform für KI im Contact Center, stark bei Telefon und Coaching"
@@ -15,6 +15,8 @@ kurz: "US-Plattform für KI im Contact Center, stark bei Telefon und Coaching"
 | | | |
 |---|---|---|
 | Firma | **Sunnyvale, 500+ MA** | Cresta Intelligence Inc., 2017 aus dem Stanford AI Lab gegründet, über 280 Mio. USD von a16z, Sequoia, Greylock, Tiger Global und QIA. Cresta GmbH in Berlin ist Vertreter für EWR und Schweiz |
+| Gegründet | **2017 in Stanford** | Aus dem Stanford AI Lab, Gründer Sebastian Thrun, Zayd Enam und Tim Shi |
+| Ursprung | **von Anfang an KI** | Als KI-Firma aus dem Forschungslabor gegründet. Womit das erste Produkt startete, nennt Cresta nicht, heute ist Live-Unterstützung von Mitarbeitenden der Kern |
 | Preise | **nicht öffentlich** | Einziger öffentlicher Preis: Agent Assist über AWS Marketplace, 150.000 USD im Jahr für 100.000 Anrufe oder 125.000 Chats. Deputy Agent erfolgsbasiert auf Anfrage |
 | Hosting | **Server in den USA** | Laut Datenschutzerklärung stehen die Server in den USA. Subunternehmer u. a. Google Cloud, OpenAI, Anthropic, Deepgram, ElevenLabs. EU-Hosting nicht gefunden |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu laut Trust Center ISO 27701, ISO 42001, PCI DSS, HIPAA, TISAX und AIUC-1 |
@@ -37,13 +39,13 @@ Cresta kommt aus der Echtzeit-Unterstützung von Mitarbeitenden am Telefon: Hinw
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail vollautomatisch statt Entwurf** | Weniger Mitarbeitende für Schriftverkehr, weil Fälle ohne Handgriff abgeschlossen werden | „Bei uns schreibt die KI nicht nur einen Entwurf, sie erledigt den Fall bis zur Buchung und antwortet selbst.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Speicherung in Deutschland** | Kein Datentransfer in die USA für Ticketdaten, Datenschutzprüfung einfacher | „Ihre Ticketdaten liegen bei uns bei Hetzner in Deutschland, auf Wunsch bei Ihnen im Haus.“ |
-| **Eigener Arbeitsplatz im Produkt** | Kein zweites System lizenzieren und pflegen, wenn kein großes Contact-Center-System im Haus ist | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **E-Mails vollautomatisch erledigt** | Fälle werden ohne Handgriff abgeschlossen, weniger Mitarbeitende für Schriftverkehr | „Bei uns schreibt die KI nicht nur einen Entwurf, sie erledigt den Fall bis zur Buchung und antwortet selbst.“ |
+| **Mehrere Anliegen in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, keine Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Speicherung in Deutschland** | Ticketdaten bleiben in Deutschland, die Datenschutzprüfung wird einfacher | „Ihre Ticketdaten liegen bei uns bei Hetzner in Deutschland, auf Wunsch bei Ihnen im Haus.“ |
+| **Eigener Arbeitsplatz im Produkt** | Ein System mit einem Vertrag, auch ohne großes Contact-Center-System im Haus | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Cresta vorn liegt
 
@@ -55,20 +57,20 @@ Cresta kommt aus der Echtzeit-Unterstützung von Mitarbeitenden am Telefon: Hinw
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Cresta | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Antwortentwürfe für Mitarbeitende seit 08/2025, autonome Mail-Bearbeitung auf der Produktseite nicht beschrieben | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Für E-Mail nicht dokumentiert, Deputy Agent kann laut Cresta bei Dokumenten in einer Warteschlange starten | enneo vorn |
-| **Eigener Arbeitsplatz** | Ticket-Arbeitsplatz, Postfach, Skill-Routing in einem System | Setzt auf vorhandenes Contact-Center-System auf, eigener Ticket-Arbeitsplatz nicht gefunden | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Keine Energie-Referenz gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | Server in den USA, EU-Hosting nicht gefunden | enneo klar vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Conductor in natürlicher Sprache, Tests gegen synthetische Kunden, Fehler werden zu Testfällen | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Echtzeit-Hinweise, Wissen, Coaching, Übersetzung, Kernprodukt | Cresta klar vorn |
-| **Analyse und Qualität** | Scorecards, manuell oder automatisch | Automatische Bewertung aller Gespräche, AI Analyst | Cresta vorn |
-| **Voicebot** | OpenAI (USA) oder Deepslate (EU) | 30+ Sprachen inkl. Deutsch, Sprachdienste u. a. Deepgram, ElevenLabs, Cartesia | Cresta vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2, PCI DSS, HIPAA, TISAX | Cresta klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Agent Assist laut AWS Marketplace ab 150.000 USD im Jahr | je nach Fall |
+| Bereich | Thema | enneo | Cresta | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | OpenAI (USA) oder Deepslate (EU) | 30+ Sprachen inkl. Deutsch, Sprachdienste u. a. Deepgram, ElevenLabs, Cartesia [AI Agent](https://cresta.com/ai-agent) [Trust Center](https://trust.cresta.com) | Cresta vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Antwortentwürfe für Mitarbeitende seit 08/2025, autonome Mail-Bearbeitung auf der Produktseite nicht beschrieben [E-Mail-Blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) [AI Agent](https://cresta.com/ai-agent) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [E-Mail-Blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Für E-Mail nicht dokumentiert, Deputy Agent kann laut Cresta bei Dokumenten in einer Warteschlange starten [E-Mail-Blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) [Deputy Agent](https://cresta.com/deputy-agent) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Keine Energie-Referenz gefunden [Infos für KI](https://cresta.com/llm-info) [Versicherungen](https://cresta.com/insurance) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Conductor in natürlicher Sprache, Tests gegen synthetische Kunden, Fehler werden zu Testfällen [AI Agent](https://cresta.com/ai-agent) | gleich |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Echtzeit-Hinweise, Wissen, Übersetzung, Coaching als eigenes Produkt, Kernprodukt [Infos für KI](https://cresta.com/llm-info) | Cresta klar vorn |
+| KI & Automatisierung | **Analyse und Qualität** | Scorecards, manuell oder automatisch | Automatische Bewertung aller Gespräche, AI Analyst [Infos für KI](https://cresta.com/llm-info) | Cresta vorn |
+| Arbeitsplatz & Anbindungen | **Eigener Arbeitsplatz** | Ticket-Arbeitsplatz, Postfach, Skill-Routing in einem System | Setzt auf vorhandenes Contact-Center-System auf, eigener Ticket-Arbeitsplatz nicht gefunden [Infos für KI](https://cresta.com/llm-info) | je nach Fall |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | Server in den USA, EU-Hosting nicht gefunden [Datenschutz](https://cresta.com/legal/privacy-policy) [Trust Center](https://trust.cresta.com) | enneo klar vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2, PCI DSS, HIPAA, TISAX [Trust Center](https://trust.cresta.com) | Cresta klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Agent Assist laut AWS Marketplace ab 150.000 USD im Jahr [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-lmdwown6xoo6q) | je nach Fall |
 
 ## Wo Cresta schwächer ist
 
@@ -97,6 +99,12 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Cresta gewinnen wir nicht bei Live-Unterstützung am Telefon, Gesprächsanalyse oder Zertifikaten, dort ist Cresta tiefer und größer. Gewinnen können wir bei Kunden im DACH-Raum, die viel Schriftverkehr vollautomatisch erledigen wollen, ihre Daten in Deutschland brauchen und Versorger-Abläufe fertig haben möchten. Wo Cresta schon auf Genesys oder NICE die Mitarbeitenden unterstützt, ist enneo für E-Mail daneben das bessere Gespräch als ein Komplettwechsel.
 
+## Direktlinks
+
+- [Trust Center](https://trust.cresta.com)
+- [Preise](https://aws.amazon.com/marketplace/pp/prodview-lmdwown6xoo6q)
+- [Status](https://status.cresta.com/)
+
 ## Quellen
 
 - [Cresta Startseite](https://cresta.com)
@@ -116,4 +124,5 @@ Gegen Cresta gewinnen wir nicht bei Live-Unterstützung am Telefon, Gesprächsan
 - [Stellenanzeige Head of EMEA](https://builtinlondon.uk/job/head-emea/4763840)
 - [Kanalübersicht SoftwareOne](https://platform.softwareone.com/product/cresta-ai-agent/PCP-6959-8699)
 - [Nutzerstimmen G2, zusammengefasst](https://www.eesel.ai/blog/cresta-review)
+- [Statusseite](https://status.cresta.com/)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

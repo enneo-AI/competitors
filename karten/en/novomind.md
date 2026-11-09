@@ -1,6 +1,6 @@
 ---
 slug: "novomind"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Contact center software from Hamburg with AI bots for email, chat and phone"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Contact center software from Hamburg with AI bots for email, chat and pho
 | | | |
 |---|---|---|
 | Firma | **Hamburg, 500+ employees** | novomind AG, owner-managed, over 25 years in the market, over 250 customers. Also sells shop and product data software |
+| Gegründet | **2000 in Hamburg** | Founder Peter Samuelsen, CEO until the end of 2021, then majority shareholder (as of the 2021 press release) |
+| Ursprung | **Internet automation since 2000** | According to novomind, started with avatars and dialog recognition for automation on the internet, from there software for customer service and online retail, today AI agents in iAGENT |
 | Lizenz | **not public** | According to the docs, perpetual usage rights, prices on request only |
 | Hosting | **Frankfurt, own infrastructure** | Cloud in German data centers, hybrid or on-premises on request |
 | Zertifikat | **ISO 27001, ISO 22301, TISAX** | Certifier and validity period not stated on the website |
@@ -30,11 +32,11 @@ novomind iAGENT is a contact center system with its own agent workspace for all 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Reading attachments and photos** | Emails with a meter photo or PDF don't get stuck with agents, less manual work in written correspondence | "Our AI reads the meter photo in the same pass. At novomind, nothing on this is documented." |
+| **Reads attachments and photos too** | Emails with a meter photo or PDF run through automatically, less manual work in written correspondence | "Our AI reads the meter photo in the same pass. At novomind, nothing on this is documented." |
 | **AI reasoning visible** | Business units and audit can check decisions before go-live, lower risk of wrong postings | "With us, you see the resolution plan, detected values and a preview without posting before anything goes into the system." |
-| **Language models and data protection documents disclosed** | Privacy review without follow-up requests, because DPA, TOMs and subprocessors are available up front | "Our DPA, TOMs and subprocessors are public, and we tell you which language models run." |
+| **Open about models and data protection** | Privacy review without follow-up requests, because DPA, TOMs and subprocessors are available up front | "Our DPA, TOMs and subprocessors are public, and we tell you which language models run." |
 | **Agents in plain language** | Business units describe processes in their own words and check them with test cases before they go live | "You describe the agent in sentences, change it via chat and test it with real cases." |
 
 ## Wo novomind vorn liegt
@@ -47,20 +49,20 @@ novomind iAGENT is a contact center system with its own agent workspace for all 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | novomind | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | Detect request and customer, verify, post in the target system, reply, fully automated if desired | Mailbot classifies and replies fully automatically. Posting in the target system only mentioned as an example for the Mailbot, described for the Voicebot | je nach Fall |
-| **Multiple requests in one email** | One resolution plan, all requests in one pass, one reply (since October 2026) | Mailbot splits the email into topic blocks and answers them automatically (described since February 2025) | gleich |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented | enneo vorn |
-| **Understanding the AI's reasoning** | Resolution plan, detected values, preview without posting | Not documented | enneo vorn |
-| **Building AI agents** | Describe in plain language, change via chat with Neo, test cases | No-code Agent Builder with drag and drop, own small language model trainable | je nach Fall |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP connection per customer | Bots for installment, meter reading, move-in/move-out and SEPA mandate advertised, scope in the product not documented | je nach Fall |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Plus SMS, fax, video chat and Microsoft Teams | novomind vorn |
-| **Voicebot** | Own telephony or SIP trunk, OpenAI or Deepslate | In the product, with authentication and posting via CRM or ERP, voice provider not named | gleich |
-| **Language models and data protection documents** | US providers by default, EU models in the DPA, DPA, TOMs, subprocessors public | Models not named, DPA not found | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises at large volumes | Own infrastructure in Frankfurt, hybrid or on-premises | novomind vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | ISO 27001, ISO 22301, TISAX | novomind klar vorn |
-| **Management and quality** | Scorecards, no live dashboard | QA cockpit with real-time KPIs, supervisor, analytics | novomind vorn |
+| Area | Topic | enneo | novomind | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Plus SMS, fax, video chat and Microsoft Teams [iAGENT](https://www.novomind.com/de/customer-service/iagent/) | novomind vorn |
+| Kanäle | **Voicebot** | Own telephony or SIP trunk, OpenAI or Deepslate | In the product, with authentication and posting via CRM or ERP, voice provider not named [Voicebot](https://www.novomind.com/en/customer-service/iagent/voicebot/) | gleich |
+| KI & Automatisierung | **AI handling of emails** | Detect request and customer, verify, post in the target system, reply, fully automated if desired | Mailbot classifies and replies fully automatically. Posting in the target system only mentioned as an example for the Mailbot, described for the Voicebot [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [iAGENT Mail](https://www.novomind.com/de/customer-service/iagent/mail/) [Voicebot](https://www.novomind.com/en/customer-service/iagent/voicebot/) | je nach Fall |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, all requests in one pass, one reply (since October 2026) | Mailbot splits the email into topic blocks and answers them automatically (described since February 2025) [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) | gleich |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [iAGENT Mail](https://www.novomind.com/de/customer-service/iagent/mail/) | enneo vorn |
+| KI & Automatisierung | **Understanding the AI's reasoning** | Resolution plan, detected values, preview without posting | Not documented [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | enneo vorn |
+| KI & Automatisierung | **Building AI agents** | Describe in plain language, change via chat with Neo, test cases | No-code Agent Builder with drag and drop, own small language model trainable [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | je nach Fall |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP connection per customer | Bots for installment, meter reading, move-in/move-out and SEPA mandate advertised, scope in the product not documented [Energy industry](https://www.novomind.com/de/branche/energie/) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Management and quality** | Scorecards, no live dashboard | QA cockpit with real-time KPIs, supervisor, analytics [CCW 2026](https://www.novomind.com/de/presse/ccw-2026-ai-platform-ai-agents/) [Customer service](https://www.novomind.com/de/customer-service/) | novomind vorn |
+| Daten & Sicherheit | **Language models and data protection documents** | US providers by default, EU models in the DPA, DPA, TOMs, subprocessors public | Models not named, DPA not found [Fact sheet](https://www.novomind.com/de/grounding_de/) [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | enneo vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises at large volumes | Own infrastructure in Frankfurt, hybrid or on-premises [Fact sheet](https://www.novomind.com/de/grounding_de/) [iAGENT EN](https://www.novomind.com/en/customer-service/iagent/) | novomind vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | ISO 27001, ISO 22301, TISAX [About us](https://www.novomind.com/de/ueber-uns/) | novomind klar vorn |
 
 ## Wo novomind schwächer ist
 
@@ -90,6 +92,11 @@ novomind iAGENT is a contact center system with its own agent workspace for all 
 
 novomind is a serious competitor: own agent workspace, bots for all channels, certifications and energy references. We can win on attachments and photos, transparent AI decisions and open information about language models. On channel breadth, certifications and references, novomind leads, and we shouldn't argue there.
 
+## Direktlinks
+
+- [Doku](https://iagent-doc.novomind.com/en/welcome/)
+- [Release Notes](https://iagent-doc.novomind.com/en/release-notes-en/)
+
 ## Quellen
 
 - [Homepage (English)](https://www.novomind.com/en/)
@@ -110,3 +117,7 @@ novomind is a serious competitor: own agent workspace, bots for all channels, ce
 - [iAGENT docs and license](https://iagent-doc.novomind.com/en/introduction/)
 - [Release notes](https://iagent-doc.novomind.com/en/release-notes-en/)
 - [User reviews](https://omr.com/de/reviews/product/novomind-iagent)
+- [iAGENT (English, hosting)](https://www.novomind.com/en/customer-service/iagent/)
+- [AI Platform (English, Agent Builder)](https://www.novomind.com/en/ai-data/ai-platform/)
+- [Customer service and real-time reporting](https://www.novomind.com/de/customer-service/)
+- [Founder steps down as CEO (2021)](https://www.novomind.com/en/press/novomind-founder-peter-samuelsen-resigns-as-ceo/)

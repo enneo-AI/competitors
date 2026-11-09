@@ -1,6 +1,6 @@
 ---
 slug: "freshworks"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Low-cost US helpdesk Freshdesk, AI agent Freddy billed per session"
 ---
 
@@ -9,8 +9,10 @@ kurz: "Low-cost US helpdesk Freshdesk, AI agent Freddy billed per session"
 | | | |
 |---|---|---|
 | Firma | **San Mateo, publicly listed** | Freshworks Inc., according to its own website 74,000+ customers, revenue Q3 2026: USD 245.4m |
+| Gegründet | **2010 in Chennai** | Girish Mathrubootham and Shan Krishnasamy launched Freshdesk on Oct 13, 2010, from a rented meeting room in Chennai, India. Freshworks is now headquartered in San Mateo |
+| Ursprung | **Helpdesk since 2010** | The company started with the helpdesk Freshdesk. The AI Freddy was unveiled in 2018 at the Refresh 18 customer conference, generative AI agents followed in June 2023 |
 | Preise | **€17 / €52 / €84** | Freshdesk Growth / Pro / Enterprise per agent per month, billed annually. AI agent Freddy: 500 sessions free once, then €45 per 100 sessions. Copilot €29 per agent |
-| Hosting | **AWS, EU region selectable** | City not named, region can only be chosen when the account is created. AI via Microsoft Azure OpenAI (US and EU regions) |
+| Hosting | **AWS, EU region selectable** | City not named, region can only be chosen when the account is created. AI via Microsoft Azure OpenAI (US, EU, India and Australia regions) |
 | Zertifikat | **ISO 27001, SOC 2** | Plus ISO 27701, SOC 1 and SOC 3, CSA STAR Level 1. BSI C5 and ISO 42001 not found |
 
 ## Erster Satz
@@ -31,14 +33,14 @@ Freshdesk is a broad, low-cost helpdesk, and the AI agent Freddy is billed per s
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Attachments and photos from the email** | Nobody has to retype meter photos and PDFs anymore | "Our AI reads the meter photo in the attachment and takes over the value." |
-| **Multiple requests, one reply** | Fewer follow-up questions and repeat contacts, one case instead of three | "enneo handles a meter reading, a new IBAN and a new installment in one email in a single pass with one reply." |
-| **Preview without booking** | Less risk from incorrect bookings, no need to build your own safeguards at the API | "You see the solution plan and the extracted values before anything is booked." |
-| **Ready-made workflows for utilities** | Shorter rollout, workflows don't have to be built from scratch | "Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo." |
-| **Phone in the same product** | No partner product with separate billing to buy on top | "Voicebot and telephony are part of the same system as email and chat with us." |
-| **German GmbH, storage in Germany** | Easier approval where a US company is not wanted | "We are a German GmbH and store data at Hetzner in data centers in Germany." |
+| **Reads attachments and photos in emails** | Nobody has to retype meter photos and PDFs anymore | "Our AI reads the meter photo in the attachment and takes over the value." |
+| **Multiple requests in one pass** | Fewer follow-up questions and repeat contacts, one case instead of three | "enneo handles a meter reading, a new IBAN and a new installment in one email in a single pass with one reply." |
+| **Preview before every booking** | Errors show up before the booking, not later in the billing system | "You see the solution plan and the extracted values before anything is booked." |
+| **Ready-made agents for utilities** | Shorter rollout, only the ERP integration is built | "Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo." |
+| **Voicebot in the same product** | One contract and one bill for email, chat and phone | "Voicebot and telephony are part of the same system as email and chat with us." |
+| **German GmbH, storage in Germany** | Faster approval from data protection and procurement | "We are a German GmbH and store data at Hetzner in data centers in Germany." |
 
 ## Wo Freshworks vorn liegt
 
@@ -50,20 +52,20 @@ Freshdesk is a broad, low-cost helpdesk, and the AI agent Freddy is billed per s
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Freshworks | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | Reply from the knowledge base, APIs possible in email workflows, without confirmation before the action | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Attachments and photos in customer emails** | PDFs and photos, e.g. a photo of the meter | Not documented for email. In chat up to 3 files of 25 MB each, one in the web widget | enneo vorn |
-| **Building API integrations** | As code, any format, any logic | No code, REST with JSON or MCP, one authentication per action | enneo vorn |
-| **Testing before booking** | Solution plan, extracted values, preview without booking | Test calls with real values, documentation recommends your own test environment | enneo vorn |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | 50+ ready-made workflows for retail, energy not found | enneo vorn |
-| **Multiple inboxes or brands** | One AI agent per inbox with its own salutation and its own knowledge | One active AI agent per inbox, up to 50 agents per account | gleich |
-| **Voicebot** | Own telephony or the customer's SIP trunk | Phone AI via partners (Synthflow, Squawkvoice). Own voicebot English only according to the documentation | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | AWS, EU region, US company, AI via Azure OpenAI | enneo vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | From €17 per agent, AI €45 per 100 sessions, public | Freshworks vorn |
-| **Channels and help center** | Email, letter, chat, WhatsApp, Telegram, phone, no help center | Plus Instagram, Messenger, LINE, SMS, customer portal | Freshworks vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27701, SOC 1, SOC 2, SOC 3 | Freshworks klar vorn |
+| Area | Topic | enneo | Freshworks | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Own telephony or the customer's SIP trunk | Phone AI via partners (Synthflow, Squawkvoice) with separate billing. Own voicebot English only according to the documentation [Voice AI partners](https://crmsupport.freshworks.com/support/solutions/articles/50000011867-voice-ai-agent-integration-in-freshcaller) [Freshcaller voicebot](https://support.freshcaller.com/support/solutions/articles/50000001662) | enneo vorn |
+| Kanäle | **Channels and help center** | Email, letter, chat, WhatsApp, Telegram, phone, no help center | Plus Instagram, Messenger, LINE and customer portal [Freshdesk Omni](https://www.freshworks.com/freshdesk/omni/) [Email AI agent](https://support.freshdesk.com/en/support/solutions/articles/50000013867) | Freshworks vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | Reply from the knowledge base, APIs possible in email workflows, without confirmation before the action [Email AI agent](https://support.freshdesk.com/en/support/solutions/articles/50000013867) [API actions](https://support.freshdesk.com/support/solutions/articles/50000011661-connect-to-external-systems-using-api-actions) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented, only named as a test case during setup [Email AI agent](https://support.freshdesk.com/en/support/solutions/articles/50000013867) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos in customer emails** | PDFs and photos, e.g. a photo of the meter | Not documented for email. In workflows on channels such as WhatsApp up to 3 files of 25 MB each, one in the web widget [AI workflows](https://support.freshdesk.com/support/solutions/articles/50000011733-workflows-for-ai-agents-in-freshdesk) [Email AI agent](https://support.freshdesk.com/en/support/solutions/articles/50000013867) | enneo vorn |
+| KI & Automatisierung | **Testing before booking** | Solution plan, extracted values, preview without booking | Test calls with real values, documentation recommends your own test environment [API actions](https://support.freshdesk.com/support/solutions/articles/50000011661-connect-to-external-systems-using-api-actions) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | 50+ ready-made workflows, integrations for retail (Shopify, Stripe, PayPal, FedEx), energy not found [Freddy AI Agent](https://www.freshworks.com/freshdesk/omni/freddy-ai-agent/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Building API integrations** | As code, any format, any logic | No code, REST with JSON or MCP, one authentication per action [API actions](https://support.freshdesk.com/support/solutions/articles/50000011661-connect-to-external-systems-using-api-actions) [No-code workflows](https://support.freshdesk.com/support/solutions/articles/50000011782-build-workflows-no-code-agentic-workflows) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Multiple inboxes or brands** | One AI agent per inbox with its own salutation and its own knowledge | One active AI agent per inbox, up to 50 agents per account [Email AI agent](https://support.freshdesk.com/en/support/solutions/articles/50000013867) | gleich |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | AWS, EU region, US company, AI via Azure OpenAI [Data storage](https://support.freshdesk.com/support/solutions/articles/196893-data-storage-and-data-security-in-freshdesk) [Subprocessors](https://www.freshworks.com/privacy/sub-processor/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27701, SOC 1, SOC 2, SOC 3 [Trust Center](https://trust.freshworks.com/) | Freshworks klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | From €17 per agent, AI €45 per 100 sessions, public [Pricing page](https://www.freshworks.com/de/freshdesk/pricing/) | Freshworks vorn |
 
 ## Wo Freshworks schwächer ist
 
@@ -95,6 +97,16 @@ Freshdesk is a broad, low-cost helpdesk, and the AI agent Freddy is billed per s
 
 Against Freshworks, we don't win on price, channels or certifications. We can win where emails with attachments and multiple requests should be resolved all the way to the booking in the target system, especially for energy cases. For teams working on Freshdesk today, it pays to compare on real emails: that is exactly where Freddy is not documented.
 
+## Direktlinks
+
+- [Doku](https://support.freshdesk.com/support/home)
+- [API](https://developers.freshdesk.com/api/)
+- [Community](https://community.freshworks.com/)
+- [Trust Center](https://trust.freshworks.com/)
+- [Preise](https://www.freshworks.com/de/freshdesk/pricing/)
+- [Release Notes](https://www.freshworks.com/freshdesk/omni/product-updates/)
+- [Status](https://status.freshworks.com/)
+
 ## Quellen
 
 - [Freshdesk pricing](https://www.freshworks.com/de/freshdesk/pricing/)
@@ -113,6 +125,11 @@ Against Freshworks, we don't win on price, channels or certifications. We can wi
 - [Voice AI via partners](https://crmsupport.freshworks.com/support/solutions/articles/50000011867-voice-ai-agent-integration-in-freshcaller)
 - [Freshcaller voicebot](https://support.freshcaller.com/support/solutions/articles/50000001662)
 - [About Freshworks](https://www.freshworks.com/company/about/)
-- [Quarterly results Q3 2026](https://www.sec.gov/Archives/edgar/data/0001544522/000154452226000170/q326quarterlyearningsrelea.htm)
+- [Quarterly results Q3 2026](https://www.sec.gov/Archives/edgar/data/1544522/000154452226000170/q326quarterlyearningsrelea.htm)
 - [Freddy for email, press](https://itbrief.co.uk/story/freshworks-expands-freddy-ai-with-email-workflows)
 - [User reviews](https://omr.com/de/reviews/product/freshdesk)
+- [Freshdesk Omni](https://www.freshworks.com/freshdesk/omni/)
+- [Product updates](https://www.freshworks.com/freshdesk/omni/product-updates/)
+- [Founding 2010](https://www.freshworks.com/theworks/company-news/freshworks-golden-birthday-13/)
+- [Freddy 2018, press](https://smallbiztechnology.com/archive/2018/11/have-you-met-freddy-say-hello-to-a-new-ai-engine-set-to-enrich-customer-service.html/)
+- [Generative AI 2023](https://www.freshworks.com/press-releases/freshworks-unveils-new-generative-ai-enhancements-across-product-lines-to-power-greater-business-efficiency)

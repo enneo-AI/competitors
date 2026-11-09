@@ -1,6 +1,6 @@
 ---
 slug: "zendesk"
-stand: "2026-10-28"
+stand: "2026-11-09"
 kurz: "Broad US helpdesk suite, AI billed per resolved case"
 ---
 
@@ -9,8 +9,10 @@ kurz: "Broad US helpdesk suite, AI billed per resolved case"
 | | | |
 |---|---|---|
 | Firma | **San Francisco, private** | Zendesk Inc., owned by H&F and Permira since 2022 |
+| Gegründet | **2007** | In Copenhagen by Mikkel Svane, Morten Primdahl and Alexander Aghassipour |
+| Ursprung | **Customer service software since 2007** | Started as software for customer service. AI agents came in 2024 with the acquisition of Ultimate, today Zendesk calls itself an "AI-first service platform" |
 | Lizenz | **€55 / €115** | Suite Team / Professional per agent per month, Enterprise on request |
-| KI-Abrechnung | **€1.50–2.00** | per resolved case, Copilot +€50 per agent per month |
+| KI-Abrechnung | **€1.50 to 2.00** | per resolved case, Copilot +€50 per agent per month |
 | Hosting | **AWS Frankfurt** | AI agents on Google Cloud, models from OpenAI, Azure, Bedrock |
 
 ## Erster Satz
@@ -29,43 +31,43 @@ Zendesk can do almost everything enneo can, including customer identification an
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
 | **Multiple requests in one pass** | One complete reply instead of several emails in a row, fewer follow-up tickets | "If your customer writes meter reading, IBAN and installment in one email, they get one reply from us, not three." |
 | **Storage with a German provider** | Ticket data stays in Germany with a German company, on-premises if desired | "With us, your ticket data is stored at Hetzner in Germany, or on your own premises if you want." |
-| **Ready-made processes for utilities** | Nobody has to describe meter reading, installment and bank details themselves, faster to production | "We bring the most important utility processes ready-made with plausibility checks, and we build the ERP connection with you." |
+| **Ready-made processes for utilities** | Meter reading, installment and bank details in production faster, without describing them yourself | "We bring the most important utility processes ready-made with plausibility checks, and we build the ERP connection with you." |
 | **AI reasoning visible** | Understand errors and handovers quickly, adjust in a targeted way instead of guessing | "With us, you see the solution plan and the extracted values for every case, as a preview without booking if you want." |
-| **A separate AI agent per inbox** | Multiple brands without compromises on salutation and knowledge, less maintenance effort | "With us, each brand gets its own AI agent with its own salutation and its own knowledge." |
+| **A separate AI agent per inbox** | Each brand with its own salutation and its own knowledge, less maintenance effort | "With us, each brand gets its own AI agent with its own salutation and its own knowledge." |
 
 ## Wo Zendesk vorn liegt
 
-- **Broader product:** Help center with community, channels from Instagram to WeChat, 1,542 apps in the marketplace, custom data objects, task lists, approvals and questions to third parties via email, Slack or Teams directly from the ticket.
+- **Broader product:** Help center with community, channels from Instagram to WeChat, more than 1,800 apps, partners and integrations in the marketplace, custom data objects, task lists, approvals and questions to third parties via email, Slack or Teams directly from the ticket.
 - **Pay only for success:** An AI case only costs money if a language model confirms after the conversation that it was resolved. Handovers to humans cost nothing. That is a strong argument in procurement.
 - **Workforce management and quality:** Workforce management (WFM) and automated scoring of all conversations as a package for €50 per agent per month, plus live dashboards. We have neither.
 - **Certifications:** ISO 27001, 27017, 27018, 27701, 42001 and SOC 2. We have none of our own.
-- **Price and entry:** Licenses from €55 per agent, trial account in a few minutes. One prospect had quotes of around €33–34k for 45 seats from Zendesk or Freshdesk versus €61k from us.
+- **Price and entry:** Licenses from €55 per agent, trial account in a few minutes. One prospect had quotes of around €33k to 34k for 45 seats from Zendesk or Freshdesk versus €61k from us.
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Zendesk | Einordnung |
-|---|---|---|---|
-| **Multiple requests in one email** | Everything in one pass, one reply, also fully automated | One process per reply email, the others one after another in further emails | enneo klar vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | AWS Frankfurt, AI agents on Google Cloud, US company | enneo vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Describe processes yourself, ERP connection per customer | enneo vorn |
-| **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket. The ERP search is built per customer | Assemble the same yourself in the flow. The ERP search is built per customer | enneo vorn |
-| **Multiple inboxes or brands** | A separate AI agent per inbox with its own salutation and its own knowledge | One email AI agent for all inboxes, differences via segments within it | enneo vorn |
-| **Building integrations** | As code, any format, any logic | No-code, JSON only, 10-second timeout, max. 100 actions. Code only in Early Access | enneo vorn |
-| **Understanding the AI's reasoning** | Solution plan, extracted values, preview without booking | In our test: handover to humans with no visible reason | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos | PDFs and images, since Oct 21, 2026 and only in migrated accounts | gleich |
-| **Building AI agents in words** | Describe, change with Neo via chat | Describe, AI draws the flow from it, Admin Copilot | gleich |
-| **Voicebot** | Own telephony or customer's SIP line | Only via Zendesk telephony, German only de-DE, since 09/2026 | gleich |
-| **Price for the AI** | Package prices per ticket and voice minute (pricing model 2.2) | Only resolved cases, €1.50–2.00 per case, beyond that the AI keeps running by default | je nach Fall |
-| **License price** | Higher (example 45 seats: €61k) | Lower (example 45 seats: €33–34k) | Zendesk vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2 | Zendesk klar vorn |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Plus Instagram, Messenger, LINE, WeChat, X, SMS, app SDK | Zendesk klar vorn |
-| **Help center for end customers** | None | Help center with community and AI answers | Zendesk klar vorn |
-| **Workforce management, live steering, quality** | No WFM, no live dashboard, scorecards | WFM and automated conversation scoring (€50), live dashboards | Zendesk klar vorn |
-| **Ecosystem** | Own apps, API, MCP | 1,542 apps, ready-made for Salesforce, Shopify, Slack, Teams | Zendesk klar vorn |
+| Area | Topic | enneo | Zendesk | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Plus Instagram, Facebook, LINE, WeChat, X, SMS, app SDK [Pricing](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| Kanäle | **Voicebot** | Own telephony or customer's SIP line | Only via Zendesk telephony (Talk), 53 languages, generally available since 09/2026 [Voice AI](https://support.zendesk.com/hc/en-us/articles/11183058023450-Announcing-the-general-availability-of-voice-AI-agents) | gleich |
+| Kanäle | **Help center for end customers** | None | Help center with community forum, content in more than 40 languages [Pricing](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply, also fully automated | Multiple questions in one reply, but multiple processes one after another in further emails [Multiple requests](https://support.zendesk.com/hc/en-us/articles/10563281043738-Announcing-agentic-AI-for-advanced-email-AI-agents) | enneo klar vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Describe processes yourself, ERP connection per customer [AI agents for email](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Actions](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) | enneo vorn |
+| KI & Automatisierung | **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket. The ERP search is built per customer | Assemble the same yourself in the flow. The ERP search is built per customer [AI agents for email](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Actions](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) | enneo vorn |
+| KI & Automatisierung | **Understanding the AI's reasoning** | Solution plan, extracted values, preview without booking | In our own test on Oct 28, 2026: handover to humans without a visible reason, no per-case solution plan described in the documentation [AI agents for email](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos | PDFs and images, since Oct 21, 2026 and only in migrated accounts [Attachments](https://support.zendesk.com/hc/en-us/articles/11394624789786-Announcing-email-attachment-recognition-for-AI-agents-with-agentic-AI) | gleich |
+| KI & Automatisierung | **Building AI agents in plain language** | Describe, change with Neo via chat | Describe policies, the AI generates the flow from them, flows also via Admin Copilot [AI agents for email](https://support.zendesk.com/hc/en-us/articles/8966284087066-About-AI-agents-with-agentic-AI) [Flows via Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot) | gleich |
+| Arbeitsplatz & Anbindungen | **Multiple inboxes or brands** | A separate AI agent per inbox with its own salutation and its own knowledge | One email AI agent for all inboxes, differences via segments within it [One email agent](https://support.zendesk.com/hc/en-us/articles/9828611484826-Can-I-use-multiple-AI-agents-in-my-Zendesk-account) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Building integrations** | As code, any format, any logic | No-code actions, JSON only, 10-second timeout, max. 100 actions. Code steps in flows only for data transformation, without network calls [Actions](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows) [Flows via Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Workforce management, live control, quality** | No WFM, no live dashboard, scorecards | WFM and automated conversation scoring (€50), live dashboards [Pricing](https://www.zendesk.de/pricing/) | Zendesk klar vorn |
+| Arbeitsplatz & Anbindungen | **Ecosystem** | Own apps, API, MCP | More than 1,800 apps, partners and integrations, Slack and Teams connected, 40 prebuilt workflow connectors [About Zendesk](https://www.zendesk.com/company/) [Relate 2026](https://www.zendesk.com/newsroom/press-releases/relate-2026/) | Zendesk klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | AWS Frankfurt, AI agents on Google Cloud in the USA and Belgium, US company [Subprocessors](https://support.zendesk.com/hc/en-us/articles/4408883061530-Sub-processor-Policy) [Data center](https://support.zendesk.com/hc/en-us/articles/4408838409754-About-the-Data-Center-Location-add-on) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2 [Trust Center](https://www.zendesk.com/trust-center/) | Zendesk klar vorn |
+| Preis & Vertrag | **Price for the AI** | Package prices per ticket and voice minute (pricing model 2.2) | Only resolved cases, €1.50 to 2.00 per case, beyond that the AI keeps running by default [Pricing](https://www.zendesk.de/pricing/) [Billing tiers](https://support.zendesk.com/hc/en-us/articles/9570369117338-About-automated-resolution-tiers) [Allowances](https://support.zendesk.com/hc/en-us/articles/10479587390106-Managing-resolution-allowances) | je nach Fall |
+| Preis & Vertrag | **License price** | Higher (example 45 seats: €61k) | Lower, from €55 per agent per month (example 45 seats: €33k to 34k) [Pricing](https://www.zendesk.de/pricing/) | Zendesk vorn |
 
 ## Selbst getestet am 28.10.2026
 
@@ -79,7 +81,7 @@ Trial account Zendesk Suite Professional (Frankfurt data center). Clicked throug
 
 ## Wo Zendesk schwächer ist
 
-- **AI costs hard to plan:** Since May 2026, the only thing included is a credit of USD 5 per Professional agent per month, previously it was 10 resolved cases. At €1.50–2.00 per case, that mathematically covers 2–3 cases. Everything beyond that is billed monthly, and the AI keeps running by default.
+- **AI costs hard to plan:** Since May 2026, the only thing included is a credit of USD 5 per Professional agent per month, previously it was 10 resolved cases. At €1.50 to 2.00 per case, that mathematically covers 2 to 3 cases. Everything beyond that is billed monthly, and the AI keeps running by default.
 - **Restructuring during operations:** AI agents are managed in a separate interface, everything else in the Admin Center. Zendesk is force-migrating older bots by February 2027. Live reporting will be shut down on Jan 25, 2027, and the successor is not yet finished.
 - **Email replies offer little control:** According to the documentation, salutation and structure of the reply email can only be set to a limited extent. Quotes and signatures from the customer's email are removed.
 - **Much still in Early Access:** Custom AI agents for background tasks, flows with code, conversation simulator, own MCP server.
@@ -114,6 +116,16 @@ Trial account Zendesk Suite Professional (Frankfurt data center). Clicked throug
 
 Zendesk is the broader product and cheaper to get started with. We can win when many emails contain multiple requests, when data should be stored with a German provider, and when energy processes are involved. Customer identification, integrations and multiple inboxes are faster to set up with us, but Zendesk can do them too. That alone won't win the deal.
 
+## Direktlinks
+
+- [Doku](https://support.zendesk.com/hc/en-us)
+- [API](https://developer.zendesk.com/api-reference/)
+- [Community](https://community.zendesk.com/)
+- [Trust Center](https://www.zendesk.com/trust-center/)
+- [Preise](https://www.zendesk.de/pricing/)
+- [Release Notes](https://support.zendesk.com/hc/en-us/sections/4405298847002-Release-notes)
+- [Status](https://status.zendesk.com/)
+
 ## Quellen
 
 - [Pricing](https://www.zendesk.de/pricing/)
@@ -126,6 +138,13 @@ Zendesk is the broader product and cheaper to get started with. We can win when 
 - [Actions](https://support.zendesk.com/hc/en-us/articles/8013439366810-Creating-custom-actions-for-auto-assist-AI-agents-and-action-flows)
 - [Voice AI](https://support.zendesk.com/hc/en-us/articles/11183058023450-Announcing-the-general-availability-of-voice-AI-agents)
 - [Migration](https://support.zendesk.com/hc/en-us/articles/10904648529690-Announcing-the-removal-of-AI-agents-Essential-and-legacy-functionality-Important-dates-and-migration-guidance)
-- [End of live reporting](https://support.zendesk.com/hc/en-us/articles/10860286407962-Announcing-end-of-life-for-live-reporting-in-Zendesk-Explore)
+- [End of live reporting](https://support.zendesk.com/hc/en-us/articles/10860286407962-Announcing-the-removal-of-live-reporting-in-Zendesk-Explore)
 - [Relate 2026](https://www.zendesk.com/newsroom/press-releases/relate-2026/)
+- [About Zendesk](https://www.zendesk.com/company/)
+- [Founding in Copenhagen](https://www.zendesk.com/blog/guides-and-ebooks/customer-service-startup/)
+- [Acquisition of Ultimate](https://www.zendesk.com/newsroom/press-releases/ultimate-acquisition24/)
+- [Trust Center](https://www.zendesk.com/trust-center/)
+- [Subprocessors](https://support.zendesk.com/hc/en-us/articles/4408883061530-Sub-processor-Policy)
+- [Data center](https://support.zendesk.com/hc/en-us/articles/4408838409754-About-the-Data-Center-Location-add-on)
+- [Flows via Copilot](https://support.zendesk.com/hc/en-us/articles/11084848330394-Announcing-the-EAP-for-AI-powered-action-flow-creation-through-Admin-Copilot)
 - [enneo solution plan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

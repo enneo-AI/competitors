@@ -1,6 +1,6 @@
 ---
 slug: "aristech"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Voicebot specialist from Heidelberg with its own speech technology, also email and chat"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Voicebot specialist from Heidelberg with its own speech technology, also 
 | | | |
 |---|---|---|
 | Firma | **Heidelberg, since 2012** | Aristech GmbH, part of Almato AG (DATAGROUP) since May 2026, remains its own brand with its own management |
+| Gegründet | **2012, Heidelberg** | By Carolin Edler-Mende (CEO) and Michael Mende (CTO). Mende previously spent over ten years in speech technology research, including at IBM |
+| Ursprung | **Speech technology since 2012** | Own speech recognition and speech synthesis from Heidelberg, which led to voicebots and later Mail AI and Chat AI |
 | Preise | **not public** | No pricing page, only demo and consultation on request. AI Suite as rented software (SaaS) |
 | Hosting | **EU cloud, private cloud, on-premises** | Operator of the EU cloud not named. Speech recognition also runs offline |
 | Referenzen | **BA, Air France-KLM, ADAC** | Plus ÖBB, WestLotto, flatexDEGIRO. Aristech names no certification |
@@ -30,12 +32,12 @@ Aristech is first and foremost a voicebot provider with in-house speech recognit
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email all the way to the booking** | Less manual work in written correspondence, because standard requests are completed without agents | "With us, an email doesn't end as a ticket, it ends with the booking in the target system and the reply to your customer." |
-| **Agent workspace in the same system** | No second system to license, integrate and maintain | "Whatever the AI can't handle lands with the right agent in the same system, not in yet another tool." |
-| **Multiple requests, one reply** | Fewer follow-up contacts, because the customer gets a complete answer | "If your customer writes three requests in one email, they get one reply from us with all three handled." |
-| **Data protection documents public** | Data protection review without lengthy follow-up requests | "Your data protection team can read our DPA, TOMs and subprocessors publicly today." |
+| **Email all the way to the booking** | Standard requests are completed without agents, less manual work in written correspondence | "With us, an email doesn't end as a ticket, it ends with the booking in the target system and the reply to your customer." |
+| **Agent workspace in the same system** | One system for AI and agents, no second tool to license, integrate and maintain | "Whatever the AI can't handle lands with the right agent in the same system, not in yet another tool." |
+| **Multiple requests, one reply** | The customer gets one complete reply, fewer follow-up contacts | "If your customer writes three requests in one email, they get one reply from us with all three handled." |
+| **Data protection documents public** | Data protection review without lengthy follow-up requests, because everything is available upfront | "Your data protection team can read our DPA, TOMs and subprocessors publicly today." |
 | **Ready-made processes for utilities** | Fast start on a utility's most common requests | "Meter reading, installment and bank details are ready-made AI agents with plausibility checks, and we build the ERP integration for you." |
 
 ## Wo Aristech vorn liegt
@@ -47,20 +49,20 @@ Aristech is first and foremost a voicebot provider with in-house speech recognit
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Aristech | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | Identify request and customer, authenticate, book in the target system, reply, fully automated if desired | Identify request, extract data, create reply or ticket. Booking in the target system and email reference not found | enneo vorn |
-| **Multiple requests in one email** | One solution plan, all requests in one pass, one reply | Identifies and prioritizes multiple requests, makes handover to agents easier | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Mail AI assigns attachments. Reading photos not documented | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Not found, integration with existing telephony and helpdesks | enneo klar vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP integration per customer | Listed as use cases, energy reference not found | enneo vorn |
-| **Voicebot** | Own telephony or SIP trunk, speech-to-speech via OpenAI or Deepslate | Core product, from rule-based to fully AI-driven, large references | Aristech klar vorn |
-| **Speech recognition and voices** | Less choice of speech providers | Own speech recognition with dialects, custom brand voices, TTS designer | Aristech klar vorn |
-| **On-premises operation** | Possible at high volume | EU cloud, private cloud or fully in the customer's IT | Aristech vorn |
-| **Where data is stored** | Hetzner, German provider, data centers in Germany | "Exclusively on European servers", operator not named. BA project in a German cloud | je nach Fall |
-| **Data protection documents** | DPA, TOMs, subprocessors and SLA public | Not found | enneo vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 under audit. Hetzner ISO 27001 | None named | gleich |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public | je nach Fall |
+| Area | Topic | enneo | Aristech | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Own telephony or SIP trunk, speech-to-speech via OpenAI or Deepslate | Core product, from rule-based to fully AI-driven, large references [Voice AI](https://aristech.ai/voice-ai/) [Federal Employment Agency](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/) [Homepage](https://aristech.ai/) | Aristech klar vorn |
+| KI & Automatisierung | **AI handling of emails** | Identify request and customer, authenticate, book in the target system, reply, fully automated if desired | Identify request, extract data, create reply or ticket. Booking in the target system and email reference not found [Mail AI](https://aristech.ai/mail-ai/) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One solution plan, all requests in one pass, one reply | Identifies and prioritizes multiple requests, makes handover to agents easier [Magazine 50,2](https://aristech.ai/medien/502-magazin-fuer-intelligente-stromnetze/) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Mail AI assigns attachments. Reading photos not documented [Mail AI](https://aristech.ai/mail-ai/) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP integration per customer | Listed as use cases, energy reference not found [Use cases](https://aristech.ai/use-cases/) [Homepage](https://aristech.ai/) | enneo vorn |
+| KI & Automatisierung | **Speech recognition and voices** | Less choice of speech providers | Own speech recognition with dialects, custom brand voices, TTS designer [Speech-to-Text](https://aristech.ai/speech-to-text/) [Text-to-Speech](https://aristech.ai/text-to-speech/) | Aristech klar vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, skill-based routing in the same system | Not found, integration with existing telephony and helpdesks [Platform](https://aristech.ai/plattform/) [Voice AI](https://aristech.ai/voice-ai/) | enneo klar vorn |
+| Daten & Sicherheit | **On-premises operation** | Possible at high volume | EU cloud, private cloud or fully in the customer's IT [Platform](https://aristech.ai/plattform/) [Company facts](https://aristech.ai/unternehmensfakten/) | Aristech vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, data centers in Germany | On European servers, operator not named. BA project in a German cloud [Company facts](https://aristech.ai/unternehmensfakten/) [Federal Employment Agency](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/) | je nach Fall |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors and SLA public | Not found, only a privacy policy and legal notice are public [Platform](https://aristech.ai/plattform/) [Privacy policy](https://aristech.ai/datenschutz/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 under audit. Hetzner ISO 27001 | None named [Company facts](https://aristech.ai/unternehmensfakten/) | gleich |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public [Platform](https://aristech.ai/plattform/) | je nach Fall |
 
 ## Wo Aristech schwächer ist
 
@@ -88,6 +90,10 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 We don't win against Aristech on telephony, speech recognition or on-premises operation. We can win where a lot of written correspondence should be automated all the way to the booking and agents keep working in the same system. In pure voicebot tenders for large hotlines, Aristech is the stronger candidate.
 
+## Direktlinks
+
+- [API](https://github.com/aristech-de/stt-clients)
+
 ## Quellen
 
 - [Homepage with references](https://aristech.ai/)
@@ -101,6 +107,8 @@ We don't win against Aristech on telephony, speech recognition or on-premises op
 - [Company facts](https://aristech.ai/unternehmensfakten/)
 - [About us](https://aristech.ai/ueber-uns/)
 - [Legal notice](https://aristech.ai/impressum/)
+- [Privacy policy](https://aristech.ai/datenschutz/)
+- [Speech-to-Text clients on GitHub](https://github.com/aristech-de/stt-clients)
 - [Merger with Almato](https://aristech.ai/blog/aristech-almato-merge/)
 - [DATAGROUP on the acquisition](https://www.datagroup.de/en/news/datagroup-tochter-almato-übernimmt-aristech-und-erweitert-bardioc-um-conversational-ai)
 - [Federal Employment Agency](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/)

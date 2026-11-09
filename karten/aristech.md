@@ -4,7 +4,7 @@ slug: "aristech"
 fokus: "Voicebot"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://aristech.ai"
 kurz: "Voicebot-Spezialist aus Heidelberg mit eigener Sprachtechnik, auch Mail und Chat"
@@ -15,6 +15,8 @@ kurz: "Voicebot-Spezialist aus Heidelberg mit eigener Sprachtechnik, auch Mail u
 | | | |
 |---|---|---|
 | Firma | **Heidelberg, seit 2012** | Aristech GmbH, seit Mai 2026 Teil der Almato AG (DATAGROUP), bleibt eigene Marke mit eigenem Management |
+| Gegründet | **2012, Heidelberg** | Von Carolin Edler-Mende (CEO) und Michael Mende (CTO). Mende forschte vorher über zehn Jahre an Sprachtechnologie, u. a. bei IBM |
+| Ursprung | **Sprachtechnik seit 2012** | Eigene Spracherkennung und Sprachausgabe aus Heidelberg, daraus entstanden Voicebots und später Mail AI und Chat AI |
 | Preise | **nicht öffentlich** | Keine Preisseite, nur Demo und Beratung auf Anfrage. AI-Suite als Mietsoftware (SaaS) |
 | Hosting | **EU-Cloud, Private Cloud, beim Kunden** | Betreiber der EU-Cloud nicht genannt. Spracherkennung läuft auch offline |
 | Referenzen | **BA, Air France-KLM, ADAC** | Dazu ÖBB, WestLotto, flatexDEGIRO. Ein Zertifikat nennt Aristech nicht |
@@ -36,12 +38,12 @@ Aristech ist zuerst ein Voicebot-Anbieter mit selbst entwickelter Spracherkennun
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail bis zur Buchung** | Weniger Handarbeit im Schriftverkehr, weil Standardanliegen ohne Mitarbeitende abgeschlossen werden | „Bei uns endet eine E-Mail nicht als Ticket, sondern mit der Buchung im Zielsystem und der Antwort an Ihren Kunden.“ |
-| **Arbeitsplatz im selben System** | Kein zweites System lizenzieren, anbinden und pflegen | „Was die KI nicht schafft, landet bei uns im selben System beim richtigen Mitarbeitenden, nicht in einem weiteren Werkzeug.“ |
-| **Mehrere Anliegen, eine Antwort** | Weniger Folgekontakte, weil der Kunde eine vollständige Antwort bekommt | „Schreibt Ihr Kunde drei Anliegen in eine Mail, bekommt er bei uns eine Antwort, in der alle drei erledigt sind.“ |
-| **Unterlagen zum Datenschutz öffentlich** | Datenschutzprüfung ohne lange Nachforderungen | „AVV, TOM und Subunternehmer können Ihre Datenschützer bei uns schon heute öffentlich lesen.“ |
+| **E-Mail bis zur Buchung** | Standardanliegen werden ohne Mitarbeitende abgeschlossen, weniger Handarbeit im Schriftverkehr | „Bei uns endet eine E-Mail nicht als Ticket, sondern mit der Buchung im Zielsystem und der Antwort an Ihren Kunden.“ |
+| **Arbeitsplatz im selben System** | Ein System für KI und Mitarbeitende, kein zweites Werkzeug zu lizenzieren, anzubinden und zu pflegen | „Was die KI nicht schafft, landet bei uns im selben System beim richtigen Mitarbeitenden, nicht in einem weiteren Werkzeug.“ |
+| **Mehrere Anliegen, eine Antwort** | Der Kunde bekommt eine vollständige Antwort, weniger Folgekontakte | „Schreibt Ihr Kunde drei Anliegen in eine Mail, bekommt er bei uns eine Antwort, in der alle drei erledigt sind.“ |
+| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne lange Nachforderungen, weil alles vorab vorliegt | „AVV, TOM und Subunternehmer können Ihre Datenschützer bei uns schon heute öffentlich lesen.“ |
 | **Fertige Abläufe für Versorger** | Schneller Start bei den häufigsten Anliegen eines Energieversorgers | „Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung, die ERP-Anbindung bauen wir für Sie.“ |
 
 ## Wo Aristech vorn liegt
@@ -53,20 +55,20 @@ Aristech ist zuerst ein Voicebot-Anbieter mit selbst entwickelter Spracherkennun
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Aristech | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im Zielsystem buchen, antworten, auch vollautomatisch | Anliegen erkennen, Daten auslesen, Antwort oder Ticket erstellen. Buchung im Zielsystem und Mail-Referenz nicht gefunden | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Erkennt und priorisiert mehrere Anliegen, erleichtert die Übergabe an Mitarbeitende | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Mail AI ordnet Anhänge zu. Lesen von Fotos nicht dokumentiert | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Nicht gefunden, Anbindung an vorhandene Telefonie und Helpdesks | enneo klar vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Als Use Cases gelistet, Energie-Referenz nicht gefunden | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung, Sprache zu Sprache über OpenAI oder Deepslate | Kernprodukt, von regelbasiert bis voll KI-gesteuert, große Referenzen | Aristech klar vorn |
-| **Spracherkennung und Stimmen** | Weniger Auswahl an Sprachanbietern | Eigene Spracherkennung mit Dialekten, eigene Markenstimmen, TTS-Designer | Aristech klar vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | EU-Cloud, Private Cloud oder vollständig in der IT des Kunden | Aristech vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | „Ausschließlich auf europäischen Servern“, Betreiber nicht genannt. BA-Projekt in deutscher Cloud | je nach Fall |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer und SLA öffentlich | Nicht gefunden | enneo vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine genannt | gleich |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich | je nach Fall |
+| Bereich | Thema | enneo | Aristech | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung, Sprache zu Sprache über OpenAI oder Deepslate | Kernprodukt, von regelbasiert bis voll KI-gesteuert, große Referenzen [Voice AI](https://aristech.ai/voice-ai/) [Bundesagentur](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/) [Startseite](https://aristech.ai/) | Aristech klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im Zielsystem buchen, antworten, auch vollautomatisch | Anliegen erkennen, Daten auslesen, Antwort oder Ticket erstellen. Buchung im Zielsystem und Mail-Referenz nicht gefunden [Mail AI](https://aristech.ai/mail-ai/) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Erkennt und priorisiert mehrere Anliegen, erleichtert die Übergabe an Mitarbeitende [Magazin 50,2](https://aristech.ai/medien/502-magazin-fuer-intelligente-stromnetze/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Mail AI ordnet Anhänge zu. Lesen von Fotos nicht dokumentiert [Mail AI](https://aristech.ai/mail-ai/) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Als Use Cases gelistet, Energie-Referenz nicht gefunden [Use Cases](https://aristech.ai/use-cases/) [Startseite](https://aristech.ai/) | enneo vorn |
+| KI & Automatisierung | **Spracherkennung und Stimmen** | Weniger Auswahl an Sprachanbietern | Eigene Spracherkennung mit Dialekten, eigene Markenstimmen, TTS-Designer [Speech-to-Text](https://aristech.ai/speech-to-text/) [Text-to-Speech](https://aristech.ai/text-to-speech/) | Aristech klar vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Nicht gefunden, Anbindung an vorhandene Telefonie und Helpdesks [Plattform](https://aristech.ai/plattform/) [Voice AI](https://aristech.ai/voice-ai/) | enneo klar vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | EU-Cloud, Private Cloud oder vollständig in der IT des Kunden [Plattform](https://aristech.ai/plattform/) [Unternehmensfakten](https://aristech.ai/unternehmensfakten/) | Aristech vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Auf europäischen Servern, Betreiber nicht genannt. BA-Projekt in deutscher Cloud [Unternehmensfakten](https://aristech.ai/unternehmensfakten/) [Bundesagentur](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/) | je nach Fall |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer und SLA öffentlich | Nicht gefunden, öffentlich nur Datenschutzerklärung und Impressum [Plattform](https://aristech.ai/plattform/) [Datenschutz](https://aristech.ai/datenschutz/) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine genannt [Unternehmensfakten](https://aristech.ai/unternehmensfakten/) | gleich |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich [Plattform](https://aristech.ai/plattform/) | je nach Fall |
 
 ## Wo Aristech schwächer ist
 
@@ -94,6 +96,10 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Aristech gewinnen wir nicht über Telefonie, Spracherkennung oder Betrieb beim Kunden. Gewinnen können wir, wo viel Schriftverkehr bis zur Buchung automatisiert werden soll und die Mitarbeitenden im selben System weiterarbeiten. Bei reinen Voicebot-Ausschreibungen für große Hotlines ist Aristech der stärkere Kandidat.
 
+## Direktlinks
+
+- [API](https://github.com/aristech-de/stt-clients)
+
 ## Quellen
 
 - [Startseite mit Referenzen](https://aristech.ai/)
@@ -107,6 +113,8 @@ Gegen Aristech gewinnen wir nicht über Telefonie, Spracherkennung oder Betrieb 
 - [Unternehmensfakten](https://aristech.ai/unternehmensfakten/)
 - [Über uns](https://aristech.ai/ueber-uns/)
 - [Impressum](https://aristech.ai/impressum/)
+- [Datenschutzerklärung](https://aristech.ai/datenschutz/)
+- [Speech-to-Text-Clients auf GitHub](https://github.com/aristech-de/stt-clients)
 - [Zusammenschluss mit Almato](https://aristech.ai/blog/aristech-almato-merge/)
 - [DATAGROUP zur Übernahme](https://www.datagroup.de/en/news/datagroup-tochter-almato-übernimmt-aristech-und-erweitert-bardioc-um-conversational-ai)
 - [Bundesagentur für Arbeit](https://aristech.ai/blog/bundesagentur-fuer-arbeit-voicebot-klara-aristech/)

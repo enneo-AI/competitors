@@ -1,6 +1,6 @@
 ---
 slug: "sematell"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Email specialist from Saarbrücken, AI for classification, routing and replies"
 ---
 
@@ -8,9 +8,11 @@ kurz: "Email specialist from Saarbrücken, AI for classification, routing and re
 
 | | | |
 |---|---|---|
-| Firma | **Saarbrücken, spun out of DFKI** | Sematell GmbH, CEO since July 2026 Dr. Andreas Seidl, investors not disclosed |
+| Firma | **Saarbrücken, spun out of DFKI** | Sematell GmbH, CEO since July 2026 Dr. Andreas Seidl. According to a 2022 press release, majority held by funds advised by PINOVA Capital, not named on its own website |
+| Gegründet | **2000, Saarbrücken** | Founded as a spin-off of the German Research Center for Artificial Intelligence (DFKI). Separated from its US parent Attensity in 2016 |
+| Ursprung | **Email AI since 2000** | Grew out of an early DFKI AI project for automatic email processing, the predecessor XM-Mailminder |
 | Preise | **not public** | Prices on request only. According to the FAQ, ReplyX can be licensed from one user |
-| Hosting | **Germany** | Certified data centers, operator not named. ReplyOne also on-premises, ReplyX SaaS only |
+| Hosting | **Germany** | Certified data centers, operator not named. On-premises operation is no longer described on the current website |
 | Zertifikat | **ISO 27001:2022** | LL-C Certification, no. 491642, valid until Feb 26, 2028 |
 
 ## Erster Satz
@@ -30,10 +32,10 @@ Sematell specializes in email response management: ReplyOne for large service or
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **All the way to the booking in the target system** | Fewer agents needed for written correspondence, because standard cases go through without manual entry | "With us, handling doesn't end with the reply, it ends with the booking in the ERP." |
-| **Multiple requests in one pass** | No second round of handling for the remaining requests in an email | "Meter reading, IBAN and installment in one email: we handle them with one solution plan and one reply." |
+| **Emails through to the booking in the target system** | Fewer agents needed for written correspondence, because standard cases go through without manual entry | "With us, handling doesn't end with the reply, it ends with the booking in the ERP." |
+| **All requests in one pass** | No second round of handling for the remaining requests in an email | "Meter reading, IBAN and installment in one email: we handle them with one solution plan and one reply." |
 | **Voicebot and telephony in the same system** | One provider and one contract instead of email AI and telephony from two companies | "Phone, voicebot and written correspondence run in one system with us, not across two companies." |
 | **Ready-made specialist agents for utilities** | Faster start for meter reading, installment and bank details, less project effort | "We bring these cases as ready-made agents with plausibility checks, and we build the ERP connection per customer." |
 | **DPA, TOMs and subprocessors public** | The data protection review can start without requesting documents | "You can read our DPA, TOMs and subprocessor list today without asking us." |
@@ -47,26 +49,26 @@ Sematell specializes in email response management: ReplyOne for large service or
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Sematell | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | Identify request and customer, verify, book in the target system, reply, also fully automated | Classify, extract data, suggestions, standard cases fully automated. Booking in target system only as an example | enneo vorn |
-| **Multiple requests in one email** | One solution plan, all requests in one pass, one reply | "Holistic" analysis so that all questions get answered. Multiple bookings not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Text recognition for attachments (PDF, Word, Excel) and scans, photos not mentioned | gleich |
-| **Letters and scans** | Dedicated channel, scans via email or API, same AI as email | Letters and faxes are scanned in and added to the inbox | gleich |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready with plausibility checks, ERP connection per customer | Installments and tariff changes mentioned, ready-made processes not documented | enneo vorn |
-| **Voicebot** | Own telephony or SIP line, OpenAI or Deepslate | Telephony as a channel, no voicebot found | enneo vorn |
-| **Agent workspace** | Ticketing, inbox, skill-based routing in one system | ReplyDesk with skill-based routing, substitutions, wrap-up forms, all channels in one interface | gleich |
-| **Integrations** | As code, any format, any logic, API and MCP | Plugins for ERP, CRM, ACD and archive. ReplyX documents Shopify and HubSpot | enneo vorn |
-| **Language models and data protection documents** | US providers by default, EU models in the DPA, DPA, TOMs, subprocessors public | ReplyX uses a language model with knowledge search, provider not named. DPA and subprocessors not public | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises from high volumes | Certified data centers in Germany, operator not named, ReplyOne also on-premises | gleich |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | ISO 27001:2022 until February 2028 | Sematell klar vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public | je nach Fall |
+| Area | Topic | enneo | Sematell | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Letters and scans** | Own channel, scans via email or API, same AI as email | Letters and faxes are digitized and added to the inbox [Channels](https://www.sematell.com/produkt/kanaele) | gleich |
+| Kanäle | **Voicebot** | Own telephony or SIP line, OpenAI or Deepslate | Telephony as a channel, voicebot not found [Channels](https://www.sematell.com/produkt/kanaele) | enneo vorn |
+| KI & Automatisierung | **AI handling of emails** | Identify request and customer, verify, book in the target system, reply, also fully automatically | Classify, extract data, suggestions, standard cases fully automated. Booking in the target system only as an example [AI and automation](https://www.sematell.com/produkt/ki-automatisierung) [Integrations](https://www.sematell.com/produkt/integrationen-apis) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One solution plan, all requests in one pass, one reply | "Holistic" analysis so all questions get answered. Multiple bookings not documented [AI and automation](https://www.sematell.com/produkt/ki-automatisierung) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Text recognition for attachments (PDF, Word, Excel) and scans, photos not mentioned [Email response management](https://www.sematell.com/produkt/email-response-management) [AI and automation](https://www.sematell.com/produkt/ki-automatisierung) | gleich |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready-made with plausibility checks, ERP connection per customer | Installments and tariff changes mentioned, ready-made workflows not documented [Utilities](https://www.sematell.com/loesungen/energie-versorger) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox, skill-based routing in one system | ReplyDesk with skill-based routing, substitutes, closing forms, all channels in one interface [Email response management](https://www.sematell.com/produkt/email-response-management) [Release notes](https://www.sematell.com/ressourcen/release-notes) [Channels](https://www.sematell.com/produkt/kanaele) | gleich |
+| Arbeitsplatz & Anbindungen | **Integrations** | As code, any format, any logic, API and MCP | Plugins for ERP, CRM, ACD and archive. ReplyX documents Shopify and HubSpot [Integrations](https://www.sematell.com/produkt/integrationen-apis) [ReplyX integrations](https://replyx-docs.sematell.com/how-to/admins/integrations/standard-integrations.md) | enneo vorn |
+| Daten & Sicherheit | **Language models and data protection documents** | US providers by default, EU models in the DPA, DPA, TOMs, subprocessors public | ReplyX generates replies with a prompt and stored knowledge, language model provider not named. DPA and subprocessors not public [ReplyX docs](https://replyx-docs.sematell.com/how-to/admins/reply-experiences.md) [Trust Center](https://www.sematell.com/ressourcen/trust-center) | enneo vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises at high volume | Certified data centers in Germany, operator not named, on-premises operation no longer described [Deployment](https://www.sematell.com/produkt/bereitstellung-sicherheit) [Trust Center](https://www.sematell.com/ressourcen/trust-center) | gleich |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | ISO 27001:2022 until February 2028 [Trust Center](https://www.sematell.com/ressourcen/trust-center) [ISO certificate](https://www.sematell.com/hubfs/F49_490114482_web_v1_04129272-fd66-4a0a-9824-ef6204cd5610_de.pdf?hsLang=de) | Sematell klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public [Pricing information](https://www.sematell.com/produkt/preisinformationen) | je nach Fall |
 
 ## Wo Sematell schwächer ist
 
 - **Two products side by side:** ReplyOne for large customers, ReplyX for e-commerce. Public documentation exists only for ReplyX, with no information on language models. The release notes for ReplyOne 7.8 list no AI updates.
 - **AI in energy barely proven:** At the energy group from September 2025, ReplyOne starts with email, AI features are to follow later. The lekker reference describes cancellation detection, not automated handling of meter readings or installments.
-- **Change in leadership:** Dr. Andreas Seidl has been in charge since July 2026, his predecessor held the role for about 1.5 years. The company does not disclose who is behind Sematell.
+- **Change in leadership:** Dr. Andreas Seidl has been in charge since July 2026, his predecessor held the role for about 1.5 years. The company does not say on its website who is behind Sematell. According to a 2022 press release, funds advised by PINOVA Capital hold the majority.
 - **Two companies in the VIER partnership:** VIER distributes the email, Sematell writes the reply. In June 2025, joint customer projects were still only in preparation.
 
 ## Einwände
@@ -90,6 +92,13 @@ Sematell specializes in email response management: ReplyOne for large service or
 ## Fazit
 
 We win against Sematell where emails should not just be sorted and answered but handled all the way to the booking in the target system, and where phone and voicebot are wanted in the same system. Sematell is ahead on certification and on its long experience with energy customers. Where VIER and Sematell are already in place together, we are one provider instead of two.
+
+## Direktlinks
+
+- [Doku](https://replyx-docs.sematell.com)
+- [Trust Center](https://www.sematell.com/ressourcen/trust-center)
+- [Preise](https://www.sematell.com/produkt/preisinformationen)
+- [Release Notes](https://www.sematell.com/ressourcen/release-notes)
 
 ## Quellen
 
@@ -117,3 +126,7 @@ We win against Sematell where emails should not just be sorted and answered but 
 - [ReplyX docs: ReplyExperiences](https://replyx-docs.sematell.com/concepts/reply-experiences.md)
 - [ReplyX docs: FAQ](https://replyx-docs.sematell.com/reference/faq.md)
 - [Partnership with VIER](https://www.vier.ai/unternehmen/news/partnerschaft-vier-sematell/)
+- [Acquisition by PINOVA, press release 2022](https://www.imcap-partners.com/wp-content/uploads/2022/01/220131_Pinova-uebernimmt-Sematell_EN_final.pdf)
+- [ReplyX docs: standard integrations](https://replyx-docs.sematell.com/how-to/admins/integrations/standard-integrations.md)
+- [ReplyX docs: creating ReplyExperiences](https://replyx-docs.sematell.com/how-to/admins/reply-experiences.md)
+- [ReplyX docs](https://replyx-docs.sematell.com)

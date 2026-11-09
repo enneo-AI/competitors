@@ -41,3 +41,12 @@ table.impact td:first-child { width: 24%; }
 table.impact td:nth-child(2) { color: #292C3F; }
 table.impact td:nth-child(3) { font-style: italic; }
 h2.intern { border-left-color: #B4561E; }
+
+/* Vergleich: Gruppen nach Bereich, Belege je Zeile */
+table.vergleich tr.gruppe td { padding: 4mm 0 1.2mm; border-bottom: 1px solid #D4CFD8; font: 500 6.9pt "Geist Mono", monospace; letter-spacing: .05em; text-transform: uppercase; color: #7B5AE2; }
+table.vergleich tbody tr.gruppe:first-child td { padding-top: 1mm; }
+.belege { display: block; margin-top: .8mm; }
+a.beleg { font: 300 6.6pt "Geist Mono", monospace; color: #7F808C; text-decoration: none; margin-right: 2mm; }
+.direkt { font: 400 7.6pt/1.7 "Geist Mono", monospace; }
+.direkt a { color: #613CDD; text-decoration: none; }
+table.vergleich tr.gruppe { break-after: avoid; page-break-after: avoid; }

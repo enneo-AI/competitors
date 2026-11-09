@@ -2,6 +2,12 @@
 
 Neuester Lauf oben.
 
+## 2026-11-09 (Umbau nach Vertriebsfeedback)
+
+- Alle 58 Karten neu geprüft und ins neue Format gebracht, deutsch und englisch: Eckdaten mit Gegründet und Ursprung, Business-Impact aus Sicht des Kunden, der enneo nimmt, Vergleich nach Bereichen gruppiert mit Beleg-Link je Zeile, neuer Abschnitt Direktlinks
+- Inhaltliche Korrekturen unter anderem: Crescendo (Unterauftragnehmer jetzt öffentlich, alle USA), Salesforce (E-Mail-Agent ohne Identitätsprüfung, jetzt enneo vorn), Genesys (E-Mail-Zusammenfassung im Copilot seit 12.10.), VIER (auch US-Rechenzentren), Zendesk (mehrere Fragen in einer Mail), Omilia (AWS-Regionen und Preismodell öffentlich), epilot (kein Beleg gegen Training, jetzt enneo vorn), Lime Connect (KI-Server nur EU, jetzt je nach Fall), ThinkOwl (Sitz Mülheim-Kärlich, Groovy entfernt)
+- Galerie: Reiter Einwände & Fragen, aufklappbare Punkte, Logos im Vergleichskopf, Direkt beim Anbieter im Quellen-Reiter
+
 ## 2026-11-09
 
 - ThinkOwl: fehlende Abschnitte ergänzt (Das Wichtigste vorweg, Wo ThinkOwl vorn liegt, Wo ThinkOwl schwächer ist, Fazit), Quellen thinkowl.com/owlforce/features und thinkowl.com/press

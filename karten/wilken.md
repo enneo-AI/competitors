@@ -4,7 +4,7 @@ slug: "wilken"
 fokus: "CRM & ERP"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.wilken.de"
 kurz: "Abrechnungs- und ERP-Software für Stadtwerke aus Ulm, mit Voicebot AIVA"
@@ -15,6 +15,8 @@ kurz: "Abrechnungs- und ERP-Software für Stadtwerke aus Ulm, mit Voicebot AIVA"
 | | | |
 |---|---|---|
 | Firma | **Ulm, 700+ MA** | Wilken Software Group, gegründet 1978, Standorte Ulm, Greven und Gijón. Laut Website 400+ Energie- und Wasserversorger, 15 Mio. Endkundenverträge in der Abrechnung, ohne Fremdkapital |
+| Gegründet | **1978** | Ernst Wilken gründet die Wilken GmbH in Ulm, erste Softwarelösungen entwickelte er schon 1977 |
+| Ursprung | **Unternehmenssoftware seit 1978** | 1994 erste eigene ERP-Lösung CS/2, 2016 die Generation P/5, 2025 die Cloud-Plattform GY. KI kam mit dem Voicebot AIVA und seit 03/2026 mit dem Assistenten GY:PT dazu |
 | Preise | **nicht öffentlich** | Keine Preisliste. Der Voicebot AIVA wird laut ZfK nach Telefonaufkommen abgerechnet, ohne Vorinvestition |
 | Hosting | **eigenes RZ Ulm** | SaaS-Plattform GY „Made in Germany“, Rechenzentrum der Wilken Data Service Center GmbH in Ulm. Wo AIVA und der KI-Assistent GY:PT rechnen und welches Sprachmodell dahinter steckt, ist nicht genannt |
 | Zertifikat | **ISO 27001, NIS2** | ISO/IEC 27001:2022 durch TÜV Saarland für Wilken GmbH und Wilken Entire GmbH, seit Mai 2026 inkl. Plattform GY, ENER:GY mit Portalen und ERP P/5. Dazu ein NIS2-Testat für das Rechenzentrum |
@@ -37,12 +39,12 @@ Wilken ist zuerst ein Abrechnungs- und ERP-Anbieter für Versorger: Abrechnung, 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, Standardanliegen laufen ohne Handarbeit durch | „Bei uns erledigt die KI die Mail selbst und bucht in Ihrem Wilken-System, nicht nur eine Empfehlung an den Mitarbeitenden.“ |
-| **Mehrere Anliegen und Anhänge in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgevorgängen, Zählerfotos tippt niemand ab | „Zählerstand, IBAN und Foto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Kein Systemwechsel nötig** | Die Abrechnung bleibt, wie sie ist, die Automatisierung startet ohne ERP-Projekt | „Wilken bleibt Ihr Abrechnungssystem, wir docken nur an.“ |
-| **Ein System für alle Kanäle** | Mail, Brief, Chat, WhatsApp und Telefon mit einer KI und einem Vertrag statt Voicebot plus Partnerprodukte | „Telefon, Mail und Chat laufen bei uns über dieselbe KI und denselben Arbeitsplatz.“ |
+| **E-Mail-KI bis zur Buchung** | Standardanliegen laufen ohne Handarbeit durch, weniger Mitarbeitende für Schriftverkehr | „Bei uns erledigt die KI die Mail selbst und bucht in Ihrem Wilken-System, nicht nur eine Empfehlung an den Mitarbeitenden.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgevorgängen, Zählerfotos werden automatisch erfasst | „Zählerstand, IBAN und Foto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Andocken an das Abrechnungssystem** | Die Abrechnung bleibt, wie sie ist, die Automatisierung startet ohne ERP-Projekt | „Wilken bleibt Ihr Abrechnungssystem, wir docken nur an.“ |
+| **Ein System für alle Kanäle** | Mail, Brief, Chat, WhatsApp und Telefon mit einer KI, einem Arbeitsplatz und einem Vertrag | „Telefon, Mail und Chat laufen bei uns über dieselbe KI und denselben Arbeitsplatz.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil AVV, TOM, Subunternehmer und SLA vorab vorliegen | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo Wilken vorn liegt
@@ -55,20 +57,20 @@ Wilken ist zuerst ein Abrechnungs- und ERP-Anbieter für Versorger: Abrechnung, 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Wilken | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Nicht gefunden. E-Mail-Vorlagen und Steuerung der Eingänge im System, KI-Zusammenfassung und Antwortentwürfe nur über Partner epilot | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert | enneo vorn |
-| **KI-Agenten** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | GY:PT seit 03/2026 als Assistent für Mitarbeitende, Agenten als nächste Stufe angekündigt, „KI schlägt vor, der Mensch entscheidet“ | enneo vorn |
-| **Arbeitsplatz für den Kundenservice** | Ticketing, Postfach, Wissen, Telefonie, Skill-Routing in einem System | 360°-Kundensicht und Aufgabensteuerung im Abrechnungssystem, Kundenkommunikation teils über Partner | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU), Anbindung pro Kunde | AIVA als SaaS mit Idesia, Zugriff auf Wilken-Daten, Referenz Köthen Energie, Sprachmodell nicht genannt | je nach Fall |
-| **Abrechnung und ERP** | Keins, enneo dockt an | Kernprodukt: ENER:GY, NTS, P/5, GY Billing | Wilken klar vorn |
-| **Anbindung ans Abrechnungssystem** | Pro Kunde als Code gebaut, RPA für Altsysteme | Eigenes System, keine Schnittstelle nötig | Wilken vorn |
-| **Self-Service für Endkunden** | Kein Hilfecenter für Endkunden | Portale, App, Tarifrechner, Self-Service für Abschlag, Bankdaten, Zählerstand | Wilken klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Eigenes Rechenzentrum in Ulm, Hosting, Cloud oder beim Kunden | gleich |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 (TÜV Saarland) inkl. GY, NIS2-Testat | Wilken vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, AIVA nach Telefonaufkommen | je nach Fall |
+| Bereich | Thema | enneo | Wilken | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU), Anbindung pro Kunde | AIVA als SaaS mit Idesia, Zugriff auf Wilken-Daten, Referenz Köthen Energie, Sprachmodell nicht genannt [Köthen Energie](https://www.wilken.de/success-story-koethen-energie) [ZfK AIVA](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle) | je nach Fall |
+| Kanäle | **Self-Service für Endkunden** | Kein Hilfecenter für Endkunden | Portale, App, Tarifrechner, Self-Service für Abschlag, Bankdaten, Zählerstand [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) | Wilken klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Nicht gefunden. E-Mail-Vorlagen und Steuerung der Eingänge im System, KI-Zusammenfassung und Antwortentwürfe nur über Partner epilot [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) [epilot KI](https://epilot.helpjuice.com/de_DE/ai) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | GY:PT seit 03/2026 als Assistent für Mitarbeitende, Agenten als nächste Stufe angekündigt, „KI schlägt vor, der Mensch entscheidet“ [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für den Kundenservice** | Ticketing, Postfach, Wissen, Telefonie, Skill-Routing in einem System | 360°-Kundensicht und Aufgabensteuerung im Abrechnungssystem, Kundenkommunikation teils über Partner [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) [Partnernetzwerk](https://www.wilken.de/partner) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Abrechnung und ERP** | Keins, enneo dockt an | Kernprodukt: ENER:GY, NTS, P/5, GY Billing [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) [Lösungsplattform GY](https://www.wilken.de/gy) | Wilken klar vorn |
+| Arbeitsplatz & Anbindungen | **Anbindung ans Abrechnungssystem** | Pro Kunde als Code gebaut, RPA für Altsysteme | Eigenes System, keine Schnittstelle nötig [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) | Wilken vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Eigenes Rechenzentrum in Ulm, Hosting, Cloud oder beim Kunden [Data Service Center](https://www.wilken.de/data-service-center) | gleich |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 (TÜV Saarland) inkl. GY, NIS2-Testat [ISO 27001 für GY](https://www.wilken.de/pressemeldung-iso-27001) [Data Service Center](https://www.wilken.de/data-service-center) | Wilken vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, AIVA nach Telefonaufkommen [ZfK AIVA](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle) [Versorgungswirtschaft](https://www.wilken.de/versorgungswirtschaft) | je nach Fall |
 
 ## Wo Wilken schwächer ist
 
@@ -97,6 +99,10 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Wilken gewinnen wir nicht bei Abrechnung, ERP, Self-Service-Portalen oder Zertifikaten, und das müssen wir auch nicht: Wilken bleibt das führende System, enneo dockt an. Gewinnen können wir beim Schriftverkehr, wo Wilken keine eigene KI-Bearbeitung zeigt, und bei einem Arbeitsplatz für alle Kanäle. Beim Voicebot ist AIVA der direkte Wettbewerber, mit Vorteil bei der Wilken-Anbindung und einer einzigen öffentlichen Referenz.
 
+## Direktlinks
+
+- [Community](https://community.wilken.de/)
+
 ## Quellen
 
 - [Wilken Startseite](https://www.wilken.de)
@@ -114,7 +120,8 @@ Gegen Wilken gewinnen wir nicht bei Abrechnung, ERP, Self-Service-Portalen oder 
 - [Neukunde Stadtwerke Schwäbisch Hall](https://www.wilken.de/presse-neukunde-loesungsplattform)
 - [Fachartikel KI-native IT-Ökosysteme](https://www.wilken.de/fachartikel-ki-natives-oekosystem)
 - [Success Story Köthen Energie (AIVA)](https://www.wilken.de/success-story-koethen-energie)
-- [ZfK: Voicebot löst 70 Prozent der Servicefälle](https://www.zfk.de/digitalisierung/it/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle)
-- [ZfK: Projekt Lighthouse](https://www.zfk.de/digitalisierung/it/wilken-das-wird-die-energieversorger-welt-revolutionieren)
+- [ZfK: Voicebot löst 70 Prozent der Servicefälle](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle)
+- [ZfK: Projekt Lighthouse](https://www.zfk.de/digitalisierung/wilken-das-wird-die-energieversorger-welt-revolutionieren)
 - [epilot KI-Funktionen](https://epilot.helpjuice.com/de_DE/ai)
 - [ZfK: epilot KI für E-Mails](https://www.zfk.de/digitalisierung/epilot-beschleunigt-e-mail-kommunikation-mit-kuenstlicher-intelligenz)
+- [Wilken Community](https://community.wilken.de/)

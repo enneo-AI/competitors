@@ -4,7 +4,7 @@ slug: "salesforce"
 fokus: "CRM & ERP"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.salesforce.com/de/service/"
 kurz: "US-CRM-Plattform, Service Cloud mit KI-Agenten von Agentforce"
@@ -15,7 +15,9 @@ kurz: "US-CRM-Plattform, Service Cloud mit KI-Agenten von Agentforce"
 | | | |
 |---|---|---|
 | Firma | **San Francisco, USA** | Salesforce, Inc. Kauft Fin (früher Intercom) für rund 3,6 Mrd. USD, Abschluss im 4. Quartal des Geschäftsjahres 2027 erwartet |
-| Preise | **ab 195 € + KI** | Service Core 195 €, Advanced 395 €, Max 550 € je Nutzer und Monat. Agentforce: 2 € je Gespräch oder Flex Credits für 500 € je 100.000 (eine Aktion 20 Credits, also 0,10 €), Add-on 125 € je Nutzer |
+| Gegründet | **1999, San Francisco** | Gegründet 1999 von Marc Benioff, heute Chair, CEO und Mitgründer |
+| Ursprung | **Cloud-CRM seit 1999** | Angefangen mit CRM-Software aus der Cloud. Seit 2016 KI-Vorhersagen im CRM, seit 2024 KI-Agenten mit Agentforce |
+| Preise | **Core 195 € + KI** | Service Core 195 €, Advanced 395 €, Max 550 € je Nutzer und Monat, für kleine Teams Starter Suite ab 25 € und Pro Suite ab 100 €. Agentforce: 2 € je Gespräch oder Flex Credits für 500 € je 100.000 (eine Aktion 20 Credits, also 0,10 €), Add-on 125 € je Nutzer |
 | Hosting | **Hyperforce, Region Deutschland** | Hyperforce auf AWS, Region Deutschland wählbar, EU Operating Zone mit EU-Support kostet extra. Sprachmodelle von Drittanbietern ohne Speicherung |
 | Zertifikat | **ISO 27001, C5** | Für Agentforce: ISO 27001, 27017, 27018 (Stand 30.10.2026) und C5-Bericht (Juli 2026) |
 
@@ -37,13 +39,13 @@ Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Fie
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Anhänge und Fotos lesen** | Mails mit Zählerfoto oder PDF werden automatisch erledigt statt bei Mitarbeitenden zu landen, weniger Handarbeit | „Der Salesforce-Agent liest laut Doku nur Betreff und Mailtext, wir lesen auch Zählerfoto und PDF.“ |
-| **Mehrere Anliegen, eine Antwort** | Weniger Rückfragen und Folgemails, ein Fall statt mehrerer | „Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Kontrolle vor dem Versand** | Geringeres Risiko falscher Antworten, der Fachbereich sieht vorab, was passiert | „Bei uns sehen Sie Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung, der Salesforce-Agent antwortet laut Doku immer.“ |
+| **Liest Anhänge und Fotos mit** | Mails mit Zählerfoto oder PDF werden automatisch erledigt statt bei Mitarbeitenden zu landen, weniger Handarbeit | „Der Salesforce-Agent liest laut Doku nur Betreff und Mailtext, wir lesen auch Zählerfoto und PDF.“ |
+| **Alle Anliegen, eine Antwort** | Weniger Rückfragen und Folgemails, ein Fall statt mehrerer | „Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Lösungsplan und Vorschau vor dem Versand** | Geringeres Risiko falscher Antworten, der Fachbereich sieht vorab, was passiert | „Bei uns sehen Sie Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung, der Salesforce-Agent antwortet laut Doku immer.“ |
 | **Fertige Fachagenten für Versorger** | Schnellerer Start bei Zählerstand, Abschlag und Bankdaten, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten sind bei uns fertige Agenten mit Plausibilitätsprüfung.“ |
-| **Deutscher Anbieter, Speicherung in Deutschland** | Datenschutzprüfung ohne Fragen zur US-Firma, kein Aufpreis für eine EU-Zone | „Wir sind eine deutsche GmbH und speichern bei Hetzner, bei Salesforce kostet die EU Operating Zone extra.“ |
+| **Deutsche GmbH, Speicherung in Deutschland** | Datenschutzprüfung ohne Fragen zur US-Firma, kein Aufpreis für eine besondere EU-Zone | „Wir sind eine deutsche GmbH und speichern bei Hetzner, bei Salesforce kostet die EU Operating Zone extra.“ |
 
 ## Wo Salesforce vorn liegt
 
@@ -55,26 +57,26 @@ Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Fie
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Salesforce | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Service Agent antwortet selbstständig auf Fälle aus Email-to-Case | gleich |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | E-Mail-Agent liest nur Betreff und Mailtext, keine Bilder oder Anhänge | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Für E-Mail nicht dokumentiert | enneo vorn |
-| **Begründung und Vorschau** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Agent antwortet immer, Anweisung zum Nicht-Antworten nicht unterstützt | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Branchenpaket mit Zählerstand per Chat und Abrechnungsanfragen, Abrechnungssysteme nicht genannt | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Hyperforce auf AWS, Region Deutschland, EU Operating Zone gegen Aufpreis | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Agentforce Voice, gleiche Agenten wie im Chat, Deutsch, 30 Credits je Aktion | je nach Fall |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Lizenz ab 195 € je Nutzer, dazu 2 € je Gespräch oder 0,10 € je Aktion | je nach Fall |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, C5 für Agentforce | Salesforce klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | E-Mail, Telefon, SMS, WhatsApp, Web-Chat, Slack, Portale | Salesforce vorn |
-| **Hilfecenter für Endkunden** | Keins | Self-Service-Hilfecenter ab Core | Salesforce klar vorn |
-| **Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | CRM-Plattform mit Slack, MuleSoft und Branchenpaketen | Salesforce klar vorn |
+| Bereich | Thema | enneo | Salesforce | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | E-Mail, Telefon, SMS, WhatsApp, Web-Chat, Slack, Portale [E-Mail-Agent](https://help.salesforce.com/s/articleView?id=ai.agent_email_parent.htm&type=5) [Fertige Agenten](https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/) [Kauf von Fin](https://investor.salesforce.com/news/news-details/2026/Salesforce-Signs-Definitive-Agreement-to-Acquire-Fin/) | Salesforce vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Agentforce Voice, gleiche Agenten wie im Chat, Deutsch, 30 Credits je Aktion [Voice](https://www.salesforce.com/agentforce/voice/) [Agentforce Preise](https://www.salesforce.com/de/agentforce/pricing/) | je nach Fall |
+| Kanäle | **Hilfecenter für Endkunden** | Keins | Self-Service-Hilfecenter ab Core [Service Preise](https://www.salesforce.com/de/service/pricing/) | Salesforce klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt und legitimiert den Kunden, bucht und antwortet, auch vollautomatisch | Service Agent antwortet selbstständig auf Fälle aus Email-to-Case, Prüfung der Identität auf E-Mail laut Doku nicht unterstützt [E-Mail-Agent](https://help.salesforce.com/s/articleView?id=ai.agent_email_parent.htm&type=5) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | E-Mail-Agent liest nur Betreff und Mailtext, keine Bilder oder Anhänge [Grenzen E-Mail](https://help.salesforce.com/s/articleView?id=ai.service_agent_considerations_1.htm&type=5) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Für E-Mail nicht dokumentiert [E-Mail-Agent](https://help.salesforce.com/s/articleView?id=ai.agent_email_parent.htm&type=5) [Grenzen E-Mail](https://help.salesforce.com/s/articleView?id=ai.service_agent_considerations_1.htm&type=5) | enneo vorn |
+| KI & Automatisierung | **Begründung und Vorschau** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Agent antwortet immer, Anweisung zum Nicht-Antworten nicht unterstützt [Grenzen E-Mail](https://help.salesforce.com/s/articleView?id=ai.service_agent_considerations_1.htm&type=5) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Branchenpaket mit Zählerstand per Chat und Abrechnungsanfragen, Abrechnungssysteme nicht genannt [Agentforce Energie](https://www.salesforce.com/de/energy-utilities/artificial-intelligence/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | CRM-Plattform mit Slack und Branchenpaketen wie der Energy & Utilities Cloud [Geschichte](https://www.salesforce.com/company/our-story/) [Energie Preise](https://www.salesforce.com/de/energy-utilities/cloud/pricing/) | Salesforce klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Hyperforce auf AWS, Region Deutschland, EU Operating Zone gegen Aufpreis [Hyperforce EU](https://www.salesforce.com/eu/hyperforce/) [Subunternehmer](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/misc/salesforce-infrastructure-and-subprocessors.pdf) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, C5 für Agentforce [Compliance](https://compliance.salesforce.com/en/services/agentforce-einstein-platform) [C5-Berichte](https://compliance.salesforce.com/en/categories/c5-isae-3000) | Salesforce klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Service Cloud Core 195 € je Nutzer (Starter Suite ab 25 €), dazu 2 € je Gespräch oder 0,10 € je Aktion [Service Preise](https://www.salesforce.com/de/service/pricing/) [Agentforce Preise](https://www.salesforce.com/de/agentforce/pricing/) | je nach Fall |
 
 ## Wo Salesforce schwächer ist
 
 - **Kosten stapeln sich:** Lizenz je Nutzer, dazu Agentforce-Add-on oder Verbrauch. Nicht genutzte Flex Credits werden nicht übertragen, Credits und Gespräche gehen nicht gleichzeitig in einer Org, Voice kostet mehr Credits je Aktion.
 - **Produktlinie im Umbau:** Für Casey nennt Salesforce kein E-Mail, für Fin schon, und Fin gehört erst nach Abschluss des Kaufs zu Salesforce. Welcher Agent künftig E-Mails bearbeitet, ist offen.
-- **Grenzen im E-Mail-Agenten:** Keine Anhänge, neue Mails zu geschlossenen Fällen werden nicht bearbeitet, Fälle schließt der Agent nicht selbst. Ohne eingestellte Sprache antwortet er auf Englisch.
+- **Grenzen im E-Mail-Agenten:** Keine Anhänge, keine Prüfung der Identität des Kunden, neue Mails zu geschlossenen Fällen werden nicht bearbeitet, Fälle schließt der Agent nicht selbst. Ohne eingestellte Sprache antwortet er auf Englisch.
 - **Sprachmodelle nicht benannt:** Salesforce nennt auf der Trust-Seite nur „Drittanbieter“, weder Anbieter noch Region.
 
 ## Einwände
@@ -99,7 +101,19 @@ Salesforce ist die breiteste Plattform im Vergleich: CRM, Service, Vertrieb, Fie
 
 Salesforce ist die stärkere Plattform, wenn ein Kunde CRM, Vertrieb, Service und Hilfecenter aus einer Hand will, und liegt bei Zertifikaten vorn. Gewinnen können wir, wenn viele Mails Anhänge, Fotos oder mehrere Anliegen haben, wenn Daten bei einem deutschen Anbieter liegen sollen und bei fertigen Abläufen für Versorger. Über Preis und Kanäle allein gewinnen wir nicht.
 
+## Direktlinks
+
+- [Doku](https://help.salesforce.com/s/)
+- [API](https://developer.salesforce.com/docs)
+- [Community](https://trailhead.salesforce.com/trailblazer-community)
+- [Trust Center](https://compliance.salesforce.com)
+- [Preise](https://www.salesforce.com/de/service/pricing/)
+- [Release Notes](https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&type=5)
+- [Status](https://status.salesforce.com)
+
 ## Quellen
+
+- [Unsere Geschichte](https://www.salesforce.com/company/our-story/)
 
 - [Service Cloud Preise](https://www.salesforce.com/de/service/pricing/)
 - [Agentforce Preise](https://www.salesforce.com/de/agentforce/pricing/)
@@ -115,3 +129,10 @@ Salesforce ist die stärkere Plattform, wenn ein Kunde CRM, Vertrieb, Service un
 - [C5-Berichte](https://compliance.salesforce.com/en/categories/c5-isae-3000)
 - [Agentforce für Energie](https://www.salesforce.com/de/energy-utilities/artificial-intelligence/)
 - [Energy & Utilities Preise](https://www.salesforce.com/de/energy-utilities/cloud/pricing/)
+- [Infrastruktur und Subunternehmer](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/misc/salesforce-infrastructure-and-subprocessors.pdf)
+- [Trust-Seite](https://trust.salesforce.com)
+- [Hilfe](https://help.salesforce.com/s/)
+- [Entwickler-Doku](https://developer.salesforce.com/docs)
+- [Trailblazer Community](https://trailhead.salesforce.com/trailblazer-community)
+- [Release Notes](https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&type=5)
+- [Status](https://status.salesforce.com)

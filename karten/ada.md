@@ -4,7 +4,7 @@ slug: "ada"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.ada.cx"
 kurz: "KI-Agenten für Chat, E-Mail und Telefon aus Kanada"
@@ -15,6 +15,8 @@ kurz: "KI-Agenten für Chat, E-Mail und Telefon aus Kanada"
 | | | |
 |---|---|---|
 | Firma | **Toronto, bald mit Dialpad** | Ada Support Inc., gegründet 2016, laut eigener Stellenanzeige über 250 Mio. USD Kapital. Am 04.11.2026 Zusammenschluss mit Dialpad angekündigt, Abschluss um den 12.11.2026, Chef wird Dialpad-CEO Craig Walker. Mitarbeiterzahl nicht gefunden |
+| Gegründet | **2016, Toronto** | Von Mike Murchison und David Hariri, die vorher selbst im Kundenservice von sieben Firmen mitgearbeitet haben |
+| Ursprung | **von Anfang an KI** | Ada baut seit der Gründung KI für den Kundenservice, laut eigener Aussage seit fast zehn Jahren, und baut die Software um KI-Modelle statt um Nutzerplätze |
 | Preise | **nicht öffentlich** | Preisseite nur mit Demo-Termin. Laut Einkaufsplattform Vendr Abrechnung vor allem nach Zahl der automatisierten Gespräche, Median rund 75 Tsd. USD im Jahr, Einführung und Integrationen extra |
 | Hosting | **AWS, USA/Kanada/Europa** | Europa nur mit gebuchter „Europe data storage option“, Land nicht genannt. Sprachmodelle von OpenAI, Anthropic, Cohere u. a. in den USA, Telefonie über Twilio in den USA |
 | Zertifikat | **SOC 2 Type 2, HIPAA** | Dazu PCI DSS und AIUC-1. Letzter veröffentlichter SOC-2-Zeitraum 10/2023 bis 09/2024. ISO 27001 und C5 nicht gefunden |
@@ -36,14 +38,14 @@ Ada ist ein reiner Anbieter von KI-Agenten für Chat, E-Mail und Telefon, stark 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Ein System statt KI plus Helpdesk** | Kein zweites System für die Mitarbeitenden lizenzieren und pflegen, keine Brüche bei der Übergabe | „Bei uns arbeiten KI und Mitarbeitende im selben System, ohne Übergabe an ein zweites Helpdesk.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen, weniger Mails landen bei Menschen | „Ein Zählerfoto oder eine PDF im Anhang liest unsere KI einfach mit.“ |
-| **Speicherung bei deutschem Anbieter** | Ticketdaten in Deutschland bei einer deutschen Firma, kürzere Datenschutzprüfung | „Ihre Daten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
+| **KI und Arbeitsplatz in einem System** | Ein Vertrag und ein System für KI und Mitarbeitende, Übergaben laufen ohne Bruch im selben Ticket | „Bei uns arbeiten KI und Mitarbeitende im selben System, ohne Übergabe an ein zweites Helpdesk.“ |
+| **KI liest Anhänge und Fotos** | Zählerfotos und PDF-Anlagen werden automatisch erfasst, mehr Mails laufen ohne Menschen durch | „Ein Zählerfoto oder eine PDF im Anhang liest unsere KI einfach mit.“ |
+| **Speicherung in Deutschland bei Hetzner** | Ticketdaten bleiben in Deutschland bei einer deutschen Firma, die Datenschutzprüfung geht schneller | „Ihre Daten liegen bei uns bei Hetzner in Deutschland, auf Wunsch auch bei Ihnen im Haus.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Altsysteme ohne Schnittstelle** | Auch Systeme ohne API automatisieren, statt auf ein IT-Projekt zu warten | „Wo es keine Schnittstelle gibt, bedient bei uns ein RPA-Bot das Altsystem.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten sind schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **RPA-Bot für Altsysteme** | Auch Systeme ohne Schnittstelle laufen automatisch, ohne auf ein IT-Projekt zu warten | „Wo es keine Schnittstelle gibt, bedient bei uns ein RPA-Bot das Altsystem.“ |
 
 ## Wo Ada vorn liegt
 
@@ -55,26 +57,26 @@ Ada ist ein reiner Anbieter von KI-Agenten für Chat, E-Mail und Telefon, stark 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Ada | Einordnung |
-|---|---|---|---|
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, KI-Agenten, Wissen, Telefonie in einem System | Kein eigener Arbeitsplatz gefunden, Übergabe an Zendesk, Salesforce, Freshdesk u. a. | enneo vorn |
-| **KI-Bearbeitung von E-Mails** | Eingang, Kunde erkennen, Aktion im Zielsystem, Antwort, auch vollautomatisch | Agent liest, erkennt das Anliegen, handelt über Playbooks und API-Werkzeuge, antwortet im selben Verlauf | gleich |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Laut Doku mehrere Fragen in einer Mail, Ablauf bei mehreren Buchungen nicht beschrieben | gleich |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Standard: Übergabe an Menschen. Optional bis zu 3 Bilder, PDF-Inhalt nicht dokumentiert | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Keine Energiekunden, kein SAP oder Abrechnungssystem genannt | enneo klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS USA, Kanada, Europa als Option, viele Subunternehmer nur in den USA | enneo klar vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Subunternehmerliste öffentlich, Datenflüsse und Transferprüfung nur auf Anfrage | enneo vorn |
-| **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, API und MCP | API-Werkzeuge, Python in der Sandbox, MCP | gleich |
-| **Altsysteme ohne Schnittstelle** | RPA-Bot mit Neo | Laut Ada heute keine Browser- oder Desktop-Steuerung | enneo vorn |
-| **Voicebot und Telefonie** | Eigene Telefonie oder SIP-Leitung, OpenAI oder Deepslate | 42 Sprachen, SIP, Genesys, NICE, Amazon Connect, bald Dialpad | Ada vorn |
-| **Sprachen und Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | 60 Sprachen bei E-Mail, Chat, Messaging, Telefon | Ada vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Type 2, HIPAA, PCI DSS, AIUC-1 | Ada vorn |
+| Bereich | Thema | enneo | Ada | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Sprachen und Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | 60 Sprachen bei E-Mail, dazu Chat, Messaging, Telefon [E-Mail-Agent](https://www.ada.cx/platform/email/) [Startseite](https://www.ada.cx/) | Ada vorn |
+| Kanäle | **Voicebot und Telefonie** | Eigene Telefonie oder SIP-Leitung, OpenAI oder Deepslate | 42 Sprachen, Twilio, Genesys, NICE, Avaya, Amazon Connect, ausgehende Anrufe über SIP-Leitung, bald Dialpad [Voice-Agent](https://www.ada.cx/platform/voice/) [Dialpad](https://www.ada.cx/media-center/press-release/dialpad-and-ada-combining-to-build-the-agentic-operating-system-for-customer-work/) | Ada vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eingang, Kunde erkennen, Aktion im Zielsystem, Antwort, auch vollautomatisch | Agent liest, erkennt das Anliegen, handelt über Playbooks und API-Werkzeuge, antwortet im selben Verlauf [E-Mail-Agent](https://www.ada.cx/platform/email/) [Playbooks](https://www.ada.cx/platform/playbooks/) | gleich |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Laut Doku mehrere Fragen in einer Mail, Ablauf bei mehreren Buchungen nicht beschrieben [Doku E-Mail](https://docs.ada.cx/docs/channels/email/email-onboarding) [E-Mail-Agent](https://www.ada.cx/platform/email/) | gleich |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Standard: Übergabe an Menschen. Optional bis zu 3 Bilder, PDF-Inhalt nicht dokumentiert [Doku Anhänge](https://docs.ada.cx/docs/channels/email/email-configuration/email-handoffs/attachment-handling) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Keine Energiekunden, kein SAP oder Abrechnungssystem genannt [Fallstudien](https://www.ada.cx/case-studies/) [Integrationen](https://www.ada.cx/platform/integrations/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, KI-Agenten, Wissen, Telefonie in einem System | Kein eigener Arbeitsplatz gefunden, Übergabe an Zendesk, Salesforce, Freshworks u. a. [Integrationen](https://www.ada.cx/platform/integrations/) [Doku E-Mail](https://docs.ada.cx/docs/channels/email/email-onboarding) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Schnittstellen bauen** | Als Code, jedes Format, beliebige Logik, API und MCP | API-Werkzeuge, Code und MCP [Ada Computer](https://www.ada.cx/platform/ada-computer/) | gleich |
+| Arbeitsplatz & Anbindungen | **Altsysteme ohne Schnittstelle** | RPA-Bot mit Neo | Laut Ada heute nur über API, Code und MCP, also nur über Schnittstellen der Systeme [Ada Computer](https://www.ada.cx/platform/ada-computer/) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS USA, Kanada, Europa als Option, viele Subunternehmer nur in den USA [Subunternehmer](https://www.ada.cx/subprocessors) | enneo klar vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Subunternehmerliste öffentlich, Datenflüsse und Transferprüfung nur auf Anfrage [Trust Center](https://security.ada.cx) [Subunternehmer](https://www.ada.cx/subprocessors) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Type 2, HIPAA, PCI DSS, AIUC-1 [Trust Center](https://security.ada.cx) [Trust & Safety](https://www.ada.cx/platform/trust/) | Ada vorn |
 
 ## Wo Ada schwächer ist
 
 - **Umbruch durch Dialpad:** Der Zusammenschluss wurde am 04.11.2026 angekündigt, Ada-Chef Mike Murchison wird Chief AI Officer, der Name der neuen Firma steht noch nicht fest. Ada schreibt „Nothing changes as a result of this announcement“. Wie es mit Produkt und Ansprechpartnern in Europa weitergeht, ist offen.
 - **Daten in Europa nur auf Wunsch:** Europa-Speicherung ist eine eigene Option. Sprachmodelle, Spracherkennung (Deepgram) und Telefonie (Twilio) laufen laut Subunternehmerliste in den USA.
-- **Kein DACH-Bezug belegt:** Unter 23 Fallstudien keine aus Deutschland, Österreich oder der Schweiz, keine aus Energie oder Versicherung. Ada sucht gerade einen ersten Vertriebsleiter für DACH und Nordics.
+- **Kein DACH-Bezug belegt:** Unter 23 Fallstudien keine aus Deutschland, Österreich oder der Schweiz, keine aus Energie oder Versicherung. Ada sucht gerade einen Enterprise Account Executive für DACH und Nordics.
 - **E-Mail mit Grenzen:** Ohne Zendesk- oder Salesforce-Connector antworten Mitarbeitende von einer anderen Adresse in einem neuen Verlauf. E-Mail ist laut Doku nicht HIPAA-fähig, einzelne Bausteine fehlen im Kanal.
 
 ## Einwände
@@ -97,9 +99,19 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Ada gewinnen wir bei Kunden in DACH, die einen Arbeitsplatz und KI aus einer Hand wollen, Wert auf Speicherung in Deutschland legen und viel Schriftverkehr mit Anhängen haben, vor allem bei Energieversorgern. Bei Sprachenvielfalt, Telefonie, Zertifikaten und internationalen Referenzen liegt Ada vorn. Der laufende Zusammenschluss mit Dialpad ist ein guter Anlass, nach Ansprechpartnern und Plänen für Europa zu fragen.
 
+## Direktlinks
+
+- [Doku](https://docs.ada.cx/home)
+- [API](https://docs.ada.cx/reference/introduction/overview)
+- [Trust Center](https://security.ada.cx)
+- [Release Notes](https://docs.ada.cx/release-notes)
+- [Status](https://status.ada.support)
+
 ## Quellen
 
 - [Ada Startseite](https://www.ada.cx/)
+- [Über Ada](https://www.ada.cx/about/)
+- [Interview mit Mitgründer Mike Murchison](https://www.ada.cx/posts/qa-with-mike-murchison-adas-co-founder-ceo)
 - [E-Mail-Agent](https://www.ada.cx/platform/email/)
 - [Voice-Agent](https://www.ada.cx/platform/voice/)
 - [Ada Computer](https://www.ada.cx/platform/ada-computer/)

@@ -4,7 +4,7 @@ slug: "enterprisebot"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.enterprisebot.ai"
 kurz: "Schweizer KI-Plattform für Voice, E-Mail und Chat"
@@ -14,7 +14,9 @@ kurz: "Schweizer KI-Plattform für Voice, E-Mail und Chat"
 
 | | | |
 |---|---|---|
-| Firma | **Zürich, 51 bis 200 MA** | Enterprise Bot GmbH, Dufourstrasse 22, Zürich. Laut eigenem Blog 2016 gegründet. Weitere Büros in Bengaluru (Entwicklung), Barcelona, Warschau, London und Dover (USA). 2022 insgesamt 2,25 Mio. USD Kapital, angeführt von FiveT Fintech |
+| Firma | **Zürich, 51 bis 200 MA** | Enterprise Bot GmbH, Dufourstrasse 22, Zürich. Weitere Büros in Bengaluru (Entwicklung), Barcelona, Warschau, London und Dover (USA). 2022 insgesamt 2,25 Mio. USD Kapital, angeführt von FiveT Fintech |
+| Gegründet | **2016** | Laut eigenem Blog 2016 von Pranay Jain, Ravina Mutha und Sandeep Jayasankar gegründet. Startupticker nannte 2019 das Jahr 2017 und Zug als Gründungsort |
+| Ursprung | **von Anfang an KI** | 2019 entwickelte das Start-up laut Startupticker Chatbots, einen KI-Terminassistenten und Bots zum Sortieren von E-Mails, damals schon mit der SBB als Kunde |
 | Preise | **nicht öffentlich** | Keine Preisliste, nur Demo auf Anfrage. SourceForge nennt eine Testversion |
 | Hosting | **wählbar, auch On-Prem** | Verwaltetes Hosting in EU, Nahost, Nordamerika oder Asien, dazu eigene VPC oder eigenes Rechenzentrum. Kubernetes auf AWS, Google Cloud oder Azure in EU oder USA. Betreiber des Standard-Hostings nicht genannt |
 | Zertifikat | **SOC 2 laut Website** | Logos für SOC, PCI DSS, HIPAA und „GDPR ready“. Kein Bericht, kein Trust Center, ISO 27001 nicht gefunden |
@@ -25,11 +27,11 @@ kurz: "Schweizer KI-Plattform für Voice, E-Mail und Chat"
 
 ## Das Wichtigste vorweg
 
-Enterprise Bot ist ein Schweizer Anbieter für KI-Agenten in Voice, E-Mail und Chat, mit Referenzen vor allem bei Schweizer Versicherern, Spitälern und Verkehrsbetrieben. Stark ist er bei Sprachdiensten, Modellwahl, Betrieb beim Kunden und der Anbindung an Genesys, NICE oder Luware. Einen eigenen Ticketing-Arbeitsplatz beschreibt er nicht, er setzt sich in vorhandene Contact Center. Bei E-Mail ist öffentlich vor allem Klassifizierung mit Antwortentwürfen belegt, Buchung im Zielsystem und mehrere Anliegen in einer Mail sind es nicht.
+Enterprise Bot ist ein Schweizer Anbieter für KI-Agenten in Voice, E-Mail und Chat, mit Referenzen vor allem bei Schweizer Versicherern, Spitälern und Verkehrsbetrieben. Stark ist er bei Sprachdiensten, Modellwahl, Betrieb beim Kunden und der Anbindung an Genesys, NICE oder Luware. Einen eigenen Ticketing-Arbeitsplatz beschreibt er nicht, er setzt sich in vorhandene Contact Center. Bei E-Mail sind öffentlich Sortieren, Antwortentwürfe und ein Teil voll automatisierter Antworten belegt, Buchung im Zielsystem und mehrere Anliegen in einer Mail sind es nicht.
 
 ## Unsere Verkaufsargumente
 
-- **E-Mail-KI bis ins Zielsystem:** Bei enneo erkennt die KI das Anliegen und den Kunden, bucht im ERP und antwortet, auch vollautomatisch. Das E-Mail-Produkt ERA von Enterprise Bot nennt zwar volle Automatisierung, die einzige öffentliche E-Mail-Referenz (RMV) sortiert Mails aber und schlägt Entwürfe für Mitarbeitende vor.
+- **E-Mail-KI bis ins Zielsystem:** Bei enneo erkennt die KI das Anliegen und den Kunden, bucht im ERP und antwortet, auch vollautomatisch. Das E-Mail-Produkt ERA von Enterprise Bot nennt zwar volle Automatisierung, die öffentlichen E-Mail-Referenzen zeigen aber Sortieren, Entwürfe und bei BCD WTS 21,4 % voll automatisierte Anfragen, tiefere Anbindung an Fachsysteme erst als Ausblick.
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. Bei Enterprise Bot haben wir dazu nichts gefunden.
 - **Ein System statt Aufsatz:** Bei enneo sind Arbeitsplatz, Postfach, KI-Agenten, Wissen, Telefonie und Voicebot ein Produkt mit Skill-Routing. Enterprise Bot setzt auf ein vorhandenes Contact Center oder CRM auf, einen eigenen Ticketing-Arbeitsplatz beschreibt die Website nicht.
 - **Datenschutz zum Nachlesen:** Unsere AVV, TOM, Subunternehmer und SLA sind öffentlich, gespeichert wird bei Hetzner in Deutschland. Bei Enterprise Bot nennt die Datenschutzerklärung weder Speicherort noch Subunternehmer.
@@ -37,14 +39,14 @@ Enterprise Bot ist ein Schweizer Anbieter für KI-Agenten in Voice, E-Mail und C
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, weil Standardfälle ganz ohne Hand laufen | „Bei uns endet die Mail nicht beim Entwurf, sondern mit der Buchung im ERP und der Antwort.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Eigener Arbeitsplatz im selben System** | Kein zweites System für Tickets lizenzieren und pflegen, eine Ansprechstelle | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein Produkt.“ |
+| **Mails bis zur Buchung im ERP** | Standardfälle laufen ganz ohne Hand, weniger Mitarbeitende für Schriftverkehr | „Bei uns endet die Mail nicht beim Entwurf, sondern mit der Buchung im ERP und der Antwort.“ |
+| **Alle Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Ein System für KI und Team** | Ein Vertrag und ein System für Tickets, KI und Telefonie, eine Ansprechstelle | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein Produkt.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst lesen.“ |
-| **Deutscher Speicherort, deutscher Anbieter** | Weniger Abstimmung mit Datenschutz und Betriebsrat zur Frage, wo Daten liegen | „Gespeichert wird bei Hetzner in Deutschland, Backups in Deutschland und Finnland.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Speicherung in Deutschland** | Weniger Abstimmung mit Datenschutz und Betriebsrat zur Frage, wo Daten liegen | „Gespeichert wird bei Hetzner in Deutschland, Backups in Deutschland und Finnland.“ |
+| **Fertige Versorger-Agenten** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Enterprise Bot vorn liegt
 
@@ -56,30 +58,30 @@ Enterprise Bot ist ein Schweizer Anbieter für KI-Agenten in Voice, E-Mail und C
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Enterprise Bot | Einordnung |
-|---|---|---|---|
-| **E-Mail bis zur Aktion im Zielsystem** | Volle Strecke bis zur Buchung und Antwort, auch vollautomatisch | ERA nennt Entwurf, Co-Pilot oder volle Automatisierung. Einzige E-Mail-Referenz: Sortieren und Entwürfe | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, eine Antwort | nicht gefunden | enneo vorn |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | PDF, Scans und Screenshots per OCR | gleich |
-| **Eigener Arbeitsplatz** | Ticketing, Postfach, KI und Telefonie in einem System | Aufsatz auf Genesys, NICE, Salesforce. Live-Chat für Mitarbeitende, Ticketing nicht gefunden | enneo vorn |
-| **Voicebot und Sprachdienste** | OpenAI oder Deepslate (EU) | Viele austauschbare Anbieter, Schweizerdeutsch im Einsatz | Enterprise Bot vorn |
-| **Contact-Center-Anbindung** | SIP, keine native Teams-Anbindung | Genesys, NICE, Luware mit Teams, Vier | Enterprise Bot klar vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen | SaaS, VPC oder eigenes Rechenzentrum | Enterprise Bot vorn |
-| **Sprachmodelle** | US-Anbieter, EU-Modelle im AVV möglich | OpenAI, Gemini, Bedrock oder eigene Modelle | Enterprise Bot vorn |
-| **Datenschutzunterlagen** | AVV, TOM, Subunternehmer, SLA öffentlich | Datenschutzerklärung ohne Speicherort und Subunternehmer | enneo klar vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | SOC-, PCI- und HIPAA-Logos, Bericht nicht öffentlich | Enterprise Bot vorn |
-| **Fachabläufe Energie** | Fertige Agenten für Zählerstand, Abschlag, Bankdaten | Keine Energie-Referenz gefunden | enneo klar vorn |
+| Bereich | Thema | enneo | Enterprise Bot | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot und Sprachdienste** | OpenAI oder Deepslate (EU) | Viele austauschbare Anbieter (Deepgram, Google, Microsoft, ElevenLabs, Polly, Azure), Schweizerdeutsch im Einsatz [Voicebot AIVA](https://www.enterprisebot.ai/products/voice-bot) | Enterprise Bot vorn |
+| KI & Automatisierung | **E-Mail bis zur Aktion im Zielsystem** | Volle Strecke bis zur Buchung und Antwort, auch vollautomatisch | ERA nennt Entwurf, Co-Pilot oder volle Automatisierung. Referenzen: Sortieren und Entwürfe (RMV), 21,4 % voll automatisiert und tiefere Anbindung als Ausblick (BCD WTS) [ERA](https://www.enterprisebot.ai/products/email-response-automation) [Fallstudie RMV](https://www.enterprisebot.ai/case_study/rmv-0) [Fallstudie BCD](https://www.enterprisebot.ai/case_study/bcd-wts) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, eine Antwort | nicht gefunden [ERA](https://www.enterprisebot.ai/products/email-response-automation) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | PDF, Scans und Screenshots per OCR [ERA](https://www.enterprisebot.ai/products/email-response-automation) | gleich |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter, EU-Modelle im AVV möglich | OpenAI, Gemini, Bedrock oder eigene Modelle [Technologie](https://www.enterprisebot.ai/technology) | Enterprise Bot vorn |
+| KI & Automatisierung | **Fachabläufe Energie** | Fertige Agenten für Zählerstand, Abschlag, Bankdaten | Keine Energie-Referenz gefunden [Fallstudien](https://www.enterprisebot.ai/case_study) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Eigener Arbeitsplatz** | Ticketing, Postfach, KI und Telefonie in einem System | Aufsatz auf vorhandene Contact Center und CRM ohne neue Oberfläche. Live-Chat für Mitarbeitende, Ticketing nicht gefunden [Live Chat](https://www.enterprisebot.ai/products/live-chat) [Startseite](https://www.enterprisebot.ai) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Contact-Center-Anbindung** | SIP, keine native Teams-Anbindung | Genesys, NICE, Luware mit Teams, Vier [Technologie](https://www.enterprisebot.ai/technology) [Voicebot AIVA](https://www.enterprisebot.ai/products/voice-bot) | Enterprise Bot klar vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen | SaaS, VPC oder eigenes Rechenzentrum [Technologie](https://www.enterprisebot.ai/technology) | Enterprise Bot vorn |
+| Daten & Sicherheit | **Datenschutzunterlagen** | AVV, TOM, Subunternehmer, SLA öffentlich | Datenschutzerklärung ohne Speicherort und Subunternehmer [Datenschutz](https://get.enterprisebot.ai/legal/privacy-policy) | enneo klar vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung | SOC 2 genannt, Logos für SOC, PCI DSS und HIPAA, Bericht nicht öffentlich [Technologie](https://www.enterprisebot.ai/technology) [Logos](https://www.enterprisebot.ai/hubfs/Group%20304%202.png) | Enterprise Bot vorn |
 
 ## Wo Enterprise Bot schwächer ist
 
-- **E-Mail-Referenz dünn:** Bei RMV sortiert der E-Mail-Bot Anfragen und schlägt Entwürfe vor, im Test mit 86 % Genauigkeit. Die Fallstudie kündigt den Start erst an. Eine Referenz mit Buchung im Zielsystem haben wir nicht gefunden.
+- **E-Mail-Referenzen ohne Buchung:** Bei RMV sortiert der E-Mail-Bot Anfragen und schlägt Entwürfe vor, im Test mit 86 % Genauigkeit, die Fallstudie kündigt den Start erst an. Bei BCD WTS sind nach drei Monaten 21,4 % der Anfragen voll automatisiert, tiefere Anbindung an Fachsysteme steht unter Ausblick. Eine Referenz mit Buchung im Zielsystem haben wir nicht gefunden.
 - **Wenig öffentlich nachprüfbar:** Keine Preise, keine öffentliche Doku, keine Release Notes. Mehrere Produktseiten enthalten noch Platzhaltertext („Lorem Ipsum“), die Sprachangaben schwanken zwischen „50+“ und „über 100“.
 - **Datenschutz nur als Logo:** Zertifikate erscheinen als Logos ohne Bericht. Die Datenschutzerklärung nennt weder Firma mit Anschrift noch Speicherort, Subunternehmer oder AVV.
-- **Wenig DACH außerhalb der Schweiz:** Deutsche Referenz ist nur RMV (Verkehr). Energieversorger kommen auf der Website nicht vor. Von acht offenen Stellen liegen laut join.com sieben in Bengaluru.
+- **Wenig DACH außerhalb der Schweiz:** Deutsche Referenz ist nur RMV (Verkehr). Energieversorger kommen auf der Website nicht vor. Von sieben offenen Stellen liegen laut join.com sechs in Bengaluru.
 
 ## Einwände
 
-- **„Enterprise Bot kann E-Mail, Chat und Voice auch.“** Stimmt, alle drei Kanäle sind im Angebot, Voice ist dort sehr stark. Bei E-Mail ist öffentlich vor allem Sortieren mit Antwortentwürfen belegt. Fragen Sie nach einer Referenz, bei der Mails mit mehreren Anliegen bis zur Buchung im Zielsystem laufen.
+- **„Enterprise Bot kann E-Mail, Chat und Voice auch.“** Stimmt, alle drei Kanäle sind im Angebot, Voice ist dort sehr stark. Bei E-Mail sind öffentlich vor allem Sortieren und Antwortentwürfe belegt, voll automatisch nur ein Teil der Anfragen. Fragen Sie nach einer Referenz, bei der Mails mit mehreren Anliegen bis zur Buchung im Zielsystem laufen.
 - **„Enterprise Bot ist SOC-2-zertifiziert, ihr nicht.“** Die Website zeigt das Logo, das ist ein Vorsprung. Bei uns sind ISO 27001 und SOC 2 in Prüfung, Hetzner ist ISO 27001 zertifiziert. Dafür liegen unsere AVV, TOM, Subunternehmer und SLA öffentlich vor, Ihr Datenschutz kann sofort prüfen.
 - **„Die arbeiten für Generali und SWICA, das sind große Namen.“** Das sind gute Referenzen, vor allem für Voicebot und Chat in der Schweiz. Für automatische E-Mail-Bearbeitung und für Energieversorger haben wir dort keine Referenz gefunden. Genau da liegt unser Schwerpunkt.
 
@@ -116,8 +118,12 @@ Gegen Enterprise Bot gewinnen wir nicht über Voicebot auf Schweizerdeutsch, Spr
 - [Fallstudie SWICA](https://www.enterprisebot.ai/case_study/swica)
 - [Fallstudie Kantonsspital Winterthur](https://www.enterprisebot.ai/case_study/ksw)
 - [Fallstudie Callpoint](https://www.enterprisebot.ai/case_study/callpoint)
+- [Fallstudie BCD WTS](https://www.enterprisebot.ai/case_study/bcd-wts)
+- [Fallstudie SIX](https://www.enterprisebot.ai/case_study/six)
+- [Alle Fallstudien](https://www.enterprisebot.ai/case_study)
 - [Finanzierung 2022](https://enterprisebot.ai/blog/funding-raise)
 - [Blog](https://www.enterprisebot.ai/blog)
 - [Stellen bei join.com](https://join.com/companies/enterprisebot)
 - [Pressemitteilung Advisory Board 2024](https://www.pressetext.com/news/20240701017)
+- [Startupticker 2019: SBB-Chatbot](https://www.startupticker.ch/en/news/april-2019/sbb-answers-ticketing-questions-via-chatbot)
 - [SourceForge](https://sourceforge.net/software/product/Enterprise-Bot/)

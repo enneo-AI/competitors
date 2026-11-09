@@ -4,7 +4,7 @@ slug: "aircall"
 fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://aircall.io"
 kurz: "Cloud-Telefonanlage aus Paris mit KI-Agenten für Anrufe, SMS und WhatsApp"
@@ -15,6 +15,8 @@ kurz: "Cloud-Telefonanlage aus Paris mit KI-Agenten für Anrufe, SMS und WhatsAp
 | | | |
 |---|---|---|
 | Firma | **Paris und New York** | Aircall, 2014 in Paris gegründet, laut Aircall 24.000+ Kunden und über 250 Mio. USD Jahresumsatz (ARR). Rund 226 Mio. USD Kapital, 2021 mit 1 Mrd. USD bewertet. Büro in Berlin. Seit 29.10.2026 wieder Mitgründer Olivier Pailhès als CEO |
+| Gegründet | **2014, Paris** | Von Olivier Pailhès, Jonathan Anguelov, Pierre-Baptiste Béchu und Xavier Durand, die Idee entstand im Pariser Startup-Studio eFounders |
+| Ursprung | **Telefonanlage seit 2014** | Angetreten, um teure und schwer einzurichtende Firmentelefonie einfacher zu machen. KI kam zuerst als AI Assist dazu, den Voicebot AI Voice Agent gibt es seit April 2025 |
 | Preise | **ab 30 € je Lizenz** | Essentials 30, Professional 50 € je Nutzer und Monat bei Jahresvertrag, mindestens 3 Lizenzen. AI Voice Agent nach Minuten: 1.000 Min. für 210 €, ab 0,11 € je Minute bei großem Volumen. AI Assist Pro 49 USD je Nutzer |
 | Hosting | **AWS, teils Frankfurt** | Für EU-Konten liegen Aufnahmen, Transkripte und KI-Auswertungen in Frankfurt. Kontodaten, Kontakte, Anrufdaten, SMS und WhatsApp „in den meisten Fällen“ in den USA. KI-Dienste (Azure, Deepgram, ElevenLabs u. a.) laut Liste in den USA |
 | Zertifikat | **SOC 2 Type II** | Dazu CSA STAR Level 1 und HIPAA. Zu ISO 27001 sagt die Sicherheitsseite nur „ausgerichtet an“, die Infoseite für KI-Modelle nennt sie als Zertifikat. Ein Nachweis ist nicht öffentlich |
@@ -37,13 +39,13 @@ Aircall ist zuerst eine Cloud-Telefonanlage für kleine und mittlere Teams, star
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, weil Mails ohne Handarbeit erledigt werden | „Aircall nimmt Ihre Anrufe an, bei uns erledigt die KI zusätzlich Ihre Mails bis ins Zielsystem.“ |
-| **Ticketing und Telefonie in einem System** | Kein zweites System für Tickets und E-Mail lizenzieren und pflegen | „Bei uns brauchen Sie neben der Telefonie kein Helpdesk dazu, alles läuft in einem Arbeitsplatz.“ |
-| **Mehrere Anliegen und Anhänge** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Zählerstand, IBAN und Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Speicherung in Deutschland** | Datenschutzprüfung ohne Rückfragen zu US-Speicherorten für Kontakte und Nachrichten | „Wir speichern bei Hetzner in deutschen Rechenzentren, und unsere AVV, TOM und Subunternehmer können Sie heute schon einsehen.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Fälle bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **E-Mail-KI bis zur Buchung** | Mails werden ohne Handarbeit erledigt, weniger Mitarbeitende für Schriftverkehr | „Aircall nimmt Ihre Anrufe an, bei uns erledigt die KI zusätzlich Ihre Mails bis ins Zielsystem.“ |
+| **Ticketing und Telefonie in einem System** | Ein System und ein Vertrag für Tickets, E-Mail und Telefonie | „Bei uns brauchen Sie neben der Telefonie kein Helpdesk dazu, alles läuft in einem Arbeitsplatz.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, Rückfragen und Folgetickets entfallen | „Zählerstand, IBAN und Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Speicherung in Deutschland** | Datenschutzprüfung ohne Rückfragen zu Speicherorten, alle Unterlagen liegen vorab vor | „Wir speichern bei Hetzner in deutschen Rechenzentren, und unsere AVV, TOM und Subunternehmer können Sie heute schon einsehen.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten sind schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Fälle bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Aircall vorn liegt
 
@@ -55,20 +57,20 @@ Aircall ist zuerst eine Cloud-Telefonanlage für kleine und mittlere Teams, star
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Aircall | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Nicht gefunden, nur KI-Entwurf einer Folge-Mail nach einem Anruf | enneo klar vorn |
-| **Mehrere Anliegen und Anhänge** | Alles in einem Durchgang, PDF und Fotos lesen | Nicht dokumentiert | enneo vorn |
-| **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo klar vorn |
-| **Ticketing-Arbeitsplatz** | Ticketing, Postfach, KI und Telefonie in einem System | Kein eigenes Ticketing, Tickets per Anbindung an Zendesk und Co. | enneo klar vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Referenz nur ein US-Wasserversorger | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, Deutschland, beim Kunden möglich | AWS: Aufnahmen und Transkripte in Frankfurt, Kontakte, Anrufdaten und Nachrichten meist USA | enneo klar vorn |
-| **KI-Agenten in SMS und WhatsApp** | WhatsApp und Chat als Kanäle mit KI-Agenten | AI Messaging Agents für SMS und WhatsApp seit 05/2026, Abrechnung je Gespräch | gleich |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | AI Voice Agent seit 04/2025, 38 Sprachen, Vorlagen, Sprachdienste aus den USA | je nach Fall |
-| **Telefonanlage und Dialer** | Eigene Telefonie, SIP-Leitung des Kunden, kein Dialer | Cloud-Telefonanlage mit Power Dialer, Outbound-Kampagnen, Local Presence | Aircall klar vorn |
-| **Fertige Anbindungen** | API, MCP, Code-Werkzeuge je Kunde | 250+ Integrationen, API, Webhooks | Aircall vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Type II, CSA STAR Level 1, HIPAA, ISO 27001 widersprüchlich | Aircall vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich: 30 bis 50 € je Lizenz, KI-Minuten und Gespräche extra | je nach Fall |
+| Bereich | Thema | enneo | Aircall | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden [Startseite](https://aircall.io/de/) [Integrationen](https://aircall.io/integrations/) | enneo klar vorn |
+| Kanäle | **KI-Agenten in SMS und WhatsApp** | WhatsApp und Chat als Kanäle mit KI-Agenten | AI Messaging Agents für SMS und WhatsApp seit 05/2026, Abrechnung je Gespräch [Messaging Agents](https://aircall.io/blog/news/aircall-launches-ai-messaging-agents/) [Preisseite](https://aircall.io/pricing/) | gleich |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | AI Voice Agent seit 04/2025, 38 Sprachen, selbst einrichtbar, Sprachdienste aus den USA [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) [Start 2025](https://aircall.io/blog/news/aircall-launches-ai-voice-agent/) [Subunternehmer](https://aircall.io/subprocessorlist/) | je nach Fall |
+| Kanäle | **Telefonanlage und Dialer** | Eigene Telefonie, SIP-Leitung des Kunden, kein Dialer | Cloud-Telefonanlage mit Power Dialer, Outbound-Kampagnen, Local Presence [Preisseite](https://aircall.io/pricing/) [Insider Juni](https://aircall.io/blog/news/aircall-insider-june-2026/) [Insider Sept.](https://aircall.io/de/blog/news/aircall-insider-sept-2026/) | Aircall klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Nicht gefunden, nur KI-Entwurf einer Folge-Mail nach einem Anruf [Hilfe Mail-Entwurf](https://support.aircall.io/en-gb/articles/27213193770141) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen und Anhänge** | Alles in einem Durchgang, PDF und Fotos lesen | Nicht dokumentiert, Agenten arbeiten mit Anrufen, SMS und WhatsApp [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) [Messaging Agents](https://aircall.io/blog/news/aircall-launches-ai-messaging-agents/) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Referenz nur ein US-Wasserversorger mit Voicebot für Anrufe nach Feierabend [Fallstudie SJWD](https://aircall.io/customer-stories/sjwd/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Ticketing-Arbeitsplatz** | Ticketing, Postfach, KI und Telefonie in einem System | Kein eigenes Ticketing, Tickets per Anbindung an Zendesk und Co. [Integrationen](https://aircall.io/integrations/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Fertige Anbindungen** | API, MCP, Code-Werkzeuge je Kunde | 250+ Integrationen, API, Webhooks [Integrationen](https://aircall.io/integrations/) [Firmendaten](https://aircall.io/en-au/llm-info/) | Aircall vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Deutschland, beim Kunden möglich | AWS: Aufnahmen und Transkripte in Frankfurt, Kontakte, Anrufdaten und Nachrichten meist USA [Datenspeicherung](https://aircall.io/regional-data-hosting/) | enneo klar vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Type II, CSA STAR Level 1, HIPAA, ISO 27001 widersprüchlich [Sicherheit](https://aircall.io/de/sicherheit/) [Firmendaten](https://aircall.io/en-au/llm-info/) | Aircall vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich: 30 bis 50 € je Lizenz, KI-Minuten und Gespräche extra [Preisseite](https://aircall.io/pricing/) [Voice Agent](https://aircall.io/de/products/ai/voice-agent/) | je nach Fall |
 
 ## Wo Aircall schwächer ist
 
@@ -98,13 +100,26 @@ Aircall ist zuerst eine Cloud-Telefonanlage für kleine und mittlere Teams, star
 
 Gegen Aircall gewinnen wir nicht über Dialer, Bedienbarkeit, fertige Anbindungen oder den Einstiegspreis der Telefonanlage. Gewinnen können wir überall, wo Schriftverkehr anfällt: E-Mail und Brief mit mehreren Anliegen und Anhängen bis zur Buchung, Ticketing und Telefonie in einem System, Speicherung in Deutschland. Steht Aircall schon im Haus, ist enneo daneben das Gespräch, und bei Vertragsende kann unsere Telefonie Aircall ersetzen.
 
+## Direktlinks
+
+- [Doku](https://support.aircall.io/en-gb)
+- [API](https://developers.aircall.io/api-references)
+- [Trust Center](https://aircall.io/security/)
+- [Preise](https://aircall.io/pricing/)
+- [Release Notes](https://support.aircall.io/en-gb/sections/29441424037405)
+- [Status](https://status.aircall.com/)
+
 ## Quellen
 
 - [Startseite](https://aircall.io)
+- [Gründer](https://aircall.io/press-room/founders)
+- [Integrationen](https://aircall.io/integrations/)
+- [Hilfe: KI-Entwurf für Folge-Mails](https://support.aircall.io/en-gb/articles/27213193770141)
+- [Fallstudie Wasserversorger SJWD](https://aircall.io/customer-stories/sjwd/)
 - [Preise](https://aircall.io/pricing/)
 - [Offizielle Firmendaten](https://aircall.io/en-au/llm-info/)
 - [Sicherheit](https://aircall.io/de/sicherheit/)
-- [Trust](https://aircall.io/trust/)
+- [Trust](https://aircall.io/security/)
 - [Regionale Datenspeicherung](https://aircall.io/regional-data-hosting/)
 - [Subunternehmer](https://aircall.io/subprocessorlist/)
 - [AI Voice Agent](https://aircall.io/de/products/ai/voice-agent/)

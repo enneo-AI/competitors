@@ -4,7 +4,7 @@ slug: "sierra"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://sierra.ai"
 kurz: "KI-Agenten für Kundenservice aus San Francisco, gegründet von Bret Taylor"
@@ -15,6 +15,8 @@ kurz: "KI-Agenten für Kundenservice aus San Francisco, gegründet von Bret Tayl
 | | | |
 |---|---|---|
 | Firma | **San Francisco, USA** | Sierra Technologies, Inc., gegründet von Bret Taylor und Clay Bavor. Büros in New York, Atlanta, London, Paris, Madrid, Toronto, Singapur und Tokio, Büro in München seit 08/2026 angekündigt. Series E 05/2026: 950 Mio. USD bei 15,8 Mrd. USD Bewertung, Lead Tiger Global und GV. Laut Sierra über 400 Mio. USD Jahresumsatz (10/2026) |
+| Gegründet | **2023** | Von Bret Taylor (zuvor Co-CEO von Salesforce) und Clay Bavor (zuvor Google) gegründet, öffentlich vorgestellt im Februar 2024 |
+| Ursprung | **von Anfang an KI** | Als Anbieter von KI-Agenten für den Kundenservice gegründet, das Produkt ist seit Februar 2024 am Markt |
 | Preise | **ergebnisbasiert, nicht öffentlich** | „Sie bezahlen für Ergebnisse, nicht für Tokens“. Was als Ergebnis zählt und welche Beträge gelten, steht nicht auf den öffentlichen Seiten |
 | Hosting | **nicht öffentlich** | Website und Trust Center nennen weder Region noch Cloud-Anbieter. Die Datenschutzerklärung (für Sierras eigene Daten) sagt, Daten können „überall auf der Welt“ verarbeitet werden, auch in den USA, zertifiziert nach EU-US Data Privacy Framework |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu laut Sierra ISO 42001, HIPAA, PCI DSS Level 1, FedRAMP High und CSA STAR. Berichte nicht öffentlich einsehbar. BSI C5 nicht gefunden |
@@ -37,14 +39,14 @@ Sierra ist mit 15,8 Mrd. USD Bewertung und über 400 Mio. USD Jahresumsatz einer
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Arbeitsplatz im Produkt** | Kein zweites System lizenzieren und pflegen, der Vorgang liegt an einer Stelle | „Bei uns arbeiten KI und Team im selben Arbeitsplatz, mit Postfach, Telefonie und Skill-Routing.“ |
-| **Speicherung in Deutschland** | Datenschutzprüfung einfacher, weniger Drittlandsübermittlungen zu bewerten | „Wir speichern bei Hetzner in Deutschland, bei Sierra steht der Speicherort nicht auf den öffentlichen Seiten.“ |
-| **Betrieb beim Kunden** | Bei großem Volumen bleiben die Daten im eigenen Rechenzentrum | „Ab großem Volumen betreiben wir enneo auch bei Ihnen im Haus.“ |
-| **Anhänge, Fotos und Briefe** | Zählerfotos, PDF-Anlagen und Briefe muss niemand abtippen | „Ein Zählerfoto im Anhang und ein eingescannter Brief laufen bei uns durch dieselbe KI wie jede Mail.“ |
-| **Fertige Abläufe für Versorger** | Schneller produktiv, weil Zählerstand, Abschlag und Bankdaten nicht neu gebaut werden | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, unabhängig von Ihrem Abrechnungssystem.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **Arbeitsplatz für das Team im Produkt** | Kein zweites System lizenzieren und pflegen, jeder Vorgang liegt an einer Stelle | „Bei uns arbeiten KI und Team im selben Arbeitsplatz, mit Postfach, Telefonie und Skill-Routing.“ |
+| **Speicherung in Deutschland** | Die Datenschutzprüfung wird einfacher, weil Speicherort und Anbieter in Deutschland feststehen | „Wir speichern bei Hetzner in Deutschland, bei Sierra steht der Speicherort nicht auf den öffentlichen Seiten.“ |
+| **Betrieb im eigenen Rechenzentrum** | Bei großem Volumen bleiben die Daten im Haus des Kunden | „Ab großem Volumen betreiben wir enneo auch bei Ihnen im Haus.“ |
+| **Anhänge, Fotos und Briefe lesen** | Zählerfotos, PDF-Anlagen und Briefe muss niemand mehr abtippen | „Ein Zählerfoto im Anhang und ein eingescannter Brief laufen bei uns durch dieselbe KI wie jede Mail.“ |
+| **Fertige Fachagenten für Versorger** | Schnell produktiv, weil Zählerstand, Abschlag und Bankdaten nicht neu gebaut werden | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, unabhängig von Ihrem Abrechnungssystem.“ |
+| **Datenschutzunterlagen öffentlich** | Die Datenschutzprüfung läuft ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo Sierra vorn liegt
 
@@ -56,20 +58,20 @@ Sierra ist mit 15,8 Mrd. USD Bewertung und über 400 Mio. USD Jahresumsatz einer
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Sierra | Einordnung |
-|---|---|---|---|
-| **E-Mail mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch | Agent beantwortet Mails laut Sierra selbstständig mit CRM-Daten | gleich |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge, Fotos und Briefe** | PDF und Fotos, Brief als eigener Kanal mit derselben KI | Anhänge nicht dokumentiert, Briefkanal nicht gefunden | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Übergabe mit Zusammenfassung, „Live Assist“ für Mitarbeitende, eigenes Ticketing nicht gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Nicht öffentlich | enneo klar vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden | enneo vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Trust Center ohne öffentliche Inhalte, Unterauftragnehmer nicht gefunden | enneo vorn |
-| **Fachagenten für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung je Kunde | Lösung mit Kraken für Versorger auf Kraken, Inhalte nicht öffentlich | je nach Fall |
-| **KI-Agenten bauen und testen** | In normaler Sprache beschreiben, mit Neo per Chat ändern, Testfälle | SDK und No-Code, Ghostwriter, Simulationen, Experimente, Überwachung | Sierra vorn |
-| **Voicebot und Sprachen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | Über 60 Sprachräume, Voice Personas | Sierra vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI DSS, FedRAMP High | Sierra klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Ergebnisbasiert, keine Beträge öffentlich | je nach Fall |
+| Bereich | Thema | enneo | Sierra | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot und Sprachen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | Über 60 Sprachräume, Voice Personas [Kanäle](https://sierra.ai/product/channels) | Sierra vorn |
+| KI & Automatisierung | **E-Mail mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch | Agent beantwortet Mails laut Sierra selbstständig mit CRM-Daten [Kanäle](https://sierra.ai/product/channels) | gleich |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht dokumentiert [Kanäle](https://sierra.ai/product/channels) [Agent SDK](https://sierra.ai/product/agent-sdk) | enneo vorn |
+| KI & Automatisierung | **Anhänge, Fotos und Briefe** | PDF und Fotos, Brief als eigener Kanal mit derselben KI | Anhänge nicht dokumentiert, Briefkanal nicht gefunden [Kanäle](https://sierra.ai/product/channels) | enneo vorn |
+| KI & Automatisierung | **Fachagenten für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung je Kunde | Lösung mit Kraken für Versorger auf Kraken, Inhalte nicht öffentlich [Kraken](https://sierra.ai/customers/kraken) [Pressemitteilung](https://www.kraken.tech/press-releases/kraken-launches-autonomous-agents-built-on-sierra) | je nach Fall |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In normaler Sprache beschreiben, mit Neo per Chat ändern, Testfälle | SDK und No-Code, Ghostwriter, Simulationen, Experimente, Überwachung [Agent SDK](https://sierra.ai/product/agent-sdk) [Blog](https://sierra.ai/blog) | Sierra vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Übergabe mit Zusammenfassung, „Live Assist“ für Mitarbeitende, eigenes Ticketing nicht gefunden [Agent SDK](https://sierra.ai/product/agent-sdk) [Kanäle](https://sierra.ai/product/channels) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Nicht öffentlich [Sicherheit](https://sierra.ai/product/trust-and-reliability) [Datenschutz](https://sierra.ai/de/privacy-policy) | enneo klar vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden [Sicherheit](https://sierra.ai/product/trust-and-reliability) | enneo vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Trust Center ohne öffentliche Inhalte, Unterauftragnehmer nicht gefunden [Trust Center](https://trust.sierra.ai) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI DSS, FedRAMP High [Sicherheit](https://sierra.ai/product/trust-and-reliability) | Sierra klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Ergebnisbasiert, keine Beträge öffentlich [Preismodell](https://sierra.ai/de/blog/outcome-based-pricing-for-ai-agents) | je nach Fall |
 
 ## Wo Sierra schwächer ist
 
@@ -98,12 +100,16 @@ Sierra ist mit 15,8 Mrd. USD Bewertung und über 400 Mio. USD Jahresumsatz einer
 
 Gegen Sierra gewinnen wir nicht über Kapital, Zertifikate, Telefon und Sprachen oder bekannte Marken. Gewinnen können wir, wo der Kunde Daten in Deutschland, öffentliche Datenschutzunterlagen und einen Arbeitsplatz für sein Team im selben Produkt braucht und Briefe, Anhänge und mehrere Anliegen fertig mitbekommen soll. Bei Versorgern auf Kraken ist Sierra stark, in DACH ist Sierra noch dünn.
 
+## Direktlinks
+
+- [Trust Center](https://trust.sierra.ai)
+
 ## Quellen
 
 - [Startseite](https://sierra.ai)
 - [Über Sierra](https://sierra.ai/about)
 - [Kanäle](https://sierra.ai/product/channels)
-- [Agenten entwickeln](https://sierra.ai/product/develop-your-agent)
+- [Agent SDK](https://sierra.ai/product/agent-sdk)
 - [Sicherheit und Zuverlässigkeit](https://sierra.ai/product/trust-and-reliability)
 - [Trust Center](https://trust.sierra.ai)
 - [Datenschutzerklärung](https://sierra.ai/de/privacy-policy)
@@ -116,3 +122,5 @@ Gegen Sierra gewinnen wir nicht über Kapital, Zertifikate, Telefon und Sprachen
 - [Series E (Built In)](https://builtin.com/articles/sierra-raises-950m-15b-valuation-20260505)
 - [Series E und Bewertung (PYMNTS)](https://www.pymnts.com/?p=3704471)
 - [Übernahme Fragment](https://www.cxodigitalpulse.com/sierra-acquires-yc-backed-ai-startup-fragment-to-strengthen-ai-agent-capabilities/)
+- [Ergebnisbasierte Preise (Sierra-Blog)](https://sierra.ai/de/blog/outcome-based-pricing-for-ai-agents)
+- [Gründung und Start (TechCrunch, 13.02.2024)](https://techcrunch.com/2024/02/13/bret-taylors-new-company-aims-to-connect-conversational-ai-to-enterprise-workflows/)

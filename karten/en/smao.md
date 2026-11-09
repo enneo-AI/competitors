@@ -1,6 +1,6 @@
 ---
 slug: "smao"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "AI phone assistant from Berlin, sovereign hosting, for mid-sized companies"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI phone assistant from Berlin, sovereign hosting, for mid-sized companie
 | | | |
 |---|---|---|
 | Firma | **Berlin, 5 employees** | smao GmbH, operating under this name since January 2025, branch office in Lörrach. Founders Luigi Monzione, Sven Launspach (managing directors) and Michael Müller. No investors found |
+| Gegründet | **2025** | smao GmbH since Jan 28, 2025, created from a shelf company registered in 2024. Founders Luigi Monzione, Michael Müller and Sven Launspach |
+| Ursprung | **AI from day one** | Started as an AI phone assistant that answers calls and hands over to CRM, helpdesk and calendar systems. Website chat since 03/2026 (beta), public API since 04/2026 |
 | Preise | **from €0.35 per minute** | Pay as you Go with no base fee at €0.35 per minute, Advanced €249 and Scale €449 per month on a 12-month term with 1,250 or 3,000 minutes, Enterprise from €0.15 per minute. 50 free minutes to start |
 | Hosting | **STACKIT + netcup, Germany** | STACKIT (Schwarz Group, BSI C5) primary, netcup secondary. Language models operated by smao itself according to smao, inference at Krämer IT Solutions in Germany. Voices from KugelAudio (Hanover) or ElevenLabs Inc. (USA, processing in Belgium). On-premises possible |
 | Referenzen | **Selecta, netable, Remmers** | Mid-sized companies and IT service providers in DACH, partners Synaxon and ComTeam. No energy or insurance references found, no certifications of its own found |
@@ -31,13 +33,13 @@ smao is a young Berlin startup with five employees and an AI phone assistant. It
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI through to posting** | Fewer agents for written correspondence, emails are not just drafted but resolved | "With us, the AI doesn't just write a draft, it posts in the target system and replies on its own." |
+| **Email AI through to posting** | Emails are resolved, not just drafted, so fewer agents are needed for written correspondence | "With us, the AI doesn't just write a draft, it posts in the target system and replies on its own." |
 | **Agent workspace in the same system** | No second ticketing system to license and maintain, no handover between systems | "Whatever the AI can't resolve on its own, your team continues in the same system with us." |
-| **Email, letters and phone in one** | One contract, one point of contact, the same logic for all channels | "Call, email or letter: with us, the same AI works with the same knowledge." |
-| **Multiple requests and attachments** | One complete reply instead of follow-up tickets, nobody has to type up meter photos | "Meter reading, IBAN and installment in one email, plus a meter photo: we handle that in one pass." |
-| **Ready-made flows for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the key utility flows ready-made with plausibility checks." |
+| **Email, letters and phone in one system** | One contract, one point of contact and the same logic for all channels | "Call, email or letter: with us, the same AI works with the same knowledge." |
+| **Multiple requests and attachments in one pass** | One complete reply instead of follow-up tickets, nobody has to type up meter photos | "Meter reading, IBAN and installment in one email, plus a meter photo: we handle that in one pass." |
+| **Ready-made specialist agents for utilities** | Meter reading, installment and bank details go live quickly, only the ERP integration is built | "We bring the key utility flows ready-made with plausibility checks." |
 
 ## Wo smao vorn liegt
 
@@ -49,20 +51,20 @@ smao is a young Berlin startup with five employees and an AI phone assistant. It
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | smao | Einordnung |
-|---|---|---|---|
-| **AI processing of emails** | Request, customer, verification, posting in the target system, reply, also fully automated | Reply drafted by hand in the dashboard chat, no automated processing of incoming emails found | enneo klar vorn |
-| **Multiple requests and attachments in emails** | Everything in one pass, one reply, PDFs and photos | Not documented | enneo vorn |
-| **Agent workspace** | Ticketing agent workspace with skill-based routing | Handover to third-party ticketing systems, inbox only for website chat | enneo vorn |
-| **Ready-made flows for utilities** | Meter reading, installment, bank details with plausibility checks | Not found, solutions for IT support, appointments, complaints | enneo klar vorn |
-| **Channels** | Email, letters, chat, WhatsApp, Telegram, phone | Phone and website chat, SMS and WhatsApp outbound only | enneo vorn |
-| **Building integrations** | As code, any format, any logic | Webhooks during the call (GET, POST, PUT) with JSON schema, the logic behind them is built by the customer or via Make and n8n | enneo vorn |
-| **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket | Known callers via phone number from its own contact list or an integration, verification not found | enneo vorn |
-| **Voicebot: voices, languages, outbound** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | 70+ voices, 10+ languages, outbound, IVR navigation, own SIP carrier | smao vorn |
-| **Language models** | US providers by default, EU models possible under the DPA | Self-operated open-source models in Germany, without OpenAI | smao vorn |
-| **Where data is stored** | Hetzner, Germany, backups in Finland, on-premises possible | STACKIT and netcup in Germany, on-premises possible | gleich |
-| **Certifications and documents** | None of its own, ISO 27001 and SOC 2 in progress. DPA, TOMs, subprocessors, SLA public | None of its own found. Terms, DPA, TOMs, SLA and subprocessors public in the Trust Center | gleich |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Public, from €0.35 per minute with no base fee, packages from €249 per month | smao vorn |
+| Area | Topic | enneo | smao | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letters, chat, WhatsApp, Telegram, phone | Phone and website chat, SMS and WhatsApp outbound only [Features](https://smao.ai/features) [Changelog 1.8.3](https://help.smao.ai/changelog/1-8-3) [Subprocessors](https://trust.smao.ai/subprocessors) | enneo vorn |
+| Kanäle | **Voicebot: voices, languages, outbound** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | 70+ voices, 10+ languages, outbound, IVR navigation, own SIP carrier [Homepage](https://smao.ai) [Features](https://smao.ai/features) [Subprocessors](https://trust.smao.ai/subprocessors) | smao vorn |
+| KI & Automatisierung | **AI processing of emails** | Request, customer, verification, posting in the target system, reply, also fully automated | Reply drafted by hand in the dashboard chat, no automated processing of incoming emails found [Features](https://smao.ai/features) [Assistant chat](https://help.smao.ai/help/more-features/assistenten-chat) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests and attachments in emails** | Everything in one pass, one reply, PDFs and photos | Not documented [Features](https://smao.ai/features) [Assistant chat](https://help.smao.ai/help/more-features/assistenten-chat) | enneo vorn |
+| KI & Automatisierung | **Ready-made flows for utilities** | Meter reading, installment, bank details with plausibility checks | Not found, solutions for IT support, appointments, complaints [Homepage](https://smao.ai) | enneo klar vorn |
+| KI & Automatisierung | **Customer identification** | Framework ready: number from the email, search order, verification rules, customer on the ticket | Known callers via phone number from its own contact list or an integration, verification not found [Help: contacts](https://help.smao.ai/help/knowledge/kontakte) | enneo vorn |
+| KI & Automatisierung | **Language models** | US providers by default, EU models possible under the DPA | Self-operated open-source models in Germany, without OpenAI [Security](https://smao.ai/architecture) [Subprocessors](https://trust.smao.ai/subprocessors) | smao vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing agent workspace with skill-based routing | Handover to third-party ticketing systems, inbox only for website chat [Integrations](https://smao.ai/integrations) [Changelog 1.8.6](https://help.smao.ai/changelog/1-8-6) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Building integrations** | As code, any format, any logic | Webhooks during the call (GET, POST, PUT) with JSON schema, the logic behind them is built by the customer or via Make and n8n [Help: tools](https://help.smao.ai/help/verhalten/tools) | enneo vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, Germany, backups in Finland, on-premises possible | STACKIT and netcup in Germany, on-premises possible [Security](https://smao.ai/architecture) [Subprocessors](https://trust.smao.ai/subprocessors) | gleich |
+| Daten & Sicherheit | **Certifications and documents** | None of our own, ISO 27001 and SOC 2 in progress. DPA, TOMs, subprocessors, SLA public | None of its own found. Terms, DPA, TOMs, SLA and subprocessors public in the Trust Center [Trust Center](https://trust.smao.ai/resources) | gleich |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Public, from €0.35 per minute with no base fee, packages from €249 per month [Pricing](https://smao.ai/pricing) | smao vorn |
 
 ## Wo smao schwächer ist
 
@@ -91,6 +93,15 @@ No internal insights in Attio yet (as of Nov 6, 2026).
 
 Against smao, we don't win on price, entry, choice of voices or self-operated language models. We can win where calls, emails and letters should be handled in one system through to posting in the target system, with an agent workspace for the team and ready-made flows for utilities. Where only a sovereign phone assistant for reachability is needed, smao is often the faster and cheaper choice.
 
+## Direktlinks
+
+- [Doku](https://help.smao.ai)
+- [API](https://docs.smao.ai/docs/public)
+- [Trust Center](https://trust.smao.ai)
+- [Preise](https://smao.ai/pricing)
+- [Release Notes](https://help.smao.ai/changelog)
+- [Status](https://status.smao.ai)
+
 ## Quellen
 
 - [smao homepage](https://smao.ai)
@@ -118,3 +129,5 @@ Against smao, we don't win on price, entry, choice of voices or self-operated la
 - [Case study Selecta](https://smao.ai/case-study/selecta-stoerungsmeldungen)
 - [Case study netable](https://smao.ai/case-study/netable-it-support)
 - [User reviews OMR](https://omr.com/de/reviews/product/smao)
+- [Help center](https://help.smao.ai)
+- [System status](https://status.smao.ai)

@@ -1,6 +1,6 @@
 ---
 slug: "genesys"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Large US contact center, strong on the phone"
 ---
 
@@ -9,7 +9,9 @@ kurz: "Large US contact center, strong on the phone"
 | | | |
 |---|---|---|
 | Firma | **Menlo Park, private** | Genesys, more than 8,000 customers worldwide. Majority owned by Hellman & Friedman and Permira, Salesforce and ServiceNow holding stakes worth USD 1.5bn combined (announced 07/2025) |
-| Preise | **USD 75 to 240** | per user per month on an annual contract, packages CX 1 to CX 4. Some AI features cost "Experience Units", only CX 4 includes 30 per agent |
+| Gegründet | **1990, San Francisco** | According to Genesys, incorporated in San Francisco in October 1990, headquartered in Menlo Park today |
+| Ursprung | **Telephony, AI since 2019** | According to Genesys, the first digital channels, email and chat, were added in 1998, the cloud contact center in 2009 and the first AI applications in 2019 |
+| Preise | **USD 75 to 240** | per user per month on an annual contract, packages CX 1 to CX 4. Some AI features cost "Experience Units", 250 per organization per month are included, CX 4 adds 30 per agent |
 | Hosting | **AWS Frankfurt and others** | Plus Dublin, London, Zurich. "European Sovereign Region" in Brandenburg only available with restrictions, email and SMS excluded there |
 | Zertifikat | **ISO 27001, C5** | Plus ISO 27017, 27018, 42001, SOC 1 and 2, PCI DSS. C5 applies to EMEA |
 
@@ -23,20 +25,20 @@ Genesys is one of the largest contact centers in the world and much broader than
 
 ## Unsere Verkaufsargumente
 
-- **Email AI across the full journey:** With enneo, the AI reads the email, identifies and verifies the customer, books in the ERP and replies, fully automated if desired. With Genesys, the AI recognizes a request, and the rest is built as a fixed flow with rules, data lookup and auto-reply. Genesys only announced an AI summary of emails in Copilot on Aug 24, 2026.
+- **Email AI across the full journey:** With enneo, the AI reads the email, identifies and verifies the customer, books in the ERP and replies, fully automated if desired. With Genesys, the AI recognizes a request, and the rest is built as a fixed flow with rules, data lookup and auto-reply. Since Oct 12, 2026, Copilot summarizes emails for agents, but the handling stays with people.
 - **Multiple requests and attachments:** enneo handles a meter reading, a new IBAN and a new installment in one email in a single pass with one reply. enneo also reads PDFs and photos, e.g. a photo of the meter. For Genesys, nothing is documented on either for email.
 - **For utilities in addition:** Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo. Genesys mentions meter readings by email only as an example, and the customer builds the flow themselves.
 - **Stored with a German provider, also on-premises:** enneo stores data at Hetzner, and on-premises for large volumes. Genesys runs on AWS, and the sovereign EU region does not apply to email. Genesys Engage On-Premise ends on Dec 31, 2028, so existing customers have to switch anyway.
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **AI agent for email all the way to the booking** | Written correspondence gets resolved without building every flow as a fixed rule, fewer agents needed for inboxes | "With us, the AI handles the email all the way to the booking. You don't build a fixed flow for every request." |
-| **Multiple requests and attachments** | Fewer repeat contacts, nobody has to retype meter photos and PDFs | "enneo handles a meter reading, a new IBAN and a meter photo in one email in a single pass with one reply." |
-| **Ready-made workflows for utilities** | Shorter rollout, no in-house build of the business workflows | "Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo." |
-| **Storage in Germany, also on-premises** | Simpler data protection review, no forced switch like with the end of Engage On-Premise | "We store data at Hetzner in Germany, and for large volumes also in your data center." |
-| **Package prices instead of consumption units** | AI costs can be planned in advance | "With us, you calculate in packages per ticket and voice minute, not in consumption units." |
+| **AI agent for email all the way to the booking** | Written correspondence runs automatically without building a fixed flow for every request, fewer agents needed for inboxes | "With us, the AI handles the email all the way to the booking. You don't build a fixed flow for every request." |
+| **Multiple requests and attachments in one pass** | Fewer repeat contacts, nobody has to retype meter photos and PDFs | "enneo handles a meter reading, a new IBAN and a meter photo in one email in a single pass with one reply." |
+| **Ready-made workflows for utilities** | Shorter rollout, nobody has to build the business workflows themselves | "Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo." |
+| **Storage in Germany, also on-premises** | Simpler data protection review, running in your own data center remains possible for large volumes | "We store data at Hetzner in Germany, and for large volumes also in your data center." |
+| **Package prices per ticket and voice minute** | AI costs can be planned in advance | "With us, you calculate in packages per ticket and voice minute, not in consumption units." |
 
 ## Wo Genesys vorn liegt
 
@@ -48,27 +50,27 @@ Genesys is one of the largest contact centers in the world and much broader than
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Genesys | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | AI recognizes the request, then a fixed flow with rules, data lookup and auto-reply. No AI agent for emails found | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. a photo of the meter | Not documented for email | enneo vorn |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Meter reading by email mentioned as an example, the customer builds the flow | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | AWS Frankfurt and others, sovereign region restricted and without email. On-premise ends in 2028 | enneo vorn |
-| **Agent Assist** | Draft, summary, live transcription | Agent Copilot in all packages, email summary only announced | je nach Fall |
-| **Voicebot and speech services** | OpenAI (US) or Deepslate (EU), fewer options | Six speech recognition engines, own accounts pluggable, Agentic Virtual Agent | Genesys klar vorn |
-| **Handoff to third-party bots** | Ticket number in the SIP header outbound, no context inbound | Up to five third-party bots, Cognigy as a premium app | Genesys klar vorn |
-| **Workforce management, dialer, quality** | No WFM, no dialer, no live dashboard, scorecards | Dialer in all packages, QA from CX 2, WFM from CX 3 | Genesys klar vorn |
-| **Microsoft Teams** | No native integration, SIP only | Direct Routing, presence sync, workspace in Teams | Genesys klar vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 42001, SOC 1 and 2, PCI DSS, C5 | Genesys klar vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | USD 75 to 240 per user per month, AI partly via Experience Units | je nach Fall |
+| Area | Topic | enneo | Genesys | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and speech services** | OpenAI (US) or Deepslate (EU), fewer options | Six speech recognition engines, own Azure, Google or Nuance accounts pluggable, Agentic Virtual Agent since 02/2026 [Speech recognition](https://help.genesys.cloud/articles/speech-to-text-stt-engines-overview/) [Agentic agent](https://www.genesys.com/company/newsroom/announcements/genesys-unveils-industrys-first-agentic-virtual-agent-powered-by-lams-for-enterprise-cx) | Genesys klar vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | AI recognizes the request, then a fixed flow with rules, data lookup and auto-reply. No AI agent for emails found [Email flow](https://help.genesys.cloud/articles/inbound-email-flows/) [AI intents](https://help.genesys.cloud/articles/generate-ai-powered-intents-based-on-description-for-an-inbound-email-flow/) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not found [Email docs](https://help.genesys.cloud/articles/about-email/) [Email flow](https://help.genesys.cloud/articles/inbound-email-flows/) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. a photo of the meter | Not found for email [Email docs](https://help.genesys.cloud/articles/about-email/) [Email flow](https://help.genesys.cloud/articles/inbound-email-flows/) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Meter reading by email mentioned as an example, the customer builds the flow [Announcement](https://help.genesys.cloud/announcements/ai-powered-email-routing-and-responses/) | enneo vorn |
+| KI & Automatisierung | **Agent Assist** | Draft, summary, live transcription | Agent Copilot in all packages, email summaries since Oct 12, 2026 [Pricing page](https://www.genesys.com/pricing) [Release notes](https://help.genesys.cloud/release-notes/genesys-cloud/october-12-2026/) | gleich |
+| Arbeitsplatz & Anbindungen | **Handoff to third-party bots** | Ticket number in the SIP header outbound, no context inbound | Up to five third-party bots, Cognigy as a premium app [Bot Connector](https://help.genesys.cloud/articles/about-genesys-bot-connector/) [Cognigy](https://www.cognigy.com/news/cognigy.ai-conversational-ai-platform-now-available-on-genesys-appfoundry) | Genesys klar vorn |
+| Arbeitsplatz & Anbindungen | **Workforce management, dialer, quality** | No WFM, no dialer, no live dashboard, scorecards | Dialer in all packages, QA from CX 2, WFM from CX 3 [Pricing page](https://www.genesys.com/pricing) | Genesys klar vorn |
+| Arbeitsplatz & Anbindungen | **Microsoft Teams** | No native integration, SIP only | Direct Routing, presence sync, Genesys app in Teams [Teams docs](https://help.genesys.cloud/articles/configure-the-microsoft-teams-integration/) | Genesys klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | AWS Frankfurt and others, sovereign region restricted and without email. On-premise ends in 2028 [AWS regions](https://help.genesys.cloud/articles/aws-regions-for-genesys-cloud-deployment/) [Sovereign region](https://help.genesys.cloud/articles/european-sovereign-region/) [End of Engage](https://cxfoundation.com/blog/genesys-engage-end-of-life) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 42001, SOC 1 and 2, PCI DSS, C5 [Standards](https://help.genesys.cloud/articles/supported-security-standards/) | Genesys klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | USD 75 to 240 per user per month, AI partly via Experience Units [Pricing page](https://www.genesys.com/pricing) | je nach Fall |
 
 ## Wo Genesys schwächer ist
 
-- **Email AI arrives in small steps:** AI recognition for emails was announced in April 2025, and the announcement still says "in a future release". The documentation now describes it, and it requires an AI Experience license and consumes tokens. The email summary in Copilot has only been announced since Aug 24, 2026.
+- **Email AI arrives in small steps:** AI recognition for emails was announced in April 2025, and the announcement still says "in a future release". The documentation now describes it, and it requires an AI Experience license and consumes tokens. Since Oct 12, 2026, Copilot summarizes emails, but does not handle them on its own.
 - **Sovereignty with gaps:** The EU region with EU staff is only available with restrictions. Email, SMS and third-party messengers run outside it even there. The company is based in the US.
 - **On-premise is being phased out:** Maintenance and support for Genesys Engage On-Premise end on Dec 31, 2028. Anyone who wants to stay in their own data center will find no way to do so with Genesys.
-- **AI costs hard to plan:** Some AI features require Experience Units, and Genesys notes "Usage-based pricing may apply". Only CX 4 includes a fixed allowance.
+- **AI costs hard to plan:** Some AI features require Experience Units, and Genesys notes "Usage-based pricing may apply". Only 250 per organization per month are included, plus 30 per agent with CX 4.
 
 ## Einwände
 
@@ -80,7 +82,7 @@ Genesys is one of the largest contact centers in the world and much broader than
 
 - **Which parts of the Genesys package do you really use today, for example for email?** Expected answer: telephony and reporting yes, written correspondence often not, or through another system. Transition: "enneo is built for written correspondence, all the way to the booking in the billing system."
 - **Where are your emails stored with Genesys, and is that enough for your data protection team?** Expected answer: in an AWS region, the sovereign EU region does not apply to email, and the company is based in the US. Transition: "With us, the data stays at Hetzner in Germany, and for large volumes also on your premises."
-- **How do you plan the costs for AI features with Genesys?** Expected answer: hard to predict, some AI features consume Experience Units, and only CX 4 includes a fixed allowance. Transition: "With us, there are package prices per ticket and voice minute."
+- **How do you plan the costs for AI features with Genesys?** Expected answer: hard to predict, some AI features consume Experience Units, and only a small allowance per organization is included. Transition: "With us, there are package prices per ticket and voice minute."
 
 ## Intern
 
@@ -95,8 +97,20 @@ Genesys is one of the largest contact centers in the world and much broader than
 
 Against Genesys, we don't win on telephony, voicebot, workforce management, Teams or certifications. We can win where a lot of written correspondence should be handled automatically all the way to the booking, with multiple requests, attachments and energy workflows, and where data should be stored with a German provider or in the customer's own data center. Where Genesys is already in place as the contact center, enneo for email and letters alongside it is often the better conversation than a complete switch.
 
+## Direktlinks
+
+- [Doku](https://help.genesys.cloud/)
+- [API](https://developer.genesys.cloud/)
+- [Community](https://community.genesys.com/)
+- [Trust Center](https://www.genesys.com/trust-center)
+- [Preise](https://www.genesys.com/pricing)
+- [Release Notes](https://help.genesys.cloud/release-notes/genesys-cloud/)
+- [Status](https://status.mypurecloud.com/)
+
 ## Quellen
 
+- [About us](https://www.genesys.com/company)
+- [30 years of Genesys (10/2020)](https://www.genesys.com/blog/post/genesys-celebrates-30-years-of-innovation)
 - [Pricing](https://www.genesys.com/pricing)
 - [Security standards](https://help.genesys.cloud/articles/supported-security-standards/)
 - [AWS regions](https://help.genesys.cloud/articles/aws-regions-for-genesys-cloud-deployment/)
@@ -108,6 +122,7 @@ Against Genesys, we don't win on telephony, voicebot, workforce management, Team
 - [Announcement AI for email (04/2025)](https://help.genesys.cloud/announcements/ai-powered-email-routing-and-responses/)
 - [Announcement Copilot for email (08/2026)](https://help.genesys.cloud/announcements/genesys-cloud/427451/)
 - [Copilot email summary](https://help.genesys.cloud/articles/configure-agent-copilot-email-summaries/)
+- [Release notes Oct 12, 2026](https://help.genesys.cloud/release-notes/genesys-cloud/october-12-2026/)
 - [Genesys Virtual Agent](https://help.genesys.cloud/articles/about-genesys-virtual-agent/)
 - [Agentic Virtual Agent (02/2026)](https://www.genesys.com/company/newsroom/announcements/genesys-unveils-industrys-first-agentic-virtual-agent-powered-by-lams-for-enterprise-cx)
 - [Speech recognition](https://help.genesys.cloud/articles/speech-to-text-stt-engines-overview/)
@@ -117,5 +132,6 @@ Against Genesys, we don't win on telephony, voicebot, workforce management, Team
 - [End of Engage On-Premise](https://cxfoundation.com/blog/genesys-engage-end-of-life)
 - [Salesforce and ServiceNow investment](https://www.intelligentcio.com/north-america/2025/08/01/genesys-secures-1-5-billion-investment-from-salesforce-and-servicenow-to-boost-ai-powered-cx-orchestration/)
 - [HanseWerk Natur](https://www.genesys.com/de-de/customer-stories/hansewerk-natur)
+- [Trust Center](https://www.genesys.com/trust-center)
 - [Konzern Versicherungskammer](https://www.mitel.com/de-de/mehr-erfahren/kundenreferenzen/konzern-versicherungskammer)
 - [enneo solution plan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

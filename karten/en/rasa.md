@@ -1,6 +1,6 @@
 ---
 slug: "rasa"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "Developer platform for chat and voice bots from Berlin and San Francisco"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Developer platform for chat and voice bots from Berlin and San Francisco"
 | | | |
 |---|---|---|
 | Firma | **Berlin + San Francisco** | Rasa Technologies GmbH (Berlin, HRB 184024 B) and Rasa Technologies Inc. (San Francisco). Over USD 70m in venture capital, most recently a USD 30m Series C in February 2024 (StepStone, PayPal Ventures, Andreessen Horowitz, Accel). Headcount not public |
+| Gegründet | **2016, Berlin** | Founded in Berlin by Alex Weidauer and Alan Nichol, today also based in San Francisco |
+| Ursprung | **Open source since 2016** | Rasa started in 2016 with Rasa NLU, an open source component for language understanding. Language models came later with CALM, Rasa gives no date |
 | Preise | **not public** | Enterprise on request. Free Developer Edition: one bot per company, up to 1,000 external or 100 internal conversations per month |
 | Hosting | **on-premises** | "On-premise by default", according to its security page Rasa does not host customer data. The pricing page also mentions a Managed Service, location and operator not named |
 | Zertifikat | **none named** | Controls aligned with ISO 27002 according to Rasa, evidence on request. ISO 27001 or SOC 2 not found |
@@ -31,14 +33,14 @@ Rasa is a construction kit for developers: chat and voice bots built from fixed 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI in the product** | No email connector to build and maintain, emails are covered from day one | "With us, email handling isn't a project, it's a finished part of the product." |
-| **Multiple requests and attachments** | One complete reply instead of follow-up questions, nobody retypes meter photos | "If your customer sends meter reading, IBAN and installment in one email with a photo, they get one reply from us." |
-| **Agent workspace included** | No second system to license and connect for your agents | "Whatever the AI doesn't handle itself, your people continue in the same system." |
-| **Describe instead of code** | Business teams change processes themselves, less dependence on developers | "With us, your business team describes a process in plain language, no development team needed." |
-| **Operated by enneo** | No in-house team for servers, updates and version upgrades | "We run the platform in Germany at Hetzner, so you don't have to build your own operations." |
-| **Ready-made processes for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the most important utility processes ready-made with plausibility checks." |
+| **Email handling in the product** | Emails are covered from day one, no email connector to build and maintain | "With us, email handling isn't a project, it's a finished part of the product." |
+| **All requests and attachments in one pass** | One complete reply instead of follow-up questions, nobody retypes meter photos | "If your customer sends meter reading, IBAN and installment in one email with a photo, they get one reply from us." |
+| **One system for AI and team** | No second system to license and connect for your agents | "Whatever the AI doesn't handle itself, your people continue in the same system." |
+| **AI agents in plain language** | Business teams change processes themselves, less dependence on developers | "With us, your business team describes a process in plain language, no development team needed." |
+| **Operated by enneo in Germany** | No in-house team for servers, updates and version upgrades | "We run the platform in Germany at Hetzner, so you don't have to build your own operations." |
+| **Ready-made specialist agents for utilities** | Meter reading, installment and bank details go live faster, only the ERP connection is built | "We bring the most important utility processes ready-made with plausibility checks." |
 
 ## Wo Rasa vorn liegt
 
@@ -50,19 +52,19 @@ Rasa is a construction kit for developers: chat and voice bots built from fixed 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Rasa | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | No email channel in the documentation, only via a self-built connector | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not found | enneo vorn |
-| **Agent workspace** | Ticketing, inbox and skill-based routing in the same system | Not found, handover to another system | enneo klar vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Energy sector not mentioned, insurance cases as examples | enneo vorn |
-| **Building and testing AI agents** | Describe in words, change via chat with Neo, test cases | Flows with Python actions, Studio as low-code, tests with simulated conversations | je nach Fall |
-| **Where it runs** | Hetzner in Germany, on-premises at high volume | On-premises by default, Managed Service without a named location | je nach Fall |
-| **Language models** | US providers standard, EU models under the DPA: Mistral, Nebius, Media Trooper | Freely selectable, including self-hosted | Rasa vorn |
-| **Voicebot and speech services** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Several telephony connections, five speech service providers, recording | Rasa vorn |
-| **Data protection documents** | DPA, TOM, subprocessors, SLA public | No subprocessor list, DPA not found publicly | enneo vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress, Hetzner ISO 27001 | None named, aligned with ISO 27002 | gleich |
+| Area | Topic | enneo | Rasa | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and speech services** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU) | Several telephony connections, five speech service providers, recording [Channels](https://rasa.com/docs/reference/channels/messaging-and-voice-channels) [Speech services](https://rasa.com/docs/reference/integrations/speech-integrations) [Release notes](https://rasa.com/docs/reference/changelogs/rasa-pro-changelog) | Rasa vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | The homepage lists email, but the channel list in the documentation doesn't, only via a self-built connector [Channels](https://rasa.com/docs/reference/channels/messaging-and-voice-channels) [Custom channels](https://rasa.com/docs/reference/channels/custom-connectors) [Homepage](https://rasa.com) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [CALM](https://rasa.com/docs/learn/concepts/calm) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not found [Channels](https://rasa.com/docs/reference/channels/messaging-and-voice-channels) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP connection per customer | Energy sector not mentioned, insurance cases as examples [Insurance](https://rasa.com/industries/insurance) [Customers](https://rasa.com/customers) | enneo vorn |
+| KI & Automatisierung | **Building and testing AI agents** | Describe in words, change via chat with Neo, test cases | Flows with custom actions, Studio for visual building, tests with simulated conversations [CALM](https://rasa.com/docs/learn/concepts/calm) [Homepage](https://rasa.com) [Tests](https://rasa.com/docs/reference/testing/evals/overview/) | je nach Fall |
+| KI & Automatisierung | **Language models** | US providers standard, EU models under the DPA: Mistral, Nebius, Media Trooper | Freely selectable, including self-hosted [Language models](https://rasa.com/docs/reference/config/components/llm-configuration) | Rasa vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing, inbox and skill-based routing in the same system | Not found, handover to humans only via a self-built action into another system [Patterns](https://rasa.com/docs/reference/primitives/patterns/) | enneo klar vorn |
+| Daten & Sicherheit | **Where it runs** | Hetzner in Germany, on-premises at high volume | On-premises by default, Managed Service without a named location [Operations](https://rasa.com/product/managed-service) [Pricing](https://rasa.com/pricing) | je nach Fall |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOM, subprocessors, SLA public | No subprocessor list, DPA not found publicly [Security](https://rasa.com/security-at-rasa) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress, Hetzner ISO 27001 | None named, aligned with ISO 27002 [Security](https://rasa.com/security-at-rasa) | gleich |
 
 ## Wo Rasa schwächer ist
 
@@ -91,6 +93,14 @@ No internal insights in Attio yet (as of Nov 6, 2026).
 
 We win against Rasa where a customer is looking for a finished customer service product: email AI all the way to the booking, multiple requests, attachments, an agent workspace and ready-made utility processes without an in-house development team. Rasa is ahead where a strong IT team wants to build chat and voice bots itself, run them on-premises and freely choose models and speech services. There, enneo is often the better conversation for written communication than for the voicebot.
 
+## Direktlinks
+
+- [Doku](https://rasa.com/docs)
+- [API](https://rasa.com/docs/reference/api/pro/http-api)
+- [Community](https://forum.rasa.com)
+- [Preise](https://rasa.com/pricing)
+- [Release Notes](https://rasa.com/docs/reference/changelogs/rasa-pro-changelog)
+
 ## Quellen
 
 - [Rasa homepage](https://rasa.com)
@@ -107,8 +117,14 @@ We win against Rasa where a customer is looking for a finished customer service 
 - [Text and voice channels](https://rasa.com/docs/reference/channels/messaging-and-voice-channels)
 - [Building custom channels](https://rasa.com/docs/reference/channels/custom-connectors)
 - [Speech services](https://rasa.com/docs/reference/integrations/speech-integrations)
+- [Patterns and handover to humans](https://rasa.com/docs/reference/primitives/patterns/)
+- [Tests with simulated conversations](https://rasa.com/docs/reference/testing/evals/overview/)
 - [Language models](https://rasa.com/docs/reference/config/components/llm-configuration)
 - [Rasa Pro release notes](https://rasa.com/docs/reference/changelogs/rasa-pro-changelog)
 - [Forrester Wave Q2 2026 from Rasa's perspective](https://rasa.com/blog/forrester-wave-2026-where-rasa-stands-out)
+- [Series B and founders, tech.eu](https://tech.eu/2020/06/23/rasa-series-b/)
 - [Series C, SiliconANGLE](https://siliconangle.com/2024/02/14/draft-conversational-ai-startup-rasa-technologies-raises-30m-combine-llms-traditional-chatbots)
 - [User reviews OMR](https://omr.com/en/reviews/product/rasa)
+- [Documentation](https://rasa.com/docs)
+- [REST API](https://rasa.com/docs/reference/api/pro/http-api)
+- [Community forum](https://forum.rasa.com)

@@ -270,6 +270,34 @@ a.tz:hover + a.tz { box-shadow: none; }
 .quellen a { padding: 6px 11px; border-radius: 9px; background: var(--feld); color: var(--text-2); font-size: 13.5px; }
 .quellen a:hover { background: var(--aktiv); color: var(--lila-d); }
 
+/* Direkt beim Anbieter */
+.direkt { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+.direkt a { display: flex; align-items: center; gap: 10px; padding: 13px 14px; border-radius: 12px; background: var(--lila-weich); color: var(--lila-d); font-size: 14px; font-weight: 500; text-decoration: none; transition: background .15s; }
+.direkt a:hover { background: var(--aktiv); }
+.direkt a svg { flex: none; }
+
+/* Vergleich: Kopf mit Logos, Gruppen nach Bereich, Belege je Zeile */
+.vergleich th .th-marke { display: inline-flex; align-items: center; gap: 7px; }
+.vergleich th .th-marke img { width: 16px; height: 16px; object-fit: contain; border-radius: 4px; }
+.vergleich th svg.logo { height: 11px; width: auto; display: block; color: var(--text-2); }
+.blatt .vergleich tr.gruppe td { padding: 28px 0 9px; font-size: 13px; font-weight: 600; color: var(--text); border-bottom: 1px solid var(--linie); }
+.blatt .vergleich tbody tr.gruppe:first-child td { padding-top: 14px; }
+.belege { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+a.beleg { font-size: 11.5px; line-height: 1.4; padding: 2px 7px; border-radius: 6px; background: var(--feld); color: var(--text-3); text-decoration: none; transition: background .15s, color .15s; }
+a.beleg:hover { background: var(--lila-weich); color: var(--lila-d); }
+
+/* Argumente, Einwände und Fragen: Kernaussage sichtbar, Erklärung aufklappbar */
+.blatt .klapp li { padding: 0; }
+.klapp summary { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 13px 0; cursor: pointer; list-style: none; color: var(--text); font-weight: 600; }
+.klapp li:first-child summary { padding-top: 2px; }
+.klapp summary::-webkit-details-marker { display: none; }
+.klapp summary::after { content: ""; flex: none; width: 12px; height: 12px; margin-top: 5px; background: var(--text-3); transition: transform .15s;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='black' stroke-width='1.8'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='black' stroke-width='1.8'/%3E%3C/svg%3E") center / contain no-repeat; }
+.klapp details[open] summary::after { transform: rotate(180deg); }
+.klapp summary:hover::after { background: var(--lila-d); }
+.klapp details > div { padding: 0 28px 14px 0; color: var(--text-2); }
+
 /* Co-Pilot */
 .copilot { position: fixed; z-index: 20; top: calc(env(safe-area-inset-top, 0px) + 12px); bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);
   right: max(12px, env(safe-area-inset-right, 0px)); width: min(420px, calc(100vw - 24px)); border-radius: 20px;
@@ -466,7 +494,7 @@ const T = {
     themen: (v, h, n) => `${v} Themen enneo vorn, ${h} Themen ${n} vorn`, enneoVorn: "enneo vorn", dort: "dort",
     keineTreffer: q => `Keine Treffer${q ? ` für „${q}“` : ""}.`,
     ersterSatz: "Erster Satz im Call", hEinordnung: "Einordnung", hEckdaten: "Eckdaten",
-    rUeberblick: "Überblick", rImpact: "Business-Impact", rArgumente: "Argumente", rVergleich: "Vergleich", rQuellen: "Quellen", rIntern: "Intern",
+    rUeberblick: "Überblick", rImpact: "Business-Impact", rArgumente: "Argumente", rVergleich: "Vergleich", rQuellen: "Quellen", rIntern: "Intern", rEinwaende: "Einwände & Fragen", hDirekt: "Direkt beim Anbieter", hBelege: "Einzelnachweise",
     alleAnbieter: "Alle Anbieter", fuerPartner: "Für Partner", pdf: "PDF", internTitel: "Interne Erkenntnisse aus Attio", deFallback: "",
     dlFehler: "Download gerade nicht möglich.",
     vorschlagKarte: n => [`Wo gewinnen wir gegen ${n}?`, `Welche Einwände hören wir, wenn ein Kunde ${n} nutzt?`, `Gib mir einen Pitch in 3 Sätzen gegen ${n}.`],
@@ -492,7 +520,7 @@ const T = {
     themen: (v, h, n) => `${v} topics enneo ahead, ${h} topics ${n} ahead`, enneoVorn: "for enneo", dort: "for them",
     keineTreffer: q => `No results${q ? ` for “${q}”` : ""}.`,
     ersterSatz: "Opening line for the call", hEinordnung: "Assessment", hEckdaten: "Key facts",
-    rUeberblick: "Overview", rImpact: "Business impact", rArgumente: "Arguments", rVergleich: "Comparison", rQuellen: "Sources", rIntern: "Internal",
+    rUeberblick: "Overview", rImpact: "Business impact", rArgumente: "Arguments", rVergleich: "Comparison", rQuellen: "Sources", rIntern: "Internal", rEinwaende: "Objections & questions", hDirekt: "Straight to the vendor", hBelege: "References",
     alleAnbieter: "All vendors", fuerPartner: "For partners (German)", pdf: "PDF (German)", internTitel: "Internal insights from Attio",
     deFallback: "The English version of this card is being prepared. Showing the German original.",
     dlFehler: "Download not possible right now.",
@@ -517,6 +545,17 @@ const F = (k, feld) => LANG === "en" && k.en && k.en[feld] != null ? k.en[feld] 
 const FOKUS_EN = { "Alle": "All", "KI-Agenten": "AI agents", "E-Mail-KI": "Email AI" };
 const fokusName = f => LANG === "en" ? FOKUS_EN[f] || f : f;
 const SCHRITTE_EN = { "Recherche": "Research", "Karte wird geschrieben": "Writing the card", "PDF und Logo": "PDF and logo", "Wird veröffentlicht": "Publishing" };
+const ic = d => `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+const DIREKT_ICON = {
+  "Doku": ic('<path d="M3 2.5h7l3 3v8H3z M10 2.5v3h3 M5.5 8.5h5 M5.5 11h3"/>'),
+  "API": ic('<path d="m5.5 4.5-3 3.5 3 3.5 M10.5 4.5l3 3.5-3 3.5"/>'),
+  "Community": ic('<path d="M2.5 3.5h8v5.5h-4.5l-2.5 2v-2h-1z M10.5 6h3v5h-1v1.8l-2-1.8h-3.5v-2"/>'),
+  "Trust Center": ic('<path d="M8 2 3 4v3.6c0 3 2.1 5.4 5 6.4 2.9-1 5-3.4 5-6.4V4z M5.8 8l1.6 1.6 3-3.2"/>'),
+  "Preise": ic('<path d="M8.6 2.5H13v4.4l-6.5 6.6-4.4-4.4z M10.6 5.4h.01"/>'),
+  "Release Notes": ic('<path d="M8 2.5v2 M8 11.5v2 M2.5 8h2 M11.5 8h2 M4.1 4.1l1.4 1.4 M10.5 10.5l1.4 1.4 M4.1 11.9l1.4-1.4 M10.5 5.5l1.4-1.4"/>'),
+  "Status": ic('<path d="M1.5 8h3l1.8-4 3 8 1.8-4h3.4"/>'),
+};
+const DIREKT_EN = { "Doku": "Docs", "Preise": "Pricing" };
 const TITEL_EN = { "Unsere Verkaufsargumente": "Our selling points", "Einwände": "Objections", "Fragen an den Kunden": "Questions for the customer", "Das Wichtigste vorweg": "Key takeaways", "Fazit": "Bottom line" };
 function titelText(titel) {
   if (LANG !== "en") return titel;
@@ -622,8 +661,16 @@ function abschnitte(k) {
   const satz = finde(t => t === "Erster Satz")[0];
   const impact = finde(t => t === "Business-Impact")[0];
   const intern = finde(t => t === "Intern")[0];
-  const fest = ["Fazit", "Das Wichtigste vorweg", "Eckdaten", "Unterschiede auf einen Blick", "Quellen", "Erster Satz", "Business-Impact", "Intern"];
+  const direkt = finde(t => t === "Direktlinks")[0];
+  const gespraech = finde(t => t === "Einwände" || t === "Fragen an den Kunden");
+  const fest = ["Fazit", "Das Wichtigste vorweg", "Eckdaten", "Unterschiede auf einen Blick", "Quellen", "Erster Satz", "Business-Impact", "Intern",
+    "Direktlinks", "Einwände", "Fragen an den Kunden"];
   const argumente = finde(t => t && !fest.includes(t));
+  const links = html => [...html.matchAll(/<a [^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)];
+  const direktHtml = direkt && links(direkt.inhalt).length ? `<h2>${t("hDirekt")}</h2><div class="direkt">${links(direkt.inhalt).map(m =>
+    `<a href="${m[1]}" target="_blank" rel="noopener">${DIREKT_ICON[m[2]] || DIREKT_ICON.Doku}<span>${LANG === "en" ? DIREKT_EN[m[2]] || m[2] : m[2]}</span></a>`).join("")}</div>` : "";
+  const quellenHtml = (direktHtml ? direktHtml + `<h2>${t("hBelege")}</h2>` : "") +
+    (quellen ? `<div class="quellen">${links(quellen.inhalt).map(m => `<a href="${m[1]}" target="_blank" rel="noopener">${m[2]}</a>`).join("")}</div>` : "");
   const ueberblick =
     (satz ? `<div class="erster-satz"><span>${t("ersterSatz")}</span>${satz.inhalt.replace(/<\/?p>/g, "").trim()}</div>` : "") +
     (fazit ? `<p class="fazit">${fazit.inhalt.replace(/<\/?p>/g, "").trim()}</p>` : "") +
@@ -632,11 +679,26 @@ function abschnitte(k) {
   return [
     [t("rUeberblick"), ueberblick],
     [t("rImpact"), impact ? `<div class="impact">${impact.inhalt}</div>` : ""],
-    [t("rArgumente"), nimm(argumente)],
-    [t("rVergleich"), vergleich ? vergleich.inhalt : ""],
+    [t("rArgumente"), argumente.length ? `<div class="klapp">${klapp(nimm(argumente))}</div>` : ""],
+    [t("rEinwaende"), gespraech.length ? `<div class="klapp">${klapp(nimm(gespraech))}</div>` : ""],
+    [t("rVergleich"), vergleich ? vergleichKopf(k, vergleich.inhalt) : ""],
     ["Intern", intern ? `<div class="intern">${intern.inhalt}</div>` : ""],
-    [t("rQuellen"), quellen ? `<div class="quellen">${[...quellen.inhalt.matchAll(/<a [^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map(m => `<a href="${m[1]}" target="_blank" rel="noopener">${m[2]}</a>`).join("")}</div>` : ""],
-  ].filter(([, h]) => h.trim()).map(([t, h]) => [t, h.replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, "</table></div>")]);
+    [t("rQuellen"), quellenHtml],
+  ].filter(([, h]) => h.trim()).map(([t, h]) => [t, h.replace(/<table(\s[^>]*)?>/g, m => '<div class="tw">' + m).replace(/<\/table>/g, "</table></div>")]);
+}
+// Jeder Punkt zeigt nur seine Kernaussage, die Erklärung klappt auf
+const klapp = html => html.replace(/<li><strong>([\s\S]*?)<\/strong>\s*([\s\S]*?)<\/li>/g, (m, a, b) =>
+  b.trim() ? `<li><details><summary><span>${a}</span></summary><div>${b}</div></details></li>` : m);
+// Kopf der Vergleichstabelle: enneo und der Anbieter mit Logo
+function vergleichKopf(k, html) {
+  const enneo = (document.querySelector(".leiste svg.logo") || {}).outerHTML;
+  let i = 0;
+  return html.replace(/<th>([^<]*)<\/th>/g, (m, txt) => {
+    i++;
+    if (i === 2 && enneo) return `<th aria-label="enneo">${enneo}</th>`;
+    if (i === 3) return `<th><span class="th-marke">${k.logo ? `<img src="${k.logo}" alt="">` : ""}${txt}</span></th>`;
+    return m;
+  });
 }
 
 const ATTIO = `/*ATTIO*/`;

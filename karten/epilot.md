@@ -14,10 +14,12 @@ kurz: "Plattform für Vertrieb, Service und Netz bei Stadtwerken, mit KI-Mail-Ag
 
 | | | |
 |---|---|---|
-| Firma | **Köln, ca. 100 MA** | epilot GmbH, „The energy XRM“. 2024 rund 100 Mitarbeitende und 10 Mio. € von Expedition Growth Capital. Heute laut Website über 200 Energieunternehmen als Kunden |
+| Firma | **Köln, 120+ MA** | epilot GmbH, „The energy XRM“. Laut Website über 120 Mitarbeitende und über 200 Kunden aus der Energiewirtschaft. 2024 10 Mio. € von Expedition Growth Capital |
+| Gegründet | **2017 in Köln** | Gründer laut Website Michel Nicolai (CEO) und Rolf Benken (CFO), beide führen die Firma bis heute |
+| Ursprung | **Vertriebsplattform, KI seit 2024** | Gestartet als Cloud-Plattform, mit der Versorger ihre Energieprodukte digital vermarkten und abwickeln. Die erste KI-Funktion, eine Zusammenfassung von Mails, kam im Juli 2024 |
 | Preise | **nicht öffentlich** | Pakete Starter (bis 3 Prozesse), Business (bis 10), Professional, Enterprise. Preis nach Anwendungsfällen, nur per Demo. Ob KI enthalten ist, steht nicht da |
 | Hosting | **Deutschland, AWS** | Rechenzentren in Deutschland mit ISO 27001, AWS als Partner genannt. Die KI-Seite sagt „Alle Daten bleiben in Europa“ |
-| Zertifikat | **ISO 27001** | ISMS nach ISO 27001, dazu Trusted-Cloud-Siegel. Zertifizierer und Geltungsbereich nicht genannt |
+| Zertifikat | **ISO 27001:2022** | ISMS nach ISO 27001, Bescheinigung im Trust Center, dazu Trusted-Cloud-Siegel. Zertifizierer und Geltungsbereich auf der Website nicht genannt |
 
 ## Erster Satz
 
@@ -37,13 +39,13 @@ epilot ist eine Plattform für Energieversorger und Netzbetreiber: Produktkatalo
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Bis zur Aktion im Zielsystem** | Weniger Mitarbeitende für Schriftverkehr, weil die Buchung nicht von Hand nachgezogen wird | „Bei uns schlägt die KI nicht nur eine Antwort vor, sie bucht das Anliegen und antwortet selbst.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Telefon und Voicebot im selben System** | Kein zweites System für die Hotline lizenzieren und pflegen | „Mail, Brief, Chat und Telefon samt Voicebot laufen bei uns auf einem Arbeitsplatz.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **Mails bis zur Buchung im ERP** | Auch der Schriftverkehr läuft bis zur Buchung automatisch, niemand zieht Zählerstand oder IBAN von Hand nach | „Bei uns schlägt die KI nicht nur eine Antwort vor, sie bucht das Anliegen und antwortet selbst.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Telefon und Voicebot im selben System** | Postfach und Hotline auf einem Arbeitsplatz, ein System statt zwei lizenzieren und pflegen | „Mail, Brief, Chat und Telefon samt Voicebot laufen bei uns auf einem Arbeitsplatz.“ |
+| **Liest Anhänge und Fotos** | Zählerfotos und PDF-Anlagen erfasst die KI, niemand tippt sie ab | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil AVV, TOM, Subunternehmer und SLA vorab vorliegen | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo epilot vorn liegt
 
@@ -54,27 +56,27 @@ epilot ist eine Plattform für Energieversorger und Netzbetreiber: Produktkatalo
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | epilot | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Zusammenfassung, Labels, Antwortentwurf zum Prüfen und Senden, Aktionsvorschläge (Beta) | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Attribute aus Dokumenten befüllen, im Mail-Agenten nicht beschrieben | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Vorlagen (Blueprints) für Vertriebs-, Service- und Netzprozesse, KI-Buchung im Abrechnungssystem nicht beschrieben | je nach Fall |
-| **Kanäle im Kundenservice** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | E-Mail und Self-Service im Portal | enneo klar vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Nicht gefunden | enneo klar vorn |
-| **Kundenportal und Bestellstrecken** | Kein Hilfecenter für Endkunden | Kundenportal, Partnerportal, No-Code-Bestellstrecken, Produktkatalog | epilot klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | Rechenzentren in Deutschland, AWS als Partner | gleich |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper. Kein Training mit Kundendaten | Anbieter nicht genannt, kein Training der Modellanbieter mit Kundendaten | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nur AWS als Partner genannt, AVV und Liste der Subunternehmer nicht öffentlich gefunden | enneo vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, Trusted Cloud | epilot vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Pakete nach Anzahl Prozesse | je nach Fall |
+| Bereich | Thema | enneo | epilot | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle im Kundenservice** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Integrierter E-Mail-Service und Self-Service im Portal, Chat und WhatsApp nicht gefunden [Kundenservice](https://www.epilot.cloud/funktionen/360-kundenservice) | enneo klar vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Nicht gefunden [Kundenservice](https://www.epilot.cloud/funktionen/360-kundenservice) [KI-Seite](https://www.epilot.cloud/funktionen/ai-in-epilot) | enneo klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Zusammenfassung, Labels, Antwortentwurf zum Prüfen und Senden, Aktionsvorschläge (Beta) [KI-Seite](https://www.epilot.cloud/funktionen/ai-in-epilot) [Hilfe Antworten](https://epilot.helpjuice.com/ai/ki-gestutzte-e-mail-antworten-beta) [Hilfe KI](https://epilot.helpjuice.com/de_DE/ai) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [KI-Seite](https://www.epilot.cloud/funktionen/ai-in-epilot) [Hilfe KI](https://epilot.helpjuice.com/de_DE/ai) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Attribute aus Dokumenten befüllen, im Mail-Agenten nicht beschrieben [Hilfe KI](https://epilot.helpjuice.com/de_DE/ai) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Vorlagen (Blueprints) für Energie-Anwendungsfälle, ERP über offene APIs, KI-Buchung im Abrechnungssystem nicht beschrieben [Lösung Versorger](https://www.epilot.cloud/en/solutions/utilities-municipal-utilities) | je nach Fall |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper. Kein Training mit Kundendaten | Anbieter auf der KI-Seite nicht genannt, 2024 Modelle über AWS, mit anonymisierten Plattformdaten verfeinert. Aussage zum Training mit Kundendaten nicht gefunden [KI-Seite](https://www.epilot.cloud/funktionen/ai-in-epilot) [ZfK 2024](https://www.zfk.de/digitalisierung/epilot-beschleunigt-e-mail-kommunikation-mit-kuenstlicher-intelligenz) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Kundenportal und Bestellstrecken** | Kein Hilfecenter für Endkunden | Kundenportal, Partnerportal, No-Code-Bestellstrecken, Produktkatalog [Lösung Versorger](https://www.epilot.cloud/en/solutions/utilities-municipal-utilities) [Preise](https://www.epilot.cloud/preise) | epilot klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | ISO-27001-Rechenzentren in Deutschland, AWS als Partner. Die KI-Seite sagt „Alle Daten bleiben in Europa“ [Sicherheit](https://www.epilot.cloud/ressourcen/it-sicherheit-datenschutz) [KI-Seite](https://www.epilot.cloud/funktionen/ai-in-epilot) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Trust Center mit Unterauftragsverarbeitern (u. a. AWS, Datadog, Elastic), TOM und SLA nur auf Anfrage, AVV nicht gefunden [Trust Center](https://trust.epilot.cloud) [Datenschutz](https://www.epilot.cloud/datenschutz) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001:2022, Trusted Cloud [Sicherheit](https://www.epilot.cloud/ressourcen/it-sicherheit-datenschutz) [Trust Center](https://trust.epilot.cloud) | epilot vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Pakete nach Anzahl Prozesse [Preise](https://www.epilot.cloud/preise) | je nach Fall |
 
 ## Wo epilot schwächer ist
 
 - **KI im Service noch jung:** 2024 hat epilot die Antwortentwürfe erst entwickelt. In der Hilfe stehen KI-Antworten und Aktionsvorschläge als Beta, die Antwort sendet ein Mitarbeitender.
 - **Nur E-Mail im Service:** Für Telefon, Chat und Voicebot haben wir bei epilot nichts gefunden. Ein Versorger braucht dafür ein weiteres System.
 - **Anbindung an die Abrechnung offen:** Eine Buchung durch die KI in SAP IS-U, Schleupen oder Wilken ist nicht beschrieben, nur „flexible Datenintegration“ und Schnittstellen ab dem Paket Professional.
-- **Datenschutzangaben ungenau:** Die Sicherheitsseite nennt Rechenzentren in Deutschland, die KI-Seite „Alle Daten bleiben in Europa“. Die Sprachmodell-Anbieter nennt epilot nicht.
+- **Datenschutzangaben ungenau:** Die Sicherheitsseite nennt Rechenzentren in Deutschland, die KI-Seite „Alle Daten bleiben in Europa“. Die Sprachmodell-Anbieter nennt die KI-Seite nicht, laut Presse 2024 wurden die Modelle mit anonymisierten Plattformdaten verfeinert. TOM und SLA gibt es im Trust Center nur auf Anfrage, einen AVV haben wir dort nicht gefunden.
 
 ## Einwände
 
@@ -96,15 +98,32 @@ epilot ist eine Plattform für Energieversorger und Netzbetreiber: Produktkatalo
 
 Gegen epilot gewinnen wir nicht beim Kundenportal, bei Bestellstrecken oder beim Zertifikat. Gewinnen können wir im Kundenservice: KI bis zur Buchung im Abrechnungssystem, mehrere Anliegen, Anhänge, dazu Telefon und Voicebot in einem System. Wo epilot schon Portal und Vertrieb stellt, ist enneo für Postfach und Hotline daneben das bessere Gespräch.
 
+## Direktlinks
+
+- [Doku](https://epilot.helpjuice.com/)
+- [API](https://docs.epilot.io/api)
+- [Trust Center](https://trust.epilot.cloud)
+- [Preise](https://www.epilot.cloud/preise)
+- [Release Notes](https://epilot.helpjuice.com/de_DE/release-notes)
+- [Status](https://status.epilot.cloud/)
+
 ## Quellen
 
 - [Startseite](https://www.epilot.cloud/)
+- [Über uns](https://www.epilot.cloud/en/company/about)
+- [Impressum](https://www.epilot.cloud/impressum)
+- [Lösung für Versorger und Stadtwerke](https://www.epilot.cloud/en/solutions/utilities-municipal-utilities)
 - [AI in epilot](https://www.epilot.cloud/funktionen/ai-in-epilot)
 - [360° Kundenservice](https://www.epilot.cloud/funktionen/360-kundenservice)
 - [IT-Sicherheit und Datenschutz](https://www.epilot.cloud/ressourcen/it-sicherheit-datenschutz)
+- [Trust Center](https://trust.epilot.cloud)
+- [Datenschutzerklärung](https://www.epilot.cloud/datenschutz)
 - [Preise](https://www.epilot.cloud/preise)
 - [Hilfe: KI-Funktionen](https://epilot.helpjuice.com/de_DE/ai)
 - [Hilfe: KI-gestützte E-Mail-Antworten](https://epilot.helpjuice.com/ai/ki-gestutzte-e-mail-antworten-beta)
+- [ZfK: Kölner Cloud-Firma, gegründet 2017 (2020)](https://www.zfk.de/unternehmen/nachrichten/energieprodukte-einkaufen-wie-schuhe)
 - [ZfK: KI für E-Mail-Kommunikation (2024)](https://www.zfk.de/digitalisierung/epilot-beschleunigt-e-mail-kommunikation-mit-kuenstlicher-intelligenz)
 - [ZfK: Finanzierung 10 Mio. € (2024)](https://www.zfk.de/unternehmen/nachrichten/epilot-investiert-in-neue-plattform-funktionen-und-ki-features)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)
+- [Hilfe: Aktuelle Neuerungen](https://epilot.helpjuice.com/de_DE/release-notes)
+- [Dev Center API](https://docs.epilot.io/api)

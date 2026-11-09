@@ -14,7 +14,9 @@ kurz: "Posteingangs- und Dokumenten-KI aus Kaiserslautern, stark bei Versicherer
 
 | | | |
 |---|---|---|
-| Firma | **Kaiserslautern, 200+ MA** | Insiders Technologies GmbH, 1998 als Ausgründung des DFKI gegründet, seit September 2025 Teil der Proalpha Group. Laut Proalpha über 6.000 Kunden. Seit 01.10.2026 neue Geschäftsführung |
+| Firma | **Kaiserslautern, 200+ MA** | Insiders Technologies GmbH, seit September 2025 Teil der Proalpha Group. Laut Proalpha über 6.000 Kunden. Seit 01.10.2026 neue Geschäftsführung |
+| Gegründet | **1998** | Ausgründung des Deutschen Forschungszentrums für Künstliche Intelligenz (DFKI), damals unter Werner Weiss, bis 30.09.2026 Geschäftsführer |
+| Ursprung | **Dokumentanalyse seit 1998** | Startete als KI-Ausgründung mit automatischer Dokumentanalyse, heute Posteingang, Belege, E-Rechnung und Kundenkommunikation auf der Plattform OmnIA mit eigenen und externen Sprachmodellen |
 | Preise | **nicht öffentlich** | Keine Preise auf der Website, keine Testversion gefunden |
 | Hosting | **Deutschland oder beim Kunden** | Insiders Cloud in Deutschland, Rechenzentrumsbetreiber nicht genannt. Sprachmodelle auch in der eigenen Infrastruktur des Kunden. Flow laut Anbieter in der Cloud oder On-Premise |
 | Zertifikat | **ISO 27001 + BSI C5** | ISO 27001 für Entwicklung und Betrieb der Cloud-Services am Standort Kaiserslautern, C5-Testat Typ 2 für die Insiders Cloud |
@@ -25,25 +27,25 @@ kurz: "Posteingangs- und Dokumenten-KI aus Kaiserslautern, stark bei Versicherer
 
 ## Das Wichtigste vorweg
 
-Insiders kommt aus der Dokumentenanalyse: Belege und Post erkennen, klassifizieren, Daten auslesen und an den richtigen Prozess geben. Darin ist Insiders groß, zertifiziert und bei Versicherern und Banken breit im Einsatz. Für Kundenkommunikation gibt es das Produkt Flow (früher smart FLOW), das Nachrichten verteilt, Antworten vorschlägt und typische Anfragen auch selbst beantwortet. Unser Vorteil liegt dort, wo eine Mail mehrere Anliegen hat, der Kunde automatisch erkannt werden muss und die KI bis zur Aktion im Zielsystem und zur Antwort arbeiten soll.
+Insiders kommt aus der Dokumentenanalyse: Belege und Post erkennen, klassifizieren, Daten auslesen und an den richtigen Prozess geben. Darin ist Insiders groß, zertifiziert und bei Versicherern und Banken breit im Einsatz. Für Kundenkommunikation gibt es das Produkt Flow (früher smart FLOW), das Nachrichten aller Kanäle sammelt, Anliegen automatisch erkennt und Mitarbeitende mit Antwortbausteinen unterstützt. Unser Vorteil liegt dort, wo eine Mail mehrere Anliegen hat, der Kunde automatisch erkannt werden muss und die KI bis zur Aktion im Zielsystem und zur Antwort arbeiten soll.
 
 ## Unsere Verkaufsargumente
 
-- **Volle Strecke statt Vorsortierung:** enneo liest die Mail, erkennt das Anliegen, erkennt und legitimiert den Kunden, führt die Aktion im ERP aus und antwortet, auch vollautomatisch. Bei Flow beschreibt Insiders Verteilen, Antwortvorschläge und automatische Antworten auf typische Anfragen. Im Beispiel überträgt ein Sachbearbeiter die Adressänderung „mit einem Klick“ ins CRM.
+- **Volle Strecke statt Vorsortierung:** enneo liest die Mail, erkennt das Anliegen, erkennt und legitimiert den Kunden, führt die Aktion im ERP aus und antwortet, auch vollautomatisch. Bei Flow erkennt und kategorisiert die Software das Anliegen, laut einem Bericht über einen Versicherer verteilt die KI die Mails und Mitarbeitende antworten mit Textbausteinen. Im Beispiel überträgt ein Sachbearbeiter die Adressänderung „mit einem Klick“ ins CRM.
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort. Bei Insiders haben wir dazu nichts gefunden, weder bei Flow noch bei der KI OvAItion.
-- **KI-Agenten in normaler Sprache:** Bei enneo beschreibt man einen KI-Agenten in Worten, ändert ihn mit Neo per Chat und prüft ihn mit Testfällen. Insiders setzt für Fachextraktion auf den Low-Code-Baukasten GenerAItor und eigene, für Dokumente trainierte Modelle.
+- **KI-Agenten in normaler Sprache:** Bei enneo beschreibt man einen KI-Agenten in Worten, ändert ihn mit Neo per Chat und prüft ihn mit Testfällen. Insiders setzt für Fachextraktion auf den No-Code-Baukasten GenerAItor und eigene, für Dokumente trainierte Modelle.
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. Insiders nennt Versicherungen, Banken, Gesundheitswesen, Industrie und öffentliche Hand als Branchen. Energieversorger stehen nicht darunter.
 - **Ein Produkt mit Telefonie und Voicebot:** Bei enneo gehören Arbeitsplatz, KI-Agenten, Wissen, Telefonie und Voicebot zu einem System. Flow nennt Telefon als Kanal, einen Voicebot haben wir bei Insiders nicht gefunden.
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Bis zur Aktion im Zielsystem** | Weniger Mitarbeitende für Schriftverkehr, weil die Buchung nicht von Hand nachgezogen wird | „Bei uns bucht die KI das Anliegen selbst im Zielsystem und schreibt die Antwort.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Kunde automatisch erkannt** | Keine Vertragsnummern abtippen, weniger falsch zugeordnete Vorgänge | „Die Kundennummer holt sich unsere KI aus der Mail und sucht den Kunden selbst.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Agenten in Worten beschreiben** | Fachbereich ändert Abläufe selbst, ohne Regelwerk und ohne Projekt beim Anbieter | „Einen KI-Agenten ändern Sie bei uns per Chat, so wie Sie es einer Kollegin erklären würden.“ |
+| **Mails bis zur Buchung im Zielsystem** | Auch der Schriftverkehr läuft automatisch, weniger Mitarbeitende für Mails, keine Buchung von Hand | „Bei uns bucht die KI das Anliegen selbst im Zielsystem und schreibt die Antwort.“ |
+| **Mehrere Anliegen in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Kundenerkennung aus der Mail** | Niemand tippt Vertragsnummern ab, Vorgänge landen beim richtigen Kunden | „Die Kundennummer holt sich unsere KI aus der Mail und sucht den Kunden selbst.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten sind schnell produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **KI-Agenten in normaler Sprache** | Der Fachbereich ändert Abläufe selbst, ohne Regelwerk und ohne Projekt beim Anbieter | „Einen KI-Agenten ändern Sie bei uns per Chat, so wie Sie es einer Kollegin erklären würden.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo Insiders Technologies vorn liegt
@@ -56,20 +58,20 @@ Insiders kommt aus der Dokumentenanalyse: Belege und Post erkennen, klassifizier
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Insiders Technologies | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Flow verteilt, schlägt Antworten vor, beantwortet typische Anfragen selbst. Buchung im Beispiel per Klick durch Mitarbeitende | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Dokumente lesen** | PDF und Fotos, z. B. Zählerfoto | Kerngeschäft seit 1998: Klassifikation, Extraktion, OCR in großer Menge | Insiders Technologies vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Energie nicht als Branche genannt, Vorlagen für Versicherer und Krankenversicherer | enneo vorn |
-| **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | KI-Agenten für Prüfung, Kontierung und Rückfragen, Low-Code-Baukasten GenerAItor | je nach Fall |
-| **Arbeitsplatz und Kanäle** | Ticketing-Arbeitsplatz, E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon in einem System | Flow mit Postkorb, E-Mail, Brief, Telefon, Chat, WhatsApp und Social Media | gleich |
-| **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Nicht gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | Insiders Cloud in Deutschland, Sprachmodelle auch beim Kunden | je nach Fall |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 und BSI C5 Typ 2 | Insiders Technologies klar vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper. Kein Training mit Kundendaten | Externe und eigene Modelle, Anbieter nicht genannt, zum Training mit Kundendaten nichts gefunden | je nach Fall |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich gefunden | enneo vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich | je nach Fall |
+| Bereich | Thema | enneo | Insiders Technologies | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Arbeitsplatz und Kanäle** | Ticketing-Arbeitsplatz, E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon in einem System | Flow mit Postkorb, E-Mail, Brief, Telefon, Chat, WhatsApp und Social Media in einer Oberfläche [Flow](https://insiders-technologies.com/de/response-management) | gleich |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, Sprache zu Sprache über OpenAI oder Deepslate | Nicht gefunden [Flow](https://insiders-technologies.com/de/response-management) [Startseite](https://insiders-technologies.com/) | enneo vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Flow erkennt und kategorisiert das Anliegen, Mitarbeitende antworten mit Textbausteinen, Übernahme ins CRM im Beispiel per Klick [Flow](https://insiders-technologies.com/de/response-management) [Debeka-Bericht](https://www.it-finanzmagazin.de/?p=207962) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Flow](https://insiders-technologies.com/de/response-management) [OvAItion](https://insiders-technologies.com/de/kuenstliche-intelligenz) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Dokumente lesen** | PDF und Fotos, z. B. Zählerfoto | Kerngeschäft seit 1998: Klassifikation, Extraktion, OCR in großer Menge [Über uns](https://insiders-technologies.com/de/about-us) [OvAItion](https://insiders-technologies.com/de/kuenstliche-intelligenz) | Insiders Technologies vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Energie nicht als Branche genannt, Lösungen für Versicherer und Krankenversicherer [Versicherungen](https://insiders-technologies.com/de/branchen/versicherungen) [Startseite](https://insiders-technologies.com/) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | KI-Agenten für Prüfung, Kontierung und Rückfragen, No-Code-Baukasten GenerAItor [KI-Agenten](https://insiders-technologies.com/de/ki-agenten) [GenerAItor](https://itbrief.co.uk/story/insiders-technologies-unveils-no-code-tool-generaitor-for-ai) | je nach Fall |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | Insiders Cloud in Deutschland, Sprachmodelle auch beim Kunden [Sprachmodelle](https://insiders-technologies.com/de/llm) [Cloud](https://insiders-technologies.com/de/cloud) | je nach Fall |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 und BSI C5 Typ 2 [Cloud](https://insiders-technologies.com/de/cloud) | Insiders Technologies klar vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper. Kein Training mit Kundendaten | Externe und eigene Modelle, Anbieter nicht genannt, zum Training mit Kundendaten nichts gefunden [Sprachmodelle](https://insiders-technologies.com/de/llm) | je nach Fall |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich gefunden, Empfänger nur als Kategorien genannt [Datenschutz](https://insiders-technologies.com/de/datenschutz) [Cloud](https://insiders-technologies.com/de/cloud) | enneo vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich [Startseite](https://insiders-technologies.com/) | je nach Fall |
 
 ## Wo Insiders Technologies schwächer ist
 
@@ -105,11 +107,14 @@ Gegen Insiders gewinnen wir nicht über Zertifikate, Dokumentenmengen oder Refer
 - [Startseite](https://insiders-technologies.com/)
 - [Über uns](https://insiders-technologies.com/de/about-us)
 - [Response Management (Flow)](https://insiders-technologies.com/de/response-management)
+- [Bericht über Debeka und smart Flow, März 2024](https://www.it-finanzmagazin.de/?p=207962)
 - [Versicherungen](https://insiders-technologies.com/de/branchen/versicherungen)
 - [KI-Agenten](https://insiders-technologies.com/de/ki-agenten)
 - [Sprachmodelle](https://insiders-technologies.com/de/llm)
 - [Künstliche Intelligenz OvAItion](https://insiders-technologies.com/de/kuenstliche-intelligenz)
 - [Insiders Cloud](https://insiders-technologies.com/de/cloud)
+- [Datenschutzerklärung](https://insiders-technologies.com/de/datenschutz)
+- [GenerAItor, April 2025](https://itbrief.co.uk/story/insiders-technologies-unveils-no-code-tool-generaitor-for-ai)
 - [Übernahme durch Proalpha](https://www.proalpha.com/en/blog/proalpha-acquires-insiders-technologies)
 - [Wechsel in der Geschäftsführung](https://www.proalpha.com/en/blog/insiders-technologies-to-restructure-management-team)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

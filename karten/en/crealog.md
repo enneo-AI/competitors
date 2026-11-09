@@ -1,6 +1,6 @@
 ---
 slug: "crealog"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Munich specialist for voice dialogs and telco platforms, now with AI agents"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Munich specialist for voice dialogs and telco platforms, now with AI agen
 | | | |
 |---|---|---|
 | Firma | **Munich, since 1993** | CreaLog Software-Entwicklung und Beratung GmbH, owner-managed, office in Vienna. According to CreaLog, 400+ customers and 3 billion calls per year on customer platforms |
+| Gegründet | **1993 in Munich** | By Michael Kloos, still founder-led and owner-managed today |
+| Ursprung | **Telecommunications since 1993** | Started with platforms for network operators and enterprises. AI-supported dialogs since 2021 according to its own news, AI agents with language models since 2025 |
 | Preise | **not public** | No pricing page found |
 | Hosting | **EU, selectable** | On-premises, private cloud, public cloud or as a managed service. According to the Trust Center, processing in the EU, optionally in Deutsche Telekom's T Cloud Public (C5 Type 2 attested) |
 | Zertifikat | **ISO 27001:2022** | TÜV SÜD, valid Apr 15, 2026 to Apr 14, 2029, plus ISO 9001 and 14001 |
@@ -23,7 +25,7 @@ CreaLog has been building voice dialog systems and telephony platforms for over 
 
 ## Unsere Verkaufsargumente
 
-- **Email AI all the way to the booking:** enneo reads the email, identifies the request and the customer, books in the target system and replies, fully automated if desired. CreaLog names email as a channel for routing and outbound contacts. No page describes how the AI reads and handles incoming emails.
+- **Email AI all the way to the booking:** enneo reads the email, identifies the request and the customer, books in the target system and replies, fully automated if desired. CreaLog names email as a channel and for outbound contacts. No page describes how the AI reads and handles incoming emails.
 - **Multiple requests and attachments:** Meter reading, new IBAN and new installment in one email: enneo handles them in one pass with one reply, including PDFs and photos. At CreaLog nothing is documented on this.
 - **One system with an agent workspace:** At enneo, agent workspace, inbox, AI agents, knowledge and telephony are one product with skill-based routing. CreaLog hands over to agents in the existing contact center. CreaLog does not describe its own agent workspace.
 - **For utilities, installment and bank details too:** Meter reading, installment and bank details are ready-made AI agents with plausibility checks at enneo. For utilities, CreaLog names outage reporting and meter reading, but not installments.
@@ -31,12 +33,12 @@ CreaLog has been building voice dialog systems and telephony platforms for over 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
 | **Email AI all the way to the booking** | Written correspondence is handled without agents, fewer staff needed for the inboxes | "With us, the AI reads the email, books in the target system and replies, without any agents if you want." |
 | **Multiple requests in one email** | One case instead of three, no follow-up questions or follow-up emails | "Meter reading, new IBAN and new installment in one email: enneo handles them in one pass with one reply." |
-| **Reading attachments and photos** | Nobody has to retype meter photos and PDFs anymore | "If your customer sends a photo of the meter, our AI reads the value." |
-| **Agent workspace and AI in one product** | No second system to license and maintain for agents | "Your agents work in the same system the AI works in, with telephony and skill-based routing." |
+| **Reading attachments and photos** | Meter photos and PDFs get into the system without retyping | "If your customer sends a photo of the meter, our AI reads the value." |
+| **Agent workspace and AI in one product** | One system for agents and AI, nothing second to license and maintain | "Your agents work in the same system the AI works in, with telephony and skill-based routing." |
 | **Data protection documents public** | Faster data protection review, fewer follow-up requests | "You can review our DPA, TOMs, subprocessors and SLA publicly in advance." |
 
 ## Wo CreaLog vorn liegt
@@ -49,20 +51,20 @@ CreaLog has been building voice dialog systems and telephony platforms for over 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | CreaLog | Einordnung |
-|---|---|---|---|
-| **AI handling of incoming emails** | Full path to the action in the target system, fully automated if desired | Email as a channel for routing and outbound contacts, AI handling not described | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented | enneo vorn |
-| **Agent workspace** | Own ticketing, inbox, telephony and skill-based routing | Not described, handover with context to the existing contact center | enneo klar vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Outage reporting with prioritization, meter reading via phone, digital and messenger | je nach Fall |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA in the project, not public. Subprocessors not named | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, data centers in Germany | EU, depending on the project on-premises, in Azure, Google Cloud, AWS or T Cloud | gleich |
-| **On-premises operation** | Possible at high volume | Standard option alongside cloud and managed service | CreaLog vorn |
-| **Speech providers on the phone** | Speech-to-speech via OpenAI (USA) or Deepslate (EU) | Speechmatics, ElevenLabs, Cartesia, models selectable | CreaLog vorn |
-| **Telephony and recording** | Own telephony, the customer's SIP trunk | Telco platform, recording incl. MiFID, emergency call routing | CreaLog klar vorn |
-| **MS Teams** | No native integration, telephony only via SIP | AI agents as an app in Teams (chat). Teams telephony not found | CreaLog vorn |
-| **Certifications** | None of our own, under audit. Hetzner ISO 27001 | ISO 27001:2022, ISO 9001, ISO 14001 | CreaLog klar vorn |
+| Area | Topic | enneo | CreaLog | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Telephony and recording** | Own telephony, customer's SIP trunk | Telco platform, recording incl. MiFID, emergency call forwarding [Customer service](https://www.crealog.com/cx-solutions/customer-service) [References](https://www.crealog.com/resources/knowledge-centre/references) | CreaLog klar vorn |
+| Kanäle | **Speech providers on the phone** | Speech to speech via OpenAI (USA) or Deepslate (EU) | Speechmatics, ElevenLabs, Cartesia, models selectable [Partners](https://www.crealog.com/about/partner) [AI solutions](https://www.crealog.com/cx-solutions/ai-solutions) | CreaLog vorn |
+| KI & Automatisierung | **AI processing of incoming emails** | Full path to action in the target system, fully automated if desired | Email named as a channel and for outbound contacts, AI processing of incoming emails not described [Omnichannel agents](https://www.crealog.com/cx-solutions/omnichannel-agents) [Outbound](https://www.crealog.com/news/outbound-blogartikel) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Omnichannel agents](https://www.crealog.com/cx-solutions/omnichannel-agents) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented for emails. In the claims example, the agent sends a link to upload photos and documents [Omnichannel agents](https://www.crealog.com/cx-solutions/omnichannel-agents) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready-made, ERP connection per customer | Outage reporting with prioritization, meter reading by phone, digital and messenger [Utilities](https://www.crealog.com/industries/utilities) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Own ticketing, inbox, telephony and skill-based routing | Not described, handover with context to the existing contact center [Customer service](https://www.crealog.com/cx-solutions/customer-service) [Omnichannel agents](https://www.crealog.com/cx-solutions/omnichannel-agents) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **MS Teams** | No native integration, telephony via SIP only | AI agents as an app in Teams (chat). Teams calling not found [AI agents in Teams](https://www.crealog.com/news/wie-service-automatisierung-im-arbeitsalltag-beginnt) | CreaLog vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, data centers in Germany | EU, depending on the project on-premises, in Azure, Google Cloud, AWS or T Cloud [Trust Center](https://www.crealog.com/about/trust-center) [Partners](https://www.crealog.com/about/partner) | gleich |
+| Daten & Sicherheit | **On-premises** | Possible at high volume | Standard option alongside private cloud, public cloud and managed service [Homepage](https://www.crealog.com/) [Trust Center](https://www.crealog.com/about/trust-center) | CreaLog vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA within the project, not public. Subprocessors not named [Trust Center](https://www.crealog.com/about/trust-center) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, under audit. Hetzner ISO 27001 | ISO 27001:2022, ISO 9001, ISO 14001 [Trust Center](https://www.crealog.com/about/trust-center) [ISO 27001](https://www.crealog.com/downloads/iso-27001-zertifikat.pdf) | CreaLog klar vorn |
 
 ## Wo CreaLog schwächer ist
 
@@ -89,6 +91,10 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 ## Fazit
 
 We don't win against CreaLog on telephony, recording, outage hotline or certification. We can win where written requests should be handled automatically all the way to the booking and the customer wants agent workspace and AI in one product. Where CreaLog already runs a utility's telephony, enneo is more a complement for email and letters than a replacement.
+
+## Direktlinks
+
+- [Trust Center](https://www.crealog.com/about/trust-center)
 
 ## Quellen
 

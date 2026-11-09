@@ -1,6 +1,6 @@
 ---
 slug: "sierra"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI agents for customer service from San Francisco, founded by Bret Taylor"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI agents for customer service from San Francisco, founded by Bret Taylor
 | | | |
 |---|---|---|
 | Firma | **San Francisco, USA** | Sierra Technologies, Inc., founded by Bret Taylor and Clay Bavor. Offices in New York, Atlanta, London, Paris, Madrid, Toronto, Singapore and Tokyo, a Munich office announced since 08/2026. Series E 05/2026: USD 950m at a USD 15.8bn valuation, led by Tiger Global and GV. According to Sierra, more than USD 400m in annual revenue (10/2026) |
+| Gegründet | **2023** | Founded by Bret Taylor (formerly co-CEO of Salesforce) and Clay Bavor (formerly Google), publicly launched in February 2024 |
+| Ursprung | **AI from day one** | Founded as a provider of AI agents for customer service, the product has been on the market since February 2024 |
 | Preise | **outcome-based, not public** | "You pay for outcomes, not tokens." What counts as an outcome and which amounts apply is not on the public pages |
 | Hosting | **not public** | Neither the website nor the Trust Center names a region or cloud provider. The privacy policy (for Sierra's own data) says data may be processed "anywhere in the world," including the US, certified under the EU-US Data Privacy Framework |
 | Zertifikat | **ISO 27001, SOC 2** | According to Sierra, also ISO 42001, HIPAA, PCI DSS Level 1, FedRAMP High and CSA STAR. Reports not publicly viewable. BSI C5 not found |
@@ -31,14 +33,14 @@ With a USD 15.8bn valuation and more than USD 400m in annual revenue, Sierra is 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Agent workspace in the product** | No second system to license and maintain, the case lives in one place | "With us, AI and team work in the same agent workspace, with inbox, telephony and skill-based routing." |
-| **Storage in Germany** | Easier privacy review, fewer third-country transfers to assess | "We store at Hetzner in Germany. At Sierra, the storage location is not on the public pages." |
-| **On-premises operation** | For large volumes, the data stays in your own data center | "For large volumes, we also run enneo on-premises at your site." |
-| **Attachments, photos and letters** | Nobody has to retype meter photos, PDF attachments and letters | "A meter photo in the attachment and a scanned letter go through the same AI as every email." |
-| **Ready-made workflows for utilities** | Productive faster, because meter reading, installment and bank details are not rebuilt | "We bring the key utility workflows ready-made with plausibility checks, regardless of your billing system." |
-| **Privacy documents public** | Privacy review without follow-up requests, because everything is available upfront | "You can review our DPA, TOMs, subprocessors and SLA yourself today." |
+| **Agent workspace for the team in the product** | No second system to license and maintain, every case lives in one place | "With us, AI and team work in the same agent workspace, with inbox, telephony and skill-based routing." |
+| **Storage in Germany** | The privacy review gets easier because storage location and provider are fixed in Germany | "We store at Hetzner in Germany. At Sierra, the storage location is not on the public pages." |
+| **On-premises operation** | For large volumes, the data stays in the customer's own data center | "For large volumes, we also run enneo on-premises at your site." |
+| **Reading attachments, photos and letters** | Nobody has to retype meter photos, PDF attachments and letters anymore | "A meter photo in the attachment and a scanned letter go through the same AI as every email." |
+| **Ready-made specialist agents for utilities** | Productive quickly, because meter reading, installment and bank details are not rebuilt | "We bring the key utility workflows ready-made with plausibility checks, regardless of your billing system." |
+| **Privacy documents public** | The privacy review runs without follow-up requests, because everything is available upfront | "You can review our DPA, TOMs, subprocessors and SLA yourself today." |
 
 ## Wo Sierra vorn liegt
 
@@ -50,20 +52,20 @@ With a USD 15.8bn valuation and more than USD 400m in annual revenue, Sierra is 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Sierra | Assessment |
-|---|---|---|---|
-| **AI for email** | Full chain up to the action in the target system, also fully automated | According to Sierra, the agent answers emails autonomously using CRM data | gleich |
-| **Multiple requests in one email** | One resolution plan, all requests in a single pass, one reply | Not documented | enneo vorn |
-| **Attachments, photos and letters** | PDFs and photos, letters as a dedicated channel with the same AI | Attachments not documented, letter channel not found | enneo vorn |
-| **Agent workspace** | Own ticketing, inbox, telephony and skill-based routing | Handoff with summary, "Live Assist" for agents, own ticketing not found | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, data centers in Germany | Not public | enneo klar vorn |
-| **On-premises operation** | Possible for large volumes | Not found | enneo vorn |
-| **Privacy documents** | DPA, TOMs, subprocessors, SLA public | Trust Center without public content, subprocessors not found | enneo vorn |
-| **Specialist agents for utilities** | Meter reading, installment, bank details with plausibility checks, ERP integration per customer | Solution with Kraken for utilities on Kraken, contents not public | je nach Fall |
-| **Building and testing AI agents** | Describe in plain language, change via chat with Neo, test cases | SDK and no-code, Ghostwriter, simulations, experiments, monitoring | Sierra vorn |
-| **Voicebot and languages** | Speech-to-speech via OpenAI (US) or Deepslate (EU) | More than 60 locales, Voice Personas | Sierra vorn |
-| **Certifications** | None of its own, in progress. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI DSS, FedRAMP High | Sierra klar vorn |
-| **Price** | Package prices per ticket and voice minute | Outcome-based, no amounts public | je nach Fall |
+| Area | Topic | enneo | Sierra | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and languages** | Speech-to-speech via OpenAI (US) or Deepslate (EU) | More than 60 locales, Voice Personas [Channels](https://sierra.ai/product/channels) | Sierra vorn |
+| KI & Automatisierung | **AI for email** | Full chain up to the action in the target system, also fully automated | According to Sierra, the agent answers emails autonomously using CRM data [Channels](https://sierra.ai/product/channels) | gleich |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, all requests in a single pass, one reply | Not documented [Channels](https://sierra.ai/product/channels) [Agent SDK](https://sierra.ai/product/agent-sdk) | enneo vorn |
+| KI & Automatisierung | **Attachments, photos and letters** | PDFs and photos, letters as a dedicated channel with the same AI | Attachments not documented, letter channel not found [Channels](https://sierra.ai/product/channels) | enneo vorn |
+| KI & Automatisierung | **Specialist agents for utilities** | Meter reading, installment, bank details with plausibility checks, ERP integration per customer | Solution with Kraken for utilities on Kraken, contents not public [Kraken](https://sierra.ai/customers/kraken) [Press release](https://www.kraken.tech/press-releases/kraken-launches-autonomous-agents-built-on-sierra) | je nach Fall |
+| KI & Automatisierung | **Building and testing AI agents** | Describe in plain language, change via chat with Neo, test cases | SDK and no-code, Ghostwriter, simulations, experiments, monitoring [Agent SDK](https://sierra.ai/product/agent-sdk) [Blog](https://sierra.ai/blog) | Sierra vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Own ticketing, inbox, telephony and skill-based routing | Handoff with summary, "Live Assist" for agents, own ticketing not found [Agent SDK](https://sierra.ai/product/agent-sdk) [Channels](https://sierra.ai/product/channels) | enneo vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, data centers in Germany | Not public [Security](https://sierra.ai/product/trust-and-reliability) [Privacy policy](https://sierra.ai/de/privacy-policy) | enneo klar vorn |
+| Daten & Sicherheit | **On-premises operation** | Possible for large volumes | Not found [Security](https://sierra.ai/product/trust-and-reliability) | enneo vorn |
+| Daten & Sicherheit | **Privacy documents** | DPA, TOMs, subprocessors, SLA public | Trust Center without public content, subprocessors not found [Trust Center](https://trust.sierra.ai) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, SOC 2, ISO 42001, HIPAA, PCI DSS, FedRAMP High [Security](https://sierra.ai/product/trust-and-reliability) | Sierra klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute | Outcome-based, no amounts public [Pricing model](https://sierra.ai/de/blog/outcome-based-pricing-for-ai-agents) | je nach Fall |
 
 ## Wo Sierra schwächer ist
 
@@ -92,12 +94,16 @@ With a USD 15.8bn valuation and more than USD 400m in annual revenue, Sierra is 
 
 Against Sierra, we don't win on capital, certifications, phone and languages or well-known brands. We can win where the customer needs data in Germany, public privacy documents and an agent workspace for their team in the same product, and wants letters, attachments and multiple requests handled out of the box. Sierra is strong at utilities on Kraken, but still thin in DACH.
 
+## Direktlinks
+
+- [Trust Center](https://trust.sierra.ai)
+
 ## Quellen
 
 - [Homepage](https://sierra.ai)
 - [About Sierra](https://sierra.ai/about)
 - [Channels](https://sierra.ai/product/channels)
-- [Develop your agent](https://sierra.ai/product/develop-your-agent)
+- [Agent SDK](https://sierra.ai/product/agent-sdk)
 - [Trust and reliability](https://sierra.ai/product/trust-and-reliability)
 - [Trust Center](https://trust.sierra.ai)
 - [Privacy policy](https://sierra.ai/de/privacy-policy)
@@ -110,3 +116,5 @@ Against Sierra, we don't win on capital, certifications, phone and languages or 
 - [Series E (Built In)](https://builtin.com/articles/sierra-raises-950m-15b-valuation-20260505)
 - [Series E and valuation (PYMNTS)](https://www.pymnts.com/?p=3704471)
 - [Fragment acquisition](https://www.cxodigitalpulse.com/sierra-acquires-yc-backed-ai-startup-fragment-to-strengthen-ai-agent-capabilities/)
+- [Outcome-based pricing (Sierra blog)](https://sierra.ai/de/blog/outcome-based-pricing-for-ai-agents)
+- [Founding and launch (TechCrunch, Feb 13, 2024)](https://techcrunch.com/2024/02/13/bret-taylors-new-company-aims-to-connect-conversational-ai-to-enterprise-workflows/)

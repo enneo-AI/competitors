@@ -1,6 +1,6 @@
 ---
 slug: "wonderful"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI agents for large enterprises, built by on-site teams in 35 markets"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI agents for large enterprises, built by on-site teams in 35 markets"
 | | | |
 |---|---|---|
 | Firma | **Israel/Amsterdam, 650 employees** | Founded in 2025 by Bar Winkler (CEO) and Roey Lalazar (CTO). Contracting entity per the privacy policy is Wonderful Systems Ltd. (Israel), the website belongs to Wonderful AI B.V. Series C 09/2026: USD 550m at a USD 5bn valuation, led by Insight Partners, with Salesforce participating. Per the careers page, offices include Munich, Vienna and Zurich |
+| Gegründet | **2025** | Founded by Bar Winkler (CEO) and Roey Lalazar (CTO) |
+| Ursprung | **AI from day one** | Started as a platform for AI agents in customer service, today described as an "AI OS" for large enterprises, with its own on-site teams |
 | Preise | **not public** | No price list. AWS Marketplace lists a 12-month Enterprise contract at USD 2.5m, noting "Pricing is not fixed or published" and offering a private offer |
 | Hosting | **AWS, Google, Azure** | Per the subprocessor list, regions USA, EU and India, plus Alibaba Cloud (China, Singapore). Can also run in the customer's cloud, single tenant, or on-premises fully air-gapped |
 | Zertifikat | **ISO 27001, SOC 2, C5** | Per the Trust Center also ISO 27017, 27018, 22301, 42001, 27799, PCI DSS 4.0.1 and CSA STAR. SOC 2, CSA STAR and BSI C5 in one combined 2026 report, on request only |
@@ -31,13 +33,13 @@ Wonderful is the fastest-growing AI agent company in European customer service: 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Workspace in the product** | No second system to license and maintain, AI and team work on the same case | "With us, AI and your team work in the same workspace, with inbox, telephony and skill-based routing." |
-| **Ready-made utility workflows** | Productive sooner, less build effort, because meter reading, installment and bank details don't have to be built again | "We bring the key utility workflows ready-made with plausibility checks, only the ERP integration gets built." |
-| **Email with multiple requests** | Fewer agents needed for written correspondence, one reply instead of follow-up tickets | "If your customer puts a meter reading, a new IBAN and an installment change in one email, our AI handles it all in one pass." |
-| **Stored in Germany** | Simpler data protection review, fewer third-country transfers to assess | "We store data at Hetzner in Germany, no picking between regions in the USA, EU and India." |
-| **Package pricing instead of an enterprise contract** | Predictable costs even at mid-sized volume, no large annual commitment up front | "With us you pay packages per ticket and voice minute, matched to your volume." |
+| **One system for AI and team** | AI and team work on the same case, one system to license and maintain instead of two | "With us, AI and your team work in the same workspace, with inbox, telephony and skill-based routing." |
+| **Ready-made utility workflows** | Productive sooner with less build effort, only the ERP integration gets built | "We bring the key utility workflows ready-made with plausibility checks, only the ERP integration gets built." |
+| **Multiple requests in one email** | One reply instead of follow-up tickets, fewer agents needed for written correspondence | "If your customer puts a meter reading, a new IBAN and an installment change in one email, our AI handles it all in one pass." |
+| **Stored in Germany** | Simpler data protection review, the storage location is fixed from day one | "We store data at Hetzner in Germany, no picking between regions in the USA, EU and India." |
+| **Package pricing per ticket and voice minute** | Predictable costs matched to your own volume, also for mid-sized companies | "With us you pay packages per ticket and voice minute, matched to your volume." |
 
 ## Wo Wonderful vorn liegt
 
@@ -49,20 +51,20 @@ Wonderful is the fastest-growing AI agent company in European customer service: 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Wonderful | Einordnung |
-|---|---|---|---|
-| **Agent workspace** | Ticketing, inbox, telephony and skill-based routing in one system | Not found, handoff to Genesys, Amazon Connect or existing systems | enneo klar vorn |
-| **AI processing of emails** | Full path through to the booking, fully automated if desired | Email listed as a channel, public references are phone and WhatsApp only | enneo vorn |
-| **Multiple requests in one email** | One resolution plan, all requests in one pass | Not documented | enneo vorn |
-| **Attachments and documents** | PDFs and photos, e.g. a meter photo, letters as their own channel | "Documents" listed as a channel, OCR service Reducto in the subprocessor list | je nach Fall |
-| **Ready-made utility workflows** | Meter reading, installment, bank details ready-made, ERP integration per customer | On-site team builds per customer, utilities page names billing, grid, outages | enneo vorn |
-| **Where data is stored** | Hetzner in Germany, on-premises possible | AWS, Google, Azure in USA, EU, India. Customer's cloud or on-premises possible | je nach Fall |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA, SLA, master agreement and subprocessors public, audit reports on request | gleich |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5, ISO 42001, PCI DSS | Wonderful klar vorn |
-| **Voicebot and speech services** | OpenAI (USA) or Deepslate (EU), own telephony or SIP | Many speech services, Genesys integration, proven phone references | Wonderful vorn |
-| **Building and testing agents** | Describe in plain language, change with Neo via chat, test cases | Agent Builder, versions, A/B tests, evals, built mostly by the Wonderful team | gleich |
-| **Legacy systems without an API** | RPA bot with Neo | Operating legacy systems announced 06/2026 | gleich |
-| **Price** | Package pricing per ticket and voice minute (pricing model 2.2) | Not public, AWS listing USD 2.5m for 12 months | je nach Fall |
+| Area | Topic | enneo | Wonderful | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and speech services** | OpenAI (USA) or Deepslate (EU), own telephony or SIP | Many speech services, Genesys integration, documented phone references [Subprocessors](https://trust.wonderful.ai/subprocessors) [OTE reference](https://www.wonderful.ai/blog-articles/ote) [PPC Energie reference](https://www.wonderful.ai/blog-articles/ppc-energie) | Wonderful vorn |
+| KI & Automatisierung | **AI handling of emails** | Full path through to the booking, fully automated if desired | Email listed as a channel, public references are phone and WhatsApp only [Wonderful Agents](https://www.wonderful.ai/agents) [Press](https://www.wonderful.ai/press) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, all requests in one pass | Not documented [Wonderful Agents](https://www.wonderful.ai/agents) | enneo vorn |
+| KI & Automatisierung | **Attachments and documents** | PDFs and photos, e.g. meter photo, letter as its own channel | "Documents" listed as a channel, OCR service Reducto in the subprocessor list [Wonderful Agents](https://www.wonderful.ai/agents) [Subprocessors](https://trust.wonderful.ai/subprocessors) | je nach Fall |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | On-site team builds per customer, utilities page lists billing, grid, outages [Utilities industry](https://www.wonderful.ai/industries/utilities) [PPC Energie reference](https://www.wonderful.ai/blog-articles/ppc-energie) | enneo vorn |
+| KI & Automatisierung | **Building and testing agents** | Describe in plain language, change via chat with Neo, test cases | Agent Builder, versions, A/B tests, evals, mostly built by the Wonderful team [Wonderful Agents](https://www.wonderful.ai/agents) [Series C](https://www.wonderful.ai/blog-articles/wonderful-raises-550m-series-c) | gleich |
+| Arbeitsplatz & Anbindungen | **Workspace for agents** | Ticketing, inbox, telephony and skill-based routing in one system | Not found, handoff to Genesys, Amazon Connect or existing systems [Wonderful Systems](https://www.wonderful.ai/systems) [OTE reference](https://www.wonderful.ai/blog-articles/ote) [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Legacy systems without an interface** | RPA bot with Neo | Operating legacy systems announced since 06/2026 [Operating legacy systems](https://www.wonderful.ai/blog-articles/computer-use) | gleich |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises possible | AWS, Google, Azure in the USA, EU, India. Customer's cloud or on-premises possible [Subprocessors](https://trust.wonderful.ai/subprocessors) [Deployment](https://www.wonderful.ai/deployment) | je nach Fall |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | DPA, SLA, master agreement and subprocessors public, audit reports on request [Legal](https://www.wonderful.ai/legal) [Subprocessors](https://trust.wonderful.ai/subprocessors) [Audit reports](https://trust.wonderful.ai/resources) | gleich |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5, ISO 42001, PCI DSS [Audit reports](https://trust.wonderful.ai/resources) | Wonderful klar vorn |
+| Preis & Vertrag | **Price** | Package pricing per ticket and voice minute (pricing model 2.2) | Not public, AWS listing USD 2.5m for 12 months [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao) | je nach Fall |
 
 ## Wo Wonderful schwächer ist
 
@@ -91,6 +93,11 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 Against Wonderful, we don't win on financial strength, certifications or phone references at large enterprises. We can win with utilities and insurers in DACH that handle a lot of written correspondence, need a workspace for their team and want ready-made workflows instead of a build project. The smaller the customer, the less Wonderful's enterprise model with on-site teams fits.
 
+## Direktlinks
+
+- [Trust Center](https://trust.wonderful.ai/)
+- [Status](https://status.wonderful.ai/)
+
 ## Quellen
 
 - [Homepage](https://wonderful.ai)
@@ -117,6 +124,8 @@ Against Wonderful, we don't win on financial strength, certifications or phone r
 - [Subprocessors](https://trust.wonderful.ai/subprocessors)
 - [Audit reports](https://trust.wonderful.ai/resources)
 - [Privacy policy](https://www.wonderful.ai/legal/privacy)
+- [Legal](https://www.wonderful.ai/legal)
 - [DPA](https://www.wonderful.ai/legal/dpa)
 - [SLA](https://www.wonderful.ai/legal/sla)
 - [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao)
+- [Status](https://status.wonderful.ai/)

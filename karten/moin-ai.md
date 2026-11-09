@@ -4,7 +4,7 @@ slug: "moin-ai"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.moin.ai"
 kurz: "KI-Chatbot und KI-Agenten für die Website aus Hamburg"
@@ -14,7 +14,9 @@ kurz: "KI-Chatbot und KI-Agenten für die Website aus Hamburg"
 
 | | | |
 |---|---|---|
-| Firma | **Hamburg, rund 30 MA** | knowhere GmbH, gegründet 2015, seit 2020 Marke moinAI, HRB 135686 Hamburg, Investoren nicht genannt |
+| Firma | **Hamburg, rund 30 MA** | knowhere GmbH, HRB 135686 Hamburg, Investoren nicht genannt |
+| Gegründet | **März 2015** | knowhere GmbH, gestartet im Accelerator SpinLab in Leipzig, erstes Büro in Hamburg |
+| Ursprung | **Chatbots seit 2016** | Gestartet als KI-Reise-App, 2016 ganz auf Chatbots umgestellt, ab 2017 Chatbot-Agentur, seit 2020 als SaaS unter dem Namen moinAI |
 | Preise | **ab 750 € im Monat** | Business 750 €, Growth 1.350 €, Professional 2.500 € bei jährlicher Zahlung, Gespräche unbegrenzt, keine Einrichtungsgebühr. WhatsApp und Voice auf Anfrage |
 | Hosting | **Deutschland, OVH** | Daten bei OVH in Deutschland, Sprachmodelle über Azure West Europe oder nur EU (OVH), kein Betrieb beim Kunden genannt |
 | Referenzen | **TEAG, Octopus Energy** | Über 150 Kunden laut Seite, dazu HanseMerkur, S Broker, American Express, ImmoScout24, Geberit. Zertifikate nicht genannt |
@@ -37,13 +39,13 @@ moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI P
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
 | **E-Mail bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, Mails werden erledigt statt nur weitergeleitet | „Bei uns bucht die KI auch die Mail bis ins Zielsystem, nicht nur den Chat.“ |
-| **Eigener Arbeitsplatz** | Kein zusätzliches Ticketsystem lizenzieren und pflegen | „Mit uns brauchen Sie kein zweites Ticketsystem daneben, der Arbeitsplatz für Ihre Mitarbeitenden ist dabei.“ |
-| **Alle Kanäle in einem System** | Ein Anbieter für Chat, Mail, Brief und Telefon statt Chat-Anbieter plus Telefonie-Partner | „E-Mail, Brief, Chat, WhatsApp und Telefon laufen bei uns in einem System, Voicebot inklusive.“ |
-| **Mehrere Anliegen und Anhänge** | Eine Antwort statt mehrerer Rückfragen, Zählerfoto ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang, das Foto im Anhang liest die KI mit.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen und Wartezeit | „AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz bei uns heute schon öffentlich lesen.“ |
+| **Arbeitsplatz für Mitarbeitende inklusive** | Kein zusätzliches Ticketsystem lizenzieren und pflegen | „Der Arbeitsplatz für Ihre Mitarbeitenden ist bei uns dabei, ein zweites Ticketsystem brauchen Sie nicht.“ |
+| **Alle Kanäle in einem System** | Ein Anbieter für Chat, Mail, Brief und Telefon, ein Vertrag | „E-Mail, Brief, Chat, WhatsApp und Telefon laufen bei uns in einem System, Voicebot inklusive.“ |
+| **Mehrere Anliegen und Anhänge** | Eine Antwort statt mehrerer Rückfragen, Zählerfotos ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang, das Foto im Anhang liest die KI mit.“ |
+| **Öffentliche Datenschutzunterlagen** | Datenschutzprüfung ohne Nachforderungen und Wartezeit | „AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz bei uns heute schon öffentlich lesen.“ |
 
 ## Wo moinAI vorn liegt
 
@@ -55,20 +57,20 @@ moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI P
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | moinAI | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Dokumentiert ist nur die Übergabe des Chats per Mail an ein Ticketsystem | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Datei-Upload im Chat, Auswertung von Anhängen nicht dokumentiert | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Eigener Live-Chat, sonst Übergabe an Zendesk, Salesforce, Freshdesk | enneo klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Website- und App-Chat, WhatsApp und Voice auf Anfrage | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Voice über Partner Aristech, auf Anfrage | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Bei TEAG Abschlag, Zählerstand, SEPA-Mandat im Chat, Branchenvorlagen | gleich |
-| **Anbindung Zielsysteme** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | KI-Aktionen über Webhooks und API, bei TEAG SAP. Anzahl Prozessanbindungen je Tarif begrenzt | je nach Fall |
-| **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | OVH in Deutschland, Sprachmodelle Azure West Europe oder EU, nur Cloud | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV auf Anfrage per Mail, Subunternehmer nicht gefunden | enneo vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine genannt | gleich |
-| **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Ab 750 € im Monat, Gespräche unbegrenzt | je nach Fall |
+| Bereich | Thema | enneo | moinAI | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Website- und App-Chat, WhatsApp und Voice auf Anfrage [Preise](https://www.moin.ai/preise) | enneo vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Voice über Partner Aristech, auf Anfrage [Preise EN](https://www.moin.ai/en/pricing) | enneo vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Dokumentiert ist nur die Übergabe des Chats per Mail an ein Ticketsystem [E-Mail-Takeover](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Preise EN](https://www.moin.ai/en/pricing) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [E-Mail-Takeover](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Produktübersicht](https://www.moin.ai/en/produktubersicht) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Datei-Upload im Chat, Auswertung von Anhängen nicht dokumentiert [Produktübersicht](https://www.moin.ai/en/produktubersicht) [Funktionen](https://www.moin.ai/en/features) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Bei TEAG Abschlag, Zählerstand, SEPA-Mandat im Chat, Branchenvorlagen [Fallstudie TEAG](https://moin.ai/en/case-studies/case-study-teag-chatbot) [Branche Energie](https://www.moin.ai/en/industries/chatbots-for-energy-companies) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Eigener Live-Chat, sonst Übergabe an Zendesk, Salesforce, Freshdesk [Service-Desks](https://helpcenter.moin.ai/externe-service-desk-integrationen) [Funktionen](https://www.moin.ai/en/features) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Anbindung Zielsysteme** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | KI-Aktionen über Webhooks und API, bei TEAG SAP. Anzahl Prozessanbindungen je Tarif begrenzt [Integrationen](https://helpcenter.moin.ai/integrationen) [Fallstudie TEAG](https://moin.ai/en/case-studies/case-study-teag-chatbot) [Preise](https://www.moin.ai/preise) | je nach Fall |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | OVH in Deutschland, Sprachmodelle Azure West Europe oder EU, nur Cloud [Preise EN](https://www.moin.ai/en/pricing) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV auf Anfrage per Mail, Subunternehmer nicht gefunden [DSGVO-Seite](https://www.moin.ai/chatbots-dsgvo) [Hilfecenter Datenschutz](https://helpcenter.moin.ai/datenschutz-bei-moinai) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine genannt [DSGVO-Seite](https://www.moin.ai/chatbots-dsgvo) [Technologie](https://www.moin.ai/technologie) | gleich |
+| Preis & Vertrag | **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Ab 750 € im Monat, Gespräche unbegrenzt [Preise](https://www.moin.ai/preise) | je nach Fall |
 
 ## Wo moinAI schwächer ist
 
@@ -98,6 +100,13 @@ moinAI ist ein Chatbot-Anbieter für die Website, der sich heute „Agentic AI P
 
 Gegen moinAI gewinnen wir, wo viel Schriftverkehr anfällt und der Kunde E-Mail, Brief, Telefon und Arbeitsplatz aus einer Hand will. Wo ein Versorger vor allem einen günstigen, schnell startenden Chat auf der Website mit Self-Service für Abschlag und Zählerstand sucht, hat moinAI mit öffentlichem Preis und der TEAG-Referenz einen guten Stand. Dort lohnt die Frage, wer danach E-Mails und Übergaben bearbeitet.
 
+## Direktlinks
+
+- [Doku](https://helpcenter.moin.ai)
+- [Preise](https://www.moin.ai/preise)
+- [Release Notes](https://www.moin.ai/resources/produktnewsletter)
+- [Status](https://status.moin.ai)
+
 ## Quellen
 
 - [Startseite](https://www.moin.ai)
@@ -118,3 +127,4 @@ Gegen moinAI gewinnen wir, wo viel Schriftverkehr anfällt und der Kunde E-Mail,
 - [Fallstudie TEAG](https://moin.ai/en/case-studies/case-study-teag-chatbot)
 - [Branche Energieversorger](https://www.moin.ai/en/industries/chatbots-for-energy-companies)
 - [Nutzerbewertungen OMR](https://omr.com/de/reviews/product/moinai)
+- [Statusseite](https://status.moin.ai)

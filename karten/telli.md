@@ -4,7 +4,7 @@ slug: "telli"
 fokus: "Voicebot"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.telli.com"
 kurz: "KI-Telefonagenten aus Berlin, stark bei ausgehenden Anrufen für B2C"
@@ -14,9 +14,11 @@ kurz: "KI-Telefonagenten aus Berlin, stark bei ausgehenden Anrufen für B2C"
 
 | | | |
 |---|---|---|
-| Firma | **Berlin, gegründet 2024** | telli technologies GmbH, Berlin (HRB 265661). Y-Combinator-Absolvent. Pre-Seed 04/2025: 3,6 Mio. USD (Cherry Ventures, Y Combinator). Seed 07/2026: 15 Mio. USD, Lead redalpine, insgesamt über 18,5 Mio. USD. Mitarbeiterzahl nicht gefunden |
-| Preise | **nicht öffentlich** | Pläne mit Freikontingent und Mehrverbrauch, Selbstanmeldung mit Testphase. Größere Pläne heißen Scale und Enterprise. Laut telli nutzungs- oder ergebnisbasiert, mit Einrichtungs- und laufenden Kosten |
-| Hosting | **telli-Cloud, Ort offen** | Standard in der Cloud von telli, Region nicht genannt. Betrieb in eigener Infrastruktur des Kunden auf Anfrage. Rufnummern über Twilio |
+| Firma | **Berlin, 25 MA** | telli technologies GmbH, Berlin (HRB 265661). Y-Combinator-Absolvent (Herbst 2024), 25 MA laut Y Combinator. Pre-Seed 04/2025: 3,6 Mio. USD (Cherry Ventures, Y Combinator). Seed 07/2026: 15 Mio. USD, Lead redalpine, insgesamt über 18,5 Mio. USD |
+| Gegründet | **2024, Berlin** | Gründer Philipp Baumanns, Seb Hapte-Selassie und Finn zur Mühlen (CEO). Zwei von ihnen kamen aus dem Wärmepumpen-Geschäft von Enpal, zwei Monate nach der Gründung ging es zu Y Combinator |
+| Ursprung | **von Anfang an KI** | Start mit KI-Telefonagenten, die für Firmen anrufen, Termine buchen und Leads qualifizieren. Mit der Seed-Runde 2026 Ausbau über das Telefon hinaus, die Meldung nennt auch E-Mail |
+| Preise | **nicht öffentlich** | Individuell nach Anrufvolumen, Zusatzminuten, Support, Zusatzfunktionen und gleichzeitigen Anrufen. Selbstanmeldung zum Testen, Angebot über Demo-Termin. Manche Einstellungen nur in Enterprise-Plänen |
+| Hosting | **telli-Cloud, EU möglich** | Standard in der Cloud von telli, EU-Hosting laut telli verfügbar, Betreiber und Region nicht genannt. Betrieb in eigener Infrastruktur des Kunden auf Anfrage. Rufnummern über Twilio |
 | Zertifikat | **SOC 2 Typ II** | Bericht im Trust Center. Dazu DSGVO mit AVV, HIPAA und EU AI Act. ISO 27001 nicht gefunden |
 
 ## Erster Satz
@@ -33,15 +35,15 @@ telli baut KI-Agenten fürs Telefon, eingehend und ausgehend, für B2C-Firmen vo
 - **Ein System für KI und Team:** Bei enneo sind Arbeitsplatz, Postfach, KI-Agenten, Wissen und Telefonie ein Produkt mit Skill-Routing. telli leitet den Anruf an einen Kollegen weiter und schreibt Ergebnisse in CRM oder Helpdesk. Einen eigenen Arbeitsplatz für Mitarbeitende haben wir nicht gefunden.
 - **Mehrere Anliegen, eine Antwort:** Zählerstand, neue IBAN und neuer Abschlag in einer Mail erledigt enneo in einem Durchgang mit einer Antwort, inklusive PDF und Foto im Anhang. Bei telli ist dazu nichts dokumentiert.
 - **Fertige Abläufe für Versorger:** Zählerstand, Abschlag und Bankdaten sind bei uns fertige KI-Agenten mit Plausibilitätsprüfung. telli nennt für Energie Rechnungsfragen und Termine, Zählerstand und Abschlag nennt die Seite nicht.
-- **Gespeichert bei einem deutschen Anbieter:** enneo speichert bei Hetzner in Deutschland, Backups in Deutschland und Finnland. telli nennt keinen Speicherort, Hosting und Region klärt dort der Vertrieb.
+- **Gespeichert bei einem deutschen Anbieter:** enneo speichert bei Hetzner in Deutschland, Backups in Deutschland und Finnland. telli nennt EU-Hosting, aber weder Betreiber noch Region, die Details klärt dort der Vertrieb.
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail und Brief mit KI** | Auch der Schriftverkehr wird bis zur Buchung automatisiert, weniger Mitarbeitende für Mails und Briefe | „telli ist fürs Telefon gebaut, bei uns bearbeitet die KI auch Mails und Briefe bis zur Aktion im Zielsystem.“ |
+| **E-Mail und Brief mit KI bis zur Buchung** | Auch der Schriftverkehr läuft automatisch, weniger Mitarbeitende für Mails und Briefe | „telli ist fürs Telefon gebaut, bei uns bearbeitet die KI auch Mails und Briefe bis zur Aktion im Zielsystem.“ |
 | **Arbeitsplatz im Produkt** | Kein zweites System für die Fälle, die bei Menschen landen, der Vorgang liegt an einer Stelle | „Wenn der Fall zu Ihrem Team muss, arbeitet es bei uns im selben System weiter, nicht in einem zweiten Werkzeug.“ |
-| **Mehrere Anliegen und Anhänge** | Mails mit Zählerstand, IBAN und Foto werden in einem Durchgang erledigt, weniger Rückfragen und Folgemails | „Drei Anliegen und ein Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Mails mit Zählerstand, IBAN und Foto sind in einem Schritt erledigt, weniger Rückfragen und Folgemails | „Drei Anliegen und ein Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
 | **Fertige Versorger-Abläufe** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 | **Speicherort und Unterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil Speicherort, AVV, TOM und Subunternehmer vorab vorliegen | „Wo wir speichern und mit wem wir arbeiten, können Sie heute schon selbst nachlesen.“ |
 
@@ -55,25 +57,25 @@ telli baut KI-Agenten fürs Telefon, eingehend und ausgehend, für B2C-Firmen vo
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | telli | Einordnung |
-|---|---|---|---|
-| **E-Mail und Brief mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch. Brief als eigener Kanal | Nicht gefunden, Produkt und Doku zeigen Telefon, SMS, WhatsApp und Chat | enneo klar vorn |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Nicht gefunden, Weiterleitung des Anrufs mit Briefing, Ergebnis an CRM oder Helpdesk | enneo klar vorn |
-| **Mehrere Anliegen und Anhänge** | Alles in einem Durchgang, PDF und Fotos werden gelesen | Nicht dokumentiert | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Rechnungsfragen, Termine, Lead-Qualifizierung. Referenzen bei Solar- und Heizungsanbietern | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland | Cloud von telli, Region nicht genannt | enneo vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Eigene Infrastruktur auf Anfrage | gleich |
-| **Ausgehende Anrufe** | Kein Dialer für Kampagnen | Auto-Dialer, Wiederholungen, Branded Calling, Rufnummern je Agent | telli klar vorn |
-| **Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Mit Charlie per Chat bauen, Simulationen mit Prüfungen | gleich |
-| **Sprachmodelle und Stimmen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | OpenAI, Gemini, eigener Schlüssel, Stimmen von ElevenLabs, Cartesia u. a. | telli vorn |
-| **Anbindungen** | API, MCP, Schnittstellen als Code je Kunde, RPA-Bot für Altsysteme | 61 Integrationen, API, Webhooks, MCP, eigener Code, Browser-Agent | telli vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Typ II, HIPAA | telli vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Pläne mit Kontingent und Mehrverbrauch, nutzungs- oder ergebnisbasiert, nicht öffentlich | je nach Fall |
+| Bereich | Thema | enneo | telli | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **E-Mail und Brief mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch. Brief als eigener Kanal | Nicht gefunden, Produkt und Doku zeigen Telefon, SMS und WhatsApp. Nur die Meldung zur Seed-Runde nennt E-Mail [Doku-Index](https://docs.telli.com/llms.txt) [Seed 07/2026](https://tech.eu/2026/07/23/telli-secures-15m-seed-to-automate-customer-facing-operations/) | enneo klar vorn |
+| Kanäle | **Ausgehende Anrufe** | Kein Dialer für Kampagnen | Auto-Dialer, Wiederholungen, Branded Calling, Rufnummern je Agent [Auto-Dialer](https://docs.telli.com/deep-dives/auto-dialer) [Branded Calling](https://docs.telli.com/platform/branded-calling) | telli klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen und Anhänge** | Alles in einem Durchgang, PDF und Fotos werden gelesen | Nicht dokumentiert [Doku-Index](https://docs.telli.com/llms.txt) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Rechnungsfragen, Termine, Lead-Qualifizierung. Referenzen bei Solar- und Heizungsanbietern [Energie](https://www.telli.com/solutions/energy) | enneo vorn |
+| KI & Automatisierung | **Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Mit Charlie per Chat bauen, Simulationen mit Prüfungen [Charlie](https://docs.telli.com/platform/charlie) [Simulationen](https://docs.telli.com/platform/simulations) | gleich |
+| KI & Automatisierung | **Sprachmodelle und Stimmen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | OpenAI, Gemini, eigener Schlüssel auf Anfrage, Stimmen von ElevenLabs, Cartesia u. a. [Infrastruktur](https://www.telli.com/product/infrastructure) | telli vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Nicht gefunden, Weiterleitung des Anrufs mit Briefing an eine Rufnummer, Ergebnis an CRM oder Helpdesk [Weiterleitung](https://docs.telli.com/deep-dives/call-transfer) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Anbindungen** | API, MCP, Schnittstellen als Code je Kunde, RPA-Bot für Altsysteme | 61 Integrationen, API, MCP, Browser-Agent [Integrationen](https://www.telli.com/integrations) [Plattform](https://www.telli.com/product/platform) | telli vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Rechenzentren in Deutschland | Cloud von telli, EU-Hosting verfügbar, Betreiber und Region nicht genannt [Sicherheit](https://www.telli.com/security) [Anbieterseite](https://www.telli.com/ai-voice-agents/providers/telli) | enneo vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Eigene Infrastruktur auf Anfrage [Infrastruktur](https://www.telli.com/product/infrastructure) | gleich |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | SOC 2 Typ II, HIPAA [Sicherheit](https://www.telli.com/security) | telli vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Individuell nach Anrufvolumen, Zusatzminuten und Support, nicht öffentlich [Anbieterseite](https://www.telli.com/ai-voice-agents/providers/telli) | je nach Fall |
 
 ## Wo telli schwächer ist
 
 - **Nur ein Kanal in der Tiefe:** Die Doku beschreibt Telefon, dazu SMS und WhatsApp als Vorlagen-Nachrichten. Für E-Mail, Brief und die Arbeit der Mitarbeitenden braucht der Kunde ein zweites System.
-- **Wenig zu Speicherort und Modellen öffentlich:** Hosting, Region und Sprachmodelle klärt laut Sicherheitsseite der Vertrieb. Ob mit Kundendaten trainiert wird, steht dort nicht. Das Trust Center ließ sich ohne Anmeldung nicht auslesen.
+- **Wenig zu Speicherort und Modellen öffentlich:** Betreiber, Region und Modellanbieter klärt laut Sicherheitsseite der Vertrieb, öffentlich steht nur, dass EU-Hosting möglich ist. Ob mit Kundendaten trainiert wird, steht dort nicht. Das Trust Center ließ sich ohne Anmeldung nicht auslesen.
 - **Junges Unternehmen:** Gegründet 2024, Seed-Finanzierung, Referenzen vor allem aus Vertrieb, Immobilien und Personal. Versorger und große Versicherer haben wir unter den Referenzen nicht gefunden.
 - **Grenzen laut Nutzern:** In Bewertungen auf OMR nennen Nutzer fehlende tiefe CRM-Anbindung, unzuverlässiges Erkennen von Telefonnummern und Mailadressen und den Aufwand für Einrichtung und Feinschliff.
 
@@ -97,6 +99,14 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen telli gewinnen wir nicht bei ausgehenden Anrufen, beim schnellen Selbststart oder bei der Zahl fertiger Anbindungen. Gewinnen können wir bei Versorgern mit viel Schriftverkehr: E-Mail und Brief bis zur Buchung, mehrere Anliegen, fertige Versorger-Abläufe und ein Arbeitsplatz für KI und Team in einem Produkt. Wo telli für Vertriebsanrufe läuft, ist enneo für den Kundenservice daneben das naheliegende Gespräch.
 
+## Direktlinks
+
+- [Doku](https://docs.telli.com/en/get-started)
+- [API](https://docs.telli.com/api-getting-started)
+- [Trust Center](https://trust.telli.com)
+- [Release Notes](https://docs.telli.com/changelog)
+- [Status](https://status.telli.com)
+
 ## Quellen
 
 - [Startseite](https://www.telli.com)
@@ -114,4 +124,13 @@ Gegen telli gewinnen wir nicht bei ausgehenden Anrufen, beim schnellen Selbststa
 - [Changelog](https://docs.telli.com/changelog.md)
 - [Seed-Finanzierung 07/2026](https://tech.eu/2026/07/23/telli-secures-15m-seed-to-automate-customer-facing-operations/)
 - [Nutzerbewertungen](https://omr.com/en/reviews/product/telli/all)
+- [Y Combinator](https://www.ycombinator.com/companies/telli)
+- [Pre-Seed 04/2025](https://tech.eu/2025/04/15/y-combinator-and-cherry-ventures-back-ex-enpal-team-s-ai-voice-startup-telli-with-3-6m-pre-seed/)
+- [Anbieterseite telli](https://www.telli.com/ai-voice-agents/providers/telli)
+- [Anrufweiterleitung](https://docs.telli.com/deep-dives/call-transfer)
+- [Auto-Dialer](https://docs.telli.com/deep-dives/auto-dialer)
+- [Branded Calling](https://docs.telli.com/platform/branded-calling)
+- [Charlie](https://docs.telli.com/platform/charlie)
+- [Simulationen](https://docs.telli.com/platform/simulations)
+- [Einstellungen und Pläne](https://docs.telli.com/platform/settings)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

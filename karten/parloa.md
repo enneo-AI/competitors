@@ -4,7 +4,7 @@ slug: "parloa"
 fokus: "Voicebot"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.parloa.com"
 kurz: "KI-Agenten für Telefon und Chat aus Berlin, mit viel Kapital"
@@ -15,6 +15,8 @@ kurz: "KI-Agenten für Telefon und Chat aus Berlin, mit viel Kapital"
 | | | |
 |---|---|---|
 | Firma | **Berlin und New York, 380+ MA** | Parloa GmbH, Berlin (HRB 187494 B). Series D 01/2026: 350 Mio. USD bei 3 Mrd. USD Bewertung, Lead General Catalyst, dazu EQT Ventures, Altimeter u. a. SAP ist seit 05/2026 strategisch beteiligt |
+| Gegründet | **2018 (Vorläufer 2017)** | Von Malte Kosub (CEO) und Stefan Ostwald (Chief AI Officer) in Berlin, zuerst als Agentur Future of Voice |
+| Ursprung | **Voice-Agentur seit 2017** | Future of Voice half Firmen, Sprachtechnik zu nutzen. 2018 entstand intern Parloa als Werkzeug für Alexa Skills und Telefonbots, 2020 verkauften die Gründer die Agentur und konzentrierten sich auf Parloa |
 | Preise | **nicht öffentlich** | Preisseite seit 10/2026: Telefon je Minute, Chat je Interaktion, Satz nach Komplexität des Anwendungsfalls, eine Volumenzusage für alle Anwendungsfälle, Abrechnung nach Ergebnis optional |
 | Hosting | **Microsoft Azure** | Bisher eigene Instanz in Deutschland, seit 09/2026 „Parloa Zones“ mit Wahl der Region. Das Trust Center nennt nur „Major Cloud Provider“ |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu ISO 42001, PCI DSS, HIPAA. Kein C5: Parloa schreibt, es falle nicht darunter, die genutzte Cloud sei C5-testiert |
@@ -36,12 +38,12 @@ Parloa baut KI-Agenten für Telefon und Chat und gehört dort zu den stärksten 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail und Brief mit KI** | Auch der Schriftverkehr wird bis zur Buchung automatisiert, weniger Mitarbeitende für Mails und Briefe | „Parloa nennt Telefon und Chat, bei uns bearbeitet die KI auch Mails und Briefe bis zur Aktion im Zielsystem.“ |
-| **Ein System statt zwei** | Kein zweites System und kein zweiter Vertrag, der Vorgang liegt an einer Stelle | „Bei Parloa übernehmen Menschen in einem fremden System, bei uns arbeiten KI und Team im selben Arbeitsplatz.“ |
-| **Mehrere Anliegen und Anhänge** | Mails mit Zählerstand, IBAN und Foto werden in einem Durchgang erledigt, weniger Rückfragen und Folgemails | „Drei Anliegen und ein Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
-| **Speicherung bei deutschem Anbieter, Betrieb beim Kunden** | Datenschutzprüfung einfacher, bei großem Volumen ist das eigene Rechenzentrum möglich | „Wir speichern bei Hetzner in Deutschland, ab großem Volumen auch bei Ihnen, einen Betrieb beim Kunden haben wir bei Parloa nicht gefunden.“ |
+| **Mails und Briefe bis zur Buchung** | Auch der Schriftverkehr läuft automatisch bis zur Aktion im Zielsystem, weniger Mitarbeitende für Mails und Briefe | „Parloa nennt Telefon und Chat, bei uns bearbeitet die KI auch Mails und Briefe bis zur Aktion im Zielsystem.“ |
+| **Ein System für KI und Team** | Ein System und ein Vertrag, jeder Vorgang liegt an einer Stelle | „Bei Parloa übernehmen Menschen in einem fremden System, bei uns arbeiten KI und Team im selben Arbeitsplatz.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Mails mit Zählerstand, IBAN und Foto sind mit einer Antwort erledigt, weniger Rückfragen und Folgemails | „Drei Anliegen und ein Zählerfoto in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Speicherung in Deutschland, auf Wunsch beim Kunden** | Einfachere Datenschutzprüfung, bei großem Volumen läuft alles im eigenen Rechenzentrum | „Wir speichern bei Hetzner in Deutschland, ab großem Volumen auch bei Ihnen, einen Betrieb beim Kunden haben wir bei Parloa nicht gefunden.“ |
 
 ## Wo Parloa vorn liegt
 
@@ -53,19 +55,19 @@ Parloa baut KI-Agenten für Telefon und Chat und gehört dort zu den stärksten 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Parloa | Einordnung |
-|---|---|---|---|
-| **E-Mail und Brief mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch. Brief als eigener Kanal | Nicht gefunden, Parloa nennt nur Telefon und Chat | enneo klar vorn |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Keiner gefunden, Übergabe an Genesys, Five9, Salesforce, Zendesk u. a. | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Ohne E-Mail-Kanal nicht dokumentiert | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Microsoft Azure, Instanz in Deutschland, seit 09/2026 Region wählbar | enneo vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, Anthropic, Gemini, Azure, Bedrock, xAI, Mistral. Modus ohne Speicherung. Zusage gegen Training nicht gefunden | gleich |
-| **Voicebot und Sprachanbieter** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | 140+ Sprachen, Sprachausgabe je Agent EU oder US über ElevenLabs | Parloa vorn |
-| **Anbindung an fremde Contact Center** | Eigene Telefonie. Ticketnummer im SIP-Header nach außen, eingehend kein Kontext | Zehn Contact-Center-Plattformen, Übergabe mit Transkript oder Zusammenfassung | Parloa klar vorn |
-| **MS Teams** | Keine native Anbindung, Telefonie nur per SIP | Teams, um Experten ins Gespräch zu holen. Teams-Telefonie nicht gefunden | Parloa vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 42001, SOC 2, PCI DSS, HIPAA. Kein C5 | Parloa klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Je Minute oder Interaktion, Satz nach Komplexität, Volumenzusage | je nach Fall |
+| Bereich | Thema | enneo | Parloa | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **E-Mail und Brief mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch. Brief als eigener Kanal | Nicht gefunden, Parloa nennt nur Telefon und Chat [Kanäle](https://www.parloa.com/platform/conversation-infrastructure/) [Preise](https://www.parloa.com/de/plattform/preise/) | enneo klar vorn |
+| Kanäle | **Voicebot und Sprachanbieter** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | 140+ Sprachen, Sprachausgabe je Agent EU oder US über ElevenLabs [Kanäle](https://www.parloa.com/platform/conversation-infrastructure/) [Release 02/2026](https://www.parloa.com/blog/parloa_product_release_2026/) | Parloa vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Ohne E-Mail-Kanal nicht dokumentiert [Kanäle](https://www.parloa.com/platform/conversation-infrastructure/) | enneo vorn |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, Anthropic, Gemini, Azure, Bedrock, xAI, Mistral. Modus ohne Speicherung. Zusage gegen Training nicht gefunden [Integrationen](https://www.parloa.com/platform/integrations/) [Release 02/2026](https://www.parloa.com/blog/parloa_product_release_2026/) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Keiner gefunden, Übergabe an Genesys, Five9, Salesforce, Zendesk u. a. [Integrationen](https://www.parloa.com/platform/integrations/) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Anbindung an fremde Contact Center** | Eigene Telefonie. Ticketnummer im SIP-Header nach außen, eingehend kein Kontext | Zehn Contact-Center-Plattformen, Übergabe mit Transkript oder Zusammenfassung [Integrationen](https://www.parloa.com/platform/integrations/) | Parloa klar vorn |
+| Arbeitsplatz & Anbindungen | **MS Teams** | Keine native Anbindung, Telefonie nur per SIP | Teams, um Experten ins Gespräch zu holen. Teams-Telefonie nicht gefunden [Integrationen](https://www.parloa.com/platform/integrations/) | Parloa vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Microsoft Azure, Instanz in Deutschland, seit 09/2026 Region wählbar [Betrieb auf Azure](https://www.parloa.com/labs/insights/building-parloa-zones-repeatable-regional-deployments-with-central-control/) [Parloa Zones](https://www.parloa.com/blog/parloa-zones-deploy-ai-globally-with-data-residency-you-can-prove/) | enneo vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden, Regionen nur in der Azure-Cloud [Parloa Zones](https://www.parloa.com/blog/parloa-zones-deploy-ai-globally-with-data-residency-you-can-prove/) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 42001, SOC 2, PCI DSS, HIPAA. Kein C5 [Trust Center](https://trust.parloa.com/) [Sicherheit](https://www.parloa.com/platform/enterprise-security-governance/) | Parloa klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Je Minute oder Interaktion, Satz nach Komplexität, Volumenzusage [Preise](https://www.parloa.com/de/plattform/preise/) | je nach Fall |
 
 ## Wo Parloa schwächer ist
 
@@ -98,11 +100,17 @@ Parloa baut KI-Agenten für Telefon und Chat und gehört dort zu den stärksten 
 
 Gegen Parloa gewinnen wir nicht am Telefon, bei Zertifikaten oder bei der Anbindung an große Contact Center. Gewinnen können wir, wo viel Schriftverkehr anfällt und der Kunde nicht zwei Systeme betreiben will: E-Mail und Brief bis zur Buchung, mehrere Anliegen, Arbeitsplatz und KI in einem Produkt, gespeichert bei einem deutschen Anbieter. Wo Parloa schon am Telefon steht, ist enneo für den schriftlichen Kanal das naheliegende Gespräch.
 
+## Direktlinks
+
+- [Trust Center](https://trust.parloa.com/)
+- [Preise](https://www.parloa.com/de/plattform/preise/)
+- [Release Notes](https://www.parloa.com/resources/innovation/)
+
 ## Quellen
 
 - [Trust Center](https://trust.parloa.com/)
 - [Unterauftragnehmer](https://trust.parloa.com/subprocessors)
-- [Sicherheit](https://www.parloa.com/security/)
+- [Sicherheit](https://www.parloa.com/platform/enterprise-security-governance/)
 - [Parloa Zones](https://www.parloa.com/blog/parloa-zones-deploy-ai-globally-with-data-residency-you-can-prove/)
 - [Betrieb auf Azure](https://www.parloa.com/labs/insights/building-parloa-zones-repeatable-regional-deployments-with-central-control/)
 - [Release 02/2026: Sprachausgabe EU, Aufbewahrung](https://www.parloa.com/blog/parloa_product_release_2026/)
@@ -116,4 +124,8 @@ Gegen Parloa gewinnen wir nicht am Telefon, bei Zertifikaten oder bei der Anbind
 - [SAP-Beteiligung](https://www.parloa.com/de/presse/parloa-vertieft-partnerschaft-mit-sap-und-setzt-neue-massstaebe-fuer-kundenerlebnisse-mit-agentic-ai/)
 - [SAP Solution Extension](https://www.parloa.com/parloa-in-the-press/SAP-conversational-agent-management-by-parloa/)
 - [Impressum](https://www.parloa.com/de/impressum/)
+- [Über Parloa](https://www.parloa.com/company/about/)
+- [Gründung als Future of Voice (deutsche-startups.de)](https://www.deutsche-startups.de/2023/06/23/parloa-kundenservice/)
+- [Gründungsjahr 2018 (deutsche-startups.de)](https://www.deutsche-startups.de/2025/05/12/unicorn-parloa/)
+- [Doku-Startseite, Inhalte nur mit Login](https://docs.parloa.com/)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

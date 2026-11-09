@@ -1,6 +1,6 @@
 ---
 slug: "cresta"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "US platform for AI in the contact center, strong on phone and coaching"
 ---
 
@@ -9,6 +9,8 @@ kurz: "US platform for AI in the contact center, strong on phone and coaching"
 | | | |
 |---|---|---|
 | Firma | **Sunnyvale, 500+ employees** | Cresta Intelligence Inc., founded in 2017 out of the Stanford AI Lab, more than USD 280m from a16z, Sequoia, Greylock, Tiger Global and QIA. Cresta GmbH in Berlin is the representative for the EEA and Switzerland |
+| Gegründet | **2017 at Stanford** | Out of the Stanford AI Lab, founders Sebastian Thrun, Zayd Enam and Tim Shi |
+| Ursprung | **AI from the start** | Founded as an AI company out of a research lab. Cresta does not say what its first product was, today real-time agent support is the core |
 | Preise | **not public** | Only public price: Agent Assist via AWS Marketplace, USD 150,000 per year for 100,000 calls or 125,000 chats. Deputy Agent outcome-based on request |
 | Hosting | **Servers in the US** | According to the privacy policy, the servers are located in the US. Subprocessors include Google Cloud, OpenAI, Anthropic, Deepgram, ElevenLabs. No EU hosting found |
 | Zertifikat | **ISO 27001, SOC 2** | Plus, according to the Trust Center, ISO 27701, ISO 42001, PCI DSS, HIPAA, TISAX and AIUC-1 |
@@ -31,12 +33,12 @@ Cresta comes from real-time support for agents on the phone: in-call guidance, c
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Fully automated email instead of a draft** | Fewer agents needed for written correspondence, because cases are closed without anyone touching them | "With us, the AI doesn't just write a draft. It resolves the case all the way to the booking and replies on its own." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer puts a meter reading, an IBAN and an installment into one email, they get one reply from us." |
-| **Storage in Germany** | No transfer of ticket data to the US, simpler data protection review | "Your ticket data stays with us at Hetzner in Germany, or on your own premises if you prefer." |
-| **Agent workspace built into the product** | No second system to license and maintain if there is no large contact center system in house | "Workspace, AI agents, knowledge and telephony are one system with one contract." |
+| **Emails resolved fully automatically** | Cases are closed without anyone touching them, fewer agents needed for written correspondence | "With us, the AI doesn't just write a draft. It resolves the case all the way to the booking and replies on its own." |
+| **Multiple requests in one pass** | The end customer gets one complete reply, no follow-up questions or tickets | "If your customer puts a meter reading, an IBAN and an installment into one email, they get one reply from us." |
+| **Storage in Germany** | Ticket data stays in Germany, the data protection review gets simpler | "Your ticket data stays with us at Hetzner in Germany, or on your own premises if you prefer." |
+| **Agent workspace built into the product** | One system with one contract, even without a large contact center system in house | "Workspace, AI agents, knowledge and telephony are one system with one contract." |
 | **Ready-made workflows for utilities** | Meter reading, installment and bank details go live faster, only the ERP integration gets built | "We bring the most important utility workflows ready to use, with plausibility checks." |
 
 ## Wo Cresta vorn liegt
@@ -49,20 +51,20 @@ Cresta comes from real-time support for agents on the phone: in-call guidance, c
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Cresta | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | Reply drafts for agents since 08/2025, autonomous email handling not described on the product page | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. a photo of the meter | Not documented for email. According to Cresta, the Deputy Agent can start on documents in a queue | enneo vorn |
-| **Own agent workspace** | Ticket workspace, inbox, skill routing in one system | Builds on an existing contact center system, no ticket workspace of its own found | je nach Fall |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | No energy reference found | enneo vorn |
-| **Where data is stored** | Hetzner in Germany, on-premises possible | Servers in the US, no EU hosting found | enneo klar vorn |
-| **Building and testing AI agents** | Describe in plain words, change via chat with Neo, test cases | Conductor in natural language, tests against synthetic customers, errors become test cases | gleich |
-| **Agent Assist** | Draft, summary, live transcription | Real-time guidance, knowledge, coaching, translation, core product | Cresta klar vorn |
-| **Analytics and quality** | Scorecards, manual or automated | Automated scoring of all conversations, AI Analyst | Cresta vorn |
-| **Voicebot** | OpenAI (US) or Deepslate (EU) | 30+ languages incl. German, speech services include Deepgram, ElevenLabs, Cartesia | Cresta vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2, PCI DSS, HIPAA, TISAX | Cresta klar vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, Agent Assist from USD 150,000 per year according to AWS Marketplace | je nach Fall |
+| Area | Topic | enneo | Cresta | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | OpenAI (USA) or Deepslate (EU) | 30+ languages incl. German, speech services include Deepgram, ElevenLabs, Cartesia [AI Agent](https://cresta.com/ai-agent) [Trust Center](https://trust.cresta.com) | Cresta vorn |
+| KI & Automatisierung | **AI processing of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | Reply drafts for agents since 08/2025, autonomous email handling not described on the product page [Email blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) [AI Agent](https://cresta.com/ai-agent) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Email blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented for email, according to Cresta the Deputy Agent can start from documents in a queue [Email blog](https://cresta.com/blog/email-is-in-the-loop-cresta-expands-agent-assist-and-conversation-intelligence-across-every-major-channel) [Deputy Agent](https://cresta.com/deputy-agent) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready to use, ERP integration per customer | No energy reference found [Info for AI](https://cresta.com/llm-info) [Insurance](https://cresta.com/insurance) | enneo vorn |
+| KI & Automatisierung | **Building and testing AI agents** | Describe in plain language, change with Neo via chat, test cases | Conductor in natural language, tests against synthetic customers, failures become test cases [AI Agent](https://cresta.com/ai-agent) | gleich |
+| KI & Automatisierung | **Agent Assist** | Draft, summary, live transcription | Real-time guidance, knowledge, translation, coaching as a separate product, core product [Info for AI](https://cresta.com/llm-info) | Cresta klar vorn |
+| KI & Automatisierung | **Analytics and quality** | Scorecards, manual or automatic | Automatic scoring of every conversation, AI Analyst [Info for AI](https://cresta.com/llm-info) | Cresta vorn |
+| Arbeitsplatz & Anbindungen | **Own agent workspace** | Ticket workspace, inbox, skill-based routing in one system | Sits on top of an existing contact center system, no ticket workspace of its own found [Info for AI](https://cresta.com/llm-info) | je nach Fall |
+| Daten & Sicherheit | **Where data is stored** | Hetzner in Germany, on-premises possible | Servers in the US, no EU hosting found [Privacy policy](https://cresta.com/legal/privacy-policy) [Trust Center](https://trust.cresta.com) | enneo klar vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 under audit. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2, PCI DSS, HIPAA, TISAX [Trust Center](https://trust.cresta.com) | Cresta klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, Agent Assist from USD 150,000 per year according to AWS Marketplace [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-lmdwown6xoo6q) | je nach Fall |
 
 ## Wo Cresta schwächer ist
 
@@ -91,6 +93,12 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 Against Cresta, we don't win on live support on the phone, conversation analytics or certifications. Cresta is deeper and larger there. We can win with customers in the DACH region who want to handle a lot of written correspondence fully automatically, need their data in Germany and want utility workflows ready out of the box. Where Cresta already supports agents on top of Genesys or NICE, enneo alongside it for email is the better conversation than a complete switch.
 
+## Direktlinks
+
+- [Trust Center](https://trust.cresta.com)
+- [Preise](https://aws.amazon.com/marketplace/pp/prodview-lmdwown6xoo6q)
+- [Status](https://status.cresta.com/)
+
 ## Quellen
 
 - [Cresta homepage](https://cresta.com)
@@ -110,4 +118,5 @@ Against Cresta, we don't win on live support on the phone, conversation analytic
 - [Job posting Head of EMEA](https://builtinlondon.uk/job/head-emea/4763840)
 - [Channel overview, SoftwareOne](https://platform.softwareone.com/product/cresta-ai-agent/PCP-6959-8699)
 - [G2 user reviews, summarized](https://www.eesel.ai/blog/cresta-review)
+- [Status page](https://status.cresta.com/)
 - [enneo solution plan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

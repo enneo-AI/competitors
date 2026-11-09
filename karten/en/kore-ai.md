@@ -1,6 +1,6 @@
 ---
 slug: "kore-ai"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "US platform for AI agents and contact centers, office in Frankfurt"
 ---
 
@@ -9,6 +9,8 @@ kurz: "US platform for AI agents and contact centers, office in Frankfurt"
 | | | |
 |---|---|---|
 | Firma | **Orlando (USA), office in Frankfurt** | Kore.ai, Inc., founder and CEO Raj Koneru. Since May 2026 a second headquarters in San Mateo, the official headquarters remains Orlando. Over 100 new enterprise customers in the last fiscal year, most recent investor AllianceBernstein. Headcount not public |
+| Gegründet | **2014 in Orlando** | Founder Raj Koneru, who had previously founded the mobile app development startup Kony |
+| Ursprung | **Conversational AI since 2014** | According to Kore.ai, it started before conversational AI had a name. Today a platform for AI agents, contact center and internal processes |
 | Preise | **not public** | Billing per session. In AWS Marketplace, AI for Service, Contact Center AI, Agent AI, Quality AI, Workforce Management and Interaction Gateway are priced separately, Enterprise Support and test environment cost extra, no refunds |
 | Hosting | **AWS, including Frankfurt** | Multi-tenant SaaS, dedicated VPC or on-premises according to the Trust Center. Frankfurt is documented in the energy case study. Subprocessors not publicly listed |
 | Zertifikat | **ISO 27001, SOC 2 Type 2** | According to the Trust Center ISO/IEC 27001:2022, SOC 2 Type 1 and 2, PCI DSS. BSI C5 not found |
@@ -31,12 +33,12 @@ Kore.ai is a large US provider of AI agents with voicebot, chat, its own contact
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email through to posting** | Fewer agents for written correspondence, no separate build phase for the email flow | "With us, the same AI reads, posts and replies, and we'll show you that on your own emails." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "Meter reading, new IBAN and installment in one email: with us, that's one pass and one reply." |
+| **Emails through to posting** | Written correspondence runs automatically too, fewer agents for email, no separate build phase for the email flow | "With us, the same AI reads, posts and replies, and we'll show you that on your own emails." |
+| **Multiple requests in one pass** | The end customer gets one complete reply, fewer follow-up questions and follow-up tickets | "Meter reading, new IBAN and installment in one email: with us, that's one pass and one reply." |
 | **Reading photos in attachments** | Nobody has to type up meter photos | "Our AI simply reads the meter photo in the attachment along with the email." |
-| **Ready-made flows for utilities** | Productive faster, only the ERP connection is built | "We bring meter reading, installment and bank details ready-made with plausibility checks." |
+| **Ready-made flows for utilities** | The customer is productive faster, only the ERP connection is built | "We bring meter reading, installment and bank details ready-made with plausibility checks." |
 | **Privacy documentation public** | Privacy review without follow-up requests and without waiting for approvals | "Your privacy team can already read our DPA, TOMs, subprocessors and SLA themselves today." |
 | **German company, storage at Hetzner** | Less back-and-forth on data residency and vendor country requirements | "We're a German GmbH and store data with a German provider in Germany." |
 
@@ -50,20 +52,20 @@ Kore.ai is a large US provider of AI agents with voicebot, chat, its own contact
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Kore.ai | Assessment |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, posts and replies, fully automated if desired | Email channel with flows and handover to agents. AI handling of content through to posting not described | enneo vorn |
-| **Multiple requests in one email** | One resolution plan, everything in one pass, one reply | Detection via signal words, one after the other, stops at the first error. Not documented for email | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | PDF, Word, text, JSON. Images without content extraction | enneo vorn |
-| **Agent workspace** | Ticketing agent workspace with skill-based routing in the product | Agent desktop with skill-based routing and queues in its own contact center | gleich |
-| **Contact center management** | No dialer, no live dashboard, no workforce management | Outbound campaigns, real-time monitoring, workforce management, quality checks | Kore.ai klar vorn |
-| **Ready-made flows for utilities** | Meter reading, installment, bank details ready-made, ERP connection per customer | Packages for banking, retail, healthcare. Not found for utilities | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | AWS, also Frankfurt, dedicated VPC or on-premises. Company in the USA | je nach Fall |
-| **Privacy documentation** | DPA, TOMs, subprocessors, SLA public | SLA and security documents on request, DPA and subprocessors not listed | enneo vorn |
-| **Voicebot and voice services** | OpenAI (USA) or Deepslate (EU), less choice | Own Voice Gateway, many providers per language, custom providers possible | Kore.ai klar vorn |
-| **Language models** | US providers by default, EU models in the DPA: Mistral, Nebius, Media Trooper | OpenAI, Azure, Anthropic, Gemini, Bedrock, custom models | Kore.ai vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022, SOC 2 Type 2, PCI DSS | Kore.ai klar vorn |
-| **Price** | Package pricing per ticket and per voice minute (pricing model 2.2) | Not public, per session, modules separately, support and test environment extra | je nach Fall |
+| Area | Topic | enneo | Kore.ai | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and voice services** | OpenAI (USA) or Deepslate (EU), less choice | Own Voice Gateway, many providers per language, custom providers possible [Release notes](https://docs.kore.ai/ai-for-service/release-notes/voice-gateway) [Channels](https://docs.kore.ai/ai-for-service/channels.md) | Kore.ai klar vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, posts and replies, fully automated if desired | Email channel with flows and handover to agents. AI handling of content through to posting not described [Email channel](https://docs.kore.ai/xo/channels/add-email-channel/) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, everything in one pass, one reply | Detection via signal words, one after the other, stops at the first error. Not documented for email [Multi-intent](https://docs.kore.ai/ai-for-service/automation/natural-language/nlu-configurations/multi-intent-detection) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | PDF, Word, text, JSON. Images without content extraction [Attachments](https://docs.kore.ai/agent-platform/v1/agents/agentic-apps/attachment-support.md) | enneo vorn |
+| KI & Automatisierung | **Ready-made flows for utilities** | Meter reading, installment, bank details ready-made, ERP connection per customer | Packages for banking, retail, healthcare. Not found for utilities [Homepage](https://kore.ai) [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-ru3m2q5dzyebu) | enneo vorn |
+| KI & Automatisierung | **Language models** | US providers by default, EU models in the DPA: Mistral, Nebius, Media Trooper | OpenAI, Azure, Anthropic, Gemini, Bedrock, custom models [Language models](https://docs.kore.ai/ai-for-service/generative-ai-tools/llm-integration) | Kore.ai vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing agent workspace with skill-based routing in the product | Agent desktop with skill-based routing and queues in its own contact center [Contact Center AI](https://docs.kore.ai/ai-for-service/contact-center.md) | gleich |
+| Arbeitsplatz & Anbindungen | **Contact center management** | No dialer, no live dashboard, no workforce management | Outbound campaigns, real-time monitoring, workforce management, quality checks [Contact Center AI](https://docs.kore.ai/ai-for-service/contact-center.md) [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-ru3m2q5dzyebu) | Kore.ai klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | AWS, also Frankfurt, dedicated VPC or on-premises. Company in the USA [Trust Center](https://trust.kore.ai/) [Energy group](https://kore.ai/customer-stories/80-million-customer-energy-giant) | je nach Fall |
+| Daten & Sicherheit | **Privacy documentation** | DPA, TOMs, subprocessors, SLA public | SLA and security documents on request, DPA and subprocessors not listed [Trust Center](https://trust.kore.ai/) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001:2022, SOC 2 Type 2, PCI DSS [Trust Center](https://trust.kore.ai/) | Kore.ai klar vorn |
+| Preis & Vertrag | **Price** | Package pricing per ticket and per voice minute (pricing model 2.2) | Not public, per session, modules separately, support and test environment extra [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-ru3m2q5dzyebu) | je nach Fall |
 
 ## Wo Kore.ai schwächer ist
 
@@ -92,10 +94,20 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 We won't win against Kore.ai on voicebot, contact center management, certifications or the size of its references. We can win where a lot of written correspondence should be handled automatically: multiple requests, photos in attachments, posting in the target system, ready-made utility flows. On top of that come a German company and open privacy documentation.
 
+## Direktlinks
+
+- [Doku](https://docs.kore.ai/)
+- [API](https://docs.kore.ai/ai-for-service/apis/automation/api-introduction)
+- [Community](https://community.kore.ai/)
+- [Trust Center](https://trust.kore.ai/)
+- [Release Notes](https://docs.kore.ai/ai-for-service/release-notes)
+- [Status](https://status.kore.ai/)
+
 ## Quellen
 
 - [Kore.ai homepage](https://kore.ai)
 - [About Kore.ai](https://www.kore.ai/about-us)
+- [Founded in 2014, TechCrunch](https://techcrunch.com/2024/01/30/kore-ai-a-startup-building-conversational-ai-for-enterprises-raises-150m)
 - [Second headquarters Bay Area, May 2026](https://kore.ai/news/kore-ai-establishes-bay-area-strategic-headquarters-to-lead-the-next-wave-of-enterprise-ai)
 - [Trust Center](https://trust.kore.ai/)
 - [Security and compliance](https://www.kore.ai/agent-platform/security-and-compliance)

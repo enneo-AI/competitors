@@ -4,7 +4,7 @@ slug: "decagon"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://decagon.ai"
 kurz: "KI-Agenten für Chat, E-Mail und Telefon aus San Francisco"
@@ -14,7 +14,9 @@ kurz: "KI-Agenten für Chat, E-Mail und Telefon aus San Francisco"
 
 | | | |
 |---|---|---|
-| Firma | **San Francisco, gegründet 2023** | Decagon AI, Inc., Büros in New York und London. Series D 01/2026: 250 Mio. USD bei 4,5 Mrd. USD Bewertung, Lead Coatue und Index Ventures, T.Capital (Deutsche Telekom) beteiligt. Laut Presse über 100 Mio. USD Jahresumsatz. Im Oktober 2026 Berichte über Verkaufsgespräche, ServiceNow dementierte |
+| Firma | **San Francisco, VC-finanziert** | Decagon AI, Inc., Büros in New York und London. Series D 01/2026: 250 Mio. USD bei 4,5 Mrd. USD Bewertung, Lead Coatue und Index Ventures, T.Capital (Deutsche Telekom) beteiligt. Laut Presse über 100 Mio. USD Jahresumsatz. Im Oktober 2026 Berichte über Verkaufsgespräche, ServiceNow dementierte |
+| Gegründet | **2023 in San Francisco** | Von Jesse Zhang und Ashwin Sreenivas, beide hatten vorher eigene Start-ups gegründet und verkauft |
+| Ursprung | **von Anfang an KI** | Startete mit generativer KI für den Kundenservice, zuerst Chatbots, heute Chat, E-Mail und Telefon |
 | Preise | **nicht öffentlich** | Satz je eingehendem Gespräch oder höherer Satz je gelöstem Gespräch, Übergaben an Menschen dann kostenlos. Laut Decagon wählt die große Mehrheit je Gespräch. Keine Beträge veröffentlicht |
 | Hosting | **Google Cloud, AWS, Azure** | Laut Trust Center in den USA und der EU. 27 Unterauftragnehmer, davon 11 nur mit Standort USA, etwa Cohere, xAI, Cartesia, Cloudflare und die Anmeldedienste WorkOS und Clerk |
 | Zertifikat | **ISO 27001, SOC 2** | ISO 27001:2022, SOC 2 Typ II (Bericht Oktober 2025), PCI DSS 4.0.1, HIPAA. Berichte nur auf Anfrage. BSI C5 nicht gefunden |
@@ -37,13 +39,13 @@ Decagon ist eines der am schnellsten wachsenden KI-Startups im Kundenservice, mi
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Arbeitsplatz im Produkt** | Kein zweites System lizenzieren und pflegen, der Vorgang liegt an einer Stelle | „Bei Decagon arbeitet Ihr Team in Zendesk oder Salesforce weiter, bei uns arbeiten KI und Team im selben Arbeitsplatz.“ |
+| **Arbeitsplatz im Produkt** | Ein System statt zwei, der ganze Vorgang liegt an einer Stelle | „Bei uns arbeiten KI und Team im selben Arbeitsplatz, ohne zweites Helpdesk.“ |
 | **Speicherung in Deutschland** | Datenschutzprüfung einfacher, weniger Drittlandsübermittlungen zu bewerten | „Wir speichern bei Hetzner in Deutschland, bei Decagon stehen 27 Unterauftragnehmer auf der Liste, elf davon nur in den USA.“ |
 | **Betrieb beim Kunden** | Bei großem Volumen bleiben die Daten im eigenen Rechenzentrum | „Ab großem Volumen betreiben wir enneo auch bei Ihnen, das haben wir bei Decagon nicht gefunden.“ |
-| **Anhänge, Fotos und Briefe** | Zählerfotos, PDF-Anlagen und Briefe muss niemand abtippen | „Ein Zählerfoto im Anhang und ein eingescannter Brief laufen bei uns durch dieselbe KI wie jede Mail.“ |
-| **Fertige Abläufe für Versorger** | Schneller produktiv, weil Zählerstand, Abschlag und Bankdaten nicht neu gebaut werden | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Anhänge, Fotos und Briefe lesen** | Zählerfotos, PDF-Anlagen und Briefe kommen ohne Abtippen ins System | „Ein Zählerfoto im Anhang und ein eingescannter Brief laufen bei uns durch dieselbe KI wie jede Mail.“ |
+| **Fertige Abläufe für Versorger** | Schneller produktiv, Zählerstand, Abschlag und Bankdaten müssen nicht neu gebaut werden | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo Decagon vorn liegt
@@ -56,20 +58,20 @@ Decagon ist eines der am schnellsten wachsenden KI-Startups im Kundenservice, mi
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Decagon | Einordnung |
-|---|---|---|---|
-| **E-Mail mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch | Vorhanden, auch lange Verläufe. Aktionen über Integrationen und MCP | gleich |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Laut Decagon „multi-part questions“ in einem Verlauf | gleich |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert | enneo vorn |
-| **Brief** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Keiner gefunden, Übergabe und Copilot in Zendesk, Salesforce, Intercom, Front | enneo klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Google Cloud, AWS, Azure in USA und EU, 11 Unterauftragnehmer nur USA | enneo klar vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden | enneo vorn |
-| **Fachagenten für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Energie nicht unter den Branchen, keine Referenz gefunden | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, Anthropic, Cohere, xAI u. a., ohne Speicherung beim Anbieter, kein Training | gleich |
-| **Voicebot und Sprachen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | Eigenes Sprachmodell Chord, 70+ Sprachen, ElevenLabs, Cartesia | Decagon vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2 Typ II, PCI DSS, HIPAA | Decagon klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute | Je Gespräch oder je gelöstem Gespräch, keine Beträge öffentlich | je nach Fall |
+| Bereich | Thema | enneo | Decagon | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Brief** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden [Chat](https://decagon.ai/product/chat) [Produktübersicht](https://decagon.ai/product/overview) | enneo vorn |
+| Kanäle | **Voicebot und Sprachen** | Sprache zu Sprache über OpenAI (USA) oder Deepslate (EU) | Eigenes Sprachmodell Chord, 70+ Sprachen, ElevenLabs, Cartesia [Voice](https://decagon.ai/product/voice) [Subunternehmer](https://trust.decagon.ai/subprocessors) | Decagon vorn |
+| KI & Automatisierung | **E-Mail mit KI** | Volle Strecke bis zur Aktion im Zielsystem, auch vollautomatisch | Vorhanden, auch lange Verläufe. Aktionen über Integrationen und MCP [E-Mail](https://decagon.ai/product/email) [Integrationen](https://decagon.ai/product/integrations) | gleich |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Laut Decagon „multi-part questions“ in einem Verlauf [E-Mail](https://decagon.ai/product/email) | gleich |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert [E-Mail](https://decagon.ai/product/email) [Chat](https://decagon.ai/product/chat) | enneo vorn |
+| KI & Automatisierung | **Fachagenten für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Energie nicht unter den Branchen, keine Referenz gefunden [Kunden](https://decagon.ai/case-studies) | enneo vorn |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, Anthropic, Cohere, xAI u. a., ohne Speicherung beim Anbieter, kein Training [Sicherheit](https://decagon.ai/security) [Subunternehmer](https://trust.decagon.ai/subprocessors) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing, Postfach, Telefonie und Skill-Routing | Keiner gefunden, Übergabe und Copilot in Zendesk, Salesforce, Intercom, Front [Integrationen](https://decagon.ai/product/integrations) [Assist](https://decagon.ai/blog/decagon-assist) | enneo klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, Rechenzentren in Deutschland | Google Cloud, AWS, Azure in USA und EU, 11 Unterauftragnehmer nur USA [Subunternehmer](https://trust.decagon.ai/subprocessors) | enneo klar vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen möglich | Nicht gefunden [Sicherheit](https://decagon.ai/security) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2 Typ II, PCI DSS, HIPAA [Trust Center](https://trust.decagon.ai/) | Decagon klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute | Je Gespräch oder je gelöstem Gespräch, keine Beträge öffentlich [Preismodelle](https://decagon.ai/resources/pricing-ai-agents) | je nach Fall |
 
 ## Wo Decagon schwächer ist
 
@@ -98,6 +100,11 @@ Decagon ist eines der am schnellsten wachsenden KI-Startups im Kundenservice, mi
 
 Gegen Decagon gewinnen wir nicht über Kapital, Zertifikate, Sprachauswahl oder bekannte Marken, und bei E-Mail mit mehreren Fragen sind beide gut aufgestellt. Gewinnen können wir, wo der Kunde kein zweites System für sein Team will, Daten in Deutschland braucht und Briefe, Anhänge und Versorger-Abläufe fertig mitbekommen soll. In DACH ist Decagon noch dünn, gerade bei Versorgern und Versicherern ist das unser Gespräch.
 
+## Direktlinks
+
+- [Trust Center](https://trust.decagon.ai/)
+- [Status](https://status.decagon.ai/)
+
 ## Quellen
 
 - [Startseite](https://decagon.ai)
@@ -122,5 +129,8 @@ Gegen Decagon gewinnen wir nicht über Kapital, Zertifikate, Sprachauswahl oder 
 - [Benelux und Rituals](https://decagon.ai/blog/growing-in-benelux)
 - [Team in London](https://decagon.ai/blog/notes-from-london-building-ai-across-emea)
 - [Firmenprofil](https://en.wikipedia.org/wiki/Decagon_(company))
+- [TechCrunch: Gründer und Anfang, 06/2024](https://techcrunch.com/2024/06/18/decagon-claims-its-customers-service-bots-are-smarter-than-average/)
+- [AIM: Gründung 2023](https://aimmediahouse.com/retail/decagon-became-a-unicorn-by-simply-listening-to-customers)
+- [Statusseite](https://status.decagon.ai/)
 - [Verkaufsberichte und Umsatz](https://www.pymnts.com/news/acquiring/2026/servicenow-denies-reports-of-takeover-interest-in-ai-agent-startup-decagon/)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

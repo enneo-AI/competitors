@@ -4,7 +4,7 @@ slug: "melibo"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://melibo.de"
 kurz: "KI-Agenten für Chat und Tickets, Schwerpunkt E-Commerce"
@@ -14,7 +14,9 @@ kurz: "KI-Agenten für Chat und Tickets, Schwerpunkt E-Commerce"
 
 | | | |
 |---|---|---|
-| Firma | **Bensheim, 150+ Kunden** | ThinkingTech GmbH, HRB 106888 Darmstadt, Geschäftsführer Felix und Leon Stelzer. Wurzeln 2019 als „deinChatbot“, Plattform melibo seit Februar 2022, Büro in Frankfurt. Mitarbeiterzahl und Investoren nicht genannt |
+| Firma | **Bensheim, 150+ Kunden** | ThinkingTech GmbH, HRB 106888 Darmstadt, Geschäftsführer Felix und Leon Stelzer, Büro in Frankfurt. Mitarbeiterzahl und Investoren nicht genannt |
+| Gegründet | **2019 als deinChatbot** | Die Brüder Felix und Leon Stelzer starteten 2019 in Bensheim mit „deinChatbot“, einer Marke des Familienunternehmens MakeIT. Plattform melibo öffentlich seit Februar 2022 |
+| Ursprung | **Chatbot-Projekte seit 2019** | Erst Chatbots als Projektgeschäft für Kunden, ab 2021 die Idee einer eigenen Plattform, seit 2022 melibo als Self-Service-Plattform, heute KI-Agenten für Chat und Tickets |
 | Preise | **nicht öffentlich** | Fester Monatsbetrag plus einmalige Setup-Gebühr, Paket nach Funktionen, Preis nur auf Anfrage. Keine Abrechnung pro Chat |
 | Hosting | **Frankfurt, OpenAI-Modelle** | Server und Daten in Frankfurt am Main, Betreiber nicht genannt. Sprachmodelle von OpenAI (GPT-4 genannt), EU-Modelle nicht genannt |
 | Referenzen | **E-Commerce, Sportvereine** | Fahrrad XXL, momox, Deuba, babyartikel.de, tesa, FC Augsburg, VfL Wolfsburg, FITSEVENELEVEN. Energie oder Versicherung nicht gefunden. Eigenes Zertifikat nicht genannt |
@@ -37,14 +39,14 @@ melibo kommt aus dem Website-Chatbot und baut ihn zur Plattform für Kundenservi
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
 | **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Das Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Kunde erkennen und legitimieren** | Auch Mails mit Vertragsänderungen laufen automatisch, nicht nur einfache Auskünfte | „Bei uns prüft die KI erst, wer schreibt, und bucht dann im ERP.“ |
-| **Telefon und Voicebot inklusive** | Kein zweiter Anbieter für die Hotline, ein Vertrag, eine Ansprechstelle | „Mail, Brief, Chat und Telefon laufen bei uns in einem System, Voicebot inklusive.“ |
-| **Fertige Abläufe für Versorger** | Schneller produktiv bei Zählerstand, Abschlag und Bankdaten, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Datenschutzunterlagen öffentlich, EU-Modelle möglich** | Datenschutzprüfung ohne Nachforderungen und Wartezeit | „AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz bei uns heute schon lesen.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand mehr abtippen | „Das Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Kunde erkennen und legitimieren** | Auch Mails mit Vertragsänderungen laufen automatisch bis zur Buchung, nicht nur einfache Auskünfte | „Bei uns prüft die KI erst, wer schreibt, und bucht dann im ERP.“ |
+| **Telefon und Voicebot im selben System** | Ein Vertrag und eine Ansprechstelle für Mail, Brief, Chat und Hotline | „Mail, Brief, Chat und Telefon laufen bei uns in einem System, Voicebot inklusive.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Öffentliche Datenschutzunterlagen, EU-Modelle möglich** | Datenschutzprüfung ohne Nachforderungen und Wartezeit | „AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz bei uns heute schon lesen.“ |
 
 ## Wo melibo vorn liegt
 
@@ -56,20 +58,20 @@ melibo kommt aus dem Website-Chatbot und baut ihn zur Plattform für Kundenservi
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | melibo | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Einordnen, Routing, Vorschläge, vollautomatisch für klar definierte wiederkehrende Fälle mit Aktionen im Shop oder ERP | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Ein Topic pro Anfrage, mehrere Anliegen nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Auswerten von Anhängen nicht dokumentiert | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Eigene Inbox seit 2026 mit Live-Chat, Makros, SLA, oder Einbindung in Zendesk, Freshdesk und andere | je nach Fall |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Website-Chat, Kontaktformular, E-Mail und Tickets, WhatsApp über ChatWerk, MS Teams | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Nicht gefunden | enneo klar vorn |
-| **Fertige Fachabläufe** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Bestellstatus, Retoure, Storno, Lieferadresse, Produktberatung | je nach Fall |
-| **Anbindung Zielsysteme** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | Über 100 fertige Integrationen, Webhooks, REST-API, MCP-Server | je nach Fall |
-| **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | Frankfurt am Main, Betreiber nicht genannt, Betrieb beim Kunden nicht genannt | enneo vorn |
-| **Sprachmodelle** | US-Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, EU-Modelle und Trainingsregel nicht genannt | enneo vorn |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV auf Anfrage per Mail, TOM und Subunternehmer nicht gefunden | enneo vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine eigenen genannt, Partner laut melibo ISO 9001 und ISO 27001 | gleich |
+| Bereich | Thema | enneo | melibo | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Website-Chat, Kontaktformular, E-Mail und Tickets, WhatsApp über ChatWerk, MS Teams [Plattform](https://melibo.de/produkte/customer-service-automation-plattform) [WhatsApp-Doku](https://docs.melibo.de/configure/integrationen/helpdesk-and-crm/whatsapp) [Teams-Doku](https://docs.melibo.de/configure/integrationen/sonstiges/microsoft/microsoft-teams) | enneo vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP, OpenAI (USA) oder Deepslate (EU) | Nicht gefunden [Plattform](https://melibo.de/produkte/customer-service-automation-plattform) [Doku-Verzeichnis](https://docs.melibo.de/llms.txt) | enneo klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | Einordnen, Routing, Vorschläge, vollautomatisch für klar definierte wiederkehrende Fälle mit Aktionen im Shop oder ERP [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Ein Topic pro Anfrage, mehrere Anliegen nicht dokumentiert [Agenten-Logik](https://docs.melibo.de/welcome/ai-agents-logik) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos, z. B. Zählerfoto | Auswerten von Anhängen nicht dokumentiert [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) [Agenten-Logik](https://docs.melibo.de/welcome/ai-agents-logik) | enneo vorn |
+| KI & Automatisierung | **Fertige Fachabläufe** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung | Bestellstatus, Retoure, Storno, Lieferadresse, Produktberatung [E-Commerce](https://melibo.de/branchen/e-commerce) [Helpdesk Agent](https://melibo.de/produkte/helpdesk-agent) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben System | Eigene Inbox seit 2026 mit Live-Chat, Makros, SLA, oder Einbindung in Zendesk, Freshdesk und andere [Changelog Nov.](https://docs.melibo.de/changelog/november-2026/nov-03-inbox-makros-response-assist-und-nebenkonversationen) [Ticket-Status](https://docs.melibo.de/communicate/inbox/basisfunktionen/ticket-status) [Zendesk](https://melibo.de/integrationen/zendesk) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Anbindung Zielsysteme** | Schnittstellen als Code, API, MCP, RPA für Altsysteme | Über 100 fertige Integrationen, Webhooks, REST-API, MCP-Server [Integrationen](https://melibo.de/integrationen) [API-Doku](https://docs.melibo.de/api-reference/api) [MCP-Doku](https://docs.melibo.de/mcp-server/funktionsubersicht) | je nach Fall |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | Frankfurt am Main, Betreiber nicht genannt, Betrieb beim Kunden nicht genannt [Datenschutz](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Standard, EU-Modelle im AVV möglich, kein Training mit Kundendaten | OpenAI, EU-Modelle und Trainingsregel nicht genannt [Changelog Okt. 2025](https://docs.melibo.de/changelog/oktober-2025/15) [Datenschutz](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV auf Anfrage per Mail, TOM und Subunternehmer nicht gefunden [Datenschutz](https://melibo.de/produkte/datenschutz-dsgvo) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | Keine eigenen genannt, Partner laut melibo ISO 9001 und ISO 27001 [Datenschutz](https://melibo.de/produkte/datenschutz-dsgvo) | gleich |
 
 ## Wo melibo schwächer ist
 
@@ -98,6 +100,13 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen melibo gewinnen wir bei Versorgern und überall, wo Mails mehrere Anliegen, Anhänge und eine Legitimation vor der Buchung brauchen, und wo Telefon dazugehört. Im Onlinehandel mit einfachen, häufigen Fällen wie Bestellstatus und Retoure, und wenn das vorhandene Helpdesk bleiben soll, hat melibo mit fertigen Integrationen, Referenzen und guten Bewertungen einen starken Stand.
 
+## Direktlinks
+
+- [Doku](https://docs.melibo.de)
+- [API](https://docs.melibo.de/api-reference/api)
+- [Preise](https://melibo.de/preise)
+- [Release Notes](https://docs.melibo.de/changelog)
+
 ## Quellen
 
 - [Startseite](https://melibo.de)
@@ -125,3 +134,9 @@ Gegen melibo gewinnen wir bei Versorgern und überall, wo Mails mehrere Anliegen
 - [Changelog: Live-Chat in der Inbox (Okt. 2026)](https://docs.melibo.de/changelog/oktober-2026/okt-23-channels-neu-organisiert-shop-agent-dashboard-und-live-chat-in-der-inbox)
 - [Changelog: Inbox, Makros, Response Assist (Nov. 2026)](https://docs.melibo.de/changelog/november-2026/nov-03-inbox-makros-response-assist-und-nebenkonversationen)
 - [Nutzerbewertungen OMR](https://omr.com/de/reviews/product/melibo)
+- [Integrationen](https://melibo.de/integrationen)
+- [Doku: WhatsApp über Chatwerk](https://docs.melibo.de/configure/integrationen/helpdesk-and-crm/whatsapp)
+- [Doku: Microsoft Teams](https://docs.melibo.de/configure/integrationen/sonstiges/microsoft/microsoft-teams)
+- [Doku: Ticket-Status und SLA-Fristen](https://docs.melibo.de/communicate/inbox/basisfunktionen/ticket-status)
+- [Doku: API](https://docs.melibo.de/api-reference/api)
+- [Doku: MCP-Server](https://docs.melibo.de/mcp-server/funktionsubersicht)

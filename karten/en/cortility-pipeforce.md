@@ -1,6 +1,6 @@
 ---
 slug: "cortility-pipeforce"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI inbox for SAP utilities, Pipeforce classifies, cortility books in SAP"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI inbox for SAP utilities, Pipeforce classifies, cortility books in SAP"
 | | | |
 |---|---|---|
 | Firma | **Ettlingen + Munich** | cortility gmbh (subsidiary of command gmbh, since 2011, SAP add-on solutions for utilities) and LOGABIT GmbH with the product Pipeforce. Partnership since 2025, headcounts not stated |
+| Gegründet | **2011 and 2019** | cortility in 2011 as a command group company in the Karlsruhe region, Pipeforce in 2019 in Munich by Stephan Niedermeier and Simon Ochs (today managing directors of LOGABIT GmbH) |
+| Ursprung | **SAP add-ons and workflow platform** | cortility builds add-on products for the SAP industry solutions for utilities, Pipeforce started as a workflow and integration platform for mid-sized companies. Since when the AI exists: not found |
 | Preise | **not public** | Pipeforce only via price request, cortility offers a free initial consultation |
 | Hosting | **Germany, EU or on-premises** | Pipeforce in ISO 27001 certified data centers in Germany or the EU, operator not named. Private cloud and on-premises possible. Case data is stored in SAP |
 | Referenzen | **none by name** | "Already successfully in use", without customer names. cortility names around 25 utilities as references for other SAP solutions. No own ISO 27001, SOC 2 or C5 found, Pipeforce carries the seal of the German Federal Association for IT SMEs (Bundesverband IT Mittelstand) |
@@ -31,13 +33,13 @@ cortility and Pipeforce are going after exactly our strongest field: emails and 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Reply to the customer after the booking** | Case closed without manual work, fewer customer follow-ups | "With us, the email ends with the booking and the reply to your customer, fully automated if desired." |
-| **Multiple requests in one email** | Fewer emails that end up with agents after all | "Meter reading, IBAN and installment in one email: with us that's one pass and one reply." |
-| **Voicebot and additional channels** | No second system when phone, chat or WhatsApp are added later | "If you later want to automate phone and chat too, it's the same system with us." |
-| **Not just SAP** | The investment stays usable if not everything is in SAP | "We build interfaces in any format, and with the RPA bot we also reach systems without an interface." |
-| **One provider** | Clear responsibility for operations and errors | "With us you have one contact for AI, agent workspace and integration instead of two companies." |
+| **Booking and reply to the customer** | Case closed without manual work, fewer follow-ups from the end customer | "With us, the email ends with the booking and the reply to your customer, fully automated if desired." |
+| **Multiple requests in one email** | Emails with several requests also go through, fewer cases for agents | "Meter reading, IBAN and installment in one email: with us that's one pass and one reply." |
+| **Voicebot and all channels in one system** | Phone, chat or WhatsApp can be added later without a second system | "If you later want to automate phone and chat too, it's the same system with us." |
+| **Interfaces in any format, also beyond SAP** | The investment stays usable, also for systems outside SAP | "We build interfaces in any format, and with the RPA bot we also reach systems without an interface." |
+| **AI, agent workspace and integration from one source** | Clear responsibility for operations and errors, one contact | "With us you have one contact for AI, agent workspace and integration instead of two companies." |
 
 ## Wo cortility und Pipeforce vorn liegen
 
@@ -49,20 +51,20 @@ cortility and Pipeforce are going after exactly our strongest field: emails and 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | cortility and Pipeforce | Einordnung |
-|---|---|---|---|
-| **Email all the way to action** | One AI reads, identifies and authenticates the customer, books and replies, fully automated if desired | Identify, extract, check and execute in SAP, follow-up question if information is missing. Reply after booking not described | enneo vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Meter photo as attachment, example from the trade press | gleich |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Joint solution for email and letters. Pipeforce routes other inbound items, processing there not described | enneo vorn |
-| **Voicebot** | Own telephony or the customer's SIP trunk, OpenAI (USA) or Deepslate (EU) | Not found | enneo klar vorn |
-| **Agent workspace** | Ticketing agent workspace with skill-based routing | None of its own, agents stay in existing tools | je nach Fall |
-| **Integration with SAP IS-U and S/4HANA Utilities** | Built per customer | AI connector on SAP BTP, check in SAP before booking, clean core | cortility und Pipeforce vorn |
-| **Other target systems** | Interfaces as code, any format, RPA for legacy systems, API and MCP | Joint solution only for SAP. Pipeforce generally for CRM and ERP | enneo vorn |
-| **Traceability** | Solution plan, extracted values, preview without booking | Multi-stage check of the AI, documentation of data and rules | gleich |
-| **Hosting and language models** | Hetzner, German provider, on-premises possible. US models by default, EU models in the DPA | Germany or EU, operator not named, private cloud or on-premises. EU and US models, no training on customer data | gleich |
-| **Certifications** | None of our own, under audit. Hetzner ISO 27001 | None of their own found. Data centers ISO 27001, Bundesverband IT Mittelstand seal | gleich |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public | je nach Fall |
+| Area | Topic | enneo | cortility and Pipeforce | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Joint solution for email and letters. Pipeforce also classifies portal, form, chat and phone, processing there not described [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce routing](https://pipeforce.io/kundenanfragen-klassifizieren-und-routen-eingangsorchestrierung-fuer-energieversorger/) | enneo vorn |
+| Kanäle | **Voicebot** | Own telephony or the customer's SIP trunk, OpenAI (USA) or Deepslate (EU) | Not found [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce](https://pipeforce.io/) | enneo klar vorn |
+| KI & Automatisierung | **Email all the way to action** | One AI reads, identifies and authenticates the customer, books and replies, fully automated if desired | Identify, extract, check and execute in SAP, follow-up question if information is missing. Reply after booking not described [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Pipeforce utilities](https://pipeforce.io/automatisierte-verarbeitung-von-kundenanliegen-evu/) [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Meter photo as attachment, example from the trade press [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) | gleich |
+| KI & Automatisierung | **Traceability** | Solution plan, extracted values, preview without booking | Multi-stage check of the AI, documentation of data and rules [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) [Pipeforce decision](https://pipeforce.io/eingangsorchestrierung-vom-eingang-zur-automatischen-entscheidung/) | gleich |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing agent workspace with skill-based routing | None of its own, agents stay in existing tools [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Integration with SAP IS-U and S/4HANA Utilities** | Built per customer | AI connector on SAP BTP, check in SAP before booking, clean core [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) | cortility und Pipeforce vorn |
+| Arbeitsplatz & Anbindungen | **Other target systems** | Interfaces as code, any format, RPA for legacy systems, API and MCP | Joint solution built for SAP. Pipeforce generally for CRM and ERP [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce utilities](https://pipeforce.io/automatisierte-verarbeitung-von-kundenanliegen-evu/) | enneo vorn |
+| Daten & Sicherheit | **Hosting and language models** | Hetzner, German provider, on-premises possible. US models by default, EU models in the DPA | Germany or EU, operator not named, private cloud or on-premises. European and US models, no statement found on training with customer data [Pipeforce FAQ](https://pipeforce.io/) [Pipeforce company](https://pipeforce.io/unternehmen-2/) | gleich |
+| Daten & Sicherheit | **Certifications** | None of our own, under audit. Hetzner ISO 27001 | None of their own found. Data centers ISO 27001, Bundesverband IT Mittelstand seal [Pipeforce company](https://pipeforce.io/unternehmen-2/) | gleich |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public [Price request](https://pipeforce.io/preisanfrage/) | je nach Fall |
 
 ## Wo cortility und Pipeforce schwächer sind
 
@@ -91,6 +93,10 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 We lose against cortility and Pipeforce where a utility only has SAP IS-U, doesn't want a new agent workspace and wants to automate individual standard requests from email and letters. We can win where the customer needs multiple requests per email, a reply to the customer, additional channels with a voicebot and an agent workspace for the rest, or where not everything is in SAP. In the conversation, ask for customer names and live environments, there are none publicly.
 
+## Direktlinks
+
+- [Preise](https://pipeforce.io/preisanfrage/)
+
 ## Quellen
 
 - [stadt+werk: AI automates standard requests](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/)
@@ -111,3 +117,4 @@ We lose against cortility and Pipeforce where a utility only has SAP IS-U, doesn
 - [Pipeforce company](https://pipeforce.io/unternehmen-2/)
 - [Pipeforce price request](https://pipeforce.io/preisanfrage/)
 - [Pipeforce legal notice](https://pipeforce.io/impressum/)
+- [Munich Startup: Pipeforce in 7 questions](https://www.munich-startup.de/news/pipeforce-7-fragen)

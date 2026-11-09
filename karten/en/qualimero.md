@@ -1,6 +1,6 @@
 ---
 slug: "qualimero"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI employees for product advice and customer service in online retail"
 ---
 
@@ -8,7 +8,9 @@ kurz: "AI employees for product advice and customer service in online retail"
 
 | | | |
 |---|---|---|
-| Firma | **Düsseldorf, startup** | Qualimero Technologies GmbH, HRB 101630 Düsseldorf, managing directors Marco Andersen and Lasse Lung. Funded through the Go-to-Market Gutschein NRW. Founding year, headcount and investors not disclosed |
+| Firma | **Düsseldorf, startup** | Qualimero Technologies GmbH, HRB 101630 Düsseldorf, managing directors Marco Andersen and Lasse Lung. Funded through the Go-to-Market Gutschein NRW. Headcount and investors not disclosed |
+| Gegründet | **2023** | Registered in August 2023 as Lamar Ventures UG, renamed Qualimero Technologies GmbH in 2024. Lasse Lung is CEO and co-founder |
+| Ursprung | **AI advisor for shops** | The earliest public trace is an AI advisor for online shops, funded through the Go-to-Market Gutschein NRW. We found no other earlier product |
 | Preise | **not public** | No price list on the website, 14-day free trial, no minimum term, no setup costs. According to the OMR listing (as of May 2025) "from €750 per month" |
 | Hosting | **EU, operator unknown** | According to the website "Developed in Germany", development and data storage in the EU. Hosting provider, language models and subprocessors not named |
 | Referenzen | **Online retail, manufacturers** | Case studies include Neudorff, Pooldoktor, HELLA Lightstyle, Elektroheizung-Direkt, Pflegehelden. Logos of BSH, Hornbach, REWE, Ergo, Mercedes-Benz. No utilities found, no certification mentioned |
@@ -26,17 +28,17 @@ Qualimero comes from AI product advice for online shops and markets "AI employee
 - **One product with an agent workspace:** At enneo, the ticketing workspace, inbox, AI agents, knowledge and telephony are one system. At Qualimero, cases the AI can't solve land in a third-party helpdesk that the customer runs on top.
 - **Email AI through to the action:** enneo reads the email, identifies and verifies the customer, books in the target system and replies, also fully automatically. Qualimero's website mainly describes fast answers in chat. We found nothing on email handling with multiple requests and attachments. One user on OMR still listed the email integration as missing.
 - **Multiple requests in one email:** enneo creates one resolution plan for the whole ticket and handles all requests in a single pass with one reply.
-- **Ready-made workflows for utilities:** Meter reading, installment and bank details are ready-made specialist agents at enneo, with plausibility checks. Qualimero is pre-trained for gardening, crop protection, heating technology and other consumer goods that need explaining.
+- **Ready-made workflows for utilities:** Meter reading, installment and bank details are ready-made specialist agents at enneo, with plausibility checks. Qualimero targets gardening, crop protection, heating technology and other consumer goods that need explaining, and the AI is trained on each customer's own knowledge.
 - **Data protection documents public:** enneo's DPA, TOMs, subprocessors and SLA are publicly available. At Qualimero, the privacy policy refers to a separate DPA, subprocessors and hosting provider are not named, and the terms contain no SLA.
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Own agent workspace instead of a third-party helpdesk** | No second system to license and maintain, AI and agents work in the same ticket | "With us, the AI and your agents handle cases in the same system, with no extra helpdesk." |
-| **Email through to the booking in the target system** | Fewer agents needed for written correspondence, because cases are closed without handover | "Our AI reads the email, books in the ERP and replies, even with no agent involved." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer sends meter reading, IBAN and installment in one email, they get one reply from us." |
-| **Ready-made utility workflows** | Productive faster, only the ERP integration is built | "We bring meter reading, installment and bank details ready-made with plausibility checks." |
+| **One system for AI and team** | No second system to license and maintain, AI and agents work in the same ticket | "With us, the AI and your agents handle cases in the same system, with no extra helpdesk." |
+| **Emails through to the booking in the target system** | Cases are closed without handover, fewer agents needed for written correspondence | "Our AI reads the email, books in the ERP and replies, even with no agent involved." |
+| **All requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer sends meter reading, IBAN and installment in one email, they get one reply from us." |
+| **Ready-made specialist agents for utilities** | Productive faster, only the ERP integration is built | "We bring meter reading, installment and bank details ready-made with plausibility checks." |
 | **Data protection documents public** | Data protection review without follow-up requests, because everything is available upfront | "Your data protection team can review our DPA, TOMs, subprocessors and SLA today." |
 
 ## Wo Qualimero vorn liegt
@@ -49,20 +51,20 @@ Qualimero comes from AI product advice for online shops and markets "AI employee
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Qualimero | Einordnung |
-|---|---|---|---|
-| **Focus** | Customer service with AI handling through to the target system | Product advice, sales and customer service in online retail | je nach Fall |
-| **Agent workspace** | Own ticketing workspace with inbox and skill routing | Handover to Zendesk, HubSpot, Freshdesk, own workspace not described | enneo klar vorn |
-| **AI handling of emails** | Intake, verify customer, action in ERP, reply, also fully automatic | Email named as a channel, handling flow not described | enneo vorn |
-| **Multiple requests in one email** | One resolution plan, all requests in one pass | Not found | enneo vorn |
-| **Attachments and photos** | PDFs and photos, e.g. meter photo | Photos of damage, plants, products in chat | gleich |
-| **Actions in the target system** | Integrations as code, API, MCP, RPA for legacy systems | Live data from shop, CRM, ERP, triggers refunds and replacement deliveries | je nach Fall |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details with plausibility checks | Pre-trained for gardening, crop protection, heating technology | enneo klar vorn |
-| **Letter as a channel** | Own channel, same AI as email | Not found | enneo vorn |
-| **Product advice and upselling** | Not a focus | Core of the product, with A/B test to measure revenue | Qualimero klar vorn |
-| **Shop integrations** | API, MCP, code tools per customer | Shopify, Shopware, Zendesk, HubSpot, Zapier, Make ready-made | Qualimero vorn |
-| **Hosting and data protection documents** | Hetzner in Germany, DPA, TOMs, subprocessors, SLA public | EU, operator and subprocessors not named, DPA separate, no SLA in the terms | enneo vorn |
-| **References in energy and insurance** | Focus on utilities, also insurers | Energy not found, Ergo only as a logo without a case study | enneo klar vorn |
+| Area | Topic | enneo | Qualimero | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Letter as a channel** | Own channel, same AI as email | Not found, the named channels are web chat, email, phone, WhatsApp and social media [Homepage](https://qualimero.com) | enneo vorn |
+| KI & Automatisierung | **AI handling of emails** | Intake, verify customer, action in ERP, reply, also fully automatic | Email named as a channel, handling flow not described [Customer service](https://qualimero.com/kundenservice-per-ki) [OMR](https://omr.com/de/reviews/product/qualimero) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, all requests in one pass | Not found [Customer service](https://qualimero.com/kundenservice-per-ki) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos** | PDFs and photos, e.g. meter photo | Photos of damage, plants, products in chat [Customer service](https://qualimero.com/kundenservice-per-ki) [Product advice](https://qualimero.com/produktberatung-per-ki) | gleich |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details with plausibility checks | Geared to gardening, crop protection, heating technology, the AI is trained on the customer's own knowledge [Homepage](https://qualimero.com) [Product advice](https://qualimero.com/produktberatung-per-ki) | enneo klar vorn |
+| KI & Automatisierung | **Product advice and upselling** | Not a focus | Core of the product, with A/B test to measure revenue [Product advice](https://qualimero.com/produktberatung-per-ki) | Qualimero klar vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Own ticketing workspace with inbox and skill routing | Handover to Zendesk, HubSpot, Freshdesk, own workspace not described [Customer service](https://qualimero.com/kundenservice-per-ki) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Actions in the target system** | Integrations as code, API, MCP, RPA for legacy systems | Live data from shop, CRM, ERP, refunds and replacement deliveries as outcomes of complaints [Customer service](https://qualimero.com/kundenservice-per-ki) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Shop integrations** | API, MCP, code tools per customer | Shopify, Shopware, Zendesk, HubSpot, Zapier, Make ready-made [Product advice](https://qualimero.com/produktberatung-per-ki) | Qualimero vorn |
+| Daten & Sicherheit | **Hosting and data protection documents** | Hetzner in Germany, DPA, TOMs, subprocessors, SLA public | EU, operator and subprocessors not named, DPA separate, no SLA in the terms [Homepage](https://qualimero.com) [Privacy](https://qualimero.com/datenschutzrichtlinien) [Terms](https://qualimero.com/agbs) | enneo vorn |
+| Firma & Referenzen | **Focus** | Customer service with AI handling through to the target system | Product advice, sales and customer service in online retail [Homepage](https://qualimero.com) | je nach Fall |
+| Firma & Referenzen | **References in energy and insurance** | Focus on utilities, also insurers | Energy not found, Ergo only as a logo without a case study [Success stories](https://qualimero.com/erfolgsstories) | enneo klar vorn |
 
 ## Wo Qualimero schwächer ist
 
@@ -101,5 +103,7 @@ Against Qualimero, we win where lots of written correspondence needs to be handl
 - [Privacy policy](https://qualimero.com/datenschutzrichtlinien)
 - [Terms and conditions](https://qualimero.com/agbs)
 - [Go-to-Market Gutschein NRW](https://qualimero.com/news/qualimero-go-to-market-gutschein-nrw)
+- [Author page Lasse Lung](https://qualimero.com/en/author/lasse-lung)
+- [Commercial register extract North Data](https://www.northdata.de/Qualimero+Technologies+GmbH,+D%C3%BCsseldorf/HRB+101630)
 - [Blog](https://qualimero.com/blog)
 - [OMR Reviews](https://omr.com/de/reviews/product/qualimero)

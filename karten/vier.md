@@ -4,7 +4,7 @@ slug: "vier"
 fokus: "Contact Center"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-04"
+stand: "2026-11-09"
 geprueft_von: "Aleksa Spalevic"
 website: "https://www.vier.ai"
 kurz: "Contact-Center-Plattform aus Hannover, KI als Zusatzmodule"
@@ -16,8 +16,10 @@ pdf_partner: "enneo-vs-vier-vertrieb.pdf"
 | | | |
 |---|---|---|
 | Firma | **Hannover, 200+ MA** | VIER GmbH, 2021 aus 4Com, Lindenbaum, parlamind, Precire, voiXen, 1.000+ Kunden DACH |
+| Gegründet | **2021** | Fusion von 4Com, Lindenbaum, parlamind, Precire und voiXen. Gründer und Gesellschafter ist Olav Vier Strawe |
+| Ursprung | **Internet-Telefonie, 30+ Jahre** | Laut VIER entstanden aus den Anfängen der Internet-Telefonie, über 30 Jahre Erfahrung. 2022 kam Cognesys (heute Semantic Intelligence) dazu, AI Studio seit November 2025 |
 | Lizenz | **nicht öffentlich** | engage-Pakete Business / Professional / Enterprise, KI laut Messe über „AI Units“ |
-| Hosting | **Frankfurt + Schweiz** | Rechenzentrumsbetreiber nicht genannt, Sprachdienste teils US-Anbieter |
+| Hosting | **Frankfurt + Schweiz** | Laut VIER eigene Hardware in deutschen Rechenzentren, Betreiber der Rechenzentren nicht genannt. Laut „Über uns“ auch Datencenter in den USA, Sprachdienste teils US-Anbieter |
 | Zertifikat | **ISO 27001:2022** | SBcert DEDE301500566, gültig bis 22.11.2029 |
 
 ## Erster Satz
@@ -37,14 +39,14 @@ VIER ist zuerst ein Contact-Center-Anbieter: Telefonanlage, Verteilung der Anfra
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI aus einem Guss** | Kein Partnerprodukt und kein zweiter Vertrag für die Mail-Automatisierung, eine Ansprechstelle | „Bei uns liest, bucht und antwortet dieselbe KI, ohne Partnerprodukt dazwischen.“ |
+| **E-Mail-KI aus einer Hand** | Mail-Automatisierung mit einem Vertrag und einer Ansprechstelle | „Bei uns liest, bucht und antwortet dieselbe KI, ohne Partnerprodukt dazwischen.“ |
 | **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Ein Produkt statt fünf** | Keine Zusatzmodule für einzelne Funktionen lizenzieren, weniger Abstimmung zwischen Modulen und Partnern | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen werden automatisch erfasst, niemand tippt ab | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Ein System für KI und Team** | Ein Vertrag für Arbeitsplatz, KI und Telefonie, weniger Abstimmung im Projekt | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System mit einem Vertrag.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo VIER vorn liegt
 
@@ -56,24 +58,24 @@ VIER ist zuerst ein Contact-Center-Anbieter: Telefonanlage, Verteilung der Anfra
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | VIER | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Verteilen und Klassifizieren selbst, automatische Antworten über ältere Klassifizierung oder Partnerprodukte | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert, Briefe und Fax werden fürs Verteilen digitalisiert | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Zählerstand per Telefon, Chat, WhatsApp als Self-Service genannt, Anbindung an Abrechnungssysteme nicht dokumentiert | enneo vorn |
-| **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Fünf getrennte Produkte, engage und Copilot mit eigenen Lizenzstufen, dazu Partner | enneo vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | AI Studio seit 11/2025: Low-Code, Simulation, Bewertung per KI | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | VIER Copilot: Transkript, Empfehlungen, Fallprotokoll. Öffentlich belegt bei EnBW (700 Agenten, 45–60 s kürzer) | VIER vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Frankfurt und Schweiz, Betreiber nicht genannt, On-Premise über authensis | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV, Subunternehmer und SLA nicht öffentlich | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper | Über 60 Modelle, Datenschutzniveau je Mandant, Pseudonymisierung | VIER vorn |
-| **Sprachdienste am Telefon** | Voicebot wählbar: OpenAI (USA) oder Deepslate (EU, noch nicht im AVV). Transkription nach Übergabe an Mitarbeitende über US-Anbieter | Viele Anbieter wählbar, eigene Spracherkennung, EU-Optionen inkl. Deepslate und KugelAudio | VIER vorn |
-| **Telefonanlage und Verteilung** | Eigene Telefonie, SIP-Leitung des Kunden | Große ACD, Dialer, Rückruf, Aufzeichnung, Genesys- und Teams-Anbindung | VIER klar vorn |
-| **Personalplanung und Qualität** | Kein WFM, Scorecards | Interaction Analytics, Scorecards, Personaleinsatzplanung bei EnBW angebunden | VIER klar vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001:2022 bis 2029, Trusted Cloud, Zero Outage | VIER klar vorn |
-| **Konnektoren und Partner** | API, MCP, Code-Werkzeuge je Kunde | SAP, Salesforce, Dynamics, HubSpot, Teams, 28 Partner | VIER vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, KI über „AI Units“, Module einzeln | je nach Fall |
+| Bereich | Thema | enneo | VIER | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Telefonanlage und Verteilung** | Eigene Telefonie, SIP-Leitung des Kunden | Große ACD bis 9.999 Mitarbeitende, Dialer, Rückruf, Aufzeichnung, Teams-Anbindung [ACD](https://www.vier.ai/communication/vier-engage/acd/) [VIER engage](https://www.vier.ai/communication/vier-engage/) [Integrationen](https://www.vier.ai/cloud-contact-center/integrationen/) | VIER klar vorn |
+| Kanäle | **Sprachdienste am Telefon** | Voicebot wählbar: OpenAI (USA) oder Deepslate (EU, noch nicht im AVV). Transkription nach Übergabe an Mitarbeitende über US-Anbieter | Viele Anbieter wählbar, eigene Spracherkennung, EU-Optionen inkl. Deepslate und KugelAudio [Sprachdienste](https://cognitivevoice.io/docs/available_STT_Engines_and_TTS_Voices.html) [Datensouveränität](https://www.vier.ai/unternehmen/sicherheit/datensouveraenitaet/) | VIER vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Verteilen und Klassifizieren selbst, automatische Antworten über ältere Klassifizierung oder Partnerprodukte [E-Mail-Bearbeitung](https://www.vier.ai/communication/vier-engage/e-mail-bearbeitung/) [Semantic Intelligence](https://www.vier.ai/intelligence/vier-semantic-intelligence/) [Partner Sematell](https://www.vier.ai/unternehmen/news/partnerschaft-vier-sematell/) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [E-Mail-Bearbeitung](https://www.vier.ai/communication/vier-engage/e-mail-bearbeitung/) [Semantic Intelligence](https://www.vier.ai/intelligence/vier-semantic-intelligence/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert, Briefe und Fax werden fürs Verteilen digitalisiert [E-Mail-Bearbeitung](https://www.vier.ai/communication/vier-engage/e-mail-bearbeitung/) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Zählerstand per Telefon, Chat, WhatsApp als Self-Service genannt, Anbindung an Abrechnungssysteme nicht dokumentiert [Energieversorger](https://www.vier.ai/communication/branchen/energieversorger/) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | AI Studio seit 11/2025: Low-Code, Simulation einzelner Schritte oder ganzer Agenten [AI Studio](https://www.vier.ai/intelligence/vier-ai-studio/) [Start AI Studio](https://www.vier.ai/unternehmen/news/ai-studio/) | gleich |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | VIER Copilot: Transkript, Empfehlungen, Fallprotokoll. Öffentlich belegt bei EnBW (700 Agenten, 45 bis 60 s kürzer) [Copilot](https://www.vier.ai/communication/vier-copilot/) [EnBW](https://www.vier.ai/communication/case-studies/enbw/) | VIER vorn |
+| Arbeitsplatz & Anbindungen | **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Fünf getrennte Produkte, engage und Copilot mit eigenen Lizenzstufen, dazu Partner [Produktbroschüre](https://res.cloudinary.com/dfcfhdy9c/image/upload/v1771423267/VIER_Produktportfolio_DE_vfwg6o.pdf) [VIER engage](https://www.vier.ai/communication/vier-engage/) [Copilot](https://www.vier.ai/communication/vier-copilot/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Personalplanung und Qualität** | Kein WFM, Scorecards | Interaction Analytics, Scorecards, Personaleinsatzplanung bei EnBW angebunden [Interaction Analytics](https://www.vier.ai/communication/vier-interaction-analytics/) [Über VIER](https://www.vier.ai/unternehmen/) [EnBW](https://www.vier.ai/communication/case-studies/enbw/) | VIER klar vorn |
+| Arbeitsplatz & Anbindungen | **Konnektoren und Partner** | API, MCP, Code-Werkzeuge je Kunde | SAP, Salesforce, Dynamics, HubSpot, Teams, 28 Partner [VIER engage](https://www.vier.ai/communication/vier-engage/) [Über VIER](https://www.vier.ai/unternehmen/) | VIER vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Frankfurt und Schweiz auf eigener Hardware, Betreiber nicht genannt, laut „Über uns“ auch USA. On-Premise über authensis [Sicherheit](https://www.vier.ai/unternehmen/sicherheit/) [Datensouveränität](https://www.vier.ai/unternehmen/sicherheit/datensouveraenitaet/) [Über VIER](https://www.vier.ai/unternehmen/) [Übernahme authensis](https://www.vier.ai/unternehmen/news/vier-uebernimmt-authensis-ag/) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV, Subunternehmer und SLA nicht öffentlich [Sicherheit](https://www.vier.ai/unternehmen/sicherheit/) | enneo vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV: Mistral, Nebius, Media Trooper | Über 60 Modelle, Datenschutzniveau je Mandant, Pseudonymisierung [AI Gateway](https://www.vier.ai/intelligence/vier-ai-gateway/) [Datensouveränität](https://www.vier.ai/unternehmen/sicherheit/datensouveraenitaet/) | VIER vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001:2022 bis 2029, Trusted Cloud, Zero Outage [Zertifizierungen](https://www.vier.ai/unternehmen/zertifizierungen/) | VIER klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, KI über „AI Units“, Module einzeln [VIER engage](https://www.vier.ai/communication/vier-engage/) [Nutzerbewertungen](https://omr.com/de/reviews/product/vier) | je nach Fall |
 
 ## Was hinter der E-Mail-KI von VIER steckt
 
@@ -94,7 +96,7 @@ Geprüft am 04.11.2026 auf vier.ai, in der Produktbroschüre (Stand Februar 2026
 ## Einwände
 
 - **„VIER ist bei uns schon die Telefonanlage.“** Gut so, Telefonanlage und Verteilung kann VIER sehr gut. Für Mails, die eine KI selbst bis ins Zielsystem erledigen soll, ist enneo daneben oft das bessere Gespräch als ein Komplettwechsel.
-- **„VIER hat mit dem AI Studio jetzt auch KI-Agenten.“** Stimmt, seit November 2025, mit Simulation und Bewertung. Öffentlich belegt ist bisher ein Voice-Agent, eine E-Mail-Referenz haben wir nicht gefunden. Fragen Sie nach einer Mail-Referenz mit Buchung im Zielsystem.
+- **„VIER hat mit dem AI Studio jetzt auch KI-Agenten.“** Stimmt, seit November 2025, mit Low-Code-Editor und Simulation. Öffentlich belegt ist bisher ein Voice-Agent, eine E-Mail-Referenz haben wir nicht gefunden. Fragen Sie nach einer Mail-Referenz mit Buchung im Zielsystem.
 - **„VIER ist deutsch und ISO-zertifiziert, ihr nicht.“** Das Zertifikat ist ein echter Vorsprung, bei uns sind ISO 27001 und SOC 2 in Prüfung, Hetzner ist ISO 27001 zertifiziert. Dafür sind unsere AVV, TOM, Subunternehmer und SLA öffentlich, bei VIER sind sie nicht einsehbar.
 
 ## Fragen an den Kunden
@@ -110,6 +112,12 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 ## Fazit
 
 Gegen VIER gewinnen wir nicht über die Telefonanlage, die Wahl der Sprachdienste oder Zertifikate. Gewinnen können wir, wo viel Schriftverkehr automatisch erledigt werden soll: mehrere Anliegen, Anhänge, Buchung im Zielsystem, alles in einem Produkt. Wo VIER schon als Telefonanlage steht, ist enneo für E-Mail und KI daneben oft das bessere Gespräch als ein Komplettwechsel.
+
+## Direktlinks
+
+- [Doku](https://cognitivevoice.io/docs/)
+- [API](https://cognitivevoice.io/docs/APIs-index.html)
+- [Release Notes](https://cognitivevoice.io/docs/release-notes.html)
 
 ## Quellen
 
@@ -131,4 +139,10 @@ Gegen VIER gewinnen wir nicht über die Telefonanlage, die Wahl der Sprachdienst
 - [Nutzerbewertungen](https://omr.com/de/reviews/product/vier)
 - [Energieversorger](https://www.vier.ai/communication/branchen/energieversorger/)
 - [EnBW](https://www.vier.ai/communication/case-studies/enbw/)
+- [Start AI Studio](https://www.vier.ai/unternehmen/news/ai-studio/)
+- [ACD](https://www.vier.ai/communication/vier-engage/acd/)
+- [Integrationen](https://www.vier.ai/cloud-contact-center/integrationen/)
+- [Interaction Analytics](https://www.vier.ai/communication/vier-interaction-analytics/)
+- [Doku Voice Gateway](https://cognitivevoice.io/docs/)
+- [Release Notes Voice Gateway](https://cognitivevoice.io/docs/release-notes.html)
 - [enneo Lösungsplan](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)

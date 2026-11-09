@@ -4,7 +4,7 @@ slug: "sogedes"
 fokus: "Contact Center"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-06"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.sogedes.com"
 kurz: "Contact-Center-Integrator aus Mannheim mit eigenen KI-Modulen und Partnerplattformen"
@@ -15,6 +15,8 @@ kurz: "Contact-Center-Integrator aus Mannheim mit eigenen KI-Modulen und Partner
 | | | |
 |---|---|---|
 | Firma | **Mannheim, rund 50 MA** | SOGEDES GmbH (HRB 9586, GF Berndt Walz), dazu sogedes.digital AG in Herisau (Schweiz, GF Martin Wild). Laut Website über 20 Jahre Contact Center |
+| Gegründet | **2003** | SOGEDES GmbH laut Registerauskunft seit 2003 im Handelsregister Mannheim (HRB 9586), Gründer der GmbH nicht genannt. Mitgründer der Schweizer sogedes.ai ist Martin Wild |
+| Ursprung | **Contact Center, dann KI** | Laut Website über 20 Jahre Contact-Center-Praxis und über 10 Jahre KI und Automatisierung, KI also seit etwa 2015 |
 | Preise | **nicht öffentlich** | Nutzungsbasiert („Pay-as-You-Use“), CC4Teams nach gleichzeitigen Nutzern in den Stufen Agent Plus und Agent Pro |
 | Hosting | **Deutschland, Betreiber offen** | SOGEDES.X mit eigenen Servern je Kunde in Deutschland, Spracherkennung und Sprachausgabe über Microsoft Azure in Deutschland und Europa. Workflow-Automatisierung auch beim Kunden oder in DACH-Rechenzentren |
 | Zertifikat | **ISO 27001 laut Blog** | Zertifizierer, Datum und Umfang nicht genannt. CC4Teams seit August 2022 von Microsoft als Contact Center für Teams zertifiziert |
@@ -37,13 +39,13 @@ SOGEDES ist Integrator und Hersteller zugleich: eigene Contact-Center-Software (
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, weil Standardfälle ohne Freigabeschritt erledigt werden können | „Bei uns liest, bucht und antwortet dieselbe KI, auf Wunsch ganz ohne Handgriff.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Ein Produkt statt Module** | Kein Integrationsprojekt über mehrere Hersteller, ein Vertrag, eine Ansprechstelle | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
+| **E-Mail-KI bis zur Buchung** | Standardfälle laufen vollautomatisch durch, es braucht weniger Mitarbeitende für den Schriftverkehr | „Bei uns liest, bucht und antwortet dieselbe KI, auf Wunsch ganz ohne Handgriff.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Der Kunde bekommt eine vollständige Antwort, es entstehen weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Ein Produkt für Arbeitsplatz, KI und Telefonie** | Ein Vertrag und eine Ansprechstelle, alles aus einer Hand | „Arbeitsplatz, KI-Agenten, Wissen und Telefonie sind bei uns ein System.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten sind schnell produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Datenschutzunterlagen öffentlich** | Die Datenschutzprüfung läuft ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
 ## Wo SOGEDES vorn liegt
 
@@ -55,20 +57,20 @@ SOGEDES ist Integrator und Hersteller zugleich: eigene Contact-Center-Software (
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | SOGEDES | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | TRAIL: klassifizieren, verteilen, Autoresponder, Antwortvorschläge, Folgeaktionen wie Adressänderung im CRM mit Freigaben | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Extraktion aus Anhängen genannt (sogedes.ai), Fotos nicht genannt | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Anbindung an SAP IS-U und Wilken genannt, Störungsmeldung, Abrechnungsassistenz, Zählerstand und Abschlag nicht genannt | enneo vorn |
-| **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Drei eigene CC-Produkte, Content Guru storm, KI-Module einzeln, Workflows über n8n | enneo vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | ai.fctry: Gesprächsflüsse, Versionen, Freigaben, Simulation, Bewertung durch mehrere Modelle | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | STAR: Transkript, nächste Schritte, Wissenssuche, Notizen, Live-Übersetzung über BRIDGE | SOGEDES vorn |
-| **Qualitätssicherung** | Scorecards, manuell oder automatisch | ECHO: Gesprächsanalyse, Stimmung, Kündigungsrisiko, Scorecards | SOGEDES vorn |
-| **Telefonanlage und Contact Center** | Eigene Telefonie, SIP-Leitung des Kunden | ACD, IVR, Dialer, Aufzeichnung, Teams und Zoom, Personalplanung über Content Guru | SOGEDES klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Deutschland, Betreiber nicht genannt, Sprachdienste über Microsoft Azure, On-Premise möglich | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht gefunden, Sprachmodelle nicht genannt | enneo vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 laut Blog ohne Details, Microsoft-Zertifizierung für CC4Teams | SOGEDES vorn |
+| Bereich | Thema | enneo | SOGEDES | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Telefonanlage und Contact Center** | Eigene Telefonie, SIP-Leitung des Kunden | ACD, IVR, Dialer, Aufzeichnung, Teams und Zoom, Personalplanung über Content Guru [SOGEDES.X](https://www.sogedes.com/callcenter-software-softwareloesung/) [CC4Teams](https://www.sogedes.com/cc4teams/) [Content Guru](https://www.sogedes.com/content-guru-cloud-contact-center/) | SOGEDES klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | TRAIL: klassifizieren, verteilen, Autoresponder, Antwortvorschläge, Folgeaktionen wie Adressänderung im CRM mit Freigaben [TRAIL](https://www.sogedes.com/intelligente-e-mail-workflows-mit-ki-sogedes-trail/) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [TRAIL](https://www.sogedes.com/intelligente-e-mail-workflows-mit-ki-sogedes-trail/) [E-Mail Automation](https://www.sogedes.ai/portfolio-item/e-mail-automation/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Extraktion aus Anhängen genannt (sogedes.ai), Fotos nicht genannt [E-Mail Automation](https://www.sogedes.ai/portfolio-item/e-mail-automation/) | je nach Fall |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Anbindung an SAP IS-U und Wilken genannt, Störungsmeldung, Abrechnungsassistenz, Zählerstand und Abschlag nicht genannt [Branchen](https://www.sogedes.com/kundenservice-loesungen-fuer-alle-branchen/) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | ai.fctry: Gesprächsflüsse, Versionen, Freigaben, Simulation, Bewertung durch mehrere Modelle [ai.fctry](https://resources.sogedes.com/warum-die-ai.fctry-die-nächste-evolutionsstufe-für-sichere-conversational-ai-ist) | gleich |
+| Arbeitsplatz & Anbindungen | **Ein Produkt** | Arbeitsplatz, KI, Wissen, Telefonie in einem System | Drei eigene CC-Produkte, Content Guru storm, KI-Module einzeln, Workflows über n8n [AI Agents](https://www.sogedes.com/ai-agents-fuer-ki-gestuetzte-kundeninteraktion/) [Workflows](https://www.sogedes.com/ai-workflow-automation-fuer-kundenservice/) [Content Guru](https://www.sogedes.com/content-guru-cloud-contact-center/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | STAR: Transkript, nächste Schritte, Wissenssuche, Notizen, Live-Übersetzung über BRIDGE [STAR](https://www.sogedes.com/star-bietet-hochmoderne-ki-unterstuetzung-fuer-service-agenten/) | SOGEDES vorn |
+| Arbeitsplatz & Anbindungen | **Qualitätssicherung** | Scorecards, manuell oder automatisch | ECHO: Gesprächsanalyse, Stimmung, Kündigungsrisiko, Scorecards [ECHO](https://www.sogedes.com/echo-ki-qualitaetsmanagement/) | SOGEDES vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Deutschland, Betreiber nicht genannt, Sprachdienste über Microsoft Azure, On-Premise möglich [SOGEDES.X](https://www.sogedes.com/callcenter-software-softwareloesung/) [Workflows](https://www.sogedes.com/ai-workflow-automation-fuer-kundenservice/) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht gefunden, Sprachmodelle nicht genannt [Datenschutzerklärung](https://www.sogedes.com/datenschutzerklaerung/) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001 laut Blog ohne Details, Microsoft-Zertifizierung für CC4Teams [ISO 27001](https://resources.sogedes.com/trust-als-schl%C3%BCssel-zum-erfolg-iso-27001-und-made-in-germany) [CC4Teams](https://www.sogedes.com/cc4teams/) | SOGEDES vorn |
 
 ## Wo SOGEDES schwächer ist
 
@@ -108,10 +110,10 @@ Gegen SOGEDES gewinnen wir nicht über Telefonanlage, Teams-Anbindung, Gespräch
 - [STAR Agent Assist](https://www.sogedes.com/star-bietet-hochmoderne-ki-unterstuetzung-fuer-service-agenten/)
 - [ECHO Qualitätsmanagement](https://www.sogedes.com/echo-ki-qualitaetsmanagement/)
 - [AI Agents Übersicht](https://www.sogedes.com/ai-agents-fuer-ki-gestuetzte-kundeninteraktion/)
-- [AI Workflow Automation](https://www.sogedes.com/ai-workflow-automation-fuer-kundenservice/)
+- [Workflows](https://www.sogedes.com/ai-workflow-automation-fuer-kundenservice/)
 - [Call Center Software SOGEDES.X](https://www.sogedes.com/callcenter-software-softwareloesung/)
 - [SOGEDES.ONE](https://www.sogedes.com/one-contact/)
-- [CC4Teams](http://sogedes.com/contact-center-for-microsoft-platforms/cc4teams/)
+- [CC4Teams](https://www.sogedes.com/cc4teams/)
 - [Content Guru Cloud Contact Center](https://www.sogedes.com/content-guru-cloud-contact-center/)
 - [Partnerschaft Content Guru](https://resources.sogedes.com/content-guru-sogedes)
 - [ai.fctry Blogbeitrag](https://resources.sogedes.com/warum-die-ai.fctry-die-nächste-evolutionsstufe-für-sichere-conversational-ai-ist)
@@ -121,3 +123,4 @@ Gegen SOGEDES gewinnen wir nicht über Telefonanlage, Teams-Anbindung, Gespräch
 - [Fallstudie Groupama](https://resources.sogedes.com/de-de/speech-analytics-use-case)
 - [Datenschutzerklärung](https://www.sogedes.com/datenschutzerklaerung/)
 - [Blog](https://resources.sogedes.com/)
+- [Registerauskunft Implisense](https://app.implisense.com/en/companies/sogedes-gmbh-mannheim--DETRHIJ0F967)

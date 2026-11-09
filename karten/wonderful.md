@@ -4,7 +4,7 @@ slug: "wonderful"
 fokus: "KI-Agenten"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://wonderful.ai"
 kurz: "KI-Agenten für Großkonzerne, gebaut von Teams vor Ort in 35 Märkten"
@@ -15,6 +15,8 @@ kurz: "KI-Agenten für Großkonzerne, gebaut von Teams vor Ort in 35 Märkten"
 | | | |
 |---|---|---|
 | Firma | **Israel/Amsterdam, 650 MA** | Gegründet 2025 von Bar Winkler (CEO) und Roey Lalazar (CTO). Vertragspartner laut Datenschutzerklärung Wonderful Systems Ltd. (Israel), Website von Wonderful AI B.V. Series C 09/2026: 550 Mio. USD bei 5 Mrd. USD Bewertung, Lead Insight Partners, dabei Salesforce. Laut Karriereseite Büros u. a. in München, Wien und Zürich |
+| Gegründet | **2025** | Gegründet von Bar Winkler (CEO) und Roey Lalazar (CTO) |
+| Ursprung | **von Anfang an KI** | Gestartet als Plattform für KI-Agenten im Kundenservice, heute als „AI OS“ für Konzerne beschrieben, mit eigenen Teams vor Ort |
 | Preise | **nicht öffentlich** | Keine Preisliste. Im AWS Marketplace steht ein Enterprise-Vertrag über 12 Monate mit 2,5 Mio. USD, mit dem Hinweis „Pricing is not fixed or published“ und Einzelangebot |
 | Hosting | **AWS, Google, Azure** | Laut Subunternehmerliste Regionen USA, EU und Indien, dazu Alibaba Cloud (China, Singapur). Betrieb auch in der Cloud des Kunden, Single Tenant oder beim Kunden ohne Internetverbindung |
 | Zertifikat | **ISO 27001, SOC 2, C5** | Laut Trust Center dazu ISO 27017, 27018, 22301, 42001, 27799, PCI DSS 4.0.1 und CSA STAR. SOC 2, CSA STAR und BSI C5 in einem gemeinsamen Bericht 2026, nur auf Anfrage |
@@ -37,13 +39,13 @@ Wonderful ist das am schnellsten gewachsene KI-Agenten-Unternehmen im europäisc
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Arbeitsplatz im Produkt** | Kein zweites System lizenzieren und pflegen, KI und Team arbeiten am selben Vorgang | „Bei uns arbeiten KI und Team im selben Arbeitsplatz, mit Postfach, Telefonie und Skill-Routing.“ |
-| **Fertige Versorger-Abläufe** | Schneller produktiv, weniger Bauaufwand, weil Zählerstand, Abschlag und Bankdaten nicht neu entstehen | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, gebaut wird nur die ERP-Anbindung.“ |
-| **E-Mail mit mehreren Anliegen** | Weniger Mitarbeitende für Schriftverkehr, eine Antwort statt Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, erledigt unsere KI alles in einem Durchgang.“ |
-| **Speicherung in Deutschland** | Datenschutzprüfung einfacher, weniger Drittlandsübermittlungen zu bewerten | „Wir speichern bei Hetzner in Deutschland, ohne Auswahl unter Regionen in USA, EU und Indien.“ |
-| **Paketpreise statt Konzernvertrag** | Planbare Kosten auch bei mittlerem Volumen, kein großer Jahresvertrag vorab | „Bei uns zahlen Sie Pakete je Ticket und Sprachminute, passend zu Ihrem Volumen.“ |
+| **Ein System für KI und Team** | KI und Team arbeiten am selben Vorgang, ein System statt zwei lizenzieren und pflegen | „Bei uns arbeiten KI und Team im selben Arbeitsplatz, mit Postfach, Telefonie und Skill-Routing.“ |
+| **Fertige Versorger-Abläufe** | Schneller produktiv mit weniger Bauaufwand, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit, gebaut wird nur die ERP-Anbindung.“ |
+| **Mehrere Anliegen in einer Mail** | Eine Antwort statt Folgetickets, weniger Mitarbeitende für Schriftverkehr | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, erledigt unsere KI alles in einem Durchgang.“ |
+| **Speicherung in Deutschland** | Datenschutzprüfung einfacher, der Speicherort steht von Anfang an fest | „Wir speichern bei Hetzner in Deutschland, ohne Auswahl unter Regionen in USA, EU und Indien.“ |
+| **Paketpreise je Ticket und Sprachminute** | Planbare Kosten passend zum eigenen Volumen, auch im Mittelstand | „Bei uns zahlen Sie Pakete je Ticket und Sprachminute, passend zu Ihrem Volumen.“ |
 
 ## Wo Wonderful vorn liegt
 
@@ -55,20 +57,20 @@ Wonderful ist das am schnellsten gewachsene KI-Agenten-Unternehmen im europäisc
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Wonderful | Einordnung |
-|---|---|---|---|
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Telefonie und Skill-Routing in einem System | Nicht gefunden, Übergabe an Genesys, Amazon Connect oder vorhandene Systeme | enneo klar vorn |
-| **KI-Bearbeitung von E-Mails** | Volle Strecke bis zur Buchung, auch vollautomatisch | E-Mail als Kanal genannt, öffentliche Referenzen nur Telefon und WhatsApp | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Dokumente** | PDF und Fotos, z. B. Zählerfoto, Brief als eigener Kanal | „Documents“ als Kanal genannt, OCR-Dienst Reducto in der Subunternehmerliste | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Team vor Ort baut je Kunde, Versorger-Seite nennt Abrechnung, Netz, Störungen | enneo vorn |
-| **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | AWS, Google, Azure in USA, EU, Indien. Cloud des Kunden oder beim Kunden möglich | je nach Fall |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV, SLA, Rahmenvertrag und Subunternehmer öffentlich, Prüfberichte auf Anfrage | gleich |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5, ISO 42001, PCI DSS | Wonderful klar vorn |
-| **Voicebot und Sprachdienste** | OpenAI (USA) oder Deepslate (EU), eigene Telefonie oder SIP | Viele Sprachdienste, Genesys-Anbindung, belegte Telefon-Referenzen | Wonderful vorn |
-| **Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Agent Builder, Versionen, A/B-Tests, Evals, Bau meist durch Wonderful-Team | gleich |
-| **Altsysteme ohne Schnittstelle** | RPA-Bot mit Neo | Seit 06/2026 Bedienung von Altsystemen angekündigt | gleich |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, AWS-Liste 2,5 Mio. USD für 12 Monate | je nach Fall |
+| Bereich | Thema | enneo | Wonderful | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot und Sprachdienste** | OpenAI (USA) oder Deepslate (EU), eigene Telefonie oder SIP | Viele Sprachdienste, Genesys-Anbindung, belegte Telefon-Referenzen [Subunternehmer](https://trust.wonderful.ai/subprocessors) [Referenz OTE](https://www.wonderful.ai/blog-articles/ote) [Referenz PPC Energie](https://www.wonderful.ai/blog-articles/ppc-energie) | Wonderful vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Volle Strecke bis zur Buchung, auch vollautomatisch | E-Mail als Kanal genannt, öffentliche Referenzen nur Telefon und WhatsApp [Wonderful Agents](https://www.wonderful.ai/agents) [Presse](https://www.wonderful.ai/press) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang | Nicht dokumentiert [Wonderful Agents](https://www.wonderful.ai/agents) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Dokumente** | PDF und Fotos, z. B. Zählerfoto, Brief als eigener Kanal | „Documents“ als Kanal genannt, OCR-Dienst Reducto in der Subunternehmerliste [Wonderful Agents](https://www.wonderful.ai/agents) [Subunternehmer](https://trust.wonderful.ai/subprocessors) | je nach Fall |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Team vor Ort baut je Kunde, Versorger-Seite nennt Abrechnung, Netz, Störungen [Branche Versorger](https://www.wonderful.ai/industries/utilities) [Referenz PPC Energie](https://www.wonderful.ai/blog-articles/ppc-energie) | enneo vorn |
+| KI & Automatisierung | **Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Agent Builder, Versionen, A/B-Tests, Evals, Bau meist durch Wonderful-Team [Wonderful Agents](https://www.wonderful.ai/agents) [Series C](https://www.wonderful.ai/blog-articles/wonderful-raises-550m-series-c) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Telefonie und Skill-Routing in einem System | Nicht gefunden, Übergabe an Genesys, Amazon Connect oder vorhandene Systeme [Wonderful Systems](https://www.wonderful.ai/systems) [Referenz OTE](https://www.wonderful.ai/blog-articles/ote) [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Altsysteme ohne Schnittstelle** | RPA-Bot mit Neo | Seit 06/2026 Bedienung von Altsystemen angekündigt [Altsysteme bedienen](https://www.wonderful.ai/blog-articles/computer-use) | gleich |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner in Deutschland, beim Kunden möglich | AWS, Google, Azure in USA, EU, Indien. Cloud des Kunden oder beim Kunden möglich [Subunternehmer](https://trust.wonderful.ai/subprocessors) [Deployment](https://www.wonderful.ai/deployment) | je nach Fall |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | AVV, SLA, Rahmenvertrag und Subunternehmer öffentlich, Prüfberichte auf Anfrage [Rechtliches](https://www.wonderful.ai/legal) [Subunternehmer](https://trust.wonderful.ai/subprocessors) [Prüfberichte](https://trust.wonderful.ai/resources) | gleich |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, BSI C5, ISO 42001, PCI DSS [Prüfberichte](https://trust.wonderful.ai/resources) | Wonderful klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, AWS-Liste 2,5 Mio. USD für 12 Monate [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao) | je nach Fall |
 
 ## Wo Wonderful schwächer ist
 
@@ -97,6 +99,11 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen Wonderful gewinnen wir nicht über Finanzkraft, Zertifikate oder Telefon-Referenzen bei Konzernen. Gewinnen können wir bei Versorgern und Versicherern in DACH, die viel Schriftverkehr haben, einen Arbeitsplatz für ihr Team brauchen und fertige Abläufe statt eines Bauprojekts wollen. Je kleiner der Kunde, desto weniger passt Wonderfuls Konzernmodell mit Teams vor Ort.
 
+## Direktlinks
+
+- [Trust Center](https://trust.wonderful.ai/)
+- [Status](https://status.wonderful.ai/)
+
 ## Quellen
 
 - [Startseite](https://wonderful.ai)
@@ -123,6 +130,8 @@ Gegen Wonderful gewinnen wir nicht über Finanzkraft, Zertifikate oder Telefon-R
 - [Subunternehmer](https://trust.wonderful.ai/subprocessors)
 - [Prüfberichte](https://trust.wonderful.ai/resources)
 - [Datenschutzerklärung](https://www.wonderful.ai/legal/privacy)
+- [Rechtliches](https://www.wonderful.ai/legal)
 - [AVV](https://www.wonderful.ai/legal/dpa)
 - [SLA](https://www.wonderful.ai/legal/sla)
 - [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-3ntwrjwvwunao)
+- [Status](https://status.wonderful.ai/)

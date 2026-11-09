@@ -4,7 +4,7 @@ slug: "nice"
 fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.nice.com"
 kurz: "Großer Contact-Center-Anbieter aus Israel/USA, KI-Agenten seit 2025 von Cognigy"
@@ -14,7 +14,9 @@ kurz: "Großer Contact-Center-Anbieter aus Israel/USA, KI-Agenten seit 2025 von 
 
 | | | |
 |---|---|---|
-| Firma | **Israel/USA, Nasdaq** | NiCE Ltd., Sitz Ra'anana, US-Zentrale Hoboken, rund 8.400 MA (2024), Umsatz 2025 2,945 Mrd. USD. Cognigy (Düsseldorf) seit 08.09.2025 Teil von NiCE, Kaufpreis rund 955 Mio. USD |
+| Firma | **Israel/USA, Nasdaq** | NiCE Ltd., Sitz Ra'anana, US-Zentrale Hoboken, 9.600+ MA laut Über-uns-Seite, Umsatz 2025 2,945 Mrd. USD. Cognigy (Düsseldorf) seit 08.09.2025 Teil von NiCE, Kaufpreis rund 955 Mio. USD |
+| Gegründet | **1986 in Israel** | Am 28.09.1986 als Neptune Intelligent Computer Engineering Ltd. gegründet, 1991 umbenannt in NICE-Systems, seit 2016 NICE Ltd. |
+| Ursprung | **Aufzeichnung seit 1986** | Gestartet mit der Digitalisierung analog aufgezeichneter Daten, ab 1991 Kundenservice, 2016 Kauf des Cloud-Contact-Centers inContact, KI-Agenten seit 2025 über Cognigy |
 | Preise | **110 bis 249 USD** | je Agent und Monat, Pakete Omnichannel bis Ultimate. Ultimate zusätzlich 0,25 USD je Sitzung, mehrere KI-Funktionen nach Verbrauch |
 | Hosting | **AWS Frankfurt + EU-Cloud** | Dazu Equinix Frankfurt und München. „EU Sovereign Cloud“ seit 2023, Partner dort nicht genannt |
 | Zertifikat | **ISO 27001, SOC 2** | Dazu PCI DSS, HITRUST, FedRAMP, IRAP. Cognigy hat BSI C5, für CXone selbst kein C5-Testat gefunden |
@@ -37,12 +39,12 @@ NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **KI-Agent für eingehende E-Mails** | Weniger Mitarbeitende für Schriftverkehr statt nur schnellerer Entwürfe | „Bei NiCE schreibt Copilot einen Entwurf für Mitarbeitende, bei uns erledigt die KI die Mail bis zur Buchung.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine Antwort an den Kunden, keine manuelle Themenauswahl | „Drei Anliegen in einer Mail erledigen wir in einem Durchgang, ohne dass jemand Themen anklicken muss.“ |
-| **Fertige Energie-Agenten** | Kürzeres Projekt, kein Bau von Standardfällen auf leerer Fläche | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **Ergänzung statt Komplettwechsel** | Laufende Verträge bleiben, kein Migrationsprojekt fürs Contact Center | „NiCE kann für die Telefonie bleiben, wir übernehmen E-Mail und Brief daneben.“ |
+| **KI-Agent für eingehende E-Mails** | Weniger Mitarbeitende für Schriftverkehr, Mails werden erledigt statt nur schneller beantwortet | „Bei NiCE schreibt Copilot einen Entwurf für Mitarbeitende, bei uns erledigt die KI die Mail bis zur Buchung.“ |
+| **Mehrere Anliegen in einem Durchgang** | Eine Antwort an den Kunden, niemand muss Themen auswählen | „Drei Anliegen in einer Mail erledigen wir in einem Durchgang, ohne dass jemand Themen anklicken muss.“ |
+| **Fertige Fachagenten für Versorger** | Kürzeres Projekt, Standardfälle müssen nicht neu gebaut werden | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Läuft neben dem vorhandenen Contact Center** | Laufende Verträge bleiben, kein Migrationsprojekt fürs Contact Center | „NiCE kann für die Telefonie bleiben, wir übernehmen E-Mail und Brief daneben.“ |
 | **Deutsche Firma, deutscher Betreiber** | Einfachere Datenschutzprüfung, ab großem Volumen Betrieb im eigenen Rechenzentrum | „Wir sind eine Berliner GmbH ohne Investoren, speichern bei Hetzner und gehen ab großem Volumen auch in Ihr Rechenzentrum.“ |
 
 ## Wo NiCE vorn liegt
@@ -55,20 +57,20 @@ NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | NiCE | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Verteilung an Mitarbeitende, Copilot schreibt Entwürfe (Vorschau). Kein KI-Agent für eingehende Mails dokumentiert | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Copilot listet Themen, Mitarbeitende wählen aus und bekommen einen Entwurf | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert, nur 40 MB Größengrenze | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Abläufe werden in Cognigy gebaut | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt, Equinix Frankfurt und München, EU Sovereign Cloud. Cognigy On-Premise für Neukunden nicht mehr | enneo vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | AI Studio ohne Code, Cognigy mit Vergleichstests vor dem Start und MCP | gleich |
-| **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Copilot, dazu Task Assist: Mitarbeitende starten Abläufe, die CRM-Daten ändern | NiCE vorn |
-| **Voicebot und Sprachdienste** | OpenAI (USA) oder Deepslate (EU), weniger Auswahl | Eigene Spracherkennung, Cognigy mit acht Anbietern plus eigene | NiCE klar vorn |
-| **Personalplanung, Dialer, Qualität** | Kein WFM, kein Dialer, kein Live-Dashboard, Scorecards | WFM, Dialer, KI-Bewertung aller Kontakte, Analytics | NiCE klar vorn |
-| **Microsoft Teams** | Keine native Anbindung, nur SIP | Direct Routing, Arbeitsplatz in Teams, Status-Abgleich | NiCE klar vorn |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, PCI DSS, FedRAMP. Cognigy BSI C5 | NiCE klar vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 110 bis 249 USD je Agent und Monat, KI teils nach Verbrauch, 0,25 USD je Sitzung im Ultimate-Paket | je nach Fall |
+| Bereich | Thema | enneo | NiCE | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot und Sprachdienste** | OpenAI (USA) oder Deepslate (EU), weniger Auswahl | Eigene Spracherkennung, Cognigy mit acht Anbietern plus eigene [Cognigy Sprachanbieter](https://docs.cognigy.com/voice-gateway/references/tts-and-stt-vendors) [Sprachdienste CXone](https://help.nicecxone.com/content/cognigyai/nativenodes/niceprovidedttsandsttoptions.htm) | NiCE klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Verteilung an Mitarbeitende, Copilot schreibt Entwürfe (Vorschau). Kein KI-Agent für eingehende Mails dokumentiert [E-Mail-Kanal](https://help.nicecxone.com/Content/acd/channels/email/email.htm) [Copilot](https://help.nicecxone.com/Content/copilotagents/copilotforagents.htm) [Cognigy Kanäle](https://docs.cognigy.com/ai/deploy/endpoint-reference/overview) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Copilot listet Themen, Mitarbeitende wählen aus und bekommen einen Entwurf [Copilot](https://help.nicecxone.com/Content/copilotagents/copilotforagents.htm) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert, nur 40 MB Größengrenze [E-Mail-Kanal](https://help.nicecxone.com/Content/acd/channels/email/email.htm) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Abläufe werden in Cognigy gebaut [Agentic Automation](https://www.nice.com/de/products/agentic-experience-automation) [Virtual Agent Hub](https://help.nice-incontact.com/content/aiassistantsandbots/virtualagenthub/virtualagenthub.htm) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | AI Studio ohne Code, Cognigy mit Vergleichstests vor dem Start und MCP [Mpower Agents](https://www.nice.com/press-releases/nice-launches-cxone-agents-enterprise-grade-agentic-ai-agents-built-for-cx-to-deliver-automated-fulfillment) [Nexus 2026](https://www.nice.com/press-releases/nice-cognigy-unveils-breakthrough-agentic-ai-innovations-at-nexus-2026) | gleich |
+| KI & Automatisierung | **Agent Assist** | Entwurf, Zusammenfassung, Live-Transkription | Copilot, dazu Task Assist: Mitarbeitende starten Abläufe, die CRM-Daten ändern [Copilot](https://help.nicecxone.com/Content/copilotagents/copilotforagents.htm) [Task Assist](https://help.nicecxone.com/content/aiassistantsandbots/agentassisthub/copilotforagents/aiagentforautomationprocess.htm) | NiCE vorn |
+| Arbeitsplatz & Anbindungen | **Personalplanung, Dialer, Qualität** | Kein WFM, kein Dialer, kein Live-Dashboard, Scorecards | WFM, Dialer, KI-Bewertung aller Kontakte, Analytics [Workforce Suite](https://www.nice.com/press-releases/nice-launches-workforce-empowerment-suite-for-the-hybrid-ai-workforce) [Dialer](https://help.nicecxone.com/Content/agent/cxoneagent/pcincxa.htm) | NiCE klar vorn |
+| Arbeitsplatz & Anbindungen | **Microsoft Teams** | Keine native Anbindung, nur SIP | Direct Routing, Arbeitsplatz in Teams, Status-Abgleich [Teams](https://help.nicecxone.com/content/agent/agentapplicationadministration/365voice/teams365.htm) [Presence Sync](https://help.nicecxone.com/Content/adapters/presencesync/presencesync.htm) | NiCE klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | AWS Frankfurt, Equinix Frankfurt und München, EU Sovereign Cloud. Cognigy On-Premise für Neukunden nicht mehr [Rechenzentren](https://help.nice-incontact.com/Content/globalfeatures/tsa/securitylayers/physical%20security/awsdataregionsandcenters.htm) [EU-Cloud](https://www.nice.com/press-releases/nice-announces-launch-of-cxone-as-an-industry-first-eu-sovereign-cloud-cx-platform) [Cognigy Installation](https://docs.cognigy.com/ai/administer/installation/about) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, SOC 2, PCI DSS, FedRAMP. Cognigy BSI C5 [Trust Center](https://www.nice.com/trust-center) [Cognigy C5](https://www.cognigy.com/blog/why-bsi-c5-certification-matters-for-banking-and-insurance) | NiCE klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | 110 bis 249 USD je Agent und Monat, KI teils nach Verbrauch, 0,25 USD je Sitzung im Ultimate-Paket [Preisseite](https://www.nice.com/pricing) | je nach Fall |
 
 ## Wo NiCE schwächer ist
 
@@ -100,6 +102,14 @@ NiCE ist einer der größten Contact-Center-Anbieter der Welt, laut Gartner seit
 
 Gegen NiCE gewinnen wir nicht über Telefonanlage, Personalplanung, Dialer, Sprachdienste oder Zertifikate. Gewinnen können wir, wo viel Schriftverkehr automatisch bis zur Buchung erledigt werden soll, mit mehreren Anliegen, Anhängen und Energie-Abläufen. Wo NiCE schon als Contact Center steht, ist enneo für E-Mail und Brief daneben oft das bessere Gespräch als ein Komplettwechsel.
 
+## Direktlinks
+
+- [Doku](https://help.nicecxone.com/)
+- [API](https://developer.niceincontact.com/)
+- [Trust Center](https://www.nice.com/trust-center)
+- [Preise](https://www.nice.com/pricing)
+- [Release Notes](https://help.nicecxone.com/content/releasenotes/release.htm)
+
 ## Quellen
 
 - [Preise](https://www.nice.com/pricing)
@@ -116,7 +126,7 @@ Gegen NiCE gewinnen wir nicht über Telefonanlage, Personalplanung, Dialer, Spra
 - [Cognigy Nexus 2026](https://www.nice.com/press-releases/nice-cognigy-unveils-breakthrough-agentic-ai-innovations-at-nexus-2026)
 - [Kauf Cognigy angekündigt](https://www.nice.com/press-releases/nice-to-acquire-cognigy-advancing-the-leading-cx-ai-platform-to-accelerate-ai-first-customer-experience)
 - [Kauf Cognigy abgeschlossen](https://www.nice.com/press-releases/nice-closes-acquisition-of-cognigy-transforming-customer-experience-with-best-in-class-data-driven-cx-ai-platform)
-- [Geschäftszahlen Q4 2025](https://www.marketbeat.com/earnings/reports/2026-2-19-nice-ltd-stock/)
+- [Geschäftszahlen 2025](https://www.nice.com/press-releases/nice-reports-14-year-over-year-cloud-revenue-growth-for-fourth-quarter-and-13-growth-for-full-year-2025)
 - [Firmenprofil](https://en.wikipedia.org/wiki/NiCE)
 - [Cognigy Kanäle](https://docs.cognigy.com/ai/deploy/endpoint-reference/overview)
 - [Cognigy Installationsarten](https://docs.cognigy.com/ai/administer/installation/about)
@@ -130,3 +140,6 @@ Gegen NiCE gewinnen wir nicht über Telefonanlage, Personalplanung, Dialer, Spra
 - [Gartner 2025](https://www.nice.com/press-releases/nice-named-a-leader-in-the-2025-gartner-magic-quadrant-for-contact-center-as-a-service-for-11th-consecutive-year)
 - [AOK Bayern](https://www.nice.com/press-releases/aok-bayern-transforms-healthcare-service-for-4-5-million-members-with-nices-cxone-cx-ai-platform)
 - [e-regio](https://resources.nice.com/wp-content/uploads/2025/06/CaseStudy1_eRegio-v.02-final.pdf)
+- [Firmengeschichte im Jahresbericht 20-F](https://resources.nice.com/wp-content/uploads/2024/06/20-f_195850.html)
+- [Teams Presence Sync](https://help.nicecxone.com/Content/adapters/presencesync/presencesync.htm)
+- [Über uns](https://www.nice.com/company/about-us)

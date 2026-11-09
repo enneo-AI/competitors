@@ -1,6 +1,6 @@
 ---
 slug: "wilken"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Billing and ERP software for municipal utilities from Ulm, with voicebot AIVA"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Billing and ERP software for municipal utilities from Ulm, with voicebot 
 | | | |
 |---|---|---|
 | Firma | **Ulm, 700+ employees** | Wilken Software Group, founded 1978, sites in Ulm, Greven and Gijón. According to its website 400+ energy and water utilities, 15m end-customer contracts in billing, no external capital |
+| Gegründet | **1978** | Ernst Wilken founds Wilken GmbH in Ulm, he had already developed his first software solutions in 1977 |
+| Ursprung | **Business software since 1978** | 1994 first in-house ERP solution CS/2, 2016 the P/5 generation, 2025 the cloud platform GY. AI came with the voicebot AIVA and, since 03/2026, with the assistant GY:PT |
 | Preise | **not public** | No price list. According to ZfK, the voicebot AIVA is billed by call volume, with no upfront investment |
 | Hosting | **own data center Ulm** | SaaS platform GY "Made in Germany", data center of Wilken Data Service Center GmbH in Ulm. Where AIVA and the AI assistant GY:PT run and which language model is behind them is not stated |
 | Zertifikat | **ISO 27001, NIS2** | ISO/IEC 27001:2022 by TÜV Saarland for Wilken GmbH and Wilken Entire GmbH, since May 2026 including the GY platform, ENER:GY with portals and the ERP P/5. Plus an NIS2 attestation for the data center |
@@ -31,12 +33,12 @@ Wilken is first and foremost a billing and ERP provider for utilities: billing, 
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI all the way to the booking** | Fewer agents needed for written correspondence, standard requests go through without manual work | "With us, the AI handles the email itself and books in your Wilken system, not just a recommendation to the agent." |
-| **Multiple requests and attachments in one pass** | One complete reply instead of follow-up questions and follow-up cases, nobody retypes meter photos | "Meter reading, IBAN and photo in one email: we handle them in one pass with one reply." |
-| **No system change needed** | Billing stays as it is, automation starts without an ERP project | "Wilken stays your billing system, we just connect to it." |
-| **One system for all channels** | Email, letter, chat, WhatsApp and phone with one AI and one contract instead of a voicebot plus partner products | "Phone, email and chat run through the same AI and the same agent workspace with us." |
+| **Email AI all the way to the booking** | Standard requests go through without manual work, fewer agents needed for written correspondence | "With us, the AI handles the email itself and books in your Wilken system, not just a recommendation to the agent." |
+| **Multiple requests and attachments in one pass** | One complete reply instead of follow-up questions and follow-up cases, meter photos are captured automatically | "Meter reading, IBAN and photo in one email: we handle them in one pass with one reply." |
+| **Connecting to the billing system** | Billing stays as it is, automation starts without an ERP project | "Wilken stays your billing system, we just connect to it." |
+| **One system for all channels** | Email, letter, chat, WhatsApp and phone with one AI, one agent workspace and one contract | "Phone, email and chat run through the same AI and the same agent workspace with us." |
 | **Data protection documents public** | Data protection review without follow-up requests, because DPA, TOMs, subprocessors and SLA are available upfront | "You can already review our DPA, TOMs, subprocessors and SLA yourself today." |
 
 ## Wo Wilken vorn liegt
@@ -49,20 +51,20 @@ Wilken is first and foremost a billing and ERP provider for utilities: billing, 
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Wilken | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, also fully automatically | Not found. Email templates and control of incoming communication in the system, AI summaries and reply drafts only via partner epilot | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented | enneo vorn |
-| **AI agents** | Described in plain language, changed with Neo via chat, test cases | GY:PT since 03/2026 as an assistant for agents, agents announced as the next stage, "KI schlägt vor, der Mensch entscheidet" | enneo vorn |
-| **Agent workspace for customer service** | Ticketing, inbox, knowledge, telephony, skill-based routing in one system | 360° customer view and task control in the billing system, customer communication partly via partners | enneo vorn |
-| **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU), connection per customer | AIVA as SaaS with Idesia, access to Wilken data, reference Köthen Energie, language model not stated | je nach Fall |
-| **Billing and ERP** | None, enneo connects to it | Core product: ENER:GY, NTS, P/5, GY Billing | Wilken klar vorn |
-| **Connection to the billing system** | Built per customer as code, RPA for legacy systems | Own system, no interface needed | Wilken vorn |
-| **Self-service for end customers** | No help center for end customers | Portals, app, tariff calculator, self-service for installment, bank details, meter reading | Wilken klar vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | Own data center in Ulm, hosting, cloud or on-premises | gleich |
-| **Certificates** | None of its own, in progress. Hetzner ISO 27001 | ISO 27001 (TÜV Saarland) incl. GY, NIS2 attestation | Wilken vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, AIVA by call volume | je nach Fall |
+| Area | Topic | enneo | Wilken | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Own telephony or SIP, OpenAI (USA) or Deepslate (EU), connection per customer | AIVA as SaaS with Idesia, access to Wilken data, reference Köthen Energie, language model not stated [Köthen Energie](https://www.wilken.de/success-story-koethen-energie) [ZfK AIVA](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle) | je nach Fall |
+| Kanäle | **Self-service for end customers** | No help center for end customers | Portals, app, tariff calculator, self-service for installment, bank details, meter reading [Utilities](https://www.wilken.de/versorgungswirtschaft) | Wilken klar vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, also fully automatically | Not found. Email templates and control of incoming communication in the system, AI summaries and reply drafts only via partner epilot [Utilities](https://www.wilken.de/versorgungswirtschaft) [epilot AI](https://epilot.helpjuice.com/de_DE/ai) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Utilities](https://www.wilken.de/versorgungswirtschaft) [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented [Utilities](https://www.wilken.de/versorgungswirtschaft) [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| KI & Automatisierung | **AI agents** | Described in plain language, changed with Neo via chat, test cases | GY:PT since 03/2026 as an assistant for agents, agents announced as the next stage, "KI schlägt vor, der Mensch entscheidet" [GY:PT](https://www.wilken.de/presse-ki-in-l%C3%B6sungsplattform) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace for customer service** | Ticketing, inbox, knowledge, telephony, skill-based routing in one system | 360° customer view and task control in the billing system, customer communication partly via partners [Utilities](https://www.wilken.de/versorgungswirtschaft) [Partner network](https://www.wilken.de/partner) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Billing and ERP** | None, enneo connects to it | Core product: ENER:GY, NTS, P/5, GY Billing [Utilities](https://www.wilken.de/versorgungswirtschaft) [GY platform](https://www.wilken.de/gy) | Wilken klar vorn |
+| Arbeitsplatz & Anbindungen | **Connection to the billing system** | Built per customer as code, RPA for legacy systems | Own system, no interface needed [Utilities](https://www.wilken.de/versorgungswirtschaft) | Wilken vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | Own data center in Ulm, hosting, cloud or on-premises [Data Service Center](https://www.wilken.de/data-service-center) | gleich |
+| Daten & Sicherheit | **Certificates** | None of its own, in progress. Hetzner ISO 27001 | ISO 27001 (TÜV Saarland) incl. GY, NIS2 attestation [ISO 27001 for GY](https://www.wilken.de/pressemeldung-iso-27001) [Data Service Center](https://www.wilken.de/data-service-center) | Wilken vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, AIVA by call volume [ZfK AIVA](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle) [Utilities](https://www.wilken.de/versorgungswirtschaft) | je nach Fall |
 
 ## Wo Wilken schwächer ist
 
@@ -91,6 +93,10 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 Against Wilken we don't win on billing, ERP, self-service portals or certificates, and we don't need to: Wilken stays the system of record, enneo connects to it. We can win on written correspondence, where Wilken shows no AI handling of its own, and with one agent workspace for all channels. On the voicebot, AIVA is the direct competitor, with an edge in the Wilken connection and a single public reference.
 
+## Direktlinks
+
+- [Community](https://community.wilken.de/)
+
 ## Quellen
 
 - [Wilken homepage](https://www.wilken.de)
@@ -108,7 +114,8 @@ Against Wilken we don't win on billing, ERP, self-service portals or certificate
 - [New customer Stadtwerke Schwäbisch Hall](https://www.wilken.de/presse-neukunde-loesungsplattform)
 - [Article on AI-native IT ecosystems](https://www.wilken.de/fachartikel-ki-natives-oekosystem)
 - [Success story Köthen Energie (AIVA)](https://www.wilken.de/success-story-koethen-energie)
-- [ZfK: voicebot resolves 70 percent of service cases](https://www.zfk.de/digitalisierung/it/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle)
-- [ZfK: Project Lighthouse](https://www.zfk.de/digitalisierung/it/wilken-das-wird-die-energieversorger-welt-revolutionieren)
+- [ZfK: voicebot resolves 70 percent of service cases](https://www.zfk.de/digitalisierung/voicebot-loest-fuer-versorger-aus-sachsen-anhalt-70-prozent-seiner-servicefaelle)
+- [ZfK: Project Lighthouse](https://www.zfk.de/digitalisierung/wilken-das-wird-die-energieversorger-welt-revolutionieren)
 - [epilot AI features](https://epilot.helpjuice.com/de_DE/ai)
 - [ZfK: epilot AI for emails](https://www.zfk.de/digitalisierung/epilot-beschleunigt-e-mail-kommunikation-mit-kuenstlicher-intelligenz)
+- [Wilken Community](https://community.wilken.de/)

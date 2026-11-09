@@ -21,16 +21,18 @@ open site/index.html
 
 ## Aufbau einer Karte
 
-Feste Reihenfolge, damit jede Karte gleich zu lesen ist und eine KI sie sicher findet:
+Verbindlich ist `werkzeuge/auftrag-karte.md`. Kurz (Stand 09.11.2026, nach Feedback aus dem Vertrieb):
 
-1. Eckdaten (Firma, Preise, Hosting, Zertifikat/Referenzen)
-2. Das Wichtigste vorweg
+1. Eckdaten: Firma, Gegründet, Ursprung (womit die Firma begann, seit wann KI), Preise, Hosting, Zertifikat/Referenzen
+2. Erster Satz, Das Wichtigste vorweg
 3. Unsere Verkaufsargumente
-4. Wo der Anbieter vorn liegt
-5. Unterschiede auf einen Blick (Tabelle mit Einordnung: `enneo klar vorn`, `enneo vorn`, `gleich`, `<Anbieter> vorn`, `<Anbieter> klar vorn`, `je nach Fall`)
-6. Wo der Anbieter schwächer ist
-7. Fazit
-8. Quellen
+4. Business-Impact: `Mit enneo | Ergebnis für den Kunden | So sagen Sie es`, jede Zeile aus Sicht des Kunden, der enneo nimmt
+5. Wo der Anbieter vorn liegt
+6. Unterschiede auf einen Blick: `Bereich | Thema | enneo | Anbieter | Einordnung`. Bereich gruppiert die Zeilen (Kanäle, KI & Automatisierung, Arbeitsplatz & Anbindungen, Daten & Sicherheit, Preis & Vertrag, Firma & Referenzen), jede Anbieter-Zelle endet mit ihrem Beleg-Link
+7. Wo der Anbieter schwächer ist, Einwände, Fragen an den Kunden, Intern, Fazit
+8. Direktlinks (Doku, API, Community, Trust Center, Preise, Release Notes, Status), Quellen
+
+In der Galerie: Reiter Überblick, Business-Impact, Argumente, Einwände & Fragen, Vergleich, Quellen (oben „Direkt beim Anbieter“), dazu Intern. In Argumente und Einwände & Fragen ist nur die Kernaussage sichtbar, die Erklärung klappt auf.
 
 Kategorien: `Direkter Wettbewerber`, `Angrenzender Anbieter`, `Möglicher Partner`.
 

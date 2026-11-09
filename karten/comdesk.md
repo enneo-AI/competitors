@@ -4,7 +4,7 @@ slug: "comdesk"
 fokus: "Contact Center"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-06"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.comdesk.de"
 kurz: "Cloud-Telefonanlage und ACD aus Elmshorn, früher CallOne"
@@ -14,7 +14,9 @@ kurz: "Cloud-Telefonanlage und ACD aus Elmshorn, früher CallOne"
 
 | | | |
 |---|---|---|
-| Firma | **Elmshorn, ca. 50 MA** | Comdesk GmbH, Kölln-Reisiek bei Elmshorn, gegründet 2008 als inopla, 2020 Zusammenschluss mit CallOne. CallOne seit 11/2025, inopla seit 02/2026 unter der Marke comdesk. Laut eigener Angabe 3.000+ Kunden |
+| Firma | **Elmshorn, ca. 50 MA** | Comdesk GmbH, Kölln-Reisiek bei Elmshorn. CallOne seit 11/2025, inopla seit 02/2026 unter der Marke comdesk. Laut eigener Angabe 3.000+ Kunden |
+| Gegründet | **2008 als inopla** | 2020 als Gruppe mit CallOne neu aufgestellt, seit 2026 alle Marken unter comdesk. Gründer nennt die Firma nicht |
+| Ursprung | **Cloud-Telefonie seit 2008** | Begann mit Telefonie für Firmen, generative KI am Telefon laut eigener Angabe seit 2022 |
 | Preise | **ab 3,90 € je Nutzer** | Telefonanlage öffentlich: Essential 3,90 €, Business 9,90 €, Professional 19,90 € je Nutzer und Monat bei 12 Monaten. ACD, VoiceAgent auf Anfrage. KI-Transkription ab 4,95 € im Monat plus Minuten. 14 Tage Test |
 | Hosting | **Deutschland, Betreiber offen** | „Deutsche, ISO-27001-zertifizierte Hochsicherheitsrechenzentren“, Betreiber nicht genannt. Eigenes Zertifikat von comdesk nicht gefunden |
 | Referenzen | **E-Commerce, Mittelstand** | CHECK24, Flaconi, Deichmann, niceshops, Onlineprinters. Energie, Versicherung, Stadtwerke nicht gefunden |
@@ -37,13 +39,13 @@ comdesk, früher CallOne und inopla, ist zuerst Cloud-Telefonanlage: Rufnummern,
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail-KI bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, Standardanliegen laufen ohne Handarbeit durch | „Bei uns erledigt die KI eine Mail vom Eingang bis zur Buchung im Zielsystem, auf Wunsch ganz ohne Mitarbeitende.“ |
-| **Arbeitsplatz und Telefonie in einem System** | Kein zweites System für Tickets lizenzieren, anbinden und pflegen | „Telefon, Mail, Chat und KI landen bei uns in einem Arbeitsplatz, ohne separates Helpdesk.“ |
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde drei Anliegen in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
-| **Fertige Abläufe für Versorger** | Schneller produktiv, nur die ERP-Anbindung wird gebaut | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **E-Mail-KI bis zur Buchung** | Standardanliegen per Mail laufen ohne Handarbeit durch, weniger Mitarbeitende für Schriftverkehr | „Bei uns erledigt die KI eine Mail vom Eingang bis zur Buchung im Zielsystem, auf Wunsch ganz ohne Mitarbeitende.“ |
+| **Arbeitsplatz und Telefonie in einem System** | Ein System für Tickets und Telefonie, nichts Zweites zu lizenzieren, anzubinden und zu pflegen | „Telefon, Mail, Chat und KI landen bei uns in einem Arbeitsplatz, ohne separates Helpdesk.“ |
+| **Mehrere Anliegen in einem Durchgang** | Der Endkunde bekommt eine vollständige Antwort, keine Rückfragen und Folgetickets | „Schreibt Ihr Kunde drei Anliegen in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen kommen ohne Abtippen ins System | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Fertige Abläufe für Versorger** | Schneller produktiv, gebaut wird nur die ERP-Anbindung | „Zählerstand, Abschlag und Bankdaten bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen | „Unsere AVV, TOM, Subunternehmer und SLA kann Ihr Datenschutz heute schon prüfen.“ |
 
 ## Wo comdesk vorn liegt
@@ -56,20 +58,20 @@ comdesk, früher CallOne und inopla, ist zuerst Cloud-Telefonanlage: Rufnummern,
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | comdesk | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Kein E-Mail-Kanal gefunden, Mails nur als Benachrichtigung und Bericht | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden | enneo klar vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Postfach, KI und Telefonie | Kein Helpdesk, Anbindung an Zendesk, Freshdesk und CRM | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, keine Energie-Referenzen | enneo vorn |
-| **Voicebot** | Sprache zu Sprache über OpenAI oder Deepslate, eigene Telefonie oder SIP | VoiceAgent mit GPT-Modellen von OpenAI und Microsoft, Aktionen per REST und Webhooks, Umsetzung oft über AI-Partner | je nach Fall |
-| **Gesprächsanalyse** | Live-Transkription, Entwurf, Zusammenfassung, Scorecards | Transkription und Analyse nach dem Gespräch, Deutsch und Englisch, je Minute bezahlt | enneo vorn |
-| **Telefonanlage und ACD** | Eigene Telefonie mit Skill-Routing, SIP-Leitung des Kunden | Volle Firmentelefonanlage, Cloud ACD, Rückruf, Live Center | comdesk vorn |
-| **Microsoft Teams** | Keine native Anbindung, nur SIP | Teams-Telefonie als eigenes Produkt | comdesk klar vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Deutsche ISO-27001-Rechenzentren, Betreiber nicht genannt | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Subunternehmerliste, AVV und KI-Anbieter nicht gefunden | enneo vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Telefonanlage öffentlich ab 3,90 € je Nutzer, ACD und VoiceAgent auf Anfrage | je nach Fall |
+| Bereich | Thema | enneo | comdesk | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot** | Sprache zu Sprache über OpenAI oder Deepslate, eigene Telefonie oder SIP | VoiceAgent mit GPT-Modellen von OpenAI und Microsoft, Anbindung per REST und Webhooks, Umsetzung oft über AI-Partner [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) [AI-Partner](https://www.comdesk.de/ai-partner/) | je nach Fall |
+| Kanäle | **Telefonanlage und ACD** | Eigene Telefonie mit Skill-Routing, SIP-Leitung des Kunden | Volle Firmentelefonanlage, Cloud ACD, Rückruf, Live Center [ACD-Seite](https://www.comdesk.de/produkte/contact-center-software-mit-acd/) | comdesk vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Kein E-Mail-Kanal gefunden, Mails nur als Benachrichtigung und Bericht [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) [ACD-Seite](https://www.comdesk.de/produkte/contact-center-software-mit-acd/) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht gefunden [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) | enneo klar vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden [VoiceAgent](https://www.comdesk.de/produkte/voiceagent/) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, keine Energie-Referenzen [Case Studies](https://www.comdesk.de/case-studies/) | enneo vorn |
+| KI & Automatisierung | **Gesprächsanalyse** | Live-Transkription, Entwurf, Zusammenfassung, Scorecards | Transkription und Analyse nach dem Gespräch, Deutsch und Englisch, je Minute bezahlt [KI-Transkription](https://www.comdesk.de/produkte/ki-transkription-und-analyse/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Eigenes Ticketing mit Postfach, KI und Telefonie | Laut eigenem FAQ kein Helpdesk, Anbindung an Zendesk, Freshdesk und CRM [FAQ](https://www.comdesk.de/) [Integrationen](https://www.comdesk.de/integrationen/) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Microsoft Teams** | Keine native Anbindung, nur SIP | Teams-Telefonie als eigenes Produkt, auch parallel zu VoIP [Teams-Telefonie](https://www.comdesk.de/produkte/teams-telefonie/) | comdesk klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Deutsche ISO-27001-Rechenzentren, Betreiber nicht genannt [Sicherheit](https://www.comdesk.de/datenschutz-und-sicherheit/) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Subunternehmerliste, AVV und KI-Anbieter nicht gefunden [Sicherheit](https://www.comdesk.de/datenschutz-und-sicherheit/) | enneo vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Telefonanlage öffentlich ab 3,90 € je Nutzer, ACD und VoiceAgent auf Anfrage [Preise](https://www.comdesk.de/preise/) | je nach Fall |
 
 ## Wo comdesk schwächer ist
 
@@ -98,9 +100,16 @@ Bisher keine internen Erkenntnisse in Attio (Stand 06.11.2026).
 
 Als Telefonanlage für kleine und mittlere Firmen ist comdesk günstig, schnell eingerichtet und bei Nutzern beliebt, mit Teams-Telefonie und vielen fertigen Integrationen. Gewinnen können wir, wo Anliegen automatisch erledigt werden sollen, vor allem per Mail, mit mehreren Anliegen, Anhängen und Buchung im Zielsystem. Wo comdesk schon die Telefonanlage ist, ist enneo für Mail und KI daneben das bessere Gespräch als ein Wechsel.
 
+## Direktlinks
+
+- [Doku](https://hilfe.comdesk.de/)
+- [API](https://www.comdesk.de/voip-api-und-schnittstellen/)
+- [Preise](https://www.comdesk.de/preise/)
+- [Status](https://status.comdesk.de/)
+
 ## Quellen
 
-- [callone.de leitet auf comdesk.de weiter](https://www.comdesk.de/)
+- [Startseite mit FAQ, callone.de leitet hierher weiter](https://www.comdesk.de/)
 - [CallOne ist comdesk](https://www.comdesk.de/news/callone-ist-comdesk/)
 - [inopla ist comdesk](https://www.comdesk.de/news/inopla-ist-comdesk/)
 - [Über uns](https://www.comdesk.de/ueber-uns/)
@@ -115,3 +124,7 @@ Als Telefonanlage für kleine und mittlere Firmen ist comdesk günstig, schnell 
 - [Datenschutzerklärung](https://www.comdesk.de/datenschutz/)
 - [Case Studies](https://www.comdesk.de/case-studies/)
 - [Nutzerbewertungen OMR](https://omr.com/de/reviews/product/comdesk)
+- [Teams-Telefonie](https://www.comdesk.de/produkte/teams-telefonie/)
+- [APIs und Schnittstellen](https://www.comdesk.de/voip-api-und-schnittstellen/)
+- [Hilfecenter](https://hilfe.comdesk.de/)
+- [Statusseite](https://status.comdesk.de/)

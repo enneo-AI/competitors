@@ -4,7 +4,7 @@ slug: "novomind"
 fokus: "E-Mail-KI"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.novomind.com/de/"
 kurz: "Contact-Center-Software aus Hamburg mit KI-Bots für Mail, Chat und Telefon"
@@ -15,6 +15,8 @@ kurz: "Contact-Center-Software aus Hamburg mit KI-Bots für Mail, Chat und Telef
 | | | |
 |---|---|---|
 | Firma | **Hamburg, 500+ MA** | novomind AG, inhabergeführt, über 25 Jahre am Markt, über 250 Kunden. Verkauft auch Shop- und Produktdaten-Software |
+| Gegründet | **2000 in Hamburg** | Gründer Peter Samuelsen, bis Ende 2021 Vorstandschef, danach Mehrheitsaktionär (Stand Pressemitteilung 2021) |
+| Ursprung | **Internet-Automatisierung seit 2000** | Laut novomind gestartet mit Avataren und Dialogerkennung für Automatisierung im Internet, daraus Software für Kundenservice und Onlinehandel, heute KI-Agenten in iAGENT |
 | Lizenz | **nicht öffentlich** | Laut Doku zeitlich unbegrenzte Nutzungsrechte, Preise nur auf Anfrage |
 | Hosting | **Frankfurt, eigene Infrastruktur** | Cloud in deutschen Rechenzentren, hybrid oder beim Kunden auf Wunsch |
 | Zertifikat | **ISO 27001, ISO 22301, TISAX** | Zertifizierer und Laufzeit auf der Website nicht genannt |
@@ -36,12 +38,12 @@ novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Anhänge und Fotos lesen** | Mails mit Zählerfoto oder PDF bleiben nicht bei Mitarbeitenden liegen, weniger Handarbeit im Schriftverkehr | „Unsere KI liest das Zählerfoto im selben Durchgang mit, bei novomind ist dazu nichts dokumentiert.“ |
+| **Liest Anhänge und Fotos mit** | Mails mit Zählerfoto oder PDF laufen automatisch durch, weniger Handarbeit im Schriftverkehr | „Unsere KI liest das Zählerfoto im selben Durchgang mit, bei novomind ist dazu nichts dokumentiert.“ |
 | **Begründung der KI sichtbar** | Fachbereich und Revision prüfen Entscheidungen vor dem Livegang, geringeres Risiko falscher Buchungen | „Sie sehen bei uns Lösungsplan, erkannte Werte und eine Vorschau ohne Buchung, bevor etwas ins System geht.“ |
-| **Sprachmodelle und Datenschutzunterlagen offen** | Datenschutzprüfung ohne Nachforderungen, weil AVV, TOM und Subunternehmer vorab vorliegen | „Unsere AVV, TOM und Subunternehmer sind öffentlich, und wir sagen Ihnen, welche Sprachmodelle laufen.“ |
-| **Agenten in normaler Sprache** | Fachbereich beschreibt Abläufe in eigenen Worten und prüft sie mit Testfällen, bevor sie live gehen | „Sie beschreiben den Agenten in Sätzen, ändern ihn per Chat und testen ihn mit echten Fällen.“ |
+| **Offene Angaben zu Modellen und Datenschutz** | Datenschutzprüfung ohne Nachforderungen, weil AVV, TOM und Subunternehmer vorab vorliegen | „Unsere AVV, TOM und Subunternehmer sind öffentlich, und wir sagen Ihnen, welche Sprachmodelle laufen.“ |
+| **Agenten in normaler Sprache** | Der Fachbereich beschreibt Abläufe in eigenen Worten und prüft sie mit Testfällen, bevor sie live gehen | „Sie beschreiben den Agenten in Sätzen, ändern ihn per Chat und testen ihn mit echten Fällen.“ |
 
 ## Wo novomind vorn liegt
 
@@ -53,20 +55,20 @@ novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | novomind | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im Zielsystem buchen, antworten, auch vollautomatisch | Mailbot klassifiziert und antwortet vollautomatisch. Buchung im Zielsystem beim Mailbot nur als Beispiel genannt, beim Voicebot beschrieben | je nach Fall |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort (seit Oktober 2026) | Mailbot zerlegt die Mail in Themenblöcke und beantwortet sie automatisch (beschrieben seit Februar 2025) | gleich |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert | enneo vorn |
-| **Begründung der KI nachvollziehen** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Nicht dokumentiert | enneo vorn |
-| **KI-Agenten bauen** | In normaler Sprache beschreiben, mit Neo per Chat ändern, Testfälle | No-Code Agent Builder mit Drag & Drop, eigenes kleines Sprachmodell trainierbar | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Bots für Abschlag, Zählerstand, Umzug und SEPA-Mandat beworben, Umfang im Produkt nicht dokumentiert | je nach Fall |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu SMS, Fax, Videochat und Microsoft Teams | novomind vorn |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung, OpenAI oder Deepslate | Im Produkt, mit Authentifizierung und Buchung über CRM oder ERP, Sprachanbieter nicht genannt | gleich |
-| **Sprachmodelle und Datenschutzunterlagen** | US-Anbieter Standard, EU-Modelle im AVV, AVV, TOM, Subunternehmer öffentlich | Modelle nicht genannt, AVV nicht gefunden | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | Eigene Infrastruktur in Frankfurt, hybrid oder beim Kunden | novomind vorn |
-| **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | ISO 27001, ISO 22301, TISAX | novomind klar vorn |
-| **Steuerung und Qualität** | Scorecards, kein Live-Dashboard | QA-Cockpit mit Echtzeit-Kennzahlen, Supervisor, Analytics | novomind vorn |
+| Bereich | Thema | enneo | novomind | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu SMS, Fax, Videochat und Microsoft Teams [iAGENT](https://www.novomind.com/de/customer-service/iagent/) | novomind vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung, OpenAI oder Deepslate | Im Produkt, mit Authentifizierung und Buchung über CRM oder ERP, Sprachanbieter nicht genannt [Voicebot](https://www.novomind.com/en/customer-service/iagent/voicebot/) | gleich |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen und Kunde erkennen, legitimieren, im Zielsystem buchen, antworten, auch vollautomatisch | Mailbot klassifiziert und antwortet vollautomatisch. Buchung im Zielsystem beim Mailbot nur als Beispiel genannt, beim Voicebot beschrieben [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [iAGENT Mail](https://www.novomind.com/de/customer-service/iagent/mail/) [Voicebot](https://www.novomind.com/en/customer-service/iagent/voicebot/) | je nach Fall |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort (seit Oktober 2026) | Mailbot zerlegt die Mail in Themenblöcke und beantwortet sie automatisch (beschrieben seit Februar 2025) [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) | gleich |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht dokumentiert [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [iAGENT Mail](https://www.novomind.com/de/customer-service/iagent/mail/) | enneo vorn |
+| KI & Automatisierung | **Begründung der KI nachvollziehen** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Nicht dokumentiert [Mailbot](https://www.novomind.com/en/blog/mailbot-customer-service/) [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen** | In normaler Sprache beschreiben, mit Neo per Chat ändern, Testfälle | No-Code Agent Builder mit Drag & Drop, eigenes kleines Sprachmodell trainierbar [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | je nach Fall |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Bots für Abschlag, Zählerstand, Umzug und SEPA-Mandat beworben, Umfang im Produkt nicht dokumentiert [Branche Energie](https://www.novomind.com/de/branche/energie/) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Steuerung und Qualität** | Scorecards, kein Live-Dashboard | QA-Cockpit mit Echtzeit-Kennzahlen, Supervisor, Analytics [CCW 2026](https://www.novomind.com/de/presse/ccw-2026-ai-platform-ai-agents/) [Customer Service](https://www.novomind.com/de/customer-service/) | novomind vorn |
+| Daten & Sicherheit | **Sprachmodelle und Datenschutzunterlagen** | US-Anbieter Standard, EU-Modelle im AVV, AVV, TOM, Subunternehmer öffentlich | Modelle nicht genannt, AVV nicht gefunden [Faktenseite](https://www.novomind.com/de/grounding_de/) [AI Platform](https://www.novomind.com/en/ai-data/ai-platform/) | enneo vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden ab großem Volumen | Eigene Infrastruktur in Frankfurt, hybrid oder beim Kunden [Faktenseite](https://www.novomind.com/de/grounding_de/) [iAGENT EN](https://www.novomind.com/en/customer-service/iagent/) | novomind vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, ISO 27001 und SOC 2 in Prüfung. Hetzner ISO 27001 | ISO 27001, ISO 22301, TISAX [Über uns](https://www.novomind.com/de/ueber-uns/) | novomind klar vorn |
 
 ## Wo novomind schwächer ist
 
@@ -96,6 +98,11 @@ novomind iAGENT ist ein Contact-Center-System mit eigenem Arbeitsplatz für alle
 
 novomind ist ein ernster Gegner: eigener Arbeitsplatz, Bots für alle Kanäle, Zertifikate und Energie-Referenzen. Gewinnen können wir über Anhänge und Fotos, nachvollziehbare KI-Entscheidungen und offene Angaben zu Sprachmodellen. Bei Kanalbreite, Zertifikaten und Referenzen liegt novomind vorn, dort sollten wir nicht argumentieren.
 
+## Direktlinks
+
+- [Doku](https://iagent-doc.novomind.com/en/welcome/)
+- [Release Notes](https://iagent-doc.novomind.com/en/release-notes-en/)
+
 ## Quellen
 
 - [Startseite (englisch)](https://www.novomind.com/en/)
@@ -116,3 +123,7 @@ novomind ist ein ernster Gegner: eigener Arbeitsplatz, Bots für alle Kanäle, Z
 - [iAGENT-Doku und Lizenz](https://iagent-doc.novomind.com/en/introduction/)
 - [Release Notes](https://iagent-doc.novomind.com/en/release-notes-en/)
 - [Nutzerbewertungen](https://omr.com/de/reviews/product/novomind-iagent)
+- [iAGENT (englisch, Hosting)](https://www.novomind.com/en/customer-service/iagent/)
+- [AI Platform (englisch, Agent Builder)](https://www.novomind.com/en/ai-data/ai-platform/)
+- [Customer Service und Echtzeit-Reporting](https://www.novomind.com/de/customer-service/)
+- [Gründer tritt als CEO ab (2021)](https://www.novomind.com/en/press/novomind-founder-peter-samuelsen-resigns-as-ceo/)

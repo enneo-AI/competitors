@@ -30,7 +30,45 @@ def render(meta, body):
                                                 f"{meta['name']} klar vorn", f"{meta['name']} vorn"])
     h = re.sub(rf"<td>({labels})</td>\s*</tr>", td, h)
     h = h.replace("<a href=", '<a target="_blank" rel="noopener" href=')
-    return h
+    return gruppiere(h)
+
+# Vergleichstabelle: Zeilen nach Bereich gruppieren (erste Spalte), Belege als kleine Links ans Zellende
+BEREICHE = ["Kanäle", "KI & Automatisierung", "Arbeitsplatz & Anbindungen", "Daten & Sicherheit", "Preis & Vertrag", "Firma & Referenzen"]
+BEREICH_EN = {"Kanäle": "Channels", "KI & Automatisierung": "AI & automation", "Arbeitsplatz & Anbindungen": "Workspace & integrations",
+              "Daten & Sicherheit": "Data & security", "Preis & Vertrag": "Pricing & contract", "Firma & Referenzen": "Company & references", "Weiteres": "Other"}
+def gruppiere(h):
+    m = re.search(r"(<h2>Unterschiede auf einen Blick</h2>\s*)<table>(.*?)</table>", h, re.S)
+    if not m: return h
+    tab = m.group(2)
+    def belege(zelle):
+        links = re.findall(r"\s*<a [^>]*>[^<]*</a>", zelle)
+        if not links: return zelle
+        rest = zelle
+        for l in links: rest = rest.replace(l, "", 1)
+        rest = re.sub(r"[\s,;]+$", "", rest)
+        return rest + '<span class="belege">' + "".join(l.strip().replace("<a ", '<a class="beleg" ', 1) for l in links) + "</span>"
+    kopf = re.search(r"<thead>(.*?)</thead>", tab, re.S).group(1)
+    ths = re.findall(r"<th[^>]*>(.*?)</th>", kopf, re.S)
+    zeilen = re.findall(r"<tr>(.*?)</tr>", re.search(r"<tbody>(.*?)</tbody>", tab, re.S).group(1), re.S)
+    gruppiert = len(ths) == 5
+    gruppen = {}
+    for z in zeilen:
+        tds = re.findall(r"<td[^>]*>(.*?)</td>", z, re.S)
+        bereich = "Weiteres"
+        if gruppiert:
+            bereich = html.unescape(re.sub(r"<[^>]+>", "", tds[0])).strip()
+            tds = tds[1:]
+            if bereich not in BEREICHE: bereich = "Weiteres"
+        tds[2] = belege(tds[2])
+        gruppen.setdefault(bereich, []).append("<tr>" + "".join(f"<td>{x}</td>" for x in tds) + "</tr>")
+    ths = ths[1:] if gruppiert else ths
+    body = ""
+    for b in BEREICHE + ["Weiteres"]:
+        if b not in gruppen: continue
+        if gruppiert: body += f'<tr class="gruppe"><td colspan="4" data-bereich="{html.escape(b)}">{html.escape(b)}</td></tr>'
+        body += "".join(gruppen[b])
+    neu = "<table class=\"vergleich\"><thead><tr>" + "".join(f"<th>{x}</th>" for x in ths) + f"</tr></thead><tbody>{body}</tbody></table>"
+    return h[:m.start()] + m.group(1) + neu + h[m.end():]
 
 def eckdaten(body):
     eck = {}
@@ -43,11 +81,12 @@ def eckdaten(body):
 
 # Anzeige der englischen Fassung: Urteile und Eckdaten-Beschriftungen übersetzen (im Markdown bleiben sie deutsch)
 ECK_EN = {"Firma": "Company", "Preise": "Pricing", "Hosting": "Hosting", "Zertifikat": "Certifications", "Zertifikate": "Certifications",
-          "Referenzen": "References", "Lizenz": "License", "KI-Abrechnung": "AI billing"}
+          "Referenzen": "References", "Lizenz": "License", "KI-Abrechnung": "AI billing", "Gegründet": "Founded", "Ursprung": "Origin"}
 def englisch(h, name):
     urteile = {"enneo klar vorn": "enneo clearly ahead", "enneo vorn": "enneo ahead", "gleich": "even", "je nach Fall": "depends",
                f"{name} klar vorn": f"{name} clearly ahead", f"{name} vorn": f"{name} ahead"}
     h = re.sub(r'(<span class="pill [^"]+">)([^<]+)(</span>)', lambda m: m.group(1) + urteile.get(m.group(2), m.group(2)) + m.group(3), h)
+    h = re.sub(r'(data-bereich=")([^"]+)(">)([^<]+)', lambda m: m.group(1) + m.group(2) + m.group(3) + html.escape(BEREICH_EN.get(html.unescape(m.group(4)), html.unescape(m.group(4)))), h)
     return re.sub(r"(<tr>\s*<td>)([^<]+)(</td>)", lambda m: m.group(1) + ECK_EN.get(m.group(2), m.group(2)) + m.group(3), h)
 
 karten = []
@@ -107,11 +146,12 @@ for k in karten:
     h = k["html"]
     teile = re.split(r"(?=<h2>)", h)
     def sek(t): return next((x for x in teile if x.startswith(f"<h2>{t}</h2>")), "")
-    fazit = sek("Fazit"); quellen = sek("Quellen"); eck = sek("Eckdaten"); satz = sek("Erster Satz")
-    rest = "".join(x for x in teile if x not in (fazit, quellen, eck, satz))
+    fazit = sek("Fazit"); quellen = sek("Quellen"); eck = sek("Eckdaten"); satz = sek("Erster Satz"); direkt = sek("Direktlinks")
+    rest = "".join(x for x in teile if x not in (fazit, quellen, eck, satz, direkt))
     rest = rest.replace("<h2>Business-Impact</h2>\n<table>", '<h2>Business-Impact</h2>\n<table class="impact">')
     rest = rest.replace("<h2>Intern</h2>", '<h2 class="intern">Intern · nur für enneo</h2>')
     links = " · ".join(f'<a href="{u}">{t}</a>' for u, t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>', quellen))
+    direktlinks = " · ".join(f'<a href="{u}">{t}</a>' for u, t in re.findall(r'href="([^"]+)"[^>]*>([^<]+)</a>', direkt))
     doc = f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="../druck.css"></head><body>
 <div class="hd"><div class="l"><img src="../assets/enneo-logo.svg"><span class="sec">Intern · Vertrieb</span></div>
 <div class="r"><b>Vergleich · enneo vs. {k['name']}</b>Stand {datum(k['stand'])} · nur intern</div></div>
@@ -120,6 +160,7 @@ for k in karten:
 {('<div class="satz"><span>Erster Satz im Call</span>' + re.sub(r"</?p>", "", satz.replace('<h2>Erster Satz</h2>','')) + '</div>') if satz else ''}
 {('<div class="fazit">' + fazit.replace('<h2>Fazit</h2>','') + '</div>') if fazit else ''}
 {rest}
+{('<h2 class="kurz">Direkt beim Anbieter</h2><p class="direkt">' + direktlinks + '</p>') if direktlinks else ''}
 <h2>Quellen</h2><p class="quellen">{links}</p></body></html>"""
     src = DRUCK / f"{k['slug']}.html"; src.write_text(doc)
     ziel = ROOT / "pdf" / f"enneo-vs-{k['slug']}.pdf"

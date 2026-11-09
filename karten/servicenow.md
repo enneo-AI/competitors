@@ -4,7 +4,7 @@ slug: "servicenow"
 fokus: "CRM & ERP"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-06"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.servicenow.com"
 kurz: "US-Workflow-Plattform, Kundenservice mit KI-Agenten unter dem Namen Otto"
@@ -15,6 +15,8 @@ kurz: "US-Workflow-Plattform, Kundenservice mit KI-Agenten unter dem Namen Otto"
 | | | |
 |---|---|---|
 | Firma | **USA, 29.500+ MA** | ServiceNow, rund 8.800 Kunden, 12,9 Mrd. USD Abo-Umsatz 2025. In Deutschland Service-now.com GmbH, München |
+| Gegründet | **2004** | Von Fred Luddy als Glidesoft, Inc. in Kalifornien gegründet, seit 2006 Service-now.com, seit 2012 ServiceNow, Inc. |
+| Ursprung | **IT-Service seit 2004** | Gedacht als Plattform für Geschäftsanwendungen, auf den Markt kam sie mit IT-Service-Management. Generative KI (Now Assist) für Kundenservice seit September 2023 |
 | Preise | **nicht öffentlich** | Pakete CSM Advanced und CSM Prime nur auf Anfrage. Die selbstständigen „AI Specialists“ und die Personaleinsatzplanung gibt es nur in Prime |
 | Hosting | **eigene RZ, auch Deutschland** | Eigene Rechenzentren in Frankfurt und Düsseldorf seit 2018. Sprachmodelle über Now LLM Service oder Azure OpenAI. Souveräne Variante über den Partner STACKIT |
 | Zertifikat | **ISO 27001, C5, SOC 2** | Dazu ISO 27017, 27018, 27701, 42001 und EU Cloud CoC. C5-Testat seit 2020 |
@@ -37,13 +39,13 @@ ServiceNow ist die Workflow-Plattform vieler Konzerne, zuerst für IT, daneben f
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgemails, weniger Fälle | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Telefonie im Produkt** | Kein zweites Contact-Center-System lizenzieren und anbinden, eine Ansprechstelle | „Bei uns sind Telefonie und Voicebot im Produkt, Sie brauchen kein Genesys oder NICE daneben.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
-| **KI-Agenten in Worten statt Skript** | Fachbereich pflegt Abläufe selbst, weniger Abhängigkeit von Entwicklern und Beratern | „Bei uns beschreiben Sie einen KI-Agenten in Worten und ändern ihn per Chat.“ |
-| **Deutscher Anbieter** | Datenschutzprüfung ohne Fragen zur US-Muttergesellschaft, Unterlagen liegen vorab vor | „Wir sind eine deutsche GmbH, und AVV, TOM und Subunternehmer können Sie heute schon einsehen.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Der Kunde bekommt eine vollständige Antwort, es entstehen weniger Rückfragen, Folgemails und Fälle | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Telefonie und Voicebot im Produkt** | Ein System und ein Vertrag für Mail und Telefon, eine Ansprechstelle für alles | „Bei uns sind Telefonie und Voicebot im Produkt, Sie brauchen kein Genesys oder NICE daneben.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten sind schnell produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **KI-Agenten in normaler Sprache** | Der Fachbereich pflegt seine Abläufe selbst, weniger Aufwand für Entwickler und Berater | „Bei uns beschreiben Sie einen KI-Agenten in Worten und ändern ihn per Chat.“ |
+| **Deutsche GmbH mit offenen Unterlagen** | Die Datenschutzprüfung geht schneller, weil Vertragspartner und alle Unterlagen vorab feststehen | „Wir sind eine deutsche GmbH, und AVV, TOM und Subunternehmer können Sie heute schon einsehen.“ |
 
 ## Wo ServiceNow vorn liegt
 
@@ -55,20 +57,20 @@ ServiceNow ist die Workflow-Plattform vieler Konzerne, zuerst für IT, daneben f
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | ServiceNow | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Ablauf „Triage cases“ ordnet ein, zieht Daten, antwortet. Ab Werk schreibgeschützt, muss kopiert und eingeschaltet werden | gleich |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert, der Ablauf bestimmt ein Ziel und folgt einem Pfad | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Daten aus Mails und Anhängen, Prüfung von Dokumenten nach Checkliste. Fotos nicht ausdrücklich genannt | gleich |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Beispiele sind Rückgabe, Beschwerde, Rückruf | enneo vorn |
-| **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern | AI Agent Studio in Worten, Datenauslese teils per Skriptdatei | enneo vorn |
-| **Telefonie** | Eigene Telefonie oder SIP-Leitung des Kunden | Anrufe aus dem Telefonnetz nur über fremdes Contact-Center-System, eigene Stimme nur im Browser oder in der App | enneo vorn |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Eigene Rechenzentren in Frankfurt und Düsseldorf, US-Konzern, Sprachmodelle über Now LLM Service oder Azure OpenAI | enneo vorn |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Pakete Advanced und Prime, autonome KI-Spezialisten nur in Prime | je nach Fall |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2, C5 | ServiceNow klar vorn |
-| **Personalplanung und Live-Steuerung** | Kein WFM, kein Live-Dashboard, Scorecards | Personaleinsatzplanung, Manager-Ansicht in Echtzeit, Coaching | ServiceNow klar vorn |
-| **Kanäle und Hilfecenter** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon. Kein Hilfecenter | E-Mail, Chat, SMS, WhatsApp, Apple Messages, Kundenportal mit Selbstbedienung | ServiceNow vorn |
-| **Plattform und Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | IT, Field Service, HR und eigene Apps auf einer Plattform, A2A und MCP | ServiceNow klar vorn |
+| Bereich | Thema | enneo | ServiceNow | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Telefonie** | Eigene Telefonie oder SIP-Leitung des Kunden | Anrufe aus dem Telefonnetz nur über fremdes Contact-Center-System, eigene Stimme nur im Browser oder in der App [Contact Center](https://www.servicenow.com/products/contact-center.html) | enneo vorn |
+| Kanäle | **Kanäle und Hilfecenter** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon. Kein Hilfecenter | E-Mail, Chat, SMS, WhatsApp, Apple Messages, Kundenportal mit Selbstbedienung [Contact Center](https://www.servicenow.com/products/contact-center.html) | ServiceNow vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht und antwortet, auch vollautomatisch | Ablauf „Triage cases“ ordnet ein, zieht Daten, antwortet. Ab Werk schreibgeschützt, muss kopiert und eingeschaltet werden [Triage cases](https://www.servicenow.com/community/csm-articles/csm-ai-agent-collection-triage-cases-agentic-workflow/ta-p/3426619) [CSM-Doku](https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.html) | gleich |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert, der Ablauf bestimmt ein Ziel und folgt einem Pfad [Triage cases](https://www.servicenow.com/community/csm-articles/csm-ai-agent-collection-triage-cases-agentic-workflow/ta-p/3426619) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Daten aus Mails und Anhängen, Prüfung von Dokumenten nach Checkliste. Fotos nicht ausdrücklich genannt [Triage cases](https://www.servicenow.com/community/csm-articles/csm-ai-agent-collection-triage-cases-agentic-workflow/ta-p/3426619) | gleich |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Nicht gefunden, Beispiele sind Rückgabe, Beschwerde, Rückruf [CSM Pakete](https://www.servicenow.com/products/customer-service-management/pricing.html) [CSM-Doku](https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.html) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern | AI Agent Studio in Worten, Datenauslese teils per Skriptdatei [AI Agents](https://www.servicenow.com/products/ai-agents.html) [Triage cases](https://www.servicenow.com/community/csm-articles/csm-ai-agent-collection-triage-cases-agentic-workflow/ta-p/3426619) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Personalplanung und Live-Steuerung** | Kein WFM, kein Live-Dashboard, Scorecards | Personaleinsatzplanung, Manager-Ansicht in Echtzeit, Coaching [Contact Center](https://www.servicenow.com/products/contact-center.html) [CSM Pakete](https://www.servicenow.com/products/customer-service-management/pricing.html) | ServiceNow klar vorn |
+| Arbeitsplatz & Anbindungen | **Plattform und Ökosystem** | API, MCP, Code-Werkzeuge je Kunde | IT, Field Service, HR und eigene Apps auf einer Plattform, A2A und MCP [AI Agents](https://www.servicenow.com/products/ai-agents.html) [Contact Center](https://www.servicenow.com/products/contact-center.html) | ServiceNow klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Eigene Rechenzentren in Frankfurt und Düsseldorf, US-Konzern, Sprachmodelle über Now LLM Service oder Azure OpenAI [Rechenzentren](https://www.computerwoche.de/article/2780093/servicenow-eroeffnet-rechenzentren-in-duesseldorf-und-frankfurt-main.html) [Sprachmodelle](https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/enable-ai-experiences/manage-large-language-models.html) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 42001, SOC 2, C5 [Compliance](https://www.servicenow.com/company/trust/compliance.html) | ServiceNow klar vorn |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich, Pakete Advanced und Prime, autonome KI-Spezialisten nur in Prime [CSM Pakete](https://www.servicenow.com/products/customer-service-management/pricing.html) | je nach Fall |
 
 ## Wo ServiceNow schwächer ist
 
@@ -98,6 +100,14 @@ ServiceNow ist die Workflow-Plattform vieler Konzerne, zuerst für IT, daneben f
 
 Gegen ServiceNow gewinnen wir nicht über Plattformbreite, Zertifikate oder Contact-Center-Steuerung, und wo ServiceNow für die IT gesetzt ist, ersetzen wir es nicht. Gewinnen können wir im Kundenservice mit viel Schriftverkehr und Anrufen: mehrere Anliegen in einer Mail, Telefonie im Produkt, fertige Versorger-Abläufe und ein deutscher Anbieter. Am besten als klarer Anwendungsfall neben ServiceNow, nicht als zweite Plattform.
 
+## Direktlinks
+
+- [Doku](https://www.servicenow.com/docs/)
+- [API](https://developer.servicenow.com/dev.do)
+- [Community](https://www.servicenow.com/community/)
+- [Trust Center](https://www.servicenow.com/company/trust/compliance.html)
+- [Preise](https://www.servicenow.com/products/customer-service-management/pricing.html)
+
 ## Quellen
 
 - [Customer Service Management](https://www.servicenow.com/products/customer-service-management.html)
@@ -113,6 +123,11 @@ Gegen ServiceNow gewinnen wir nicht über Plattformbreite, Zertifikate oder Cont
 - [Sprachmodelle verwalten (Doku)](https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/enable-ai-experiences/manage-large-language-models.html)
 - [Compliance](https://www.servicenow.com/company/trust/compliance.html)
 - [Impressum](https://www.servicenow.com/de/impressum.html)
+- [Geschäftsbericht 10-K 2015, Gründung als Glidesoft](https://www.sec.gov/Archives/edgar/data/1373715/000137371516000324/now-20151231x10k.htm)
+- [Blog: Gründung 2004 und Start mit ITSM](https://www.servicenow.com/blogs/2025/servicenow-platform-first-forever)
+- [Pressemitteilung Now Assist, 20.09.2023](https://newsroom.servicenow.com/press-releases/details/2023/ServiceNow-launches-Now-Assist-for-ITSM-CSM-HRSD-and-Creator-to-embed-generative-AI-across-all-workflows-on-the-Now-Platform-09-20-2023-traffic/default.aspx)
+- [Entwicklerportal](https://developer.servicenow.com/dev.do)
+- [Community](https://www.servicenow.com/community/)
 - [Fact Sheet Q1 2026](https://s205.q4cdn.com/537566246/files/doc_financials/2026/q1/Q1-2026-Fact-Sheet.pdf)
 - [Rechenzentren Frankfurt und Düsseldorf](https://www.computerwoche.de/article/2780093/servicenow-eroeffnet-rechenzentren-in-duesseldorf-und-frankfurt-main.html)
 - [ServiceNow auf STACKIT](https://www.computerwoche.de/article/2834088/servicenow-goes-stackit-cloud.html)

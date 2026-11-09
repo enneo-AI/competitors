@@ -1,6 +1,6 @@
 ---
 slug: "zoho"
-stand: "2026-11-06"
+stand: "2026-11-09"
 kurz: "Low-cost helpdesk from India's Zoho, AI Zia with in-house models"
 ---
 
@@ -9,6 +9,8 @@ kurz: "Low-cost helpdesk from India's Zoho, AI Zia with in-house models"
 | | | |
 |---|---|---|
 | Firma | **Chennai, private, 19,000+ employees** | Zoho Corporation, bootstrapped and profitable, according to Zoho over 1m paying customers. Zoho Desk cites 125,000+ businesses. The contracting party in DACH is Zoho Corporation GmbH, German law, jurisdiction Düsseldorf |
+| Gegründet | **1996** | As AdventNet in New Jersey (USA), co-founders Sridhar Vembu and Tony Thomas. The company has been called Zoho Corporation since 2009 |
+| Ursprung | **Network management since 1996** | Started with software for network management. Zoho Desk has existed since 2016, the AI assistant Zia since 2017, the in-house language model Zia LLM since July 2025 |
 | Preise | **€7 / €14 / €23 / €40** | Express / Standard / Professional / Enterprise per agent per month, billed annually, monthly €9 / €20 / €35 / €50. Zoho's own AI model from Professional, Zia actions Enterprise only. AI agents: 30m tokens per month free, then USD 1 per 1m tokens |
 | Hosting | **Amsterdam + Dublin** | According to Zoho its own data centers, accounts on zoho.eu stay in Europe. Zoho's own language models also run in the EU data center, OpenAI there only with your own key |
 | Zertifikat | **ISO 27001, SOC 2** | Plus ISO 27017, 27018, 27701, 9001, SOC 1. BSI C5 and ISO 42001 not listed |
@@ -31,14 +33,14 @@ Zoho Desk is a mature, very affordable helpdesk from a large software group with
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email AI through to the booking** | Fewer agents needed for written correspondence, because cases get resolved, not just answered | "According to the documentation, Zoho's automatic reply sends help articles. With us, the case is booked in the ERP afterwards." |
+| **Email AI through to the booking** | Cases get resolved, not just answered, fewer agents needed for written correspondence | "With us, the case is resolved after the email and booked in the ERP, not just answered." |
 | **Multiple requests in one pass** | One complete reply instead of follow-up questions and repeat tickets | "If your customer puts a meter reading, IBAN and installment in one email, they get one reply from us." |
-| **Reading attachments and photos** | Nobody has to retype meter photos and PDF attachments | "Our AI simply reads a meter photo in the attachment as well." |
-| **AI agents in the product, data in Germany** | No waiting for activation, no ticket data in data centers in the US or India | "You can use our AI agents right away, and your ticket data is stored at Hetzner in Germany." |
+| **Reading attachments and photos** | Meter photos and PDF attachments are captured automatically, nobody retypes them | "Our AI simply reads a meter photo in the attachment as well." |
+| **AI agents in the product, data in Germany** | AI agents usable right away, ticket data stays in Germany | "You can use our AI agents right away, and your ticket data is stored at Hetzner in Germany." |
 | **Ready-made workflows for utilities** | Productive faster, only the ERP integration is built | "We bring the most important utility workflows ready-made with plausibility checks." |
-| **Voicebot in the same system** | No second product for telephony and voice AI to license and maintain | "Phone, voicebot and email run in one system with one contract with us." |
+| **Voicebot in the same system** | Telephony, voicebot and email in one system with one contract | "Phone, voicebot and email run in one system with one contract with us." |
 
 ## Wo Zoho Desk vorn liegt
 
@@ -50,20 +52,20 @@ Zoho Desk is a mature, very affordable helpdesk from a large software group with
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Zoho Desk | Einordnung |
-|---|---|---|---|
-| **AI processing of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | First reply with knowledge articles once per ticket, field extraction, drafts. Booking in third-party systems not documented | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. a meter photo | Not documented for the AI | enneo vorn |
-| **AI agents available** | In the product, data at Hetzner in Germany | Zia Agents for Desk only for selected users, US and India data centers | enneo vorn |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details ready-made, ERP integration per customer | Not found | enneo vorn |
-| **Telephony and voicebot** | Own telephony or the customer's SIP trunk, voicebot via OpenAI or Deepslate | Zoho Voice from Professional or Twilio extension, AI voicebot not found | enneo vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Subprocessor directory public, DPA only in the account after approval by Zoho, audit reports for admins only | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | Amsterdam and Dublin, according to Zoho its own data centers | gleich |
-| **Language models** | US providers by default, EU models in the DPA: Mistral, Nebius, Media Trooper | Own models in its own EU data center, third-party models with your own key | Zoho Desk vorn |
-| **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 9001, SOC 1, SOC 2 | Zoho Desk klar vorn |
-| **License price** | Package prices per ticket and voice minute (pricing model 2.2) | €7 to €40 per agent per month, generous AI tokens included | Zoho Desk klar vorn |
-| **Help center for end customers** | None | Help center with community, answer bot, 40+ languages | Zoho Desk klar vorn |
+| Area | Topic | enneo | Zoho Desk | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Telephony and voicebot** | Own telephony or SIP line, voicebot via OpenAI or Deepslate | Zoho Voice from Professional or a Twilio extension, AI voicebot not found [Telephony with Zoho Voice](https://www.zoho.com/voice/help/zoho-desk-telephony-integration.html) [Twilio extension](https://marketplace.zoho.com/app/desk/twilio-for-zoho-desk) [Zia in Zoho Desk](https://www.zoho.com/de/desk/zia.html) | enneo vorn |
+| Kanäle | **Help center for end customers** | None | Help center with community, answer bot, 40+ languages [Pricing](https://www.zoho.com/de/desk/pricing.html) | Zoho Desk klar vorn |
+| KI & Automatisierung | **AI processing of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | First reply with knowledge articles once per ticket, field extraction, drafts. Booking in third-party systems not documented [FAQ Zia actions](https://help.zoho.com/portal/en/kb/desk/faqs/automation/articles/faqs-workflow-automation-with-zia-actions) [Zia Agents in Zoho Desk](https://help.zoho.com/portal/en/kb/desk/agentic-ai/articles/zia-agents-in-zoho-desk) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [FAQ Zia actions](https://help.zoho.com/portal/en/kb/desk/faqs/automation/articles/faqs-workflow-automation-with-zia-actions) [Zia Agents in Zoho Desk](https://help.zoho.com/portal/en/kb/desk/agentic-ai/articles/zia-agents-in-zoho-desk) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Not documented for the AI [Zia in Zoho Desk](https://www.zoho.com/de/desk/zia.html) [FAQ Zia actions](https://help.zoho.com/portal/en/kb/desk/faqs/automation/articles/faqs-workflow-automation-with-zia-actions) | enneo vorn |
+| KI & Automatisierung | **AI agents available** | In the product, data at Hetzner in Germany | Zia Agents for Desk only for selected users, data centers USA and India [Zia Agents in Zoho Desk](https://help.zoho.com/portal/en/kb/desk/agentic-ai/articles/zia-agents-in-zoho-desk) | enneo vorn |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Not found [Zoho Desk](https://www.zoho.com/de/desk/) [Zia in Zoho Desk](https://www.zoho.com/de/desk/zia.html) | enneo vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Subprocessor list public, DPA only in the account after approval by Zoho, audit reports only for admins [Subprocessors](https://www.zoho.com/privacy/sub-processors.html) [DPA in the Zoho account](https://help.zoho.com/portal/en/kb/accounts/manage-your-zoho-account/articles/privacy) [Certifications](https://www.zoho.com/compliance.html) | enneo vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | Amsterdam and Dublin, according to Zoho its own data centers [Data centers in Europe](https://www.zoho.com/blog/index.php/general/zoho-data-centers-in-europe.html) [About Zoho](https://www.zoho.com/aboutus.html) | gleich |
+| Daten & Sicherheit | **Language models** | US providers by default, EU models in the DPA: Mistral, Nebius, Media Trooper | Own models in its own EU data center, third-party models with your own key [Zoho Agents models](https://www.zoho.com/agents/resources/help/platform-reference/model-configuration.html) [Zia features by plan](https://help.zoho.com/portal/es/community/topic/more-zia-ai-capabilities-are-included-across-additional-zoho-desk-editions) | Zoho Desk vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, in progress. Hetzner ISO 27001 | ISO 27001, 27017, 27018, 27701, 9001, SOC 1, SOC 2 [Certifications](https://www.zoho.com/compliance.html) | Zoho Desk klar vorn |
+| Preis & Vertrag | **License price** | Package prices per ticket and voice minute (pricing model 2.2) | €7 to €40 per agent per month, generous AI tokens included [Pricing](https://www.zoho.com/de/desk/pricing.html) [Pricing data](https://www.zohowebstatic.com/sites/zweb/json/pricing/desk-pricing-val.json) [Zoho Agents pricing](https://www.zoho.com/agents/pricing.html) | Zoho Desk klar vorn |
 
 ## Wo Zoho Desk schwächer ist
 
@@ -91,6 +93,16 @@ No internal insights in Attio yet (as of Nov 6, 2026).
 
 Against Zoho Desk, we don't win on license price, certifications, help center or the Zoho ecosystem. We can win where many emails need to be resolved, not just answered: multiple requests, attachments, booking in the ERP and ready-made workflows for utilities. Anyone using Zoho Desk only as a low-cost ticketing system is often the wrong conversation for us.
 
+## Direktlinks
+
+- [Doku](https://help.zoho.com/portal/en/kb/desk)
+- [API](https://desk.zoho.com/DeskAPIDocument)
+- [Community](https://help.zoho.com/portal/en/community/zoho-desk)
+- [Trust Center](https://www.zoho.com/trust.html)
+- [Preise](https://www.zoho.com/de/desk/pricing.html)
+- [Release Notes](https://www.zoho.com/desk/release-notes.html)
+- [Status](https://eu.zohostatus.com/)
+
 ## Quellen
 
 - [Zoho Desk](https://www.zoho.com/de/desk/)
@@ -103,7 +115,7 @@ Against Zoho Desk, we don't win on license price, certifications, help center or
 - [Zoho Desk 2025 recap](https://help.zoho.com/portal/en/community/topic/zoho-desk-2025-recap)
 - [Zoho Agents](https://www.zoho.com/agents/)
 - [Zoho Agents pricing](https://www.zoho.com/agents/pricing.html)
-- [Zoho Agents models and data centers](https://www.zoho.com/agents/resources/help/platform-reference/platform-details.html)
+- [Zoho Agents models and data centers](https://www.zoho.com/agents/resources/help/platform-reference/model-configuration.html)
 - [Press release Zia LLM](https://prezohoweb.zoho.com/news/zoho-launches-zia-llm-and-deepens-ai-portfolio-with-prebuilt-agents-custom-agent-builder-mcp-and-marketplace.html)
 - [Telephony with Zoho Voice](https://www.zoho.com/voice/help/zoho-desk-telephony-integration.html)
 - [Certifications](https://www.zoho.com/compliance.html)
@@ -113,3 +125,6 @@ Against Zoho Desk, we don't win on license price, certifications, help center or
 - [Contracting entities by region](https://manageengine.com/legal/zoho-contracting-entities.html)
 - [Zoho key figures 2026](https://ecommercenews.asia/story/zoho-tops-one-million-paying-customers-in-30th-year)
 - [User reviews](https://omr.com/de/reviews/product/zoho-desk/all)
+- [About Zoho, company history](https://www.zoho.com/aboutus.html)
+- [Twilio extension](https://marketplace.zoho.com/app/desk/twilio-for-zoho-desk)
+- [Security at Zoho](https://www.zoho.com/trust.html)

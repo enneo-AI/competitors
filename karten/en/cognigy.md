@@ -1,6 +1,6 @@
 ---
 slug: "cognigy"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "AI agent platform for phone and chat from Düsseldorf, owned by NiCE"
 ---
 
@@ -9,6 +9,8 @@ kurz: "AI agent platform for phone and chat from Düsseldorf, owned by NiCE"
 | | | |
 |---|---|---|
 | Firma | **Düsseldorf, part of NiCE** | Cognigy GmbH, founded 2016. Part of NiCE since Sep 8, 2025, purchase price around USD 955m. According to NiCE, over 1,000 brands as customers. Headcount not found |
+| Gegründet | **2016, Düsseldorf** | By Philipp Heltewig and Sascha Poggemann |
+| Ursprung | **AI from the start** | Founded to build a platform for customer service automation with conversational AI. Office in San Francisco in 2017, acquired by NiCE in 2025 |
 | Preise | **not public** | Billed per conversation (up to 50 inputs within 24 hours), phone via concurrent lines. Knowledge AI, xApps, Ops Center and Voice Gateway licensed separately |
 | Hosting | **SaaS in four regions** | Europe, USA, UK, Australia. Operator of the European environment not named. Via NiCE CXone on AWS, including Frankfurt. No longer on-premises for new customers |
 | Zertifikat | **ISO 27001, SOC 2, C5** | According to the Trust Center, also ISO 27701, ISO 42001, TISAX. Type and scope of the C5 attestation not stated |
@@ -31,13 +33,13 @@ Cognigy is one of the best-known platforms for AI agents on the phone and in cha
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Incoming email all the way to the booking** | No second system to buy and maintain for written correspondence | "For incoming emails you'd need another system alongside Cognigy. With us, the same AI handles it." |
-| **Agent workspace in the product** | No extra contact center license, no risk from a workspace being phased out | "Cognigy's agent workspace no longer gets new features. With us, it's part of the product." |
-| **Multiple requests and attachments** | Fewer follow-up contacts, one case instead of several | "Meter reading, new IBAN and the meter photo attached: with us that's one pass and one reply." |
-| **Ready-made processes for utilities** | Less build effort for the most common requests | "You don't build meter reading, installment and bank details yourself with us, the AI agents are ready." |
-| **On-premises possible** | An option for organizations with strict operating requirements | "Cognigy no longer offers new customers operation in their own data center. With us, that's possible at high volume." |
+| **Incoming email all the way to the booking** | Phone, chat and written correspondence run in one system, no second system to buy and maintain for emails | "For incoming emails you'd need another system alongside Cognigy. With us, the same AI handles it." |
+| **Agent workspace in the product** | No extra contact center license, an agent workspace that keeps being developed | "Cognigy's agent workspace no longer gets new features. With us, it's part of the product." |
+| **Multiple requests and attachments in one pass** | One case instead of several, fewer follow-up contacts | "Meter reading, new IBAN and the meter photo attached: with us that's one pass and one reply." |
+| **Ready-made processes for utilities** | Less build effort for the most common requests, live faster | "You don't build meter reading, installment and bank details yourself with us, the AI agents are ready." |
+| **On-premises operation possible** | Even organizations with strict operating requirements can run in their own data center | "Cognigy no longer offers new customers operation in their own data center. With us, that's possible at high volume." |
 
 ## Wo Cognigy vorn liegt
 
@@ -49,20 +51,20 @@ Cognigy is one of the best-known platforms for AI agents on the phone and in cha
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Cognigy | Einordnung |
-|---|---|---|---|
-| **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | No inbound channel for email. Email only for sending from the flow | enneo klar vorn |
-| **Multiple requests in one email** | Everything in one pass, one reply | Not documented | enneo vorn |
-| **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Images in chat via the language model if the channel allows attachments. PDFs from customers not documented | enneo vorn |
-| **Agent workspace** | Ticketing agent workspace with skill-based routing in the product | Live Agent in maintenance mode, handover to third-party contact centers | enneo vorn |
-| **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Not found, processes are built by the customer | enneo vorn |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | SaaS Europe, operator not named. CXone variant on AWS. No longer on-premises for new customers | enneo vorn |
-| **Building and testing AI agents** | Describe in words, change via chat with Neo, test cases | Agent with job description and tools, Simulator with synthetic customers, comparison tests | Cognigy vorn |
-| **Voicebot and speech services** | OpenAI (USA) or Deepslate (EU), less choice | Own Voice Gateway, eight providers plus custom ones, EU-hosted options | Cognigy klar vorn |
-| **Language models** | US providers by default, EU models in the DPA: Mistral, Nebius, Media Trooper | OpenAI, Azure, Anthropic, Google, Bedrock, Mistral, custom endpoint possible | Cognigy vorn |
-| **Contact center integration** | Own telephony, SIP trunk. Teams only via SIP | Handover to CXone, Genesys, Salesforce, 8x8 and others, Teams as a channel | Cognigy vorn |
-| **Certifications** | None of our own, under audit. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2 Type II, TISAX, BSI C5 | Cognigy klar vorn |
-| **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, per conversation, phone via lines, add-on modules separate | je nach Fall |
+| Area | Topic | enneo | Cognigy | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and speech services** | OpenAI (USA) or Deepslate (EU), less choice | Own Voice Gateway, eight providers plus custom ones, EU-hosted options [Speech providers](https://docs.cognigy.com/voice-gateway/references/tts-and-stt-vendors) [Voice Gateway](https://docs.cognigy.com/voice-gateway/technical-capabilities.md) [EU speech services](https://www.cognigy.com/product-updates/2025.17) | Cognigy klar vorn |
+| KI & Automatisierung | **AI handling of emails** | One AI reads, identifies the customer, books and replies, fully automated if desired | No inbound channel for email. Email only for sending from a flow [Channels](https://docs.cognigy.com/ai/agents/deploy/endpoint-reference/overview) [Email sending](https://docs.cognigy.com/ai/agents/develop/node-reference/data/email-notification.md) [Release notes](https://docs.cognigy.com/release-notes/2026.22.md) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests in one email** | Everything in one pass, one reply | Not documented [Channels](https://docs.cognigy.com/ai/agents/deploy/endpoint-reference/overview) [AI Agents](https://docs.cognigy.com/ai/agents/overview.md) | enneo vorn |
+| KI & Automatisierung | **Reading attachments and photos** | PDFs and photos, e.g. meter photo | Images in chat via the language model, if the channel allows attachments. PDFs from customers not documented [LLM Prompt](https://docs.cognigy.com/ai/agents/develop/node-reference/service/llm-prompt.md) | enneo vorn |
+| KI & Automatisierung | **Ready-made processes for utilities** | Meter reading, installment, bank details ready, ERP integration per customer | Not found, processes are built by the customer. The utility reference is a chat assistant [Salzburg AG](https://cognigy.com/en/case-study/salzburg-ag) [AI Agents](https://docs.cognigy.com/ai/agents/overview.md) | enneo vorn |
+| KI & Automatisierung | **Building and testing AI agents** | Describe in plain language, change via chat with Neo, test cases | Agent with job description and tools, simulator with synthetic customers, comparison tests [AI Agents](https://docs.cognigy.com/ai/agents/overview.md) [Simulator](https://docs.cognigy.com/ai/agents/test/simulator/overview.md) [Nexus 2026](https://www.nice.com/press-releases/nice-cognigy-unveils-breakthrough-agentic-ai-innovations-at-nexus-2026) | Cognigy vorn |
+| KI & Automatisierung | **Language models** | US providers by default, EU models under the DPA: Mistral, Nebius, Media Trooper | OpenAI, Azure, Anthropic, Google, Bedrock, Mistral, custom endpoint possible [Models](https://docs.cognigy.com/ai/agents/develop/gen-ai-and-llms/model-support-by-feature.md) [Release notes](https://docs.cognigy.com/release-notes/2026.22.md) | Cognigy vorn |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing agent workspace with skill-based routing in the product | Live Agent in maintenance mode, handover to third-party contact centers [Live Agent](https://docs.cognigy.com/live-agent/installation/browser-requirements) [Handover](https://docs.cognigy.com/ai/escalate/handover-reference/overview.md) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Contact center integration** | Own telephony, SIP trunk. Teams only via SIP | Handover to CXone, Genesys, Salesforce, 8x8 and others, Teams as a channel [Handover](https://docs.cognigy.com/ai/escalate/handover-reference/overview.md) [Channels](https://docs.cognigy.com/ai/agents/deploy/endpoint-reference/overview) | Cognigy vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | SaaS Europe, operator not named. CXone variant on AWS. On-premises no longer for new customers [Regions](https://docs.cognigy.com/ai/administer/installation/ip-ranges-shared-environments.md) [Installation options](https://docs.cognigy.com/ai/administer/installation/about) [Cognigy in CXone](https://help.nicecxone.com/Content/cognigyai/cognigyai.htm) | enneo vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, under audit. Hetzner ISO 27001 | ISO 27001, 27701, 42001, SOC 2 Type II, TISAX, BSI C5 [Trust Center](https://trust.cognigy.com) [BSI C5](https://www.cognigy.com/blog/why-bsi-c5-certification-matters-for-banking-and-insurance) | Cognigy klar vorn |
+| Preis & Vertrag | **Price** | Package prices per ticket and voice minute (pricing model 2.2) | Not public, per conversation, phone via concurrent lines, add-on modules licensed separately [Billing](https://docs.cognigy.com/ai/administer/billing.md) | je nach Fall |
 
 ## Wo Cognigy schwächer ist
 
@@ -94,12 +96,21 @@ Cognigy is one of the best-known platforms for AI agents on the phone and in cha
 
 We don't win against Cognigy on voicebot, AI agent testing, certifications or the size of references. We can win where incoming emails and letters should be processed automatically all the way to the booking, with multiple requests, attachments, energy processes and its own agent workspace in the same product. Where Cognigy already runs on the phone, enneo for written correspondence alongside it is often the better conversation than a complete switch.
 
+## Direktlinks
+
+- [Doku](https://docs.cognigy.com/)
+- [API](https://docs.cognigy.com/api-reference)
+- [Trust Center](https://trust.cognigy.com)
+- [Release Notes](https://docs.cognigy.com/release-notes)
+- [Status](https://status.cognigy.ai/)
+
 ## Quellen
 
 - [Cognigy homepage](https://www.cognigy.com)
+- [About Cognigy](https://www.cognigy.com/about)
 - [Legal notice](https://www.cognigy.com/legal-notice)
 - [Trust Center](https://trust.cognigy.com)
-- [Channels (endpoints)](https://docs.cognigy.com/ai/deploy/endpoint-reference/overview)
+- [Channels (endpoints)](https://docs.cognigy.com/ai/agents/deploy/endpoint-reference/overview)
 - [Email notification (sending only)](https://docs.cognigy.com/ai/agents/develop/node-reference/data/email-notification.md)
 - [LLM Prompt node, reading images](https://docs.cognigy.com/ai/agents/develop/node-reference/service/llm-prompt.md)
 - [Installation types](https://docs.cognigy.com/ai/administer/installation/about)
@@ -108,6 +119,8 @@ We don't win against Cognigy on voicebot, AI agent testing, certifications or th
 - [Live Agent inboxes](https://docs.cognigy.com/live-agent/settings/inboxes.md)
 - [Billing](https://docs.cognigy.com/ai/administer/billing.md)
 - [AI Agents](https://docs.cognigy.com/ai/agents/overview.md)
+- [Supported language models](https://docs.cognigy.com/ai/agents/develop/gen-ai-and-llms/model-support-by-feature.md)
+- [Handover to contact centers](https://docs.cognigy.com/ai/escalate/handover-reference/overview.md)
 - [Simulator](https://docs.cognigy.com/ai/agents/test/simulator/overview.md)
 - [Simulator launch January 2026](https://www.cmswire.com/contact-center/nice-unveils-cognigy-simulator-for-ai-agent-testing/)
 - [Nexus 2026](https://www.nice.com/press-releases/nice-cognigy-unveils-breakthrough-agentic-ai-innovations-at-nexus-2026)

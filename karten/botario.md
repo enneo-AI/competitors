@@ -4,7 +4,7 @@ slug: "botario"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://botario.com"
 kurz: "Chat- und Voicebots mit eigener Sprachtechnik, seit 2026 Teil von NFON"
@@ -15,6 +15,8 @@ kurz: "Chat- und Voicebots mit eigener Sprachtechnik, seit 2026 Teil von NFON"
 | | | |
 |---|---|---|
 | Firma | **Teil der NFON AG** | botario GmbH, 2024 von NFON (München, börsennotiert, 89,1 Mio. € Umsatz 2025) gekauft, seit 04.08.2026 in die NFON AG verschmolzen. Vorher Ausgründung von JUST ADD AI |
+| Gegründet | **2019, Bremen** | Ende 2019 ins Handelsregister Bremen eingetragen, bis zum Kauf durch NFON 2024 im Besitz der JUST ADD AI GmbH. Gründer nicht genannt |
+| Ursprung | **von Anfang an KI** | Laut Handelsregister gegründet für Software zur automatisierten Gesprächsführung mit KI, heute Chat- und Voicebots mit eigener Sprachtechnik |
 | Preise | **nicht öffentlich** | Pakete „Ersteinschätzung“, Professional, Enterprise. Sprachdienste lizenzbasiert statt pro Minute, je nach Sprachmodell Zusatzkosten |
 | Hosting | **Hetzner Nürnberg, On-Prem** | Laut botario Hetzner-Server in Nürnberg, alle Module auch beim Kunden, Sprache auch vollständig ohne Internetverbindung |
 | Referenzen | **Versorger, Krankenkassen** | swb, ENTEGA, E-Netz Südhessen, Pfalzwerke, 123energie, laut botario über 25 gesetzliche Krankenkassen, Tchibo MOBIL, CEWE |
@@ -37,11 +39,11 @@ botario baut Chatbots, Voicebots und Livechat, dazu eigene Spracherkennung und S
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, nicht nur weniger Anrufe | „Bei uns bucht die KI auch das, was per Mail kommt, im Zielsystem und antwortet selbst.“ |
-| **Mehrere Anliegen und Anhänge in einer Mail** | Ein Vorgang statt mehrerer, kein Abtippen von Zählerfotos und PDFs | „Zählerstand, IBAN und Abschlag in einer Mail mit Foto: bei uns ein Durchgang und eine Antwort.“ |
-| **Arbeitsplatz im selben Produkt** | Kein zusätzliches Ticketsystem lizenzieren und anbinden | „Was der Bot nicht löst, landet bei uns im selben System bei Ihren Mitarbeitenden.“ |
+| **E-Mail bis zur Buchung** | Auch der Schriftverkehr läuft automatisch, weniger Mitarbeitende für Mails, nicht nur weniger Anrufe | „Bei uns bucht die KI auch das, was per Mail kommt, im Zielsystem und antwortet selbst.“ |
+| **Mehrere Anliegen und Anhänge in einem Durchgang** | Ein Vorgang statt mehrerer, Zählerfotos und PDFs werden automatisch erfasst | „Zählerstand, IBAN und Abschlag in einer Mail mit Foto: bei uns ein Durchgang und eine Antwort.“ |
+| **Arbeitsplatz im selben Produkt** | Ein System und ein Vertrag für Bot und Mitarbeitende, kein zusätzliches Ticketsystem | „Was der Bot nicht löst, landet bei uns im selben System bei Ihren Mitarbeitenden.“ |
 | **Brief als eigener Kanal** | Papierpost läuft durch dieselbe Automatisierung, kein Sonderprozess | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre E-Mails.“ |
 | **Datenschutzunterlagen öffentlich** | Datenschutzprüfung ohne Nachforderungen, weil alles vorab vorliegt | „Unsere AVV, TOM, Subunternehmer und SLA können Sie heute schon selbst einsehen.“ |
 
@@ -55,20 +57,20 @@ botario baut Chatbots, Voicebots und Livechat, dazu eigene Spracherkennung und S
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | botario | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | E-Mail als Kanal genannt, KI-Bearbeitung nicht beschrieben. Agent Studio nennt Chat und Telefon | enneo klar vorn |
-| **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos in Mails, z. B. Zählerfoto | Uploads im Chat (Schaden, Retouren), für E-Mail nicht dokumentiert | enneo vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben Produkt | Livechat mit Textbausteinen, Notizen, Live-Bericht. Ticketsysteme werden angebunden | enneo vorn |
-| **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Agent Studio: in Worten oder als Ablauf, KI-Assistent, Test per Chat und Telefon, Freigabe und Rückgängig | gleich |
-| **Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Adress- und Vertragsänderung per Chat und Telefon. SAP als Beispiel, Anbindung pro Projekt | je nach Fall |
-| **Sprachtechnik am Telefon** | OpenAI (USA) oder Deepslate (EU) | Eigene Spracherkennung und Sprachausgabe, über 25 Sprachen, Stimmen klonen | botario klar vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | GPT oder Modelle beim Kunden, Anbieter wechselbar | botario vorn |
-| **Betrieb beim Kunden** | Ab großem Volumen | Alle Module, Sprache auch ohne Internetverbindung | botario vorn |
-| **Wo gespeichert wird** | Hetzner, Deutschland, Backups in Finnland | Hetzner Nürnberg laut botario | gleich |
-| **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich gefunden, nur Siegel ohne Nachweis | enneo vorn |
-| **Referenzen in DACH** | Versorger, Namen nicht öffentlich | Versorger, Krankenkassen, Telekommunikation mit Namen | botario vorn |
+| Bereich | Thema | enneo | botario | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Sprachtechnik am Telefon** | OpenAI (USA) oder Deepslate (EU) | Eigene Spracherkennung und Sprachausgabe, über 25 Sprachen, Stimmen klonen [Speech-to-Text](https://botario.com/de/produkte/speech-to-text) [Voicebot](https://botario.com/de/produkte/voice) | botario klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Anliegen, Kunde, Legitimation, Buchung im Zielsystem, Antwort, auch vollautomatisch | E-Mail als Kanal genannt, KI-Bearbeitung nicht beschrieben. Agent Studio nennt Chat und Telefon [Branche Energie](https://botario.com/de/branchen/energie) [Agent Studio](https://botario.com/de/produkte/ai-agent-studio) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Ein Lösungsplan, alle Anliegen in einem Durchgang, eine Antwort | Nicht dokumentiert [Agent Studio](https://botario.com/de/produkte/ai-agent-studio) [Chatbot](https://botario.com/de/produkte/chatbot) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos in Mails, z. B. Zählerfoto | Uploads im Chat (Schaden, Retouren), für E-Mail nicht dokumentiert [Branche Versicherung](https://botario.com/de/branchen/versicherung) [Kundenstory CEWE](https://botario.com/de/kundenstories/cewe) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten bauen und testen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | Agent Studio: in Worten oder als Ablauf, KI-Assistent, Test per Chat und Telefon, Freigabe und Rückgängig [Agent Studio](https://botario.com/de/produkte/ai-agent-studio) | gleich |
+| KI & Automatisierung | **Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Adress- und Vertragsänderung per Chat und Telefon. SAP als Beispiel, Anbindung pro Projekt [Branche Energie](https://botario.com/de/branchen/energie) | je nach Fall |
+| KI & Automatisierung | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | GPT oder Modelle beim Kunden, Anbieter wechselbar [Chatbot](https://botario.com/de/produkte/chatbot) [Voicebot](https://botario.com/de/produkte/voice) | botario vorn |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing, Postfach, Skill-Routing im selben Produkt | Livechat mit Textbausteinen, Notizen, Live-Bericht. Ticketsysteme werden angebunden [Livechat](https://botario.com/de/produkte/livechat) | enneo vorn |
+| Daten & Sicherheit | **Betrieb beim Kunden** | Ab großem Volumen | Cloud, lokal oder gemischt, Sprachdienste auch ganz ohne Internetverbindung [Chatbot](https://botario.com/de/produkte/chatbot) [Speech-to-Text](https://botario.com/de/produkte/speech-to-text) [Kundenstory CEWE](https://botario.com/de/kundenstories/cewe) | botario vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, Deutschland, Backups in Finnland | Hetzner Nürnberg laut botario [Branche Energie](https://botario.com/de/branchen/energie) | gleich |
+| Daten & Sicherheit | **Unterlagen zum Datenschutz** | AVV, TOM, Subunternehmer, SLA öffentlich | Nicht öffentlich gefunden, nur Siegel ohne Nachweis [Agent Studio](https://botario.com/de/produkte/ai-agent-studio) [Startseite](https://botario.com) | enneo vorn |
+| Firma & Referenzen | **Referenzen in DACH** | Versorger, Namen nicht öffentlich | Versorger, Krankenkassen, Telekommunikation mit Namen [Branche Energie](https://botario.com/de/branchen/energie) [Krankenkassen](https://botario.com/de/branchen/krankenkassen) [Kundenstory Tchibo](https://botario.com/de/kundenstories/tchibo) | botario vorn |
 
 ## Wo botario schwächer ist
 
@@ -115,10 +117,12 @@ Gegen botario gewinnen wir nicht über eigene Sprachtechnik, Betrieb ohne Intern
 - [Kundenstory Tchibo MOBIL](https://botario.com/de/kundenstories/tchibo)
 - [Kundenstory Steinbach](https://botario.com/de/kundenstories/steinbach-group)
 - [Impressum NFON](https://www.nfon.com/de/rechtliches/impressum)
+- [Handelsregister botario GmbH](https://www.online-handelsregister.de/handelsregisterauszug/hb/Bremen/HRB/35164HB/botario-GmbH)
+- [Firmenprofil mit Unternehmensgegenstand](https://app.implisense.com/en/companies/botario-gmbh-bremen--DEW6JE82XX11)
 - [NFON übernimmt botario (2024)](https://corporate.nfon.com/en/news/ir-news/corporate-news/nfon-accelerates-transformation-with-acquisition-of-ai-specialist-botario-gmbh-2024-08-21-1200)
 - [Übernahme, deutsche Meldung](https://www.boerse-online.de/dpa-afx/eqs-news-nfon-beschleunigt-transformation-durch-uebernahme-des-ki-spezialisten-botario-gmbh-deutsch-391761.html)
 - [Verschmelzung abgeschlossen (2026)](https://corporate.nfon.com/en/news/ir-news/corporate-news/merger-of-botario-gmbh-completed-2026-08-11-1200)
 - [NFON Geschäftsjahr 2025](https://www.boerse-online.de/dpa-afx/eqs-news-nfon-ag-mit-stabilem-wachstum-im-jahr-2025-ki-loesungen-als-wachstumstreiber-im-portfolio-deutsch-505023.html)
-- [NFON AI Assistants](https://www.nfon.com/en/intelligent-assistant)
+- [NFON AI Assistants](https://www.nfon.com/en/products/ai/assistants/)
 - [NFON C5-Testat](https://www.nfon.com/en/security/c5-attestation/)
 - [Computerwoche zu NFON und KI](https://www.computerwoche.de/article/3834903/so-integriert-nfon-ki-in-die-kommunikation.html)

@@ -1,6 +1,6 @@
 ---
 slug: "loyjoy"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "No-code platform for AI agents in chat and phone from Münster"
 ---
 
@@ -8,7 +8,9 @@ kurz: "No-code platform for AI agents in chat and phone from Münster"
 
 | | | |
 |---|---|---|
-| Firma | **Münster, bootstrapped** | LoyJoy GmbH, founded in 2018, HRB 17049, no venture capital, according to the press kit more than 100 large enterprise customers |
+| Firma | **Münster, bootstrapped** | LoyJoy GmbH, HRB 17049, no venture capital, according to the press kit more than 100 large enterprise customers |
+| Gegründet | **2018 in Münster** | Founders and managing directors Ulf Loetschert (CEO) and Dr. Ulrich Wolffgang (CTO) |
+| Ursprung | **Chat marketing since 2018** | Started with software for conversational marketing, meaning automated chats with playful elements for customer loyalty. Today a platform for AI agents in service and sales via chat and phone |
 | Preise | **€390 / €1,490 per month** | Starter / Professional on an annual contract, incl. 1,000 / 5,000 chats and 100 / 500 phone minutes. Beyond that €0.25 per chat and €0.29 per minute. Enterprise on request, 30-day free trial |
 | Hosting | **Google Cloud EU + own servers** | Platform data at Google Cloud EMEA (Ireland). Chat model Gemma 4 on its own hardware in Münster. Phone AI gpt-realtime-1.5 via Microsoft Azure, EU data zone |
 | Zertifikat | **none of its own** | Data centers ISO 27001 certified, own security management aligned with ISO 27001 and BSI IT-Grundschutz, annual penetration test |
@@ -30,11 +32,11 @@ LoyJoy builds AI agents for website chat, WhatsApp and phone, all without code a
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email and letters all the way to the booking** | Fewer agents needed for written correspondence, no second system just for emails and letters | "With us, the AI also resolves the email and the letter all the way to the booking, not just the chat." |
-| **Booking instead of just capturing** | Less rework in the business department, no retyping of captured cases | "With us, the installment gets booked in the target system, not just captured and forwarded by email." |
-| **Multiple requests and attachments in one email** | One reply instead of several follow-up questions, meter photo without retyping | "We handle a meter reading, a new IBAN and an installment in one email in a single pass with one reply." |
+| **Emails and letters all the way to the booking** | Written correspondence runs automatically too, fewer agents needed for it, no second system just for emails and letters | "With us, the AI also resolves the email and the letter all the way to the booking, not just the chat." |
+| **Booking in the target system** | Less rework in the business department, nobody retypes captured cases | "With us, the installment gets booked in the target system, not just captured and forwarded by email." |
+| **Multiple requests and attachments in one email** | One reply instead of several follow-up questions, meter photos without retyping | "We handle a meter reading, a new IBAN and an installment in one email in a single pass with one reply." |
 | **One agent workspace with skill routing** | No break between bot, phone system and department inbox, less handoff effort | "Whatever the AI can't resolve lands in the same workspace with us, directly with the right agent." |
 | **Storage with a German provider** | Simpler data protection review, on-premises operation for large volumes | "We store data at Hetzner in Germany and, if you want, in your own data center." |
 
@@ -48,27 +50,27 @@ LoyJoy builds AI agents for website chat, WhatsApp and phone, all without code a
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | LoyJoy | Assessment |
-|---|---|---|---|
-| **AI handling of incoming emails** | Read, identify the customer, book in the target system, reply, fully automated if desired | Not found. Email only as a sending module and handoff to the team | enneo klar vorn |
-| **Letters and scans** | Separate channel, same AI as email | Not found | enneo klar vorn |
-| **Agent workspace** | Ticketing workspace for all channels with skill routing | Live chat for web and WhatsApp, phone to the customer's phone system, otherwise handoff by email | enneo klar vorn |
-| **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Web and app chat, WhatsApp, phone | enneo vorn |
-| **Multiple requests** | One email, one pass, one reply | On the phone, multiple requests one after another (Witten) | je nach Fall |
-| **Attachments and photos** | PDFs and photos in emails, e.g. a photo of the meter | Photo upload in chat, on the phone via a link into the chat | je nach Fall |
-| **Ready-made workflows for utilities** | Meter reading, installment, bank details with plausibility checks, ERP integration per customer | Meter reading, installment, move, tariff change. SAP IS-U built at Herne, Wilken, Schleupen, Lima, powercloud mentioned | gleich |
-| **Building AI agents** | Describe in plain words, change via chat with Neo, test cases | No-code with BPMN and prompting, also from Claude or ChatGPT | gleich |
-| **Where data is stored** | Hetzner, German provider, on-premises possible | Google Cloud EMEA, chat model on its own hardware in Münster | enneo vorn |
-| **Language models** | US providers by default, EU models possible under the DPA | Gemma 4 on its own hardware by default, external models optional | LoyJoy vorn |
-| **Voicebot** | Own telephony or SIP trunk, OpenAI (US) or Deepslate (EU) | gpt-realtime-1.5 via Azure EU data zone, own numbers or connection to the phone system | gleich |
-| **Certifications and documents** | None of our own, in progress. DPA, TOMs, subprocessors, SLA public | None of its own, annual pentest. DPA, TOMs, subprocessors in the Trust Center | gleich |
-| **Price and entry point** | Package prices per ticket and voice minute (pricing model 2.2) | Public from €390 per month, 30-day trial | LoyJoy vorn |
+| Area | Topic | enneo | LoyJoy | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Channels** | Email, letter, chat, WhatsApp, Telegram, phone | Web and app chat, WhatsApp, phone [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) [Press kit](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf) | enneo vorn |
+| Kanäle | **Letters and scans** | Separate channel, same AI as email | Not found [Press kit](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf) [Municipal utilities](https://www.loyjoy.com/de/industries/stadtwerke/) | enneo klar vorn |
+| Kanäle | **Voicebot** | Own telephony or SIP trunk, OpenAI (US) or Deepslate (EU) | gpt-realtime-1.5 via Azure EU data zone, own numbers or connection to the phone system [Phone data flow](https://www.loyjoy.com/de/trust-center/phone-agent-data-flow/) [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) | gleich |
+| KI & Automatisierung | **AI handling of incoming emails** | Read, identify the customer, book in the target system, reply, fully automated if desired | Not found. Email only as a sending module and handoff to the team [Docs send email](https://docs.loyjoy.com/bpmn/subprocesses/mail/) [Docs handoff](https://docs.loyjoy.com/bpmn/subprocesses/handover/) | enneo klar vorn |
+| KI & Automatisierung | **Multiple requests** | One email, one pass, one reply | On the phone, multiple requests one after another (Witten) [Case study Witten](https://www.loyjoy.com/de/cases/stadtwerke-witten-ai-phone-agent/) | je nach Fall |
+| KI & Automatisierung | **Attachments and photos** | PDFs and photos in emails, e.g. a photo of the meter | Photos in chat, on the phone via a link into the chat [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) | je nach Fall |
+| KI & Automatisierung | **Ready-made workflows for utilities** | Meter reading, installment, bank details with plausibility checks, ERP integration per customer | Meter reading, installment, move, tariff change. SAP IS-U built at Herne, Wilken, Schleupen, Lima, powercloud mentioned [Municipal utilities](https://www.loyjoy.com/de/industries/stadtwerke/) [Case study Herne](https://www.loyjoy.com/de/cases/stadtwerke_herne/) | gleich |
+| KI & Automatisierung | **Building AI agents** | Describe in plain words, change via chat with Neo, test cases | No-code with BPMN and prompting, also from Claude or ChatGPT [Integrations](https://www.loyjoy.com/de/platform/integrations/) | gleich |
+| Arbeitsplatz & Anbindungen | **Agent workspace** | Ticketing workspace for all channels with skill routing | Live chat for web and WhatsApp, phone to the customer's phone system, otherwise handoff by email [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) [Docs handoff](https://docs.loyjoy.com/bpmn/subprocesses/handover/) | enneo klar vorn |
+| Daten & Sicherheit | **Where data is stored** | Hetzner, German provider, on-premises possible | Google Cloud EMEA, chat model on its own hardware in Münster [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) [Subprocessors](https://www.loyjoy.com/de/trust-center/subprocessors/) | enneo vorn |
+| Daten & Sicherheit | **Language models** | US providers by default, EU models possible under the DPA | Gemma 4 on its own hardware by default, external models optional [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) | LoyJoy vorn |
+| Daten & Sicherheit | **Certifications and documents** | None of our own, in progress. DPA, TOMs, subprocessors, SLA public | None of its own, annual pentest. DPA, TOMs, subprocessors in the Trust Center [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) [IT security](https://www.loyjoy.com/de/trust-center/it-security/) | gleich |
+| Preis & Vertrag | **Price and entry point** | Package prices per ticket and voice minute (pricing model 2.2) | Public from €390 per month, 30-day trial [Pricing](https://www.loyjoy.com/en/pricing/) | LoyJoy vorn |
 
 ## Wo LoyJoy schwächer ist
 
 - **No written correspondence:** LoyJoy positions itself for "chat and phone". Anyone who wants to automate a lot of emails or letters needs another system alongside LoyJoy.
 - **The agent often only captures:** At Witten, the phone agent records the installment or meter reading and hands the case over to the business department. At Velbert, the chat leads to the customer portal via a link. Booking in the billing system is publicly documented only for Herne.
-- **Setup and usability:** Users on OMR call the initial setup time-consuming, the BPMN editor overwhelming at first and the interface partly cluttered. They want more analytics and versioning, which according to the pricing page are only available in the Enterprise plan.
+- **Setup and usability:** Users on OMR call the initial setup time-consuming, the BPMN editor overwhelming at first and the interface partly cluttered. They want more analytics and versioning. According to the pricing page, advanced AI analytics and additional versions with rollback are only available from Enterprise.
 - **No certification of its own:** Like us, there is no ISO 27001 certification of its own, only certified data centers.
 
 ## Einwände
@@ -91,6 +93,14 @@ No internal insights in Attio yet (as of Nov 5, 2026).
 
 Against LoyJoy, we win where emails and letters should be resolved automatically all the way to the booking and agents need a shared workspace. For chat and voicebot at municipal utilities and insurers, LoyJoy is well documented, quick to go live and inexpensive to start with, and we don't win on the product there. Where LoyJoy already does chat or phone, enneo for written correspondence is the better conversation than a complete switch.
 
+## Direktlinks
+
+- [Doku](https://docs.loyjoy.com/)
+- [API](https://docs.loyjoy.com/api/)
+- [Trust Center](https://www.loyjoy.com/de/trust-center/)
+- [Preise](https://www.loyjoy.com/de/pricing/)
+- [Release Notes](https://www.loyjoy.com/de/releases/)
+
 ## Quellen
 
 - [Insurers (EN)](https://www.loyjoy.com/en/industries/insurance/)
@@ -101,6 +111,7 @@ Against LoyJoy, we win where emails and letters should be resolved automatically
 - [Case study Stadtwerke Velbert](https://www.loyjoy.com/de/cases/stadtwerke-velbert-digital-assistant-veli/)
 - [Case study Stadtwerke Kamen](https://www.loyjoy.com/de/cases/stadtwerke_kamen/)
 - [Phone Agent](https://www.loyjoy.com/de/platform/phone-agent/)
+- [Phone Agent (EN)](https://www.loyjoy.com/en/platform/phone-agent/)
 - [Integrations](https://www.loyjoy.com/de/platform/integrations/)
 - [Pricing](https://www.loyjoy.com/en/pricing/)
 - [Compliance at a glance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/)
@@ -113,4 +124,6 @@ Against LoyJoy, we win where emails and letters should be resolved automatically
 - [Docs setting up a phone number](https://docs.loyjoy.com/guides/phone_number_setup/)
 - [Press kit (as of Dec 15, 2025)](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf)
 - [Legal notice](https://www.loyjoy.com/de/imprint/)
+- [Startup award 2019 and early days](https://www.loyjoy.com/en/blog/deutscher-marketing-tag-loyjoy-gewinnt-startup-wettbewerb/)
+- [Trust Center](https://www.loyjoy.com/de/trust-center/)
 - [OMR user reviews](https://omr.com/de/reviews/product/loyjoy)

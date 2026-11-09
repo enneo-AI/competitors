@@ -4,7 +4,7 @@ slug: "loyjoy"
 fokus: "KI-Agenten"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.loyjoy.com"
 kurz: "No-Code-Plattform für KI-Agenten in Chat und Telefon aus Münster"
@@ -14,7 +14,9 @@ kurz: "No-Code-Plattform für KI-Agenten in Chat und Telefon aus Münster"
 
 | | | |
 |---|---|---|
-| Firma | **Münster, eigenfinanziert** | LoyJoy GmbH, gegründet 2018, HRB 17049, kein Risikokapital, laut Pressemappe über 100 große Unternehmenskunden |
+| Firma | **Münster, eigenfinanziert** | LoyJoy GmbH, HRB 17049, kein Risikokapital, laut Pressemappe über 100 große Unternehmenskunden |
+| Gegründet | **2018 in Münster** | Gründer und Geschäftsführer Ulf Loetschert (CEO) und Dr. Ulrich Wolffgang (CTO) |
+| Ursprung | **Chat-Marketing seit 2018** | Gestartet mit Software für Conversational Marketing, also automatisierte Chats mit spielerischen Elementen für Kundenbindung. Heute Plattform für KI-Agenten in Service und Vertrieb per Chat und Telefon |
 | Preise | **390 / 1.490 € im Monat** | Starter / Professional bei Jahresvertrag, inkl. 1.000 / 5.000 Chats und 100 / 500 Telefonminuten. Darüber 0,25 € je Chat und 0,29 € je Minute. Enterprise auf Anfrage, 30 Tage kostenlos testen |
 | Hosting | **Google Cloud EU + eigene Server** | Plattformdaten bei Google Cloud EMEA (Irland). Chat-Modell Gemma 4 auf eigener Hardware in Münster. Telefon-KI gpt-realtime-1.5 über Microsoft Azure, EU-Datenzone |
 | Zertifikat | **kein eigenes** | Rechenzentren ISO 27001 zertifiziert, eigenes Sicherheitsmanagement an ISO 27001 und BSI Grundschutz ausgerichtet, jährlicher Penetrationstest |
@@ -36,13 +38,13 @@ LoyJoy baut KI-Agenten für Website-Chat, WhatsApp und Telefon, alles ohne Code 
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **E-Mail und Brief bis zur Buchung** | Weniger Mitarbeitende für Schriftverkehr, kein zweites System nur für Mails und Briefe | „Bei uns erledigt die KI auch die Mail und den Brief bis zur Buchung, nicht nur den Chat.“ |
-| **Buchen statt nur aufnehmen** | Weniger Nacharbeit im Fachbereich, kein Abtippen aufgenommener Vorgänge | „Bei uns wird der Abschlag im Zielsystem gebucht, nicht nur aufgenommen und per Mail weitergeschickt.“ |
-| **Mehrere Anliegen und Anhänge in einer Mail** | Eine Antwort statt mehrerer Rückfragen, Zählerfoto ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
+| **Mails und Briefe bis zur Buchung** | Auch der Schriftverkehr läuft automatisch, weniger Mitarbeitende dafür, kein zweites System nur für Mails und Briefe | „Bei uns erledigt die KI auch die Mail und den Brief bis zur Buchung, nicht nur den Chat.“ |
+| **Buchung im Zielsystem** | Weniger Nacharbeit im Fachbereich, niemand tippt aufgenommene Vorgänge ab | „Bei uns wird der Abschlag im Zielsystem gebucht, nicht nur aufgenommen und per Mail weitergeschickt.“ |
+| **Mehrere Anliegen und Anhänge in einer Mail** | Eine Antwort statt mehrerer Rückfragen, Zählerfotos ohne Abtippen | „Zählerstand, neue IBAN und Abschlag in einer Mail erledigen wir in einem Durchgang mit einer Antwort.“ |
 | **Ein Arbeitsplatz mit Skill-Routing** | Kein Medienbruch zwischen Bot, Telefonanlage und Fachbereichspostfach, weniger Übergabeaufwand | „Was die KI nicht löst, landet bei uns im selben Arbeitsplatz direkt beim richtigen Mitarbeitenden.“ |
-| **Speicherung bei deutschem Anbieter** | Einfachere Datenschutzprüfung, ab großem Volumen Betrieb im eigenen Rechenzentrum | „Wir speichern bei Hetzner in Deutschland und auf Wunsch in Ihrem eigenen Rechenzentrum.“ |
+| **Speicherung bei einem deutschen Anbieter** | Einfachere Datenschutzprüfung, ab großem Volumen Betrieb im eigenen Rechenzentrum | „Wir speichern bei Hetzner in Deutschland und auf Wunsch in Ihrem eigenen Rechenzentrum.“ |
 
 ## Wo LoyJoy vorn liegt
 
@@ -54,27 +56,27 @@ LoyJoy baut KI-Agenten für Website-Chat, WhatsApp und Telefon, alles ohne Code 
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | LoyJoy | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung eingehender E-Mails** | Lesen, Kunde erkennen, im Zielsystem buchen, antworten, auch vollautomatisch | Nicht gefunden. E-Mail nur als Versand-Modul und Übergabe ans Team | enneo klar vorn |
-| **Briefe und Scans** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo klar vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz für alle Kanäle mit Skill-Routing | Live-Chat für Web und WhatsApp, Telefon an die Anlage des Kunden, sonst Übergabe per Mail | enneo klar vorn |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Web- und App-Chat, WhatsApp, Telefon | enneo vorn |
-| **Mehrere Anliegen** | Eine Mail, ein Durchgang, eine Antwort | Am Telefon mehrere Anliegen nacheinander (Witten) | je nach Fall |
-| **Anhänge und Fotos** | PDF und Fotos in Mails, z. B. Zählerfoto | Foto-Upload im Chat, am Telefon per Link in den Chat | je nach Fall |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Umzug, Tarifwechsel. SAP IS-U bei Herne gebaut, Wilken, Schleupen, Lima, powercloud genannt | gleich |
-| **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | No-Code mit BPMN und Prompting, auch aus Claude oder ChatGPT | gleich |
-| **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Google Cloud EMEA, Chat-Modell auf eigener Hardware in Münster | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Gemma 4 auf eigener Hardware als Standard, externe Modelle optional | LoyJoy vorn |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung, OpenAI (USA) oder Deepslate (EU) | gpt-realtime-1.5 über Azure EU-Datenzone, eigene Nummern oder Anbindung an die Anlage | gleich |
-| **Zertifikate und Unterlagen** | Keine eigenen, in Prüfung. AVV, TOM, Subunternehmer, SLA öffentlich | Keine eigenen, Pentest jährlich. AVV, TOM, Subunternehmer im Trust Center | gleich |
-| **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich ab 390 € im Monat, 30 Tage Test | LoyJoy vorn |
+| Bereich | Thema | enneo | LoyJoy | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Web- und App-Chat, WhatsApp, Telefon [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) [Pressemappe](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf) | enneo vorn |
+| Kanäle | **Briefe und Scans** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden [Pressemappe](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf) [Stadtwerke](https://www.loyjoy.com/de/industries/stadtwerke/) | enneo klar vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung, OpenAI (USA) oder Deepslate (EU) | gpt-realtime-1.5 über Azure EU-Datenzone, eigene Nummern oder Anbindung an die Anlage [Datenfluss Telefon](https://www.loyjoy.com/de/trust-center/phone-agent-data-flow/) [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) | gleich |
+| KI & Automatisierung | **KI-Bearbeitung eingehender E-Mails** | Lesen, Kunde erkennen, im Zielsystem buchen, antworten, auch vollautomatisch | Nicht gefunden. E-Mail nur als Versand-Modul und Übergabe ans Team [Doku E-Mail senden](https://docs.loyjoy.com/bpmn/subprocesses/mail/) [Doku Übergabe](https://docs.loyjoy.com/bpmn/subprocesses/handover/) | enneo klar vorn |
+| KI & Automatisierung | **Mehrere Anliegen** | Eine Mail, ein Durchgang, eine Antwort | Am Telefon mehrere Anliegen nacheinander (Witten) [Fallstudie Witten](https://www.loyjoy.com/de/cases/stadtwerke-witten-ai-phone-agent/) | je nach Fall |
+| KI & Automatisierung | **Anhänge und Fotos** | PDF und Fotos in Mails, z. B. Zählerfoto | Fotos im Chat, am Telefon per Link in den Chat [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) | je nach Fall |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten mit Plausibilitätsprüfung, ERP-Anbindung pro Kunde | Zählerstand, Abschlag, Umzug, Tarifwechsel. SAP IS-U bei Herne gebaut, Wilken, Schleupen, Lima, powercloud genannt [Stadtwerke](https://www.loyjoy.com/de/industries/stadtwerke/) [Fallstudie Herne](https://www.loyjoy.com/de/cases/stadtwerke_herne/) | gleich |
+| KI & Automatisierung | **KI-Agenten bauen** | In Worten beschreiben, mit Neo per Chat ändern, Testfälle | No-Code mit BPMN und Prompting, auch aus Claude oder ChatGPT [Integrationen](https://www.loyjoy.com/de/platform/integrations/) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz für alle Kanäle mit Skill-Routing | Live-Chat für Web und WhatsApp, Telefon an die Anlage des Kunden, sonst Übergabe per Mail [Phone Agent](https://www.loyjoy.com/en/platform/phone-agent/) [Doku Übergabe](https://docs.loyjoy.com/bpmn/subprocesses/handover/) | enneo klar vorn |
+| Daten & Sicherheit | **Wo gespeichert wird** | Hetzner, deutscher Anbieter, beim Kunden möglich | Google Cloud EMEA, Chat-Modell auf eigener Hardware in Münster [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) [Auftragsverarbeiter](https://www.loyjoy.com/de/trust-center/subprocessors/) | enneo vorn |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | Gemma 4 auf eigener Hardware als Standard, externe Modelle optional [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) | LoyJoy vorn |
+| Daten & Sicherheit | **Zertifikate und Unterlagen** | Keine eigenen, in Prüfung. AVV, TOM, Subunternehmer, SLA öffentlich | Keine eigenen, Pentest jährlich. AVV, TOM, Subunternehmer im Trust Center [Compliance](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/) [IT-Sicherheit](https://www.loyjoy.com/de/trust-center/it-security/) | gleich |
+| Preis & Vertrag | **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich ab 390 € im Monat, 30 Tage Test [Preise](https://www.loyjoy.com/en/pricing/) | LoyJoy vorn |
 
 ## Wo LoyJoy schwächer ist
 
 - **Kein Schriftverkehr:** LoyJoy positioniert sich selbst für „Chat und Telefon“. Wer viele Mails oder Briefe automatisieren will, braucht neben LoyJoy ein weiteres System.
 - **Agent nimmt oft nur auf:** Bei Witten erfasst der Telefon-Agent Abschlag oder Zählerstand und übergibt den Vorgang an den Fachbereich. Bei Velbert führt der Chat per Link ins Kundenportal. Buchung im Abrechnungssystem ist öffentlich nur für Herne belegt.
-- **Einrichtung und Bedienung:** Nutzer auf OMR nennen die Ersteinrichtung zeitaufwendig, den BPMN-Editor anfangs überfordernd und die Oberfläche teils überladen. Gewünscht werden mehr Auswertungen und Versionierung, die es laut Preisseite erst im Enterprise-Tarif gibt.
+- **Einrichtung und Bedienung:** Nutzer auf OMR nennen die Ersteinrichtung zeitaufwendig, den BPMN-Editor anfangs überfordernd und die Oberfläche teils überladen. Gewünscht werden mehr Auswertungen und Versionierung. Erweiterte KI-Auswertungen und zusätzliche Versionen mit Rollback gibt es laut Preisseite erst ab Enterprise.
 - **Kein eigenes Zertifikat:** Wie bei uns gibt es kein eigenes ISO-27001-Zertifikat, nur zertifizierte Rechenzentren.
 
 ## Einwände
@@ -97,6 +99,14 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen LoyJoy gewinnen wir, wo E-Mails und Briefe automatisch bis zur Buchung erledigt werden sollen und Mitarbeitende einen gemeinsamen Arbeitsplatz brauchen. Bei Chat und Voicebot für Stadtwerke und Versicherer ist LoyJoy gut belegt, schnell live und günstig im Einstieg, dort gewinnen wir nicht über das Produkt. Wo LoyJoy schon Chat oder Telefon macht, ist enneo für den Schriftverkehr das bessere Gespräch als ein Komplettwechsel.
 
+## Direktlinks
+
+- [Doku](https://docs.loyjoy.com/)
+- [API](https://docs.loyjoy.com/api/)
+- [Trust Center](https://www.loyjoy.com/de/trust-center/)
+- [Preise](https://www.loyjoy.com/de/pricing/)
+- [Release Notes](https://www.loyjoy.com/de/releases/)
+
 ## Quellen
 
 - [Versicherer (EN)](https://www.loyjoy.com/en/industries/insurance/)
@@ -107,6 +117,7 @@ Gegen LoyJoy gewinnen wir, wo E-Mails und Briefe automatisch bis zur Buchung erl
 - [Fallstudie Stadtwerke Velbert](https://www.loyjoy.com/de/cases/stadtwerke-velbert-digital-assistant-veli/)
 - [Fallstudie Stadtwerke Kamen](https://www.loyjoy.com/de/cases/stadtwerke_kamen/)
 - [Phone Agent](https://www.loyjoy.com/de/platform/phone-agent/)
+- [Phone Agent (EN)](https://www.loyjoy.com/en/platform/phone-agent/)
 - [Integrationen](https://www.loyjoy.com/de/platform/integrations/)
 - [Preise](https://www.loyjoy.com/en/pricing/)
 - [Compliance auf einen Blick](https://www.loyjoy.com/de/trust-center/compliance-at-a-glance/)
@@ -119,4 +130,6 @@ Gegen LoyJoy gewinnen wir, wo E-Mails und Briefe automatisch bis zur Buchung erl
 - [Doku Telefonnummer einrichten](https://docs.loyjoy.com/guides/phone_number_setup/)
 - [Pressemappe (Stand 15.12.2025)](https://www.loyjoy.com/assets/press-kit/LoyJoy%20Die%20Enterprise%20AI%20Platform%20f%C3%BCr%20Chat%20und%20Telefon.pdf)
 - [Impressum](https://www.loyjoy.com/de/imprint/)
+- [Startup-Preis 2019 und Anfänge](https://www.loyjoy.com/en/blog/deutscher-marketing-tag-loyjoy-gewinnt-startup-wettbewerb/)
+- [Trust Center](https://www.loyjoy.com/de/trust-center/)
 - [Nutzerbewertungen OMR](https://omr.com/de/reviews/product/loyjoy)

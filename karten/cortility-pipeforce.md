@@ -4,7 +4,7 @@ slug: "cortility-pipeforce"
 fokus: "E-Mail-KI"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-05"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.cortility.de"
 kurz: "KI-Posteingang für SAP-Versorger, Pipeforce klassifiziert, cortility bucht in SAP"
@@ -15,6 +15,8 @@ kurz: "KI-Posteingang für SAP-Versorger, Pipeforce klassifiziert, cortility buc
 | | | |
 |---|---|---|
 | Firma | **Ettlingen + München** | cortility gmbh (Tochter der command gmbh, seit 2011, SAP-Zusatzlösungen für Versorger) und LOGABIT GmbH mit dem Produkt Pipeforce. Partnerschaft seit 2025, Mitarbeiterzahlen nicht genannt |
+| Gegründet | **2011 und 2019** | cortility 2011 als Firma der command Gruppe in der Region Karlsruhe, Pipeforce 2019 in München von Stephan Niedermeier und Simon Ochs (heute Geschäftsführer der LOGABIT GmbH) |
+| Ursprung | **SAP-Add-ons und Workflow-Plattform** | cortility baut Zusatzprodukte zu den SAP-Branchenlösungen für Versorger, Pipeforce begann als Workflow- und Integrationsplattform für den Mittelstand. Seit wann es die KI gibt, nicht gefunden |
 | Preise | **nicht öffentlich** | Pipeforce nur per Preisanfrage, cortility bietet ein kostenloses Erstgespräch an |
 | Hosting | **Deutschland, EU oder beim Kunden** | Pipeforce in ISO-27001-zertifizierten Rechenzentren in Deutschland bzw. der EU, Betreiber nicht genannt. Private Cloud und On-Premise möglich. Vorgangsdaten liegen in SAP |
 | Referenzen | **keine namentlichen** | „Bereits erfolgreich im Einsatz“, ohne Kundennamen. cortility nennt rund 25 Versorger als Referenzen für andere SAP-Lösungen. Eigene ISO 27001, SOC 2 oder C5 nicht gefunden, Pipeforce führt das Siegel des Bundesverbands IT Mittelstand |
@@ -37,13 +39,13 @@ cortility und Pipeforce greifen genau unser stärkstes Feld an: Mails und Briefe
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Antwort an den Kunden nach der Buchung** | Fall abgeschlossen ohne Handarbeit, weniger Nachfragen des Kunden | „Bei uns endet die Mail mit der Buchung und der Antwort an Ihren Kunden, auch vollautomatisch.“ |
-| **Mehrere Anliegen in einer Mail** | Weniger Mails, die am Ende doch bei Mitarbeitenden landen | „Zählerstand, IBAN und Abschlag in einer Mail: bei uns ein Durchgang und eine Antwort.“ |
-| **Voicebot und weitere Kanäle** | Kein zweites System, wenn später Telefon, Chat oder WhatsApp dazukommen | „Wenn Sie später auch Telefon und Chat automatisieren wollen, ist das bei uns dasselbe System.“ |
-| **Nicht nur SAP** | Die Investition bleibt nutzbar, wenn nicht alles in SAP liegt | „Wir bauen Schnittstellen in jedem Format und kommen mit dem RPA-Bot auch an Systeme ohne Schnittstelle.“ |
-| **Ein Anbieter** | Klare Zuständigkeit bei Betrieb und Fehlern | „Bei uns haben Sie für KI, Arbeitsplatz und Anbindung einen Ansprechpartner statt zwei Firmen.“ |
+| **Buchung und Antwort an den Kunden** | Fall abgeschlossen ohne Handarbeit, weniger Nachfragen des Endkunden | „Bei uns endet die Mail mit der Buchung und der Antwort an Ihren Kunden, auch vollautomatisch.“ |
+| **Mehrere Anliegen in einer Mail** | Auch Mails mit mehreren Anliegen laufen durch, weniger Fälle für Mitarbeitende | „Zählerstand, IBAN und Abschlag in einer Mail: bei uns ein Durchgang und eine Antwort.“ |
+| **Voicebot und alle Kanäle in einem System** | Telefon, Chat oder WhatsApp kommen später ohne zweites System dazu | „Wenn Sie später auch Telefon und Chat automatisieren wollen, ist das bei uns dasselbe System.“ |
+| **Schnittstellen in jedem Format, auch ohne SAP** | Die Investition bleibt nutzbar, auch für Systeme außerhalb von SAP | „Wir bauen Schnittstellen in jedem Format und kommen mit dem RPA-Bot auch an Systeme ohne Schnittstelle.“ |
+| **KI, Arbeitsplatz und Anbindung aus einer Hand** | Klare Zuständigkeit bei Betrieb und Fehlern, ein Ansprechpartner | „Bei uns haben Sie für KI, Arbeitsplatz und Anbindung einen Ansprechpartner statt zwei Firmen.“ |
 
 ## Wo cortility und Pipeforce vorn liegen
 
@@ -55,20 +57,20 @@ cortility und Pipeforce greifen genau unser stärkstes Feld an: Mails und Briefe
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | cortility und Pipeforce | Einordnung |
-|---|---|---|---|
-| **E-Mail bis zur Aktion** | Eine KI liest, erkennt und legitimiert den Kunden, bucht und antwortet, auch vollautomatisch | Erkennen, auslesen, in SAP prüfen und ausführen, Rückfrage bei fehlenden Angaben. Antwort nach Buchung nicht beschrieben | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Zählerfoto im Anhang, Beispiel aus der Fachpresse | gleich |
-| **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Gemeinsame Lösung für E-Mail und Brief. Pipeforce routet weitere Eingänge, Bearbeitung dort nicht beschrieben | enneo vorn |
-| **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden, OpenAI (USA) oder Deepslate (EU) | Nicht gefunden | enneo klar vorn |
-| **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz mit Skill-Routing | Kein eigener, Mitarbeitende bleiben in bestehenden Werkzeugen | je nach Fall |
-| **Anbindung an SAP IS-U und S/4HANA Utilities** | Wird pro Kunde gebaut | KI-Connector auf SAP BTP, Prüfung in SAP vor der Buchung, Clean Core | cortility und Pipeforce vorn |
-| **Andere Zielsysteme** | Schnittstellen als Code, jedes Format, RPA für Altsysteme, API und MCP | Gemeinsame Lösung nur für SAP. Pipeforce allgemein für CRM und ERP | enneo vorn |
-| **Nachvollziehbarkeit** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Mehrstufige Prüfung der KI, Dokumentation von Daten und Regeln | gleich |
-| **Hosting und Sprachmodelle** | Hetzner, deutscher Anbieter, beim Kunden möglich. US-Modelle Standard, EU-Modelle im AVV | Deutschland oder EU, Betreiber nicht genannt, Private Cloud oder On-Premise. EU- und US-Modelle, kein Training mit Kundendaten | gleich |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | Keine eigenen gefunden. Rechenzentren ISO 27001, Siegel Bundesverband IT Mittelstand | gleich |
-| **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich | je nach Fall |
+| Bereich | Thema | enneo | cortility und Pipeforce | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Kanäle** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Gemeinsame Lösung für E-Mail und Brief. Pipeforce klassifiziert auch Portal, Formular, Chat und Telefon, Bearbeitung dort nicht beschrieben [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce Routing](https://pipeforce.io/kundenanfragen-klassifizieren-und-routen-eingangsorchestrierung-fuer-energieversorger/) | enneo vorn |
+| Kanäle | **Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden, OpenAI (USA) oder Deepslate (EU) | Nicht gefunden [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce](https://pipeforce.io/) | enneo klar vorn |
+| KI & Automatisierung | **E-Mail bis zur Aktion** | Eine KI liest, erkennt und legitimiert den Kunden, bucht und antwortet, auch vollautomatisch | Erkennen, auslesen, in SAP prüfen und ausführen, Rückfrage bei fehlenden Angaben. Antwort nach Buchung nicht beschrieben [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Pipeforce EVU](https://pipeforce.io/automatisierte-verarbeitung-von-kundenanliegen-evu/) [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Zählerfoto im Anhang, Beispiel aus der Fachpresse [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) | gleich |
+| KI & Automatisierung | **Nachvollziehbarkeit** | Lösungsplan, erkannte Werte, Vorschau ohne Buchung | Mehrstufige Prüfung der KI, Dokumentation von Daten und Regeln [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) [Pipeforce Entscheidung](https://pipeforce.io/eingangsorchestrierung-vom-eingang-zur-automatischen-entscheidung/) | gleich |
+| Arbeitsplatz & Anbindungen | **Arbeitsplatz für Mitarbeitende** | Ticketing-Arbeitsplatz mit Skill-Routing | Kein eigener, Mitarbeitende bleiben in bestehenden Werkzeugen [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) | je nach Fall |
+| Arbeitsplatz & Anbindungen | **Anbindung an SAP IS-U und S/4HANA Utilities** | Wird pro Kunde gebaut | KI-Connector auf SAP BTP, Prüfung in SAP vor der Buchung, Clean Core [ZfK](https://www.zfk.de/digitalisierung/ki/warum-sap-automatisierung-oft-am-posteingang-scheitert) [stadt+werk](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/) | cortility und Pipeforce vorn |
+| Arbeitsplatz & Anbindungen | **Andere Zielsysteme** | Schnittstellen als Code, jedes Format, RPA für Altsysteme, API und MCP | Gemeinsame Lösung für SAP gebaut. Pipeforce allgemein für CRM und ERP [cortility IPA](https://cortility.de/portfolio/Intelligent-Process-Automation/) [Pipeforce EVU](https://pipeforce.io/automatisierte-verarbeitung-von-kundenanliegen-evu/) | enneo vorn |
+| Daten & Sicherheit | **Hosting und Sprachmodelle** | Hetzner, deutscher Anbieter, beim Kunden möglich. US-Modelle Standard, EU-Modelle im AVV | Deutschland oder EU, Betreiber nicht genannt, Private Cloud oder On-Premise. Europäische und US-Modelle, Aussage zum Training mit Kundendaten nicht gefunden [Pipeforce FAQ](https://pipeforce.io/) [Pipeforce Unternehmen](https://pipeforce.io/unternehmen-2/) | gleich |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | Keine eigenen gefunden. Rechenzentren ISO 27001, Siegel Bundesverband IT Mittelstand [Pipeforce Unternehmen](https://pipeforce.io/unternehmen-2/) | gleich |
+| Preis & Vertrag | **Preis** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Nicht öffentlich [Preisanfrage](https://pipeforce.io/preisanfrage/) | je nach Fall |
 
 ## Wo cortility und Pipeforce schwächer sind
 
@@ -97,6 +99,10 @@ Bisher keine internen Erkenntnisse in Attio (Stand 05.11.2026).
 
 Gegen cortility und Pipeforce verlieren wir, wo ein Versorger nur SAP IS-U hat, keinen neuen Arbeitsplatz will und einzelne Standardanliegen aus Mail und Brief automatisieren möchte. Gewinnen können wir, wo der Kunde mehrere Anliegen je Mail, eine Antwort an den Kunden, weitere Kanäle mit Voicebot und einen Arbeitsplatz für den Rest braucht, oder wo nicht alles in SAP liegt. Im Gespräch nach Kundennamen und Live-Umgebungen fragen, öffentlich gibt es keine.
 
+## Direktlinks
+
+- [Preise](https://pipeforce.io/preisanfrage/)
+
 ## Quellen
 
 - [stadt+werk: KI automatisiert Standardanliegen](https://www.stadt-und-werk.de/k21-meldungen/ki-automatisiert-standardanliegen/)
@@ -117,3 +123,4 @@ Gegen cortility und Pipeforce verlieren wir, wo ein Versorger nur SAP IS-U hat, 
 - [Pipeforce Unternehmen](https://pipeforce.io/unternehmen-2/)
 - [Pipeforce Preisanfrage](https://pipeforce.io/preisanfrage/)
 - [Pipeforce Impressum](https://pipeforce.io/impressum/)
+- [Munich Startup: Pipeforce in 7 Fragen](https://www.munich-startup.de/news/pipeforce-7-fragen)

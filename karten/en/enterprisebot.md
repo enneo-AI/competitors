@@ -1,6 +1,6 @@
 ---
 slug: "enterprisebot"
-stand: "2026-11-05"
+stand: "2026-11-09"
 kurz: "Swiss AI platform for voice, email and chat"
 ---
 
@@ -8,7 +8,9 @@ kurz: "Swiss AI platform for voice, email and chat"
 
 | | | |
 |---|---|---|
-| Firma | **Zurich, 51 to 200 employees** | Enterprise Bot GmbH, Dufourstrasse 22, Zurich. Founded in 2016 according to its own blog. Further offices in Bengaluru (development), Barcelona, Warsaw, London and Dover (US). In 2022 a total of USD 2.25m in capital, led by FiveT Fintech |
+| Firma | **Zurich, 51 to 200 employees** | Enterprise Bot GmbH, Dufourstrasse 22, Zurich. Further offices in Bengaluru (development), Barcelona, Warsaw, London and Dover (US). In 2022 a total of USD 2.25m in capital, led by FiveT Fintech |
+| Gegründet | **2016** | According to its own blog, founded in 2016 by Pranay Jain, Ravina Mutha and Sandeep Jayasankar. In 2019, Startupticker gave 2017 as the year and Zug as the place of founding |
+| Ursprung | **AI from the start** | According to Startupticker, in 2019 the startup was building chatbots, an AI scheduling assistant and bots for sorting emails, already with SBB as a customer |
 | Preise | **not public** | No price list, demo on request only. SourceForge mentions a trial version |
 | Hosting | **selectable, including on-prem** | Managed hosting in the EU, Middle East, North America or Asia, plus own VPC or own data center. Kubernetes on AWS, Google Cloud or Azure in the EU or US. Operator of the standard hosting not named |
 | Zertifikat | **SOC 2 according to website** | Logos for SOC, PCI DSS, HIPAA and "GDPR ready". No report, no Trust Center, ISO 27001 not found |
@@ -19,11 +21,11 @@ kurz: "Swiss AI platform for voice, email and chat"
 
 ## Das Wichtigste vorweg
 
-Enterprise Bot is a Swiss vendor of AI agents for voice, email and chat, with references mainly at Swiss insurers, hospitals and transit companies. It is strong on speech services, model choice, on-premises operation and integration with Genesys, NICE or Luware. It does not describe a ticketing workspace of its own and sits on top of existing contact centers. For email, the public evidence is mainly classification with reply drafts. Booking in the target system and multiple requests in one email are not documented.
+Enterprise Bot is a Swiss vendor of AI agents for voice, email and chat, with references mainly at Swiss insurers, hospitals and transit companies. It is strong on speech services, model choice, on-premises operation and integration with Genesys, NICE or Luware. It does not describe a ticketing workspace of its own and sits on top of existing contact centers. For email, the public evidence covers sorting, reply drafts and a share of fully automated replies. Booking in the target system and multiple requests in one email are not documented.
 
 ## Unsere Verkaufsargumente
 
-- **Email AI all the way into the target system:** With enneo, the AI recognizes the request and the customer, books in the ERP and replies, fully automated if desired. Enterprise Bot's email product ERA does mention full automation, but the only public email reference (RMV) sorts emails and suggests drafts for agents.
+- **Email AI all the way into the target system:** With enneo, the AI recognizes the request and the customer, books in the ERP and replies, fully automated if desired. Enterprise Bot's email product ERA does mention full automation, but the public email references show sorting, drafts and, at BCD WTS, 21.4% of requests fully automated, with deeper integration into business systems only listed as an outlook.
 - **Multiple requests, one reply:** enneo handles a meter reading, a new IBAN and a new installment in one email in a single pass with one reply. We found nothing on this for Enterprise Bot.
 - **One system instead of an add-on:** With enneo, agent workspace, inbox, AI agents, knowledge, telephony and voicebot are one product with skill routing. Enterprise Bot builds on an existing contact center or CRM, and the website does not describe a ticketing workspace of its own.
 - **Data protection you can read up on:** Our DPA, TOMs, subprocessors and SLA are public, and data is stored at Hetzner in Germany. At Enterprise Bot, the privacy policy names neither the storage location nor the subprocessors.
@@ -31,14 +33,14 @@ Enterprise Bot is a Swiss vendor of AI agents for voice, email and chat, with re
 
 ## Business-Impact
 
-| Difference | What it means for the customer | How to say it |
+| With enneo | Outcome for the customer | How to say it |
 |---|---|---|
-| **Email all the way to the booking** | Fewer agents needed for written correspondence, because standard cases run entirely hands-off | "With us, the email doesn't end with a draft. It ends with the booking in the ERP and the reply." |
-| **Multiple requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer puts a meter reading, an IBAN and an installment into one email, they get one reply from us." |
-| **Own agent workspace in the same system** | No second ticketing system to license and maintain, one point of contact | "Workspace, AI agents, knowledge and telephony are one product with us." |
+| **Emails all the way to the booking in the ERP** | Standard cases run entirely hands-off, fewer agents needed for written correspondence | "With us, the email doesn't end with a draft. It ends with the booking in the ERP and the reply." |
+| **All requests in one pass** | One complete reply instead of follow-up questions and follow-up tickets | "If your customer puts a meter reading, an IBAN and an installment into one email, they get one reply from us." |
+| **One system for AI and team** | One contract and one system for tickets, AI and telephony, one point of contact | "Workspace, AI agents, knowledge and telephony are one product with us." |
 | **Data protection documents public** | Data protection review without follow-up requests, because everything is available up front | "You can already read our DPA, TOMs, subprocessors and SLA yourself today." |
-| **German storage location, German provider** | Less back-and-forth with data protection and the works council on where data is stored | "Data is stored at Hetzner in Germany, with backups in Germany and Finland." |
-| **Ready-made workflows for utilities** | Meter reading, installment and bank details go live faster, only the ERP integration gets built | "We bring the most important utility workflows ready to use, with plausibility checks." |
+| **Storage in Germany** | Less back-and-forth with data protection and the works council on where data is stored | "Data is stored at Hetzner in Germany, with backups in Germany and Finland." |
+| **Ready-made utility agents** | Meter reading, installment and bank details go live faster, only the ERP integration is built | "We bring the most important utility workflows ready-made, with plausibility checks." |
 
 ## Wo Enterprise Bot vorn liegt
 
@@ -50,30 +52,30 @@ Enterprise Bot is a Swiss vendor of AI agents for voice, email and chat, with re
 
 ## Unterschiede auf einen Blick
 
-| Topic | enneo | Enterprise Bot | Assessment |
-|---|---|---|---|
-| **Email all the way to the action in the target system** | Full journey to the booking and reply, fully automated if desired | ERA mentions draft, co-pilot or full automation. Only email reference: sorting and drafts | enneo vorn |
-| **Multiple requests in one email** | One solution plan, one reply | not found | enneo vorn |
-| **Attachments and photos** | PDFs and photos, e.g. a photo of the meter | PDFs, scans and screenshots via OCR | gleich |
-| **Own agent workspace** | Ticketing, inbox, AI and telephony in one system | Add-on to Genesys, NICE, Salesforce. Live chat for agents, ticketing not found | enneo vorn |
-| **Voicebot and speech services** | OpenAI or Deepslate (EU) | Many interchangeable providers, Swiss German in production | Enterprise Bot vorn |
-| **Contact center integration** | SIP, no native Teams integration | Genesys, NICE, Luware with Teams, Vier | Enterprise Bot klar vorn |
-| **On-premises** | For large volumes | SaaS, VPC or own data center | Enterprise Bot vorn |
-| **Language models** | US providers, EU models possible under the DPA | OpenAI, Gemini, Bedrock or own models | Enterprise Bot vorn |
-| **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Privacy policy without storage location and subprocessors | enneo klar vorn |
-| **Certifications** | None of our own, ISO 27001 and SOC 2 in progress | SOC, PCI and HIPAA logos, report not public | Enterprise Bot vorn |
-| **Energy workflows** | Ready-made agents for meter reading, installment, bank details | No energy reference found | enneo klar vorn |
+| Area | Topic | enneo | Enterprise Bot | Assessment |
+|---|---|---|---|---|
+| Kanäle | **Voicebot and speech services** | OpenAI or Deepslate (EU) | Many interchangeable providers (Deepgram, Google, Microsoft, ElevenLabs, Polly, Azure), Swiss German in production [Voicebot AIVA](https://www.enterprisebot.ai/products/voice-bot) | Enterprise Bot vorn |
+| KI & Automatisierung | **Email through to action in the target system** | Full process through to booking and reply, fully automated if desired | ERA mentions draft, co-pilot or full automation. References: sorting and drafts (RMV), 21.4% fully automated and deeper integration as an outlook (BCD WTS) [ERA](https://www.enterprisebot.ai/products/email-response-automation) [Case RMV](https://www.enterprisebot.ai/case_study/rmv-0) [Case BCD](https://www.enterprisebot.ai/case_study/bcd-wts) | enneo vorn |
+| KI & Automatisierung | **Multiple requests in one email** | One resolution plan, one reply | not found [ERA](https://www.enterprisebot.ai/products/email-response-automation) | enneo vorn |
+| KI & Automatisierung | **Attachments and photos** | PDFs and photos, e.g. meter photo | PDFs, scans and screenshots via OCR [ERA](https://www.enterprisebot.ai/products/email-response-automation) | gleich |
+| KI & Automatisierung | **Language models** | US providers, EU models possible under the DPA | OpenAI, Gemini, Bedrock or your own models [Technology](https://www.enterprisebot.ai/technology) | Enterprise Bot vorn |
+| KI & Automatisierung | **Energy workflows** | Ready-made agents for meter reading, installment, bank details | No energy reference found [Case studies](https://www.enterprisebot.ai/case_study) | enneo klar vorn |
+| Arbeitsplatz & Anbindungen | **Own agent workspace** | Ticketing, inbox, AI and telephony in one system | Add-on to existing contact centers and CRMs without a new interface. Live chat for agents, ticketing not found [Live Chat](https://www.enterprisebot.ai/products/live-chat) [Homepage](https://www.enterprisebot.ai) | enneo vorn |
+| Arbeitsplatz & Anbindungen | **Contact center integration** | SIP, no native Teams integration | Genesys, NICE, Luware with Teams, Vier [Technology](https://www.enterprisebot.ai/technology) [Voicebot AIVA](https://www.enterprisebot.ai/products/voice-bot) | Enterprise Bot klar vorn |
+| Daten & Sicherheit | **On-premises** | For large volumes | SaaS, VPC or own data center [Technology](https://www.enterprisebot.ai/technology) | Enterprise Bot vorn |
+| Daten & Sicherheit | **Data protection documents** | DPA, TOMs, subprocessors, SLA public | Privacy policy without storage location or subprocessors [Privacy](https://get.enterprisebot.ai/legal/privacy-policy) | enneo klar vorn |
+| Daten & Sicherheit | **Certifications** | None of our own, ISO 27001 and SOC 2 in progress | SOC 2 mentioned, logos for SOC, PCI DSS and HIPAA, report not public [Technology](https://www.enterprisebot.ai/technology) [Logos](https://www.enterprisebot.ai/hubfs/Group%20304%202.png) | Enterprise Bot vorn |
 
 ## Wo Enterprise Bot schwächer ist
 
-- **Thin email reference:** At RMV, the email bot sorts requests and suggests drafts, with 86% accuracy in testing. The case study only announces the launch. We did not find a reference with booking in the target system.
+- **Email references without booking:** At RMV, the email bot sorts requests and suggests drafts, with 86% accuracy in testing, and the case study only announces the launch. At BCD WTS, 21.4% of requests are fully automated after three months, and deeper integration into business systems is listed under outlook. We did not find a reference with booking in the target system.
 - **Little that can be verified publicly:** No prices, no public documentation, no release notes. Several product pages still contain placeholder text ("Lorem Ipsum"), and the language figures vary between "50+" and "over 100".
 - **Data protection only as a logo:** Certifications appear as logos without a report. The privacy policy names neither a company with an address nor a storage location, subprocessors or a DPA.
-- **Little DACH outside Switzerland:** The only German reference is RMV (transit). Utilities don't appear on the website. According to join.com, seven of eight open positions are in Bengaluru.
+- **Little DACH outside Switzerland:** The only German reference is RMV (transit). Utilities don't appear on the website. According to join.com, six of seven open positions are in Bengaluru.
 
 ## Einwände
 
-- **"Enterprise Bot can do email, chat and voice too."** True, all three channels are on offer, and voice is very strong there. For email, the public evidence is mainly sorting with reply drafts. Ask for a reference where emails with multiple requests run all the way to the booking in the target system.
+- **"Enterprise Bot can do email, chat and voice too."** True, all three channels are on offer, and voice is very strong there. For email, the public evidence is mainly sorting and reply drafts, with only a share of requests fully automated. Ask for a reference where emails with multiple requests run all the way to the booking in the target system.
 - **"Enterprise Bot is SOC 2 certified, you're not."** The website shows the logo, and that's an advantage. On our side, ISO 27001 and SOC 2 are in progress, and Hetzner is ISO 27001 certified. In return, our DPA, TOMs, subprocessors and SLA are public, so your data protection team can review them right away.
 - **"They work for Generali and SWICA, those are big names."** Those are good references, especially for voicebot and chat in Switzerland. We did not find a reference there for automated email handling or for utilities. That is exactly where our focus lies.
 
@@ -110,8 +112,12 @@ Against Enterprise Bot, we don't win on a Swiss German voicebot, speech services
 - [Case study SWICA](https://www.enterprisebot.ai/case_study/swica)
 - [Case study Kantonsspital Winterthur](https://www.enterprisebot.ai/case_study/ksw)
 - [Case study Callpoint](https://www.enterprisebot.ai/case_study/callpoint)
+- [Case study BCD WTS](https://www.enterprisebot.ai/case_study/bcd-wts)
+- [Case study SIX](https://www.enterprisebot.ai/case_study/six)
+- [All case studies](https://www.enterprisebot.ai/case_study)
 - [Funding 2022](https://enterprisebot.ai/blog/funding-raise)
 - [Blog](https://www.enterprisebot.ai/blog)
 - [Jobs on join.com](https://join.com/companies/enterprisebot)
 - [Press release Advisory Board 2024](https://www.pressetext.com/news/20240701017)
+- [Startupticker 2019: SBB chatbot](https://www.startupticker.ch/en/news/april-2019/sbb-answers-ticketing-questions-via-chatbot)
 - [SourceForge](https://sourceforge.net/software/product/Enterprise-Bot/)

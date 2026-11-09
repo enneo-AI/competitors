@@ -4,7 +4,7 @@ slug: "superchat"
 fokus: "Helpdesk"
 naehe: "mittel"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-11-06"
+stand: "2026-11-09"
 geprueft_von: "Enni"
 website: "https://www.superchat.de"
 kurz: "Messaging-Postfach aus Berlin mit KI-Agent, Schwerpunkt WhatsApp"
@@ -15,6 +15,8 @@ kurz: "Messaging-Postfach aus Berlin mit KI-Agent, Schwerpunkt WhatsApp"
 | | | |
 |---|---|---|
 | Firma | **Berlin, seit 2020** | SuperX GmbH, laut eigener Angabe 10.000+ Kunden, rund 18 Mio. € von Blossom Capital, 468 Capital u. a. |
+| Gegründet | **2020** | Im Juli 2020 in Berlin von Yilmaz Köknar (CEO) und Mika Hally (CPO) gegründet |
+| Ursprung | **Messaging-Postfach seit 2020** | Erst ein Postfach für alle Kanäle, dann Automationen und KI-Chatbot, nach ChatGPT der KI-Agent, zuletzt der KI-Telefonassistent |
 | Preise | **89 bis 299 € im Monat** | Basic, Professional, Advanced mit 3, 6 oder 12 Plätzen, KI-Agent ab Professional (149 €), 12 Monate Laufzeit |
 | Hosting | **AWS, Frankfurt** | Daten in Frankfurt, Unterauftragnehmer u. a. OpenAI, ElevenLabs, Cartesia, AssemblyAI, LiveKit, Twilio |
 | Zertifikat | **ISO 27001:2022** | Zertifikat und Pentest-Bericht im Trust Center gelistet, Zertifizierer nicht genannt, SOC 2 und BSI C5 nicht gefunden |
@@ -37,14 +39,14 @@ Superchat ist ein Messaging-Postfach: WhatsApp, Instagram, Facebook, Telegram, S
 
 ## Business-Impact
 
-| Unterschied | Was das für den Kunden heißt | So sagen Sie es |
+| Mit enneo | Ergebnis für den Kunden | So sagen Sie es |
 |---|---|---|
-| **Mehrere Anliegen in einem Durchgang** | Eine vollständige Antwort statt Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
-| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
+| **Alle Anliegen einer Mail in einem Durchgang** | Der Kunde bekommt eine vollständige Antwort, es entstehen weniger Rückfragen und Folgetickets | „Schreibt Ihr Kunde Zählerstand, IBAN und Abschlag in eine Mail, bekommt er bei uns eine Antwort.“ |
+| **Anhänge und Fotos lesen** | Zählerfotos und PDF-Anlagen muss niemand mehr abtippen | „Ein Zählerfoto im Anhang liest unsere KI einfach mit.“ |
 | **Kundenerkennung mit Legitimation** | Weniger Risiko, dass Daten an die falsche Person gehen, weniger Prüfarbeit von Hand | „Bei uns sind Suchreihenfolge und Legitimationsregeln fertig, angebunden wird nur Ihr ERP.“ |
-| **Telefonie und Arbeitsplatz in einem System** | Kein zweites Telefonsystem neben dem Postfach pflegen, Gespräche nach der Übergabe im selben Fall | „Bei uns landen Voicebot, Telefonat und Mail im selben Arbeitsplatz.“ |
-| **Brief als Kanal** | Ablesekarten und Briefe laufen durch dieselbe Automatisierung wie Mails | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag und Bankdaten schneller produktiv, nur die ERP-Anbindung wird gebaut | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
+| **Telefonie und Arbeitsplatz in einem System** | Ein System für Postfach und Telefon, Gespräche landen nach der Übergabe im selben Fall | „Bei uns landen Voicebot, Telefonat und Mail im selben Arbeitsplatz.“ |
+| **Brief als eigener Kanal** | Ablesekarten und Briefe laufen durch dieselbe Automatisierung wie Mails | „Gescannte Briefe bearbeitet bei uns dieselbe KI wie Ihre Mails.“ |
+| **Fertige Fachagenten für Versorger** | Zählerstand, Abschlag und Bankdaten sind schnell produktiv, gebaut wird nur die ERP-Anbindung | „Die wichtigsten Versorger-Abläufe bringen wir fertig mit Plausibilitätsprüfung mit.“ |
 
 ## Wo Superchat vorn liegt
 
@@ -56,20 +58,20 @@ Superchat ist ein Messaging-Postfach: WhatsApp, Instagram, Facebook, Telegram, S
 
 ## Unterschiede auf einen Blick
 
-| Thema | enneo | Superchat | Einordnung |
-|---|---|---|---|
-| **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht im Zielsystem und antwortet, auch vollautomatisch | KI-Agent beantwortet Mails, ruft per HTTP-Anfrage eigene Schnittstellen auf, übergibt per Zuweisung. Kein CC oder BCC | enneo vorn |
-| **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert | enneo vorn |
-| **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden | enneo vorn |
-| **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket. ERP-Suche pro Kunde | Kontaktattribute lesen und ändern, am Telefon Erkennung über die Rufnummer. Legitimationsregeln nicht gefunden | enneo vorn |
-| **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Branchenvorlagen, Energie-Abläufe nicht gefunden | enneo vorn |
-| **Telefonie und Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden, Voicebot und Arbeitsplatz in einem System | KI-Telefonassistent per Rufumleitung, nur Deutschland und Großbritannien, 2 bis 8 parallele Anrufe je Paket, Weiterleitung an die Telefonanlage des Kunden | enneo vorn |
-| **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden | enneo vorn |
-| **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | OpenAI als Unterauftragnehmer, keine Speicherung beim Modellanbieter, EU-Modelle nicht gefunden | enneo vorn |
-| **KI-Agenten in Worten bauen** | Beschreiben, mit Neo per Chat ändern, Testfälle | Anweisungen in Worten, Copilot „Spark“, Testumgebung | gleich |
-| **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001:2022, Pentest-Bericht im Trust Center | Superchat vorn |
-| **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich ab 89 € im Monat, kostenloses Paket, Testkonto sofort | Superchat vorn |
-| **Kanäle und Marketing** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu Instagram, Facebook, SMS, WhatsApp-Newsletter, Bewertungsmanagement | Superchat klar vorn |
+| Bereich | Thema | enneo | Superchat | Einordnung |
+|---|---|---|---|---|
+| Kanäle | **Telefonie und Voicebot** | Eigene Telefonie oder SIP-Leitung des Kunden, Voicebot und Arbeitsplatz in einem System | KI-Telefonassistent per Rufumleitung, nur Deutschland und Großbritannien, 2 bis 8 parallele Anrufe je Paket, Weiterleitung an die Telefonanlage des Kunden [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents) [Hilfe: Telefonanlage](https://help.superchat.com/en/articles/714145-connect-your-phone-system-to-your-ai-agent) | enneo vorn |
+| Kanäle | **Brief als Kanal** | Eigener Kanal, gleiche KI wie E-Mail | Nicht gefunden [Preise](https://www.superchat.de/preise) | enneo vorn |
+| Kanäle | **Kanäle und Marketing** | E-Mail, Brief, Chat, WhatsApp, Telegram, Telefon | Dazu Instagram, Facebook, SMS, WhatsApp-Newsletter, Bewertungsmanagement [Preise](https://www.superchat.de/preise) | Superchat klar vorn |
+| KI & Automatisierung | **KI-Bearbeitung von E-Mails** | Eine KI liest, erkennt den Kunden, bucht im Zielsystem und antwortet, auch vollautomatisch | KI-Agent beantwortet Mails, ruft per HTTP-Anfrage eigene Schnittstellen auf, übergibt per Zuweisung. Kein CC oder BCC [Hilfe: E-Mail](https://help.superchat.com/en/articles/212963-email-channel-functions-in-superchat) [Hilfe: HTTP-Anfragen](https://help.superchat.com/en/articles/819744-connect-your-ai-agent-to-open-interfaces-http-requests) | enneo vorn |
+| KI & Automatisierung | **Mehrere Anliegen in einer Mail** | Alles in einem Durchgang, eine Antwort | Nicht dokumentiert [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | enneo vorn |
+| KI & Automatisierung | **Anhänge und Fotos lesen** | PDF und Fotos, z. B. Zählerfoto | Nicht gefunden [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | enneo vorn |
+| KI & Automatisierung | **Kundenerkennung** | Rahmen fertig: Nummer aus der Mail, Suchreihenfolge, Legitimationsregeln, Kunde am Ticket. ERP-Suche pro Kunde | Kontaktattribute lesen und ändern, am Telefon Erkennung über die Rufnummer. Legitimationsregeln nicht gefunden [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents) [Hilfe: Anrufererkennung](https://help.superchat.com/en/articles/764579-critical-issue-the-ai-agent-cannot-identify-your-callers) | enneo vorn |
+| KI & Automatisierung | **Fertige Abläufe für Versorger** | Zählerstand, Abschlag, Bankdaten fertig, ERP-Anbindung pro Kunde | Branchenvorlagen, Energie-Abläufe nicht gefunden [KI-Agenten](https://www.superchat.de/produkt/ki-agenten) | enneo vorn |
+| KI & Automatisierung | **KI-Agenten in Worten bauen** | Beschreiben, mit Neo per Chat ändern, Testfälle | Anweisungen in Worten, Copilot „Spark“, Testumgebung [KI-Agenten](https://www.superchat.de/produkt/ki-agenten) [Startseite](https://www.superchat.de) [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents) | gleich |
+| Daten & Sicherheit | **Sprachmodelle** | US-Anbieter Standard, EU-Modelle im AVV möglich | OpenAI als Unterauftragnehmer, keine Speicherung beim Modellanbieter, EU-Modelle nicht gefunden [Unterauftragnehmer](https://trust.superchat.com/subprocessors) [Sicherheit](https://www.superchat.de/sicherheit) | enneo vorn |
+| Daten & Sicherheit | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | ISO 27001:2022, Pentest-Bericht im Trust Center [Trust Center](https://trust.superchat.com/) [Sicherheit](https://www.superchat.de/sicherheit) | Superchat vorn |
+| Preis & Vertrag | **Preis und Einstieg** | Paketpreise je Ticket und Sprachminute (Preismodell 2.2) | Öffentlich ab 89 € im Monat, kostenloses Paket, Testkonto sofort [Preise](https://www.superchat.de/preise) | Superchat vorn |
 
 ## Wo Superchat schwächer ist
 
@@ -98,6 +100,14 @@ Superchat ist ein Messaging-Postfach: WhatsApp, Instagram, Facebook, Telegram, S
 
 Gegen Superchat gewinnen wir nicht über Preis, Einstieg, WhatsApp-Marketing oder die Zahl der Kanäle. Gewinnen können wir, wo viel Schriftverkehr mit Buchung im Zielsystem automatisch erledigt werden soll: mehrere Anliegen, Anhänge, Briefe, Legitimation und fertige Versorger-Abläufe, dazu Telefonie im selben System. Bei kleinen Teams mit Fokus auf WhatsApp ist Superchat oft die passendere Wahl.
 
+## Direktlinks
+
+- [Doku](https://help.superchat.com/en/)
+- [API](https://developers.superchat.com)
+- [Trust Center](https://trust.superchat.com/)
+- [Preise](https://www.superchat.de/preise)
+- [Status](https://status.superchat.de/)
+
 ## Quellen
 
 - [Startseite](https://www.superchat.de)
@@ -110,10 +120,13 @@ Gegen Superchat gewinnen wir nicht über Preis, Einstieg, WhatsApp-Marketing ode
 - [Über uns](https://www.superchat.de/ueber-uns)
 - [Enterprise](https://www.superchat.de/enterprise)
 - [Hilfe: KI-Agenten](https://help.superchat.com/en/articles/439576-introduction-ai-agents)
-- [Hilfe: E-Mail-Funktionen](https://help.superchat.com/en/articles/212963-e-mail-functions-in-superchat)
+- [Hilfe: E-Mail](https://help.superchat.com/en/articles/212963-email-channel-functions-in-superchat)
 - [Hilfe: HTTP-Anfragen](https://help.superchat.com/en/articles/819744-connect-your-ai-agent-to-open-interfaces-http-requests)
 - [Hilfe: Telefonanlage anbinden](https://help.superchat.com/en/articles/714145-connect-your-phone-system-to-your-ai-agent)
 - [Hilfe: Anrufererkennung](https://help.superchat.com/en/articles/764579-critical-issue-the-ai-agent-cannot-identify-your-callers)
 - [Erfolgsgeschichten](https://www.superchat.de/erfolgsgeschichten)
 - [Erfolgsgeschichte Enpal](https://www.superchat.de/erfolgsgeschichten/enpal)
 - [Nutzerbewertungen](https://omr.com/de/reviews/product/superchat)
+- [Gründung im Juli 2020 (deutsche-startups.de)](https://www.deutsche-startups.de/2022/02/04/superchat-kommunikation/)
+- [Entwickler-Doku](https://developers.superchat.com)
+- [Systemstatus](https://status.superchat.de/)
