@@ -323,6 +323,7 @@ a.beleg:hover { background: var(--lila-weich); color: var(--lila-d); }
 .cp-eingabe { display: flex; gap: 8px; align-items: flex-end; padding: 12px; border-top: 1px solid var(--linie); }
 .cp-eingabe textarea { flex: 1; min-width: 0; resize: none; border: 1px solid var(--linie); background: var(--feld); color: var(--text); border-radius: 12px; padding: 10px 12px; font: inherit; font-size: 14px; max-height: 140px; outline: none; }
 .cp-eingabe textarea:focus { border-color: var(--lila); }
+.cp-hinweis { margin: -4px 0 0; padding: 0 16px 12px; font-size: 12px; line-height: 1.45; color: var(--text-3); text-align: center; text-wrap: balance; }
 .cp-senden { border: 0; height: 40px; padding: 0 14px; border-radius: 11px; background: var(--haupt-bg); color: var(--haupt-fg); font-weight: 500; cursor: pointer; }
 .cp-senden:disabled { opacity: .5; cursor: default; }
 
@@ -475,6 +476,7 @@ a.beleg:hover { background: var(--lila-weich); color: var(--lila-d); }
     <textarea id="cp-text" rows="1" placeholder="Frage zum Wettbewerb" data-t-ph="cpPlatzhalter"></textarea>
     <button class="cp-senden" id="cp-senden" type="submit">Senden</button>
   </form>
+  <p class="cp-hinweis" data-t="cpHinweis">Antwortet nur aus den Karten dieser Galerie. Für ausführlichere Fragen den Claude-Chat dieses Artifacts nutzen.</p>
 </aside>
 
 <script>
@@ -488,7 +490,7 @@ const T = {
     suchen: "Suchen", sucheAria: "Anbieter oder Thema suchen", infoKnopf: "So funktioniert die Galerie", neuKnopf: "Anbieter hinzufügen",
     fragen: "Fragen", neuUrl: "Website des Anbieters", analysieren: "Analysieren", listeHochladen: "Liste hochladen (Excel oder CSV)",
     firmenAusSpalte: "Firmen aus Spalte", spalteAria: "Spalte mit den Firmennamen", einordnen: "Einordnen", schliessen: "Schließen",
-    cpPlatzhalter: "Frage zum Wettbewerb", senden: "Senden", stopp: "Stopp", denkt: "Denkt nach …", infoTitel: "So entsteht eine Karte",
+    cpPlatzhalter: "Frage zum Wettbewerb", cpHinweis: "Antwortet nur aus den Karten dieser Galerie. Für ausführlichere Fragen den Claude-Chat dieses Artifacts nutzen.", senden: "Senden", stopp: "Stopp", denkt: "Denkt nach …", infoTitel: "So entsteht eine Karte",
     titel: "Wettbewerb", alle: "Alle", nurNah: "Nur nah an enneo",
     sAnbieter: "Anbieter", sFokus: "Schwerpunkt", sSitz: "Sitz", sHosting: "Hosting", sPreise: "Preise", sEinordnung: "Einordnung",
     themen: (v, h, n) => `${v} Themen enneo vorn, ${h} Themen ${n} vorn`, enneoVorn: "enneo vorn", dort: "dort",
@@ -514,7 +516,7 @@ const T = {
     suchen: "Search", sucheAria: "Search vendors or topics", infoKnopf: "How the gallery works", neuKnopf: "Add vendor",
     fragen: "Ask", neuUrl: "Vendor website", analysieren: "Analyze", listeHochladen: "Upload list (Excel or CSV)",
     firmenAusSpalte: "companies from column", spalteAria: "Column with company names", einordnen: "Classify", schliessen: "Close",
-    cpPlatzhalter: "Ask about the competition", senden: "Send", stopp: "Stop", denkt: "Thinking …", infoTitel: "How a card is made",
+    cpPlatzhalter: "Ask about the competition", cpHinweis: "Answers only from the cards in this gallery. For more detailed questions, use the Claude chat on this artifact.", senden: "Send", stopp: "Stop", denkt: "Thinking …", infoTitel: "How a card is made",
     titel: "Competition", alle: "All", nurNah: "Closest to enneo",
     sAnbieter: "Vendor", sFokus: "Focus", sSitz: "Headquarters", sHosting: "Hosting", sPreise: "Pricing", sEinordnung: "Comparison",
     themen: (v, h, n) => `${v} topics enneo ahead, ${h} topics ${n} ahead`, enneoVorn: "for enneo", dort: "for them",
