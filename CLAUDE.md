@@ -8,4 +8,4 @@ Interne Wettbewerbs-Galerie für den enneo-Vertrieb. Repo `enneo-AI/competitors`
 - Protokoll: `aenderungen.md`. Überblick: `README.md`.
 - Commits mit `-c user.name="Aleksa Spalevic" -c user.email="aleksa@enneo.ai"`, Nachricht endet mit `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 - Intern: nichts öffentlich machen, keine Namen von enneo-Kunden, Interessenten oder Partnern im Kartentext, Attio nur lesen. Sprache Deutsch.
-- Die geplanten Aufgaben `enneo-battlecards-anfragen` und `enneo-battlecards-wochenlauf` laufen in diesem Ordner.
+- Die geplanten Aufgaben `battlecards-anfragen` und `battlecards-wochenlauf` laufen in diesem Ordner.
