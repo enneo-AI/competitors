@@ -2,6 +2,12 @@
 
 Neuester Lauf oben.
 
+## 2026-11-09
+
+- ThinkOwl: fehlende Abschnitte ergänzt (Das Wichtigste vorweg, Wo ThinkOwl vorn liegt, Wo ThinkOwl schwächer ist, Fazit), Quellen thinkowl.com/owlforce/features und thinkowl.com/press
+- Insiders Technologies neu, gefunden im Wochenlauf (Posteingangs-KI Flow, Quelle insiders-technologies.com/de/response-management)
+- epilot neu, gefunden im Wochenlauf (Stadtwerke-Plattform mit KI-Mail-Agent, Quelle epilot.cloud/funktionen/ai-in-epilot)
+
 ## 2026-11-06
 
 - Rasa neu, angefragt über die Galerie

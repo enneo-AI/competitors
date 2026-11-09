@@ -4,8 +4,8 @@ slug: "thinkowl"
 fokus: "Helpdesk"
 naehe: "hoch"
 kategorie: "Direkter Wettbewerber"
-stand: "2026-10-27"
-geprueft_von: "Aleksa Spalevic"
+stand: "2026-11-09"
+geprueft_von: "Enni"
 website: "https://www.thinkowl.de"
 kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 ---
@@ -15,13 +15,17 @@ kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 | | | |
 |---|---|---|
 | Firma | **Köln, seit 2015** | ThinkOwl Europe GmbH, ~175 MA (Gruppe) |
-| Preise | **42 / 99 / 149 €** | je Nutzer und Monat, Bots +299–999 €/Monat |
+| Preise | **42 / 99 / 149 €** | je Nutzer und Monat, Bots +299 bis 999 €/Monat |
 | Hosting | **Deutschland** | Oracle Cloud und AWS, eigenes ISO 27001 |
 | Referenzen | **EVN, SW Münster** | Hamburger Energienetze, Generali, ERGO |
 
 ## Erster Satz
 
 „ThinkOwl ist breit aufgestellt und bei Versorgern bekannt, der Unterschied liegt darin, wie Ihre Abläufe gebaut werden: fertige Fachagenten in normaler Sprache statt BPMN-Projekt mit Partner.“
+
+## Das Wichtigste vorweg
+
+ThinkOwl ist eine breite Plattform aus Köln mit eigenen Produkten für Servicedesk, KI-Automatisierung, Self-Service, Telefonie und Qualitätsmanagement. Bei Stadtwerken wirbt ThinkOwl mit Dunkelverarbeitung und Referenzen wie EVN Netze und Stadtwerke Münster, umgesetzt über Konzept, Workshop und einen Umsetzungspartner. Ob mehrere Anliegen einer Mail in einem Durchgang erledigt werden, ist öffentlich nicht dokumentiert. ThinkOwl punktet mit eigenem ISO 27001, Signatur und Identitätsprüfung, enneo mit fertigen Fachagenten, Agenten in normaler Sprache und einem Produkt statt mehrerer Module.
 
 ## Unsere Verkaufsargumente
 
@@ -41,6 +45,14 @@ kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 | **Ein Produkt statt mehrerer** | Ein Vertrag und eine Oberfläche, keine Zusatzmodule je Funktion | „Ticketing, Telefon, Voicebot und KI-Agenten sind bei uns ein Produkt, KI ist kein Zusatzmodul.“ |
 | **Betrieb beim Kunden möglich** | Option für Häuser, die Daten im eigenen Rechenzentrum halten wollen | „Ab großem Volumen können Sie enneo im eigenen Rechenzentrum betreiben, ThinkOwl gibt es nur in der Cloud.“ |
 
+## Wo ThinkOwl vorn liegt
+
+- **Signatur und Identität:** ThinkOwl CONVERSATIONS bietet Video-Ident, 2FA und elektronische Signaturen bis zur qualifizierten Signatur. enneo hat keine Signatur- oder Ausweisprüfung.
+- **Eigenes Zertifikat:** ThinkOwl hat ein eigenes ISO 27001 (TÜV Saar, gültig bis 02/2027). enneo hat keine eigenen Zertifikate, ISO 27001 und SOC 2 sind in Prüfung.
+- **Self-Service für Endkunden:** ThinkOwl CONVERSATIONS für Self-Service über alle Kanäle, dazu fileee als Dokumentenassistent für Endkunden. enneo hat kein Hilfecenter für Endkunden.
+- **Qualitätsmanagement als eigenes Produkt:** OwlCoach bewertet Gespräche per KI und coacht Mitarbeitende.
+- **Referenzen bei Versorgern:** Öffentlich genannt sind EVN Netze, Stadtwerke Bruchsal, Stadtwerke Münster, Hamburger Energienetze und Stadtwerke Klagenfurt, dazu Anbindungen an SAP IS-U, Schleupen, Wilken und Powercloud.
+
 ## Unterschiede auf einen Blick
 
 | Thema | enneo | ThinkOwl | Einordnung |
@@ -56,6 +68,13 @@ kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 | **Qualitätssicherung** | Scorecards, manuell oder automatisch | OwlCoach bewertet alle Gespräche per KI (eigenes Produkt) | ThinkOwl vorn |
 | **Zertifikate** | Keine eigenen, in Prüfung. Hetzner ISO 27001 | Eigenes ISO 27001 (bis 02/2027) | ThinkOwl vorn |
 | **Dokumente und Identität** | Keine Signatur- oder Ausweisprüfung | Signatur, Video-Ident und Nect, mobile Formulare für Kunden | ThinkOwl klar vorn |
+
+## Wo ThinkOwl schwächer ist
+
+- **Mehrere Anliegen nicht dokumentiert:** OwlForce erkennt laut Produktseite verschiedene Kundenanliegen. Ob mehrere Anliegen einer Mail in einem Durchgang mit einer Antwort erledigt werden, steht nirgends.
+- **Bau im Projekt:** Abläufe entstehen als BPMN-Workflows, bei Versorgern über Konzept, Workshop und Umsetzungspartner. Fertige Fachagenten sind nicht beschrieben.
+- **KI verteilt auf Module:** Automatisierung liegt in OwlForce mit Basispreis plus Transaktionskosten, Self-Service in CONVERSATIONS mit Abrechnung je Transaktion, jeweils zusätzlich zur OwlDesk-Lizenz je Nutzer.
+- **Uneinheitliche Wirkungsangaben:** Die Versorger-Seite nennt je nach Abschnitt 10 bis 25 Prozent, 20 bis 30 Prozent, bis zu 75 Prozent oder bis zu 80 Prozent Automatisierung, alles Herstellerangaben.
 
 ## Einwände
 
@@ -75,6 +94,10 @@ kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 - **Absage kam von ThinkOwl:** Derselbe Kunde sagt, ThinkOwl habe ihn als „zu klein“ abgelehnt. Sonst wäre er wohl mit ThinkOwl gegangen, wenn das Angebot gepasst hätte. *Attio-Call vom 11.06.2026, Min. 10:45*
 - **Partner sieht kaum Unterschied:** Ein Systemhaus, das ThinkOwl-Projekte umsetzt, sah in enneo zunächst ein „sehr ähnliches Produkt wie ThinkOwl“. Der Unterschied war aus einer Mail nicht erkennbar, er muss gezeigt werden. *Attio-Mail vom 18.09.2026*
 
+## Fazit
+
+Gegen ThinkOwl gewinnen wir nicht bei Signatur, Identitätsprüfung, Self-Service für Endkunden oder beim eigenen Zertifikat. Gewinnen können wir bei Versorgern mit viel Schriftverkehr: fertige Fachagenten statt BPMN-Projekt mit Partner, mehrere Anliegen in einem Durchgang und ein Produkt statt mehrerer Module mit getrennter Abrechnung. Weil selbst Partner beide Lösungen auf den ersten Blick für ähnlich halten, muss der Unterschied in der Demo gezeigt werden.
+
 ## Quellen
 
 - [AVV](https://www.thinkowl.de/hubfs/Main/Legal/1272024-ThinkOwl-DPA_SCC_EN.pdf)
@@ -84,4 +107,6 @@ kurz: "KI-Kundenservice-Plattform, wirbt bei Stadtwerken mit Dunkelverarbeitung"
 - [Versorger](https://www.thinkowl.de/branchen/stadtwerke-evu)
 - [KI-Plattform](https://www.thinkowl.de/ki-plattform)
 - [OwlCoach](https://www.owlcoach.ai/de/)
+- [OwlForce Funktionen](https://www.thinkowl.com/owlforce/features)
+- [Pressemitteilungen](https://www.thinkowl.com/press)
 - [enneo 2.34](https://docs.enneo.ai/en/ai-functions-agents/intent-lifecycle#smart-agent-v2)
