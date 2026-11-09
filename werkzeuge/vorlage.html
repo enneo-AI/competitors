@@ -480,7 +480,7 @@ a.beleg:hover { background: var(--lila-weich); color: var(--lila-d); }
 <script>
 const KARTEN = /*DATEN*/[];
 // ---------- Sprache: Oberfläche und Karten auf Deutsch oder Englisch, PDFs bleiben deutsch ----------
-let LANG = (() => { try { const s = localStorage.getItem("bc-sprache"); if (s === "de" || s === "en") return s; } catch (e) {} return /^de/i.test(navigator.language || "de") ? "de" : "en"; })();
+let LANG = (() => { try { const s = localStorage.getItem("bc-sprache"); if (s === "de" || s === "en") return s; } catch (e) {} return "de"; })();
 document.documentElement.lang = LANG;
 const MONATE = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const T = {
